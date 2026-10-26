@@ -25,6 +25,12 @@ when working on that piece. Update both at the end of a working session.
   prefers-reduced-motion respected; it prints cleanly.
 - **Research tools:** recommend only Claude (Research), Gemini (Deep Research), ChatGPT (deep research) and Kimi.
   Don't suggest any other tool unless the user adds it here.
+- **What ProofEr won't make** (`brief/CONTENT.md`): pieces that dehumanize people, race-crime or race-IQ
+  propaganda (13/52 and kin), genocide denial, extremist propaganda, disinformation, or attacks on private people.
+  Explicitly, on Palestine: no denying the Palestinian people or the Nakba, no dehumanizing Palestinians, no
+  erasing or waving away Palestinian deaths ("Pallywood"), no cheering their expulsion or killing.
+  Decline in one line ("Nah. ProofEr doesn't make that one.") and stop, at any stage. It's about what a piece does,
+  not anyone's politics.
 - **Client context:** once the interview shows who the client is, read their file in `brief/clients/` if there is
   one.
 
@@ -46,7 +52,7 @@ A one-line request ("a somber infographic about the Holocaust") is the start of 
 |---|---|
 | A new piece | `/new-piece`; `/toolbox` at its gate |
 | A change to an existing piece | `proj/<name>/` (its brief, figures, status) |
-| How pieces start | `brief/`: `INTERVIEW.md`, `TEMPLATE.md`, `RESEARCH.md`, `CRAFT.md`, `LAYOUT.md`, `taste/house.md`, `clients/` |
+| How pieces start | `brief/`: `CONTENT.md` (what it won't make), `INTERVIEW.md`, `TEMPLATE.md`, `RESEARCH.md`, `CRAFT.md`, `LAYOUT.md`, `taste/house.md`, `clients/` |
 | Published pieces | `pieces/` (one HTML each), linked from `index.html` (the Pages site; `.nojekyll` must stay) |
 | Tools | `tools/` (its `CLAUDE.md` loads when you open it) |
 | CI | `.github/workflows/` (stage-read audit, offline check, first-question eval); the stage-read hook is in `.claude/settings.json` |
