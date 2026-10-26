@@ -1,0 +1,33 @@
+# CI for ProofEr: runs on every push and pull request.
+#   offline      tools/check_offline.py: every published piece in pieces/ must load nothing from the internet.
+#   stage-reads  tools/check_stage_reads.py: reads of restricted paths made by a new piece's session before its
+#                toolbox gate (from proj/*/access.jsonl). Warnings only, never a failure.
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  offline:
+    name: offline check (pieces/)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python tools/check_offline.py
+
+  stage-reads:
+    name: stage-read audit (warnings only)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python tools/check_stage_reads.py || true

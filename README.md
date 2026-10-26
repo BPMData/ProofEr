@@ -17,7 +17,7 @@ design from the brief first, open the toolbox later.
    questions: who it's for, where it'll be seen (phone, projector, print), the tone, what it must never say.
 2. **Brief.** It writes down what you agreed. Nothing gets designed until you approve it.
 3. **Research (you run this step).** The assistant writes deep-research prompts for the facts the piece needs. You
-   run them in one or more deep-research tools and save the reports into the piece's `research/` folder:
+   run them in two or more deep-research tools and save the reports into the piece's `research/` folder:
    - Claude (the Research mode in the Claude app),
    - Google Gemini (Deep Research),
    - ChatGPT (deep research),
@@ -34,9 +34,24 @@ design from the brief first, open the toolbox later.
 6. **Layout and stills.** The page in reading order, with mockups, before any building tools are opened.
 7. **Build.** A single offline HTML file, with a sources section and an "About these numbers" note.
 
+## Try it
+Open the repo in Claude Code and ask for an infographic in one sentence ("an infographic about how much food school
+cafeterias throw away"). The `/new-piece` skill starts the interview. Finished pieces are published in `pieces/` and
+on the site: https://bpmdata.github.io/ProofEr/
+
+## Where things are
+| Folder | What's in it |
+|---|---|
+| `brief/` | How a piece starts: the interview, the brief template, the research guide (prompts and the cross-check), the craft guide, the layout template, the house taste, client notes |
+| `proj/<name>/` | One piece: its brief, research reports, checked figures, layout, stills and status |
+| `pieces/` | Published infographics, one offline HTML file each |
+| `tools/` | Python scripts (Thonny-friendly): inline Google Fonts for offline use, check a page is offline, the reading audit, the first-question eval |
+| `.claude/` | The `/new-piece` and `/toolbox` skills, the choice-panel template, the stage-read hook |
+| `notes/` | Why it's built this way (`notes/architecture.md`) |
+
 ## Status
-Just started. The working rules, interview, brief template, research templates and toolbox come next, adapted from
-EOMD. Recipe cards (history-themed, like a 1915 war bread) are planned as a second kind of piece.
+A tentative skeleton (Oct 26, 2026): the rules, interview, research step, craft guide and tools are in; no pieces
+yet. Infographics only for now; recipe cards may come later as a second kind of piece. Working log: `STATUS.md`.
 
 ## License
 Copyright (C) 2026 Bryan Patrick Murphy. The code is licensed under the
