@@ -130,3 +130,7 @@ Whether ChatGPT deep research works on Bryan's plan; images (drawn or photos), a
   (7.9) left off.
 - Oct 26, 2026 · Size: "try to provide some context. How much bigger we talking? 3x bigger? The size of an
   elephant?" · scale shown with checked comparisons (F10, F11a), never an unsourced number.
+- Oct 26, 2026 · Concept: "I like the aggressive styling of a but ... the thing was just like a joke by me ... I don't
+  actually want like half the fucking thing to be about cane courses ... I'd say b is better overall. But could use a
+  little more punch like a has" · direction B (field guide, to scale) with A's punch (heavy type, big numbers,
+  stamps); the Cane Corso is a cameo, not a co-star.
