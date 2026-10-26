@@ -55,8 +55,8 @@ on the site: https://bpmdata.github.io/ProofEr/
 | `notes/` | Why it's built this way (`notes/architecture.md`) |
 
 ## Status
-A tentative skeleton (Oct 26, 2026): the rules, interview, research step, craft guide and tools are in; no pieces
-yet. Infographics only for now; recipe cards may come later as a second kind of piece. Working log: `STATUS.md`.
+A tentative skeleton (Oct 26, 2026): the rules, interview, research step, craft guide and tools are in; one piece
+published so far (`pieces/pomewawa.html`). Infographics only for now; recipe cards may come later as a second kind of piece. Working log: `STATUS.md`.
 
 ## License
 Copyright (C) 2026 Bryan Patrick Murphy. The code is licensed under the
