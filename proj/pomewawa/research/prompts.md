@@ -105,3 +105,15 @@ Rules for your answer:
 - Flag estimates as estimates, and anecdotes as anecdotes. No figures without a source.
 - End with a table: place | period | who / why | source | year | notes.
 ```
+
+---
+
+## Reports received (Oct 26, 2026)
+Bryan's file names → saved as:
+- `dr_q1_q2.md` → `chatgpt-AB.md` (assumed ChatGPT: prompts A and B in one run; **no links at all**, so it can only
+  point to sources, not stand as one).
+- `q1_v1.md` → `gemini-A-v1.md`; `q1_v2.md` → `gemini-A-v2.md` (two Gemini runs of prompt A).
+- `q2_v1.md` was byte-for-byte identical to `q1_v1.md` (a copy of A, not B); not saved. ASK Bryan whether a
+  second B run exists.
+- `q2_v2.md` → `gemini-B-v2.md` (Gemini, prompt B).
+- Prompt C: Bryan is sending it in another message.
