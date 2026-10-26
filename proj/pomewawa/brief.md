@@ -136,3 +136,8 @@ Whether ChatGPT deep research works on Bryan's plan; images (drawn or photos), a
   stamps); the Cane Corso is a cameo, not a co-star.
 - Oct 26, 2026 · "Paper. night looks a little bit too much like every other infographic" · cream paper, near-black
   ink, red-orange accent. Stage: layout.
+- Oct 26, 2026 · Kangal story: "\"Okay well you would know bro\" is better" · Bryan's reply on the page reads, word for
+  word: "Okay well you would know bro".
+- Oct 26, 2026 · Favorite fact: explorers who "specifically like incorporated eating the dogs ... into their plan for
+  reaching the pole" · Amundsen (F33, South Pole 1911, planned dog-by-dog schedule) gets a featured spot in Plate VII.
+  Bryan remembered "north pole"; the checked case is the South Pole.
