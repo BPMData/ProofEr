@@ -1,0 +1,29 @@
+# Builds and caches
+dist/
+build/
+font_cache/
+*.bak
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets (never commit keys)
+.env
+.env.*
+
+# Big media: keep sources small; put large files elsewhere
+*.mp4
+*.mov
+*.wav
