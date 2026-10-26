@@ -1,7 +1,7 @@
 # Brief: The Pomewawa
 
 Status: DRAFT · Stage: brief · Mode: from scratch · Client: Bryan Murphy · Sign-off: Bryan
-Usage: interview on claude-opus-5-5; share of limit not recorded (ASK Bryan if he wants it logged)
+Usage: not recorded yet (ASK: share of a 5-hour limit per stage, as the Claude app shows it)
 
 ## 1. The ask
 An infographic about Pomeranians and Chihuahuas, and the Pomeranian × Chihuahua mix, which Bryan calls the
