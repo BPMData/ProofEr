@@ -6,6 +6,7 @@
 _Last updated: Oct 26, 2026 (tentative skeleton: rules, interview, research step, craft, taste, skills, tools, CI)._
 
 ## Pieces
+- **holocaust-by-country**, **nazi-victims-all-groups**: Bryan's pre-ProofEr pages, published in `pieces/`.
 - **pomewawa** (Pomeranians, Chihuahuas and the mix; for family and online): **published** to `pieces/pomewawa.html`; live once merged to main. `proj/pomewawa/STATUS.md`.
 
 ## Across the repo
@@ -21,6 +22,5 @@ _Last updated: Oct 26, 2026 (tentative skeleton: rules, interview, research step
 ## Next
 1. **First piece (Pomewawa) done.** Lessons: the network policy blocked opening papers (allow nature.com, PMC, akc.org); the stage-read log needs a commit after every turn.
 2. **Run `tools/eval_new_piece.py` by hand once** to measure the first-question budget for this repo.
-3. **Bryan's example pages** (two Holocaust infographics): candidates for `examples/` once their fonts are embedded
-   and their figures have a checked `figures.md`. Not added yet.
+3. **Bryan's two Holocaust pages** are published in `pieces/` (fonts embedded, companion links made local). Made just before ProofEr with the same method and fact-checking; their figures tables aren't in the repo yet (`proj/` folders for them would be the next step).
 4. **GitHub Pages** is on (deploy from `main`, root); add the first card to `index.html` when a piece is published.
