@@ -26,3 +26,4 @@ T08 · strong · layout · Check every shape for unintended readings before show
 T09 · soft · layout · when more than one language · Key lines in the readers' languages, as a flourish or in full, with the checker named. — EOMD, Academies brief
 T10 · soft · data · A popular legend the research can't back is shown with a visible myth-check label and an honest verdict, not quietly cut. — ProofEr, Pomewawa (Oct 26): "include it but label it as a myth busted"
 T11 · soft · data · Lifespans as median age at death; leave "life expectancy at birth" off pop pieces, where it reads as absurd. — ProofEr, Pomewawa (Oct 26): "by that puppies die metric thr average lifespan of an old English bulldog would ve like half an hour"
+T12 · soft · color · Light "paper" grounds over dark mode by default; the dark, neon-accent look reads as every other infographic. — ProofEr, Pomewawa (Oct 26): "night looks a little bit too much like every other infographic"

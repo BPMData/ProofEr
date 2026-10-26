@@ -1,6 +1,6 @@
 # Brief: The Pomewawa
 
-Status: APPROVED Oct 26, 2026 by Bryan Murphy · Stage: concepts · Mode: from scratch · Client: Bryan Murphy · Sign-off: Bryan
+Status: APPROVED Oct 26, 2026 by Bryan Murphy · Stage: layout · Mode: from scratch · Client: Bryan Murphy · Sign-off: Bryan
 Usage: not recorded yet (ASK: share of a 5-hour limit per stage, as the Claude app shows it)
 
 ## 1. The ask
@@ -134,3 +134,5 @@ Whether ChatGPT deep research works on Bryan's plan; images (drawn or photos), a
   actually want like half the fucking thing to be about cane courses ... I'd say b is better overall. But could use a
   little more punch like a has" · direction B (field guide, to scale) with A's punch (heavy type, big numbers,
   stamps); the Cane Corso is a cameo, not a co-star.
+- Oct 26, 2026 · "Paper. night looks a little bit too much like every other infographic" · cream paper, near-black
+  ink, red-orange accent. Stage: layout.

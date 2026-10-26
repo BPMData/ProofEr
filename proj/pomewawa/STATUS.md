@@ -1,2 +1,2 @@
 # Pomewawa: status
-Stage: concepts. Choice panel `choices-concept.html` (A fight card, recommended; B field guide; C case file); stills in `concepts/` (built by `stills.py`). Waiting on Bryan to pick. Next: layout plan (`brief/LAYOUT.md`) and stills.
+Stage: layout. Concept: B "Paper" (field guide + punch). `layout.md` drafted (9 sections); stills in `stills/` (mock.html → 3 PNGs). Waiting on Bryan: approve layout + stills, DRAFT headlines, his Kangal story wording. Then `/toolbox` and build.

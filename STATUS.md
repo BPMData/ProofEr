@@ -6,7 +6,7 @@
 _Last updated: Oct 26, 2026 (tentative skeleton: rules, interview, research step, craft, taste, skills, tools, CI)._
 
 ## Pieces
-- **pomewawa** (Pomeranians, Chihuahuas and the mix; for family and online): concepts (3 directions, waiting on Bryan). `proj/pomewawa/STATUS.md`.
+- **pomewawa** (Pomeranians, Chihuahuas and the mix; for family and online): layout (plan + stills, waiting on Bryan). `proj/pomewawa/STATUS.md`.
 
 ## Across the repo
 - **Scope:** infographics only for now. Recipe cards may come later as a second kind of piece.
