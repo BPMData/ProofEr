@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Pomewawa: a field guide</title>
+<meta name="description" content="Pomeranians, Chihuahuas and the Pomewawa: tiny dogs with a long, strange, checked history. By Bryan Murphy.">
+<meta name="color-scheme" content="light">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F3ECDD; --ink:#211C17; --acc:#B8320E; --dim:#5A5145; --rule:#D3C7B0; --card:#EDE4D0;
+  --head:'Barlow Condensed','Arial Narrow',Arial,sans-serif;
+  --body:'Source Serif 4',Georgia,'Times New Roman',serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.55 var(--body)}
+main{max-width:560px;margin:0 auto;padding:32px 16px 48px}
+a{color:var(--acc)}
+.kick{font:800 15px/1.2 var(--head);letter-spacing:.14em;text-transform:uppercase;color:var(--acc);margin:0}
+h1,h2{font-family:var(--head);font-weight:900;line-height:.92;text-transform:uppercase;margin:.15em 0 .3em;letter-spacing:-.005em}
+h1{font-size:clamp(56px,17vw,92px)}
+h2{font-size:clamp(42px,12vw,64px)}
+h3{font:800 24px/1.1 var(--head);text-transform:uppercase;margin:0 0 .2em;letter-spacing:.01em}
+.acc{color:var(--acc)}
+.sub{color:var(--dim);margin:.3em 0 0}
+.byline{font:600 17px var(--head);letter-spacing:.08em;text-transform:uppercase;margin-top:18px}
+section{padding:40px 0;border-top:2px solid var(--ink)}
+section.hero{border-top:0;padding-top:8px}
+p{margin:.6em 0}
+.src{font-size:14px;line-height:1.4;color:var(--dim);margin-top:4px}
+.note{font-style:italic}
+.big{font:900 76px/.9 var(--head);color:var(--acc)}
+/* timeline */
+.tl{list-style:none;padding:0;margin:20px 0 0;border-left:3px solid var(--ink)}
+.tl li{padding:0 0 22px 20px;position:relative}
+.tl li::before{content:"";position:absolute;left:-9px;top:8px;width:15px;height:15px;border-radius:50%;background:var(--acc)}
+.tl .when{font:900 28px/1.1 var(--head);display:block}
+/* stamps */
+.stamp{border:4px solid var(--acc);padding:14px 16px;margin:26px 4px;transform:rotate(-1.8deg);text-align:center}
+.stamp.r{transform:rotate(1.4deg)}
+.stamp .k{font:900 17px var(--head);letter-spacing:.2em;color:var(--acc)}
+.stamp .q{font-size:18px;margin:4px 0}
+.stamp .v{font:900 24px/1.1 var(--head);color:var(--acc);text-transform:uppercase}
+.stamp .src{margin-top:8px}
+/* to-scale column bars */
+.cols{position:relative;height:280px;margin:46px 0 0;border-bottom:3px solid var(--ink)}
+.cols .g{position:absolute;left:0;right:0;border-top:1px solid var(--rule);font:600 14px var(--head);color:var(--dim)}
+.cols .g span{position:absolute;top:-18px;left:0}
+.cols .c{position:absolute;bottom:0;width:34%;border:3px solid var(--ink)}
+.cols .c b{position:absolute;top:-42px;left:0;font:900 34px/1 var(--head);white-space:nowrap}
+.collab{display:flex;margin-top:8px}
+.collab div{font:800 19px var(--head);text-transform:uppercase}
+.collab small{display:block;font:400 15px var(--body);text-transform:none;color:var(--dim)}
+/* horizontal bars */
+.hb{margin:18px 0 6px}
+.hb .lab{font:800 20px var(--head);text-transform:uppercase;display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.hb .row{display:flex;align-items:center;gap:10px}
+.hb .track{flex:1;position:relative;height:38px}
+.hb .bar{position:absolute;left:0;top:0;bottom:0;background:var(--acc)}
+.hb .bar.d{background:var(--dim)}
+.hb .bar.range{background:transparent;border:3px solid var(--ink);border-left-style:dashed}
+.hb .seg{position:absolute;top:0;bottom:0;background:var(--acc)}
+.hb .seg.d{background:var(--dim)}
+.hb .n{font:900 32px/1 var(--head);white-space:nowrap;text-transform:none}
+.axis{display:flex;justify-content:space-between;font:600 14px var(--head);color:var(--dim);border-top:2px solid var(--ink);padding-top:2px}
+/* cards */
+.card{background:var(--card);padding:16px 16px 14px;margin:16px 0;border-left:6px solid var(--acc)}
+.card .big{font-size:56px}
+blockquote{margin:20px 0;padding:0 0 0 16px;border-left:6px solid var(--ink);font-size:20px}
+blockquote .reply{font:900 34px/1 var(--head);color:var(--acc);text-transform:uppercase;display:block;margin-top:10px}
+/* menu */
+.feature{border:4px solid var(--ink);padding:16px;margin:22px 0}
+.feature .k{font:900 15px var(--head);letter-spacing:.16em;color:var(--acc);text-transform:uppercase}
+details{border-top:1px solid var(--rule);padding:12px 0}
+details:last-of-type{border-bottom:1px solid var(--rule)}
+summary{font:800 25px/1.15 var(--head);text-transform:uppercase;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:12px;align-items:baseline}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-weight:900;color:var(--acc);font-size:30px;line-height:1}
+details[open] summary::after{content:"–"}
+summary small{font:400 16px var(--body);text-transform:none;color:var(--dim);margin-left:6px}
+summary:focus-visible{outline:3px solid var(--acc);outline-offset:3px}
+/* sources */
+.sources ol{padding-left:1.3em;font-size:16px}
+.sources li{margin:.45em 0}
+.about h3{margin-top:1.2em}
+footer{margin-top:30px;font-size:15px;color:var(--dim)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media print{
+  body{background:#fff;font-size:12pt}
+  main{max-width:none;padding:0}
+  section{break-inside:avoid-page;padding:20px 0}
+  .stamp{transform:none}
+  details > *{display:block}
+  summary::after{content:""}
+  .hb .bar,.hb .seg,.cols .c[style*="background"]{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+</head>
+<body>
+<main>
+
+<section class="hero" aria-labelledby="t0">
+  <p class="kick">The Pomewawa · a field guide</p>
+  <h1 id="t0">Tiny.<br>Ancient.<br><span class="acc">Unbothered.</span></h1>
+  <p class="sub">The Pomewawa is a Pomeranian × Chihuahua. Two tiny breeds, one long and strange history. Every number on this page is checked; the sources are at the bottom.</p>
+  <p class="byline">By Bryan Murphy</p>
+</section>
+
+<section aria-labelledby="t1">
+  <p class="kick">Plate I · Aztec roots</p>
+  <h2 id="t1">On the menu<br>since <span class="acc">1520.</span></h2>
+  <ol class="tl">
+    <li><span class="when">From 1100 BCE</span>At Ceibal, a Maya city in today's Guatemala, dogs ate so much corn it shows in the chemistry of their bones. Some were brought in alive from the highlands.<div class="src">Sharpe et al., PNAS, 2018</div></li>
+    <li><span class="when">1520</span>Hernán Cortés writes to Emperor Charles V about the great market of Tenochtitlan, where “little dogs” are raised for eating.<div class="src">Cortés, Second Letter to Charles V, Oct 30, 1520</div></li>
+    <li><span class="when">Today</span>Some Chihuahuas still carry DNA from ancient Mexican dogs on their mother's side.<div class="src">van Asch et al., Proceedings of the Royal Society B, 2013</div></li>
+  </ol>
+  <div class="stamp" role="note">
+    <div class="k">MYTH CHECK</div>
+    <div class="q">“Aztec dogs were living hot-water bottles”</div>
+    <div class="v">No old record backs it</div>
+    <div class="src">A popular story, repeated for decades. We found no early written source for it, and it's told about the hairless Xolo, not the Chihuahua's ancestors. Unproven, not disproven.</div>
+  </div>
+  <div class="stamp r" role="note">
+    <div class="k">LEGEND CHECK</div>
+    <div class="q">“A dog carried the dead across the river of the underworld”</div>
+    <div class="v">Real Aztec belief</div>
+    <div class="src">Recorded in the Florentine Codex (16th century). The detail about which dog colors would refuse comes from later retellings.</div>
+  </div>
+</section>
+
+<section aria-labelledby="t2">
+  <p class="kick">Plate II · Drawn to scale</p>
+  <h2 id="t2">A big dog,<br><span class="acc">made small.</span></h2>
+  <p class="sub">The Pomeranian and the Wolfspitz share one breed standard (FCI 97), at opposite ends. Height at the shoulder, from the ground up.</p>
+  <figure role="img" aria-label="Bar chart, drawn to scale from zero: Wolfspitz 49 centimeters at the shoulder, Pomeranian 22 centimeters. The Wolfspitz is a bit over twice as tall." style="margin:0">
+    <div class="cols" aria-hidden="true">
+      <div class="g" style="bottom:100%"><span>50 cm</span></div>
+      <div class="g" style="bottom:60%"><span>30</span></div>
+      <div class="g" style="bottom:20%"><span>10</span></div>
+      <div class="c" style="left:12%;height:98%"><b>49 cm</b></div>
+      <div class="c" style="left:60%;height:44%;background:var(--ink)"><b class="acc">22 cm</b></div>
+    </div>
+    <div class="collab" aria-hidden="true">
+      <div style="margin-left:12%;width:48%">Wolfspitz<small>the cousin</small></div>
+      <div>Pomeranian</div>
+    </div>
+  </figure>
+  <p>The Wolfspitz is a bit over twice as tall. It's a cousin in the same standard, not a proven ancestor; the Pomeranian's own ancestors were bigger Spitz dogs too.</p>
+  <h3 style="margin-top:28px">Weight, then and now</h3>
+  <figure role="img" aria-label="Bar chart from zero pounds: Queen Victoria's Pomeranian Marco, about 12 pounds; today's breed standard, 3 to 7 pounds." style="margin:0">
+    <div aria-hidden="true">
+      <div class="hb"><div class="lab"><span>Marco, Queen Victoria's dog</span><span class="n acc">~12 lb</span></div><div class="row"><div class="track"><div class="bar" style="width:85.7%"></div></div></div></div>
+      <div class="hb"><div class="lab"><span>Today's standard (AKC)</span><span class="n">3–7 lb</span></div><div class="row"><div class="track"><div class="bar range" style="width:50%"></div><div class="seg d" style="left:21.4%;width:28.6%"></div></div></div></div>
+      <div class="axis"><span>0</span><span>7</span><span>14 lb</span></div>
+    </div>
+  </figure>
+  <p>Breed histories say the Pomeranian's size about halved during Victoria's lifetime. Years before, around 1777, Thomas Gainsborough painted a Pomeranian and her puppy; the painting hangs in the Tate, London.</p>
+  <div class="src">FCI standard 97; American Pomeranian Club; Wikipedia, “Pomeranian dog”; Dogs Queensland; Frick Collection and Tate.</div>
+</section>
+
+<section aria-labelledby="t3">
+  <p class="kick">Plate III · Attitude</p>
+  <h2 id="t3">Small.<br>Armed.<br><span class="acc">Documented.</span></h2>
+  <div class="card">
+    <div class="big">Top tier</div>
+    <p>In a 2008 survey of dog owners covering more than 30 breeds, Chihuahuas were among the breeds most likely to bite, or try to, with strangers, and above average for aggression toward other dogs.</p>
+    <div class="src">Duffy, Hsu &amp; Serpell, Applied Animal Behaviour Science, 2008. Owner-reported; a later Swedish study found lower Chihuahua scores.</div>
+  </div>
+  <div class="card">
+    <div class="big">8,301 dogs</div>
+    <p>Across 49 breeds, the shorter the breed, the more problem behaviors owners reported, including aggression toward the owners themselves.</p>
+    <div class="src">McGreevy et al., PLOS ONE, 2013. A pattern across breed averages, not proof that height causes it.</div>
+  </div>
+  <div class="card">
+    <div class="big">67th</div>
+    <p>Where the Chihuahua lands in Stanley Coren's famous ranking of breeds by obedience. Unbothered.</p>
+    <div class="src">Coren, The Intelligence of Dogs, 1994 (based on surveys of obedience judges).</div>
+  </div>
+</section>
+
+<section aria-labelledby="t4">
+  <p class="kick">Plate IV · How long they last</p>
+  <h2 id="t4">Outlives the<br><span class="acc">big guy.</span></h2>
+  <p class="sub">Typical age at death (the median), from 584,734 dogs in the UK. Bars start at 0 years.</p>
+  <figure role="img" aria-label="Bar chart from zero years: Chihuahua, typical age at death 11.8 years; Cane Corso, 8.1 years." style="margin:0">
+    <div aria-hidden="true">
+      <div class="hb"><div class="lab"><span>Chihuahua</span><span class="n acc">11.8 yrs</span></div><div class="row"><div class="track"><div class="bar" style="width:84.3%"></div></div></div></div>
+      <div class="hb"><div class="lab"><span>Cane Corso</span><span class="n">8.1 yrs</span></div><div class="row"><div class="track"><div class="bar d" style="width:57.9%"></div></div></div></div>
+      <div class="axis"><span>0</span><span>7</span><span>14 yrs</span></div>
+    </div>
+  </figure>
+  <div class="src">McMillan et al., Scientific Reports, 2024 (155 breeds; all dogs together: 12.5 years).</div>
+  <p class="note">(The Corso does win the fight. We checked.)</p>
+  <div class="stamp" role="note">
+    <div class="k">MYTH CHECK</div>
+    <div class="q">“A Cane Corso bites at 700 PSI. A Kangal, 743.”</div>
+    <div class="v">Nobody ever measured it</div>
+    <div class="src">No study has tested these breeds. The numbers have no source.</div>
+  </div>
+  <p>The hardest bite actually measured in a pet dog with a sensor: <strong class="acc">1,394 newtons</strong>, about 313 pounds of force. Most of the 22 dogs tested bit far softer (middle value: 163 newtons).</p>
+  <div class="src">Lindner et al., Journal of Veterinary Dentistry, 1995</div>
+</section>
+
+<section aria-labelledby="t5">
+  <p class="kick">Plate V · Paperwork</p>
+  <h2 id="t5">Papers,<br><span class="acc">please.</span></h2>
+  <ol class="tl">
+    <li><span class="when">1900</span>The American Kennel Club recognizes the Pomeranian.<div class="src">Showsight; American Pomeranian Club</div></li>
+    <li><span class="when">1904</span>…and the Chihuahua. The first one registered is “Midget,” owned by H. Raynor of Texas.<div class="src">American Kennel Club; Wikipedia</div></li>
+    <li><span class="when">1912</span>The Titanic sinks with 12 dogs aboard.</li>
+  </ol>
+  <div class="card">
+    <div class="big">2 of 3</div>
+    <p>dogs that survived the Titanic were Pomeranians. (The third was a Pekingese.)</p>
+    <div class="src">National Museums Liverpool; Encyclopedia Titanica</div>
+  </div>
+</section>
+
+<section aria-labelledby="t6">
+  <p class="kick">Plate VI · Wrong dog, wrong house</p>
+  <h2 id="t6">Know your<br><span class="acc">job.</span></h2>
+  <p>The Kangal is a Turkish shepherd dog, whose name seems to come from the town of Kangal near Sivas, bred to live with flocks of sheep and fend off wolves.</p>
+  <figure role="img" aria-label="Bar chart from zero kilograms: male Kangal, 48 to 60 kilograms; Pomeranian, 1.4 to 3.2 kilograms (3 to 7 pounds)." style="margin:0">
+    <div aria-hidden="true">
+      <div class="hb"><div class="lab"><span>Kangal, male (FCI)</span><span class="n">48–60 kg</span></div><div class="row"><div class="track"><div class="bar range" style="width:100%"></div><div class="seg d" style="left:80%;width:20%"></div></div></div></div>
+      <div class="hb"><div class="lab"><span>Pomeranian (AKC)</span><span class="n acc">1.4–3.2 kg</span></div><div class="row"><div class="track"><div class="bar range" style="width:5.3%"></div><div class="seg" style="left:2.3%;width:3%"></div></div></div></div>
+      <div class="axis"><span>0</span><span>30</span><span>60 kg</span></div>
+    </div>
+  </figure>
+  <div class="src">FCI standard 331 (Kangal, 2018); American Pomeranian Club (3–7 lb).</div>
+  <blockquote>
+    <p>“I had a Kangal breeder tell me to my face that he didn't think so many people should own Kangals, and this was at the AKC Meet the Breeds.”</p>
+    <span class="reply">“Okay well you would know bro.”</span>
+    <div class="src">Bryan Murphy</div>
+  </blockquote>
+</section>
+
+<section aria-labelledby="t7">
+  <p class="kick">Plate VII · The menu</p>
+  <h2 id="t7">Everyone eats<br>the dog <span class="acc">eventually.</span></h2>
+  <p>Bryan's theory: “actually everyone would eat a dog like a cinnabon if they had to.” The record agrees. Hunger, war, custom: it happened all over the world. Below, in date order. Tap one to open it.</p>
+  <div class="feature">
+    <div class="k">Bryan's favorite · South Pole, 1911</div>
+    <h3>Amundsen's Butcher's Shop</h3>
+    <p>Roald Amundsen planned it in advance: how much each sled dog could haul, and on which dates dog after dog would stop pulling and become food. His party killed 24 dogs at a camp they named “the Butcher's Shop.” The meat fed the men and the remaining dogs.</p>
+    <div class="src">Amundsen's diary, Nov 20, 1911 (Norwegian Polar Institute); Ralph Magazine, “Eating Your Transport”</div>
+  </div>
+  <details><summary><span>Maya and Aztec Mexico<small>1100 BCE–1520</small></span></summary>
+    <p>Maya dogs at Ceibal were fed corn and some were traded in alive. In 1520 Cortés saw little dogs raised for eating in the Tenochtitlan market (Plate I).</p>
+    <div class="src">Sharpe et al., PNAS, 2018; Cortés, Second Letter, 1520</div></details>
+  <details><summary><span>Hawaiʻi<small>the ʻīlio</small></span></summary>
+    <p>The Hawaiian dog, the ʻīlio, was fattened on poi and eaten. Under the old rules women couldn't eat pork, but they could eat dog.</p>
+    <div class="src">Wikipedia, “Hawaiian Poi Dog”; Images of Old Hawaiʻi</div></details>
+  <details><summary><span>Jamestown, Virginia<small>1609–1617</small></span></summary>
+    <p>English colonists, starving, ate dogs during and after the “Starving Time.” DNA shows at least six of the dogs they ate had Native American ancestry. The study's authors say the colonists depended on their Native neighbors to survive.</p>
+    <div class="src">Thomas et al., American Antiquity, 2024; Smithsonian Magazine</div></details>
+  <details><summary><span>Lewis and Clark<small>1805–1806</small></span></summary>
+    <p>With game scarce, the expedition bought dogs from Native peoples along the way, and the men ate them. William Clark couldn't bring himself to.</p>
+    <div class="src">HistoryLink, citing Moulton's edition of the journals; Confluence Project</div></details>
+  <details><summary><span>Paris, under siege<small>1870</small></span></summary>
+    <p>Cut off by the siege, Paris ran out of meat. From November 1870, dog was sold at market for 20 to 40 centimes a pound.</p>
+    <div class="src">Atlas Obscura; Mental Floss, citing Édouard Manet's letters</div></details>
+  <details><summary><span>Germany<small>banned 1986</small></span></summary>
+    <p>Germany made slaughtering dogs and cats for food illegal only in 1986.</p>
+    <div class="src">inFranken.de; World Dog Alliance</div></details>
+  <details><summary><span>Switzerland<small>still legal at home</small></span></summary>
+    <p>Selling dog meat is banned, but eating your own dog at home is legal. It's best known among farmers in Appenzell and St. Gallen. After a 1993 petition, parliament decided it wasn't necessary to regulate people's eating habits.</p>
+    <div class="src">Swissinfo; The Local (2023); AFP</div></details>
+  <details><summary><span>South Korea<small>ban from 2027</small></span></summary>
+    <p>On Jan 9, 2024, the National Assembly voted 208–0 to end breeding, slaughtering and selling dogs for meat, starting in 2027: up to 3 years in prison or a 30 million won fine.</p>
+    <div class="src">Global News; ABC News; and other outlets</div></details>
+</section>
+
+<section class="about" aria-labelledby="t8">
+  <p class="kick">About these numbers</p>
+  <h2 id="t8">How we<br><span class="acc">checked.</span></h2>
+  <p>Research ran in Gemini Deep Research and ChatGPT deep research; every figure was then cross-checked against the sources below. A number made it onto this page only if at least two independent sources agreed.</p>
+  <h3>Lifespans</h3>
+  <p>Typical (median) age at death from one big UK study. Other studies count differently: one gives the Chihuahua 7.9 years “at birth,” because it counts the many puppies who die young. We used age at death. We found no study of the Pomewawa itself; its numbers come from its parents.</p>
+  <h3>Attitude</h3>
+  <p>The behavior studies are owner surveys: they show rankings and patterns, not lab measurements, and one later study found lower Chihuahua scores.</p>
+  <h3>Sizes</h3>
+  <p>Breed standards describe show dogs, not every dog. The Wolfspitz is a cousin in the Pomeranian's breed standard, not a proven ancestor. We left out old weights for the Pomeranian's ancestors: the sources gave three different numbers and none was solid.</p>
+  <h3>Bite force</h3>
+  <p>No study has measured Kangals or Cane Corsos. “PSI” is a pressure, not a force, and the popular numbers have no source.</p>
+  <h3>Myth checks</h3>
+  <p>A myth check means we found no old record. That's unproven, not disproven.</p>
+  <h3>Left out</h3>
+  <p>Two figures we couldn't confirm, a percentage of ancient Mexican DNA in Chihuahuas and a lifespan for Pomeranians, are left off until the papers can be checked.</p>
+</section>
+
+<section class="sources" aria-labelledby="t9">
+  <p class="kick">Sources</p>
+  <h2 id="t9">Receipts.</h2>
+  <ol>
+    <li>Cortés, H. Second Letter to Charles V, Oct 30, 1520. Excerpts: American Historical Association, “Cortés Describes Tenochtitlan”; World History Commons. <a href="https://www.historians.org/resource/cortes-describes-tenochtitlan/">historians.org</a></li>
+    <li>Sharpe, A. E. et al. “Earliest isotopic evidence in the Maya region for animal management and long-distance trade at the site of Ceibal, Guatemala.” PNAS 115 (2018). Smithsonian press release.</li>
+    <li>van Asch, B. et al. “Pre-Columbian origins of Native American dog breeds, with only limited replacement by European dogs, confirmed by mtDNA analysis.” Proceedings of the Royal Society B 280 (2013).</li>
+    <li>Sahagún, B. de. Florentine Codex, Book III, appendix (Mictlan), via UCSD Aztec Folio; Wikipedia, “Dogs in Mesoamerican folklore and myth.”</li>
+    <li>Hot-water-bottle story: Smithsonian National Museum of the American Indian, “Mexico's Legendary Xoloitzcuintli”; National Geographic, “This Hairless Mexican Dog Has a Storied, Ancient Past.”</li>
+    <li>FCI standard 97, German Spitz (1998 text), via the German Spitz club (deutsche-spitze.de); FCI nomenclature, fci.be.</li>
+    <li>Queen Victoria's Marco and size change: Wikipedia, “Pomeranian dog”; Dogs Queensland, Pomeranian breed history.</li>
+    <li>Pomeranian weight standard and AKC recognition: American Pomeranian Club (pomeranian.org); Showsight, “History of the Pomeranian.”</li>
+    <li>Gainsborough, T. Pomeranian Bitch and Puppy, c. 1777. Tate, London; Frick Collection exhibition notes.</li>
+    <li>Duffy, D. L., Hsu, Y. &amp; Serpell, J. A. “Breed differences in canine aggression.” Applied Animal Behaviour Science 114 (2008); Purdue Center for Animal Welfare summary; National Canine Research Council critique.</li>
+    <li>McGreevy, P. D. et al. “Dog behavior co-varies with height, bodyweight and skull shape.” PLOS ONE 8 (2013); AAHA NEWStat.</li>
+    <li>Coren, S. The Intelligence of Dogs (1994), via ScienceAlert and Wikipedia.</li>
+    <li>McMillan, K. M. et al. “Longevity of companion dog breeds: those at risk from early death.” Scientific Reports (2024); Dogs Trust breed table; Liverpool John Moores University release. <a href="https://www.ljmu.ac.uk/about-us/news/articles/2024/2/1/dog-longevity">ljmu.ac.uk</a></li>
+    <li>Teng, K. T. et al. “Life tables of annual life expectancy and mortality for companion dogs in the United Kingdom.” Scientific Reports (2022); RVC VetCompass.</li>
+    <li>Lindner, D. L. et al. “Measurement of bite force in dogs: a pilot study.” Journal of Veterinary Dentistry (1995), PubMed 9693626; Kim, S. E. et al., Frontiers in Veterinary Science (2018) review.</li>
+    <li>Bite-force myths: Dogster, “Kangal bite force”; Kim et al. (2018).</li>
+    <li>AKC Chihuahua history (akc.org); Wikipedia, “Chihuahua (dog breed).”</li>
+    <li>Titanic dogs: National Museums Liverpool, “Titanic dogs”; Encyclopedia Titanica.</li>
+    <li>FCI standard 331, Kangal Shepherd Dog (2018); Dogs Australia breed standard.</li>
+    <li>Amundsen, R. Diary, Nov 20, 1911 (Norwegian Polar Institute, sorpolen2011.npolar.no); Ralph Magazine, “Eating Your Transport.”</li>
+    <li>Hawaiian dog: Wikipedia, “Hawaiian Poi Dog”; Images of Old Hawaiʻi.</li>
+    <li>Thomas, A. E. et al. American Antiquity (2024), on Jamestown dogs; Cambridge University Press; Smithsonian Magazine; Live Science.</li>
+    <li>Lewis and Clark: HistoryLink essay 5323 (citing Moulton, ed., The Journals of the Lewis and Clark Expedition); Confluence Project.</li>
+    <li>Siege of Paris: Atlas Obscura, “During an 1870 Siege, Trapped Parisians Dined on Rat, Cat, and Elephant”; Mental Floss.</li>
+    <li>Germany: inFranken.de, “Darf in Deutschland Hunde- und Katzenfleisch gegessen werden?”; World Dog Alliance.</li>
+    <li>Switzerland: Swissinfo, “Animal lovers question morality of eating pets”; The Local, Sept 8, 2023; AFP.</li>
+    <li>South Korea: Global News, Jan 9, 2024; ABC News; The New Daily.</li>
+  </ol>
+  <footer>
+    By Bryan Murphy, made with <a href="https://github.com/BPMData/ProofEr">ProofEr</a>. Fonts: Barlow Condensed and Source Serif 4, both under the SIL Open Font License. Research by Gemini and ChatGPT deep research; checking and design with Claude.
+  </footer>
+</section>
+
+</main>
+<script>
+// Open every menu entry for printing, then restore.
+(function () {
+  var opened = [];
+  addEventListener('beforeprint', function () {
+    document.querySelectorAll('details:not([open])').forEach(function (d) { d.open = true; opened.push(d); });
+  });
+  addEventListener('afterprint', function () { opened.forEach(function (d) { d.open = false; }); opened = []; });
+})();
+</script>
+</body>
+</html>

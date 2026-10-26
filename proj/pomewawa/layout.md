@@ -1,6 +1,6 @@
 # Layout plan: The Pomewawa
 
-Stage: layout · DRAFT
+Stage: layout · APPROVED Oct 26, 2026 by Bryan Murphy
 
 Format: phone scroll, one column, designed at 390 px wide (works 320–480; widens to a centered 560 px column on
 laptops) · Paper concept (cream ground, near-black ink, one red-orange accent; heavy condensed headlines, serif notes,

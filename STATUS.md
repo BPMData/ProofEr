@@ -6,7 +6,7 @@
 _Last updated: Oct 26, 2026 (tentative skeleton: rules, interview, research step, craft, taste, skills, tools, CI)._
 
 ## Pieces
-- **pomewawa** (Pomeranians, Chihuahuas and the mix; for family and online): layout (plan + stills, waiting on Bryan). `proj/pomewawa/STATUS.md`.
+- **pomewawa** (Pomeranians, Chihuahuas and the mix; for family and online): **published** to `pieces/pomewawa.html`; live once merged to main. `proj/pomewawa/STATUS.md`.
 
 ## Across the repo
 - **Scope:** infographics only for now. Recipe cards may come later as a second kind of piece.
@@ -19,7 +19,7 @@ _Last updated: Oct 26, 2026 (tentative skeleton: rules, interview, research step
 - **Peeking audit:** 0 new pieces so far. Decision rule in `notes/architecture.md`.
 
 ## Next
-1. **First real piece through `/new-piece`.** It's the test of the setup, including the research step.
+1. **First piece (Pomewawa) done.** Lessons: the network policy blocked opening papers (allow nature.com, PMC, akc.org); the stage-read log needs a commit after every turn.
 2. **Run `tools/eval_new_piece.py` by hand once** to measure the first-question budget for this repo.
 3. **Bryan's example pages** (two Holocaust infographics): candidates for `examples/` once their fonts are embedded
    and their figures have a checked `figures.md`. Not added yet.

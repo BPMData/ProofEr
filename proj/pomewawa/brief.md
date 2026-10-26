@@ -1,6 +1,6 @@
 # Brief: The Pomewawa
 
-Status: APPROVED Oct 26, 2026 by Bryan Murphy · Stage: layout · Mode: from scratch · Client: Bryan Murphy · Sign-off: Bryan
+Status: APPROVED Oct 26, 2026 by Bryan Murphy · Stage: build · Mode: from scratch · Client: Bryan Murphy · Sign-off: Bryan
 Usage: not recorded yet (ASK: share of a 5-hour limit per stage, as the Claude app shows it)
 
 ## 1. The ask
@@ -101,6 +101,17 @@ Bryan signs off. Success: a reader finishes thinking "Wow, I bet a Pomewawa coul
 ## 18. Open questions
 Whether ChatGPT deep research works on Bryan's plan; images (drawn or photos), at concepts.
 
+## Build plan
+Approved under Bryan's delegation ("you're on your own from here on out, just do it"), Oct 26, 2026.
+- Fonts: **reuse** `tools/embed_fonts.py` to inline Barlow Condensed (headlines, SIL OFL) and Source Serif 4 (body,
+  SIL OFL) from Google Fonts.
+- Rows 0–6 (hero, plates I–VI): **build new**, plain HTML/CSS; bars are HTML blocks drawn to scale from a zero line,
+  each with a text alternative.
+- Row 7 (the menu): **build new** with `<details>`; opens for print.
+- Row 8 (sources, About these numbers): **build new**, body-size type.
+- Check: **reuse** `tools/check_offline.py`; contrast checked with a script; Playwright screenshots at 390 px and print.
+- Publish: `pieces/pomewawa.html` + a card in `index.html`.
+
 ## Decisions log
 - Oct 26, 2026 · "pomewawa (such a better portmanteau than pom-chi, fuck people who say pom-chi)" · the mix is called
   Pomewawa everywhere on the page.
@@ -141,3 +152,6 @@ Whether ChatGPT deep research works on Bryan's plan; images (drawn or photos), a
 - Oct 26, 2026 · Favorite fact: explorers who "specifically like incorporated eating the dogs ... into their plan for
   reaching the pole" · Amundsen (F33, South Pole 1911, planned dog-by-dog schedule) gets a featured spot in Plate VII.
   Bryan remembered "north pole"; the checked case is the South Pole.
+- Oct 26, 2026 · "it looks good. Let's do it, lock and load you're on your own from here on out ... You don't have to
+  ask me if any more aesthetic choices you can make them on your own" · layout, stills and DRAFT headlines approved;
+  Stage: build. Aesthetic calls delegated to Claude (facts are not).
