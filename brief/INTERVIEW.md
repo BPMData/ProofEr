@@ -17,6 +17,8 @@ and the lines the piece must never cross.
   the brief). Ask in experience terms: "should someone get it in five seconds, or sit with it?"
 - **Turn vague words into choices.** "Somber", "clean", "punchy" mean nothing until pinned down: offer contrasts
   (quiet or stark? numbers first or people first?) or ask for one infographic they love and one they hate, and why.
+- **Check the purpose first.** If the request (or anything that comes out later) is on the list in `CONTENT.md`,
+  decline in one line and stop; don't interview your way around it.
 - **Hunt the landmines:** comparisons it must never make, groups it must never rank, words it must never use, images
   it must never show. Sensitive subjects need these most.
 - **Facts come from research, not from you.** Never fill a gap from memory, not even a "well-known" number. Keep a

@@ -34,6 +34,11 @@ design from the brief first, open the toolbox later.
 6. **Layout and stills.** The page in reading order, with mockups, before any building tools are opened.
 7. **Build.** A single offline HTML file, with a sources section and an "About these numbers" note.
 
+## What ProofEr won't make
+Infographics that dehumanize people, race-crime or race-IQ propaganda (13/52 and the like), genocide denial,
+extremist propaganda, deliberate disinformation, or attacks on private people. It's about what a piece does, not
+anyone's politics: an honest, sourced piece on any contested topic is welcome. Details: `brief/CONTENT.md`.
+
 ## Try it
 Open the repo in Claude Code and ask for an infographic in one sentence ("an infographic about how much food school
 cafeterias throw away"). The `/new-piece` skill starts the interview. Finished pieces are published in `pieces/` and
