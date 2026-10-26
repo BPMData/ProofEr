@@ -68,3 +68,10 @@ Reports: G-A1/G-A2 (Gemini A), G-B1/G-B2 (Gemini B), G-C (Gemini C), CG (ChatGPT
    Marco about 12 lb vs today's 3–7 lb standard).
 4. Unverified rows (F01 number, F16, F25, F26 Chi, F27, F36, F37): stay off the page unless a later check
    (with the network open) confirms them.
+
+## Update (Oct 26, Bryan's lookups)
+- **F01 → checked:** about 3–4% of a modern Chihuahua's nuclear DNA from ancient American dogs. Bergström et al.,
+  Science (2020) via Wikipedia; Smithsonian Magazine on Manin et al., Proc. R. Soc. B. Coyote segments are a separate
+  finding and are not part of the 4%; left off.
+- **F16 → checked as a range:** Pomeranian 12.2 years (UK study, via Wikipedia) to 14 years (Inoue, Kwan & Sugiura,
+  J. Vet. Med. Sci. 80, 2018, Japanese pet cemeteries; Wikipedia; G-B1 agrees). Shown as text, not on the chart.

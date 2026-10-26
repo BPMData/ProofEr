@@ -5,7 +5,7 @@ the branch `claude/wonderful-tesla-l3dhpf` is merged to `main`.
 ## QA report (Oct 26, 2026)
 Verified:
 - **Facts:** every number, name and date on the page is a `checked` or `checked*` row in `figures.md`; unverified
-  rows (F01 4% DNA, F16 Pom 12.2 yr, F25, F26 Chi, F27, F36, F37) are not on the page. The 7.9-year figure appears
+  rows (F25, F26 Chi, F27, F36, F37) are not on the page. The 7.9-year figure appears
   only in "About these numbers" as the explanation Bryan asked to leave off the charts.
 - **Sources:** 27-item sources list at the end, body-size type; "About these numbers" explains lifespans, surveys,
   standards, bite force, myth checks and what was left out.
