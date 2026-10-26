@@ -1,2 +1,2 @@
 # Pomewawa: status
-Stage: interview (round 1 answered). Next: round 2 (tone, how it's read, research tools).
+Stage: interview (rounds 1–2 answered). Next: round 3 (know/do, limits, look, credit, files).

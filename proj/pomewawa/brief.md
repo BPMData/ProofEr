@@ -12,13 +12,16 @@ An infographic about Pomeranians and Chihuahuas, and the Pomeranian × Chihuahua
 - **Feel:** "Wow, I bet a Pomewawa could kick my ass in a fight."
 - **Know:** what these breeds are actually good at, beyond "looking like an IRL tamagotchi". ASK (one line).
 - **Do:** ASK.
-- **Tone:** funny, bragging, affectionate (DRAFT, from the first messages). Must not feel like: ASK.
+- **Tone:** funny, bragging, affectionate (DRAFT, from the first messages).
+- **Must not feel like:** the "dogs are better than people" crowd. "I love my dog but ... if a building was burning
+  I'd pick like, most children over the dog." The brag is about the dog, never against people.
 - **Framing (agreed):** the page can't claim the data proves they're "better than all other breeds". It shows what
   makes them stand out, with proof, and admits limits: "they couldn't beat a cane corso in a fight, we should mention
   that so maybe they're not the best."
 
 ## 3. How it's read
-DRAFT: on phones, scrolled through on social media and in family chats, read alone. ASK to confirm.
+Mostly on phones (confirmed), shared online and in family chats, read alone. Format (scroll vs. tap-through):
+**Claude's call** ("You decide that bro").
 
 ## 4. The subject
 Bryan's pitch: "aztec ancestry + food for the winter + space-heater if the harvest was good = AWESOME!" Every part of
@@ -36,7 +39,8 @@ that is a claim for research (see §5), not a fact yet.
 | Q6 | What's known about the Pomeranian × Chihuahua mix itself (size range, temperament), given mixes aren't standardized? | It's the family's dog |
 
 ## 6. Research plan
-ASK: which tools (two or more of Claude Research, Gemini Deep Research, ChatGPT deep research, Kimi).
+Gemini Deep Research (confirmed). ChatGPT deep research if Bryan's plan allows it; otherwise Kimi as the second
+tool (ASK). Not Claude Research: "I am running extremely low on Claude usage." Keep Claude-side work lean.
 
 ## 7. Structure and reading order
 ASK.
@@ -72,7 +76,7 @@ Default checks.
 ASK.
 
 ## 18. Open questions
-Know/do lines; tone limits; how it's read; never-say list; research tools; structure; brand; language; credit;
+Know/do lines; never-say list; second research tool; structure; brand; language; credit;
 hard limits; taste; deliverables; sign-off.
 
 ## Decisions log
@@ -80,3 +84,8 @@ hard limits; taste; deliverables; sign-off.
   Pomewawa everywhere on the page.
 - Oct 26, 2026 · "they couldn't beat a cane corso in a fight we should mention that so maybe they're not the best" ·
   no "best breed" claim; the page shows what they're good at and admits limits.
+- Oct 26, 2026 · "It should NOT feel like those weird ... 'dogs are better than people' shelter moms" · no
+  dogs-over-people sentiment anywhere on the page.
+- Oct 26, 2026 · "Mostly on phones yeah. You decide that bro" · phone-first; format is Claude's call.
+- Oct 26, 2026 · "Let's use Gemini I am running extremely low on Claude usage" · Gemini Deep Research first, no Claude
+  Research.
