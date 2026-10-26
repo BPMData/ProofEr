@@ -1,2 +1,2 @@
 # Pomewawa: status
-Stage: figures. `figures.md` drafted (37 rows): most checked via search; network policy blocked opening papers directly. Waiting on Bryan: 3 decisions (F07, F15/F18, F11) and whether to open the network for the unverified rows. Next: concepts (read brief/CRAFT.md).
+Stage: concepts. Choice panel `choices-concept.html` (A fight card, recommended; B field guide; C case file); stills in `concepts/` (built by `stills.py`). Waiting on Bryan to pick. Next: layout plan (`brief/LAYOUT.md`) and stills.
