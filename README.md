@@ -39,4 +39,9 @@ Just started. The working rules, interview, brief template, research templates a
 EOMD. Recipe cards (history-themed, like a 1915 war bread) are planned as a second kind of piece.
 
 ## License
-MIT. See [LICENSE](LICENSE).
+Copyright (C) 2026 Bryan Patrick Murphy. The code is licensed under the
+[GNU Affero General Public License v3.0](LICENSE) (AGPLv3): you may use, change and share it, but if you share a
+changed version, or run one as a website or online service, you must share its source code under AGPLv3 too.
+
+Pieces you make with this (their words, data, pictures and music) are yours to license however you like; the code
+inside stays AGPLv3.
