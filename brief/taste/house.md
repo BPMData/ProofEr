@@ -25,4 +25,4 @@ T07 · strong · color · Dark text on yellow and other light brights, never whi
 T08 · strong · layout · Check every shape for unintended readings before showing it. — EOMD, SSR poster: a shape read as something it wasn't
 T09 · soft · layout · when more than one language · Key lines in the readers' languages, as a flourish or in full, with the checker named. — EOMD, Academies brief
 T10 · soft · data · A popular legend the research can't back is shown with a visible myth-check label and an honest verdict, not quietly cut. — ProofEr, Pomewawa (Oct 26): "include it but label it as a myth busted"
-T11 · soft · data · Lifespans as median age at death; leave "life expectancy at birth" off pop pieces, where it reads as absurd. — ProofEr, Pomewawa (Oct 26): "by that puppies die metric the average lifespan of an old English bulldog would be like half an hour"
+T11 · soft · data · Lifespans as median age at death; leave "life expectancy at birth" off pop pieces, where it reads as absurd. — ProofEr, Pomewawa (Oct 26): "by that puppies die metric thr average lifespan of an old English bulldog would ve like half an hour"
