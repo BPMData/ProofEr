@@ -1,6 +1,6 @@
 # Brief: The Pomewawa
 
-Status: APPROVED Oct 26, 2026 by Bryan Murphy · Stage: research · Mode: from scratch · Client: Bryan Murphy · Sign-off: Bryan
+Status: APPROVED Oct 26, 2026 by Bryan Murphy · Stage: figures · Mode: from scratch · Client: Bryan Murphy · Sign-off: Bryan
 Usage: not recorded yet (ASK: share of a 5-hour limit per stage, as the Claude app shows it)
 
 ## 1. The ask

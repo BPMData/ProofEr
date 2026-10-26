@@ -1,2 +1,2 @@
 # Pomewawa: status
-Stage: research → figures. All reports in `research/` (Gemini A ×2, B ×1, C ×1; ChatGPT A+B without links). Next: cross-check into `figures.md`, opening sources; Bryan settles disputes.
+Stage: figures. `figures.md` drafted (37 rows): most checked via search; network policy blocked opening papers directly. Waiting on Bryan: 3 decisions (F07, F15/F18, F11) and whether to open the network for the unverified rows. Next: concepts (read brief/CRAFT.md).
