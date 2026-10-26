@@ -75,7 +75,7 @@ No photo or name of the family dog. Nothing that looks AI-generated (§12). Imag
 licensed photos).
 
 ## 12. Taste
-`Taste: house. Applies: T01–T08. Overrides: none.`
+`Taste: house. Applies: T01–T08. Overrides: T05 for prompt C only (dogs as food): one tool, because "this isn't a main focus of the infographic". Its figures still need two independent sources.`
 - **Loves:** "That NYTimes Sushi Korean moonies article, it's a stone cold classic." Why: "great factoids, insane visual design"
   (https://www.nytimes.com/interactive/2021/11/05/magazine/sushi-us.html). Mechanisms to learn from, not a look to copy.
 - **Hates:** "Anything obviously AI generated, anything with shitty graphs with no labeled axes or misleading
@@ -122,3 +122,5 @@ Whether ChatGPT deep research works on Bryan's plan; images (drawn or photos), a
 - Oct 26, 2026 · "this isn't going to be 'haha korean people eat dogs' ... 'actually everyone would eat a dog like a
   cinnabon if they had to'" · the food menu's angle: necessity and history, everywhere.
 - Oct 26, 2026 · Brief approved ("okay" / "Okay") · Stage: research.
+- Oct 26, 2026 · Prompt C: "this isn't a main focus of the infographic one report is fine on it" · one Gemini report
+  for the dogs-as-food menu; two-source rule per figure still holds.

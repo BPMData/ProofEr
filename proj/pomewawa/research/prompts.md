@@ -117,3 +117,5 @@ Bryan's file names → saved as:
   second B run exists.
 - `q2_v2.md` → `gemini-B-v2.md` (Gemini, prompt B).
 - Prompt C: Bryan is sending it in another message.
+- `q3.md` → `gemini-C.md` (Gemini, prompt C). One report only, by Bryan's call (see brief Decisions log). Every
+  figure from it still needs two independent sources, checked by opening them.
