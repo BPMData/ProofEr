@@ -1,6 +1,6 @@
 # Brief: The Pomewawa
 
-Status: DRAFT · Stage: brief · Mode: from scratch · Client: Bryan Murphy · Sign-off: Bryan
+Status: APPROVED Oct 26, 2026 by Bryan Murphy · Stage: research · Mode: from scratch · Client: Bryan Murphy · Sign-off: Bryan
 Usage: not recorded yet (ASK: share of a 5-hour limit per stage, as the Claude app shows it)
 
 ## 1. The ask
@@ -30,10 +30,13 @@ that is a claim for research (see §5), not a fact yet.
 - **Never:** a "better than every breed" claim the data can't back; dogs-over-people sentiment; the family dog's
   name or photo ("don't dox my pomewawa").
 - **Allowed and wanted:** ribbing owners who pick a breed for the wrong life ("people who own kangals but don't live
-  on a farm or have livestock to protect"). The joke is on the choice, never on a named person.
+  on a farm or have livestock to protect"). The joke is on the choice, never on a named person. Origin: a Kangal
+  breeder at the AKC Meet the Breeds event told Bryan "he didn't think so many people should own kangals" ("okay
+  well you would know lamo"). Usable as Bryan's own anecdote, breeder unnamed; his words, not a sourced fact.
 - **Dog as food:** "if people really did eat chihuahuas like a chicken wing you can mention it + other documented
   times dogs were used as food could be a fun drill-down menu, i.e. switzerland." Only documented cases, each
-  sourced. **Landmine (DRAFT):** every culture gets the same plain, factual treatment. No "ew, *those* people" framing,
+  sourced. **Angle (Bryan):** not "haha korean people eat dogs"; "if anything it should be more like 'actually
+  everyone would eat a dog like a cinnabon if they had to'". **Landmine:** every culture gets the same plain, factual treatment. No "ew, *those* people" framing,
   which is how this topic usually turns into a dig at Asian countries. The Swiss can be teased; nobody is
   dehumanized.
 
@@ -50,8 +53,9 @@ that is a claim for research (see §5), not a fact yet.
 | Q6 | What's known about the Pomeranian × Chihuahua mix itself (size range, temperament), given mixes aren't standardized? | It's the family's dog |
 
 ## 6. Research plan
-Gemini Deep Research (confirmed). ChatGPT deep research if Bryan's plan allows it; otherwise Kimi as the second
-tool (ASK). Not Claude Research: "I am running extremely low on Claude usage." Keep Claude-side work lean.
+Gemini Deep Research and ChatGPT deep research ("probably chatgpt i'm maybe blocked on that and 100% blocked on
+Kimi"). If ChatGPT is blocked, the only other allowed second tool is Claude Research (costs Claude usage): ask then.
+Prompts: `research/prompts.md`. Not Claude Research: "I am running extremely low on Claude usage." Keep Claude-side work lean.
 
 ## 7. Structure and reading order
 Claude's call (design delegated). Includes a drill-down menu for the dog-as-food cases.
@@ -64,7 +68,7 @@ English only (DRAFT). The client file's Spanish / Brazilian Portuguese lines are
 family and online.
 
 ## 10. Call to action and credit
-No call to action beyond sharing. Credit: "by Bryan Murphy" (DRAFT), plus sources and "About these numbers".
+No call to action beyond sharing. Credit: "by Bryan Murphy" (approved), plus sources and "About these numbers".
 
 ## 11. Hard limits
 No photo or name of the family dog. Nothing that looks AI-generated (§12). Images: ASK at concepts (drawn vs. openly
@@ -72,7 +76,8 @@ licensed photos).
 
 ## 12. Taste
 `Taste: house. Applies: T01–T08. Overrides: none.`
-- **Loves:** "That NYTimes Sushi Korean moonies article, it's a stone cold classic." (ASK: what about it?)
+- **Loves:** "That NYTimes Sushi Korean moonies article, it's a stone cold classic." Why: "great factoids, insane visual design"
+  (https://www.nytimes.com/interactive/2021/11/05/magazine/sushi-us.html). Mechanisms to learn from, not a look to copy.
 - **Hates:** "Anything obviously AI generated, anything with shitty graphs with no labeled axes or misleading
   origins, anything by the FUCKING OATMEAL." So: no AI-art look, every axis labeled, every origin story sourced, and
   nothing in the Oatmeal's style (rubbery cartoon comics with long rant captions).
@@ -94,8 +99,7 @@ Default checks.
 Bryan signs off. Success: a reader finishes thinking "Wow, I bet a Pomewawa could kick my ass in a fight."
 
 ## 18. Open questions
-Second research tool (ChatGPT or Kimi); what Bryan loves about the sushi article; images (drawn or photos),
-at concepts.
+Whether ChatGPT deep research works on Bryan's plan; images (drawn or photos), at concepts.
 
 ## Decisions log
 - Oct 26, 2026 · "pomewawa (such a better portmanteau than pom-chi, fuck people who say pom-chi)" · the mix is called
@@ -115,3 +119,6 @@ at concepts.
 - Oct 26, 2026 · "We don't need a tall image I can post, I'm fine with just giving people links" · web page only.
 - Oct 26, 2026 · hates "anything obviously AI generated ... no labeled axes or misleading origins ... THE OATMEAL" ·
   added to §12.
+- Oct 26, 2026 · "this isn't going to be 'haha korean people eat dogs' ... 'actually everyone would eat a dog like a
+  cinnabon if they had to'" · the food menu's angle: necessity and history, everywhere.
+- Oct 26, 2026 · Brief approved ("okay" / "Okay") · Stage: research.
