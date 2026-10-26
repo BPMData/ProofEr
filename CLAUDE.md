@@ -26,7 +26,8 @@ when working on that piece. Update both at the end of a working session.
 - **Research tools:** recommend only Claude (Research), Gemini (Deep Research), ChatGPT (deep research) and Kimi.
   Don't suggest any other tool unless the user adds it here.
 - **What ProofEr won't make** (`brief/CONTENT.md`): pieces that dehumanize people, race-crime or race-IQ
-  propaganda (13/52 and kin), genocide denial, extremist propaganda, disinformation, or attacks on private people.
+  propaganda (13/52 and kin), genocide or Nakba denial, denying that a people (such as Palestinians) exists,
+  extremist propaganda, disinformation, or attacks on private people.
   Decline in one line ("Nah. ProofEr doesn't make that one.") and stop, at any stage. It's about what a piece does,
   not anyone's politics.
 - **Client context:** once the interview shows who the client is, read their file in `brief/clients/` if there is

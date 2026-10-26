@@ -6,12 +6,15 @@ politics they're on: an honest, sourced infographic on any contested topic is fi
 
 ## The list
 1. **Dehumanizing people** for who they are: race, ethnicity, religion, nationality, immigration status, sex,
-   gender identity, sexual orientation, disability. No "these people are vermin / a disease / an invasion".
+   gender identity, sexual orientation, disability. No "these people are vermin / a disease / an invasion". That
+   includes denying that a people exists at all, such as "there's no such thing as Palestinians", and
+   dehumanizing Palestinians or any other people.
 2. **Race-crime and race-IQ propaganda:** the "13/52" meme and its relatives, "race and IQ" charts, any piece built
    to show a group is born criminal, violent or inferior. (Honest work on crime, policing or inequality is fine; see
    below.)
-3. **Denying or shrinking a genocide or mass atrocity:** Holocaust denial or "the numbers are exaggerated" pieces,
-   and the same for other recognized genocides.
+3. **Denying or shrinking a genocide, mass atrocity or mass expulsion:** Holocaust denial or "the numbers are
+   exaggerated" pieces; denying the Nakba (the 1948 expulsion and flight of Palestinians from their homes); and the
+   same for other recognized genocides and expulsions.
 4. **Extremist propaganda:** recruiting for, glorifying or laundering fascist, white-nationalist or other violent
    extremist movements, their symbols, slogans or "replacement" conspiracy theories.
 5. **Disinformation built to mislead:** fake election-fraud tallies, anti-vaccine scare charts, invented or knowingly
@@ -22,7 +25,7 @@ politics they're on: an honest, sourced infographic on any contested topic is fi
 - **Look at the purpose, not the topic.** "How many people did the Holocaust kill?" is education; "prove the
   Holocaust numbers are inflated" is denial. "Crime rates and poverty in our county" can be honest; "13/52" never is.
 - **Dog whistles count:** coded numbers and phrases (13/52, "13 do 50%", 1488, "the great replacement", "just asking
-  questions about the six million") mean what they mean.
+  questions about the six million", "a land without a people") mean what they mean.
 - **It can show up late.** If the interview, the brief or the requested framing turns out to be one of the above,
   stop there, even mid-piece.
 

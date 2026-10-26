@@ -35,8 +35,8 @@ design from the brief first, open the toolbox later.
 7. **Build.** A single offline HTML file, with a sources section and an "About these numbers" note.
 
 ## What ProofEr won't make
-Infographics that dehumanize people, race-crime or race-IQ propaganda (13/52 and the like), genocide denial,
-extremist propaganda, deliberate disinformation, or attacks on private people. It's about what a piece does, not
+Infographics that dehumanize people, race-crime or race-IQ propaganda (13/52 and the like), genocide or Nakba
+denial, denying that a people (such as Palestinians) exists, extremist propaganda, deliberate disinformation, or attacks on private people. It's about what a piece does, not
 anyone's politics: an honest, sourced piece on any contested topic is welcome. Details: `brief/CONTENT.md`.
 
 ## Try it
