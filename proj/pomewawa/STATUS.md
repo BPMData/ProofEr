@@ -1,2 +1,2 @@
 # Pomewawa: status
-Stage: interview (rounds 1–2 answered). Next: round 3 (know/do, limits, look, credit, files).
+Stage: brief (drafted, waiting for approval). Next: Bryan approves, then research prompts for Gemini + one more.
