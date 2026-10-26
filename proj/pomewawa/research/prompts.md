@@ -113,8 +113,8 @@ Bryan's file names → saved as:
 - `dr_q1_q2.md` → `chatgpt-AB.md` (assumed ChatGPT: prompts A and B in one run; **no links at all**, so it can only
   point to sources, not stand as one).
 - `q1_v1.md` → `gemini-A-v1.md`; `q1_v2.md` → `gemini-A-v2.md` (two Gemini runs of prompt A).
-- `q2_v1.md` was byte-for-byte identical to `q1_v1.md` (a copy of A, not B); not saved. ASK Bryan whether a
-  second B run exists.
+- `q2_v1.md` (first upload) was a copy of `q1_v1.md`. Bryan re-sent the real one → `gemini-B-v1.md`. Its line
+  breaks and works-cited list were lost in export, so it names studies but has no links.
 - `q2_v2.md` → `gemini-B-v2.md` (Gemini, prompt B).
 - Prompt C: Bryan is sending it in another message.
 - `q3.md` → `gemini-C.md` (Gemini, prompt C). One report only, by Bryan's call (see brief Decisions log). Every
