@@ -17,11 +17,12 @@ Reports: G-A1/G-A2 (Gemini A), G-B1/G-B2 (Gemini B), G-C (Gemini C), CG (ChatGPT
 | F04 | Ancient Maya dogs were fed corn, and some were carried in alive from the highlands | Ceibal, Guatemala; from about 1100 BCE | Sharpe et al., *PNAS* 115 (2018); Smithsonian press release; Univ. of Florida release | G-A1, G-A2 | G-A2 cites it wrongly as *Scientific Reports* | **checked** |
 | F05 | Spaniards ate up to 100,000 Techichi dogs | — | Wikipedia "Techichi" only | G-A1 | No primary source found | **reject** |
 | F06 | Aztec belief: a dog carried the dead across the river at the first level of Mictlan | Florentine Codex, Book III appendix | UCSD Aztec Folio translation; Wikipedia "Dogs in Mesoamerican folklore and myth" | G-A1, G-A2, G-C | "Yellow dogs carry you, white and black ones refuse" is only in secondary retellings | **checked** (the color story = legend, label it so) |
-| F07 | Hairless dogs used as living hot-water bottles for the sick and elderly | — | Smithsonian NMAI *American Indian* magazine; National Geographic (crediting Sahagún secondhand) | G-A2 (says Codex), CG and G-A1 (say folklore) | Reports split; no primary text seen. And it's the hairless Xolo, not the Chihuahua's ancestor | **disputed**: Bryan decides |
+| F07 | Hairless dogs used as living hot-water bottles for the sick and elderly | — | Smithsonian NMAI *American Indian* magazine; National Geographic (crediting Sahagún secondhand) | G-A2 (says Codex), CG and G-A1 (say folklore) | Reports split; no primary text seen. And it's the hairless Xolo, not the Chihuahua's ancestor | **checked as a legend**: widely repeated (NatGeo, Smithsonian NMAI, pet sites); shown as a myth check, verdict "no old record backs it" (Bryan, Oct 26) |
 | F08 | AKC first registered the Chihuahua; first dog was "Midget", owned by H. Raynor of Texas | 1904 | AKC "Chihuahua history"; Wikipedia | G-A1, G-A2, CG | El Paso not confirmed; coat type disputed | **checked** (say "of Texas") |
 | F09 | AKC recognized the Pomeranian | 1900 | Showsight; American Pomeranian Club (pomeranian.org) | G-A1, CG | G-A2 and G-B2 say 1888 (that's the first stud-book entry, per G-A1) | **checked** (1900) |
 | F10 | Queen Victoria's Pomeranian Marco weighed about 12 lb; the breed's size halved during her lifetime | ~12 lb; ~50% | Wikipedia "Pomeranian dog"; Dogs Queensland breed history | G-A1, G-A2, CG | Got him 1888, first showed him 1891. One breed-history page says her dogs are really German Spitz | checked* |
-| F11 | Ancestral Spitz dogs weighed much more | "30 lb or more" (secondary); reports say 20 lb or 30–50 lb | Breeder and pet sites only | G-A1 (20), G-A2 (30–50), CG (20–30+ kg) | Three different numbers, no primary | **disputed**: say "much bigger" without a number |
+| F11 | Ancestral Spitz dogs weighed much more | "30 lb or more" (secondary); reports say 20 lb or 30–50 lb | Breeder and pet sites only | G-A1 (20), G-A2 (30–50), CG (20–30+ kg) | Three different numbers, no primary | **reject the numbers**; use F11a and F10 for scale |
+| F11a | Same breed standard, biggest vs smallest: Wolfspitz (Keeshond) vs Pomeranian height at the withers | 49 cm ±6 vs 22 cm ±2 (FCI 1998): a bit over twice as tall | FCI standard 97 (1998 text) via German Spitz club (deutsche-spitze.de) and a published copy of the standard (braquedubourbonnais.info); fci.be lists both as varieties of breed 97 | — | 2024 revision's heights not seen; Wolfspitz is a cousin in the same standard, not a proven ancestor | **checked** (say "cousin", not "ancestor") |
 | F12 | Gainsborough painted a Pomeranian and puppy | about 1777 (Tate, London) | Frick Collection; Tate | G-A1, G-A2 | Queen Charlotte's link to it not confirmed | **checked** (no Queen Charlotte) |
 | F13 | Dogs on the Titanic: 12 aboard, 3 survived, 2 of them Pomeranians | 12 / 3 / 2 | Liverpool Museums "Titanic dogs"; Encyclopedia Titanica; Wikipedia | G-A2 | Dog names differ ("Lady" vs "Bebe") | **checked** (leave names out) |
 
@@ -59,9 +60,11 @@ Reports: G-A1/G-A2 (Gemini A), G-B1/G-B2 (Gemini B), G-C (Gemini C), CG (ChatGPT
 | F36 | Mawson and Mertz ate their sled dogs; Mertz's death blamed on vitamin A in husky liver | 1912–13 | G-C only | G-C | Disputed cause of death | **unverified** |
 | F37 | US federal ban on slaughtering dogs and cats for food | 2018 Farm Bill | G-C only | G-C | — | **unverified** (easy to check) |
 
-## Decisions for Bryan
-1. **F07 hot-water bottle:** show as "the story goes" (legend label), or leave out?
-2. **F15 vs F18 Chihuahua lifespan:** show 11.8 (median), or both with the one-line note?
-3. **F11 ancestor size:** OK to say "much bigger" with no number?
+## Decisions (Oct 26, Bryan)
+1. **F07:** included as a myth check ("is it a common legend? If so include it but label it as a myth busted").
+   Verdict wording is "no old record backs it", not "busted": nobody has disproved it, the old sources are just missing.
+2. **F15 vs F18:** 11.8 years only; F18 stays off the page ("7.9 is ridiculous lol").
+3. **F11:** scale it ("How much bigger we talking?"): F11a (Wolfspitz cousin over twice as tall) and F10 (Victoria's
+   Marco about 12 lb vs today's 3–7 lb standard).
 4. Unverified rows (F01 number, F16, F25, F26 Chi, F27, F36, F37): stay off the page unless a later check
    (with the network open) confirms them.

@@ -124,3 +124,9 @@ Whether ChatGPT deep research works on Bryan's plan; images (drawn or photos), a
 - Oct 26, 2026 · Brief approved ("okay" / "Okay") · Stage: research.
 - Oct 26, 2026 · Prompt C: "this isn't a main focus of the infographic one report is fine on it" · one Gemini report
   for the dogs-as-food menu; two-source rule per figure still holds.
+- Oct 26, 2026 · Hot-water-bottle dogs: "is it a common legend? If so include it but label it as a myth busted" · shown
+  as a myth check; verdict worded "no old record backs it" (unproven, not disproven).
+- Oct 26, 2026 · Lifespan: "11.8 years, 7.9 is ridiculous lol" · median age at death only; life expectancy at birth
+  (7.9) left off.
+- Oct 26, 2026 · Size: "try to provide some context. How much bigger we talking? 3x bigger? The size of an
+  elephant?" · scale shown with checked comparisons (F10, F11a), never an unsourced number.
