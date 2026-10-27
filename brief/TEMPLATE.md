@@ -21,11 +21,13 @@ sizes, density and whether it can scroll._
 _The story behind the numbers; common misconceptions; what it must never say, compare, rank or show, and why._
 
 ## 5. The questions the numbers must answer
-_Each question becomes research. Figures the client already has go here with their origin; they still get checked._
+_Each question becomes research. Figures the client already has go here with their origin; they still get checked.
+Weight: **main** (the piece is built on it) or **side** (a line or a cameo). Something the client said in passing is
+**side** until they call it main._
 
-| # | Question | Why it matters to the reader |
-|---|---|---|
-| Q1 | | |
+| # | Question | Weight | Why it matters to the reader |
+|---|---|---|---|
+| Q1 | | | |
 
 ## 6. Research plan
 _Which tools the client will run (two or more), which prompts (`proj/<name>/research/prompts.md`), and any sources the

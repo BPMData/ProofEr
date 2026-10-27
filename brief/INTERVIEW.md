@@ -23,6 +23,11 @@ and the lines the piece must never cross.
   it must never show. Sensitive subjects need these most.
 - **Facts come from research, not from you.** Never fill a gap from memory, not even a "well-known" number. Keep a
   running list of the figures the piece needs; they become the research prompts.
+- **Weigh asides before you build on them.** Clients think out loud: jokes, "yeah fine, maybe we should mention X",
+  "I'm not sure, maybe research can find out". An aside is a **side note** until the client says otherwise. It never
+  becomes a framing line, its own research question or a section by itself. Log it as a side note, and in the next
+  reflect-back ask what weight it gets: "You mentioned X. Main point, a quick side note, or just a joke?" Only an
+  answer of "main point" makes it a main point.
 - **Reflect back** in one sentence per round ("So: a poster for a 10th-grade history class, read up close, about how
   many people the Holocaust killed in each country, quiet and respectful.").
 - **Delegation must be explicit.** "You decide" is fine for design. It is never an answer for the facts, the
@@ -94,7 +99,8 @@ session knows where the piece is and what it may open. Update it at each gate an
 `build`, a hook logs every read to `proj/<name>/access.jsonl` (it never blocks anything); commit that log with each
 stage commit.
 
-1. **Reflect back** the whole piece in one paragraph, plus the open questions.
+1. **Reflect back** the whole piece in one paragraph, plus the open questions. Name the side notes separately
+   ("Side notes, a line each unless you say otherwise: ..."), so the client sees how much room each one gets.
 2. **Draft the brief** (`Stage: brief`) in the client's words, with the reasons kept. Mark gaps **ASK** and Claude's
    drafts **DRAFT**. Commit.
 3. **Approval.** The client approves or edits it. No research prompts and no design before this.
