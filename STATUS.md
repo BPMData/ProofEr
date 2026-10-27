@@ -21,6 +21,6 @@ _Last updated: Oct 26, 2026 (tentative skeleton: rules, interview, research step
 
 ## Next
 1. **First piece (Pomewawa) done.** Lessons: the network policy blocked opening papers (allow nature.com, PMC, akc.org); the stage-read log needs a commit after every turn; the interview took an aside (the Cane Corso joke) as a main point, so asides now stay side notes until the client says otherwise (`INTERVIEW.md`, T13).
-2. **Run `tools/eval_new_piece.py` by hand once** to measure the first-question budget for this repo.
+2. **First-question eval run by hand (Oct 27):** repo share 9,428 of 12,000 tokens, $0.09 (budget $0.35); it asked before designing and opened only the skill, `brief/INTERVIEW.md` and `STATUS.md`. Its FAIL was a path bug in the script (macOS `/private/var`), now fixed; one rerun should show PASS.
 3. **Bryan's two Holocaust pages** are published in `pieces/` (fonts embedded, companion links made local). Made just before ProofEr with the same method and fact-checking; their figures tables aren't in the repo yet (`proj/` folders for them would be the next step).
 4. **GitHub Pages** is on (deploy from `main`, root); add the first card to `index.html` when a piece is published.
