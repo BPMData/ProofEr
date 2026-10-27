@@ -81,3 +81,5 @@ Reports: G-A1/G-A2 (Gemini A), G-B1/G-B2 (Gemini B), G-C (Gemini C), CG (ChatGPT
 | F39 | Newton's dog Diamond is a legend: assistant Humphrey Newton said he kept neither dog nor cat (1684–89); papers scorched c. 1692 | as stated | Wikipedia "Diamond (dog)" (Brewster); MathPages | G-A2 | — | **checked as a legend** |
 | F40 | Mozart family dog Pimperl was a fox terrier, not a Pomeranian/Spitz | as stated | WOSU Classical 101; SalzburgerLand (Mozarteum-linked) | G-A2 says "Spitz" (wrong) | — | **checked** |
 | — | Michelangelo's Pomeranian | — | no source found either way | G-A2 | — | **reject** |
+| F41 | Queen Victoria kept a large Pomeranian breeding kennel; first showed Marco in 1891 and the small type became popular at once; her Pomeranian Turi was brought to her deathbed (1901) | as stated | Wikipedia "Pomeranian dog"; American Pomeranian Club (pomeranian.org); Dogster | G-A2 | Marco's arrival 1888 vs first shown 1891 | **checked*** |
+| — | F40 (Mozart's Pimperl) removed from the page, Oct 27 (Bryan: "the mozart story is lame") | | | | | |

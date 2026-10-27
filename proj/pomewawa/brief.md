@@ -164,3 +164,6 @@ Approved under Bryan's delegation ("you're on your own from here on out, just do
 - Oct 27, 2026 · Replacement: "I agree with #1, but we should also 100% track that one musician bro who literally put
   chiwawas on the map in the US" · new Plate VI "Famous company": Xavier Cugat (Spanish-born, raised in Cuba, not
   Mexican), Newton and Mozart myth checks. Michelangelo story dropped (no source either way).
+- Oct 27, 2026 · "find something better than 'two people who didn't have pomeranians' ... the mozart story is lame ...
+  How about queen victoria as the counterpoint to xavier cugat" · Plate VI is now Victoria (Pomeranian) vs Cugat
+  (Chihuahua), with photos Bryan supplied, embedded in the file; Newton myth check stays; Mozart removed.
