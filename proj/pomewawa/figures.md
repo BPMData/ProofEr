@@ -75,3 +75,9 @@ Reports: G-A1/G-A2 (Gemini A), G-B1/G-B2 (Gemini B), G-C (Gemini C), CG (ChatGPT
   finding and are not part of the 4%; left off.
 - **F16 → checked as a range:** Pomeranian 12.2 years (UK study, via Wikipedia) to 14 years (Inoue, Kwan & Sugiura,
   J. Vet. Med. Sci. 80, 2018, Japanese pet cemeteries; Wikipedia; G-B1 agrees). Shown as text, not on the chart.
+
+## Plate VI: famous company (Oct 27, checked by search)
+| F38 | Xavier Cugat (born Girona, Spain; raised Havana) kept Chihuahuas in public, films and TV; credited with popularizing the breed in the 1940s–50s | as stated | VCA Animal Hospitals breed guide; OTRCat | — | "3rd most popular by 1964" single source, left off; Adelina Patti 1890s claim single source, left off | **checked** |
+| F39 | Newton's dog Diamond is a legend: assistant Humphrey Newton said he kept neither dog nor cat (1684–89); papers scorched c. 1692 | as stated | Wikipedia "Diamond (dog)" (Brewster); MathPages | G-A2 | — | **checked as a legend** |
+| F40 | Mozart family dog Pimperl was a fox terrier, not a Pomeranian/Spitz | as stated | WOSU Classical 101; SalzburgerLand (Mozarteum-linked) | G-A2 says "Spitz" (wrong) | — | **checked** |
+| — | Michelangelo's Pomeranian | — | no source found either way | G-A2 | — | **reject** |

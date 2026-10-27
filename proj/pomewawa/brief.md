@@ -161,3 +161,6 @@ Approved under Bryan's delegation ("you're on your own from here on out, just do
 - Oct 27, 2026 · Menu copy, word for word: "I think most people would eat a dog like a cinnabon under the right
   circumstances. The record...." and "My favorite · South Pole, 1911"; "No need for quotes, no need to use my name" ·
   first person, no quotes, no name in the menu.
+- Oct 27, 2026 · Replacement: "I agree with #1, but we should also 100% track that one musician bro who literally put
+  chiwawas on the map in the US" · new Plate VI "Famous company": Xavier Cugat (Spanish-born, raised in Cuba, not
+  Mexican), Newton and Mozart myth checks. Michelangelo story dropped (no source either way).
