@@ -89,11 +89,31 @@ summary:focus-visible{outline:3px solid var(--acc);outline-offset:3px}
 .about h3{margin-top:1.2em}
 footer{margin-top:30px;font-size:15px;color:var(--dim)}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* laptop and wider: two columns per plate, headline pinned left */
+@media (min-width:900px){
+  main{max-width:1180px;padding:56px 40px 72px}
+  section{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);column-gap:72px;padding:72px 0}
+  .ph{position:sticky;top:32px;align-self:start}
+  h2{font-size:clamp(60px,6vw,88px)}
+  section.hero{grid-template-columns:minmax(0,5fr) minmax(0,7fr);padding:24px 0 72px}
+  section.hero .ph{grid-column:1 / -1}
+  section.hero .pb{grid-column:2;max-width:34em}
+  section.hero .ph{position:static}
+  h1{font-size:clamp(100px,10.5vw,150px)}
+  .hero .sub{font-size:21px}
+  .pb > :first-child{margin-top:0}
+  .cols{height:360px}
+  .stamp{margin:30px 0}
+  .card .big{font-size:64px}
+}
 @media print{
   body{background:#fff;font-size:12pt}
   main{max-width:none;padding:0}
   section{break-inside:avoid-page;padding:20px 0}
   .stamp{transform:none}
+  section{display:block}
+  .ph{position:static}
   details > *{display:block}
   summary::after{content:""}
   .hb .bar,.hb .seg,.cols .c[style*="background"]{-webkit-print-color-adjust:exact;print-color-adjust:exact}
@@ -104,15 +124,22 @@ footer{margin-top:30px;font-size:15px;color:var(--dim)}
 <main>
 
 <section class="hero" aria-labelledby="t0">
+<header class="ph">
   <p class="kick">The Pomewawa · a field guide</p>
   <h1 id="t0">Tiny.<br>Ancient.<br><span class="acc">Unbothered.</span></h1>
+</header>
+<div class="pb">
   <p class="sub">The Pomewawa is a Pomeranian × Chihuahua. Two tiny breeds, one long and strange history. Every number on this page is checked; the sources are at the bottom.</p>
   <p class="byline">By Bryan Murphy</p>
+</div>
 </section>
 
 <section aria-labelledby="t1">
+<header class="ph">
   <p class="kick">Plate I · Aztec roots</p>
   <h2 id="t1">On the menu<br>since <span class="acc">1520.</span></h2>
+</header>
+<div class="pb">
   <ol class="tl">
     <li><span class="when">From 1100 BCE</span>At Ceibal, a Maya city in today's Guatemala, dogs ate so much corn it shows in the chemistry of their bones. Some were brought in alive from the highlands.<div class="src">Sharpe et al., PNAS, 2018</div></li>
     <li><span class="when">1520</span>Hernán Cortés writes to Emperor Charles V about the great market of Tenochtitlan, where “little dogs” are raised for eating.<div class="src">Cortés, Second Letter to Charles V, Oct 30, 1520</div></li>
@@ -130,11 +157,15 @@ footer{margin-top:30px;font-size:15px;color:var(--dim)}
     <div class="v">Real Aztec belief</div>
     <div class="src">Recorded in the Florentine Codex (16th century). The detail about which dog colors would refuse comes from later retellings.</div>
   </div>
+</div>
 </section>
 
 <section aria-labelledby="t2">
+<header class="ph">
   <p class="kick">Plate II · Drawn to scale</p>
   <h2 id="t2">A big dog,<br><span class="acc">made small.</span></h2>
+</header>
+<div class="pb">
   <p class="sub">The Pomeranian and the Wolfspitz share one breed standard (FCI 97), at opposite ends. Height at the shoulder, from the ground up.</p>
   <figure role="img" aria-label="Bar chart, drawn to scale from zero: Wolfspitz 49 centimeters at the shoulder, Pomeranian 22 centimeters. The Wolfspitz is a bit over twice as tall." style="margin:0">
     <div class="cols" aria-hidden="true">
@@ -160,11 +191,15 @@ footer{margin-top:30px;font-size:15px;color:var(--dim)}
   </figure>
   <p>Breed histories say the Pomeranian's size about halved during Victoria's lifetime. Years before, around 1777, Thomas Gainsborough painted a Pomeranian and her puppy; the painting hangs in the Tate, London.</p>
   <div class="src">FCI standard 97; American Pomeranian Club; Wikipedia, “Pomeranian dog”; Dogs Queensland; Frick Collection and Tate.</div>
+</div>
 </section>
 
 <section aria-labelledby="t3">
+<header class="ph">
   <p class="kick">Plate III · Attitude</p>
   <h2 id="t3">Small.<br>Armed.<br><span class="acc">Documented.</span></h2>
+</header>
+<div class="pb">
   <div class="card">
     <div class="big">Top tier</div>
     <p>In a 2008 survey of dog owners covering more than 30 breeds, Chihuahuas were among the breeds most likely to bite, or try to, with strangers, and above average for aggression toward other dogs.</p>
@@ -180,11 +215,15 @@ footer{margin-top:30px;font-size:15px;color:var(--dim)}
     <p>Where the Chihuahua lands in Stanley Coren's famous ranking of breeds by obedience. Unbothered.</p>
     <div class="src">Coren, The Intelligence of Dogs, 1994 (based on surveys of obedience judges).</div>
   </div>
+</div>
 </section>
 
 <section aria-labelledby="t4">
+<header class="ph">
   <p class="kick">Plate IV · How long they last</p>
   <h2 id="t4">Outlives the<br><span class="acc">big guy.</span></h2>
+</header>
+<div class="pb">
   <p class="sub">Typical age at death (the median), from 584,734 dogs in the UK. Bars start at 0 years.</p>
   <figure role="img" aria-label="Bar chart from zero years: Chihuahua, typical age at death 11.8 years; Cane Corso, 8.1 years." style="margin:0">
     <div aria-hidden="true">
@@ -205,11 +244,15 @@ footer{margin-top:30px;font-size:15px;color:var(--dim)}
   </div>
   <p>The hardest bite actually measured in a pet dog with a sensor: <strong class="acc">1,394 newtons</strong>, about 313 pounds of force. Most of the 22 dogs tested bit far softer (middle value: 163 newtons).</p>
   <div class="src">Lindner et al., Journal of Veterinary Dentistry, 1995</div>
+</div>
 </section>
 
 <section aria-labelledby="t5">
+<header class="ph">
   <p class="kick">Plate V · Paperwork</p>
   <h2 id="t5">Papers,<br><span class="acc">please.</span></h2>
+</header>
+<div class="pb">
   <ol class="tl">
     <li><span class="when">1900</span>The American Kennel Club recognizes the Pomeranian.<div class="src">Showsight; American Pomeranian Club</div></li>
     <li><span class="when">1904</span>…and the Chihuahua. The first one registered is “Midget,” owned by H. Raynor of Texas.<div class="src">American Kennel Club; Wikipedia</div></li>
@@ -220,11 +263,15 @@ footer{margin-top:30px;font-size:15px;color:var(--dim)}
     <p>dogs that survived the Titanic were Pomeranians. (The third was a Pekingese.)</p>
     <div class="src">National Museums Liverpool; Encyclopedia Titanica</div>
   </div>
+</div>
 </section>
 
 <section aria-labelledby="t6">
+<header class="ph">
   <p class="kick">Plate VI · Wrong dog, wrong house</p>
   <h2 id="t6">Know your<br><span class="acc">job.</span></h2>
+</header>
+<div class="pb">
   <p>The Kangal is a Turkish shepherd dog, whose name seems to come from the town of Kangal near Sivas, bred to live with flocks of sheep and fend off wolves.</p>
   <figure role="img" aria-label="Bar chart from zero kilograms: male Kangal, 48 to 60 kilograms; Pomeranian, 1.4 to 3.2 kilograms (3 to 7 pounds)." style="margin:0">
     <div aria-hidden="true">
@@ -239,11 +286,15 @@ footer{margin-top:30px;font-size:15px;color:var(--dim)}
     <span class="reply">“Okay well you would know bro.”</span>
     <div class="src">Bryan Murphy</div>
   </blockquote>
+</div>
 </section>
 
 <section aria-labelledby="t7">
+<header class="ph">
   <p class="kick">Plate VII · The menu</p>
   <h2 id="t7">Everyone eats<br>the dog <span class="acc">eventually.</span></h2>
+</header>
+<div class="pb">
   <p>Bryan's theory: “actually everyone would eat a dog like a cinnabon if they had to.” The record agrees. Hunger, war, custom: it happened all over the world. Below, in date order. Tap one to open it.</p>
   <div class="feature">
     <div class="k">Bryan's favorite · South Pole, 1911</div>
@@ -275,11 +326,15 @@ footer{margin-top:30px;font-size:15px;color:var(--dim)}
   <details><summary><span>South Korea<small>ban from 2027</small></span></summary>
     <p>On Jan 9, 2024, the National Assembly voted 208–0 to end breeding, slaughtering and selling dogs for meat, starting in 2027: up to 3 years in prison or a 30 million won fine.</p>
     <div class="src">Global News; ABC News; and other outlets</div></details>
+</div>
 </section>
 
 <section class="about" aria-labelledby="t8">
+<header class="ph">
   <p class="kick">About these numbers</p>
   <h2 id="t8">How we<br><span class="acc">checked.</span></h2>
+</header>
+<div class="pb">
   <p>Research ran in Gemini Deep Research and ChatGPT deep research; every figure was then cross-checked against the sources below. A number made it onto this page only if at least two independent sources agreed.</p>
   <h3>Lifespans</h3>
   <p>Typical (median) age at death from one big UK study. Other studies count differently: one gives the Chihuahua 7.9 years “at birth,” because it counts the many puppies who die young. We used age at death. We found no study of the Pomewawa itself; its numbers come from its parents.</p>
@@ -291,11 +346,15 @@ footer{margin-top:30px;font-size:15px;color:var(--dim)}
   <p>No study has measured Kangals or Cane Corsos. “PSI” is a pressure, not a force, and the popular numbers have no source.</p>
   <h3>Myth checks</h3>
   <p>A myth check means we found no old record. That's unproven, not disproven.</p>
+</div>
 </section>
 
 <section class="sources" aria-labelledby="t9">
+<header class="ph">
   <p class="kick">Sources</p>
   <h2 id="t9">Receipts.</h2>
+</header>
+<div class="pb">
   <ol>
     <li>Cortés, H. Second Letter to Charles V, Oct 30, 1520. Excerpts: American Historical Association, “Cortés Describes Tenochtitlan”; World History Commons. <a href="https://www.historians.org/resource/cortes-describes-tenochtitlan/">historians.org</a></li>
     <li>Sharpe, A. E. et al. “Earliest isotopic evidence in the Maya region for animal management and long-distance trade at the site of Ceibal, Guatemala.” PNAS 115 (2018). Smithsonian press release.</li>
@@ -330,6 +389,7 @@ footer{margin-top:30px;font-size:15px;color:var(--dim)}
   <footer>
     By Bryan Murphy, made with <a href="https://github.com/BPMData/ProofEr">ProofEr</a>. Fonts: Barlow Condensed and Source Serif 4, both under the SIL Open Font License. Research by Gemini and ChatGPT deep research; checking and design with Claude.
   </footer>
+</div>
 </section>
 
 </main>
