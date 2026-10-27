@@ -17,7 +17,9 @@ PROMPT = 'Make an infographic about how much food school cafeterias throw away.'
 MODEL = 'sonnet'                      # the model most clients use
 MAX_TURNS = 15
 MAX_BUDGET_USD = 0.50                 # hard cap per run (Claude Code stops there)
-CLAUDE_EXE = shutil.which('claude') or '/opt/homebrew/bin/claude'
+CLAUDE_EXE = shutil.which('claude') or next(     # Thonny doesn't see the terminal's PATH, so try the usual places
+    (p for p in [os.path.expanduser('~/.local/bin/claude'), '/opt/homebrew/bin/claude', '/usr/local/bin/claude']
+     if os.path.exists(p)), '~/.local/bin/claude (install Claude Code: see tools/CLAUDE.md)')
 OUT_DIR = os.environ.get('EVAL_OUT') or os.path.join(ROOT, 'dist', 'eval')    # dist/ is git-ignored
 RUN_CONTROL = True                    # also measure Claude Code's own overhead in an empty folder
 CONTROL_PROMPT = 'Say OK.'
@@ -58,7 +60,8 @@ def rel(path, base):
     if not path:
         return path
     if os.path.isabs(path):
-        r = os.path.relpath(path, base)
+        # realpath: on a Mac the temp folder is both /var/... and /private/var/..., so compare resolved paths
+        r = os.path.relpath(os.path.realpath(path), os.path.realpath(base))
         return path if r.startswith('..') else r.replace(os.sep, '/')
     return path[2:] if path.startswith('./') else path
 
