@@ -155,3 +155,9 @@ Approved under Bryan's delegation ("you're on your own from here on out, just do
 - Oct 26, 2026 · "it looks good. Let's do it, lock and load you're on your own from here on out ... You don't have to
   ask me if any more aesthetic choices you can make them on your own" · layout, stills and DRAFT headlines approved;
   Stage: build. Aesthetic calls delegated to Claude (facts are not).
+- Oct 27, 2026 · "i decided I hate the kangal subsection. 1) i'm not a real source, 2) there's like zero interesting
+  pomeranian and chihuahua facts" · Plate VI (Kangals) removed; Kangal dropped from the bite-force myth. Replacement
+  section: ASK.
+- Oct 27, 2026 · Menu copy, word for word: "I think most people would eat a dog like a cinnabon under the right
+  circumstances. The record...." and "My favorite · South Pole, 1911"; "No need for quotes, no need to use my name" ·
+  first person, no quotes, no name in the menu.
