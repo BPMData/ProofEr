@@ -26,5 +26,6 @@ Not verified / known limits:
 ## Open question (Oct 28, 2026)
 - **F07, hot-water-bottle dogs:** Bryan wants it settled. Prompt D in `research/prompts.md` (one Gemini run) asks
   for the Florentine Codex Book 11 xoloitzcuintli passage itself. Claude's unchecked recollection: it says people
-  covered *the dog* with a blanket at night. When `gemini-D.md` comes back, open the quoted sources, update F07 and,
-  if the verdict changes, the page's myth check.
+  covered *the dog* with a blanket at night. **Oct 28:** Gemini's summary agrees (`gemini-D.md`); two more sources
+  agree in search summaries (Wiktionary citing Book 11 f. 17r; UNAM *Estudios de Cultura Náhuatl*). Still needed:
+  Gemini's full report with links and the quoted passage, then Bryan's call on the myth-check wording.
