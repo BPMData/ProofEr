@@ -167,3 +167,6 @@ Approved under Bryan's delegation ("you're on your own from here on out, just do
 - Oct 27, 2026 · "find something better than 'two people who didn't have pomeranians' ... the mozart story is lame ...
   How about queen victoria as the counterpoint to xavier cugat" · Plate VI is now Victoria (Pomeranian) vs Cugat
   (Chihuahua), with photos Bryan supplied, embedded in the file; Newton myth check stays; Mozart removed.
+- Oct 28, 2026 · "can we add a photo of a real pomewawa to the top" (Bryan supplied it) · the family dog's photo
+  goes in the hero, captioned "A real Pomewawa", no name. Bryan's choice overrides the earlier "don't dox my
+  pomewawa" on the photo only; the name stays off.
