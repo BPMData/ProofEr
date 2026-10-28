@@ -23,9 +23,11 @@ Not verified / known limits:
 - Screen-reader pass with a real reader not done; checked by structure only.
 - Usage not recorded (brief `Usage:` line).
 
-## Open question (Oct 28, 2026)
-- **F07, hot-water-bottle dogs:** Bryan wants it settled. Prompt D in `research/prompts.md` (one Gemini run) asks
-  for the Florentine Codex Book 11 xoloitzcuintli passage itself. Claude's unchecked recollection: it says people
-  covered *the dog* with a blanket at night. **Oct 28:** Gemini's summary agrees (`gemini-D.md`); two more sources
-  agree in search summaries (Wiktionary citing Book 11 f. 17r; UNAM *Estudios de Cultura Náhuatl*). Still needed:
-  Gemini's full report with links and the quoted passage, then Bryan's call on the myth-check wording.
+## Oct 28, 2026: hot-water-bottle myth check (F07)
+- Prompt D (one Gemini run, `research/gemini-D.md`): Sahagún's Book 11 says people covered *the dogs* with blankets
+  at night; no colonial source has dogs warming people. Wiktionary (citing Book 11, f. 17r) agrees, seen as a
+  search summary. Bryan approved the new verdict; the stamp, "About these numbers" and sources are updated in both
+  copies of the page. Offline check passes; stamp checked at 390 px.
+- Still open: the Book 11 passage hasn't been read directly (Wiktionary and the UNAM journal site are blocked by
+  this environment's network policy). The report has no links, so its folk-medicine and thermography claims stay off
+  the page.

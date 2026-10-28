@@ -170,3 +170,6 @@ Approved under Bryan's delegation ("you're on your own from here on out, just do
 - Oct 28, 2026 · "can we add a photo of a real pomewawa to the top" (Bryan supplied it) · the family dog's photo
   goes in the hero, captioned "A real Pomewawa", no name. Bryan's choice overrides the earlier "don't dox my
   pomewawa" on the photo only; the name stays off.
+- Oct 28, 2026 · Hot-water-bottle dogs, after prompt D: "I agree with your suggestion" (verdict "The old record says
+  the reverse: people blanketed the dogs") · the myth check now says Book 11 of the Florentine Codex has people
+  covering the dogs with blankets at night; "About these numbers" and the sources list updated to match.
