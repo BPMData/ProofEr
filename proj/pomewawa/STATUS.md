@@ -22,3 +22,9 @@ Not verified / known limits:
   PMC, akc.org). `checked*` rows rely on secondary sources.
 - Screen-reader pass with a real reader not done; checked by structure only.
 - Usage not recorded (brief `Usage:` line).
+
+## Open question (Oct 28, 2026)
+- **F07, hot-water-bottle dogs:** Bryan wants it settled. Prompt D in `research/prompts.md` (one Gemini run) asks
+  for the Florentine Codex Book 11 xoloitzcuintli passage itself. Claude's unchecked recollection: it says people
+  covered *the dog* with a blanket at night. When `gemini-D.md` comes back, open the quoted sources, update F07 and,
+  if the verdict changes, the page's myth check.

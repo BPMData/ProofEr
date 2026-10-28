@@ -108,6 +108,61 @@ Rules for your answer:
 
 ---
 
+## Prompt D: Were hairless dogs really "hot-water bottles"? (figure F07, Oct 28, 2026)
+
+Bryan's follow-up, one Gemini Deep Research run on this question only. The earlier reports split: `gemini-A-v2`
+says Book XI of the Florentine Codex records it; `chatgpt-AB` and `gemini-A-v1` say no colonial text does. Nobody
+quoted the line. This prompt asks for the line itself. Save the report as `gemini-D.md`.
+
+```
+I need to settle one historical claim with primary evidence, not repetition. The claim: in Aztec and early colonial
+Mexico, people used hairless dogs (xoloitzcuintli) to warm themselves at night or to soothe aches and illness, as
+"living hot-water bottles". It is repeated by National Geographic, the Smithsonian's National Museum of the
+American Indian and many dog-breed sites, often credited to Bernardino de Sahagún's Florentine Codex.
+
+The idea is physically plausible: the dog has no coat, its body runs about 38-39 °C, so dog and person would warm
+each other. I'm not asking whether it is plausible. I'm asking what is actually recorded, by whom, and when.
+
+1. The Florentine Codex, Book 11 ("Earthly Things"), the section on dogs. Quote the passage on the
+   xoloitzcuintli in full: the Nahuatl text and the English of the Dibble & Anderson translation (University of
+   Utah Press / School of American Research), with volume, chapter, paragraph and page. Also give the Spanish
+   column (Sahagún's Historia general de las cosas de Nueva España) for the same passage. Then answer plainly:
+   does it say people used the dog to warm THEMSELVES, or that people covered or wrapped THE DOG (for example
+   with a blanket or cape, tilmatli) to keep the dog warm, or neither? If the passage mentions a blanket, quote
+   exactly who covers whom.
+2. Search the rest of the Florentine Codex and Sahagún's other works (Primeros Memoriales, Book 10 on bodily
+   ailments and medicine, Book 11 on medicinal plants and animals) for any mention of dogs used for warmth,
+   healing, rheumatism, joint pain or the sick. Quote what you find, with locations.
+3. Other early sources: check Francisco Hernández (Historia natural de Nueva España, the "xoloitzcuintli" or
+   "Mexican dog" entries), the Libellus de medicinalibus Indorum herbis (Badianus/Cruz manuscript, 1552), Diego
+   Durán, Motolinía, Hernán Cortés's letters, Bernal Díaz del Castillo, Francisco López de Gómara, Gonzalo
+   Fernández de Oviedo, and Francisco Javier Clavijero (Storia antica del Messico, 1780). For each: does it
+   mention hairless dogs, and does it mention warmth or healing? Quote it, or say plainly "not found".
+4. Later evidence: modern ethnography or folk-medicine studies (19th-21st century) recording people in Mexico, or
+   in Peru with the Peruvian hairless dog, holding hairless dogs against aching joints, the stomach or the chest,
+   or sleeping with them for warmth. Who recorded it, where, when. Include the work of Raúl Valadez Azúa (UNAM)
+   and Norman Pelham Wright on the xoloitzcuintli if relevant.
+5. Trace the "hot-water bottle" claim: the earliest printed source you can find that says it, in English or
+   Spanish, and what that source cites. Then follow the National Geographic and Smithsonian NMAI articles' own
+   citations back as far as they go.
+6. Any measurements of hairless dogs' skin-surface temperature compared with coated dogs (veterinary studies).
+
+Rules for your answer:
+- Quote only text you have actually read in that source. If you only saw a source cited by someone else, say
+  "cited secondhand by X" and do not paraphrase it as if you read it. If you cannot access a source, say so.
+- For every claim give: title, author or institution, year, volume/chapter/page, and a link. Primary sources
+  (the codices, colonial chronicles, peer-reviewed ethnography) before museum pages, magazines and breed sites.
+- Where sources disagree, list each version with its source and why they differ.
+- "Not found" is a useful answer. Don't fill gaps with plausibility.
+- End with a verdict, choosing one: (a) recorded in a 16th-century source (quote it); (b) recorded only in later
+  colonial sources; (c) recorded only in modern folk practice or ethnography; (d) no traceable source: a modern
+  story. Say how confident you are and what evidence would change the verdict.
+- Then a table: source | date | what it says (quoted or "not found") | warmth for people / warmth for dog /
+  healing / none | link | read directly or secondhand.
+```
+
+---
+
 ## Reports received (Oct 26, 2026)
 Bryan's file names → saved as:
 - `dr_q1_q2.md` → `chatgpt-AB.md` (assumed ChatGPT: prompts A and B in one run; **no links at all**, so it can only
