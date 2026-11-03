@@ -30,7 +30,10 @@ function buildStrike(svg) {
     <feComposite in2="inner" operator="in" result="shadow"/><feOffset in="SourceAlpha" dy="3" result="lo"/>
     <feComposite in="lo" in2="SourceAlpha" operator="out" result="lip"/><feFlood flood-color="#fff" flood-opacity=".38"/>
     <feComposite in2="lip" operator="in" result="hl"/>
-    <feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="shadow"/><feMergeNode in="hl"/></feMerge>`;
+    <feTurbulence type="fractalNoise" baseFrequency="1.7" numOctaves="2" seed="${3 + uid}" result="n"/>
+    <feColorMatrix in="n" type="matrix" values="0 0 0 0 .22  0 0 0 0 .23  0 0 0 0 .25  .85 0 0 0 -.18" result="ng"/>
+    <feComposite in="ng" in2="SourceAlpha" operator="in" result="grain"/>
+    <feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="grain"/><feMergeNode in="shadow"/><feMergeNode in="hl"/></feMerge>`;
   const r = el("filter", { id: id + "r" }, defs);
   r.innerHTML = `<feTurbulence type="fractalNoise" baseFrequency="1.1" numOctaves="2" seed="${7 + uid}"/>
     <feDisplacementMap in="SourceGraphic" scale="3.5"/>`;
@@ -39,7 +42,7 @@ function buildStrike(svg) {
   const base = el("g", {}, world);          // paper sheet / label under an ink mark
   const markG = el("g", {}, world);
   const tool = el("g", {}, svg);            // the die or stamp, above everything
-  let ink = "#4e5256";
+  let ink = mode === "deboss" ? "#d3d7db" : "#4e5256";   // deboss: frosted, as if sandblasted into polished steel
 
   if (mode === "deboss") {
     markG.setAttribute("filter", `url(#${id}d)`);
@@ -139,6 +142,34 @@ function landing(g, p, at, rot, cx, cy) {
   g.setAttribute("transform", `rotate(${rot} ${cx} ${cy}) translate(${cx} ${cy}) scale(${k.toFixed(3)}) translate(${-cx} ${-cy})`);
 }
 const CUSTOM = {
+  fakejp(svg) {
+    const defs = el("defs", {}, svg);
+    roughFilter(defs, "fj", 21);
+    const card = (x, y, name, sub, rot) => {
+      const g = el("g", { transform: `rotate(${rot} ${x + 190} ${y + 90})` }, svg);
+      el("rect", { x, y, width: 380, height: 180, fill: "#141414" }, g);
+      el("rect", { x: x + 10, y: y + 10, width: 360, height: 160, fill: "none", stroke: "#b8963e", "stroke-width": 2 }, g);
+      el("text", { x: x + 190, y: y + 104, "text-anchor": "middle", fill: "#e9d9a8", "font-family": "Serif,serif", "font-size": name.length > 6 ? 44 : 54,
+        style: "letter-spacing:.12em" }, g).textContent = name;
+      el("text", { x: x + 190, y: y + 144, "text-anchor": "middle", fill: "#b8963e", "font-family": "Arch,sans-serif", "font-weight": 700,
+        "font-size": 18, style: "letter-spacing:.5em" }, g).textContent = sub;
+      return g;
+    };
+    const a = card(50, 110, "KAMIKOTO", "", -3), b = card(570, 300, "HUUSK", "JAPAN", 4);
+    const stamp = el("g", { filter: "url(#fj)" }, svg);
+    el("rect", { x: 170, y: 220, width: 660, height: 150, fill: "none", stroke: "#E53A2F", "stroke-width": 14 }, stamp);
+    el("text", { x: 500, y: 318, "text-anchor": "middle", fill: "#E53A2F", "font-family": "Arch,sans-serif", "font-weight": 900,
+      "font-size": 92, style: "font-stretch:70%;letter-spacing:.06em" }, stamp).textContent = "MADE IN CHINA";
+    el("text", { x: 500, y: 356, "text-anchor": "middle", fill: "#E53A2F", "font-family": "Arch,sans-serif", "font-weight": 800,
+      "font-size": 22, style: "letter-spacing:.3em" }, stamp).textContent = "BY THEIR OWN ACCOUNTS";
+    return p => {
+      if (RM) p = 1;
+      a.style.opacity = smooth(.04, .14, p); b.style.opacity = smooth(.14, .24, p);
+      landing(stamp, p, .45, -7, 500, 295);
+      const dt = p - .45, sh = dt > 0 && dt < .06 ? 7 * Math.exp(-dt * 60) * Math.sin(dt * 300) : 0;
+      a.parentNode && [a, b].forEach(g => g.style.translate = `${sh.toFixed(2)}px 0`);
+    };
+  },
   export(svg) {
     const defs = el("defs", {}, svg);
     roughFilter(defs, "er", 13);
@@ -246,7 +277,7 @@ const CUSTOM = {
 const scenes = [...document.querySelectorAll(".scene")].map(sc => ({
   sc,
   strikes: [...sc.querySelectorAll("svg.strike")].map(buildStrike),
-  customs: [...sc.querySelectorAll("svg.porcelain, svg.splitname, svg.export")].map(n => CUSTOM[n.getAttribute("class")](n)),
+  customs: [...sc.querySelectorAll("svg.porcelain, svg.splitname, svg.export, svg.fakejp")].map(n => CUSTOM[n.getAttribute("class")](n)),
   reveals: [...sc.querySelectorAll("[data-at]")].map(n => ({ n, at: parseFloat(n.dataset.at) }))
 }));
 function sceneProgress(sc) {
