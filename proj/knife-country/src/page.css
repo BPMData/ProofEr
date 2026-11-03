@@ -189,7 +189,7 @@ details.why p{font-size:1rem;margin:.5rem 0 .3rem}
 .field details.tbl summary{color:var(--onfield-mute)}
 .field details.tbl{color:var(--onfield)}
 .field details.tbl td,.field details.tbl th{border-bottom-color:rgba(244,239,230,.25)}
-.stage svg.export{width:min(100%,1000px);height:auto;max-height:66vh;margin:0 auto;display:block;overflow:visible}
+.stage svg.fakejp,.stage svg.export{width:min(100%,1000px);height:auto;max-height:66vh;margin:0 auto;display:block;overflow:visible}
 /* the belts: always on, stacked in the corner */
 #belt{transform:none;transition:none;display:flex;flex-direction:column-reverse;align-items:flex-end;gap:4px;right:calc(8px + env(safe-area-inset-right))}
 #belt::before{display:none}

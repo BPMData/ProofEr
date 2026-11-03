@@ -502,5 +502,19 @@
   "url": "https://knifesteelnerds.com/2020/05/01/testing-the-edge-retention-of-48-knife-steels/",
   "via": "Knife Steel Nerds PDFs supplied by Bryan",
   "conf": "high"
+ },
+ {
+  "id": "kamikoto",
+  "text": "Kamikoto, a Japanese-styled knife brand owned by Hong Kong-based Galton Voysey: reviewers quote its own site saying its blades are 'handmade by a select group of experienced craftsmen in Yanjiang, China'; one review counted 'Japan' 17 times on its About page and 'China' once.",
+  "url": "https://prudentreviews.com/kamikoto-review/",
+  "via": "web search (Nov 3); also q3b",
+  "conf": "medium–high (the company's own statement, as quoted)"
+ },
+ {
+  "id": "huusk",
+  "text": "Huusk, a knife brand sold with 'Japan' under its name: a review citing its site says the knives are designed in Japan and handcrafted in a factory in China; a buyer reports the package said 'Made In China'.",
+  "url": "https://www.dailykos.com/stories/2021/7/3/2038270/-Huusk-knives-very-strange-scam",
+  "via": "web search (Nov 3); also q3a, q3b",
+  "conf": "medium"
  }
 ]
