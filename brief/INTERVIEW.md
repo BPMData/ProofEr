@@ -23,6 +23,16 @@ and the lines the piece must never cross.
   it must never show. Sensitive subjects need these most.
 - **Facts come from research, not from you.** Never fill a gap from memory, not even a "well-known" number. Keep a
   running list of the figures the piece needs; they become the research prompts.
+- **Ask for the client's voice early.** One sentence they'd write about the subject, or a page of theirs they like,
+  is enough. Draft every line of copy in that voice, not in the clipped "X. Y. Z." cadence that reads as
+  AI-written (`taste/house.md` T14).
+- **The research may overturn the premise.** A request often carries a story ("the OG knife-makers got overtaken").
+  Keep it in the brief as the client's starting idea, not a fact; when the reports come back, say in one line
+  whether they support it, and ask before building on a flipped version ("Your sources say China was never a knife
+  exporter at all: it was banned. Build on that?").
+- **Plan for a primer.** If readers need to learn how the thing works before the story makes sense (what makes a
+  knife good before why one country's knives win), say so in round 2, and put the primer's questions into the first
+  research prompts, so the client isn't asked for a third round.
 - **Weigh asides before you build on them.** Clients think out loud: jokes, "yeah fine, maybe we should mention X",
   "I'm not sure, maybe research can find out". An aside is a **side note** until the client says otherwise. It never
   becomes a framing line, its own research question or a section by itself. Log it as a side note, and in the next
@@ -38,6 +48,9 @@ and the lines the piece must never cross.
 ★ = every piece. Numbers = sections of `TEMPLATE.md`.
 
 **1. The ask**
+- ★ Confirm it's a ProofEr piece before anything else: an infographic, published on the ProofEr site. (Knife
+  Country, Nov 2026, was built start to finish in the sister repo EOMD by mistake.) Motion pieces, players and
+  screensavers belong in EOMD.
 - ★ What is it about, who is it for, where will they see it, and by when? *"A poster about school lunch waste for
   the cafeteria wall, by December."*
 - ★ How to build it (skip this until the toolbox holds earlier work: see `STATUS.md`; until then every piece is made

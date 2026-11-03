@@ -3,11 +3,12 @@
 > **Visitors:** this is the project's working log. For what ProofEr is and how to use it, start with
 > [README.md](README.md).
 
-_Last updated: Oct 26, 2026 (tentative skeleton: rules, interview, research step, craft, taste, skills, tools, CI)._
+_Last updated: Nov 3, 2026 (Knife Country published)._
 
 ## Pieces
 - **holocaust-by-country**, **nazi-victims-all-groups**: Bryan's pre-ProofEr pages, published in `pieces/`.
 - **pomewawa** (Pomeranians, Chihuahuas and the mix; for family and online): **published** to `pieces/pomewawa.html`; live once merged to main. `proj/pomewawa/STATUS.md`.
+- **knife-country** (Yangjiang and the "City of Knives" title; a long scrolling piece for knife nerds online): **published** to `pieces/knife-country.html`; live once merged. Built in EOMD by mistake, then moved here; Bryan accepted its single-source figures as shown. `proj/knife-country/STATUS.md`.
 
 ## Across the repo
 - **Scope:** infographics only for now. Recipe cards may come later as a second kind of piece.
@@ -20,6 +21,13 @@ _Last updated: Oct 26, 2026 (tentative skeleton: rules, interview, research step
 - **Peeking audit:** 0 new pieces so far. Decision rule in `notes/architecture.md`.
 
 ## Next
+0. **Knife Country lessons (Nov 3)** are folded in:
+   - Confirm it's a ProofEr piece first (it was built in EOMD by mistake).
+   - Ask for the client's voice early.
+   - Say when the research overturns the premise, and plan a primer.
+   - Explain odd units; ask Bryan for primary documents.
+   - Taste items T14–T21.
+
 1. **First piece (Pomewawa) done.** Lessons: the network policy blocked opening papers (allow nature.com, PMC, akc.org); the stage-read log needs a commit after every turn; the interview took an aside (the Cane Corso joke) as a main point, so asides now stay side notes until the client says otherwise (`INTERVIEW.md`, T13).
 2. **First-question eval run by hand (Oct 27):** repo share 9,428 of 12,000 tokens, $0.09 (budget $0.35); it asked before designing and opened only the skill, `brief/INTERVIEW.md` and `STATUS.md`. Its FAIL was a path bug in the script (macOS `/private/var`), now fixed; one rerun should show PASS.
 3. **Bryan's two Holocaust pages** are published in `pieces/` (fonts embedded, companion links made local). Made just before ProofEr with the same method and fact-checking; their figures tables aren't in the repo yet (`proj/` folders for them would be the next step).

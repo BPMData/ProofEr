@@ -43,6 +43,12 @@ Rules:
 - **Disagreement is information:** record each value with its source and the reason they differ. Decide nothing
   alone: show the client the options in plain words ("Source A counts by 1939 borders, B by today's; A says X, B
   says Y. Show X, show a range, or show both with a note?"). Their call goes in the Decisions log.
+- **Explain the unit.** A test result in an odd unit ("850 mm of card") gets a plain-words note on what was measured
+  and how, or readers read it wrong (Knife Country: "what the fuck are these test cards made of… brass?").
+- **Reports repeat myths as fact.** A promotional claim ("1,400 years of knife-making") can appear in one report as
+  history and be debunked in another; trace it to its origin and label it as a claim.
+- **Ask the client for primary documents** when a quote or a test number matters: Bryan can often open a book PDF or
+  a scan the session's network can't reach (Knife Country: Reuleaux 1877, *Kitchen Confidential*, Knife Steel Nerds).
 - **Single source or unverified** figures don't go on the page, unless the client accepts them with a visible note.
 - **Rounding** is stated ("about 6 million"); the exact value and its source stay in the table.
 - Every source used ends up in the page's sources section.
