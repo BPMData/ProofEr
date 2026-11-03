@@ -253,3 +253,4 @@ _Date · the decision or verdict, in the client's words · what changed._
 - 2026-11-03 · "i was in the wrong repo the entire fucking time… push into proofer anything it needs from this
   process" · moved from EOMD to ProofEr as `proj/knife-country/`, published to `pieces/knife-country.html`; ProofEr's
   rules added (an "About these numbers" note, a print stylesheet, `figures.md`).
+- 2026-11-03 · Figures below the two-source rule: "these figures are fine… just accept it" · all 72 accepted as shown, with their visible confidence notes.

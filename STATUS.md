@@ -8,7 +8,7 @@ _Last updated: Nov 3, 2026 (Knife Country published)._
 ## Pieces
 - **holocaust-by-country**, **nazi-victims-all-groups**: Bryan's pre-ProofEr pages, published in `pieces/`.
 - **pomewawa** (Pomeranians, Chihuahuas and the mix; for family and online): **published** to `pieces/pomewawa.html`; live once merged to main. `proj/pomewawa/STATUS.md`.
-- **knife-country** (Yangjiang and the "City of Knives" title; a long scrolling piece for knife nerds online): **published** to `pieces/knife-country.html`; live once merged. Built in EOMD by mistake, then moved here; Bryan still has to accept the single-source figures. `proj/knife-country/STATUS.md`.
+- **knife-country** (Yangjiang and the "City of Knives" title; a long scrolling piece for knife nerds online): **published** to `pieces/knife-country.html`; live once merged. Built in EOMD by mistake, then moved here; Bryan accepted its single-source figures as shown. `proj/knife-country/STATUS.md`.
 
 ## Across the repo
 - **Scope:** infographics only for now. Recipe cards may come later as a second kind of piece.

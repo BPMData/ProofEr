@@ -32,12 +32,7 @@ gates (interview → brief → concepts → storyboard → build), then moved he
 - Print styles: belts hidden, scenes laid flat, marks shown struck.
 
 ## Open
-- **Figures against ProofEr's two-source rule:**
-  - 21 checked (2 against primary sources)
-  - 41 single source
-  - 6 single source from an encyclopedia
-  - 4 accepted with a note
-
-  Bryan to accept them as shown (each with its visible confidence on the page) or name rows to upgrade.
+- **Figures against ProofEr's two-source rule:** 21 checked (2 against primary sources), 41 single source, 6 from an
+  encyclopedia, 4 with a note. **Accepted by Bryan as shown (Nov 3)**, each with its visible confidence on the page.
 - Not tested on iPhone/Safari or with reduced motion (Bryan has neither).
 - "Knife Country" is a working title.

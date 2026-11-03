@@ -8,9 +8,8 @@ Philadelphia*, 1877), Bourdain (*Kitchen Confidential*) and Knife Steel Nerds (t
 
 **Against ProofEr's rule** (two independent sources for `checked`, at least one primary), this piece falls short in
 places: it was built under EOMD's one-source rule. Many rows rest on one linked document, even when two or three
-reports agree. Every source's confidence is shown on the page itself, in its sources list. **Bryan: accept the
-`single source` and `accepted with note` rows as shown (with their visible confidence notes), or name the ones to
-upgrade or cut.**
+reports agree. Every source's confidence is shown on the page itself, in its sources list. **Accepted by Bryan (Nov 3, 2026):** the `single source` and `accepted with note` rows stay
+as shown, each with its visible confidence note on the page ("these figures are fine… just accept it").
 
 Status counts: accepted with note: 4, checked: 19, checked (primary): 2, single source: 41, single source (encyclopedia): 6. Row numbers follow the page's footnote numbers.
 
