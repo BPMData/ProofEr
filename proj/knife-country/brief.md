@@ -259,4 +259,9 @@ _Date · the decision or verdict, in the client's words · what changed._
   sit on top of real brands that pretend to be Japanese · steel marks are now frosted (light, grainy, sandblasted
   look) inside the pressed-in shadows; chapter 8's stamp is now MADE IN CHINA slamming across Kamikoto and Huusk,
   the two brands whose own statements say China (others the reports named rest on one blog, so they're left out).
+- 2026-11-03 · "Huusk he's obviously trying to sound German, not Japanese… They only try to sound like the german or
+  japanese… I don't think anybody associates england with knives anymore"; "Ten Eight Son doesn't sound like it's
+  trying to sound japanese or german… Kamikoto is 100% wearing japanese yellowface" · the stamp stays where it is
+  (right after 十八子), and the copy now says Japanese- or German-sounding names, contrasts them with Shibazi's honest
+  Chinese surname, and notes nobody fakes Sheffield anymore.
 
