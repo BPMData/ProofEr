@@ -25,15 +25,17 @@ function buildStrike(svg) {
   const defs = el("defs", {}, svg);
   // deboss: dark inner shadow on top edge, light lip on the bottom edge
   const f = el("filter", { id: id + "d", x: "-5%", y: "-10%", width: "110%", height: "125%" }, defs);
-  f.innerHTML = `<feOffset in="SourceAlpha" dy="5" result="dn"/><feGaussianBlur in="dn" stdDeviation="2.4" result="dnb"/>
+  f.innerHTML = `<feOffset in="SourceAlpha" dy="3" result="dn"/><feGaussianBlur in="dn" stdDeviation="1.1" result="dnb"/>
     <feComposite in="SourceAlpha" in2="dnb" operator="out" result="inner"/><feFlood flood-color="#060707" flood-opacity=".92"/>
-    <feComposite in2="inner" operator="in" result="shadow"/><feOffset in="SourceAlpha" dy="3" result="lo"/>
+    <feComposite in2="inner" operator="in" result="shadow"/><feOffset in="SourceAlpha" dy="2" result="lo"/>
     <feComposite in="lo" in2="SourceAlpha" operator="out" result="lip"/><feFlood flood-color="#fff" flood-opacity=".38"/>
     <feComposite in2="lip" operator="in" result="hl"/>
-    <feTurbulence type="fractalNoise" baseFrequency="1.7" numOctaves="2" seed="${3 + uid}" result="n"/>
-    <feColorMatrix in="n" type="matrix" values="0 0 0 0 .22  0 0 0 0 .23  0 0 0 0 .25  .85 0 0 0 -.18" result="ng"/>
-    <feComposite in="ng" in2="SourceAlpha" operator="in" result="grain"/>
-    <feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="grain"/><feMergeNode in="shadow"/><feMergeNode in="hl"/></feMerge>`;
+    <feMerge><feMergeNode in="shadow"/><feMergeNode in="hl"/></feMerge>`;
+  // sandblast grain, as a pattern fill (only the specks go through a filter, never the letter edges)
+  const gp = el("pattern", { id: id + "g", width: 240, height: 240, patternUnits: "userSpaceOnUse" }, defs);
+  el("filter", { id: id + "n" }, defs).innerHTML = `<feTurbulence type="fractalNoise" baseFrequency="1.6" numOctaves="2" seed="${3 + uid}"/>
+    <feColorMatrix type="matrix" values="0 0 0 0 .2  0 0 0 0 .21  0 0 0 0 .23  .9 0 0 0 -.2"/>`;
+  el("rect", { width: 240, height: 240, filter: `url(#${id}n)` }, gp);
   const r = el("filter", { id: id + "r" }, defs);
   r.innerHTML = `<feTurbulence type="fractalNoise" baseFrequency="1.1" numOctaves="2" seed="${7 + uid}"/>
     <feDisplacementMap in="SourceGraphic" scale="3.5"/>`;
@@ -44,8 +46,8 @@ function buildStrike(svg) {
   const tool = el("g", {}, svg);            // the die or stamp, above everything
   let ink = mode === "deboss" ? "#d3d7db" : "#4e5256";   // deboss: frosted, as if sandblasted into polished steel
 
+  const fx = el("g", {}, world);           // deboss only: grain and shadow layers laid over crisp letters
   if (mode === "deboss") {
-    markG.setAttribute("filter", `url(#${id}d)`);
     // the die: a hardened block with a bevelled face
     el("rect", { x: 140, y: -230, width: 720, height: 200, fill: "#1f2123" }, tool);
     el("rect", { x: 170, y: -30, width: 660, height: 22, fill: "#151618" }, tool);
@@ -95,7 +97,15 @@ function buildStrike(svg) {
     el("ellipse", { cx: 500, cy: 300, rx: 455, ry: 192, fill: "none", stroke: ink, "stroke-width": 5 }, markG);
     const s = markG.querySelector("text.m + text"); if (s) { s.setAttribute("font-size", 22); s.style.letterSpacing = ".28em"; }
   }
-  const state = { svg, world, markG, tool, mode, fit: () => fitMark(svg, mode) };
+  const relayer = () => {
+    if (mode !== "deboss") return;
+    fx.innerHTML = "";
+    const grain = markG.cloneNode(true), shade = markG.cloneNode(true);
+    grain.querySelectorAll("text,ellipse").forEach(n => { if (n.tagName === "text") n.setAttribute("fill", `url(#${id}g)`); else n.setAttribute("stroke", `url(#${id}g)`); });
+    shade.setAttribute("filter", `url(#${id}d)`);
+    fx.appendChild(grain); fx.appendChild(shade);
+  };
+  const state = { svg, world, markG, fx, tool, mode, fit: () => { fitMark(svg, mode); relayer(); } };
   state.fit();
   return state;
 }
@@ -124,6 +134,7 @@ function renderStrike(s, p) {
   s.tool.style.opacity = p > GONE ? 0 : 1;
   const struck = p >= CONTACT;
   s.markG.style.opacity = struck ? 1 : 0;
+  s.fx.style.opacity = struck ? 1 : 0;
   // the metal (or paper) takes the blow: a short, damped jolt, as a function of progress
   const dt = p - CONTACT;
   const shake = struck && dt < .08 ? 7 * Math.exp(-dt * 55) * Math.sin(dt * 260) : 0;

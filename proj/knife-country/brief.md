@@ -264,4 +264,9 @@ _Date · the decision or verdict, in the client's words · what changed._
   trying to sound japanese or german… Kamikoto is 100% wearing japanese yellowface" · the stamp stays where it is
   (right after 十八子), and the copy now says Japanese- or German-sounding names, contrasts them with Shibazi's honest
   Chinese surname, and notes nobody fakes Sheffield anymore.
+- 2026-11-04 · "why does ten eight son matter so much? I feel like we should explain that better"; the stamps "look
+  weirdly... out of focus" on a phone · added "So why make such a fuss about one company?" (the 1983 walkout, the 1993
+  one-piece steel cleaver, its own steel plant, selling under its own Chinese name) with a Deng Xiaoping drill-down;
+  stamped letters are now crisp, with grain and shadow on separate layers (phones drew the filtered letters at low
+  resolution).
 

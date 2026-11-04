@@ -516,5 +516,33 @@
   "url": "https://www.dailykos.com/stories/2021/7/3/2038270/-Huusk-knives-very-strange-scam",
   "via": "web search (Nov 3); also q3a, q3b",
   "conf": "medium"
+ },
+ {
+  "id": "shibazi-1993",
+  "text": "In 1993 Shibazi made China's first all-steel kitchen cleaver with an integral handle (连体直出菜刀), replacing the pinned wooden handle that rotted and cracked; trade bodies later named it the 'China Kitchen Knife Center' (中国菜刀中心).",
+  "url": "https://www.chinahardware.org.cn/article-detail.jsp?pid=5481&mid=30",
+  "via": "q1",
+  "conf": "high"
+ },
+ {
+  "id": "shibazi-steel",
+  "text": "Shibazi Group runs its own specialty steel plant; its plant manager said imported steels used to cost ¥30,000–40,000+ a tonne, against ¥18,000–19,000 for its self-developed grades.",
+  "url": "https://www.sohu.com/a/496689546_100175918",
+  "via": "q3a",
+  "conf": "medium (company claim)"
+ },
+ {
+  "id": "shibazi-f208",
+  "text": "Shibazi's laminated carbon-steel F208 slicing cleaver has found a following among Western cooks through Amazon and food media.",
+  "url": "https://www.globalsources.com/knowledge/chinese-knife-brands/",
+  "via": "q3b",
+  "conf": "medium"
+ },
+ {
+  "id": "x-deng",
+  "text": "Deng Xiaoping (1904–1997), China's paramount leader from 1978 to 1989, launched 'reform and opening up' (改革开放) in 1978, allowing private enterprise and foreign trade.",
+  "url": "https://en.wikipedia.org/wiki/Deng_Xiaoping",
+  "via": "Wikipedia; q1",
+  "conf": "high"
  }
 ]
