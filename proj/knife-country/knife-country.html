@@ -1252,23 +1252,24 @@ beltBtn.addEventListener("click", () => {
   const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img",
     "aria-label": "Line chart: Sheffield's cutlery workforce fell from about 15,500 in 1881 to under 1,000 in the 2020s" }, box);
   for (const v of [0, 5000, 10000, 15000]) {
-    el("line", { x1: L, x2: W - R, y1: y(v), y2: y(v), stroke: "#C9C0AE", "stroke-width": 1 }, svg);
-    el("text", { x: L - 8, y: y(v) + 4, "text-anchor": "end", "font-family": "Arch,sans-serif", "font-size": 12, fill: "#5C564C" }, svg)
+    el("line", { x1: L, x2: W - R, y1: y(v), y2: y(v), stroke: "var(--onfield-mute)", "stroke-opacity": v ? .65 : 1 }, svg);
+    el("text", { x: L - 8, y: y(v) + 4, "text-anchor": "end", "font-family": "Arch,sans-serif", "font-size": 12, fill: "var(--onfield)" }, svg)
       .textContent = v ? (v / 1000) + "k" : "0";
   }
+  el("line", { x1: L, x2: L, y1: T, y2: y(0), stroke: "var(--onfield-mute)" }, svg);
   for (const yr of [1881, 1911, 1951, 1981, 2022]) {
-    el("text", { x: x(yr), y: H - 16, "text-anchor": "middle", "font-family": "Arch,sans-serif", "font-size": 12, fill: "#5C564C" }, svg)
+    el("text", { x: x(yr), y: H - 16, "text-anchor": "middle", "font-family": "Arch,sans-serif", "font-size": 12, fill: "var(--onfield)" }, svg)
       .textContent = yr === 2022 ? "2020s" : yr;
   }
   const pts = D.map(([a, b]) => [x(a), y(b)]);
-  const seg = (i, j, dash) => el("path", { d: `M${pts[i]} L${pts[j]}`, fill: "none", stroke: "#1B1A17", "stroke-width": 2,
+  const seg = (i, j, dash) => el("path", { d: `M${pts[i]} L${pts[j]}`, fill: "none", stroke: "var(--gold)", "stroke-width": 2,
     "stroke-dasharray": dash || "none", "stroke-linecap": "round" }, svg);
   for (let i = 0; i < pts.length - 1; i++) seg(i, i + 1, (i === 3 || i === 6) ? "5 5" : "");
 
   const tip = document.createElement("div"); tip.className = "tip"; box.appendChild(tip);
   D.forEach(([yr, v], i) => {
     const last = i === D.length - 1;
-    el("circle", { cx: pts[i][0], cy: pts[i][1], r: 5, fill: last ? "#E9E1CF" : "#1B1A17", stroke: "#1B1A17", "stroke-width": 2 }, svg);
+    el("circle", { cx: pts[i][0], cy: pts[i][1], r: 5, fill: last ? "var(--iron)" : "var(--gold)", stroke: "var(--gold)", "stroke-width": 2 }, svg);
     const hit = el("circle", { cx: pts[i][0], cy: pts[i][1], r: 18, fill: "transparent", tabindex: 0,
       "aria-label": `${last ? "2020s" : yr}: ${last ? "under 1,000" : "about " + v.toLocaleString("en-US")}` }, svg);
     const show = () => {
@@ -1279,8 +1280,8 @@ beltBtn.addEventListener("click", () => {
     hit.addEventListener("pointerenter", show); hit.addEventListener("focus", show); hit.addEventListener("click", show);
     hit.addEventListener("pointerleave", () => tip.classList.remove("on")); hit.addEventListener("blur", () => tip.classList.remove("on"));
   });
-  el("text", { x: pts[0][0] + 8, y: pts[0][1] - 10, "font-family": "Arch,sans-serif", "font-weight": 800, "font-size": 13, fill: "#1B1A17" }, svg).textContent = "~15,500";
-  el("text", { x: pts[7][0] - 4, y: pts[7][1] + 24, "text-anchor": "end", "font-family": "Arch,sans-serif", "font-weight": 800, "font-size": 13, fill: "#1B1A17" }, svg).textContent = "under 1,000";
+  el("text", { x: pts[0][0] + 8, y: pts[0][1] - 10, "font-family": "Arch,sans-serif", "font-weight": 800, "font-size": 13, fill: "var(--onfield)" }, svg).textContent = "~15,500";
+  el("text", { x: pts[7][0] - 4, y: pts[7][1] - 20, "text-anchor": "end", "font-family": "Arch,sans-serif", "font-weight": 800, "font-size": 13, fill: "var(--onfield)" }, svg).textContent = "under 1,000";
   const det = document.createElement("details"); det.className = "tbl";
   det.innerHTML = `<summary>Show as a table</summary><table><tr><th>Year</th><th>Workers</th></tr>${
     D.map(([a, b], i) => `<tr><td>${i === D.length - 1 ? "2020s" : a}</td><td>${i === D.length - 1 ? "under 1,000" : "~" + b.toLocaleString("en-US")}</td></tr>`).join("")}</table>`;
