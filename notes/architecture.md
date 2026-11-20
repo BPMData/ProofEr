@@ -1,6 +1,6 @@
 # Why ProofEr is built this way
 
-ProofEr copies the architecture of its sister repo EOMD (`notes/context-plan.md` there), adapted for infographics.
+ProofEr copies the architecture of its sister repo EOMD (`notes/context-plan.md` there), adapted for infographics and interactive data essays.
 
 ## Context follows the stage
 Whatever is in the model's context first becomes the answer. If a session opens on earlier pieces and tools, every

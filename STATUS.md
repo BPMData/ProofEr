@@ -11,7 +11,7 @@ _Last updated: Nov 20, 2026 (Added multi-harness programmatic stage gates and `a
 - **knife-country** (Yangjiang and the "City of Knives" title; a long scrolling piece for knife nerds online): **published** to `pieces/knife-country.html`; live once merged. Built in EOMD by mistake, then moved here; Bryan accepted its single-source figures as shown. `proj/knife-country/STATUS.md`.
 
 ## Across the repo
-- **Scope:** infographics only for now. Recipe cards may come later as a second kind of piece.
+- **Scope:** sourced visual pieces—short **infographics** and long-form **interactive data essays**. Recipe cards may come later.
 - **License:** AGPLv3 (Oct 26); pieces people make are theirs.
 - **Toolbox:** small: `tools/embed_fonts.py` (tested on two of Bryan's example pages: the same fonts load with the
   network blocked), `tools/check_offline.py`, the choice panel. Until it holds earlier work, every piece is made from

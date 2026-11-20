@@ -8,7 +8,7 @@ description: >-
 # Guided-Brief + Autonomous Research & Build Pipeline (`auto-piece`)
 
 ## Stage 1 — Always Align With the User First (`Stage: interview -> brief`)
-1. Unless the user explicitly instructed to skip questions, **always interview first** (`brief/INTERVIEW.md`, Round 1+): clarify audience, tone, visual aesthetic (showing rough templates/style options if the conversation calls for it or the user asks), and target level of detail.
+1. Unless the user explicitly instructed to skip questions, **always interview first** (`brief/INTERVIEW.md`, Round 1+): clarify format (**infographic** vs. **interactive data essay**), audience, tone, visual aesthetic (showing rough templates/style options if the conversation calls for it or the user asks), and target level of detail.
 2. Lock those decisions into `proj/<name>/brief.md` and advance to `Stage: research`.
 
 ## Stage 2 — Autonomous Multi-Pass Deep Research & Fact-Checking (`Stage: research -> figures`)

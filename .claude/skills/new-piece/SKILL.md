@@ -1,6 +1,6 @@
 ---
 name: new-piece
-description: Start any new ProofEr infographic by interviewing the client, getting a brief approved, then running the research step before any design or build. Use whenever someone asks for a new infographic, chart page or data poster, however short the request. Not for changes to an existing piece.
+description: Start any new ProofEr piece (short infographic or interactive data essay) by interviewing the client, getting a brief approved, then running the research step before any design or build. Use whenever someone asks for a new piece, infographic, interactive data essay, chart page or data poster, however short the request. Not for changes to an existing piece.
 ---
 Follow `brief/INTERVIEW.md` from the top: ask round 1 first (open nothing else before it), then start `proj/<name>/brief.md` from `brief/TEMPLATE.md` with `Stage: interview`; interview in rounds (the ★ questions every time), get the brief approved, then research and figures (`brief/RESEARCH.md`), then concepts and layout (`brief/CRAFT.md`, `brief/LAYOUT.md`).
 

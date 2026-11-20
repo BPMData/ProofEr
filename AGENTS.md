@@ -5,7 +5,7 @@ Read `CLAUDE.md` and `STATUS.md` first: all ground rules apply to every agent (`
 restricted-path stage order).
 
 - **Standard hybrid flow (`new-piece` + `auto-piece`):**
-  1. **Interview first** (`brief/INTERVIEW.md`, showing optional style/template options if helpful or requested) until the user confirms audience, tone, aesthetic, and level of detail.
+  1. **Interview first** (`brief/INTERVIEW.md`, showing optional style/template options if helpful or requested) until the user confirms format (**infographic** vs. **interactive data essay**), audience, tone, aesthetic, and level of detail.
   2. **Autonomous multi-pass research:** run isolated parallel deep-research workers (`.agents/workflows/research_piece.py` or subagents) + gap-fill/fact-check passes into `proj/<name>/research/`, then synthesize `figures.md`.
   3. **Outline & mockup review:** self-critique rendered mockup `.png`s first, then present the quick outline/mockup to the user for refinement until `layout.md` is `APPROVED`.
   4. **Autonomous build & QA:** generate `pieces/<name>.html`, embed fonts, verify `tools/check_offline.py` + final desktop/phone PNGs.

@@ -1,9 +1,10 @@
 # Interviewing the client
 
-Every new infographic starts with an interview and doesn't leave it without an approved brief
+Every new piece starts with an interview and doesn't leave it without an approved brief
 (`proj/<name>/brief.md`, made from `TEMPLATE.md`). First requests are a feeling and a topic ("a somber infographic
-about the Holocaust"). The interview turns that into a message, an audience, the questions the numbers must answer,
-and the lines the piece must never cross.
+about the Holocaust"). The interview pins down whether it should be a tight **infographic** (short, scannable) or a
+deep **interactive data essay**, turns that into a message, an audience, the questions the numbers must answer, and
+the lines the piece must never cross.
 
 ## How to run it
 - **Small rounds.** 2–3 questions per message, most important first. The client may answer in shorthand.
@@ -16,7 +17,7 @@ and the lines the piece must never cross.
 - **Talk to a non-technical client.** Short sentences, no jargon ("waffle chart", "WCAG", "primary source" stay in
   the brief). Ask in experience terms: "should someone get it in five seconds, or sit with it?"
 - **Turn vague words into choices.** "Somber", "clean", "punchy" mean nothing until pinned down: offer contrasts
-  (quiet or stark? numbers first or people first?) or ask for one infographic they love and one they hate, and why.
+  (quiet or stark? numbers first or people first?) or ask for one piece or chart they love and one they hate, and why.
 - **Check the purpose first.** If the request (or anything that comes out later) is on the list in `CONTENT.md`,
   decline in one line and stop; don't interview your way around it.
 - **Hunt the landmines:** comparisons it must never make, groups it must never rank, words it must never use, images
@@ -48,9 +49,11 @@ and the lines the piece must never cross.
 ★ = every piece. Numbers = sections of `TEMPLATE.md`.
 
 **1. The ask**
-- ★ Confirm it's a ProofEr piece before anything else: an infographic, published on the ProofEr site. (Knife
-  Country, Nov 2026, was built start to finish in the sister repo EOMD by mistake.) Motion pieces, players and
-  screensavers belong in EOMD.
+- ★ Confirm it's a ProofEr piece before anything else: a sourced visual piece (either a short **infographic** or a deeper
+  **interactive data essay**), published on the ProofEr site. (Knife Country, Nov 2026, was built start to finish in the
+  sister repo EOMD by mistake.) Motion pieces, players and screensavers belong in EOMD.
+- ★ Ask what format depth fits: quick, breezy **infographic** (1–2 screens / printable poster) or long-form **interactive
+  data essay** (scrolling, deep mechanics, detailed sources)?
 - ★ What is it about, who is it for, where will they see it, and by when? *"A poster about school lunch waste for
   the cafeteria wall, by December."*
 - ★ How to build it (skip this until the toolbox holds earlier work: see `STATUS.md`; until then every piece is made
@@ -70,7 +73,7 @@ and the lines the piece must never cross.
 - ★ What must it never say, compare, rank or show?
 
 **5. The questions the numbers must answer**
-- ★ Which questions should the infographic answer? *"How many? Where? Compared with what? Over what years?"*
+- ★ Which questions should the piece answer? *"How many? Where? Compared with what? Over what years?"*
 - Numbers they already have, and where each came from (they still go through research).
 - Is any copy fixed word for word? Where's the file?
 
@@ -96,7 +99,7 @@ and the lines the piece must never cross.
   publisher won't allow?
 
 **12. Taste**
-- ★ One infographic or chart they love and one they hate, and why.
+- ★ One piece or chart they love and one they hate, and why.
 - The house taste (`taste/house.md`) applies by default; don't read it out. List the items that apply in §12 and ask
   only about the ones this client might want different.
 
