@@ -1,0 +1,112 @@
+{
+  "angle": "Cross-manufacturer analysis of ferromagnetic induction interface/diffuser plates with clay/ceramic cookware (comparing induction cooktop OEMs, SCHOTT CERAN glass-ceramic specs, and ceramic/flameware makers), alongside verified La Chamba unglazed black clay stovetop care, curing, and diffuser rules.",
+  "bibliography": [
+    "Bosch Home Appliances (bosch-home.com) - Induction cooktop user manuals and accessories catalog",
+    "Miele (miele.ca, mieleusa.com, miele.co.uk) - Induction cooktop operating & installation instructions and cookware compatibility guides",
+    "GE Appliances (geappliances.com, geappliances.ca) - Official induction transfer plate / interface disc support guidance",
+    "Sub-Zero / Wolf (subzero-wolf.com) - Induction interface disks/diffusers and barriers FAQ & support documentation",
+    "SCHOTT CERAN (schott-ceran.com, schott.com) - Glass-ceramic cooktop thermal shock, operating temperature, and care documentation",
+    "Emile Henry (emilehenryusa.com, emilehenry.com) - Flame, HR Ceramic, Delight, and Sublime+ Use & Care guidelines",
+    "Toiro Kitchen (toirokitchen.com) - Iga-yaki donabe heat source and diffuser guidelines",
+    "Clay Coyote (claycoyote.com) - Flameware stovetop, glass-top, induction, and care instructions",
+    "The American Ceramic Society (ceramics.org) & Ceramic Arts Network (ceramicartsnetwork.org) - Thermal shock mechanics and flameware body formulation",
+    "OpenEdition Journals (openedition.org) - Thermal shock failure in earthenware/clay vessels",
+    "Chamba Imports (chambaimports.com) - Official La Chamba seasoning, stovetop, electric coil, and diffuser care guide",
+    "Ancient Cookware (ancientcookware.com) - La Chamba collection specifications and heat diffuser usage instructions",
+    "Toque Blanche (mytoque.com) - La Chamba curing, stovetop care, and induction interface guidance",
+    "Paula Wolfert (paula-wolfert.com; cited in latimes.com alongside Bram Cookware) - Clay pot seasoning, La Chamba care, and electric/ceramic stove diffuser rules"
+  ],
+  "findings": [
+    {
+      "claim": "Major induction cooktop manufacturers prohibit or advise against ferromagnetic induction adapter/interface/diffuser plates due to overheating, generator/electronic damage, glass surface damage, sensor interference, and severe efficiency loss.",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Bosch and Miele explicitly prohibit them in manuals; Sub-Zero/Wolf states barriers/interface disks are not recommended and do not work with Wolf induction; GE Appliances states transfer plates technically work but does not recommend them (calling glass damage unlikely but possible due to excessive heat generation and efficiency loss). Directly conflicts with clay cookware makers/importers who suggest interface disks for non-magnetic pots.",
+      "sources": [
+        "Miele Operating & Installation Instructions (miele.ca, mieleusa.com): 'If an induction adapter plate is used for cookware, the induction generators may be damaged or even destroyed. Do not use induction adapter plates.'",
+        "Bosch Induction Hob User Manuals (bosch-home.com): 'Do not use adapter plates between the hob and the cookware.'",
+        "GE Appliances Support (geappliances.com): transfer plates technically work, 'however, we do not recommend them' due to loss of efficiency/performance, excessive heat generation, and potential glass damage.",
+        "Sub-Zero / Wolf Support (subzero-wolf.com): barriers/interface disks/diffusers are not recommended, decrease performance, may prevent pan detection, and risk burning/damaging the glass surface from heat retention."
+      ],
+      "unit": "OEM policy consensus",
+      "value_or_range": "Prohibited (Miele, Bosch) to Not Recommended (GE Appliances, Sub-Zero/Wolf)"
+    },
+    {
+      "claim": "SCHOTT CERAN glass-ceramic cooktop panels have near-zero thermal expansion and withstand abrupt thermal shock up to 700 °C, with normal induction under-pot temperatures up to 350 °C and improper operation (e.g., dry/empty pot) exceeding 500 °C; surface overheating relies on stove-OEM-configured temperature limiters.",
+      "confidence": "MEDIUM",
+      "disagreements_or_caveats": "The 700 °C thermal shock spec is confirmed across schott.com and schott-ceran.com; the 350 °C / >500 °C figures come from SCHOTT CERAN's own single knowledge base. SCHOTT CERAN documentation emphasizes lifting rather than sliding cookware (especially soft metals) and notes final thermal cutoff limits are set by the appliance manufacturer, not SCHOTT.",
+      "sources": [
+        "SCHOTT (schott.com) & SCHOTT CERAN (schott-ceran.com) technical documentation on thermal shock resistance (up to 700 °C).",
+        "SCHOTT CERAN knowledge base (schott-ceran.com) on operating temperatures (up to 350 °C normal, >500 °C improper operation) and appliance-maker temperature limiters."
+      ],
+      "unit": "°C",
+      "value_or_range": "350 °C (normal induction under-pot); >500 °C (improper/empty pot); 700 °C (max thermal shock resistance)"
+    },
+    {
+      "claim": "Clay and ceramic cookware makers disagree on whether induction diffuser/interface plates cause hotspots and cracking or safely enable induction cooking.",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Clear manufacturer split: Emile Henry (Flame line) and Clay Coyote state standard clay/ceramic flameware requires an induction disk/interface plate to work on induction (while Emile Henry also sells natively induction-compatible Delight and Sublime+ lines). Conversely, Toiro Kitchen explicitly does NOT recommend heat diffusers or transfer plates for traditional Iga-yaki clay donabe on electric or induction glass-top stoves because diffusers disrupt thermal dynamics, fail to heat porous bases evenly, and risk uneven heating or thermal shock cracking (recommending a portable cassette gas stove or dedicated IH donabe instead).",
+      "sources": [
+        "Emile Henry Use & Care (emilehenryusa.com, emilehenry.com): Flame line usable 'with an induction disk for induction hobs'; Delight & Sublime+ lines are natively induction-compatible.",
+        "Toiro Kitchen (toirokitchen.com): does not recommend heat diffusers/transfer plates on electric or induction glass-top stoves due to uneven heat distribution and thermal shock cracking risk.",
+        "Clay Coyote (claycoyote.com): Flameware does not work directly on induction (requires separate metal interface disk); diffuser optional on gas/electric/glass, stir to manage localized heat spots."
+      ],
+      "unit": "manufacturer guidance",
+      "value_or_range": "Permitted/Required with low-to-medium gradual heat (Emile Henry Flame, Clay Coyote) vs. Not Recommended due to thermal shock/cracking risk (Toiro Iga-yaki donabe)"
+    },
+    {
+      "claim": "Localized hotspots and rapid temperature gradients in low-conductivity clay/earthenware cause differential expansion, tensile stress, and thermal-shock cracking unless mitigated by gradual heating, heat diffusion, or low-expansion flameware clay bodies.",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Applies broadly to unglazed porous earthenware; specialized studio/commercial flameware reduces failure via low-expansion minerals (e.g., spodumene, talc, cordierite formers) and grog.",
+      "sources": [
+        "The American Ceramic Society (ceramics.org) & Ceramic Arts Network (ceramicartsnetwork.org): thermal shock mechanics and low-expansion flameware formulations.",
+        "OpenEdition Journals (openedition.org): thermal shock stress and differential expansion in clay cooking vessels."
+      ],
+      "unit": "physical mechanism",
+      "value_or_range": "Differential thermal expansion under low thermal conductivity and steep thermal gradients"
+    },
+    {
+      "claim": "La Chamba pre-seasoning/curing before first use is required only for liquid-holding vessels (soup pots, cazuelas, casseroles, bakers) and not for flat pieces (comals, plates, lids): fill 3/4 full with water, place uncovered in a cold oven, and bake at 400 °F (200 °C) for 30 minutes.",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Both Chamba Imports and Toque Blanche report this exact 3/4-water, cold-oven, 400 °F / 30 min protocol; Chamba Imports notes full sealing may take several cooking uses (with boiling milk as a rare fallback), and Paula Wolfert similarly confirms unglazed micaceous clay must be seasoned per manufacturer instructions before use. Note: Bram Cookware in Sonoma, CA (historically an importer cited by Paula Wolfert and the Los Angeles Times) has closed.",
+      "sources": [
+        "Chamba Imports (chambaimports.com): official La Chamba seasoning instructions (3/4 water, uncovered, cold oven, 400 °F for 30 min; liquid vessels only).",
+        "Toque Blanche (mytoque.com): La Chamba curing instructions (3/4 water, cold oven, 400 °F / 200 °C for 30 min; flat comals/plates excluded).",
+        "Paula Wolfert (paula-wolfert.com) & Los Angeles Times (latimes.com): confirms unglazed micaceous clay requires seasoning prior to use and documents Bram Cookware's historical closure."
+      ],
+      "unit": "°F / minutes / fill fraction",
+      "value_or_range": "3/4 full water; 400 °F (200 °C); 30 minutes in cold oven (liquid vessels only)"
+    },
+    {
+      "claim": "Official La Chamba stovetop care rules require starting on low heat/low flame, avoiding sudden temperature changes (thermal shock), and using a heat diffuser on electric coil and glass/ceramic cooktops.",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "On gas stoves, direct flame is permitted because the flame disperses heat broadly (diffuser optional for extended low simmering). On electric coils and smooth glass-ceramic cooktops, Chamba Imports, Toque Blanche, and Paula Wolfert strongly recommend/require a flat heat diffuser because prolonged direct contact with electric elements creates localized hotspots that can crack clay. Ancient Cookware's diffuser instructions specify POINTS DOWN on glass/ceramic/induction, POINTS UP on gas/electric/solid fuel, strictly low heat, never preheat empty, and bring to a boil without the diffuser first before reducing heat and adding it—note this single-vendor diffuser rule conflicts with induction cooktop OEM prohibitions when used on induction.",
+      "sources": [
+        "Chamba Imports (chambaimports.com): direct gas flame allowed; strongly recommends inexpensive heat diffuser on electric coils and moderate heat with flat diffuser on glass tops; avoid sudden temperature changes.",
+        "Toque Blanche (mytoque.com): start on low heat/gradual heating; use heat diffuser on electric coil or ceramic/glass stovetops; induction requires an interface disk.",
+        "Paula Wolfert (paula-wolfert.com): heat diffuser 'should always be used as a buffer when cooking with earthenware pots on an electric or ceramic stove'; cook on low-to-moderate heat; do not leave liquids standing off heat.",
+        "Ancient Cookware (ancientcookware.com): heat diffuser usage rules (points down for glass/ceramic/induction, points up for gas/electric; low heat only; never preheat diffuser; boil without diffuser first)."
+      ],
+      "unit": "care protocol",
+      "value_or_range": "Start on low heat/flame; diffuser strongly recommended/required on electric coil & glass-top; optional on gas"
+    },
+    {
+      "claim": "Using a heat diffuser on an induction cooktop with La Chamba clay pots is only possible via an induction interface/diffuser plate (since unglazed clay is non-magnetic), creating a direct conflict between clayware importers and induction OEMs.",
+      "confidence": "MEDIUM",
+      "disagreements_or_caveats": "Clayware importers (Toque Blanche, Ancient Cookware diffuser instructions) describe using a diffuser/interface plate on induction at low heat, whereas Bosch, Miele, GE Appliances, and Sub-Zero/Wolf warn against or prohibit interface plates due to cooktop overheating, error codes, efficiency loss, and potential glass/generator damage. LOW CONFIDENCE on whether Ancient Cookware specifically recommends induction use for La Chamba pots vs. merely listing diffuser orientation for glass/ceramic/induction diffusers generically.",
+      "sources": [
+        "Ancient Cookware (ancientcookware.com): diffuser instructions list glass/ceramic/induction placement ('POINTS DOWN', low heat only).",
+        "Toque Blanche (mytoque.com): notes induction requires an interface disk for Chamba clay pots.",
+        "Miele (miele.ca), Bosch (bosch-home.com), GE Appliances (geappliances.com), Sub-Zero/Wolf (subzero-wolf.com): prohibit or do not recommend induction adapter/interface plates."
+      ],
+      "unit": "compatibility conflict",
+      "value_or_range": "Clay non-magnetic (0 direct coupling); interface plate required by clay importers vs. prohibited/discouraged by cooktop OEMs"
+    }
+  ],
+  "id": "induction-diffusers-and-lachamba-care",
+  "myths_checked": [
+    "Myth: Induction cooktop manufacturers approve adapter/diffuser plates as safe workarounds for clay or ceramic cookware. — False: Miele and Bosch explicitly prohibit them in manuals; Sub-Zero/Wolf and GE Appliances warn against them due to trapped heat, overheating, sensor errors, efficiency loss, and glass/generator damage risk.",
+    "Myth: SCHOTT CERAN glass-ceramic cannot experience thermal issues with induction adapter plates because it handles 700 °C thermal shock. — Misleading: While SCHOTT CERAN withstands up to 700 °C thermal shock, cooktop OEMs warn that adapter plates trap downward radiant heat above the coil, exceeding normal under-pot temperatures (~350 °C), confusing appliance-configured limiters, risking electronics/glass damage, and voiding warranties.",
+    "Myth: All clay/flameware makers recommend using induction diffuser plates on glass or induction tops. — False: While Emile Henry (Flame line) and Clay Coyote permit induction disks with gradual heat, Toiro Kitchen explicitly advises against heat diffusers/transfer plates for Iga-yaki clay donabe on electric or induction glass-tops due to uneven heating and cracking risk.",
+    "Myth: La Chamba cookware never needs pre-seasoning or special precautions on electric stoves. — False: Liquid-holding La Chamba vessels require curing (3/4 water, cold oven, 400 °F / 30 min), starting on low heat/flame, and using a heat diffuser on electric coils or glass-ceramic cooktops."
+  ]
+}

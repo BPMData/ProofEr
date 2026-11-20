@@ -1,0 +1,167 @@
+{
+  "angle": "Food-science thermodynamics, surface chemistry, and porous-ceramic adsorption governing Maillard browning, steam boundary layers, protein sticking, and unglazed clay flavor memory.",
+  "bibliography": [
+    "Hodge, J. E. (1953). Dehydrated Foods, Chemistry of Browning Reactions in Model Systems. Journal of Agricultural and Food Chemistry, 1(15), 928–943.",
+    "Labuza, T. P. (1970). Properties of water as related to the stability of food dehydrated foods. Critical Reviews in Food Technology, 1(3), 355–405.",
+    "Labuza, T. P., & Saltmarch, M. (1981). The kinetics of browning of sugar-protein systems in a high-water-activity intermediate-moisture state. In Water Activity: Influences on Food Quality (pp. 71–93). Academic Press.",
+    "Martins, S. I. F. S., Jongen, W. M. F., & van Boekel, M. A. J. S. (2000/2001). A review of Maillard reaction in food and implications to kinetic modelling. Trends in Food Science & Technology, 11(9–10), 364–373.",
+    "van Boekel, M. A. J. S. (2006). Formation of flavour compounds in the Maillard reaction. Biotechnology Advances, 24(2), 230–233.",
+    "McGee, H. (2004). On Food and Cooking: The Science and Lore of the Kitchen. Scribner.",
+    "Myhrvold, N., Young, C., & Bilet, M. (2011). Modernist Cuisine: The Art and Science of Cooking. The Cooking Lab.",
+    "Bernardin, J. D., & Mudawar, I. (1999). The Leidenfrost Point: Experimental Study and Assessment of Existing Models. Journal of Heat Transfer (Purdue Boiling and Two-Phase Flow Laboratory).",
+    "Vakarelski, I. U., Patankar, N. A., Marston, J. O., Chan, D. Y. C., & Thoroddsen, S. T. (2012). Stabilization of Leidenfrost vapour layer by textured superhydrophobic surfaces (KAUST / PubMed Central NIH).",
+    "NIST & Engineering ToolBox Materials Thermal Properties Databases (Aluminum, Cast Iron, Porcelain, Brick/Earthenware, PTFE).",
+    "Royal Society of Chemistry (RSC) & NIH/PMC Surface Chemistry Literature (PTFE C–F bond strength, surface energy, contact angle, and protein adhesion on silica/iron oxide).",
+    "Yang, C., Kong, J., Yang, J., Chu, C., & Li, Y. (2021). The study of crystal-phase composition and pore structure for Dicaoqing-Zisha compared with porcelain and pottery. Ceramics International.",
+    "Lin, Y., Hu, C., et al. (2021). The compositions and pore structures of Benshanzhu Zisha ceramic.",
+    "Chung, T.-Y., Kuo, P.-C., Liao, Z.-H., Shih, Y.-E., Yang, M.-L., Cheng, M.-L., Wu, C.-C., & Tzen, J. T.-C. (2015). Analysis of lipophilic compounds of tea coated on the surface of clay teapots. Journal of Food and Drug Analysis (PubMed Central / NIH).",
+    "Liao, Z.-H., Chen, Y.-J., Tzen, J. T.-C., Kuo, P.-C., Lee, M.-R., Mai, F.-D., Rairat, T., & Chou, C.-C. (2018). Effect of teapot materials on the chemical composition of oolong tea infusions. Journal of the Science of Food and Agriculture (PubMed / NIH).",
+    "Evershed, R. P., Heron, C. P., & Secondary Ion Mass Spectrometry (SIMS) Organic Residue Analysis Studies (University of Bristol / PubMed Central NIH).",
+    "ACS / Applied Clay Science / Colloids and Surfaces A Literature on Anionic Surfactant (SDS/LAS) Adsorption onto Kaolinite and Illite Clays.",
+    "U.S. Food and Drug Administration (FDA). Compliance Policy Guide (CPG) Sec. 545.450 (Pottery/Ceramics Lead Contamination) & Sec. 545.400 (Cadmium Contamination).",
+    "Römertopf Official Care & Usage Manuals (Legacy No-Soap Manual and Current Römertopf User Instructions)."
+  ],
+  "findings": [
+    {
+      "claim": "Optimal culinary Maillard browning temperature window (rapid non-enzymatic flavor and melanoidin formation)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Hodge (1953) and van Boekel (2006) emphasize that Maillard browning has no single hard on/off threshold—it occurs slowly even at ambient/room temperature over long storage. Rapid culinary browning accelerates around 140–165 °C (280–330 °F) once surface water boils off (>100 °C / 212 °F), while temperatures above ~176–200 °C (350–392 °F) shift rapidly toward pyrolysis/charring and acrylamide/PAH formation. McGee (2004) notes exceptions near 100 °C under alkaline conditions, concentrated solutions, or 12–24 h prolonged cooking.",
+      "sources": [
+        "Hodge, J. E. (1953), J. Agric. Food Chem. 1(15):928–943",
+        "Martins, S. I. F. S., Jongen, W. M. F., & van Boekel, M. A. J. S. (2000), Trends Food Sci. Technol. 11(9–10):364–373",
+        "van Boekel, M. A. J. S. (2006), Biotechnol. Adv. 24(2):230–233",
+        "McGee, H. (2004), On Food and Cooking",
+        "Myhrvold, N. et al. (2011), Modernist Cuisine"
+      ],
+      "unit": "°C (°F)",
+      "value_or_range": "140–165 (280–330)"
+    },
+    {
+      "claim": "Peak water activity (a_w) bell-curve window for maximum Maillard reaction rate",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Rate drops at low a_w (<0.3) due to molecular diffusion/mobility restriction in glassy matrices, and drops at high a_w (>0.85) due to reactant dilution and mass-action reversal of early condensation steps (water is a condensation product). Peak varies slightly by sugar-protein matrix between 0.5 and 0.85, most commonly 0.6–0.7.",
+      "sources": [
+        "Labuza, T. P. (1970), Crit. Rev. Food Technol. 1(3):355–405",
+        "Labuza, T. P., & Saltmarch, M. (1981), Water Activity: Influences on Food Quality, Academic Press",
+        "Martins, S. I. F. S. et al. (2000), Trends Food Sci. Technol. 11(9–10):364–373"
+      ],
+      "unit": "a_w (dimensionless)",
+      "value_or_range": "0.55–0.85 (peak 0.6–0.7)"
+    },
+    {
+      "claim": "Surface moisture boiling ceiling and steam boundary layer thickness / Leidenfrost transition during pan contact",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Liquid surface moisture pins food surface temperature near 100 °C (212 °F) via latent heat of vaporization until dehydrated. Above the Leidenfrost point (~150–200+ °C on smooth metal, higher on rough/porous surfaces), flash evaporation forms an insulating vapor film (~10–50 µm thick); micro-asperities or open pores taller than the film pierce it, collapsing film boiling into nucleate contact boiling.",
+      "sources": [
+        "Bernardin, J. D., & Mudawar, I. (1999), J. Heat Transfer (Purdue Boiling Lab)",
+        "Vakarelski, I. U. et al. (2012), KAUST / PubMed Central NIH",
+        "Exploratorium / Modernist Cuisine (2011)"
+      ],
+      "unit": "°C (°F) / µm vapor film",
+      "value_or_range": "100 °C (212 °F) evaporative stall; ~150–200+ °C Leidenfrost; ~10–50 µm vapor film"
+    },
+    {
+      "claim": "Thermal conductivity (k), density (ρ), and specific heat (c_p) governing searing performance across cookware materials",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Cast iron has moderate k (~50–55 W/m·K) but high ρ and thick walls, giving high thermal mass/inertia and steady effusivity during searing. Pure/alloy aluminum has ~3–4x higher k (150–237 W/m·K), distributing heat rapidly but losing surface temperature quickly when thin unless clad/thick; PTFE topcoats add an insulating layer (k ~0.23–0.25 W/m·K). Porcelain (1.0–4.0 W/m·K) and unglazed earthenware/terracotta (0.5–1.5 W/m·K) behave as thermal insulators with low thermal effusivity, unsuitable for rapid stovetop searing and vulnerable to thermal shock.",
+      "sources": [
+        "NIST Chemistry WebBook / Material Data Sheets",
+        "Engineering ToolBox & Electronics-Cooling Thermal Property Tables",
+        "Myhrvold, N. et al. (2011), Modernist Cuisine"
+      ],
+      "unit": "k: W/(m·K); ρ: kg/m³; c_p: J/(kg·K)",
+      "value_or_range": "Aluminum: k=150–237, ρ≈2700, c_p≈880–887; Cast Iron: k=50–55, ρ=7200–7300, c_p=550–560; Porcelain: k=1.0–4.0, ρ=2300–2500, c_p=750–900; Terracotta/Earthenware: k=0.5–1.5, ρ=1600–2000, c_p=800–1000; PTFE: k=0.23–0.25, ρ=2150–2200, c_p=970–1000"
+    },
+    {
+      "claim": "PTFE non-stick upper thermal limits vs. high-heat searing temperatures",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "PTFE starts thermal deterioration around 260 °C (500 °F), releases fumes causing polymer fume fever around 350 °C (662 °F), and undergoes rapid pyrolysis above 400 °C (752 °F)—limiting aluminum non-stick pans from ultra-high-heat searing compared with seasoned cast iron.",
+      "sources": [
+        "Peer-reviewed PTFE pyrolysis/toxicology literature (PubMed Central / NIH)",
+        "FDA Food-Contact Material Guidance & PerkinElmer Thermal Analysis Data"
+      ],
+      "unit": "°C (°F)",
+      "value_or_range": "260 (500) initial deterioration; 350 (662) fume fever; >400 (752) rapid decomposition"
+    },
+    {
+      "claim": "Surface energy, water contact angle, and protein-sticking mechanisms across PTFE, glazed ceramic, bare/seasoned cast iron, and porous clay",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "PTFE C–F bonds (~485 kJ/mol) yield ultra-low surface energy (18–25 mN/m, θ≈110°), preventing wetting and protein bonding. Clean silica/porcelain glazes (40–70+ mN/m, θ<30–60°) bear polar silanol (Si–OH) groups that bind proteins via hydrogen/electrostatic forces. Bare metals/iron oxides (>400–1300+ mN/m) form coordinate covalent complexes with protein –SH, –NH2, and –COOH groups and lock denatured proteins into micro-asperities during the intermediate Maillard \"glue phase\"; iron-catalyzed free-radical polymerization of unsaturated oils forms a hydrophobic seasoning patina that passivates the metal. Dry unglazed porous clay vents/wicks moisture from dry dough crusts, whereas glazed non-porous ceramic traps surface steam unless drained.",
+      "sources": [
+        "Royal Society of Chemistry (RSC) surface chemistry & PTFE literature",
+        "PubMed Central / NIH bio-interfacial protein adhesion studies on silica & iron oxides",
+        "ACS & Science of Cooking lipid polymerization literature"
+      ],
+      "unit": "mN/m (surface energy) / degrees (contact angle θ)",
+      "value_or_range": "PTFE: 18–25 mN/m (θ≈110°); Silica/Glazed Ceramic: 40–70+ mN/m (θ<30–60°); Iron/Oxides: >400–1300+ mN/m"
+    },
+    {
+      "claim": "Zisha (Yixing clay) porosity, water absorption, and hierarchical \"double-pore\" dimensions",
+      "confidence": "MODERATE",
+      "disagreements_or_caveats": "Yang et al. (2021) place Dicaoqing-Zisha (fired at 1180 °C) between dense porcelain (<0.5% water absorption) and ordinary earthenware pottery (>10–15% water absorption). Standard fired Zisha typically shows ~2.5–6.0% (up to ~8%) water absorption and ~3–12% open porosity, though some ceramic studies report higher total/matrix porosity ranges (11–30%) depending on clay ore (Zini, Zhuni, Duanni) and firing temperature. Dual open pores center around ~0.2 µm (up to 1–10 µm aggregate voids) and <10 nm nanopores.",
+      "sources": [
+        "Yang, C. et al. (2021), Ceramics International",
+        "Lin, Y., Hu, C. et al. (2021), Benshanzhu Zisha pore structure study",
+        "Ceramic materials & MIP/SEM Zisha characterization literature"
+      ],
+      "unit": "% porosity / µm & nm pore diameter",
+      "value_or_range": "~0.2 µm primary pores + <10 nm nanopores; ~2.5–8% water absorption; ~3–12% open porosity (up to 11–30% total in broader clay-matrix studies)"
+    },
+    {
+      "claim": "Molecular species that actually penetrate unglazed Zisha teapots and unglazed cooking pottery pores",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "In Yixing Zisha/Zhuni teapots, GC-MS solvent extraction proves lipophilic tea constituents—chiefly palmitic acid, stearic acid (from oxidized tea-leaf linolenic/linoleic/oleic acids), and linear hydrocarbons—coat and permeate internal pores (Chung et al. 2015), while HPLC-UV/GC-MS/ICP-MS shows higher EGC/EGCG catechins and lower caffeine and minerals in infusions (Liao et al. 2018). In unglazed cooking pottery, biomolecular archaeology (Evershed, Heron) and SIMS imaging prove liquid fats, oils, waxes, and free fatty acids permeate ceramic matrices across 5–400+ µm zones and precipitate with mineral ions (e.g., calcium fatty acid salts), persisting long after water-soluble proteins/sugars degrade or wash out.",
+      "sources": [
+        "Chung, T.-Y. et al. (2015), J. Food Drug Anal. (PubMed Central / NIH)",
+        "Liao, Z.-H. et al. (2018), J. Sci. Food Agric. (PubMed / NIH)",
+        "Evershed, R. P., Heron, C. P., & SIMS ceramic residue studies (Univ. of Bristol / PubMed Central NIH)"
+      ],
+      "unit": "µm penetration zone / chemical classes",
+      "value_or_range": "Lipophilic fatty acids (palmitic, stearic), linear hydrocarbons, & volatile organics; 5–400+ µm matrix zones in cooking pottery"
+    },
+    {
+      "claim": "Why dish soap/detergents are prohibited on unglazed clay (surfactant capillary adsorption and thermal leaching)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Open clay capillaries draw liquid surfactants (e.g., anionic SDS/LAS) and synthetic fragrances deep into the porous wall, where amphiphilic tails/heads adsorb onto kaolinite/illite mineral surfaces via electrostatic and van der Waals forces; rinsing cannot flush them out, and subsequent heating leaches chemical/soapy off-flavors into food. Caveat: while traditional tagine/Römertopf care and legacy manuals strictly ban soap, newer official Römertopf manuals permit a few drops of mild liquid dish soap with thorough rinsing if needed while still banning harsh detergents and dishwashers. Baking soda (sodium bicarbonate) paste/soak or coarse salt abrasion are standard safe alternatives.",
+      "sources": [
+        "ACS / Applied Clay Science / Colloids and Surfaces A surfactant-clay adsorption studies",
+        "Römertopf Official Legacy & Current Care Manuals"
+      ],
+      "unit": "qualitative mechanism & care protocol",
+      "value_or_range": "Capillary uptake + electrostatic/van der Waals surfactant adsorption on clay minerals; leaching on reheat"
+    },
+    {
+      "claim": "Römertopf pre-soak duration and steam-chamber cooking mechanics vs. FDA ceramic lead/cadmium limits",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Pre-soaking unglazed Römertopf clay in cold water for 10–15 min (up to 30 min in some legacy guides) saturates open pores; heating from a cold oven vaporizes trapped water into an internal steam bath that keeps surfaces moist (~100 °C ceiling) until moisture exhausts. Uncertified/poorly fired earthenware poses heavy-metal leaching risks; FDA CPG Sec. 545.450 sets leachable lead action levels at 0.5 µg/mL (ppm) for cups/mugs/pitchers, 1.0 µg/mL for large hollowware (≥1.1 L), 2.0 µg/mL for small hollowware, and 3.0 µg/mL for flatware.",
+      "sources": [
+        "Römertopf Official Care & Usage Manuals",
+        "FDA Compliance Policy Guide (CPG) Sec. 545.450 & Sec. 545.400"
+      ],
+      "unit": "minutes soak / µg/mL (ppm) Pb limit",
+      "value_or_range": "10–15 min (up to 30 min) soak; 0.5–3.0 ppm FDA Pb action levels"
+    },
+    {
+      "claim": "When flavor carryover in unglazed clay helps vs. hurts (single-tea dedication vs. cross-contamination & oil rancidity)",
+      "confidence": "MODERATE",
+      "disagreements_or_caveats": "Helps: dedicating one Yixing Zisha pot to one tea family (Ming-era Yi Tu Yi Cha tradition) builds a complementary lipophilic coating (Baojiang/Yang Hu) that rounds astringency for aged Pu-erh or roasted oolongs (Liao et al. 2018; Chung et al. 2015). Hurts: (1) volatile absorption dulls delicate floral/green teas and causes cross-contamination (e.g., garlic/fish odors tainting mild baked goods in Römertopf/tagines); (2) unlike cast iron seasoned at 450–500 °F, unglazed clay cannot endure intense polymerization heat without thermal shock, so absorbed polyunsaturated cooking oils remain unpolymerized and undergo autoxidation into rancid aldehydes/ketones (e.g., hexanal) during storage; (3) incomplete drying allows mold/mildew growth in pores. Note: exact magnitude of sensory improvement in seasoned Zisha vs. fresh Zisha remains partly confounded by thermal retention and clay-mineral chemistry (LOW CONFIDENCE on quantitative sensory delta solely from aged patina vs. clay body itself).",
+      "sources": [
+        "Liao, Z.-H. et al. (2018), J. Sci. Food Agric.",
+        "Chung, T.-Y. et al. (2015), J. Food Drug Anal.",
+        "Ming/Qing ceramic tea history & Römertopf/tagine care literature",
+        "Food-science lipid autoxidation literature"
+      ],
+      "unit": "qualitative benefit vs. failure mode",
+      "value_or_range": "Helps: single-tea Zisha rounding & complementary savory stews; Hurts: floral-tea stripping, garlic/fish taint, unpolymerized oil autoxidation, mold if stored damp"
+    }
+  ],
+  "id": "browning-surface-flavor",
+  "myths_checked": [
+    "MYTH: Maillard browning has a single exact \"switch-on\" temperature (e.g., strictly 140 °C / 280 °F or 154 °C / 310 °F) below which zero reaction occurs. FACT: Hodge (1953) and van Boekel (2006) show it is a continuous kinetic network that proceeds slowly even at room temperature; 140–165 °C is simply the rapid culinary window, and alkaline pH or prolonged heating can produce Maillard browning near 100 °C.",
+    "MYTH: Drier food always browns faster via the Maillard reaction. FACT: Water activity follows a bell-shaped curve (Labuza 1970; Martins et al. 2000) peaking around a_w 0.55–0.85 (0.6–0.7); below a_w 0.3, reactant immobility severely slows browning.",
+    "MYTH: Cast iron sears best because it has high thermal conductivity. FACT: Cast iron's thermal conductivity (50–55 W/m·K) is ~4x lower than aluminum (150–237 W/m·K); it excels at searing because high density, specific heat, and thick walls give it high volumetric heat capacity and thermal inertia, resisting temperature crashes when cold wet food hits the pan.",
+    "MYTH: \"Flavor memory\" in unglazed clay is water-soluble flavor broth soaking into pores unchanged. FACT: Chung et al. (2015) and archaeological residue studies (Evershed, Heron) show lipophilic fatty acids (especially palmitic and stearic acids), waxes, hydrocarbons, and volatile organics are what predominantly coat and persist inside porous ceramic matrices.",
+    "MYTH: Oil seasons unglazed clay tagines the same way it seasons cast iron. FACT: Cast iron seasoning requires high-heat (~450–500 °F) iron-catalyzed free-radical polymerization of unsaturated fats into a hard cross-linked patina; unglazed clay lacks metallic catalysis and risks thermal shock at intense searing temperatures, leaving excess absorbed unsaturated oil vulnerable to oxidative rancidity.",
+    "MYTH: Any drop of soap permanently destroys an unglazed Römertopf. FACT: While dishwashers and harsh detergents remain banned because surfactants adsorb into open clay pores and leach on reheating, modern official Römertopf manuals permit a few drops of mild liquid dish soap with thorough hot-water rinsing when needed (though traditionalists and baking-soda protocols still avoid soap entirely)."
+  ]
+}

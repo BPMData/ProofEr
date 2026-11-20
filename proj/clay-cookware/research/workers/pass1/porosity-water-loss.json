@@ -1,0 +1,112 @@
+{
+  "angle": "Material porosity, water absorption standards (ASTM C373 / ISO 10545-3 / ASTM C242), ceramic moisture uptake and steam release in unglazed clay bakers, and moisture retention vs. evaporation behavior across slow-cook vessels over 2-, 4-, and 8-hour intervals.",
+  "bibliography": [
+    "ASTM C242: Standard Terminology of Ceramic Whitewares and Related Products (vitreous, semivitreous, and stoneware definitions).",
+    "ASTM C373: Standard Test Method for Water Absorption, Bulk Density, Apparent Porosity, and Apparent Specific Gravity of Fired Whiteware Products.",
+    "ISO 13006 & ISO 10545-3: Ceramic tiles classification (Groups BIa <=0.5%, BIb 0.5-3%, BIIa 3-6%, BIII >10%) and boiling/vacuum water absorption test method.",
+    "Yang, C., Kong, J., Yang, J., Chu, C., Wang, X., & Li, Y. (2021). Crystal-phase composition and pore structure of Dicaoqing-Zisha compared with porcelain and pottery. Ceramics International, 47(8), 10650-10657. DOI: 10.1016/j.ceramint.2020.12.178.",
+    "Sun, X., Suhaily, S., Lai, H., & Chen, K. (2024). Analysis of chemical composition, properties, aesthetics, and craft of Zisha clay. Environment-Behaviour Proceedings Journal, 9(SI23).",
+    "MDPI Materials / Applied Sciences / Ceramics studies on terracotta, red clay earthenware, and porcelain stoneware apparent porosity and water absorption (ASTM C373 / ISO 10545-3).",
+    "Superintendencia de Industria y Comercio (SIC), Colombia: Denomination of Origin documentation for Ceramica Negra de La Chamba (clay blend, red-clay engobe, burnishing, 750-800 C firing, reduction smoking).",
+    "Miller, M. J., Whelton, H. L., Swift, J. A., et al. (2020). Interpreting ancient food practices: stable isotope and molecular analyses of visible and absorbed residues from a year-long cooking experiment (using La Chamba pots). Scientific Reports.",
+    "SciELO Brasil archaeometric study: Microbial activity and MIP porosity analysis of excavated megalithic micaceous potsherds from Peninsular India.",
+    "Romertopf official care and usage manuals (roemertopf.de / manuals.plus): soaking duration and cold-oven thermal shock protocol.",
+    "University Extension slow cooker food safety and moisture guides: Colorado State University Extension, NC State Extension, Kansas State Research and Extension, Michigan State University Extension, University of Missouri Extension.",
+    "J. Kenji Lopez-Alt (Serious Eats / The Food Lab) and America's Test Kitchen / Cook's Illustrated: Dutch oven vs. slow cooker vs. pressure multi-cooker braising evaporation and lid-crack temperature testing.",
+    "McGee, H. On Food and Cooking: thermal buffering and moisture behavior of porous earthenware vs. vitrified cookware."
+  ],
+  "findings": [
+    {
+      "claim": "Unglazed terracotta / low-fired earthenware open (apparent) porosity and water absorption",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Values vary strongly with peak firing temperature (typically 850-1050 C) and carbonate/flux content; raising firing from ~900 C to >1000 C closes open pores and can drop water absorption from ~8.7% to ~3.8% in fluxed red clays, whereas coarse low-fired wares exceed 20%.",
+      "sources": [
+        "ASTM C373 / ISO 10545-3 & ISO 13006 (Group BIII >10% water absorption)",
+        "MDPI Materials / Applied Sciences / Ceramics studies on fired red clay and terracotta bodies",
+        "Construction and Building Materials / Ceramics International terracotta durability literature"
+      ],
+      "unit": "% (mass % for water absorption; volume % for apparent open porosity)",
+      "value_or_range": "Water absorption: 8-25% (full earthenware span ~4% to >25%; architectural/traditional terracotta commonly 8-15%). Apparent open porosity: 15-35% (denser cookware formulations ~12-25%)."
+    },
+    {
+      "claim": "Unglazed Zisha (Yixing purple clay) open/apparent porosity and water absorption",
+      "confidence": "MEDIUM",
+      "disagreements_or_caveats": "Dicaoqing-Zisha fired at 1180 C shows dual-scale pores (~0.2 um and <10 nm), making it impermeable to bulk liquid water yet gas-permeable. Reported ~10.79%/11% porosity and ~2.1% water absorption come from Sun et al. (2024) / cited Zisha testing, while other ceramic sources report 3-5% water absorption for hand-crafted Zisha (~1% for high-fired machine ware) and 3-12% open porosity; exact values vary by ore (Zini, Dicaoqing, Benshanzhu) and firing temp (1100-1200 C).",
+      "sources": [
+        "Yang et al. (2021), Ceramics International 47(8):10650-10657 (DOI: 10.1016/j.ceramint.2020.12.178)",
+        "Sun et al. (2024), Environment-Behaviour Proceedings Journal 9(SI23)",
+        "Terebess / Yixing ceramic engineering summaries"
+      ],
+      "unit": "% (mass % water absorption; volume % apparent porosity)",
+      "value_or_range": "Water absorption: ~2.1% to 6.0% (typical hand-built range 3-5%; high-fired down to ~1%; coarse/low-fired variants up to ~10.8%). Apparent porosity: ~4-12% (measured ~10.8-11% in cited Dicaoqing/Zisha samples)."
+    },
+    {
+      "claim": "La Chamba burnished micaceous clay open porosity and water absorption",
+      "confidence": "LOW CONFIDENCE",
+      "disagreements_or_caveats": "EVIDENCE GAP: Neither Colombia's SIC Denomination of Origin dossier nor Miller et al. (2020) Scientific Reports publishes ASTM C373 water absorption (%) or open porosity (%) specifically measured on La Chamba vessels. SIC documents that La Chamba uses a three-clay blend (lisa, arenosa, and a red-clay engobe explicitly applied to reduce porosity and waterproof walls), stone-burnishing, 750-800 C firing, and organic reduction smoking to seal surface pores. Unseasoned earthenware of this class is widely assumed at ~10-15% water absorption (unverified estimate), while a peer-reviewed SciELO Brasil MIP study of low-fired micaceous archaeological potsherds measured 21-26% apparent porosity (void ratio 0.28-0.36).",
+      "sources": [
+        "Superintendencia de Industria y Comercio (SIC), Colombia - Ceramica Negra de La Chamba Denomination of Origin",
+        "Miller et al. (2020), Scientific Reports (La Chamba 1-year cooking lipid absorption experiment)",
+        "SciELO Brasil (MIP porosity study of megalithic micaceous potsherds)"
+      ],
+      "unit": "% (mass % water absorption; volume % MIP porosity)",
+      "value_or_range": "No direct La Chamba lab measurement found (LOW CONFIDENCE). Firing temp: 750-800 C (SIC). Analog low-fired micaceous potsherds (MIP): 21-26% porosity."
+    },
+    {
+      "claim": "Vitrified glazed stoneware open porosity and water absorption",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Distinguish glaze from body: an intact vitrified glaze forms an impermeable glass surface (~0% open porosity), while the underlying stoneware body spans impervious/porcelain stoneware (<=0.5% WA) to vitreous stoneware (0.5-3.0% WA) and semivitreous stoneware (3.0-7.0% WA per ASTM C242/C373 & ANSI A137.1; 3-6% Group BIIa per ISO 13006). Boil tests (ASTM C373 / ISO 10545-3) can slightly under-measure micro-open porosity compared to gas pycnometry.",
+      "sources": [
+        "ASTM C242 (vitreous/semivitreous stoneware definitions) & ASTM C373 / ANSI A137.1",
+        "ISO 13006 & ISO 10545-3 (Groups BIa and BIb)",
+        "MDPI Materials / Ceramics / Applied Sciences studies on porcelain stoneware"
+      ],
+      "unit": "% (mass % water absorption; volume % apparent porosity)",
+      "value_or_range": "Porcelain/impervious vitrified stoneware: <=0.5% water absorption (typically 0.05-0.5%), <0.5-2.0% apparent porosity (often <0.6%). Vitreous stoneware: 0.5-3.0% water absorption. Semivitreous stoneware: 3.0-7.0% water absorption."
+    },
+    {
+      "claim": "Water absorbed and released by a soaked Romertopf clay baker into the cooking chamber",
+      "confidence": "LOW CONFIDENCE",
+      "disagreements_or_caveats": "EVIDENCE GAP: Official Romertopf manuals (roemertopf.de) prescribe a 10-20 min (typically 15 min) cold-water soak before placing into a cold oven, but neither Romertopf, Stiftung Warentest, nor major test kitchens (Cook's Illustrated, Serious Eats) publish gravimetric measurements (g, ml, or %) of water absorbed or the split vented inward to food vs. outward into the oven. Unverified culinary/mass-balance estimates based on 10-15% terracotta absorption on a 3.5-4.5 kg dry baker suggest ~350-675 ml at saturation (~180-350 ml for a 15-min soak on 3-4 qt models), tagged LOW CONFIDENCE.",
+      "sources": [
+        "Romertopf official care and usage instructions (roemertopf.de / manuals.plus)",
+        "Stiftung Warentest search confirmation (no dedicated Romertopf water-absorption test published)",
+        "ASTM C373 / terracotta porosity literature (for theoretical upper-bound context only)"
+      ],
+      "unit": "minutes soak; ml or g water (theoretical/unverified)",
+      "value_or_range": "Prescribed soak: 10-20 min (HIGH confidence). Exact water absorbed & chamber release fraction: unmeasured in authoritative sources (~180-675 ml theoretical/informal range, LOW CONFIDENCE)."
+    },
+    {
+      "claim": "Moisture and evaporation loss over 2-, 4-, and 8-hour slow cooks: unglazed clay vs. glazed stoneware vs. metal Dutch ovens/multi-cookers",
+      "confidence": "LOW CONFIDENCE",
+      "disagreements_or_caveats": "EVIDENCE GAP: No peer-reviewed study or test kitchen publishes a controlled 2h/4h/8h side-by-side gravimetric moisture-loss table across all three vessel types on an identical recipe. Verified comparative mechanics: (1) Glazed stoneware electric slow cookers form a near-closed condensation loop with minimal evaporation over 4-8h; meat/vegetable purge (70-80% water) increases free liquid, requiring 30-50% less added liquid than Dutch ovens (minimum ~0.5-1 cup). Lifting the lid vents steam and adds 20-30 min cooking time per peek. (2) Heavy Dutch ovens in 250-325 F ovens allow gradual vapor escape and sauce reduction over 2-4h; cracking the lid ajar drops braising liquid equilibrium from ~210 F (sealed) to ~190 F via evaporative cooling; loose lids/extended cooks risk dry-out by 4-8h (single non-peer-reviewed cookware comparison cites ~20-25% loss over 2.5-3.5h). (3) Multi-cookers have near-zero evaporation under pressure (>=1 cup minimum liquid required), while slow-cook mode heats from the bottom rather than wrap-around walls, raising scorching risk. (4) Soaked unglazed clay is suited to 1-3h oven cooks rather than unmonitored 8h holds once wall water depletes.",
+      "sources": [
+        "Colorado State, NC State, Kansas State, Michigan State, and Missouri University Extension slow-cooker publications",
+        "J. Kenji Lopez-Alt (Serious Eats / The Food Lab) braising lid-ajar temperature & evaporation tests",
+        "America's Test Kitchen / Cook's Illustrated slow cooker vs. Dutch oven recipe conversion rules"
+      ],
+      "unit": "% liquid adjustment / temperature (F) / time penalty (min)",
+      "value_or_range": "Slow cooker added-liquid reduction vs. Dutch oven: 30-50% less (min 0.5-1 cup). Sealed vs. ajar Dutch oven liquid temp at 250 F: ~210 F vs. ~190 F. Slow-cooker lid-lift penalty: 20-30 min/peek. Direct 2/4/8h % loss table across vessels: unmeasured gap (LOW CONFIDENCE)."
+    },
+    {
+      "claim": "Conditions under which cooks must top up cooking liquid",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Top-ups depend on vessel seal, heat source geometry, and thermal-shock tolerance. Cold liquid must never be poured into hot unglazed clay (Romertopf, La Chamba) because rapid steam expansion and thermal shock can crack the pot.",
+      "sources": [
+        "Romertopf official usage manuals (thermal shock warning)",
+        "America's Test Kitchen / Cook's Illustrated & Serious Eats braising guides",
+        "University Extension slow-cooker and multi-cooker guidelines"
+      ],
+      "unit": "operational conditions / minimum liquid (cups)",
+      "value_or_range": "Must top up / ensure minimum liquid when: (1) Dutch oven braising >3-4h (especially 4-8h) at >=300-325 F or with lid ajar/loose-fitting (add 0.5-1 cup hot liquid if level drops toward scorching); (2) Metal multi-cookers in pressure mode (<1 cup initial liquid fails to pressurize) or bottom-heated slow-cook mode with low-moisture solids; (3) Do NOT routinely top up glazed stoneware slow cookers (<10% loss; wait until meats/veg purge water), and NEVER add cold liquid to hot unglazed clay (Romertopf/La Chamba)."
+    }
+  ],
+  "id": "porosity-water-loss",
+  "myths_checked": [
+    "Myth: Slow cookers need just as much added broth as Dutch ovens because they cook for 8 hours. Checked: False. University Extensions and America's Test Kitchen / Serious Eats show slow cookers trap steam in a condensation loop with minimal evaporation, so meats/vegetables purge water and dilute sauces unless added liquid is cut by 30-50%.",
+    "Myth: A tight-lidded Dutch oven keeps braising liquid gentler and cooler than a cracked lid. Checked: False (or counterintuitive). Serious Eats testing shows a tightly sealed Dutch oven at 250 F allows liquid to reach ~210 F (near boiling), whereas cracking the lid ajar introduces evaporative cooling that lowers liquid temperature to ~190 F while concentrating sauce.",
+    "Myth: Yixing Zisha clay behaves like porous terracotta or leaks water. Checked: False. Yang et al. (2021, Ceramics International) and Sun et al. (2024) show Zisha fired at ~1150-1180 C has ~2-5% water absorption and ~4-11% apparent porosity in a dual-pore structure (~0.2 um and <10 nm) that is impermeable to bulk liquid water while remaining gas-permeable.",
+    "Myth: Official Romertopf or test-kitchen documentation proves exact milliliter water-release curves for clay bakers. Checked: False. Romertopf manuals prescribe a 10-20 min soak and cold-oven start, and no Stiftung Warentest, Cook's Illustrated, or peer-reviewed dataset reports exact grams absorbed or fraction vented inward vs. outward.",
+    "Myth: La Chamba pottery is glazed or completely non-porous. Checked: False. Colombian SIC Denomination of Origin records confirm it is unglazed earthenware fired at 750-800 C; porosity is reduced (not eliminated) using a red-clay engobe, stone-burnishing, and organic reduction smoking, and Miller et al. (2020, Scientific Reports) proved its walls absorb cooking lipids over time."
+  ]
+}

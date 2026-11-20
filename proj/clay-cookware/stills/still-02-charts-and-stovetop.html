@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Still 02 — Thermal Physics Bars, Römertopf Offset &amp; Induction Conflict</title>
+<style>
+  :root {
+    --paper: #F7F3EA;
+    --sheet: #FCF9F2;
+    --ink: #1A1815;
+    --ink-muted: #524C44;
+    --rule: #D4CBBC;
+    --rule-strong: #2A2621;
+    --terracotta: #B64227;
+    --glaze: #1D5A78;
+    --iron: #464B52;
+    --alum: #7A828C;
+    --warn: #A33120;
+    --warn-bg: #FAE6E2;
+    --ok: #1E5E3E;
+    --ok-bg: #E3F1EA;
+    --amb: #94560C;
+    --amb-bg: #FBF0DC;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, sans-serif; line-height: 1.5; }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 32px 28px 56px; }
+  .sec-head {
+    display: flex; justify-content: space-between; align-items: baseline;
+    border-bottom: 2px solid var(--rule-strong); padding-bottom: 8px; margin: 0 0 18px;
+  }
+  .sec-head h2 { font-family: Georgia, serif; font-size: 25px; margin: 0; }
+  .sec-head .tag { font-family: ui-monospace, monospace; font-size: 11px; color: var(--ink-muted); text-transform: uppercase; }
+
+  .two-col { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 22px; margin-bottom: 34px; }
+  .panel { background: var(--sheet); border: 1px solid var(--rule); padding: 18px; }
+  .panel h3 { font-size: 16px; margin: 0 0 6px; }
+  .unit-note { font-size: 13px; color: var(--ink-muted); margin: 0 0 14px; }
+  .bar-row { margin-bottom: 11px; }
+  .bar-label { display: flex; justify-content: space-between; font-size: 13px; margin-bottom: 4px; }
+  .bar-label code { font-family: ui-monospace, monospace; font-size: 12px; color: var(--ink); }
+  .track { height: 14px; background: #EAE4D7; position: relative; border-left: 1px solid var(--rule-strong); }
+  .fill { height: 100%; position: absolute; top: 0; left: 0; }
+  .range-cap { position: absolute; top: 2px; height: 10px; border-right: 2px solid var(--ink); }
+  .tiny-note { font-family: ui-monospace, monospace; font-size: 11px; color: var(--ink-muted); margin-top: 8px; }
+
+  .offset-box { border-left: 4px solid var(--terracotta); padding-left: 14px; margin: 12px 0; font-size: 14px; }
+  .offset-nums { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 14px 0; }
+  .num-cell { border: 1px solid var(--rule); background: var(--paper); padding: 10px; }
+  .num-cell .big { font-family: Georgia, serif; font-size: 20px; font-weight: 700; display: block; white-space: nowrap; margin-bottom: 4px; }
+  .num-cell .lbl { font-size: 12px; color: var(--ink-muted); }
+
+  .matrix { width: 100%; border-collapse: collapse; background: var(--sheet); border: 1px solid var(--rule); font-size: 13.5px; }
+  .matrix th, .matrix td { padding: 10px 12px; border-bottom: 1px solid var(--rule); border-right: 1px solid var(--rule); text-align: left; vertical-align: top; }
+  .matrix th { background: #EFE9DC; font-family: ui-monospace, monospace; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .badge { display: inline-block; font-family: ui-monospace, monospace; font-size: 11px; padding: 2px 6px; font-weight: 600; margin-bottom: 4px; }
+  .b-ok { background: var(--ok-bg); color: var(--ok); }
+  .b-amb { background: var(--amb-bg); color: var(--amb); }
+  .b-no { background: var(--warn-bg); color: var(--warn); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="sec-head">
+    <h2>Why clay cooks slowly—and why cast iron wins searing without high conductivity</h2>
+    <span class="tag">Thermal Physics &amp; Römertopf Offset (F01–F11)</span>
+  </div>
+
+  <div class="two-col">
+    <div class="panel">
+      <h3>Thermal Conductivity (k, W/m·K) vs. Volumetric Heat Capacity (Cv)</h3>
+      <p class="unit-note">
+        <strong>Zero-baseline bars:</strong> <em>k</em> measures how fast heat crosses the wall; <em>Cv</em> measures how much heat a cubic centimeter of wall stores per degree. Cast iron conducts 3–5× slower than aluminum, yet stores ~50% more heat per unit volume.
+      </p>
+
+      <div class="bar-row">
+        <div class="bar-label"><span>Aluminum 3003 (non-stick base)</span><code>159–190 W/(m·K) · Cv 2.4 MJ/m³·K</code></div>
+        <div class="track" aria-label="Aluminum 3003 thermal conductivity 159 to 190 out of 200 scale">
+          <div class="fill" style="width: 79.5%; background: var(--alum);"></div>
+          <div class="fill" style="left: 79.5%; width: 15.5%; background: #B0B7C0;"></div>
+        </div>
+      </div>
+
+      <div class="bar-row">
+        <div class="bar-label"><span>Gray Cast Iron (ASTM A48)</span><code>40–72 W/(m·K) · Cv 3.27–3.69 MJ/m³·K</code></div>
+        <div class="track">
+          <div class="fill" style="width: 20%; background: var(--iron);"></div>
+          <div class="fill" style="left: 20%; width: 16%; background: #8B9096;"></div>
+        </div>
+      </div>
+
+      <div class="bar-row">
+        <div class="bar-label"><span>Glazed Stoneware / Porcelain</span><code>1.0–4.0 W/(m·K) · Cv 1.6–2.3 MJ/m³·K</code></div>
+        <div class="track">
+          <div class="fill" style="width: 2%; background: var(--glaze);"></div>
+        </div>
+      </div>
+
+      <div class="bar-row">
+        <div class="bar-label"><span>Unglazed Zisha <em style="color:var(--amb)">(single source)</em></span><code>1.3 W/(m·K) (Lee &amp; Attinger 2016)</code></div>
+        <div class="track">
+          <div class="fill" style="width: 0.7%; min-width: 3px; background: var(--terracotta);"></div>
+        </div>
+      </div>
+
+      <div class="bar-row">
+        <div class="bar-label"><span>Unglazed Terracotta (Römertopf)</span><code>0.50–1.30 W/(m·K) · Cv 1.2–1.9 MJ/m³·K</code></div>
+        <div class="track">
+          <div class="fill" style="width: 0.7%; min-width: 3px; background: var(--terracotta);"></div>
+        </div>
+      </div>
+
+      <p class="tiny-note">Scale 0–200 W/(m·K). Note: Clay bars sit near 1% of aluminum's conductivity—meaning burner heat stays trapped at the contact patch instead of spreading sideways.</p>
+
+      <div style="margin-top:12px; padding-top:10px; border-top:1px dashed var(--rule);">
+        <div style="font-family:ui-monospace,monospace; font-size:11px; text-transform:uppercase; color:var(--ink-muted); margin-bottom:6px;">Clay-Only Zoom (0–5 W/m·K scale)</div>
+        <div class="bar-row" style="margin-bottom:6px;">
+          <div class="bar-label"><span>Glazed Stoneware / Porcelain</span><code>1.0–4.0 W/(m·K)</code></div>
+          <div class="track" style="height:10px;"><div class="fill" style="width:20%; background:var(--glaze);"></div><div class="fill" style="left:20%; width:60%; background:#7BA5BA;"></div></div>
+        </div>
+        <div class="bar-row" style="margin-bottom:6px;">
+          <div class="bar-label"><span>Unglazed Zisha <em>(single source)</em></span><code>1.3 W/(m·K)</code></div>
+          <div class="track" style="height:10px;"><div class="fill" style="width:26%; background:var(--terracotta);"></div></div>
+        </div>
+        <div class="bar-row" style="margin-bottom:0;">
+          <div class="bar-label"><span>Unglazed Terracotta</span><code>0.50–1.30 W/(m·K)</code></div>
+          <div class="track" style="height:10px;"><div class="fill" style="width:10%; background:var(--terracotta);"></div><div class="fill" style="left:10%; width:16%; background:#DA8973;"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3>What to Actually Do With Any Unglazed, Water-Soaked Clay Baker</h3>
+      <p class="unit-note">
+        Applies to <strong>all unglazed, water-soaked clay pots</strong> (Römertopfs and unbranded clay roasters alike)—not dry-used Zisha or glazed stoneware.
+      </p>
+      <div class="offset-nums">
+        <div class="num-cell">
+          <span class="big">10–20 min</span>
+          <span class="lbl">Cold-water soak (30 min if new/dry)</span>
+        </div>
+        <div class="num-cell">
+          <span class="big">+100°F</span>
+          <span class="lbl">Above metal recipes (400–450°F dial; −30 min)</span>
+        </div>
+        <div class="num-cell">
+          <span class="big">15–20 min</span>
+          <span class="lbl">Uncovered at the end for browning</span>
+        </div>
+      </div>
+      <div class="offset-box">
+        <strong>Do / Don't rule:</strong> <strong>Do</strong> put the soaked pot into a <strong>cold oven</strong>—the trapped water buffers food near 212°F (100°C) steam while the dial runs ~400–450°F (200–230°C, max 500°F). <strong>Don't</strong> put wet clay into a preheated oven (flash steam + ΔT shatters it), and don't under-set by +50°F if converting a standard recipe.
+      </div>
+      <details open style="margin-top:10px; font-size:12.5px; color:var(--ink-muted); border-top:1px solid var(--rule); padding-top:8px;">
+        <summary style="cursor:pointer; font-family:ui-monospace,monospace; font-size:11px; color:var(--ink); font-weight:600;">Why do half the clay-pot blogs say "+50°F" while the booklet says "+100°F"?</summary>
+        <p style="margin:6px 0 0;">A 50°C jump equals +90°F (rounded to +100°F in the US Römertopf booklet); blogs that advise "+50°F" confused Δ50°C with Δ50°F (only 27.8°C). Meanwhile, <em>roemertopf.de</em> skips offsets entirely and specifies 180–200°C convection (~220°C top/bottom).</p>
+      </details>
+    </div>
+  </div>
+
+  <div class="sec-head">
+    <h2>Stovetop &amp; Induction Roulette: Where OEMs and Claymakers Flatly Disagree</h2>
+    <span class="tag">Heat Source Compatibility Matrix (F25, F26)</span>
+  </div>
+
+  <table class="matrix">
+    <thead>
+      <tr>
+        <th style="width:18%">Pot / Insert</th>
+        <th style="width:19%">Gas Flame</th>
+        <th style="width:20%">Electric Coil</th>
+        <th style="width:21%">Radiant Glass-Top</th>
+        <th style="width:22%">Induction + Steel Disk</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Römertopf / Terracotta</strong></td>
+        <td><span class="badge b-no">NO</span><br>Dry/wet gradient fractures wall.</td>
+        <td><span class="badge b-no">NO</span><br>Severe ring contact hotspot.</td>
+        <td><span class="badge b-no">NO</span><br>Thermal shock + glass scratch.</td>
+        <td><span class="badge b-no">NO</span><br>0 magnetic coupling; unsafe on disk.</td>
+      </tr>
+      <tr>
+        <td><strong>VitaClay (Unglazed Zisha)</strong></td>
+        <td><span class="badge b-no">PROHIBITED</span><br>Electric base only; manual bans stovetop &amp; oven.</td>
+        <td><span class="badge b-no">PROHIBITED</span><br>Manual bans burners.</td>
+        <td><span class="badge b-no">PROHIBITED</span><br>Manual bans glass-top.</td>
+        <td><span class="badge b-no">PROHIBITED</span><br>0 coupling; base only.</td>
+      </tr>
+      <tr>
+        <td><strong>La Chamba (Burnished Clay)</strong></td>
+        <td><span class="badge b-ok">CONDITIONAL OK</span><br>Start low flame; liquid inside; 3/4-water oven cure first.</td>
+        <td><span class="badge b-amb">DIFFUSER NEEDED</span><br>Importers &amp; Wolfert require flat diffuser to stop hotspots.</td>
+        <td><span class="badge b-amb">DIFFUSER + LIFT</span><br>Diffuser required; lift pot so grit doesn't scratch glass.</td>
+        <td><span class="badge b-no">OEM vs. IMPORTER CLASH</span><br>Importers mention disks; <strong>Miele/Bosch prohibit</strong> (generator damage).</td>
+      </tr>
+      <tr>
+        <td><strong>Magnifique (Glazed Kaolin)</strong></td>
+        <td><span class="badge b-ok">RATED OK</span><br>Gas stovetop + 750°F oven (450–500°F on MCP41P).</td>
+        <td><span class="badge b-ok">RATED OK</span><br>Manual permits electric coil/top on gradual heat.</td>
+        <td><span class="badge b-amb">CAREFUL</span><br>Gradual heat; avoid thermal shock; no sliding.</td>
+        <td><span class="badge b-no">NOT INDUCTION</span><br>No ferrous core; OEMs warn against adapter disks.</td>
+      </tr>
+      <tr>
+        <td><strong>Enameled Cast Iron</strong></td>
+        <td><span class="badge b-ok">NATIVE OK</span><br>High thermal inertia; gradual preheat saves enamel.</td>
+        <td><span class="badge b-ok">NATIVE OK</span><br>Flat heavy base tolerates coils.</td>
+        <td><span class="badge b-ok">NATIVE OK</span><br>Lift, don't slide on glass.</td>
+        <td><span class="badge b-ok">NATIVE INDUCTION</span><br>Ferromagnetic; no adapter plate needed.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</body>
+</html>

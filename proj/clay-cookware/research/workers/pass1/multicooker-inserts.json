@@ -1,0 +1,186 @@
+{
+  "angle": "Manufacturer specifications, thermophysical properties, glaze/coating chemistry, and operational trade-offs across Magnifique (kaolin-glazed clay), VitaClay (unglazed Zisha clay), aluminum PTFE/sol-gel ceramic non-stick, and enameled/bare cast-iron multi-cooker inserts",
+  "bibliography": [
+    "Magnifique Official Specifications & Help Center (cookmagnifique.com): MCR51P 8-in-1 Round Clay Multi-Cooker, 4/4.5/6-Qt Casserole Claypots, Kaolin Glaze & Care Guidelines",
+    "Magnifique MCR51P / Clay Multi-Cooker User Manual & Retailer Spec Sheets (manuals.plus, target.com, thdstatic.com)",
+    "VitaClay Chef Official Specifications & Manuals (vitaclaychef.com): VM7900, VM7800-5C, VF7700, VS7600 Series Manuals, FAQs, and Care Guides",
+    "VitaClay Official Operating Manual PDFs (thdstatic.com) & Retailer Specs (homedepot.com, walmart.com)",
+    "Römertopf Traditional Unglazed Clay Baker Operating Manual (manuals.plus)",
+    "SharkNinja Official Specifications & Manual: Ninja Foodi PossibleCooker PRO MC1001 (sharkninja.com, sharkninja.ca, manuals.plus)",
+    "Crock-Pot Official Owner's Guide: Express Crock Multi-Cooker SCCPPC600-V1 (crock-pot.com, manualslib.com)",
+    "Breville Official Documentation: The Fast Slow Pro BPR700BSS (breville.com)",
+    "All-Clad Official Specifications & User Guide: 5-Qt Electric Dutch Oven SD922D51 (all-clad.com, device.report)",
+    "Instant Brands Official Specifications: Instant Precision 6-Qt Electric Dutch Oven (instantpot.com, bestbuy.com, williams-sonoma.com)",
+    "USDA Food Safety and Inspection Service (FSIS): Slow Cookers and Food Safety (usda.gov) & University Extensions (msu.edu, ucanr.edu, ncsu.edu, clemson.edu)",
+    "U.S. FDA Compliance Policy Guides Sec. 545.450 (Lead) & Sec. 545.400 (Cadmium) / ASTM C738 Ceramicware Limits; 21 CFR 177.1550 Perfluorocarbon Resins (cornell.edu)",
+    "Chemours / DuPont Teflon Fluoropolymer Technical Temperature Guidelines & NIH/PubMed StatPearls Clinical Reviews on Polymer Fume Fever (nih.gov, teflon.com)",
+    "Engineering ToolBox, MatWeb, NIST & ASM Materials Handbooks: Thermophysical Properties of Aluminum 3003/6061, Gray/Ductile Cast Iron, Alumina, and Stoneware/Kaolin Ceramics (engineeringtoolbox.com, nist.gov, gsu.edu, oregonstate.edu)",
+    "Peer-Reviewed Materials Science Studies on Yixing Zisha Ceramic Composition, Firing, and Dual-Pore Microstructure (ScienceDirect/ResearchGate/PubMed: Benshanzhu Zisha & Yixing Zisha pottery studies)",
+    "University Extension Cast Iron Care & Acidic Food Guidance: Mississippi State (msstate.edu), University of Illinois (illinois.edu), University of Maine (umaine.edu), North Carolina State (ncsu.edu), University of Arkansas (uada.edu)"
+  ],
+  "findings": [
+    {
+      "claim": "Magnifique Clay Multi-Cooker material and kaolin glaze construction",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Marketed as 100% pure kaolin clay inside and out with a natural kaolin clay glaze (not synthetic PTFE/PFOA/PFAS or heavy-metal glaze); fired >1,500 °F.",
+      "sources": [
+        "cookmagnifique.com (official product & FAQ pages)",
+        "manuals.plus (Magnifique multi-cooker manual)"
+      ],
+      "unit": "firing temp (°F)",
+      "value_or_range": ">1,500 °F (natural kaolin clay body with kaolin clay glaze; PFAS/PTFE/lead/cadmium-free)"
+    },
+    {
+      "claim": "Magnifique Clay Multi-Cooker capacities and electrical power rating",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "MCR51P Round Clay Multi-Cooker is 4.5 qt at 1,130 W; 4-qt and 6-qt casserole/clay multi-cooker variants also list 1,130 W (120 V, 60 Hz). Exact digital Slow Cook Low/High °F setpoints are not published in the manual.",
+      "sources": [
+        "cookmagnifique.com (MCR51P & Casserole specs)",
+        "target.com (Magnifique 4-Qt/4.5-Qt retail electrical specs)",
+        "manuals.plus (Magnifique user manual)"
+      ],
+      "unit": "qt / W",
+      "value_or_range": "4–6 qt (4.5 qt MCR51P); 1,130 W at 120 V / 60 Hz"
+    },
+    {
+      "claim": "Magnifique operating modes, browning, stovetop, and oven thermal limits",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Clay insert and lid are safe on gas and electric cooktops and ovens up to 750 °F (400 °C) and support direct Sear/Sauté on both the 1,130 W base and stovetop; NOT compatible with induction (no ferrous core), and the electric base must never enter an oven or sit on a burner. Manual advises avoiding extreme thermal shock (frozen food into preheated pot or hot pot onto cold/wet surface).",
+      "sources": [
+        "cookmagnifique.com (official specs & FAQ)",
+        "thdstatic.com (Magnifique manual/care sheet)",
+        "manuals.plus (Magnifique operating guide)"
+      ],
+      "unit": "°F (°C) / modes",
+      "value_or_range": "8-in-1 (Slow Cook High/Low 2–20 hr, Braise, Sear/Sauté, Steam/Proof, White/Brown Rice, Oats, Pasta, Keep Warm); pot safe to 750 °F (400 °C)"
+    },
+    {
+      "claim": "VitaClay unglazed Zisha clay mineral composition, firing, and dual-pore microstructure",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "VitaClay states its unglazed Zisha inserts are sourced from certified deposits and lab-tested free of lead, aluminum, cadmium, arsenic, and chemical glazes; peer-reviewed characterization covers Yixing Zisha ceramics generally rather than independent lab assays of VitaClay's specific commercial batches.",
+      "sources": [
+        "vitaclaychef.com (official material & lab-testing documentation)",
+        "thdstatic.com (VitaClay safety documentation)",
+        "Peer-reviewed Yixing Zisha studies (Benshanzhu Zisha composition/porosity; 1573–1911 Yixing Zisha structure)"
+      ],
+      "unit": "wt% / °C / % porosity",
+      "value_or_range": "40–50% quartz, 25–40% kaolinite/hydromica, 8–12% iron oxides (hematite/goethite); fired 1,100–1,220 °C below full vitrification; 2–5% dual-pore apparent porosity (1–10 µm open pores)"
+    },
+    {
+      "claim": "VitaClay model capacities and electrical power ratings",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "VM7900-6/VF7700-6 listed as 3–3.2 qt (6-cup uncooked rice); VM7900-8/VF7700-8 as 4–4.2 qt (8-cup uncooked); VM7800-5C as 6–6.5 qt (no rice mode). VS7600-2C (2 qt / 64 oz) 500–600 W rating is LOW CONFIDENCE because secondary retail listings quote 500–600 W while manufacturer defers to unit manual.",
+      "sources": [
+        "vitaclaychef.com (VM7900, VM7800-5C, VF7700, VS7600 product specs)",
+        "thdstatic.com (VitaClay official manuals)",
+        "homedepot.com & walmart.com (retail electrical/capacity spec sheets)"
+      ],
+      "unit": "qt / W",
+      "value_or_range": "VS7600-2C: 2 qt (~500–600 W, LOW CONFIDENCE); VF7700/VM7900-6: 3–3.2 qt (500–600 W); VF7700/VM7900-8: 4–4.2 qt (500–600 W); VM7800-5C: 6–6.5 qt (600 W) at 110–120 VAC / 60 Hz"
+    },
+    {
+      "claim": "VitaClay cooking temperature profiles, time conversions, and thermal shock ceiling",
+      "confidence": "MEDIUM",
+      "disagreements_or_caveats": "Manuals do not publish exact °F values for Stew/Slow/Warm modes; cooker boils (~212 °F) then drops to gentle micro-pressurized simmer using time presets (30-min steps). The 480 °F (~250 °C) thermal-shock rating for the clay bowl comes from a single manufacturer video/FAQ reference (LOW CONFIDENCE).",
+      "sources": [
+        "vitaclaychef.com (official manuals & time-conversion FAQs)",
+        "thdstatic.com (VM7900/VF7700 manual PDFs)",
+        "youtube.com (VitaClay official channel spec video - single source for 480 °F shock limit)"
+      ],
+      "unit": "°F (°C) / hours",
+      "value_or_range": "Boil ~212 °F (100 °C) then low simmer (6–8 hr traditional Low ≈ 2 hr Stew); Yogurt mode 105–115 °F (~110 °F / 43 °C for 4–8 hr after 180 °F milk scald); thermal shock tolerance up to 480 °F / ~250 °C (LOW CONFIDENCE)"
+    },
+    {
+      "claim": "VitaClay pre-soak, soap, and browning/stovetop/oven rules",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Unlike Römertopf unglazed oven bakers (which require 15–20 min water submersion before every cold-oven bake), VitaClay prohibits soaking the pot exterior/before cooking (dry outside required for electric base); pre-soaking applies only to dry beans/grains inside the pot or overnight post-cook cleaning with warm water and 1/4 cup baking soda. Mild dish soap is permitted if thoroughly rinsed after cooling to room temp. Stovetop, oven, and direct searing/browning are prohibited; meat must be browned in a separate skillet.",
+      "sources": [
+        "vitaclaychef.com (official care, cleaning, and browning FAQs)",
+        "thdstatic.com (VitaClay user manual PDF)",
+        "manuals.plus (Römertopf clay baker manual for contrast)"
+      ],
+      "unit": "operational rules",
+      "value_or_range": "No pot pre-soak; mild soap allowed with thorough rinse; baking soda soak (1/4 cup) for stuck food/odors; NO stovetop/oven/browning in insert"
+    },
+    {
+      "claim": "Standard aluminum non-stick multi-cooker insert capacities, wattages, and oven limits",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Ninja MC1001 cast-aluminum pot is oven-safe to 500 °F (260 °C) but explicitly NOT stovetop safe on traditional burners; Crock-Pot Express and Breville Fast Slow Pro range 1,000–1,100 W; larger Ninja Foodi multi-cookers reach 1,410–1,780 W.",
+      "sources": [
+        "sharkninja.com & manuals.plus (Ninja MC1001 PossibleCooker PRO)",
+        "crock-pot.com (SCCPPC600-V1 Owner's Guide)",
+        "breville.com (Fast Slow Pro BPR700BSS documentation)"
+      ],
+      "unit": "qt / W / °F (°C)",
+      "value_or_range": "6–8.5 qt; 1,000–1,200 W standard multi-cookers (up to 1,410–1,780 W high-power Ninja units); Ninja MC1001 pot oven-safe to 500 °F (260 °C)"
+    },
+    {
+      "claim": "Enameled and bare cast-iron multi-cooker insert capacities, wattages, weights, and oven limits",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Mainstream electric Dutch ovens use porcelain-enameled cast iron (non-reactive, rust-resistant) and are stovetop/induction/oven safe; bare cast iron is avoided as a factory electric insert due to moisture-induced rusting against the base. Instant Precision Dutch Oven base max is 400 °F while pot/lid tolerate 450 °F.",
+      "sources": [
+        "all-clad.com & device.report (All-Clad SD922D51 manual)",
+        "instantpot.com, williams-sonoma.com & bestbuy.com (Instant Precision Dutch Oven specs)",
+        "University Extensions (msstate.edu, illinois.edu, umaine.edu, ncsu.edu, uada.edu)"
+      ],
+      "unit": "qt / W / lb / °F (°C)",
+      "value_or_range": "5–6 qt; 1,000 W (All-Clad SD922D51) to 1,500 W (Instant Precision); 21–22 lb total appliance weight; oven-safe 450–500 °F (232–260 °C), gas/electric/induction stovetop safe"
+    },
+    {
+      "claim": "Typical wall thickness of aluminum vs. cast-iron multi-cooker inserts",
+      "confidence": "LOW CONFIDENCE",
+      "disagreements_or_caveats": "Official multi-cooker manuals rarely publish exact millimeter wall thicknesses; ranges reflect general stamped/die-cast aluminum and cast-iron Dutch oven manufacturing norms rather than brand-verified blueprint measurements.",
+      "sources": [
+        "ebay.com / ereplacementparts.com (die-cast vs. stamped cookware descriptions)",
+        "all-clad.com & manuals.plus (qualitative heavy-gauge/cast descriptions)"
+      ],
+      "unit": "mm",
+      "value_or_range": "Aluminum non-stick inserts: ~2.0–4.5+ mm (stamped ~2 mm vs. heavy die-cast ~4–5 mm); Cast-iron inserts: ~4–6 mm"
+    },
+    {
+      "claim": "Thermophysical properties: Aluminum (pure / 3003) vs. Gray Cast Iron vs. Stoneware/Kaolin Ceramic",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Values vary by alloy temper (e.g., 3003-O vs. 3003-H14 vs. 6061) and ceramic vitrification/porosity (porous stoneware down to ~0.5 W/m·K vs. dense porcelain/stoneware up to ~4.0 W/m·K). Volumetric heat capacity Cv = ρ × cp.",
+      "sources": [
+        "engineeringtoolbox.com & MatWeb/ASM handbooks (Al, cast iron)",
+        "nist.gov & gsu.edu (thermal conduction & kaolin/ceramic phase data)",
+        "oregonstate.edu & alfa-chemistry.com (thermal inertia & material properties)"
+      ],
+      "unit": "k [W/(m·K)] / ρ [kg/m³] / cp [J/(kg·K)] / Cv [kJ/(m³·K)]",
+      "value_or_range": "Aluminum: k=159–237, ρ=2,700–2,710, cp=880–902, Cv≈2,376–2,444; Cast Iron: k=36–53 (gray 40–53), ρ=7,100–7,300, cp=460–554, Cv≈3,266–4,044; Stoneware/Clay Ceramic: k=0.8–2.0 (range 0.5–4.0), ρ=2,000–2,600, cp=750–1,050, Cv≈1,520–2,340"
+    },
+    {
+      "claim": "PTFE vs. sol-gel ceramic non-stick coating thermal degradation and regulatory limits",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "PTFE complies with FDA 21 CFR 177.1550 below 260 °C (500 °F); intermittent exposure up to 285–315 °C causes slow degradation while rapid pyrolysis above 350–400 °C releases fluorocarbon gases/ultrafine particles causing polymer fume fever. Sol-gel silica matrices tolerate 400–450 °C structurally, but embedded silicone release agents oxidize at 250–300 °C, ending non-stick release.",
+      "sources": [
+        "teflon.com (Chemours/DuPont max continuous temperature specs)",
+        "nih.gov (PubMed/StatPearls polymer fume fever clinical data)",
+        "cornell.edu (FDA 21 CFR 177.1550 regulatory text)"
+      ],
+      "unit": "°C (°F)",
+      "value_or_range": "PTFE max continuous: 260 °C (500 °F), rapid pyrolysis >350–400 °C (662–752 °F); Sol-gel ceramic matrix: 400–450 °C (750–842 °F) structural vs. 250–300 °C (482–572 °F) release-loss threshold"
+    },
+    {
+      "claim": "FDA ceramicware heavy-metal leach limits and USDA slow-cooker thermal safety baseline",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "FDA limits apply to glazed ceramic foodware tested via ASTM C738 acid leaching (California Prop 65 enforces stricter settlement thresholds); USDA slow-cooker range covers conventional slow cookers and requires thawed refrigerated meat to clear the 40–140 °F danger zone quickly.",
+      "sources": [
+        "FDA CPG Sec. 545.450 (Lead) & Sec. 545.400 (Cadmium) / ASTM C738",
+        "usda.gov (USDA FSIS Slow Cookers and Food Safety)",
+        "University Extensions (msu.edu, ucanr.edu, ncsu.edu, clemson.edu)"
+      ],
+      "unit": "mg/L (ppm) / °F (°C)",
+      "value_or_range": "FDA large hollowware (≥1.1 L): ≤1.0 mg/L Pb, ≤0.25 mg/L Cd; USDA slow-cooker operating range: 170–280 °F (77–138 °C), danger zone 40–140 °F"
+    }
+  ],
+  "id": "multicooker-inserts",
+  "myths_checked": [
+    "Myth: All unglazed clay cookers must be pre-soaked in water before every use like Römertopf bakers. Reality: Only unglazed European oven bakers (Römertopf) require 15–20 min water submersion before a cold-oven start; VitaClay prohibits wetting/soaking the pot exterior before cooking because trapped moisture risks cracking and electrical base damage (only dry grains/beans are pre-soaked inside).",
+    "Myth: Soap can never touch an unglazed Zisha clay pot. Reality: While traditional Yixing tea pots forbid soap to preserve tea patina/aroma, VitaClay manuals explicitly allow mild dishwashing soap with warm water and thorough rinsing once cooled, recommending overnight 1/4-cup baking soda soaks for deep cleaning/odors.",
+    "Myth: Clay multi-cooker pots cannot go on a stovetop or sear meat. Reality: True for unglazed VitaClay (prohibited on stovetops/ovens; requires separate skillet browning), FALSE for Magnifique's high-fired kaolin-glazed clay pot, which is rated for gas/electric stovetops, base Sear/Sauté, and ovens up to 750 °F (400 °C)—though not induction.",
+    "Myth: Ceramic non-stick coatings maintain non-stick release up to 450 °C (842 °F). Reality: While the inorganic silica backbone resists melting up to ~400–450 °C, organic/silicone release modifiers degrade at 250–300 °C (482–572 °F), causing rapid loss of non-stick performance if overheated.",
+    "Myth: Bare cast iron is commonly used as a factory electric multi-cooker insert. Reality: Mainstream electric Dutch ovens (All-Clad SD922D51, Instant Precision) use porcelain-enameled cast iron because bare iron rusts from trapped slow-cooker moisture and reacts with acidic braises (stripping seasoning and imparting metallic taste, per university extensions).",
+    "Myth: Cast iron conducts heat better than aluminum. Reality: Aluminum conducts heat ~3–5× faster (k ≈ 159–237 W/m·K vs. cast iron k ≈ 36–53 W/m·K); cast iron excels at searing due to higher volumetric heat capacity (Cv ≈ 3,266–4,044 vs. 2,376–2,444 kJ/m³·K) and thicker walls, not higher conductivity."
+  ]
+}

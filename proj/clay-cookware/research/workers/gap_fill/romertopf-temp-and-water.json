@@ -1,0 +1,129 @@
+{
+  "angle": "Verification of official Römertopf GmbH and Römertopf USA temperature conversion rules (+50°F vs. +100°F / +50°C confusion), quantitative 2/4/6/8-hour vessel evaporation rates across slow cookers, Dutch ovens, and clay pots, and weighed water absorption of soaked clay bakers from primary/authoritative sources.",
+  "bibliography": [
+    "Römertopf GmbH (roemertopf.de) — Official Care, Usage Instructions, FAQ, and Recipes",
+    "Römertopf USA (romertopf-usa.com) — Official Product Specifications, Use & Care Guidelines",
+    "Römertopf Clay Baker Instruction Manual (English/US booklet, archived at manuals.plus)",
+    "Peters CR, Sinwell DD, Van Duyne FO. 'Slow cooker vs. oven preparation of meat loaves and chicken.' Journal of the American Dietetic Association, 1983 Oct;83(4):430-435 (PMID: 6619457)",
+    "ASTM C373 — Standard Test Method for Water Absorption, Bulk Density, Apparent Porosity, and Apparent Specific Gravity of Fired Unglazed Whiteware Products, Ceramic Tiles, and Glass Tiles",
+    "ISO 10545-3 — Ceramic tiles: Determination of water absorption, apparent porosity, apparent relative density, and bulk density",
+    "Michigan State University Extension, Purdue University Extension, Texas A&M AgriLife Extension, University of Arkansas Extension — Slow Cooker Water Safety Testing Guidelines",
+    "America's Test Kitchen / Cook's Illustrated (Dan Souza, 'What's Eating Dan?' & Dutch Oven / Slow Cooker equipment coverage)",
+    "Serious Eats (J. Kenji López-Alt, 'Why Pressure Cookers Are Better Than Slow Cookers')",
+    "Myhrvold N. et al., Modernist Cuisine (closed-system vapor trapping vs. muscle-protein cooking loss principles)",
+    "Stiftung Warentest (confirmation of no published dedicated Römertopf/Bräter or slow-cooker comparative evaporation test)"
+  ],
+  "findings": [
+    {
+      "claim": "Römertopf USA official English instruction manual recipe-conversion temperature and time rule",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Current romertopf-usa.com web pages state cold-oven start, 10–20 min soaking, and max 500°F (250°C), while the printed US Römertopf instruction booklet explicitly prints the +100°F / -30 min rule. Unofficial secondary blogs sometimes dilute this to '+50°F to +100°F', but no official Römertopf manual states +50°F.",
+      "sources": [
+        "Römertopf Clay Baker Instruction Booklet (manuals.plus)",
+        "Römertopf USA (romertopf-usa.com)"
+      ],
+      "unit": "°F offset / minutes time offset",
+      "value_or_range": "+100°F (+50°C to +55°C); deduct 30 minutes cooking time"
+    },
+    {
+      "claim": "Römertopf GmbH (roemertopf.de) official oven temperature rules (no +50°C conventional-recipe offset rule)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "roemertopf.de does NOT publish a '+50°C above conventional oven recipes' rule. Instead it specifies direct target temperatures (180–200°C convection / ~220°C conventional top-bottom heat, max ~250°C), mandatory cold-oven start, and removing the lid for the final 15–20 min for crusting. On roemertopf.de, '50°C' only appears for warm-holding cooked dishes or proofing dough.",
+      "sources": [
+        "Römertopf GmbH (roemertopf.de)"
+      ],
+      "unit": "°C target oven temperature",
+      "value_or_range": "180–200°C (convection/Umluft) or ~220°C (top-bottom/Ober-/Unterhitze); max 250°C"
+    },
+    {
+      "claim": "Mathematical explanation of +50°C vs. +50°F unit confusion in Römertopf temperature conversion",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Applies physical unit-conversion arithmetic to the +100°F US manual rule and German/metric approximations (~+50°C). Confusing ΔT = +50°C with ΔT = +50°F under-sets the oven by ~40–50°F relative to the +100°F US manual offset.",
+      "sources": [
+        "Römertopf Clay Baker Instruction Booklet (manuals.plus)",
+        "Standard temperature-interval conversion (Δ°F = 1.8 × Δ°C)"
+      ],
+      "unit": "°F per Δ50°C interval",
+      "value_or_range": "Δ50°C = Δ90°F (rounded to +100°F in US manual), whereas Δ50°F = only Δ27.8°C"
+    },
+    {
+      "claim": "Recommended pre-cooking soaking duration for unglazed Römertopf clay",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "roemertopf.de specifies 10–15 minutes (lid only if base is glazed; both pieces for unglazed Ur-Römertopf); romertopf-usa.com and US manuals specify 10–20 minutes (up to 30 min for new/dry pots).",
+      "sources": [
+        "Römertopf GmbH (roemertopf.de)",
+        "Römertopf USA (romertopf-usa.com)",
+        "Römertopf Instruction Booklet (manuals.plus)"
+      ],
+      "unit": "minutes submerged in water",
+      "value_or_range": "10–20 (up to 30 for new/very dry pots)"
+    },
+    {
+      "claim": "Authoritative 2/4/6/8-hour quantitative evaporation rate (%) comparison across slow cookers, Dutch ovens, and clay pots",
+      "confidence": "LOW CONFIDENCE",
+      "disagreements_or_caveats": "Confirmed data gap: Neither America's Test Kitchen/Cook's Illustrated, Serious Eats, Modernist Cuisine, Stiftung Warentest, Consumer Reports, Wirecutter, nor university extensions publish a controlled 2/4/6/8-hour table of container evaporation (%) comparing slow cookers, Dutch ovens, and clay pots. Qualitative consensus across ATK, Serious Eats (López-Alt), and Modernist Cuisine is near-zero net evaporation in slow cookers vs. moderate/controllable evaporation in covered/cracked Dutch ovens. One non-academic gear review (Prudent Reviews) reported Staub lids retained ~8% more moisture than Le Creuset in a short 10-min boil + 15–30 min rest test (single non-peer-reviewed source, not a 2–8h test).",
+      "sources": [
+        "America's Test Kitchen / Cook's Illustrated (Dan Souza; equipment reviews)",
+        "Serious Eats (J. Kenji López-Alt)",
+        "Modernist Cuisine",
+        "Stiftung Warentest",
+        "Michigan State / Purdue / Texas A&M / U of Arkansas Extensions"
+      ],
+      "unit": "% evaporation loss over 2–8 hours",
+      "value_or_range": "No controlled authoritative 2/4/6/8h percentage dataset published; slow cookers exhibit near-zero net evaporation"
+    },
+    {
+      "claim": "Slow cooker 8-hour water-safety temperature benchmark (University Extensions)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Measures safe thermal equilibrium on LOW over 8 hours rather than publishing an exact % evaporation table; notes significant steam escape/water loss indicates a warped lid or poor seal.",
+      "sources": [
+        "Michigan State University Extension",
+        "Purdue University Extension",
+        "Texas A&M AgriLife Extension",
+        "University of Arkansas Extension"
+      ],
+      "unit": "°F after 8 hours on LOW (pot 1/2–2/3 full)",
+      "value_or_range": "185–200°F"
+    },
+    {
+      "claim": "Peer-reviewed comparison of meat drip losses and total cooking losses in slow electric cookers vs. conventional gas ovens",
+      "confidence": "MEDIUM",
+      "disagreements_or_caveats": "Single primary study (PMID 6619457) measuring meat loaves and whole chickens; shows that total cooking losses and drip losses *from meat* were significantly higher in the slow cooker than in the conventional oven (except chicken total losses in Experiment 2), reflecting prolonged thermal protein contraction rather than pot-to-air evaporation. Abstract retrieved does not list raw percentage tables verbatim.",
+      "sources": [
+        "Peters CR, Sinwell DD, Van Duyne FO, J Am Diet Assoc. 1983 Oct;83(4):430-435 (PMID: 6619457)"
+      ],
+      "unit": "comparative direction (drip & total cooking loss from meat)",
+      "value_or_range": "Significantly greater drip and total cooking losses in slow cooker vs. conventional oven (except Exp. 2 chicken total loss)"
+    },
+    {
+      "claim": "Internal moisture/mass loss from meat proteins during multi-hour braising/slow cooking",
+      "confidence": "MEDIUM",
+      "disagreements_or_caveats": "Represents water expelled from muscle tissue into the pot liquid as proteins denature above 60°C—not evaporation out of the vessel. Range varies by cut, fat content, and endpoint temperature.",
+      "sources": [
+        "Modernist Cuisine",
+        "Meat science / food physics literature (Douglas Baldwin / Serious Eats)"
+      ],
+      "unit": "% of raw meat weight lost as expelled moisture/juices",
+      "value_or_range": "20–40 (up to 30–50 in prolonged braises)"
+    },
+    {
+      "claim": "Water absorption of a soaked Römertopf or clay baker (whether weighed by any lab or test kitchen)",
+      "confidence": "LOW CONFIDENCE",
+      "disagreements_or_caveats": "No culinary test kitchen (ATK, Serious Eats, Good Housekeeping, Stiftung Warentest) or USDA/academic lab was found to have published weighed dry-vs-soaked gram/ounce water-absorption measurements of a Römertopf clay baker. Unverified blog estimates (150–600 g / 5–17 oz) lack lab citations. Under ASTM C373 / ISO 10545-3 materials standards, non-vitreous porous terracotta/earthenware absorbs 5–18% of its dry mass (typically >7–10% up to 15–18% after boiling/full saturation); applied to romertopf-usa.com dry baker weights of 1.5–4.5 kg, plausible uptake is a few hundred grams, but exact 15-min cold-soak mass gain for Römertopf remains unmeasured in authoritative literature.",
+      "sources": [
+        "ASTM C373",
+        "ISO 10545-3",
+        "Römertopf USA (romertopf-usa.com dry weight specs)"
+      ],
+      "unit": "% dry ceramic mass (ASTM/ISO standard for earthenware/terracotta)",
+      "value_or_range": "5–18% (saturated earthenware standard); exact Römertopf 15-min soak grams unmeasured by labs/test kitchens"
+    }
+  ],
+  "id": "romertopf-temp-and-water",
+  "myths_checked": [
+    "Myth: Römertopf GmbH (roemertopf.de) instructs users to add +50°C to every conventional oven recipe. Fact: roemertopf.de gives direct target temperatures (180–200°C convection, ~220°C top/bottom, max 250°C) with a mandatory cold-oven start; the '+100°F / -30 min' conversion rule comes from the English US Römertopf instruction booklet, and '+50°F' is a secondary-blog confusion of Δ50°C (= Δ90°F ≈ +100°F) with Δ50°F (= Δ27.8°C).",
+    "Myth: America's Test Kitchen, Serious Eats, Modernist Cuisine, or Stiftung Warentest published a 2/4/6/8-hour quantitative evaporation-rate (%) table comparing slow cookers, Dutch ovens, and clay pots. Fact: None of these authorities has published a controlled 2/4/6/8h comparative evaporation-percentage table; Stiftung Warentest has not tested Römertopfs/Bräter or slow cookers, and ATK/Serious Eats/Modernist Cuisine describe slow-cooker near-zero evaporation qualitatively (while recommending 30–70% less added liquid).",
+    "Myth: Slow cookers cause less moisture loss from meat than ovens because they trap steam. Fact: While slow cookers suppress pot-to-air evaporation, Peters et al. (J Am Diet Assoc 1983, PMID 6619457) found meat loaves and chickens cooked in a slow cooker had significantly greater drip losses and total cooking losses from the meat itself than conventional oven preparation.",
+    "Myth: Culinary labs or test kitchens have weighed soaked Römertopfs to establish exact gram/ounce water-absorption figures. Fact: No authoritative test kitchen or lab weighing study on Römertopfs was found; ceramic-material porosity ranges (5–18% by dry mass under ASTM C373 / ISO 10545-3) provide the only authoritative benchmark."
+  ]
+}

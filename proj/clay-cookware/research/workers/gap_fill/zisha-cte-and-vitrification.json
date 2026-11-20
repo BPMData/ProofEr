@@ -1,0 +1,119 @@
+{
+  "angle": "Zisha ceramic CTE, thermal diffusivity, specific heat, and firing mineralogy verification",
+  "bibliography": [
+    "Wu, J., Hou, T., Zhang, M., Li, Q., Wu, J., Li, J., & Deng, Z. (2013). An analysis of the chemical composition, performance and structure of China Yixing Zisha pottery from 1573 A.D. to 1911 A.D. Ceramics International, 39(3), 2589-2595. https://doi.org/10.1016/j.ceramint.2012.09.021",
+    "Yang, C., Kong, J., Yang, J., & Li, Y. (2021). The study of crystal-phase composition and pore structure for Dicaoqing-Zisha compared with porcelain and pottery. Ceramics International. https://doi.org/10.1016/j.ceramint.2020.12.178",
+    "Lin, Y., Hu, C., Ding, D., Yang, C., Li, Y.-B., & Shen, Y. (2021). The Compositions and Pore Structures of Benshanzhu Zisha Ceramics. Journal of Ceramic Science and Technology, 12(2), 107-114. https://doi.org/10.4416/JCST2021-00004",
+    "Lee, V., & Attinger, D. (2016). Thermodynamics and historical relevance of a jetting thermometer made of Chinese zisha ceramic. Scientific Reports, 6, 28609. https://doi.org/10.1038/srep28609",
+    "MDPI Foods: Zisha Ceramics Modulate Metal-Ion Cycling and Volatile Aroma Evolution During Sauce-Flavor Baijiu Aging (characterization of raw and 1200 °C sintered Zisha mineralogy).",
+    "He, M., Li, Y., Zhang, X., Wang, Y., Li, K., & Huang, Y. (2025). Study on preparation of low-expansion heat-resistant Zisha pottery using Hainan Zijin clay (利用海南紫金陶泥制备低膨胀耐热紫砂陶的研究). China Ceramics (中国陶瓷), Aug 2025 (indexed on researching.cn).",
+    "State Administration for Market Regulation (SAMR) / Standardization Administration of China: GB/T 10816-2008 and GB/T 10816-2024 Zisha Pottery (紫砂陶器), issued 2024-12-31, effective 2025-07-01 (samr.gov.cn; chinesestandard.net; foodmate.net)."
+  ],
+  "findings": [
+    {
+      "claim": "Linear coefficient of thermal expansion (CTE) of unmodified Yixing Zisha subtypes (Zini, Hongni, Dicaoqing, Zhuni) in open peer-reviewed literature",
+      "confidence": "HIGH CONFIDENCE (on literature gap)",
+      "disagreements_or_caveats": "No open peer-reviewed measurements of linear CTE resolved by Yixing subtype (Zini, Hongni, Dicaoqing, Zhuni) were found in Ceramics International, MDPI, Journal of Ceramic Science and Technology, Scientific Reports, or Chinese ceramic engineering journals searched. Wu et al. (2013) use dilatometry/thermal-expansion inflection to reconstruct historical firing temperatures rather than publishing subtype CTE tables. Unattributed blogs circulate 4.5-6.5 x 10^-6 /°C, which lack primary verification.",
+      "sources": [
+        "Wu et al. (2013), Ceramics International, DOI: 10.1016/j.ceramint.2012.09.021",
+        "GB/T 10816-2008 & GB/T 10816-2024 (SAMR / chinesestandard.net)"
+      ],
+      "unit": "10^-6 /°C",
+      "value_or_range": "Unmeasured / unpublished by subtype in open peer-reviewed literature and omitted from GB/T 10816"
+    },
+    {
+      "claim": "Specific heat capacity (Cp) and thermal diffusivity (alpha) of Yixing Zisha subtypes (Zini, Hongni, Dicaoqing, Zhuni)",
+      "confidence": "HIGH CONFIDENCE (on literature gap)",
+      "disagreements_or_caveats": "No direct open peer-reviewed DSC (Cp) or laser-flash (thermal diffusivity) measurements resolved by Yixing Zisha clay subtype were found. Generic ceramic/clay values (~0.75-1.0 J/(g·K), e.g., 0.92 kJ/(kg·K)) cited on tea blogs lack primary experimental attribution to Yixing Zisha.",
+      "sources": [
+        "Lee & Attinger (2016), Scientific Reports 6:28609, DOI: 10.1038/srep28609",
+        "Yang et al. (2021), Ceramics International, DOI: 10.1016/j.ceramint.2020.12.178"
+      ],
+      "unit": "J/(g·K) and mm^2/s",
+      "value_or_range": "Unmeasured / unpublished by subtype in open primary peer-reviewed literature"
+    },
+    {
+      "claim": "Thermal conductivity (k) of Zisha ceramic used in thermodynamic modeling of a Zisha jetting thermometer",
+      "confidence": "LOW CONFIDENCE (single peer-reviewed source)",
+      "disagreements_or_caveats": "Single-source peer-reviewed parameter; clay subtype (e.g., Zini vs. Zhuni) and porosity variation are not resolved across subtypes. Wider ranges (0.15-1.8 W/(m·K)) appear in non-primary secondary sites without peer-reviewed traceability.",
+      "sources": [
+        "Lee & Attinger (2016), Scientific Reports 6:28609, DOI: 10.1038/srep28609 (NIH PMC / CrossRef)"
+      ],
+      "unit": "W/(m·K)",
+      "value_or_range": "1.3"
+    },
+    {
+      "claim": "Natural fired Zisha mineralogy relies on quartz, mullite, hematite, amorphous glassy phase, and minor cristobalite rather than lithium or cordierite flameware minerals",
+      "confidence": "HIGH CONFIDENCE",
+      "disagreements_or_caveats": "Confirmed across multiple independent peer-reviewed XRD/microstructural studies: raw clays (kaolinite, illite/muscovite, quartz, hematite/goethite) transform upon firing into quartz + mullite + hematite + amorphous glass (+ minor cristobalite), with zero natural spodumene, petalite, or cordierite.",
+      "sources": [
+        "Wu et al. (2013), Ceramics International, DOI: 10.1016/j.ceramint.2012.09.021",
+        "Yang et al. (2021), Ceramics International, DOI: 10.1016/j.ceramint.2020.12.178",
+        "Lin et al. (2021), J. Ceram. Sci. Technol., DOI: 10.4416/JCST2021-00004",
+        "MDPI Foods Baijiu-aging Zisha sintering study (1200 °C)"
+      ],
+      "unit": "crystalline/amorphous phases",
+      "value_or_range": "Quartz + mullite + hematite + amorphous phase (+ minor cristobalite); no natural lithium/cordierite phases"
+    },
+    {
+      "claim": "Quantitative fired phase assemblage of Dicaoqing-Zisha fired at 1180 °C",
+      "confidence": "LOW CONFIDENCE (single peer-reviewed source for exact wt%)",
+      "disagreements_or_caveats": "Exact wt% breakdown is from a single peer-reviewed Ceramics International study; phase identity is corroborated across multiple studies.",
+      "sources": [
+        "Yang et al. (2021), Ceramics International, DOI: 10.1016/j.ceramint.2020.12.178"
+      ],
+      "unit": "wt%",
+      "value_or_range": "Quartz 33.2, Mullite 32.8, Amorphous phase 24.9, Hematite 5.9, Cristobalite 3.2"
+    },
+    {
+      "claim": "Quantitative fired phase assemblage of Benshanzhu-Zisha (Zhuni/Hongni family)",
+      "confidence": "LOW CONFIDENCE (single peer-reviewed source for exact wt%)",
+      "disagreements_or_caveats": "Exact wt% values are from a single peer-reviewed study; shows higher Fe2O3/hematite fluxing produces a much larger amorphous glassy matrix and lower mullite than Dicaoqing.",
+      "sources": [
+        "Lin et al. (2021), J. Ceram. Sci. Technol., 12(2):107-114, DOI: 10.4416/JCST2021-00004"
+      ],
+      "unit": "wt%",
+      "value_or_range": "Amorphous phase 71.2, Hematite 11.5, Mullite 10.7 (balance residual quartz/other)"
+    },
+    {
+      "claim": "Low-expansion lithium-silicate/cordierite phases in Zisha occur only in engineered flameware formulations via deliberate additives",
+      "confidence": "LOW CONFIDENCE (single-source quantitative CTE 1.32; HIGH CONFIDENCE on additive mechanism)",
+      "disagreements_or_caveats": "He et al. (2025) used Hainan Zijin purple clay (32.8%) doped with 32.8% spodumene, 9.4% lithium aluminosilicate (锂白石), 10.0% calcined talc, and 15.0% kaolin fired at 1150 °C (60 min) to achieve 1.32 x 10^-6 °C^-1 CTE, 0.25% water absorption, and 83.89 MPa flexural strength—demonstrating that unmodified Zisha lacks lithium/cordierite low-expansion mineralogy.",
+      "sources": [
+        "He et al. (2025), China Ceramics (中国陶瓷), Aug 2025 (researching.cn)"
+      ],
+      "unit": "10^-6 °C^-1",
+      "value_or_range": "1.32 (spodumene/talc-doped low-expansion Zisha fired at 1150 °C)"
+    },
+    {
+      "claim": "Typical firing/sintering temperature window and intermediate vitrification porosity of Yixing Zisha stoneware",
+      "confidence": "HIGH CONFIDENCE",
+      "disagreements_or_caveats": "Zisha is sintered to an intermediate stoneware state with an open/closed dual-pore network rather than zero-porosity porcelain (<0.2-0.5% water absorption). Exact firing temperatures vary by ore body (e.g., Dicaoqing 1180 °C; Baijiu Zisha 1200 °C; historical Shushan wares 1100-1180 °C).",
+      "sources": [
+        "Wu et al. (2013), Ceramics International, DOI: 10.1016/j.ceramint.2012.09.021",
+        "Yang et al. (2021), Ceramics International, DOI: 10.1016/j.ceramint.2020.12.178",
+        "MDPI Foods Baijiu-aging Zisha study"
+      ],
+      "unit": "°C and % apparent porosity",
+      "value_or_range": "1100-1200 °C firing; ~8-11% apparent porosity in Ming/Qing shards"
+    },
+    {
+      "claim": "GB/T 10816 national standard requirements for Zisha pottery thermal shock resistance and water absorption",
+      "confidence": "HIGH CONFIDENCE",
+      "disagreements_or_caveats": "GB/T 10816-2008 required 2.5%-6.0% water absorption (pots/cups/plates/steam pots; <=12.0% flowerpots) and 200 °C to 20 °C single water-quench without cracking. GB/T 10816-2024 (effective 2025-07-01) consolidated water absorption to <=6.0% (excluding flowerpots) and revised thermal shock to 180 °C to 20 °C single water-quench without cracking (plus microwave/oven-freezer transition tests). Neither edition specifies CTE, Cp, or thermal diffusivity limits.",
+      "sources": [
+        "SAMR GB/T 10816-2024 announcement (samr.gov.cn)",
+        "GB/T 10816-2008 & GB/T 10816-2024 summaries (chinesestandard.net; foodmate.net; ceramicschina.com)"
+      ],
+      "unit": "% water absorption; °C quench delta",
+      "value_or_range": "Water absorption <=6.0% (2.5-6.0% in 2008); thermal shock 180 °C -> 20 °C (200 °C -> 20 °C in 2008)"
+    }
+  ],
+  "id": "zisha-cte-and-vitrification",
+  "myths_checked": [
+    "MYTH: Yixing Zisha relies on lithium aluminosilicate (spodumene, petalite) or cordierite flameware minerals for thermal shock resistance. VERDICT: FALSE — peer-reviewed XRD shows natural fired Zisha relies on quartz, mullite, hematite, and an amorphous phase with a dual-pore, unglazed body; spodumene/petalite/cordierite appear only in deliberately doped modern cookware formulations.",
+    "MYTH: GB/T 10816 specifies numerical CTE, specific heat capacity, or thermal diffusivity thresholds for Yixing Zisha. VERDICT: FALSE — GB/T 10816-2008 and GB/T 10816-2024 regulate performance-based thermal shock quenching (200->20 °C in 2008; 180->20 °C in 2024) and water absorption (2.5-6.0% in 2008; <=6.0% in 2024), not CTE/Cp/diffusivity.",
+    "MYTH: Subtype-specific linear CTEs (e.g., 4.5-4.8 x 10^-6 /°C for Zini vs. 5.0-6.5 x 10^-6 /°C for Zhuni) and Cp (0.92 kJ/kg·K) are established in peer-reviewed ceramic engineering literature or DB32/T 3651-2019. VERDICT: UNVERIFIED / MISATTRIBUTED — those figures circulate on unattributed blogs (jianshu.com, baidu.com) without traceable peer-reviewed measurement, and DB32/T 3651-2019 is actually a Jiangsu peach grading standard rather than a Zisha clay standard.",
+    "MYTH: Yixing Zisha fires to full, non-porous porcelain vitrification. VERDICT: FALSE — Zisha is fired at ~1100-1200 °C to an intermediate stoneware state retaining an open/closed dual-pore network (~8-11% apparent porosity in historical shards; <=6.0% water absorption limit under GB/T 10816)."
+  ]
+}

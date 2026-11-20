@@ -1,0 +1,160 @@
+{
+  "angle": "Materials science, stovetop thermal physics, and regulatory toxicology covering clay cookware compatibility (gas, electric coil, radiant glass-ceramic, induction diffuser plates), La Chamba burnishing and reduction firing, and FDA/CPSC/ISO 6486 glaze-leaching standards.",
+  "bibliography": [
+    "U.S. Food and Drug Administration (FDA). CPG Sec. 545.450 Pottery (Ceramics); Import and Domestic - Lead Contamination; CPG Sec. 545.400 - Cadmium Contamination; 21 CFR § 109.16 (eCFR); Lead in Pottery Consumer Guidance. https://www.fda.gov / https://www.ecfr.gov",
+    "U.S. Consumer Product Safety Commission (CPSC). 16 CFR Part 1303 (Ban of Lead-Containing Paint and Certain Consumer Products Bearing Lead-Containing Paint — Ceramic Glaze Exclusion) and CPSIA Lead Limits. https://www.cpsc.gov",
+    "International Organization for Standardization (ISO). ISO 6486-1:1999 & ISO 6486-2:1999 — Ceramic ware, glass-ceramic ware and glass dinnerware in contact with food — Release of lead and cadmium (Part 1: Test method; Part 2: Permissible limits). https://standards.iteh.ai",
+    "European Economic Community. Council Directive 84/500/EEC (as amended by 2005/31/EC) on ceramic articles intended to come into contact with foodstuffs. https://www.glassallianceeurope.eu",
+    "Centers for Disease Control and Prevention (CDC) & National Institutes of Health (NIH/PubMed). Public health advisories and MMWR/PubMed studies on traditional lead-glazed pottery (barro) vs. commercial ceramicware leaching. https://www.cdc.gov / https://pubmed.ncbi.nlm.nih.gov",
+    "State of California Office of Environmental Health Hazard Assessment (OEHHA). California Proposition 65 Ceramicware Compliance & Settlement Benchmarks. https://oehha.ca.gov",
+    "Superintendencia de Industria y Comercio (SIC), República de Colombia. Resolución No. 72993 del 11 de diciembre de 2019 — Declaratoria de Protección de Denominación de Origen 'Cerámica Negra de La Chamba' (Expediente SD2018/0020914). https://www.sic.gov.co",
+    "Miller, M. J., Whelton, H. L., Swift, J. A., Evershed, R. P., Hastorf, C. A., et al. (2020). Interpreting ancient food practices: stable isotope and molecular analyses of visible and absorbed residues from a year-long cooking experiment [using La Chamba vessels]. Scientific Reports (Nature Portfolio) / UC Berkeley. https://news.berkeley.edu",
+    "Tite, M. S., Kilikoglou, V., & Vekinis, G. (2001). Strength, toughness and thermal shock resistance of ancient ceramics, and their influence on technological choice. Archaeometry, 43(3), 301–324; Kilikoglou, V., et al. (1998), Archaeometry, 40(2), 261–279; Müller, N. S., et al. (2010), Journal of the European Ceramic Society, 30(11), 2457–2465.",
+    "SCHOTT AG. SCHOTT CERAN® Glass-Ceramic Cooktop Panels Technical Data & Care Guidelines; Bosch Home Appliances Cooktop Manuals; GE Appliances Induction Interface/Converter Disk Guidance. https://www.schott-ceran.com / https://www.bosch-home.com / https://www.geappliances.com",
+    "Hansen, T. / Digitalfire Ceramic Materials Database & Ceramic Arts Network. Thermal Shock, Quartz Inversion (573°C), Earthenware Porosity, and Stovetop Heat Distribution Profiles. https://digitalfire.com / https://ceramicartsnetwork.org"
+  ],
+  "findings": [
+    {
+      "claim": "Clay cookware fails on gas flames when intense, localized burner heat creates sharp thermal gradients between the flame-contact zone and cooler upper walls, exceeding the low tensile strength of brittle ceramics. Safe use requires stovetop-rated clay, food/liquid inside (never dry-heating), and gradual warming from a low setting (or a heat diffuser for standard earthenware).",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Gas flames envelop the pot base more softly than rigid electric coils, so traditional flame-tolerant earthenware tolerates low-to-medium gas better than coils, yet rapid high flame on a cold pot still induces thermal fracture.",
+      "sources": [
+        "Digitalfire Ceramic Materials Database (Thermal Shock & Earthenware)",
+        "Tite, Kilikoglou, & Vekinis (2001), Archaeometry 43(3): 301–324"
+      ],
+      "unit": "qualitative compatibility / failure mode",
+      "value_or_range": "Conditional: compatible with stovetop-rated clay + gradual low-to-medium heat; thermal shock fracture on high dry heat"
+    },
+    {
+      "claim": "Electric coil burners pose high thermal shock risk to standard earthenware due to asymmetrical point/ring contact, air gaps, and on-off cycling pulses that create severe localized hot spots; a heat diffuser plate is required to spread conductive heat evenly unless the vessel is engineered flameware.",
+      "confidence": "HIGH",
+      "sources": [
+        "Digitalfire Ceramic Materials Database (Heat Profiles & Thermal Shock)",
+        "Tite, Kilikoglou, & Vekinis (2001), Archaeometry 43(3): 301–324"
+      ],
+      "unit": "qualitative compatibility / failure mode",
+      "value_or_range": "High failure risk without diffuser; requires heat diffuser plate + gradual heating"
+    },
+    {
+      "claim": "Radiant glass-ceramic smooth-tops (e.g., SCHOTT CERAN, ~4 mm thick, rated up to 700 °C thermal shock) create dual hazards for clay cookware: cycling radiant zones can thermally shock earthenware bases, while rough unglazed clay bottoms scratch the glass and insulating clay traps/reflects heat downward onto the panel and sensors, causing overheating cut-offs or surface stress.",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Cooktop manuals (Bosch, Miele, GE) permit only flat, smooth, stovetop-rated ceramic/glass-ceramic cookware, forbid sliding pots, and warn that unsuitable cookware traps heat.",
+      "sources": [
+        "SCHOTT CERAN® Technical Specifications (4 mm panel, 700 °C thermal shock rating)",
+        "Bosch Home Appliances Cooktop Use & Care Manuals"
+      ],
+      "unit": "mm / °C / compatibility",
+      "value_or_range": "4 mm glass-ceramic rated to 700 °C thermal shock; rough/insulating clay risks scratching glass and thermal cut-offs"
+    },
+    {
+      "claim": "Clay cookware is non-ferromagnetic and cannot couple directly with induction coils; using steel induction interface/diffuser plates introduces severe risks to both the clay pot and the cooktop. Rapid induction heating (especially Boost mode) superheats the steel disk faster than low-conductivity clay can dissipate heat, and uneven hand-built clay bases create air gaps and localized hot spots that trigger thermal shock cracking in the pot. Simultaneously, trapped downward radiant heat overheats the glass-ceramic surface, triggers thermal sensor errors/shut-offs, and voids appliance warranties.",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "GE Appliances and major induction manufacturers explicitly advise against converter/interface disks due to efficiency loss, overheating errors, and glass-ceramic cracking risk; some clay pot makers still recommend starting on level 1–2 if a diffuser is used.",
+      "sources": [
+        "GE Appliances Official Induction Cookware & Converter Disk Guidance",
+        "SCHOTT CERAN® / Bosch Cooktop Technical Guidance",
+        "Digitalfire (Thermal Conductivity & Asymmetric Heating)"
+      ],
+      "unit": "qualitative compatibility / failure mode",
+      "value_or_range": "Not directly compatible; diffuser disks create dual thermal-shock and cooktop-overheating hazards"
+    },
+    {
+      "claim": "La Chamba cookware (El Guamo and Suárez, Tolima, Colombia; >700-year pre-Columbian tradition, protected by SIC Denomination of Origin Resolution No. 72993 of Dec 11, 2019) blends three Magdalena River alluvial clays: arcilla lisa (plasticity), arcilla arenosa (sandy temper for even drying, porosity, and thermal shock resistance), and arcilla roja (fine red-clay slip/engobe). Alluvial sands/clays in the region naturally contain platy mica (muscovite), quartz, and feldspar.",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Exact quantitative mica weight-% and mineralogical XRD ratios specific to modern La Chamba batches were not reported in available peer-reviewed publications.",
+      "sources": [
+        "Superintendencia de Industria y Comercio (SIC) Colombia, Res. No. 72993 (2019)",
+        "Miller et al. (2020), Scientific Reports / UC Berkeley",
+        "Colombian anthropological & geological literature (Yolanda Mora de Jaramillo; Reichel-Dolmatoff; OpenEdition)"
+      ],
+      "unit": "clay blend components / heritage age",
+      "value_or_range": "3 alluvial clays (lisa, arenosa, roja) + natural mica/quartz; >700 years tradition"
+    },
+    {
+      "claim": "La Chamba pottery looks glossy black despite being completely unglazed due to two steps: (1) stone burnishing (bruñido) with smooth river pebbles on leather-hard/dry red-slip surfaces, which compacts and aligns microscopic phyllosilicate clay platelets parallel to the surface to maximize specular light reflection; and (2) reduction/smoke firing (ahumado) after kiln firing, where hot vessels are sealed in organic matter (dried manure, leaves, husks), depositing free carbon into surface pores and reducing iron oxides in an oxygen-depleted atmosphere.",
+      "confidence": "HIGH",
+      "sources": [
+        "Superintendencia de Industria y Comercio (SIC) Colombia, Res. No. 72993 (2019)",
+        "Archaeometric burnishing & smudging literature (Archaeometry / Journal of Archaeological Science / EXARC)"
+      ],
+      "unit": "surface finish mechanism",
+      "value_or_range": "0% synthetic glaze; luster via mechanical platelet alignment (burnishing) + carbon/iron-oxide reduction"
+    },
+    {
+      "claim": "La Chamba pottery is low-fired (typically 750–800 °C per Colombian technical/DO documentation; ~600–900 °C across traditional earthenware literature), preserving open porosity and avoiding high-temperature vitrification.",
+      "confidence": "MEDIUM",
+      "disagreements_or_caveats": "Colombian technical/Denomination of Origin sources report 750–800 °C, whereas broader earthenware comparative summaries cite 600–900 °C; above 573 °C, crystalline quartz also undergoes alpha-beta inversion (~1–2% volume shift), making open porosity and platy temper critical for surviving firing and cooking.",
+      "sources": [
+        "Colombian Denomination of Origin / technical firing documentation (750–800 °C)",
+        "Ceramic Arts Network / Digitalfire (Quartz inversion at 573 °C)"
+      ],
+      "unit": "°C",
+      "value_or_range": "750–800 (broader range 600–900)"
+    },
+    {
+      "claim": "La Chamba tolerates direct stovetop flame better than standard decorative earthenware because low-fired porous clay bodies reinforced with platy/fibrous mineral tempers (such as mica) have substantially higher fracture toughness and thermal shock resistance: mica sheets and pore discontinuities deflect, bridge, and blunt propagating micro-cracks before catastrophic failure, whereas highly vitrified or fine-grained untempered earthenware transmits tensile stress cleanly across thermal gradients.",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Fracture-toughness mechanics of platy tempers and low firing temperatures are established in peer-reviewed archaeometry (Tite et al., 2001; Müller et al., 2010), though direct laboratory thermal-shock cycle testing specifically comparing La Chamba against modern stoneware was not located (inferred by applying peer-reviewed micaceous cooking-pot mechanics to La Chamba's documented composition and firing temperature). Standard earthenware typically retains 10–15%+ porosity, whereas high-fired bodies vitrify and lose toughness.",
+      "sources": [
+        "Tite, Kilikoglou, & Vekinis (2001), Archaeometry 43(3): 301–324",
+        "Müller, Kilikoglou, Day, & Vekinis (2010), Journal of the European Ceramic Society 30(11): 2457–2465",
+        "Superintendencia de Industria y Comercio (SIC) Colombia, Res. No. 72993 (2019)",
+        "Digitalfire (Earthenware Porosity & Flameware Mechanics)"
+      ],
+      "unit": "% open porosity / fracture mechanism",
+      "value_or_range": "~10–15%+ open porosity (typical earthenware); crack deflection by platy mica temper"
+    },
+    {
+      "claim": "FDA Compliance Policy Guides (CPG Sec. 545.450 for Lead; CPG Sec. 545.400 for Cadmium) set action levels for leachable metals extracted over 24 hours in 4% acetic acid at room temperature (testing 6 units). Lead limits: 0.5 µg/mL (ppm) max/unit for cups, mugs, and pitchers; 1.0 µg/mL max/unit for large hollowware (>=1.1 L); 2.0 µg/mL max/unit for small hollowware (<1.1 L); 3.0 µg/mL average for flatware (depth <=25 mm). Cadmium limits: 0.25 µg/mL max/unit for large hollowware (>=1.1 L); 0.5 µg/mL for flatware and small hollowware. Under 21 CFR § 109.16, ornamental pottery that resembles foodware must bear permanent and stick-on 'Not for Food Use — May Poison Food' warnings.",
+      "confidence": "HIGH",
+      "sources": [
+        "FDA CPG Sec. 545.450 (Lead Contamination) & CPG Sec. 545.400 (Cadmium Contamination)",
+        "21 CFR § 109.16 (eCFR)"
+      ],
+      "unit": "µg/mL (ppm)",
+      "value_or_range": "Pb: 0.5–3.0; Cd: 0.25–0.5 (by category)"
+    },
+    {
+      "claim": "CPSC does not regulate adult ceramic foodware glazes for leaching: 16 CFR Part 1303 (90 ppm lead-in-paint ban) explicitly excludes vitrified ceramic glazes because they fuse into the substrate rather than drying as surface-coating films. FDA holds primary jurisdiction over food-contact ceramicware/cookware leaching; CPSC/CPSIA applies when ceramic items are intended primarily for children <=12 years old (100 ppm total lead substrate limit, or 90 ppm if cold-painted) or involve electrical/structural appliance hazards.",
+      "confidence": "HIGH",
+      "sources": [
+        "U.S. CPSC 16 CFR Part 1303 & CPSIA Guidance",
+        "U.S. FDA / 21 CFR § 109.16"
+      ],
+      "unit": "ppm total lead (children's products only)",
+      "value_or_range": "Exempt under 16 CFR 1303; CPSIA 100 ppm substrate / 90 ppm paint for children <=12 yr"
+    },
+    {
+      "claim": "ISO 6486-1 & ISO 6486-2:1999 specify 24-hour 4% (v/v) acetic acid leaching at 22 ± 2 °C in the dark, with strict permissible limits specifically for cooking ware (articles heated during food preparation): Lead <= 0.5 mg/L and Cadmium <= 0.05 mg/L. Other ISO 6486-2 categories: Flatware Pb <= 0.8 mg/dm², Cd <= 0.07 mg/dm²; Small hollowware (<1.1 L) Pb <= 2.0 mg/L, Cd <= 0.5 mg/L; Large hollowware (>=1.1 L) Pb <= 1.0 mg/L, Cd <= 0.25 mg/L; Cups/mugs & Storage ware (>=3 L) Pb <= 0.5 mg/L, Cd <= 0.25 mg/L.",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Regional standards diverge: EU Directive 84/500/EEC (amended 2005/31/EC) sets higher limits for Category 3 cooking ware/vessels >3 L (Pb <= 1.5 mg/L, Cd <= 0.1 mg/L), whereas California Proposition 65 private settlement consent judgments impose much tighter commercial US benchmarks (typically <= 0.1 mg/L Pb for hollowware/mugs and <= 0.226 mg/L Pb for flatware to avoid warning labels).",
+      "sources": [
+        "ISO 6486-1:1999 & ISO 6486-2:1999 (iteh.ai)",
+        "EU Directive 84/500/EEC (Glass Alliance Europe)",
+        "California OEHHA / Prop 65 Ceramicware Settlement Benchmarks"
+      ],
+      "unit": "mg/L (cooking ware)",
+      "value_or_range": "ISO 6486-2 Cooking Ware: Pb <= 0.5, Cd <= 0.05 (EU 84/500/EEC Cat 3: Pb <= 1.5, Cd <= 0.1)"
+    },
+    {
+      "claim": "Modern commercial glazed cookware and slow-cooker stoneware inserts use high-fired, vitrified silicate glazes formulated to meet FDA CPGs and Prop 65 limits, posing negligible leaching risk when intact. Conversely, unverified traditional/artisanal low-fire glazed pottery (e.g., imported barro vidriado fired at low or uneven temperatures with lead-oxide flux) frequently leaches lead at orders of magnitude above FDA limits—especially into acidic or hot foods—causing documented clinical lead poisoning in CDC MMWR and PubMed studies. La Chamba cookware is unglazed and contains no lead/cadmium glaze.",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Public health literature notes that even commercial glazed ceramics can experience trace leaching if severely chipped, cracked, antique, or improperly fired (e.g., non-compliant imports under prolonged hot/acidic slow-cooking).",
+      "sources": [
+        "CDC Lead-Glazed Pottery Advisories & MMWR Case Reports",
+        "NIH/PubMed Studies on Traditional vs. Commercial Ceramicware Leaching",
+        "FDA Lead in Pottery Consumer Updates"
+      ],
+      "unit": "relative leaching hazard",
+      "value_or_range": "Negligible in compliant intact commercial inserts; severe (up to 1,000x+ FDA limits) in unverified low-fire lead-glazed pottery"
+    }
+  ],
+  "id": "stovetop-la-chamba-glaze-safety",
+  "myths_checked": [
+    "Myth: La Chamba pottery's glossy black finish comes from a black glaze, paint, or chemical sealant. Fact: It is completely unglazed; the luster comes from river-stone burnishing (aligning phyllosilicate clay platelets for specular reflection), and the black color comes from reduction/smoke firing (carbon deposition and iron-oxide reduction).",
+    "Myth: Steel induction interface/diffuser plates safely make clay pots induction-compatible without downsides. Fact: Diffuser plates create localized overheating and thermal-shock cracking risks for uneven/low-conductivity clay pots, trap downward heat onto the glass-ceramic cooktop, trigger thermal shut-offs, and void warranties of major induction cooktop manufacturers.",
+    "Myth: Modern commercial glazed slow-cooker inserts and stoneware pose the same lead-leaching hazard as traditional artisanal low-fire pottery. Fact: Intact commercial cookware uses high-fired vitrified silicate glazes regulated by FDA CPG 545.450/545.400 and Prop 65 benchmarks; the documented public health hazard comes predominantly from unverified, low-fired artisanal lead-glazed earthenware (and chipped/antique/non-compliant imports).",
+    "Myth: Boiling traditional lead-glazed pottery in vinegar, milk, or water, or rubbing it with salt and garlic, 'cures' or removes lead. Fact: FDA and public health agencies confirm home curing methods do not remove or seal lead in unstable glazes.",
+    "Myth: Items marked 'lead-free' in artisanal markets abroad are guaranteed safe. Fact: FDA and CDC have documented imported traditional pottery labeled 'lead-free' that exceeded FDA leachable lead action levels."
+  ]
+}
