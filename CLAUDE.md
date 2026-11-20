@@ -37,6 +37,8 @@ when working on that piece. Update both at the end of a working session.
 ## New pieces: interview first
 Before any NEW piece, run `/new-piece`: interview the client, then write `proj/<name>/brief.md` and get it approved.
 A one-line request ("a somber infographic about the Holocaust") is the start of the interview, not the brief.
+If the user explicitly requests **autonomous end-to-end** execution (self-run research and self-judged visuals), use the
+`auto-piece` skill (`.claude/skills/auto-piece/SKILL.md`); `.agents/hooks/stage_gate.py` enforces stage gates across harnesses.
 - **Gates:** interview → brief approved → research (the client runs the prompts) → figures checked → concepts →
   layout and stills approved → build → QA. The brief's status line carries `Stage:`.
 - **Research is the client's step.** Claude writes the prompts (`brief/RESEARCH.md`); the client runs them in two or
