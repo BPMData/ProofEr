@@ -1,7 +1,7 @@
 # Brief: Glazed vs. Unglazed Clay Cookware
 
 Status: APPROVED 2026-11-20 by Bryan Murphy · Stage: done · Mode: from scratch · Client: Bryan Murphy · Sign-off: Bryan Murphy
-Usage: Gemini 4 Hydrogen (High) · Interview complete
+Usage: Gemini 4 Hydrogen (High) · ~36% of 5-hr window / ~8% weekly on $20/mo plan (entire end-to-end run incl. 11 workers, 3 stills, build/QA, and 3 PRs)
 
 ## 1. The ask
 - **Topic:** Differences between glazed and unglazed clay in clay cookware during cooking—comparing thermal behavior, moisture retention, thermal shock, browning, flavor memory, and stovetop compatibility across classic clay pots (glazed clay, soaked unglazed Römertopf, burnished La Chamba) and electronic multi-cooker clay inserts.
