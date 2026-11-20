@@ -13,6 +13,7 @@ import glob
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 from pathlib import Path
@@ -317,6 +318,31 @@ def _check_pre_write(root: Path, harness: str, rel_path: str) -> str | None:
     return None
 
 
+def _piece_touched_in_repo(root: Path, piece: str) -> bool:
+    """In a git repo, skip pre-existing committed pieces with no local work or receipts."""
+    if not (root / ".git").exists():
+        return True
+    if (
+        _subagent_receipts_path(root, piece).exists()
+        or _inspected_pngs_path(root, piece).exists()
+        or _offline_checked_path(root, piece).exists()
+    ):
+        return True
+    try:
+        p = subprocess.run(
+            ["git", "status", "--porcelain", "--", f"proj/{piece}", f"pieces/{piece}.html"],
+            cwd=str(root),
+            capture_output=True,
+            text=True,
+            timeout=3,
+        )
+        if p.returncode == 0:
+            return bool(p.stdout.strip())
+    except OSError:
+        pass
+    return True
+
+
 def _check_stop(root: Path, stop_active: bool) -> str | None:
     if stop_active:
         return None
@@ -328,6 +354,8 @@ def _check_stop(root: Path, stop_active: bool) -> str | None:
         html = root / "pieces" / f"{piece}.html"
         if not html.exists():
             # Interview and outline-review turns legitimately pause for the user before pieces/<name>.html exists.
+            continue
+        if not _piece_touched_in_repo(root, piece):
             continue
         html_mtime = html.stat().st_mtime
         off = _load_json(_offline_checked_path(root, piece), {})
