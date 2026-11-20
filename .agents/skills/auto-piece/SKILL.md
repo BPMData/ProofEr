@@ -12,12 +12,15 @@ description: >-
 2. Lock those decisions into `proj/<name>/brief.md` and advance to `Stage: research`.
 
 ## Stage 2 — Autonomous Multi-Pass Deep Research & Fact-Checking (`Stage: research -> figures`)
-Once tone, aesthetic, audience, and detail are set, take over the research loop completely (no manual web-UI prompt copy-paste):
+Once tone, aesthetic, audience, budget (`Budget: light | standard | deep`), and detail are set, take over the research loop:
+- **Budget & model rules:**
+  - **Antigravity:** Run the coordinator on **Hydrogen High**; keep `research_piece.py` inheriting the session model (leave Antigravity subagent tier overrides out until model tiers are clearer).
+  - **Claude Code / Codex:** Never use `fable`, `turbo`, or effort above `high` (`max`, `xhigh`, `extra`). On `Budget: light`, route Pass 1 workers to `sonnet` (`haiku` only for narrow, clearly defined lookups) and ask the user before spawning `>3` workers or a second pass (`Budget-Override: approved`). On `Budget: standard`, Opus (`medium` effort) is fine for coordinator/synthesis with `sonnet` Pass 1 workers. On `Budget: deep`, full multi-pass fan-out is enabled while still banning `fable` and `>high`.
 1. Identify what facts, numbers, definitions, and myths the brief needs, writing `proj/<name>/research/prompts.md` and `prompts.json`.
 2. Launch **Pass 1** parallel isolated search workers:
    - **Antigravity:** `run_workflow(ScriptPath=".agents/workflows/research_piece.py", Args={"piece": "<name>", "round": "pass1"})`
-   - **Claude Code / Codex:** parallel isolated `Agent` / `spawn_agent` workers writing into `proj/<name>/research/workers/pass1/`.
-3. **Evaluate & Gap-Fill (Pass 2+):** Audit Pass 1 outputs for missing metrics, single-source claims, or contradictions; launch follow-up worker prompts (`round="gap_fill"`) to verify primary sources and resolve disagreements.
+   - **Claude Code / Codex:** parallel isolated `Agent` (`.claude/agents/research-worker.md`) / `spawn_agent` (`research_worker`) workers writing into `proj/<name>/research/workers/pass1/`.
+3. **Evaluate & Gap-Fill (Pass 2+):** Read the deterministic `<round>_digest.md` produced by `research_piece.py` (spot-checking raw JSONs for gaps/contradictions) and launch follow-up worker prompts (`round="gap_fill"`) when budget permits to verify primary sources and resolve disagreements.
 4. Synthesize verified numbers into `proj/<name>/figures.md` (`>= 2` independent sources per `checked` figure, disagreements recorded as honest ranges/notes, odd units explained, myths tagged per `T10`). Set `Stage: concepts`.
 
 ## Stage 3 — Visual Self-Critique -> Quick Outline/Mockup for User Review (`Stage: concepts -> layout`)

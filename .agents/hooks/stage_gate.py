@@ -237,6 +237,73 @@ def _research_reports(root: Path, piece: str) -> list[Path]:
     return reports
 
 
+def _parse_budget_meta(root: Path, piece: str) -> tuple[str, bool]:
+    """Return (budget, override_approved) from proj/<piece>/brief.md."""
+    brief = root / "proj" / piece / "brief.md"
+    head = _read_text(brief, 2500)
+    m = re.search(r"Budget:\s*([a-zA-Z_-]+)", head, re.I)
+    budget = m.group(1).lower() if m else "standard"
+    override = bool(
+        re.search(r"Budget-Override:\s*(approved|yes|true)", head, re.I)
+        or (root / "proj" / piece / ".budget_override").exists()
+    )
+    return budget, override
+
+
+def _check_pre_subagent(root: Path, harness: str, tool_name: str, args: dict) -> str | None:
+    low = tool_name.lower()
+    if low not in ("agent", "task", "spawn_agent", "invoke_subagent", "run_workflow"):
+        return None
+
+    # Enforce model/effort ceiling on Claude Code and Codex (Antigravity left unrestricted for now)
+    if harness in ("claude", "codex"):
+        model = str(args.get("model") or args.get("Model") or "").lower()
+        effort = str(args.get("reasoning_effort") or args.get("effort") or "").lower()
+        if "fable" in model or "turbo" in model:
+            return "Budget gate: 'fable' and 'turbo' models are prohibited for subagents at any budget tier."
+        if effort in ("max", "xhigh", "extra", "turbo"):
+            return "Budget gate: subagent reasoning effort above 'high' is prohibited."
+
+    # Enforce Budget: light overflow gate (>3 workers or Pass 2) unless user approved override
+    piece = None
+    if low == "run_workflow":
+        wf_args = args.get("Args") if isinstance(args.get("Args"), dict) else {}
+        if isinstance(wf_args.get("piece"), str) and wf_args["piece"]:
+            piece = wf_args["piece"]
+    if not piece:
+        piece = _newest_active_piece(root)
+    if not piece:
+        return None
+
+    stage, _, _ = _parse_brief_meta(root, piece)
+    budget, override = _parse_budget_meta(root, piece)
+    if budget != "light" or override:
+        return None
+
+    if low == "run_workflow" and "research_piece.py" in str(args.get("ScriptPath") or ""):
+        wf_args = args.get("Args") if isinstance(args.get("Args"), dict) else {}
+        round_tag = str(wf_args.get("round") or "pass1")
+        prompts = wf_args.get("prompts")
+        if not isinstance(prompts, list):
+            pjson = root / "proj" / piece / "research" / "prompts.json"
+            prompts = _load_json(pjson, [])
+        if round_tag != "pass1" or (isinstance(prompts, list) and len(prompts) > 3):
+            return (
+                f"Light budget gate: {piece} requests round={round_tag!r} with {len(prompts) if isinstance(prompts, list) else '?'} "
+                f"workers (limit: <=3 workers in pass1). Warn the user and ask whether to proceed (Budget-Override: approved)."
+            )
+    elif low in ("agent", "task", "spawn_agent", "invoke_subagent") and stage in ("research", ""):
+        rpath = _subagent_receipts_path(root, piece)
+        prior = len([ln for ln in _read_text(rpath).splitlines() if ln.strip()])
+        prompt_txt = str(args.get("prompt") or args.get("Prompt") or "").lower()
+        if prior >= 3 or "gap_fill" in prompt_txt or "pass 2" in prompt_txt:
+            return (
+                f"Light budget gate: {piece} already ran {prior} worker(s) or requests Pass 2. "
+                f"Warn the user and ask before exceeding the 3-worker light budget (Budget-Override: approved)."
+            )
+    return None
+
+
 def _check_pre_write(root: Path, harness: str, rel_path: str) -> str | None:
     m_fig = re.match(r"^proj/([^/]+)/figures\.md$", rel_path)
     if m_fig:
@@ -414,6 +481,9 @@ def main(argv: list[str] | None = None) -> int:
         return _emit(opts.harness, opts.event, None)
 
     if opts.event == "PreToolUse":
+        sub_reason = _check_pre_subagent(root, opts.harness, info["tool"], info["args"])
+        if sub_reason:
+            return _emit(opts.harness, opts.event, sub_reason)
         for rel in _extract_target_paths(root, info["tool"], info["args"]):
             reason = _check_pre_write(root, opts.harness, rel)
             if reason:

@@ -320,6 +320,71 @@ class StageGateTests(unittest.TestCase):
         )
         self.assertLess(always_bytes, 14000)
 
+    def test_budget_model_caps_and_light_overflow_gate(self):
+        # 1. Claude Code & Codex block fable and >high effort, while allowing opus medium & sonnet
+        rc, _, err = _run_gate("claude", "PreToolUse", {
+            "cwd": str(self.root),
+            "tool_name": "Agent",
+            "tool_input": {"model": "fable-1", "prompt": "Research clay"},
+        })
+        self.assertEqual(rc, 2)
+        self.assertIn("fable", err.lower())
+
+        rc, _, err = _run_gate("codex", "PreToolUse", {
+            "cwd": str(self.root),
+            "tool_name": "spawn_agent",
+            "tool_input": {"reasoning_effort": "xhigh", "prompt": "Research clay"},
+        })
+        self.assertEqual(rc, 2)
+        self.assertIn("high", err.lower())
+
+        rc, _, err = _run_gate("claude", "PreToolUse", {
+            "cwd": str(self.root),
+            "tool_name": "Agent",
+            "tool_input": {"model": "opus", "effort": "medium", "prompt": "Synthesize"},
+        })
+        self.assertEqual(rc, 0, err)
+
+        # Antigravity model strings remain unrestricted for now
+        rc, out, _ = _run_gate("antigravity", "PreToolUse", {
+            "cwd": str(self.root),
+            "toolCall": {"name": "invoke_subagent", "args": {"Model": "pro", "Prompt": "Research"}},
+        })
+        self.assertEqual(rc, 0)
+        self.assertEqual(json.loads(out)["decision"], "allow")
+
+        # 2. Budget: light blocks >3 workers or gap_fill until Budget-Override: approved
+        (self.root / "proj" / "clay" / "brief.md").write_text(
+            "# Brief: Clay\n\nStage: research · Budget: light\n",
+            encoding="utf-8",
+        )
+        (self.root / "proj" / "clay" / "research" / "prompts.json").write_text(
+            json.dumps([{"id": f"q{i}", "prompt": "x"} for i in range(4)]),
+            encoding="utf-8",
+        )
+        rc, out, _ = _run_gate("antigravity", "PreToolUse", {
+            "cwd": str(self.root),
+            "toolCall": {
+                "name": "run_workflow",
+                "args": {"ScriptPath": ".agents/workflows/research_piece.py", "Args": {"piece": "clay", "round": "pass1"}},
+            },
+        })
+        self.assertEqual(json.loads(out)["decision"], "deny")
+        self.assertIn("Light budget gate", json.loads(out)["reason"])
+
+        (self.root / "proj" / "clay" / "brief.md").write_text(
+            "# Brief: Clay\n\nStage: research · Budget: light · Budget-Override: approved\n",
+            encoding="utf-8",
+        )
+        rc, out, _ = _run_gate("antigravity", "PreToolUse", {
+            "cwd": str(self.root),
+            "toolCall": {
+                "name": "run_workflow",
+                "args": {"ScriptPath": ".agents/workflows/research_piece.py", "Args": {"piece": "clay", "round": "gap_fill"}},
+            },
+        })
+        self.assertEqual(json.loads(out)["decision"], "allow")
+
 
 if __name__ == "__main__":
     unittest.main()
