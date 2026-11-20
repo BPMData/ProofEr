@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 .agents/hooks/stage_gate.py --harness antigravity --event PreToolUse",
+            "command": "python3 hooks/stage_gate.py --harness antigravity --event PreToolUse",
             "timeout": 10
           }
         ]
@@ -18,7 +18,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 .agents/hooks/stage_gate.py --harness antigravity --event PostToolUse",
+            "command": "python3 hooks/stage_gate.py --harness antigravity --event PostToolUse",
             "timeout": 10
           }
         ]
@@ -27,7 +27,7 @@
     "Stop": [
       {
         "type": "command",
-        "command": "python3 .agents/hooks/stage_gate.py --harness antigravity --event Stop",
+        "command": "python3 hooks/stage_gate.py --harness antigravity --event Stop",
         "timeout": 15
       }
     ]
