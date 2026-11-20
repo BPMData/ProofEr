@@ -211,30 +211,31 @@ class StageGateTests(unittest.TestCase):
 
         env = {**os.environ, "CLAUDE_PROJECT_DIR": str(REPO_ROOT)}
 
-        def exec_hooks(groups_by_event, sample_fn):
+        def exec_hooks(groups_by_event, sample_fn, run_cwd=REPO_ROOT):
             for event, groups in groups_by_event.items():
                 for grp in groups:
                     for hk in grp.get("hooks", []):
                         cmd = hk["command"]
                         payload = sample_fn(event)
                         p = subprocess.run(
-                            cmd, shell=True, cwd=str(REPO_ROOT), env=env,
+                            cmd, shell=True, cwd=str(run_cwd), env=env,
                             input=json.dumps(payload), text=True, capture_output=True,
                         )
                         self.assertIn(p.returncode, (0, 2), f"{event} `{cmd}` failed ({p.returncode}): {p.stderr}")
                         yield event, cmd, p
 
-        # Antigravity declared commands
-        for event, cmd, p in exec_hooks(ag["proofer-stage-gate"], lambda ev: (
-            {"cwd": str(self.root), "toolCall": {"name": "write_file", "args": {"Path": "proj/clay/figures.md"}}}
-            if ev == "PreToolUse" else
-            {"cwd": str(self.root), "toolCall": {"name": "run_workflow", "args": {}}}
-            if ev == "PostToolUse" else
-            {"cwd": str(self.root), "terminationReason": "NO_TOOL_CALL", "continuationActive": False}
-        )):
-            data = json.loads(p.stdout.strip())
-            if event == "PreToolUse":
-                self.assertEqual(data["decision"], "deny", cmd)
+        # Antigravity declared commands (must work from both REPO_ROOT and REPO_ROOT/.agents)
+        for run_cwd in (REPO_ROOT, REPO_ROOT / ".agents"):
+            for event, cmd, p in exec_hooks(ag["proofer-stage-gate"], lambda ev: (
+                {"cwd": str(self.root), "toolCall": {"name": "write_file", "args": {"Path": "proj/clay/figures.md"}}}
+                if ev == "PreToolUse" else
+                {"cwd": str(self.root), "toolCall": {"name": "run_workflow", "args": {}}}
+                if ev == "PostToolUse" else
+                {"cwd": str(self.root), "terminationReason": "NO_TOOL_CALL", "continuationActive": False}
+            ), run_cwd=run_cwd):
+                data = json.loads(p.stdout.strip())
+                if event == "PreToolUse":
+                    self.assertEqual(data["decision"], "deny", cmd)
 
         # Claude Code declared commands (includes stage_log.py + stage_gate.py)
         for event, cmd, p in exec_hooks(cl["hooks"], lambda ev: (
@@ -257,6 +258,36 @@ class StageGateTests(unittest.TestCase):
         )):
             if event == "PreToolUse":
                 self.assertEqual(p.returncode, 2, cmd)
+
+    def test_stop_ignores_untouched_committed_pieces_in_git_repo(self):
+        git_root = Path(self.tmp.name) / "repo"
+        (git_root / "proj" / "oldpiece").mkdir(parents=True)
+        (git_root / "pieces").mkdir(parents=True)
+        (git_root / "proj" / "oldpiece" / "brief.md").write_text("# Brief: Old\n\nStage: build\n", encoding="utf-8")
+        (git_root / "pieces" / "oldpiece.html").write_text("<html>old</html>", encoding="utf-8")
+        subprocess.run(["git", "init", "-q"], cwd=str(git_root), check=True)
+        subprocess.run(["git", "config", "user.email", "test@example.com"], cwd=str(git_root), check=True)
+        subprocess.run(["git", "config", "user.name", "Test"], cwd=str(git_root), check=True)
+        subprocess.run(["git", "add", "."], cwd=str(git_root), check=True)
+        subprocess.run(["git", "commit", "-q", "-m", "init"], cwd=str(git_root), check=True)
+
+        # Untouched committed piece does not block Stop
+        rc, out, _ = _run_gate("antigravity", "Stop", {
+            "cwd": str(git_root),
+            "terminationReason": "NO_TOOL_CALL",
+            "continuationActive": False,
+        })
+        self.assertEqual(rc, 0)
+        self.assertEqual(json.loads(out), {})
+
+        # Modifying the piece triggers Stop QA checks
+        (git_root / "pieces" / "oldpiece.html").write_text("<html>edited</html>", encoding="utf-8")
+        rc, out, _ = _run_gate("antigravity", "Stop", {
+            "cwd": str(git_root),
+            "terminationReason": "NO_TOOL_CALL",
+            "continuationActive": False,
+        })
+        self.assertEqual(json.loads(out)["decision"], "continue")
 
     def test_skills_workflow_taste_and_eval_budget_invariants(self):
         # 1. Antigravity workflow compiles cleanly with top-level await support
