@@ -1,0 +1,138 @@
+{
+  "angle": "Comparative materials-science evaluation of the six major clay cookware families (common red earthenware/terracotta, micaceous/burnished black earthenware, Chinese Zisha, kaolin-rich stoneware/porcelain, LAS/MAS flameware, and 'volcanic clay') measured against the three governing engineering variables: firing temperature/vitrification, open porosity, and thermal expansion (temper/flux/glaze).",
+  "bibliography": [
+    "ASTM C373 / ISO 10545-3 — Standard Test Method for Determination of Water Absorption, Bulk Density, Apparent Porosity, and Apparent Specific Gravity of Fired Whiteware Products (via USITC / austingallery.org & ResearchGate ceramic engineering citations).",
+    "Bronitsky, G., & Hamer, R. (1986). 'Experiments in Ceramic Technology: The Effects of Various Tempering Materials on Impact and Thermal-Shock Resistance.' American Antiquity, 51(1), 89–101.",
+    "Eiselt, B. S. — Geochemical and ethnoarchaeological research on Northern New Mexico micaceous pottery (Tewa, Picuris, Apachean; Vadito Group muscovite clays) (via NIH / UNM / NM Archaeology).",
+    "Skibo, J. M., & Schiffer, M. B. — Behavioral archaeology and pottery function studies on temper, permeability, surface treatments, and thermal shock trade-offs (via ResearchGate / Taylor & Francis).",
+    "Rye, O. S. & Rice, P. M. — Ceramic technology and pottery analysis literature on firing temperatures, mica stability (<900 °C), and thermal shock mechanics.",
+    "Kingery, W. D. (1955) & Hasselman, D. P. H. (1969–1970) — Foundational ceramic thermal shock fracture-initiation (R, R') and crack-propagation damage-resistance (R_st) theories (via MDPI / Sciopen / ResearchGate).",
+    "Wu, J., Hou, T., Zhang, M.-L., & Deng, Z. (2013). 'An analysis of the chemical composition, performance and structure of China Yixing Zisha pottery from 1573 A.D. to 1911 A.D.' Ceramics International.",
+    "Yang, C., Kong, J., Yang, J., Li, Y., et al. (2021). 'The study of crystal-phase composition and pore structure for Dicaoqing-Zisha compared with porcelain and pottery.' Ceramics International, 47(8).",
+    "Katsuki, H., et al. — Studies on porous ceramic properties, pore-size distribution, and water absorption of Korean Onggi clay fired at 1100–1200 °C, Journal of the Korean Ceramic Society (jkcs.or.kr) & Semantic Scholar.",
+    "MDPI / Journal of the Korean Ceramic Society (jkcs.or.kr) — Studies on Jeju volcanic scoria ('songyi') and red clay-scoria lightweight ceramic composites fired at 900–1200 °C.",
+    "Corning Glass Works / NIST / NASA / Thermtest — Technical properties of Corning Pyroceram Code 9608 (beta-spodumene glass-ceramic, S. Donald Stookey 1953) and Code 9606 (cordierite glass-ceramic).",
+    "Digitalfire Ceramic Reference (Tony Hansen, digitalfire.com) — Ceramic science entries on CTE, glaze fit, compression/crazing, quartz inversion (573 °C), flameware (petalite/spodumene/cordierite), and lead glazes.",
+    "U.S. Food and Drug Administration (FDA) — Compliance Policy Guide (CPG) Sec. 545.450 (leachable lead and cadmium in ceramic foodware; 4% acetic acid 24-hour leach testing) and Health Canada / CBC alerts on traditional lead-glazed earthenware tagines/cazuelas.",
+    "University of California, Berkeley / Museum ethnographic & residue-analysis research on La Chamba (Tolima, Colombia) alluvial earthenware pottery."
+  ],
+  "findings": [
+    {
+      "claim": "Common red earthenware / terracotta (e.g., Römertopf, Spanish cazuela, unglazed Moroccan tagine) is low-fired and unvitrified, yielding high open porosity and water absorption unless glazed or tempered with refractory inclusions.",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Water absorption varies by firing schedule and clay mineralogy: standard earthenware spans >3% to 15%+ per ASTM C373, while unglazed utilitarian terracotta cookware commonly reaches 10–20%+. Traditional Moroccan kilns fire as low as 800–1,000 °C; Spanish refractory Pereruela cazuelas blend red clay with white refractory clay tempered with coarse quartz, feldspar, and mica for stovetop survivability.",
+      "sources": [
+        "ASTM C373 / USITC whiteware standards (austingallery.org)",
+        "Britannica & Spanish refractory cookware technical descriptions (tienda.com, ancientcookware.com)",
+        "FDA / Health Canada ceramic earthenware reports (fda.gov, cbc.ca)"
+      ],
+      "unit": "°C (firing) / % (water absorption) / 10^-6 K^-1 (CTE) / W/(m·K) (conductivity)",
+      "value_or_range": "Firing: 900–1,063 °C (Cone 010–04; traditional tagines 800–1,000 °C); Water absorption: >3% to 20%+; CTE: 5.0–8.0 × 10^-6 K^-1; Thermal conductivity: ~0.15–1.8 W/(m·K)"
+    },
+    {
+      "claim": "Low-fired glazed earthenware cookware (such as traditional lead-glazed cazuelas and tagines) poses a documented heavy-metal leaching risk when underfired or exposed to acidic foods.",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Traditional folk remedies (boiling with water, vinegar, garlic, or lime) do not permanently neutralize unstable lead glazes; even nominally 'lead-free' ware can test positive if fired in kilns previously contaminated by lead glaze vapors.",
+      "sources": [
+        "FDA Compliance Policy Guide Sec. 545.450 (fda.gov)",
+        "Digitalfire lead glaze technical reference (digitalfire.com)",
+        "Health Canada / CBC toxicological reports on Moroccan tagines (cbc.ca)"
+      ],
+      "unit": "°C / hours (leach test)",
+      "value_or_range": "Lead-fluxed earthenware fired ~900–1,000 °C; evaluated by FDA via 4% acetic acid 24-hour room-temperature leach test"
+    },
+    {
+      "claim": "Micaceous and burnished black earthenware (New Mexico Pueblo/Apachean micaceous clay; La Chamba, Colombia) achieves direct-flame thermal shock resistance through high concentrations of platy mica fired at low temperatures (<800–900 °C).",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Exact mica volume percentage varies by deposit (15% to >30% in NM Vadito Group residual clays; exact quantitative wt% of mica in La Chamba alluvial clay was not isolated in peer-reviewed XRD in our search, though museum/ethnoarchaeological sources confirm natural muscovite/biotite flakes). Keeping firing at 600–800 °C is essential because firing above ~900–1,000 °C dehydroxylates/fluxes mica and destroys the crack-deflecting cleavage planes. La Chamba's black finish is carbon-smudged reduction from organic smothering while hot, plus stone burnishing of a finer slip to curb permeability.",
+      "sources": [
+        "Bronitsky & Hamer (1986), American Antiquity 51(1):89–101",
+        "Eiselt (Northern NM micaceous pottery, NIH / UNM / NM Archaeology)",
+        "Rye / Rice ceramic technology references & UC Berkeley La Chamba ethnoarchaeology studies"
+      ],
+      "unit": "°C (firing) / vol% (mica)",
+      "value_or_range": "Firing: 600–800 °C (typically 700–800 °C); Mica concentration: ~15–30%+ in NM micaceous pastes"
+    },
+    {
+      "claim": "Chinese Zisha (Yixing purple clay) is a Devonian sedimentary siltstone/mudstone sintered into a partially vitrified stoneware with a hierarchical dual-pore microstructure that makes it liquid-tight yet gas-permeable ('breathable').",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Reported porosity metrics vary between scholarly studies and tea-industry summaries, partly due to clay subtype (dense Zhuni vs. coarser Duanni) and 'open/water absorption' vs. 'total porosity' definitions: Wu et al. (2013) report ~2–5% water absorption and ~11–20%+ total porosity, whereas subtype surveys cite 3–12% water absorption (Zhuni <2–3%, Duanni 8–12%) and 3–14% apparent porosity. Crucially, standard Zisha teaware is NOT flameware: its high quartz content (~28–60%) and moderate CTE cause cracking on direct burner flames unless reformulated with coarse refractory grog or spodumene/petalite as shaguo casseroles.",
+      "sources": [
+        "Wu et al. (2013), Ceramics International",
+        "Yang et al. (2021), Ceramics International 47(8)",
+        "Digitalfire thermal shock / flameware engineering notes (digitalfire.com)"
+      ],
+      "unit": "wt% (minerals) / °C (firing) / % (absorption & porosity) / µm & nm (pore sizes)",
+      "value_or_range": "Raw mineralogy: 28–60% quartz, 30–50% illite/kaolinite/hydromica, 7–12%+ hematite; Firing: 1,100–1,200 °C (peak 1,150–1,180 °C); Water absorption: ~2–5% (up to 8–12% in coarse subtypes); Total porosity: ~11–20%+; Dual pores: ~0.2–0.5 µm intergranular + <10 nm matrix pores"
+    },
+    {
+      "claim": "Kaolin-rich stoneware and porcelain are defined industrially by high-temperature vitrification and near-zero open porosity, conferring high strength and chemical inertness but poor direct-flame thermal shock resistance.",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Thermal conductivity spans ~1.0–4.0 W/(m·K) for culinary stoneware/porcelain (20–50× lower than cast iron's ~50–80 W/(m·K)), creating steep wall thermal gradients on concentrated burners. Combined with a moderate CTE (~4.0–6.5 × 10^-6 K^-1), high elastic modulus, and lack of crack-blunting voids, standard vitrified stoneware/porcelain readily fractures on direct flame despite excelling in gradual oven or slow-cooker heating.",
+      "sources": [
+        "ASTM C373 / ISO 10545-3 (austingallery.org, ResearchGate)",
+        "Digitalfire & ceramic engineering CTE tables (kyocera.com, digitalfire.com)",
+        "Thermtest & materials conductivity references (thermtest.com)"
+      ],
+      "unit": "°C (firing) / % (water absorption) / 10^-6 K^-1 (CTE) / W/(m·K) (conductivity)",
+      "value_or_range": "Stoneware: 1,186–1,285 °C (Cone 5–10), water absorption ≤3% (typically 0.5–3%); Porcelain: 1,250–1,400 °C+ (Cone 10+), water absorption ≤0.5%; CTE: 4.0–6.5 × 10^-6 K^-1; Thermal conductivity: ~1.0–4.0 W/(m·K)"
+    },
+    {
+      "claim": "Lithium- and magnesium-aluminosilicate (LAS/MAS) flameware—using petalite, spodumene, cordierite, or beta-spodumene glass-ceramics—survives extreme direct-flame and freezer-to-oven shock primarily by engineering near-zero thermal expansion rather than relying on clay origin.",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Two distinct Japanese donabe mechanisms exist: Banko-yaki adds ~40–50% petalite (LiAlSi4O10 -> beta-spodumene on firing) to achieve low porosity and CTE ≤2.0 × 10^-6 K^-1, whereas traditional Iga-yaki (Nagatani-en) uses paleo-Lake Biwa organic-rich clay that burns out during firing to create insulating micro-porosity without petalite (exact peer-reviewed Iga porosity % was not found in English technical literature: LOW CONFIDENCE on exact figure). Corning Pyroceram 9608 (CorningWare, beta-spodumene glass-ceramic) achieves 0–2.5 × 10^-6 K^-1 CTE and ~2.05 W/(m·K) conductivity (distinct from cordierite Pyroceram 9606 radomes at ~5.7 × 10^-6 K^-1). Emile Henry Flame claims pure Burgundy clay without synthetic spodumene/petalite/cordierite and uses an intentionally micro-crazing stress-relief glaze, but exact mineral processing is a proprietary trade secret (LOW CONFIDENCE on exact phase composition).",
+      "sources": [
+        "Corning / NIST / NASA / Thermtest Pyroceram 9608 datasheets (nist.gov, nasa.gov, thermtest.com)",
+        "Ceramic engineering CTE tables & cordierite/petalite papers (NIH, ResearchGate, ceramic-science.com)",
+        "Mie Prefecture / Banko & Iga donabe technical literature (ResearchGate, Nagatani-en/Saikai)",
+        "Emile Henry technical disclosures (emilehenryusa.com, everythingkitchens.com)"
+      ],
+      "unit": "10^-6 K^-1 (CTE) / wt% (petalite) / W/(m·K) (conductivity)",
+      "value_or_range": "Petalite-bearing bodies CTE: -0.5 to 1.0 × 10^-6 K^-1 (Banko-yaki ~40–50% petalite -> ≤2.0 × 10^-6 K^-1); Cordierite CTE: 0.5–2.0 × 10^-6 K^-1; Pyroceram 9608 CTE: ~0–2.5 × 10^-6 K^-1, conductivity ~2.05 W/(m·K)"
+    },
+    {
+      "claim": "'Volcanic clay' is a commercial marketing label rather than a mineralogical clay classification; genuine volcanic-derived ceramics rely either on weathered alteration clays (smectite, allophane, halloysite) or non-plastic volcanic rock tempers/fluxes (basalt, pumice, scoria), while modern Korean flameproof ttukbaegi actually rely on added petalite.",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Fresh lava, basalt, and pumice have zero plasticity and cannot be formed alone. In Korea, traditional onggi and ttukbaegi are made from regional illite-chlorite-kaolinite secondary clays + quartz/feldspar (40–56% SiO2, 13–25% Al2O3, 4–8% Fe2O3) fired at 1,100–1,200 °C with ~10.8–38.2% porosity depending on firing temperature and pore-formers (such as charcoal); Jeju volcanic scoria ('songyi') is researched as a porous iron/magnesium-rich aggregate/flux fired at 900–1,200 °C. Modern 'crack-free/0%-absorption' Korean ttukbaegi achieve stovetop durability by blending imported petalite and firing >1,250 °C—not from volcanic stone.",
+      "sources": [
+        "Journal of the Korean Ceramic Society (Katsuki et al., jkcs.or.kr) & Semantic Scholar on Onggi porosity",
+        "MDPI & JKCS studies on Jeju volcanic scoria ceramics (mdpi.com, jkcs.or.kr)",
+        "Soil/clay mineralogy references on volcanic ash weathering (Britannica, ResearchGate, IntechOpen)",
+        "Korean flameware/ttukbaegi petalite manufacturer technical disclosures (aardvarkclay.com, gochujar.com)"
+      ],
+      "unit": "wt% (oxides) / °C (firing) / % (porosity)",
+      "value_or_range": "Onggi matrix: 40–56% SiO2, 13–25% Al2O3, 4–8% Fe2O3; Firing: 1,100–1,200 °C; Onggi porosity: 20.9–38.2% at 1,100 °C dropping to 10.8–30.9% at 1,200 °C; Jeju scoria composites sintered at 900–1,200 °C (red clay-scoria ~950 °C)"
+    },
+    {
+      "claim": "During cooking, the geographic or trade name of a clay matters far less than three interacting engineering variables: (1) firing temperature/vitrification, (2) open porosity, and (3) thermal expansion management across body, temper, and glaze.",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Per Kingery (1955) and Hasselman (1969–1970) thermal-shock theory plus Skibo's behavioral pottery studies, cookware faces an inherent engineering trade-off: high open porosity and coarse platy/mineral temper blunt cracks and raise thermal shock survival (e.g., micaceous ware, Iga donabe, terracotta), but increase liquid/oil/soap absorption and reduce mechanical strength; conversely, high-fired vitrification (stoneware/porcelain) seals pores and raises strength, but makes bodies brittle under direct-flame gradients unless CTE is engineered near zero with petalite or cordierite. Glaze fit also governs performance: glazes must have a slightly lower CTE than the body to remain in compression; tensile crazing can reduce ceramic strength by up to 300–400% and create sanitation/leaching pathways. Furthermore, the 573 °C alpha-to-beta quartz inversion creates sharp volumetric stress whenever high-quartz bodies are heated rapidly.",
+      "sources": [
+        "Kingery (1955) & Hasselman (1969–1970) thermal shock equations (MDPI, Sciopen, ResearchGate)",
+        "Skibo & Schiffer pottery performance trade-offs (ResearchGate, tandfonline.com)",
+        "Digitalfire glaze fit, compression/crazing, and 573 °C quartz inversion guides (digitalfire.com)"
+      ],
+      "unit": "°C (quartz inversion) / % (strength loss)",
+      "value_or_range": "Quartz inversion at 573 °C; tensile glaze crazing can reduce ceramic structural strength by up to 300–400%"
+    },
+    {
+      "claim": "Clay cookware's gentle, even heating arises from low thermal conductivity and high surface emissivity—not from unique 'far-infrared' wavelengths exclusive to special clays.",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "By Planck's and Wien's displacement laws, emission wavelength depends on temperature, not clay mineralogy: any pan at 100–250 °C emits mid-to-far IR (~5–20 µm), and IR penetrates only microscopic fractions of a millimeter into food. However, ceramics do exhibit high surface emissivity (ε ≈ 0.90–0.95 vs. <0.1 for polished bare aluminum/steel) alongside low thermal conductivity (0.15–4 W/(m·K) vs. 50–80 W/(m·K) for cast iron), creating high thermal inertia and inward radiative warmth without hot-spot scorching.",
+      "sources": [
+        "Thermodynamics (Planck's & Wien's laws) & ceramic thermal conductivity data (thermtest.com, ceramics.org)",
+        "Ceramic emissivity vs. polished metal analyses (yakimono.or.jp, soonear.me)"
+      ],
+      "unit": "µm (IR wavelength) / dimensionless (emissivity) / W/(m·K) (conductivity)",
+      "value_or_range": "IR peak at 100–250 °C: ~5–20 µm regardless of material; Ceramic emissivity ε: ~0.90–0.95 (polished metal <0.1); Clay conductivity: 0.15–4.0 W/(m·K) vs. cast iron 50–80 W/(m·K)"
+    }
+  ],
+  "id": "clay-types-primer",
+  "myths_checked": [
+    "Myth: 'Volcanic clay' is a distinct natural clay mineral that lets pots be shaped straight from lava rock. Reality: Raw basalt/pumice/lava has zero plasticity; commercial 'volcanic clay' cookware either uses weathered volcanic soils (smectite/allophane/halloysite), basalt/scoria temper, or standard clays doped with petalite/sol-gel coatings.",
+    "Myth: Clay pots (or volcanic/Zisha/donabe pots) emit special 'far-infrared' frequencies that metals cannot, cooking food from the inside out. Reality: Per Wien's Law, any surface at 100–250 °C emits ~5–20 µm mid-to-far IR, which penetrates only fractions of a millimeter; clay's real advantage is high emissivity (0.90–0.95 vs <0.1 for shiny metal) plus low thermal conductivity (0.15–4 W/m·K) that buffers hot spots.",
+    "Myth: Traditional curing (boiling with vinegar, garlic, or lime) seals or neutralizes lead in low-fired glazed terracotta cazuelas or tagines. Reality: FDA testing confirms household curing does not stop lead leaching when a glaze is underfired or unstable; acidic foods accelerate leaching.",
+    "Myth: All famous traditional Chinese Zisha or vitrified French/European stoneware is inherently stovetop/direct-flame safe. Reality: Standard Zisha teaware (high quartz, ~2–5% water absorption) and standard vitrified stoneware/porcelain will crack under direct burner gradients unless specifically formulated with low-CTE minerals (petalite, spodumene, cordierite), heavy platy/coarse temper, or proprietary stress-relief engineering.",
+    "Myth: Porous cookware is always weaker against heat than dense high-fired stoneware. Reality: For direct-flame thermal shock, controlled open porosity and platy mica or coarse temper actually outperform dense vitrified stoneware by blunting crack propagation and lowering elastic modulus (Hasselman theory), at the trade-off of higher water absorption and lower mechanical impact strength."
+  ]
+}

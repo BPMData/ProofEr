@@ -1,0 +1,112 @@
+{
+  "angle": "Primary spec verification across official Magnifique (cookmagnifique.com) and VitaClay (vitaclaychef.com) manuals, product pages, retail spec sheets, and ceramic materials science literature covering clay chemistry/firing thresholds, model-level wattages, slow-cook temperatures, double-lid evaporation behavior, and thermal-shock claims.",
+  "bibliography": [
+    "cookmagnifique.com — Official Magnifique Clay Multi-Cooker & Kaolin Clayware Product Pages, FAQs, and Care Guides (MCR51P, MCP41P, Clay Dutch Oven)",
+    "manuals.plus — Magnifique Digital Slow Cooker & Clay Multi-Cooker (MCR51P / 4QT) User Manuals",
+    "Target / Dillard's Retail Specification Sheets — Magnifique MCR51P (1130W) and MCP41P-CRCR (500°F oven-safe)",
+    "CNET — Review of Magnifique Combo Air Fryer + Multicooker (214°F bottom cooker ceiling measurement)",
+    "Digitalfire Ceramic Materials Database — Firing Temperature Milestones (815°C / 1500°F), Kaolin Dehydroxylation (450–650°C), Petalite, Spodumene, and Flameware Glaze Fit",
+    "Ceramic Arts Network — Flameware Formulation & Low-Expansion Thermal Shock Minerals (Petalite, Spodumene, Mullite, Cordierite)",
+    "NIH / PubMed & Ceramic Engineering Literature — Lithium-Aluminosilicate (LAS) Cookware Coefficient of Thermal Expansion (0.5–2.5 × 10^-6/°C) and Beta-Spodumene Phase Transformation (1100–1350°C)",
+    "vitaclaychef.com — Official VitaClay Product Pages, Product Manuals Portal, and Broth/Stock Pot (VM7800 / VM7900 / VF7700 / VS7600) Usage Guides",
+    "ManualsLib & Home Depot (thdstatic.com) — VitaClay VF7700-6, VF7700-8, and VM7900 Official PDF Instruction Manuals",
+    "Staples.ca, Juicers4Life, eBay, and Ubuy Retail Spec Sheets — VitaClay VS7600-2C (120W vs 500–600W listings) and VF7700-6/8 (500W / 600W)",
+    "YouTube — Official VitaClay VM7900 / Multi-Cooker Video Descriptions (\"480 F\" thermal shock resistance claim)"
+  ],
+  "findings": [
+    {
+      "claim": "Magnifique kaolin clay firing claim and stovetop/oven rating vs. composition disclosure",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Magnifique markets its clayware as '100% pure kaolin clay' glazed with kaolin clay fired '>1,500°F' and rates stovetop/oven use up to 750°F (400°C) on cookmagnifique.com (excluding induction); however, Dillard's and some manual listings for the 4-Qt Casserole Claypot Multi-Cooker (MCP41P-CRCR) specify an oven-safe rating of 450°F–500°F. Cookmagnifique.com never mentions 'petalite', 'spodumene', or 'stoneware', so low-expansion additives are undisclosed. Magnifique manuals still warn against thermal shock (cold liquid/frozen food in hot pot, fridge-to-oven) and exclude thermal-shock cracking from warranty.",
+      "sources": [
+        "cookmagnifique.com",
+        "dillards.com",
+        "manuals.plus"
+      ],
+      "unit": "°F (°C)",
+      "value_or_range": "Glaze firing >1,500°F (>815°C); stovetop (gas/electric) & oven rating up to 750°F (400°C), or 450–500°F on MCP41P-CRCR; petalite/spodumene/stoneware not disclosed"
+    },
+    {
+      "claim": "Ceramic chemistry of >1,500°F kaolin firing vs. flameware thermal-shock resistance",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Because Magnifique does not publish its full mineral batch recipe or peak bisque/glost cone, whether its body uses lithium-aluminosilicate (LAS) minerals or high-mullite/controlled-porosity stoneware fired well above 1,500°F cannot be confirmed from public disclosures. At ~1,500°F (815°C) alone, kaolin has only dehydroxylated to metakaolin (450–650°C) and passed calcination/low-fire frit milestones (~815°C), well below spinel/mullite formation (>900–1,050°C) and stoneware vitrification (1,200–1,300°C+ / Cone 6–10). Stovetop flameware normally relies on petalite or spodumene (firing 1,100–1,350°C to form beta-spodumene with CTE 0.5–2.5 × 10^-6/°C vs. 3–7 × 10^-6/°C for standard whiteware) plus matched low-expansion glazes.",
+      "sources": [
+        "digitalfire.com",
+        "ceramicartsnetwork.org",
+        "nih.gov"
+      ],
+      "unit": "°C / °F and 10^-6/°C (CTE)",
+      "value_or_range": "Kaolin dehydroxylation 450–650°C (842–1,202°F); calcination milestone ~815°C (1,500°F); mullite >900–1,050°C; LAS flameware firing 1,100–1,350°C (CTE 0.5–2.5 × 10^-6/°C)"
+    },
+    {
+      "claim": "Magnifique Slow Cook Low and High temperatures and model wattages",
+      "confidence": "MEDIUM",
+      "disagreements_or_caveats": "Exact numeric °F/°C setpoints for Slow Cook Low and High are NOT disclosed in Magnifique manuals or cookmagnifique.com; manuals define Low (traditional ~8–10 hr slow cook) and High (faster ~4–6 hr cook; default Slow Cook state on multi-cookers requiring manual TEMP arrow toggle to Low) functionally, followed by Keep Warm (recommended max 4 hours). One single-source CNET review of a Magnifique Combo Air Fryer + Multicooker measured a 214°F ceiling on its bottom cooker (LOW CONFIDENCE for extrapolating to MCR51P/MCP41P). Wattage diverges sharply between standard Magnifique ceramic slow cookers (260–280W, 120V/60Hz) and the 4.5-Qt Clay Multi-Cooker MCR51P (1,130W, 120V/60Hz).",
+      "sources": [
+        "cookmagnifique.com",
+        "manuals.plus",
+        "target.com",
+        "cnet.com"
+      ],
+      "unit": "°F and Watts (W)",
+      "value_or_range": "Slow Cook Low/High °F undisclosed (214°F max in CNET combo review [LOW CONFIDENCE]); 260–280W (ceramic slow cookers) vs. 1,130W (MCR51P Clay Multi-Cooker)"
+    },
+    {
+      "claim": "VitaClay wattages for VM7900, VF7700, and VM7800 series (120V / 60Hz)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Official manuals cover both 6-cup (3-qt) and 8-cup (4-qt) capacities under a combined 500–600W rating. Individual retail spec sheets break out VF7700-6 as 500W and VF7700-8 as 600W; VM7800-5C (6–6.5-qt stock pot) is rated 600W (or 500–600W in series overviews, 110–120 VAC / 60 Hz).",
+      "sources": [
+        "vitaclaychef.com",
+        "manualslib.com",
+        "homedepot.com",
+        "walmart.com"
+      ],
+      "unit": "Watts (W)",
+      "value_or_range": "VM7900-6/8: 500–600W; VF7700-6: 500W (series 500–600W); VF7700-8: 600W; VM7800-5C: 600W (series 500–600W)"
+    },
+    {
+      "claim": "VitaClay VS7600-2C wattage (2-Qt Yogurt Maker & Personal Slow Cooker)",
+      "confidence": "LOW CONFIDENCE",
+      "disagreements_or_caveats": "LOW CONFIDENCE: Multiple third-party retail spec sheets (Staples.ca, Juicers4Life, eBay, Ubuy) list VS7600-2C at 120W (120V / 60Hz), whereas vitaclaychef.com text snippets omit an explicit wattage and some secondary listings (alternate Staples.ca / Desertcart entries) copy-paste the generic 500–600W boilerplate from larger VitaClay multi-cookers. Physical unit rating label or direct PDF table inspection was not surfaced in indexed web snippets.",
+      "sources": [
+        "staples.ca",
+        "juicers4life.com",
+        "ebay.com",
+        "vitaclaychef.com"
+      ],
+      "unit": "Watts (W)",
+      "value_or_range": "120W (retail spec sheets) vs. 500–600W (generic boilerplate listings; unconfirmed on vitaclaychef.com)"
+    },
+    {
+      "claim": "VitaClay double-lid / steam-vent evaporation behavior over 2–8 hour slow cooks and liquid top-up rules",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Behavior splits by model family. On VM7900 and VF7700, an inner clay lid sits beneath an outer lid with a steam vent/cap to create a micro-pressure seal that circulates condensation and cooks ~2–4× faster—converting standard 8-hr Low / 4-hr High slow-cooker recipes to ~2 hours on Soup/Stew, minimizing liquid loss so 6–8 hr cycles are generally unnecessary (check halfway on first use). By contrast, VM7800 (VM7800-5C clay high-dome lid / VM7800-5S stoneware dome lid) is explicitly documented by vitaclaychef.com to evaporate liquid more quickly like a stovetop stockpot: for cycles >1 hour (e.g., 4–8 hr bone broths), VitaClay requires 4–8 cups starting liquid (up to 8 cups/hr on long cycles), periodic monitoring, and topping up with warm or room-temperature liquid only (never cold liquid into a hot pot, and never dry-cooking).",
+      "sources": [
+        "vitaclaychef.com",
+        "thdstatic.com",
+        "media-amazon.com"
+      ],
+      "unit": "hours / cups",
+      "value_or_range": "VM7900/VF7700: ~2 hr equivalent for 8-hr crockpot recipes (minimal evaporation; warm top-up only if needed); VM7800 stock pot: faster evaporation, 4–8 cups baseline liquid, periodic warm/room-temp top-ups required for multi-hour cooks"
+    },
+    {
+      "claim": "VitaClay 480°F thermal shock resistance claim presence outside one YouTube video",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Refutes the premise that it only appears in one YouTube video: the verbatim claim 'High-fired clay pot with wider temperature shock resistance up to 480 F that enhances longevity.' appears directly on official vitaclaychef.com product pages (including VM7900 listings) in addition to YouTube video descriptions. However, '480°F' / '480 F' does NOT appear in indexed VitaClay PDF instruction manuals (ManualsLib, Home Depot thdstatic.com, media-amazon.com), which instead provide qualitative thermal-shock warnings and explicitly prohibit stovetop, oven, and broiler use.",
+      "sources": [
+        "vitaclaychef.com",
+        "youtube.com",
+        "manualslib.com",
+        "thdstatic.com"
+      ],
+      "unit": "°F",
+      "value_or_range": "480°F (verbatim on vitaclaychef.com web pages and YouTube; absent from indexed PDF manuals)"
+    }
+  ],
+  "id": "magnifique-vitaclay-specs",
+  "myths_checked": [
+    "Myth: VitaClay's 480°F thermal shock claim appears only in a single YouTube video. Checked: False — the verbatim line 'High-fired clay pot with wider temperature shock resistance up to 480 F that enhances longevity.' is published on official vitaclaychef.com product pages as well as YouTube, though absent from PDF user manuals and not an oven/stovetop rating.",
+    "Myth: Magnifique discloses petalite or spodumene flameware chemistry to explain its >1,500°F firing and 750°F stovetop/oven rating. Checked: False — 'petalite', 'spodumene', and 'stoneware' do not appear on cookmagnifique.com; Magnifique discloses only '100% pure kaolin clay' and kaolin glaze fired >1,500°F without naming low-expansion lithium additives.",
+    "Myth: All VitaClay cookers share identical 500–600W ratings and identical no-evaporation double-lid behavior over 2–8 hours. Checked: False — VM7800 stock pots evaporate significantly faster than VM7900/VF7700 double-lid units and require periodic liquid monitoring/warm top-ups over multi-hour cooks, while the 2-qt VS7600-2C is listed at 120W on multiple retail spec sheets (versus 500–600W boilerplate)."
+  ]
+}

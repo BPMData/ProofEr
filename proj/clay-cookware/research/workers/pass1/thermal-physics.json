@@ -1,0 +1,269 @@
+{
+  "angle": "Materials-science thermophysical properties (thermal conductivity, specific heat capacity, bulk density, thermal diffusivity, and volumetric thermal mass) across unglazed terracotta/earthenware, vitrified stoneware/porcelain, Yixing Zisha clay, gray cast iron, and aluminum cookware alloys, plus Römertopf cold-start, evaporative-cooling, and oven-setpoint mechanics.",
+  "bibliography": [
+    "ASM International. ASM Handbook, Vol. 1: Properties and Selection: Irons, Steels, and High-Performance Alloys; Vol. 2: Properties and Selection: Nonferrous Alloys and Special-Purpose Materials.",
+    "García, E., et al. (2011). Thermal diffusivity and conductivity of commercial stoneware and porcelain floor tiles (laser flash method measurements). ResearchGate indexed ceramic tile study.",
+    "García-Ten, J., Orts, M. J., Saburit, A., & Silva, G. (2010). Thermal conductivity of traditional ceramics. Part I: Influence of bulk density and firing temperature; Part II: Influence of mineralogical composition. Ceramics International, 36(6), 1951–1959.",
+    "Incropera, F. P., DeWitt, D. P., Bergman, T. L., & Lavine, A. S. Fundamentals of Heat and Mass Transfer, Appendix A, Table A.1 (Thermophysical Properties of Selected Metallic Solids at 300 K).",
+    "Kingery, W. D., Bowen, H. K., & Uhlmann, D. R. Introduction to Ceramics (2nd ed.). Wiley. (Also Journal of the American Ceramic Society).",
+    "Lee, V., & Attinger, D. (2016). Thermodynamics and historical relevance of a jetting thermometer made of Chinese zisha ceramic. Scientific Reports (indexed via PubMed Central / NIH).",
+    "Lin, Y., et al. The Compositions and Pore Structures of Benshanzhu Zisha Ceramics. Semantic Scholar / ResearchGate indexed ceramic characterization study.",
+    "MatWeb Material Property Data: Aluminum 3003-H14 (UNS A93003), Aluminum 1100-H14, and ASTM A48 Gray Cast Iron datasheets.",
+    "McGee, H. On Food and Cooking: The Science and Lore of the Kitchen (discussion of clay low thermal conductivity and evaporative cooling).",
+    "Myhrvold, N., Young, C., & Bilet, M. Modernist Cuisine: The Art and Science of Cooking (Vol. 2: cookware thermal mass, thickness, and conductivity).",
+    "Penticton Foundry. ASTM A48 Gray Cast Iron Class 30/40 Engineering Property Specification.",
+    "Römertopf GmbH / Römertopf USA Official Instructions & Manuals (roemertopf.de, romertopf-usa.com, manuals.plus Römertopf instruction booklet).",
+    "Wolfert, P. Mediterranean Clay Pot Cooking (high-heat cold-oven clay-pot roasting guidelines)."
+  ],
+  "findings": [
+    {
+      "claim": "Unglazed terracotta / earthenware thermal conductivity (k)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Standard fired terracotta/earthenware matrices typically cluster around 0.60–1.20 W/(m·K) (often ~0.7 W/(m·K)); highly porous or lightweight architectural terracotta blocks can drop to 0.13–0.50 W/(m·K). Moisture absorption increases effective k.",
+      "sources": [
+        "García-Ten et al. (2010), Ceramics International 36(6):1951–1959",
+        "PMC/NIH porous fired-clay ceramic literature",
+        "Kingery et al., Introduction to Ceramics"
+      ],
+      "unit": "W/(m·K)",
+      "value_or_range": "0.50–1.30 (typical fired earthenware 0.60–1.20; lightweight porous down to 0.13)"
+    },
+    {
+      "claim": "Unglazed terracotta / earthenware specific heat capacity (Cp)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Room-temperature (~20–25°C) dry silicate clay values commonly center around 840–900 J/(kg·K); ambient moisture raises apparent specific heat.",
+      "sources": [
+        "PMC/NIH fired-clay and compacted-earth studies",
+        "Kingery et al., Introduction to Ceramics",
+        "ASCE / ceramic materials property tables"
+      ],
+      "unit": "J/(kg·K)",
+      "value_or_range": "800–1,000 (commonly 840–900)"
+    },
+    {
+      "claim": "Unglazed terracotta / earthenware bulk density (rho)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Typical open porosity is 10–30%; lightweight/cellular architectural terracotta blocks can be 700–1,300 kg/m³.",
+      "sources": [
+        "PMC/NIH porous clay ceramic literature",
+        "García-Ten et al. (2010), Ceramics International",
+        "Kingery et al., Introduction to Ceramics"
+      ],
+      "unit": "kg/m³",
+      "value_or_range": "1,500–2,100 (commonly 1,600–1,900)"
+    },
+    {
+      "claim": "Unglazed terracotta / earthenware thermal diffusivity (alpha)",
+      "confidence": "MEDIUM",
+      "disagreements_or_caveats": "Varies strongly with open porosity, firing temperature, and moisture content; e.g., k=0.7, rho=1,600, Cp=800 yields ~0.55 × 10^-6 m²/s.",
+      "sources": [
+        "PMC/NIH porous clay ceramic literature",
+        "Derived via alpha = k / (rho * Cp) from García-Ten et al. (2010) and Kingery et al."
+      ],
+      "unit": "m²/s (and mm²/s)",
+      "value_or_range": "0.2–0.7 × 10^-6 m²/s (0.2–0.7 mm²/s)"
+    },
+    {
+      "claim": "Vitrified glazed stoneware / porcelain ceramic thermal conductivity (k)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Standard stoneware and porcelain fall around 1.0–2.5 W/(m·K) (stoneware typically 1.3–2.0 W/(m·K)); dense commercial porcelain stoneware or alumina/high-quartz-enriched bodies reach 4.0–8.6 W/(m·K). Vitrification reduces phonon-scattering pores compared to earthenware.",
+      "sources": [
+        "García-Ten et al. (2010), Ceramics International",
+        "Kingery et al., Introduction to Ceramics",
+        "García et al. (2011), commercial stoneware/porcelain tile study"
+      ],
+      "unit": "W/(m·K)",
+      "value_or_range": "1.0–4.0 (standard stoneware 1.3–2.0; high-crystalline porcelain stoneware up to 5.0–8.6)"
+    },
+    {
+      "claim": "Vitrified glazed stoneware / porcelain ceramic specific heat capacity (Cp)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Silicate ceramics share similar lattice heat capacities regardless of porosity (Dulong-Petit / composition-governed); rises slightly at elevated temperatures.",
+      "sources": [
+        "Kingery et al., Introduction to Ceramics",
+        "PMC/NIH silicate ceramic literature"
+      ],
+      "unit": "J/(kg·K)",
+      "value_or_range": "750–900"
+    },
+    {
+      "claim": "Vitrified glazed stoneware / porcelain ceramic bulk density (rho)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Stoneware typically 2,100–2,400 kg/m³ (open porosity <3%); vitrified porcelain stoneware typically 2,300–2,600 kg/m³ (water absorption <0.5%).",
+      "sources": [
+        "García et al. (2011), stoneware/porcelain tile study",
+        "Kingery et al., Introduction to Ceramics"
+      ],
+      "unit": "kg/m³",
+      "value_or_range": "2,100–2,500 (dense porcelain up to 2,600)"
+    },
+    {
+      "claim": "Vitrified glazed stoneware / porcelain ceramic thermal diffusivity (alpha)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Laser flash method (LFM) measurements on dense stoneware and porcelain floor tiles give 0.5–1.0 mm²/s at room temperature; broader stoneware/porcelain range extends to ~1.5 mm²/s depending on quartz/mullite/alumina fractions.",
+      "sources": [
+        "García et al. (2011), LFM measurements on stoneware/porcelain tiles",
+        "ASHRAE / silicate ceramic thermophysical tables"
+      ],
+      "unit": "m²/s (and mm²/s)",
+      "value_or_range": "0.5–1.5 × 10^-6 m²/s (LFM-measured commercial tiles: 0.5–1.0 mm²/s)"
+    },
+    {
+      "claim": "Zisha (Yixing purple clay) thermal conductivity (k)",
+      "confidence": "MEDIUM",
+      "disagreements_or_caveats": "Lee & Attinger (2016) in Scientific Reports uses k = 1.3 W/(m·K) for zisha ceramic thermodynamic modeling (single primary peer-reviewed value). Secondary/broader ceramic summaries cite 0.6–1.5 W/(m·K) or 0.15–1.8 W/(m·K) depending on firing temperature (1,100–1,200°C), dual-pore network (3–10+% apparent porosity), and clay subtype (Zini, Hongni, Duanni, Benshanzhu).",
+      "sources": [
+        "Lee & Attinger (2016), Scientific Reports / PubMed Central (k = 1.3 W/(m·K))",
+        "Lin et al., Benshanzhu Zisha pore-structure characterization"
+      ],
+      "unit": "W/(m·K)",
+      "value_or_range": "1.3 (peer-reviewed model value); broader reported/inferred range 0.6–1.5 (extreme porous bounds 0.15–1.8)"
+    },
+    {
+      "claim": "Zisha (Yixing purple clay) bulk density (rho) and apparent porosity",
+      "confidence": "LOW CONFIDENCE",
+      "disagreements_or_caveats": "No single standardized ASTM/NIST datasheet exists across Yixing ore subtypes; bulk density is inferred from semi-vitrified stoneware ceramic bodies and densified clay-matrix studies (~2,460 kg/m³ upper bound), while peer-reviewed MIP/BET papers confirm hierarchical sub-micron + nanometer dual porosity (~3% to >10% apparent porosity).",
+      "sources": [
+        "Lin et al., Benshanzhu Zisha Ceramics",
+        "MDPI Zisha ceramic pore-characteristic study (MIP)"
+      ],
+      "unit": "kg/m³ (and % porosity)",
+      "value_or_range": "2,100–2,500 kg/m³; apparent porosity ~3% to >10%"
+    },
+    {
+      "claim": "Zisha (Yixing purple clay) specific heat capacity (Cp) and thermal diffusivity (alpha)",
+      "confidence": "LOW CONFIDENCE",
+      "disagreements_or_caveats": "Specific heat and thermal diffusivity of fired Zisha are not directly tabulated in the retrieved peer-reviewed calorimetry papers; Cp (750–900 J/(kg·K), ~840 J/(kg·K)) is inferred from silicate/kaolinite-quartz-hematite ceramic baselines, and alpha (~0.3–0.8 × 10^-6 m²/s) is calculated from alpha = k / (rho * Cp). Lee & Attinger (2016) emphasizes that wall thermal diffusivity governs the transient diffusion time scale (pi_2) in 2–3 mm walls.",
+      "sources": [
+        "Lee & Attinger (2016), Scientific Reports / PMC",
+        "Silicate ceramic baseline (Kingery et al., Introduction to Ceramics; PMC clay studies)"
+      ],
+      "unit": "J/(kg·K) and m²/s",
+      "value_or_range": "Cp: ~750–900 J/(kg·K); alpha (derived): ~0.3–0.8 × 10^-6 m²/s (0.3–0.8 mm²/s)"
+    },
+    {
+      "claim": "Cast iron (gray cast iron, e.g., ASTM A48 Class 30/40) thermal conductivity (k)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Conductivity depends strongly on graphite flake morphology, carbon equivalent, and ferritic vs. pearlitic matrix; ductile/nodular cast iron is lower (~30–45 W/(m·K)). Decreases moderately with rising temperature.",
+      "sources": [
+        "ASM Handbook Vol. 1: Properties and Selection: Irons, Steels, and High-Performance Alloys",
+        "MatWeb / Penticton Foundry ASTM A48 Class 30 datasheet (53 W/(m·K) at 100°C)",
+        "Incropera et al., Fundamentals of Heat and Mass Transfer"
+      ],
+      "unit": "W/(m·K)",
+      "value_or_range": "40–72 (standard gray iron grades typically 46–53)"
+    },
+    {
+      "claim": "Cast iron (gray cast iron) specific heat capacity (Cp)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "ASM/MatWeb room-temperature (~20–25°C) values cluster at 460–505 J/(kg·K) (commonly ~490 J/(kg·K)); one foundry specification for ASTM A48 Class 30 lists 586 J/(kg·K) at 20°C, and Cp rises with operating temperature.",
+      "sources": [
+        "ASM Handbook Vol. 1",
+        "MatWeb / AZoM gray iron property tables",
+        "Penticton Foundry ASTM A48 datasheet (586 J/(kg·K))"
+      ],
+      "unit": "J/(kg·K)",
+      "value_or_range": "460–505 (up to 586 in some ASTM A48 specs; increases with T)"
+    },
+    {
+      "claim": "Cast iron (gray cast iron) density (rho) and volumetric heat capacity (rho * Cp)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "High density gives gray cast iron a volumetric heat capacity of ~3.27–3.69 MJ/(m³·K), the highest of the five cookware classes, explaining its thermal inertia when cold food hits a pan.",
+      "sources": [
+        "ASM Handbook Vol. 1",
+        "MatWeb / Incropera et al.",
+        "Modernist Cuisine Vol. 2 (cookware thermal mass analysis)"
+      ],
+      "unit": "kg/m³ (and MJ/(m³·K))",
+      "value_or_range": "7,100–7,300 kg/m³ (volumetric heat capacity ~3.27–3.69 MJ/(m³·K))"
+    },
+    {
+      "claim": "Cast iron (gray cast iron) thermal diffusivity (alpha)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Typical room-temperature range 10–18 mm²/s; e.g., k=46, rho=7,150, Cp=490 yields 13.1 mm²/s. Decreases toward 500°C as k drops and Cp rises.",
+      "sources": [
+        "ASM Handbook / Incropera et al.",
+        "MatWeb / ResearchGate cast iron thermophysical studies"
+      ],
+      "unit": "m²/s (and mm²/s)",
+      "value_or_range": "1.0–1.8 × 10^-5 m²/s (10–18 mm²/s; ~13.1 mm²/s typical)"
+    },
+    {
+      "claim": "Aluminum alloy cookware thermal conductivity (k) — wrought (3003, 1100) and cast (A356, 319)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Alloy 3003 (~1.2% Mn, standard commercial cookware) has lower k than commercially pure 1100 due to manganese solute electron scattering, while gaining ~20% strength. Cast cookware alloys (A356, 319) have lower k due to Si/Cu alloying. Pure Al at 300 K is 237 W/(m·K) (Incropera).",
+      "sources": [
+        "MatWeb: Aluminum 3003-H14 (159 W/(m·K)) and 1100-H14 (220 W/(m·K)) at 25°C",
+        "Incropera et al., Table A.1 (Pure Al: 237 W/(m·K) at 300 K; Alloy 2024-T6: 177; Cast Alloy 195: 168)",
+        "ASM Handbook Vol. 2 (cast A356 ~150–151; cast 319 ~110–120 W/(m·K))"
+      ],
+      "unit": "W/(m·K)",
+      "value_or_range": "3003: 159–190; 1100: 218–222; Cast A356/319: 110–151"
+    },
+    {
+      "claim": "Aluminum alloy cookware specific heat capacity (Cp) and density (rho)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Despite high mass-specific heat (~893–904 J/(kg·K), nearly double cast iron per kg), aluminum's low density yields a volumetric heat capacity of ~2.40–2.46 MJ/(m³·K), roughly 30–35% lower per unit volume than cast iron.",
+      "sources": [
+        "MatWeb: 3003-H14 (2,730 kg/m³, 893 J/(kg·K)); 1100-H14 (2,710 kg/m³, 904 J/(kg·K))",
+        "Incropera et al., Table A.1 (Pure Al: 2,702 kg/m³, 903 J/(kg·K))",
+        "ASM Handbook Vol. 2 (Cast A356: 2,670–2,680 kg/m³, ~900–963 J/(kg·K); 319: 2,790 kg/m³, ~880 J/(kg·K))"
+      ],
+      "unit": "J/(kg·K) and kg/m³",
+      "value_or_range": "Cp: 880–904 J/(kg·K) (cast A356 up to 963); rho: 2,670–2,800 kg/m³ (3003: 2,730; 1100: 2,710)"
+    },
+    {
+      "claim": "Aluminum alloy cookware thermal diffusivity (alpha)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "3003 thermal diffusivity is ~5× gray cast iron and ~100× ceramic/clay cookware, driving rapid lateral and through-wall heat equalization (though Modernist Cuisine notes wall thickness still governs lateral evenness).",
+      "sources": [
+        "Incropera et al., Table A.1 (Pure Al: 97.1 mm²/s; 2024-T6: 73.0 mm²/s; Cast 195: 68.2 mm²/s)",
+        "MatWeb / ASM Handbook derived (3003: 63–77 mm²/s; 1100: 90–91 mm²/s; Cast 319/A356: 45–63 mm²/s)"
+      ],
+      "unit": "m²/s (and mm²/s)",
+      "value_or_range": "3003: 6.3–7.7 × 10^-5 (63–77 mm²/s); 1100: 9.0–9.1 × 10^-5 (90–91 mm²/s); Cast A356/319: 4.5–6.3 × 10^-5 (45–63 mm²/s)"
+    },
+    {
+      "claim": "Römertopf / soaked unglazed clay baker oven temperature setpoint offset vs. conventional recipes",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Claim check: Römertopf recipes and official manuals commonly run MORE than +25–50°F hotter than conventional preheated recipes. Classic Römertopf instruction manuals explicitly advise increasing conventional oven recipes by ~100°F (~50°C) (with ~30 min shorter or adjusted total time), while other clay-baker conversion guides cite +50°F or +25–50°C (+45–90°F). Standard Römertopf roasting settings sit at 400–450°F (200–230°C), up to a 450–500°F (230–260°C) manufacturer limit (or ~180°C/350°F convection). Note the °F vs. °C trap: +25–50°C equals +45–90°F, whereas +25–50°F (14–28°C) understates official Römertopf conversion guidance.",
+      "sources": [
+        "Römertopf GmbH / Römertopf USA official manuals & FAQs (roemertopf.de, romertopf-usa.com)",
+        "Römertopf instruction booklet (manuals.plus / classic Schlemmertopf/Römertopf conversion rule: +100°F / +50°C)",
+        "Wolfert, P., Mediterranean Clay Pot Cooking (high-heat 450–475°F cold-start roasting)"
+      ],
+      "unit": "°F (and °C) offset / setpoint",
+      "value_or_range": "+50 to +100°F (+25 to +55°C) above conventional recipes; typical dial 400–450°F (200–230°C), max 450–500°F (230–260°C)"
+    },
+    {
+      "claim": "Reason for mandatory cold-oven start in Römertopf / unglazed earthenware bakers",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Unglazed terracotta/earthenware has low thermal conductivity (0.5–1.3 W/(m·K)), low thermal diffusivity (0.2–0.7 mm²/s), and brittle ceramic tensile strength. Placing a room-temperature or water-soaked vessel into a preheated 400–450°F oven creates a steep exterior-to-interior thermal gradient and differential thermal expansion, causing thermal-shock cracking or shattering. Starting in a cold oven ramps temperature uniformly; adding cold liquid to a hot pot or setting a hot pot on a cold/wet surface causes the same fracture mechanism.",
+      "sources": [
+        "Römertopf GmbH / Römertopf USA official instructions (roemertopf.de, romertopf-usa.com)",
+        "Kingery et al., Introduction to Ceramics (ceramic thermal shock mechanics)"
+      ],
+      "unit": "qualitative mechanism (cold-start protocol)",
+      "value_or_range": "Mandatory cold-oven start prevents differential thermal expansion / thermal shock fracture"
+    },
+    {
+      "claim": "Effect of soaking, evaporative cooling, and low thermal conductivity on interior food temperature and heat-up lag",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Pre-soaking for 15–30 min saturates open pores (~10–20% water uptake by dry mass). During heating, latent heat of vaporization creates evaporative cooling across the porous walls, pinning the wet wall boundary and steam-saturated interior cavity near 100°C (212°F) while liquid water remains—preventing surface dehydration/scorching even at 400–450°F oven air temperatures. Combined with low clay thermal conductivity (0.5–1.3 W/(m·K)) and cold-oven entry, this induces significant heat-up lag (typically adding 10–30 min vs. preheated metal cookware). Interior temperature only rises past 100°C (212°F) for browning after wall moisture depletes or the lid is removed for the final 15–20 min.",
+      "sources": [
+        "McGee, H., On Food and Cooking (clay low thermal conductivity and evaporative cooling)",
+        "Römertopf official manuals (15–30 min soak, 10–20 min cold-start lag, 15–20 min lid-off browning)",
+        "Porous ceramic evaporative-cooling thermodynamics (latent heat of vaporization pinning at 100°C / 212°F)"
+      ],
+      "unit": "°C / °F and minutes of lag",
+      "value_or_range": "Interior buffered near 100°C (212°F) during wet phase; +10–30 min cold-start heat-up lag"
+    }
+  ],
+  "id": "thermal-physics",
+  "myths_checked": [
+    "Myth/understatement check: 'Römertopf recipes run 25–50°F (15–30°C) hotter than conventional recipes.' Partially understated in °F: while some guides cite +50°F, official Römertopf manuals explicitly instruct raising conventional temperatures by ~100°F (~50°C) (or +25–50°C, which equals +45–90°F) and typically operate at 400–450°F (200–230°C) to offset cold-start lag and wet-wall evaporative cooling.",
+    "Myth check: 'Cast iron has higher specific heat capacity than aluminum or clay.' False on a per-mass basis: gray cast iron's specific heat (460–505 J/(kg·K)) is roughly half that of aluminum (893–904 J/(kg·K)) or clay ceramics (800–1,000 J/(kg·K)), but its high density (7,100–7,300 kg/m³) gives it the highest volumetric heat capacity (~3.27–3.69 MJ/(m³·K)), which drives cookware thermal mass per unit wall volume.",
+    "Myth check: 'Unglazed clay cooks food at the 450°F oven dial temperature.' False during the wet phase: evaporative cooling from soaked porous walls (latent heat of vaporization) and trapped steam buffer the food environment near 100°C (212°F) until wall water evaporates or the lid is removed.",
+    "Myth check: 'Zisha clay is completely non-porous or thermally equivalent to porcelain.' False: fired Zisha retains a hierarchical dual-pore structure (~3% to >10% apparent porosity) and lower thermal conductivity (~1.3 W/(m·K), down to ~0.6 in porous bodies) than dense vitrified porcelain stoneware (1.5–4.0+ W/(m·K))."
+  ]
+}

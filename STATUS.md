@@ -9,6 +9,7 @@ _Last updated: Nov 20, 2026 (Added multi-harness programmatic stage gates and `a
 - **holocaust-by-country**, **nazi-victims-all-groups**: Bryan's pre-ProofEr pages, published in `pieces/`.
 - **pomewawa** (Pomeranians, Chihuahuas and the mix; for family and online): **published** to `pieces/pomewawa.html`; live once merged to main. `proj/pomewawa/STATUS.md`.
 - **knife-country** (Yangjiang and the "City of Knives" title; a long scrolling piece for knife nerds online): **published** to `pieces/knife-country.html`; live once merged. Built in EOMD by mistake, then moved here; Bryan accepted its single-source figures as shown. `proj/knife-country/STATUS.md`.
+- **clay-cookware** (Glazed vs. unglazed clay in cookware & multi-cooker inserts; interactive data essay for food-science/cookware enthusiasts): **built** to `pieces/clay-cookware.html` (card added to `index.html`; `0` restricted reads before gate; `check_offline.py` passed; desktop/phone Chromium QA verified). `proj/clay-cookware/STATUS.md`.
 
 ## Across the repo
 - **Scope:** sourced visual pieces—short **infographics** and long-form **interactive data essays**. Recipe cards may come later.

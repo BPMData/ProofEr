@@ -1,0 +1,232 @@
+{
+  "angle": "Materials science, fracture mechanics, and thermal control engineering of clay, flameware, and metal cookware under thermal shock",
+  "bibliography": [
+    "ASM International. Engineered Materials Handbook, Desk Edition, Section 22.3 (Traditional Applications for Ceramics).",
+    "ASM International. ASM Handbook, Vol. 1 & Vol. 15 / ASM Specialty Handbook: Cast Irons & Aluminum and Aluminum Alloys.",
+    "ASTM C484: Standard Test Method for Thermal Shock Resistance of Glazed Ceramic Tile.",
+    "ASTM C554: Standard Test Method for Crazing Resistance of Fired Glazed Ceramic Whitewares by a Thermal Shock Method.",
+    "ASTM C1525: Standard Test Method for Determination of Thermal Shock Resistance for Advanced Ceramics by Water Quenching.",
+    "Corning Incorporated / NIST Technical Reference Data: Corning Pyroceram Code 9606 and Code 9608 (nist.gov).",
+    "GB/T 10816-2008 & GB/T 10816-2024: National Standard of the People's Republic of China — Zisha Ware (samr.gov.cn), referencing GB/T 3298 (Test method for resistance to thermal shock of domestic ceramic ware).",
+    "ISO 10545-8 & ISO 10545-9: Ceramic tiles — Determination of linear thermal expansion and resistance to thermal shock.",
+    "Junlar, P., Sirinukunwattana, K., & Wasanapiarnpong, T. (2021); Saengchantara, W., Punsukmtana, L., & Junlar, P. (2012–2013). Cordierite/spodumene/petalite flameware bodies and glazes. Bulletin of Applied Sciences / Suranaree Journal of Science and Technology (tci-thaijo.org).",
+    "Kingery, W. D. (1955). Factors Affecting Thermal Stress Resistance of Ceramic Materials. Journal of the American Ceramic Society, 38(1), 3–15.",
+    "Kingery, W. D., Bowen, H. K., & Uhlmann, D. R. Introduction to Ceramics.",
+    "Müller, N. S., Kilikoglou, V., Day, P. M., & Vekinis, G. (2014/2015). Thermal shock resistance of tempered archaeological ceramics. Craft and Science / Archaeometry / Journal of Archaeological Science.",
+    "Naxon, I. (1940). Cooking Apparatus. US Patent No. 2,187,888 (Smithsonian Institution, si.edu).",
+    "OSTI / NASA Technical Reports Server (osti.gov, nasa.gov): Thermophysical and thermal expansion data for cast iron and aluminum alloys.",
+    "The Rival Company. Heating element for a slow cooker. US Patent No. 6,498,323; Smart/programmable slow cooker US Patent Nos. 6,573,483, 6,740,855, and 10,588,443.",
+    "Tite, M. S., Kilikoglou, V., & Vekinis, G. (2001). Strength, Toughness and Thermal Shock Resistance of Ancient Ceramics, and Their Influence on Technological Choice. Archaeometry, 43(3), 301–324.",
+    "Wu, J., Hou, T., Zhang, M., Li, Q., Wu, J., Li, J., & Deng, Z. (2013). An analysis of the chemical composition, performance and structure of China Yixing Zisha pottery from 1573 A.D. to 1911 A.D. Ceramics International, 39(3), 2589–2595.",
+    "Yang, C., Kong, J., Yang, J., et al. (2021). The study of crystal-phase composition and pore structure for Dicaoqing-Zisha compared with porcelain and pottery. Ceramics International, 47(8), 10650–10657."
+  ],
+  "findings": [
+    {
+      "claim": "Earthenware / terracotta linear coefficient of thermal expansion (CTE)",
+      "confidence": "MEDIUM",
+      "disagreements_or_caveats": "Depends on free quartz content (alpha-beta inversion at 573 °C), firing temperature (900–1150 °C), and porosity; architectural terracotta typically 5.0–7.0 × 10^-6 /K within broader clay brick/tile range of 3.9–8.5 × 10^-6 /K.",
+      "sources": [
+        "ASM Engineered Materials Handbook, Desk Edition (Sec. 22.3)",
+        "NIST / structural clay reference data"
+      ],
+      "unit": "10^-6 /K (or /°C)",
+      "value_or_range": "4.5–8.0 (broad structural clay range 3.9–8.5)"
+    },
+    {
+      "claim": "Earthenware / terracotta critical thermal shock delta-T (ΔTc)",
+      "confidence": "LOW CONFIDENCE",
+      "disagreements_or_caveats": "Single-event water quench tolerance for unformulated porous earthenware is generally <100 °C (<180 °F), whereas ASTM C484 / ISO 10545-9 glazed tile thermal shock cycling uses 145 ± 5 °C to 15 ± 5 °C (ΔT ≈ 130 °C / 234 °F). Per Tite et al. (2001) and Müller et al. (2014/2015), coarse-tempered porous earthenware cooking pots exhibit stable/semi-stable microcracking rather than a sharp catastrophic ΔTc collapse.",
+      "sources": [
+        "ASTM C484 / ISO 10545-9",
+        "Tite et al. (2001), Archaeometry 43(3)",
+        "Müller et al. (2014/2015), Craft and Science"
+      ],
+      "unit": "°C (°F)",
+      "value_or_range": "<100 °C (<180 °F) unformulated water quench; ~130 °C (234 °F) standardized tile cycle"
+    },
+    {
+      "claim": "Stoneware linear coefficient of thermal expansion (CTE)",
+      "confidence": "MEDIUM",
+      "disagreements_or_caveats": "Varies with firing temperature (1200–1300 °C), glassy phase, mullite (~5.3 × 10^-6 /K), and residual quartz/cristobalite inversions (573 °C and 200–270 °C). ISO 10545-8 porcelain stoneware tile specifications span 4.1–8.1 × 10^-6 /K.",
+      "sources": [
+        "ASM Engineered Materials Handbook / Ceramic Technology references",
+        "ISO 10545-8 porcelain stoneware specifications"
+      ],
+      "unit": "10^-6 /K (or /°C)",
+      "value_or_range": "5.0–7.5 (ISO 10545-8 range 4.1–8.1)"
+    },
+    {
+      "claim": "Stoneware critical thermal shock delta-T (ΔTc)",
+      "confidence": "MEDIUM",
+      "disagreements_or_caveats": "Standard commercial stoneware is typically limited to 100–150 °C (180–270 °F); dense vitrified porcelain/stoneware bodies in water-quench flexural tests fall in 150–250 °C (270–450 °F). ASTM C554 stepped crazing quench runs from 121 °C (250 °F) to 232 °C (450 °F) into ambient water (ΔT ≈ 100–210 °C / 180–378 °F); ASTM C484 / ISO 10545-9 cycle at ΔT ≈ 130 °C (234 °F).",
+      "sources": [
+        "ASTM C554 / ASTM C484 / ISO 10545-9",
+        "Ceramic materials science / Hasselmann quench literature"
+      ],
+      "unit": "°C (°F)",
+      "value_or_range": "100–150 °C (180–270 °F) commercial; 150–250 °C (270–450 °F) dense vitrified water quench"
+    },
+    {
+      "claim": "Zisha (Yixing purple clay) linear coefficient of thermal expansion (CTE)",
+      "confidence": "LOW CONFIDENCE",
+      "disagreements_or_caveats": "Peer-reviewed studies (Yang et al., 2021; Wu et al., 2013) document Zisha's quartz, mullite, cristobalite, hematite, 25–70% glass phase, and ~20% dual-pore structure, and dilatometry is used on Zisha, but the numerical 5.0–7.0 × 10^-6 /K (broader 4.0–8.0 × 10^-6 /K) range was not directly verified inside an open primary English journal abstract. High-iron/dense Zhuni (18–25% firing shrinkage) has higher sensitivity than Zini/Dicaoqing.",
+      "sources": [
+        "Yang et al. (2021), Ceramics International 47(8):10650–10657",
+        "Wu et al. (2013), Ceramics International 39(3):2589–2595"
+      ],
+      "unit": "10^-6 /K (or /°C)",
+      "value_or_range": "5.0–7.0 (broader reported 4.0–8.0)"
+    },
+    {
+      "claim": "Zisha (Yixing purple clay) thermal shock failure limit / national standard ΔT",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "GB/T 10816-2008 (and updated GB/T 10816-2024, tested per GB/T 3298) mandates surviving one water-exchange shock from 180 °C to 20 °C (ΔT = 160 °C / 288 °F) without cracking; the older GB/T 10816-1989 required 200 °C to 20 °C (ΔT = 180 °C / 324 °F). Standard acceptance threshold rather than universal ultimate failure point.",
+      "sources": [
+        "GB/T 10816-2008 & GB/T 10816-2024 (samr.gov.cn)",
+        "GB/T 3298-2008 / GB/T 3298-2022"
+      ],
+      "unit": "°C (°F)",
+      "value_or_range": "160 °C (288 °F) pass threshold (180 °C to 20 °C); 180 °C (324 °F) in 1989 standard"
+    },
+    {
+      "claim": "Cordierite (flameware / technical magnesium aluminosilicate) linear CTE",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Anisotropic crystal structure (positive expansion along two axes, negative along the third) yields low bulk CTE of 1.0–3.5 × 10^-6 /K (typically 1.5–3.0 × 10^-6 /K; synthetic cordierite/spodumene flameware 2.83–3.09 × 10^-6 /K over 25–800 °C). Caveat: Corning Pyroceram Code 9606 (cordierite-rutile-cristobalite radome glass-ceramic) has higher CTE of 4.5–5.7 × 10^-6 /K.",
+      "sources": [
+        "Saengchantara et al. (2012–2013) / Junlar et al. (2021), TCI journals",
+        "Kingery (1955), J. Am. Ceram. Soc. 38(1)",
+        "Corning / NIST Pyroceram 9606 data"
+      ],
+      "unit": "10^-6 /K (or /°C)",
+      "value_or_range": "1.0–3.5 (flameware composites 2.83–3.09; Pyroceram 9606 4.5–5.7)"
+    },
+    {
+      "claim": "Cordierite critical thermal shock delta-T (ΔTc)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Cordierite/spodumene flameware withstands ΔT = 400 °C (720 °F) and >50 direct stovetop cycles crack-free; dense cordierite water-quench ΔTc spans 500–650 °C (900–1170 °F), with porous/microcrack-toughened honeycombs higher.",
+      "sources": [
+        "Saengchantara et al. (2012–2013) / Junlar et al. (2021), TCI journals",
+        "Ceramics International / J. Eur. Ceram. Soc. cordierite quench studies"
+      ],
+      "unit": "°C (°F)",
+      "value_or_range": "300–650 °C (540–1170 °F); ≥400 °C (720 °F) in flameware tests"
+    },
+    {
+      "claim": "Petalite / Lithium Aluminosilicate (LAS) flameware & Pyroceram 9608 linear CTE",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Petalite and β-spodumene/β-eucryptite LAS ceramics exhibit near-zero or negative CTE (-0.4 to 1.7 × 10^-6 /K, typically <1.0 × 10^-6 /K). Corning Pyroceram Code 9608 (LAS cookware glass-ceramic) is 0 ± 0.3 × 10^-6 /K (0 ± 3.0 × 10^-7 /°C) across 20–700 °C. Requires matching low-CTE glazes (~2.6 × 10^-6 /K) to prevent crazing.",
+      "sources": [
+        "NIST / Corning Pyroceram 9608 technical data",
+        "OSTI / DOE & NIH/PubMed LAS thermal expansion studies"
+      ],
+      "unit": "10^-6 /K (or /°C)",
+      "value_or_range": "-0.4 to 1.7 (Pyroceram 9608: 0 ± 0.3 over 20–700 °C)"
+    },
+    {
+      "claim": "Petalite / LAS & Pyroceram 9608 critical thermal shock delta-T (ΔTc)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Optimized LAS glass-ceramics achieve ΔTc of 500–800 °C (900–1440 °F) while retaining 80–87% flexural strength; Pyroceram 9608 is rated up to ΔTmax ≈ 700 K (700 °C / 1260 °F).",
+      "sources": [
+        "NIST / Corning Pyroceram 9608 reference data",
+        "Tandfonline / LAS glass-ceramic water-quench studies"
+      ],
+      "unit": "°C (°F)",
+      "value_or_range": "500–800 °C (900–1440 °F); Pyroceram 9608 ~700 °C (1260 °F)"
+    },
+    {
+      "claim": "Gray cast iron linear CTE (ambient to moderate temperatures)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Varies slightly with graphite flake morphology and ferritic/pearlitic matrix; rises with temperature.",
+      "sources": [
+        "ASM Handbook / ASM Specialty Handbook: Cast Irons",
+        "OSTI / NASA thermophysical datasets"
+      ],
+      "unit": "10^-6 /K (or /°C)",
+      "value_or_range": "10.5–12.5 (broadly 10.0–13.0; 5.6–7.2 × 10^-6 /°F)"
+    },
+    {
+      "claim": "Gray cast iron thermal shock failure limit (ΔT)",
+      "confidence": "LOW CONFIDENCE",
+      "disagreements_or_caveats": "Unlike brittle ceramics, cast iron has moderate thermal conductivity (40–70 W/m·K) and no single standardized ASTM ΔTc. However, flake graphite acts as internal stress raisers (E ≈ 80–140 GPa, tensile strength 98–290 MPa), so severe water quenching from elevated cooking/firing temps (400–600 °C / 752–1112 °F; ΔT of several hundred °C) or rapid cyclic heating causes brittle cracking along graphite flakes and pearlitic breakdown. Industrial cast-iron boilers limit ramp rates to 28–56 °C/h (50–100 °F/h).",
+      "sources": [
+        "ASM Handbook / ASM Specialty Handbook: Cast Irons",
+        "Peer-reviewed gray cast iron cyclic water-quench thermal fatigue literature"
+      ],
+      "unit": "°C (°F)",
+      "value_or_range": "No single standardized ΔTc; cracking/fatigue accelerates at 400–600 °C (752–1112 °F) quench cycles"
+    },
+    {
+      "claim": "Aluminum (pure & wrought cookware alloys 1100, 3003, 6061) linear CTE",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Measured over 20–100 °C; Al 1100 and 6061-T6 ≈ 23.6 × 10^-6 /K (13.1 × 10^-6 /°F), Al 3003 ≈ 23.2 × 10^-6 /K (12.9 × 10^-6 /°F). Roughly 2× cast iron CTE.",
+      "sources": [
+        "ASM Handbook: Aluminum and Aluminum Alloys",
+        "NIST / OSTI cryogenic and thermophysical databases"
+      ],
+      "unit": "10^-6 /K (or /°C)",
+      "value_or_range": "22.0–24.0 (23.2–23.6 for 3003/6061/1100)"
+    },
+    {
+      "claim": "Aluminum thermal shock failure mode and critical ΔT",
+      "confidence": "MEDIUM",
+      "disagreements_or_caveats": "Ductile aluminum alloys have high thermal conductivity (150–230 W/m·K; 167–170 W/m·K for 6061-T6) and lower modulus (~68.9–70 GPa), so they do not suffer brittle thermal-shock shattering (no brittle ΔTc). Instead, rapid uneven heating/cooling causes plastic warping/buckling when constrained differential expansion exceeds yield strength (276 MPa at 20 °C for 6061-T6; lower for 1100/3003 and elevated temperatures).",
+      "sources": [
+        "ASM Handbook: Aluminum and Aluminum Alloys",
+        "Thermomechanical FEA / engineering cookware studies"
+      ],
+      "unit": "qualitative / failure threshold",
+      "value_or_range": "No brittle ΔTc; fails via plastic warping/buckling when E·α·ΔT exceeds elevated-T yield strength"
+    },
+    {
+      "claim": "Localized burner hotspot cracking mechanism in clay cookware",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Low ceramic thermal conductivity traps heat at the burner contact patch, producing a steep spatial thermal gradient (∇T). The hot expanding core is constrained by the cooler rigid wall, generating compressive stress in the hotspot and high tensile stress at its perimeter/opposing face (σ ∝ E·α·ΔT/(1−ν)); cracks initiate when tensile stress exceeds modulus of rupture. Rounded bases mitigate sharp stress concentrations.",
+      "sources": [
+        "Kingery (1955), J. Am. Ceram. Soc. 38(1)",
+        "Tite et al. (2001), Archaeometry 43(3); Müller et al. (2014/2015)"
+      ],
+      "unit": "mechanism",
+      "value_or_range": "Spatial ∇T constraint -> perimeter/opposite-face tensile stress > modulus of rupture"
+    },
+    {
+      "claim": "Sudden quenching (downshock) cracking mechanism in clay cookware",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Contact with cold water or a cold/wet surface drops outer skin temperature rapidly while the core remains hot and expanded. Violent surface contraction places the outer skin in immediate biaxial tension; because ceramics have high compressive strength but low tensile strength and low fracture toughness, surface microcracks propagate inward catastrophically.",
+      "sources": [
+        "Kingery (1955) / Hasselman thermal shock theory",
+        "ASTM C1525 / Tite et al. (2001)"
+      ],
+      "unit": "mechanism",
+      "value_or_range": "Rapid surface cooling -> surface tensile stress -> inward brittle crack propagation"
+    },
+    {
+      "claim": "Cold/wet clay pot in preheated oven cracking mechanism",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Combines two coupled failure drivers: (1) steep surface-to-core thermal gradient (ΔT) causing tensile thermal shock stress, and (2) internal steam pore-pressure spalling, where water trapped in porous clay capillaries flashes to steam faster than vapor can diffuse outward, raising internal gas pressure above the clay matrix's tensile strength. Cold-start ovens or dry preheating prevent both failures.",
+      "sources": [
+        "Archaeometric moisture/permeability & spalling studies",
+        "University extension & ceramic cookware safety literature"
+      ],
+      "unit": "mechanism",
+      "value_or_range": "Coupled steep ∇T thermal shock + trapped-water flash-steam pore pressure spalling"
+    },
+    {
+      "claim": "Electric multi-cooker heating jackets & gradual PID ramps reduce thermal gradients",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Wrap-around heating jackets/conformal bands lining a conductive inner shell distribute heat flux evenly across the lower and middle sidewalls rather than concentrating heat at a bottom disc (US Patents 2,187,888 and 6,498,323). Microcontroller PID ramp-and-soak profiles replace binary bang-bang bimetallic thermostats (US Patents 6,573,483; 6,740,855; 10,588,443), capping dT/dt and damping thermal-lag overshoot so heat diffuses uniformly through low-conductivity clay walls before destructive ΔT gradients form.",
+      "sources": [
+        "US Patent No. 2,187,888 (Naxon, si.edu) & US Patent No. 6,498,323 (Rival)",
+        "US Patent Nos. 6,573,483, 6,740,855, and 10,588,443; industrial ceramic PID control literature"
+      ],
+      "unit": "mechanism",
+      "value_or_range": "Conformal sidewall heat distribution + rate-limited PWM PID ramp-soak eliminating overshoot and steep ∇T"
+    }
+  ],
+  "id": "thermal-shock",
+  "myths_checked": [
+    "Soaking a clay pot in water protects it in a preheated oven -> FALSE: pore-trapped water flashes to steam inside a preheated oven, adding internal vapor-pressure spalling to thermal shock; soaked pots must start in a cold oven.",
+    "Denser high-fired stoneware/porcelain always survives stovetop thermal shock better than porous low-fired earthenware -> FALSE/NUANCED: while stronger mechanically, dense vitrified bodies fail abruptly once ΔTc is exceeded unless low-CTE phases (cordierite/petalite) are used, whereas coarse-tempered porous earthenware arrests cracks and undergoes gradual damage accumulation (Tite et al., 2001; Müller et al., 2014).",
+    "Metal cookware cannot fail from thermal shock -> FALSE: gray cast iron can brittle-crack along flake graphite stress raisers under severe quenching, while ductile aluminum yields plastically and warps/buckles from uneven rapid heating/cooling due to its high CTE (~23 × 10^-6 /K).",
+    "All Corning Pyroceram grades have near-zero thermal expansion -> FALSE: Pyroceram Code 9608 (LAS cookware) has ~0 ± 0.3 × 10^-6 /K CTE, whereas Pyroceram Code 9606 (cordierite missile radome glass-ceramic) has 4.5–5.7 × 10^-6 /K CTE (Corning / NIST)."
+  ]
+}

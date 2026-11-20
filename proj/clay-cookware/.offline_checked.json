@@ -1,0 +1,1 @@
+{"ts": 1795192861.693913, "cmd": "playwright screenshot --viewport-size=1280,900 --full-page file:///Users/murphb/Documents/Github/ProofEr/pieces/clay-cookware.html proj/clay-cookware/qa/desktop.png && playwright screenshot --viewport"}

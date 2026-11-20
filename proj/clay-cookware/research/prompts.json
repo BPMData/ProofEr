@@ -1,0 +1,32 @@
+[
+  {
+    "id": "thermal-physics",
+    "angle": "Thermal conductivity, specific heat, thermal mass, and Römertopf +50F oven setpoint mechanics",
+    "prompt": "Find authoritative materials-science and food-science measurements for thermal conductivity (W/m·K), specific heat capacity (J/kg·K), density (kg/m³), and thermal diffusivity of: (1) unglazed terracotta/earthenware, (2) vitrified glazed stoneware/ceramic, (3) Zisha (Yixing purple clay), (4) cast iron, and (5) aluminum alloy cookware. Also investigate Römertopf / unglazed soaked clay baker temperature guidance: verify whether recipes commonly run 25-50°F (15-30°C) hotter than conventional recipes, why a cold-oven start is used, and how evaporative cooling of soaked clay walls plus low thermal conductivity affect interior food temperature and heat-up lag."
+  },
+  {
+    "id": "porosity-water-loss",
+    "angle": "Open porosity, water absorption, and 2/4/8-hour slow-cook moisture retention",
+    "prompt": "Find measured open porosity (%) and water absorption (%) for unglazed terracotta/earthenware, unglazed Zisha purple clay, La Chamba burnished micaceous clay, and vitrified glazed stoneware. Find authoritative measurements or controlled culinary test data on: how much water a soaked Römertopf clay baker absorbs and releases into the cooking chamber; moisture/evaporation loss over 2-, 4-, and 8-hour slow cooks in unglazed clay vs. glazed stoneware vs. metal multi-cookers/Dutch ovens; and under what conditions cooks must top up liquid."
+  },
+  {
+    "id": "thermal-shock",
+    "angle": "Thermal expansion, critical delta-T, pot cracking causes, and electric multi-cooker ramps",
+    "prompt": "Find linear thermal expansion coefficients (CTE, 10^-6 /K) and thermal shock failure limits (critical ΔT in °C and °F) for earthenware/terracotta, stoneware, Zisha clay, thermal-shock-resistant flameware (cordierite, petalite/lithium aluminosilicate), cast iron, and aluminum. Document the primary mechanisms of thermal shock cracking in clay cookware (localized burner hotspots, sudden quenching, cold/wet clay placed into preheated ovens) and how electric multi-cooker heating jackets / gradual PID ramps reduce thermal gradients."
+  },
+  {
+    "id": "browning-surface-flavor",
+    "angle": "Maillard browning, surface steam boundary layer, and unglazed clay flavor memory",
+    "prompt": "Find authoritative food-science data on: (1) Maillard browning temperature thresholds (°C/°F) and why porous unglazed clay vs. glazed vitrified ceramic vs. aluminum non-stick vs. cast iron differ in searing, surface moisture/steam boundary layer, and food sticking; (2) oil, fat, and volatile compound adsorption into unglazed clay pores ('flavor memory' / seasoning in Zisha clay, Römertopf, and tagines)—what actually penetrates the pores, why dish soap/detergent is prohibited on unglazed clay, and when flavor carryover helps vs. hurts."
+  },
+  {
+    "id": "stovetop-la-chamba-glaze-safety",
+    "angle": "Stovetop & induction compatibility, La Chamba burnishing/reduction firing, and factual glaze safety",
+    "prompt": "Verify stovetop compatibility rules and failure modes for clay cookware on gas flame, electric coil, radiant glass-ceramic smooth-top, and induction—specifically investigate steel induction interface/diffuser plates and whether diffuser plates create localized overheating or thermal shock risks for clay pots. Document La Chamba (Colombia) clay cookware materials and manufacture: why it looks glossy black despite being unglazed (micaceous clay, stone burnishing, reduction/smoke firing) and why it tolerates direct stovetop flame better than standard earthenware. Also check FDA, CPSC, and ISO 6486 standards on lead/cadmium glaze leaching to state factually whether modern commercial glazed cookware/inserts pose a real concern versus unverified artisanal low-fire glazes."
+  },
+  {
+    "id": "multicooker-inserts",
+    "angle": "Magnifique (glazed clay) vs. VitaClay (unglazed clay) vs. aluminum non-stick and cast-iron inserts",
+    "prompt": "Gather official manufacturer specifications and verified technical details for: (1) Magnifique clay slow/multi-cooker (glazed ceramic/clay insert, capacities, wattage, temperature/mode specs, stovetop/oven/browning rules), (2) VitaClay multi-cooker (unglazed Zisha clay insert, capacities, wattage, temperature/mode specs, pre-soak/soap/browning rules), and (3) standard aluminum PTFE/ceramic non-stick and enameled/bare cast-iron multi-cooker inserts (typical thickness, thermal behavior, wattage, and cooking trade-offs)."
+  }
+]
