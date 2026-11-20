@@ -1,2 +1,7 @@
 [features]
 hooks = true
+
+# ProofEr subagent efficiency defaults (never use fable or reasoning above high)
+[agents.research_worker]
+description = "Isolated ProofEr research worker for Pass 1 gathering"
+model_reasoning_effort = "medium"
