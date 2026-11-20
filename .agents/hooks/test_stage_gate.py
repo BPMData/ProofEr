@@ -1,14 +1,18 @@
 """End-to-end unit tests for .agents/hooks/stage_gate.py across Antigravity, Claude Code, and Codex CLI."""
+import ast
 import json
 import os
+import re
 import subprocess
 import sys
 import tempfile
 import time
+import tomllib
 import unittest
 from pathlib import Path
 
 GATE = Path(__file__).resolve().parent / "stage_gate.py"
+REPO_ROOT = Path(__file__).resolve().parents[2]
 
 
 def _run_gate(harness: str, event: str, payload: dict) -> tuple[int, str, str]:
@@ -197,6 +201,93 @@ class StageGateTests(unittest.TestCase):
         self.assertEqual(rc, 2)
         rc, _, _ = _run_gate("codex", "Stop", {"cwd": str(self.root), "stop_hook_active": True})
         self.assertEqual(rc, 0)
+
+    def test_declared_hook_commands_execute_cleanly(self):
+        ag = json.loads((REPO_ROOT / ".agents" / "hooks.json").read_text(encoding="utf-8"))
+        cl = json.loads((REPO_ROOT / ".claude" / "settings.json").read_text(encoding="utf-8"))
+        cx = json.loads((REPO_ROOT / ".codex" / "hooks.json").read_text(encoding="utf-8"))
+        cx_cfg = tomllib.loads((REPO_ROOT / ".codex" / "config.toml").read_text(encoding="utf-8"))
+        self.assertTrue(cx_cfg.get("features", {}).get("hooks"))
+
+        env = {**os.environ, "CLAUDE_PROJECT_DIR": str(REPO_ROOT)}
+
+        def exec_hooks(groups_by_event, sample_fn):
+            for event, groups in groups_by_event.items():
+                for grp in groups:
+                    for hk in grp.get("hooks", []):
+                        cmd = hk["command"]
+                        payload = sample_fn(event)
+                        p = subprocess.run(
+                            cmd, shell=True, cwd=str(REPO_ROOT), env=env,
+                            input=json.dumps(payload), text=True, capture_output=True,
+                        )
+                        self.assertIn(p.returncode, (0, 2), f"{event} `{cmd}` failed ({p.returncode}): {p.stderr}")
+                        yield event, cmd, p
+
+        # Antigravity declared commands
+        for event, cmd, p in exec_hooks(ag["proofer-stage-gate"], lambda ev: (
+            {"cwd": str(self.root), "toolCall": {"name": "write_file", "args": {"Path": "proj/clay/figures.md"}}}
+            if ev == "PreToolUse" else
+            {"cwd": str(self.root), "toolCall": {"name": "run_workflow", "args": {}}}
+            if ev == "PostToolUse" else
+            {"cwd": str(self.root), "terminationReason": "NO_TOOL_CALL", "continuationActive": False}
+        )):
+            data = json.loads(p.stdout.strip())
+            if event == "PreToolUse":
+                self.assertEqual(data["decision"], "deny", cmd)
+
+        # Claude Code declared commands (includes stage_log.py + stage_gate.py)
+        for event, cmd, p in exec_hooks(cl["hooks"], lambda ev: (
+            {"cwd": str(self.root), "tool_name": "Write", "tool_input": {"file_path": "proj/clay/figures.md"}}
+            if ev == "PreToolUse" else
+            {"cwd": str(self.root), "tool_name": "Read", "tool_input": {"file_path": "brief/CRAFT.md"}}
+            if ev == "PostToolUse" else
+            {"cwd": str(self.root), "stop_hook_active": False}
+        )):
+            if event == "PreToolUse":
+                self.assertEqual(p.returncode, 2, cmd)
+
+        # Codex CLI declared commands
+        for event, cmd, p in exec_hooks(cx["hooks"], lambda ev: (
+            {"cwd": str(self.root), "tool_name": "apply_patch", "tool_input": {"patch": "*** Add File: proj/clay/figures.md\n"}}
+            if ev == "PreToolUse" else
+            {"cwd": str(self.root), "tool_name": "spawn_agent", "tool_input": {}}
+            if ev == "PostToolUse" else
+            {"cwd": str(self.root), "stop_hook_active": False}
+        )):
+            if event == "PreToolUse":
+                self.assertEqual(p.returncode, 2, cmd)
+
+    def test_skills_workflow_taste_and_eval_budget_invariants(self):
+        # 1. Antigravity workflow compiles cleanly with top-level await support
+        wf_path = REPO_ROOT / ".agents" / "workflows" / "research_piece.py"
+        compile(wf_path.read_text(encoding="utf-8"), str(wf_path), "exec", flags=ast.PyCF_ALLOW_TOP_LEVEL_AWAIT)
+
+        # 2. All skills define non-empty YAML frontmatter name and description
+        skill_files = list((REPO_ROOT / ".agents" / "skills").glob("*/SKILL.md")) + list(
+            (REPO_ROOT / ".claude" / "skills").glob("*/SKILL.md")
+        )
+        self.assertGreaterEqual(len(skill_files), 4)
+        for sf in skill_files:
+            txt = sf.read_text(encoding="utf-8")
+            m = re.match(r"^---\s*\n(.*?)\n---\s*\n", txt, re.S)
+            self.assertIsNotNone(m, f"Missing YAML frontmatter in {sf}")
+            fm = m.group(1)
+            self.assertRegex(fm, re.compile(r"^name:\s*\S+", re.M), f"Missing name in {sf}")
+            self.assertRegex(fm, re.compile(r"^description:\s*\S+", re.M), f"Missing description in {sf}")
+
+        # 3. house.md taste items preserve `^T\d+ · (strong|soft) ·` grammar
+        house = (REPO_ROOT / "brief" / "taste" / "house.md").read_text(encoding="utf-8")
+        t_lines = [ln for ln in house.splitlines() if re.match(r"^T\d+\b", ln)]
+        self.assertGreaterEqual(len(t_lines), 10)
+        for ln in t_lines:
+            self.assertRegex(ln, r"^T\d+ · (strong|soft) · ")
+
+        # 4. Always-loaded session docs stay lean for eval_new_piece.py context budget
+        always_bytes = sum(
+            (REPO_ROOT / f).stat().st_size for f in ("CLAUDE.md", "AGENTS.md", "STATUS.md")
+        )
+        self.assertLess(always_bytes, 14000)
 
 
 if __name__ == "__main__":
