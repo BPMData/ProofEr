@@ -1,49 +1,29 @@
 ---
 name: auto-piece
 description: >-
-  Run ProofEr's full infographic pipeline autonomously from a one-sentence request to a finished, offline-checked,
-  visually self-critiqued page in pieces/<name>.html. Use ONLY when the user explicitly asks for autonomous,
-  end-to-end, or self-judged execution without interactive interview/still-selection pauses.
+  Run ProofEr's automated multi-pass Deep Research, fact-checking, visual self-critique, and build pipeline after
+  the client interview locks in audience, tone, aesthetic, and detail level (or fully headless if explicitly asked).
 ---
 
-# Autonomous End-to-End Infographic Workflow (`auto-piece`)
+# Guided-Brief + Autonomous Research & Build Pipeline (`auto-piece`)
 
-Follow ProofEr's stage gates (`CLAUDE.md`, `STATUS.md`, `brief/`) while acting as both researcher/builder and
-critical client/art director. Programmatic hooks (`.agents/hooks/stage_gate.py`) enforce each gate.
+## Stage 1 — Always Align With the User First (`Stage: interview -> brief`)
+1. Unless the user explicitly instructed to skip questions, **always interview first** (`brief/INTERVIEW.md`, Round 1+): clarify audience, tone, visual aesthetic (showing rough templates/style options if helpful or requested), and target level of detail.
+2. Lock those decisions into `proj/<name>/brief.md` and advance to `Stage: research`.
 
-## Stage 0 — Read Rules (Stay Out of Restricted Paths)
-1. Read `CLAUDE.md`, `STATUS.md`, `brief/CONTENT.md`, `brief/CRAFT.md`, `brief/TEMPLATE.md`, `brief/RESEARCH.md`,
-   `brief/LAYOUT.md`, and `brief/taste/house.md`.
-2. Do NOT read `pieces/`, `examples/`, `tools/`, or other `proj/` folders until `proj/<name>/layout.md` is `APPROVED`.
+## Stage 2 — Autonomous Multi-Pass Deep Research & Fact-Checking (`Stage: research -> figures`)
+Once tone, aesthetic, audience, and detail are set, take over the research loop completely:
+1. Write `proj/<name>/research/prompts.md` and `prompts.json` targeting brief questions, primary sources, and likely LLM blind spots.
+2. Launch **Pass 1** isolated parallel `Agent` workers writing structured findings to `proj/<name>/research/workers/pass1/`.
+3. **Evaluate & Gap-Fill (Pass 2+):** Inspect Pass 1 outputs for missing metrics, single-source claims, or contradictions; launch follow-up `Agent` workers (`gap_fill`) to fact-check primary sources.
+4. Synthesize into `proj/<name>/figures.md` (`>= 2` independent sources per `checked` figure, disagreements recorded as honest ranges/notes, myths tagged per `T10`). Set `Stage: concepts`.
 
-## Stage 1 — Brief (`proj/<name>/brief.md`)
-1. Create `proj/<name>/brief.md` from `brief/TEMPLATE.md`.
-2. Include `Stage: research` and `Mode: autonomous` in the header so stage hooks enforce autonomous checks.
-3. Choose sensible defaults (curious reader, phone + desktop scroll, `T12` light ground unless topic demands otherwise)
-   and log those assumptions in Decisions.
-
-## Stage 2 — Self-Prompted Parallel Deep Research (`Stage: research` -> `figures`)
-Do NOT perform deep web research inline in the coordinator context window.
-1. Inspect what claims, physics, data, or popular myths an LLM usually gets wrong or conflates on this topic.
-2. Write `proj/<name>/research/prompts.md` (and `proj/<name>/research/prompts.json`) with **>= 2 independent prompts/angles per topic**
-   requiring primary/peer-reviewed/official sources and forbidding SEO blogs.
-3. Launch isolated parallel `Agent` workers (each with no shared conversation baggage, using `WebSearch`/`WebFetch`)
-   that write structured findings to `proj/<name>/research/workers/<id>.json`.
-4. Synthesize worker outputs into `proj/<name>/figures.md` (`>= 2` independent sources per `checked` figure,
-   disagreements preserved as explicit ranges/notes, odd units explained, myths tagged per `T10`). Set `Stage: concepts`.
-
-## Stage 3 — 3 Visual Stills + Multimodal Visual Self-Critique (`Stage: concepts` -> `layout`)
+## Stage 3 — Visual Self-Critique -> Quick Outline/Mockup for User Review (`Stage: concepts -> layout`)
 Still staying out of `pieces/`, `examples/`, and `tools/`:
-1. Draft `proj/<name>/layout.md` citing figure IDs from `figures.md`.
-2. Build **3 genuinely distinct** HTML/SVG concept stills in `proj/<name>/stills/` (`concept-a.html`, `concept-b.html`, `concept-c.html`).
-3. Render all 3 stills in headless Chromium/Playwright and capture PNG screenshots (`concept-a.png`, `concept-b.png`, `concept-c.png`).
-4. Open and visually inspect every PNG via `Read` and write `proj/<name>/stills/critique.md` scoring each against
-   `brief/CRAFT.md`, `brief/taste/house.md` (`T01`–`T13`), WCAG AA contrast (`T07`), `390px` phone legibility, and zero-baseline charts.
-5. Pick the winner, record the decision in `brief.md`, mark `proj/<name>/layout.md` with `APPROVED`, and set `Stage: build`.
+1. Draft `proj/<name>/layout.md` and build visual mockup/stills in `proj/<name>/stills/`.
+2. Capture `.png` screenshots, inspect them via `Read`, and write `proj/<name>/stills/critique.md`.
+3. **Present the concise outline + visual mockup** to the user for refinement. Once approved, mark `proj/<name>/layout.md` `APPROVED` and advance to `Stage: build`.
 
-## Stage 4 — Build, Font Embedding & Final Visual QA (`Stage: build`)
-1. Read `tools/CLAUDE.md`, build `pieces/<name>.html`, and run `tools/embed_fonts.py` if fonts were linked.
-2. Update `index.html`, `proj/<name>/STATUS.md`, and root `STATUS.md`.
-3. Render final desktop + phone PNGs of `pieces/<name>.html` into `proj/<name>/qa/` (`desktop.png`, `phone.png`) and
-   inspect both via `Read`. Fix any visual defect and re-inspect after the last edit.
-4. Run `python3 tools/check_offline.py` and `python3 tools/check_stage_reads.py`, and commit on a branch.
+## Stage 4 — Interactive Data Essay Build & Final Visual/Offline QA (`Stage: build`)
+1. Read `tools/CLAUDE.md`, generate `pieces/<name>.html`, run `tools/embed_fonts.py`, and update `index.html` + `STATUS.md`.
+2. Capture final desktop + phone PNGs into `proj/<name>/qa/` (`desktop.png`, `phone.png`), inspect both via `Read`, fix any defect, and run `python3 tools/check_offline.py` + `python3 tools/check_stage_reads.py`.

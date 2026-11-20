@@ -25,39 +25,46 @@ class StageGateTests(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
         self.root = Path(self.tmp.name)
-        (self.root / "proj" / "clay" / "research" / "workers").mkdir(parents=True)
+        (self.root / "proj" / "clay" / "research" / "workers" / "pass1").mkdir(parents=True)
         (self.root / "proj" / "clay" / "stills").mkdir(parents=True)
         (self.root / "proj" / "clay" / "qa").mkdir(parents=True)
         (self.root / "pieces").mkdir(parents=True)
         (self.root / "proj" / "clay" / "brief.md").write_text(
-            "# Brief: Clay\n\nStage: research · Mode: autonomous\n",
+            "# Brief: Clay\n\nStage: interview\n",
             encoding="utf-8",
         )
 
     def tearDown(self):
         self.tmp.cleanup()
 
-    def test_antigravity_autonomous_gates_and_receipts(self):
+    def test_interview_pause_and_full_hybrid_pipeline(self):
         fig_path = "proj/clay/figures.md"
-        # 1. Blocked before prompts.md
+        # 1. During interview: Stop is allowed (so user can answer questions), but writing figures.md is blocked
+        rc, out, _ = _run_gate("antigravity", "Stop", {
+            "cwd": str(self.root),
+            "terminationReason": "NO_TOOL_CALL",
+            "continuationActive": False,
+        })
+        self.assertEqual(json.loads(out), {})
         rc, out, _ = _run_gate("antigravity", "PreToolUse", {
             "cwd": str(self.root),
             "toolCall": {"name": "write_file", "args": {"Path": fig_path}},
         })
-        self.assertEqual(rc, 0)
         self.assertEqual(json.loads(out)["decision"], "deny")
+        self.assertIn("interview", json.loads(out)["reason"])
 
-        # 2. Add prompts.md + 2 worker files, still blocked without run_workflow receipt
+        # 2. Advance brief to Stage: research -> still blocked until prompts.md + >=2 workers + receipt exist
+        (self.root / "proj" / "clay" / "brief.md").write_text("# Brief: Clay\n\nStage: research\n", encoding="utf-8")
         (self.root / "proj" / "clay" / "research" / "prompts.md").write_text("x" * 150, encoding="utf-8")
-        (self.root / "proj" / "clay" / "research" / "workers" / "a.json").write_text("{" + "x" * 90 + "}", encoding="utf-8")
-        (self.root / "proj" / "clay" / "research" / "workers" / "b.json").write_text("{" + "x" * 90 + "}", encoding="utf-8")
+        (self.root / "proj" / "clay" / "research" / "workers" / "pass1" / "a.json").write_text("{" + "x" * 90 + "}", encoding="utf-8")
+        (self.root / "proj" / "clay" / "research" / "workers" / "pass1" / "b.json").write_text("{" + "x" * 90 + "}", encoding="utf-8")
         rc, out, _ = _run_gate("antigravity", "PreToolUse", {
             "cwd": str(self.root),
             "toolCall": {"name": "write_file", "args": {"Path": fig_path}},
         })
         self.assertEqual(json.loads(out)["decision"], "deny")
 
-        # 3. Record run_workflow receipt -> unlocked
+        # 3. Record run_workflow receipt -> figures.md unlocked
         _run_gate("antigravity", "PostToolUse", {
             "cwd": str(self.root),
             "toolCall": {"name": "run_workflow", "args": {}},
@@ -68,7 +75,7 @@ class StageGateTests(unittest.TestCase):
         })
         self.assertEqual(json.loads(out)["decision"], "allow")
 
-        # 4. Layout / stills blocked until figures.md has >= 2 figure rows
+        # 4. Layout / stills blocked until figures.md has >= 2 figure rows; Stop still allowed while waiting for outline approval
         rc, out, _ = _run_gate("antigravity", "PreToolUse", {
             "cwd": str(self.root),
             "toolCall": {"name": "write_file", "args": {"Path": "proj/clay/layout.md"}},
@@ -80,31 +87,35 @@ class StageGateTests(unittest.TestCase):
             "toolCall": {"name": "write_file", "args": {"Path": "proj/clay/layout.md"}},
         })
         self.assertEqual(json.loads(out)["decision"], "allow")
+        rc, out, _ = _run_gate("antigravity", "Stop", {
+            "cwd": str(self.root),
+            "terminationReason": "NO_TOOL_CALL",
+            "continuationActive": False,
+        })
+        self.assertEqual(json.loads(out), {})
 
-        # 5. pieces/clay.html blocked until APPROVED + 3 HTML stills + 3 PNGs read + critique.md
+        # 5. pieces/clay.html blocked until APPROVED + mockup HTML/PNG inspected + critique.md
         (self.root / "proj" / "clay" / "layout.md").write_text("Stage: layout · APPROVED\n", encoding="utf-8")
-        for s in ("concept-a", "concept-b", "concept-c"):
-            (self.root / "proj" / "clay" / "stills" / f"{s}.html").write_text("<html></html>", encoding="utf-8")
-            (self.root / "proj" / "clay" / "stills" / f"{s}.png").write_bytes(b"PNG")
+        (self.root / "proj" / "clay" / "stills" / "concept-a.html").write_text("<html></html>", encoding="utf-8")
+        (self.root / "proj" / "clay" / "stills" / "concept-a.png").write_bytes(b"PNG")
         rc, out, _ = _run_gate("antigravity", "PreToolUse", {
             "cwd": str(self.root),
             "toolCall": {"name": "write_file", "args": {"Path": "pieces/clay.html"}},
         })
         self.assertEqual(json.loads(out)["decision"], "deny")
 
-        for s in ("concept-a", "concept-b", "concept-c"):
-            _run_gate("antigravity", "PostToolUse", {
-                "cwd": str(self.root),
-                "toolCall": {"name": "read_file", "args": {"Path": f"proj/clay/stills/{s}.png"}},
-            })
-        (self.root / "proj" / "clay" / "stills" / "critique.md").write_text("Winner: concept-b. " + "detail " * 25, encoding="utf-8")
+        _run_gate("antigravity", "PostToolUse", {
+            "cwd": str(self.root),
+            "toolCall": {"name": "read_file", "args": {"Path": "proj/clay/stills/concept-a.png"}},
+        })
+        (self.root / "proj" / "clay" / "stills" / "critique.md").write_text("Notes: " + "ok " * 35, encoding="utf-8")
         rc, out, _ = _run_gate("antigravity", "PreToolUse", {
             "cwd": str(self.root),
             "toolCall": {"name": "write_file", "args": {"Path": "pieces/clay.html"}},
         })
         self.assertEqual(json.loads(out)["decision"], "allow")
 
-        # 6. Stop blocked until check_offline.py + final desktop/phone PNGs inspected
+        # 6. Once pieces/clay.html exists, Stop blocked until check_offline.py + desktop & phone PNGs inspected
         piece_html = self.root / "pieces" / "clay.html"
         piece_html.write_text("<html>final</html>", encoding="utf-8")
         rc, out, _ = _run_gate("antigravity", "Stop", {
@@ -144,6 +155,7 @@ class StageGateTests(unittest.TestCase):
         self.assertEqual(json.loads(out), {})
 
     def test_claude_and_codex_exit2_blocking_and_patch_parsing(self):
+        (self.root / "proj" / "clay" / "brief.md").write_text("# Brief: Clay\n\nStage: research\n", encoding="utf-8")
         # Claude Code denies Write to figures.md with exit code 2 + stderr
         rc, _, err = _run_gate("claude", "PreToolUse", {
             "cwd": str(self.root),
@@ -155,8 +167,8 @@ class StageGateTests(unittest.TestCase):
 
         # Claude Code Agent PostToolUse receipt works cleanly
         (self.root / "proj" / "clay" / "research" / "prompts.md").write_text("x" * 150, encoding="utf-8")
-        (self.root / "proj" / "clay" / "research" / "workers" / "a.md").write_text("x" * 100, encoding="utf-8")
-        (self.root / "proj" / "clay" / "research" / "workers" / "b.md").write_text("x" * 100, encoding="utf-8")
+        (self.root / "proj" / "clay" / "research" / "workers" / "pass1" / "a.md").write_text("x" * 100, encoding="utf-8")
+        (self.root / "proj" / "clay" / "research" / "workers" / "pass1" / "b.md").write_text("x" * 100, encoding="utf-8")
         _run_gate("claude", "PostToolUse", {
             "cwd": str(self.root),
             "tool_name": "Agent",

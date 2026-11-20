@@ -240,7 +240,12 @@ def _check_pre_write(root: Path, harness: str, rel_path: str) -> str | None:
     m_fig = re.match(r"^proj/([^/]+)/figures\.md$", rel_path)
     if m_fig:
         piece = m_fig.group(1)
-        _, auto, _ = _parse_brief_meta(root, piece)
+        stage, _, _ = _parse_brief_meta(root, piece)
+        if stage == "interview":
+            return (
+                f"Stage gate: complete the client interview and advance proj/{piece}/brief.md "
+                f"from Stage: interview before writing figures.md."
+            )
         prompts = root / "proj" / piece / "research" / "prompts.md"
         if not prompts.exists() or len(_read_text(prompts).strip()) < 100:
             return (
@@ -253,11 +258,11 @@ def _check_pre_write(root: Path, harness: str, rel_path: str) -> str | None:
                 f"Stage gate: proj/{piece}/research/ needs at least 2 independent worker/tool research outputs "
                 f"(found {len(reports)}) before synthesizing figures.md."
             )
-        if auto and harness in ("antigravity", "claude"):
+        if harness in ("antigravity", "claude"):
             rpath = _subagent_receipts_path(root, piece)
             if not rpath.exists() or not _read_text(rpath).strip():
                 return (
-                    f"Autonomous research gate: no isolated subagent/workflow receipt found for {piece}. "
+                    f"Research gate: no isolated subagent/workflow receipt found for {piece}. "
                     f"Run parallel isolated search workers (run_workflow / Agent) before writing figures.md."
                 )
         return None
@@ -280,41 +285,32 @@ def _check_pre_write(root: Path, harness: str, rel_path: str) -> str | None:
         piece = m_piece.group(1)
         brief = root / "proj" / piece / "brief.md"
         if not brief.exists():
-            # Allow editing pre-existing pieces/ without a proj/ brief if untouched (or require proj/<name>/ for new)
+            # Allow editing pre-existing pieces/ without a proj/ brief
             return None
-        _, auto, mode = _parse_brief_meta(root, piece)
+        _, _, mode = _parse_brief_meta(root, piece)
         layout = root / "proj" / piece / "layout.md"
         layout_txt = _read_text(layout)
         if not re.search(r"\bAPPROVED\b", layout_txt):
             return (
-                f"Stage gate: proj/{piece}/layout.md must be marked APPROVED before building pieces/{piece}.html."
+                f"Stage gate: proj/{piece}/layout.md must be marked APPROVED (after sharing the outline/mockup "
+                f"with the user) before building pieces/{piece}.html."
             )
-        if auto and "quicker" not in mode:
+        if "quicker" not in mode:
             stills_dir = root / "proj" / piece / "stills"
             html_stills = list(stills_dir.glob("*.html")) + list(stills_dir.glob("*.svg")) if stills_dir.is_dir() else []
-            if len(html_stills) < 3:
-                return (
-                    f"Autonomous visual gate: generate at least 3 distinct concept mockups in "
-                    f"proj/{piece}/stills/ (found {len(html_stills)}) before building pieces/{piece}.html."
-                )
             png_stills = list(stills_dir.glob("*.png")) if stills_dir.is_dir() else []
-            if len(png_stills) < 3:
-                return (
-                    f"Autonomous visual gate: render PNG screenshots for at least 3 concept stills in "
-                    f"proj/{piece}/stills/ (found {len(png_stills)}) before building pieces/{piece}.html."
-                )
             inspected = _load_json(_inspected_pngs_path(root, piece), {})
             inspected_stills = [k for k in inspected if k.startswith(f"proj/{piece}/stills/") and (root / k).exists()]
-            if len(inspected_stills) < 3:
+            if not html_stills or not png_stills or not inspected_stills:
                 return (
-                    f"Autonomous visual gate: open and inspect at least 3 rendered PNGs in proj/{piece}/stills/ "
-                    f"with read_file/Read (inspected {len(inspected_stills)}) before building pieces/{piece}.html."
+                    f"Visual gate: render and inspect at least 1 mockup PNG in proj/{piece}/stills/ via "
+                    f"read_file/Read/view_image before building pieces/{piece}.html."
                 )
             critique = stills_dir / "critique.md"
-            if not critique.exists() or len(_read_text(critique).strip()) < 120:
+            if not critique.exists() or len(_read_text(critique).strip()) < 80:
                 return (
-                    f"Autonomous visual gate: write proj/{piece}/stills/critique.md scoring the 3 concepts and "
-                    f"justifying the winner before building pieces/{piece}.html."
+                    f"Visual gate: write proj/{piece}/stills/critique.md noting visual self-checks before "
+                    f"building pieces/{piece}.html."
                 )
         return None
 
@@ -326,16 +322,12 @@ def _check_stop(root: Path, stop_active: bool) -> str | None:
         return None
     for brief_str in glob.glob(str(root / "proj" / "*" / "brief.md")):
         piece = Path(brief_str).parent.name
-        stage, auto, _ = _parse_brief_meta(root, piece)
-        if not auto:
+        stage, _, _ = _parse_brief_meta(root, piece)
+        if stage in ("done", "published"):
             continue
         html = root / "pieces" / f"{piece}.html"
         if not html.exists():
-            if stage and stage not in ("", "done", "published"):
-                return (
-                    f"Autonomous piece '{piece}' is at stage '{stage}' and pieces/{piece}.html does not exist yet. "
-                    f"Continue until the final piece is built and verified."
-                )
+            # Interview and outline-review turns legitimately pause for the user before pieces/<name>.html exists.
             continue
         html_mtime = html.stat().st_mtime
         off = _load_json(_offline_checked_path(root, piece), {})
@@ -351,7 +343,7 @@ def _check_stop(root: Path, stop_active: bool) -> str | None:
         if len(final_pngs) < 2:
             return (
                 f"Capture and inspect final desktop and phone PNG screenshots of pieces/{piece}.html "
-                f"(under proj/{piece}/qa/) via read_file/Read before finishing."
+                f"(under proj/{piece}/qa/) via read_file/Read/view_image before finishing."
             )
     return None
 

@@ -7,9 +7,10 @@ import json
 from pathlib import Path
 
 piece = args["piece"]
+round_tag = args.get("round", "pass1")
 root = Path(WORKSPACES[0]) if WORKSPACES else Path.cwd()
 research_dir = root / "proj" / piece / "research"
-workers_dir = research_dir / "workers"
+workers_dir = research_dir / "workers" / round_tag
 workers_dir.mkdir(parents=True, exist_ok=True)
 
 prompts_list = args.get("prompts")
