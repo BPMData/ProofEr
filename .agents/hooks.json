@@ -1,0 +1,35 @@
+{
+  "proofer-stage-gate": {
+    "PreToolUse": [
+      {
+        "matcher": "write_file|edit_file|run_command",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 .agents/hooks/stage_gate.py --harness antigravity --event PreToolUse",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "run_workflow|invoke_subagent|read_file|write_file|edit_file|run_command",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 .agents/hooks/stage_gate.py --harness antigravity --event PostToolUse",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "type": "command",
+        "command": "python3 .agents/hooks/stage_gate.py --harness antigravity --event Stop",
+        "timeout": 15
+      }
+    ]
+  }
+}

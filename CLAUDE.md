@@ -1,9 +1,9 @@
 # CLAUDE.md
 
-ProofEr makes infographics: single offline HTML pages that explain something with numbers, where every number
-traces back to checked sources. The repo is maintained by Bryan Murphy; a client can be anyone, and is usually not
-technical. The method is the one from [EOMD](https://github.com/BPMData/EOMD): context follows the stage, design
-comes before tools (`notes/architecture.md`).
+ProofEr makes sourced visual pieces—short **infographics** and long-form **interactive data essays**—built as
+single offline HTML pages that explain something with numbers, where every number traces back to checked sources. The
+repo is maintained by Bryan Murphy; a client can be anyone, and is usually not technical. The method is the one from
+[EOMD](https://github.com/BPMData/EOMD): context follows the stage, design comes before tools (`notes/architecture.md`).
 
 Read the root `STATUS.md` index at the start of every session; read a piece's own `STATUS.md` (in `proj/<name>/`)
 when working on that piece. Update both at the end of a working session.
@@ -35,8 +35,11 @@ when working on that piece. Update both at the end of a working session.
   one.
 
 ## New pieces: interview first
-Before any NEW piece, run `/new-piece`: interview the client, then write `proj/<name>/brief.md` and get it approved.
+Before any NEW piece, run `/new-piece`: interview the client (including format—short infographic vs. interactive data
+essay—audience, tone, aesthetic, and depth), then write `proj/<name>/brief.md` and get it approved.
 A one-line request ("a somber infographic about the Holocaust") is the start of the interview, not the brief.
+Once the brief is approved, follow `auto-piece` (`.claude/skills/auto-piece/SKILL.md`) to run multi-pass parallel deep
+research and self-critiqued mockup generation automatically before asking the user to approve the outline/mockup; `.agents/hooks/stage_gate.py` enforces stage gates across harnesses.
 - **Gates:** interview → brief approved → research (the client runs the prompts) → figures checked → concepts →
   layout and stills approved → build → QA. The brief's status line carries `Stage:`.
 - **Research is the client's step.** Claude writes the prompts (`brief/RESEARCH.md`); the client runs them in two or

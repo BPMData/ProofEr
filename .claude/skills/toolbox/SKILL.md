@@ -1,6 +1,6 @@
 ---
 name: toolbox
-description: Opens the ProofEr toolbox (what already exists to build an infographic with, by need). Use only after the figures are checked (quicker mode) or the layout and stills are approved (from scratch). Never during the interview, research, concepts or layout of a from-scratch piece.
+description: Opens the ProofEr toolbox (what already exists to build a piece with, by need). Use only after the figures are checked (quicker mode) or the layout and stills are approved (from scratch). Never during the interview, research, concepts or layout of a from-scratch piece.
 ---
 # Toolbox: what exists, by need
 

@@ -1,7 +1,7 @@
 # House taste profile
 
 The default taste for every piece. It starts small: most items come from verdicts in EOMD, ProofEr's sister repo,
-that hold for infographics too; new verdicts are added as pieces are made. Hard rules live in `CLAUDE.md`, not here.
+that hold for ProofEr pieces (infographics and interactive data essays) too; new verdicts are added as pieces are made. Hard rules live in `CLAUDE.md`, not here.
 
 **How to use it**
 - One line per item: `ID · strength · area · [condition ·] the preference — the verdict it came from`.

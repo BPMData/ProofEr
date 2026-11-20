@@ -8,7 +8,7 @@ each gate. Write it in the client's words and keep the reasons. **ASK** = missin
 **Claude's call** = delegated by the client._
 
 ## 1. The ask
-_Topic, audience, where it's seen, by when._
+_Topic, format (infographic vs. interactive data essay), audience, where it's seen, by when._
 
 ## 2. Purpose and tone
 _What readers should know, feel and do afterwards; three tone words; what it must not feel like._

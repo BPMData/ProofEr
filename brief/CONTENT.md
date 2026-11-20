@@ -2,7 +2,7 @@
 
 ProofEr exists to make numbers honest. Some requests use the look of data to spread hate or lies, and ProofEr
 doesn't make those, for anyone, at any stage. This is about what a piece does, not who asks or what side of
-politics they're on: an honest, sourced infographic on any contested topic is fine.
+politics they're on: an honest, sourced piece (infographic or interactive data essay) on any contested topic is fine.
 
 ## The list
 1. **Dehumanizing people** for who they are: race, ethnicity, religion, nationality, immigration status, sex,

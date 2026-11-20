@@ -2,11 +2,11 @@
 
 ![status: beta](https://img.shields.io/badge/status-beta-ff69b4)
 
-A repo to help you make better, better-sourced infographics to share with the world.
+A repo to help you make better, better-sourced visual pieces—short **infographics** and deep **interactive data essays**—to share with the world.
 
-ProofEr is built to be worked on with an AI coding assistant (Claude Code). You bring a topic and a feeling
-("a somber infographic about the Holocaust"); it interviews you, sends you off to gather research, checks the
-sources against each other, shows you options, and builds a single HTML file that works offline and can be shared
+ProofEr is built to be worked on with an AI coding assistant (Antigravity, Claude Code, or Codex). You bring a topic and a feeling
+("a somber piece about the Holocaust"); it interviews you on format, audience, tone, and depth, runs multi-pass research and checks the
+sources against each other, shows you an outline/mockup to refine, and builds a single HTML file that works offline and can be shared
 anywhere. Every number on the page traces back to a source.
 
 It uses the same working method as its sister repo, [EOMD](https://github.com/BPMData/EOMD) (motion design):
@@ -35,28 +35,28 @@ design from the brief first, open the toolbox later.
 7. **Build.** A single offline HTML file, with a sources section and an "About these numbers" note.
 
 ## What ProofEr won't make
-Infographics that dehumanize people, race-crime or race-IQ propaganda (13/52 and the like), genocide or Nakba
+Pieces that dehumanize people, race-crime or race-IQ propaganda (13/52 and the like), genocide or Nakba
 denial, denying or dehumanizing the Palestinian people or erasing their dead, extremist propaganda, deliberate disinformation, or attacks on private people. It's about what a piece does, not
 anyone's politics: an honest, sourced piece on any contested topic is welcome. Details: `brief/CONTENT.md`.
 
 ## Try it
-Open the repo in Claude Code and ask for an infographic in one sentence ("an infographic about how much food school
-cafeterias throw away"). The `/new-piece` skill starts the interview. Finished pieces are published in `pieces/` and
-on the site: https://bpmdata.github.io/ProofEr/
+Open the repo in Antigravity, Claude Code, or Codex and ask for a piece in one sentence ("an interactive data essay about
+clay cookware" or "an infographic about how much food school cafeterias throw away"). The `/new-piece` skill starts the
+interview. Finished pieces are published in `pieces/` and on the site: https://bpmdata.github.io/ProofEr/
 
 ## Where things are
 | Folder | What's in it |
 |---|---|
 | `brief/` | How a piece starts: the interview, the brief template, the research guide (prompts and the cross-check), the craft guide, the layout template, the house taste, client notes |
 | `proj/<name>/` | One piece: its brief, research reports, checked figures, layout, stills and status |
-| `pieces/` | Published infographics, one offline HTML file each |
+| `pieces/` | Published pieces (infographics and interactive data essays), one offline HTML file each |
 | `tools/` | Python scripts (Thonny-friendly): inline Google Fonts for offline use, check a page is offline, the reading audit, the first-question eval |
-| `.claude/` | The `/new-piece` and `/toolbox` skills, the choice-panel template, the stage-read hook |
+| `.claude/`, `.agents/`, `.codex/` | Skills (`new-piece`, `auto-piece`, `toolbox`), workflow runners, and stage-gate hooks across harnesses |
 | `notes/` | Why it's built this way (`notes/architecture.md`) |
 
 ## Status
-A tentative skeleton (Oct 26, 2026): the rules, interview, research step, craft guide and tools are in; three pieces
-published so far in `pieces/`, including the two Holocaust pages the project grew out of. Infographics only for now; recipe cards may come later as a second kind of piece. Working log: `STATUS.md`.
+Published pieces live in `pieces/` (including two Holocaust pages, *The Pomewawa*, and *Knife Country*). Scope: sourced
+infographics and interactive data essays (`STATUS.md`).
 
 ## License
 Copyright (C) 2026 Bryan Patrick Murphy. The code is licensed under the
