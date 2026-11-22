@@ -1,0 +1,178 @@
+{
+  "angle": "Verified demographic, spatial, mortality, deportation, liberation, and child-survival statistics for the Theresienstadt (Terezín) ghetto-camp (November 1941–May 1945), reconciling institutional datasets from USHMM, Yad Vashem, Památník Terezín, the Terezín Initiative Institute, H.G. Adler, Miroslav Kárný, and Anna Hájková.",
+  "bibliography": [
+    "United States Holocaust Memorial Museum (USHMM), Holocaust Encyclopedia: Theresienstadt — https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwknO2i2OA-VdXJP-1jiKL-WhnjbOs9em4RXPvfgjItExR9ir9w9jnwMD0Ltg6Br9XOWV0xe5GVrSiQKcU-kRjO9SsGs18Sux7bCib_m-O23ECosyONeqWGkVom1f9CCLkHpEFl8QQU9w93dECJNUC6ZuCTUc1l9fr3WZe5uY7UQXGi7wtV2RYRUTEPw==",
+    "United States Holocaust Memorial Museum (USHMM), Theresienstadt Demographic Totals — https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAs-8Dml0dtiPi2EAuT4xLa7OWhwYH-ia0iKdX6A8sEFdUVVgaeceboRVh3iADcF9hNdqfKUGuFhTESWxmgK3kTZ3rtoaNtFCgA0tcgEGmnK07udoFuSYpkfuP0EVrRGdekJO-AiTRnPyr_3DfEfIfiH4h4SU2OcvLWTxxu0WOUVkiZ4WSxTOuoq6eSA==",
+    "United States Holocaust Memorial Museum (USHMM), Late-War Evacuations and Liberation — https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCPgPxneHJN3kmImNv9I0FX1Tk9FkpCiFmaYTjK7cbRJWUMxiEd3n2wt8mCqI7V_VpMnU6jduLzjauQrYnwJgHn4zULExKPjis9ES1dyRsziEYJsALKM31-2ZKRTxHxbivuw07i6nXElCBEjvbqPSv5qziB7L8KO8l7cHYlZnHLT_pRA==",
+    "Yad Vashem, Theresienstadt Ghetto Overview — https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiOb1FRdLSEcHoonECn9bsPbWmmgVpPVqe4MTz8TzUFlGi0GjGpDZzGgFN23q4fqSQ1YG5asYfqd7-g5dPvr4hZhuGe2MK0mH96evoqaV8lKW8JxoyVfSoK6zISJh52-H80HrzzA==",
+    "Yad Vashem, Transports to Extinction (Bo–Bx and Reinhard Transports) — https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRQtwpYKwVmfGSBQ5BzLydPLgvX3Fkei2pM_P6AbcY6dCgHlaLMgmzee732l_s89yLW4eIbMs-ftDyQtW121qAb9ZEcs6SSoTpq6CucHMbjZqK8RKoZARaRCjoNfgHelRZV9wQsey_XCFPegsQ8hXgVGvYFVf8Kfc=",
+    "Památník Terezín (Terezín Memorial), Ghetto Conditions, Children, and Deportations — https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAtC__fCw9EBKpJwY0Es_gSUnDzjj4RKVDyqzF4dl3b7KtqGePFtEmTaxBFbv53nsjI31xR5Fix3dyx1zLGxyYQVJILY4MvUbqfxWBERR-O0WyO9TcB6YVZ98pmP3TT3l8xi82",
+    "Terezín Initiative Institute (terezinstudies.cz / holocaust.cz), Transport Lists and Prisoner Databases — https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAGzkVjs7_3wMcK-AK_aPrJ0k8T1NHS8UOmGnEpTRjI4nrU4KHSuD4x3oCnmTFgeSYLm1xy1dPZTE_sdksQZ3nfAOldWR7vPLTAJ8U0G6iVjaAx8QUYDiFGlKZzGf62fXbo4KQ-n4DLqDF8bzNSEMU5ijqbQ==",
+    "European Holocaust Research Infrastructure (EHRI), Theresienstadt Peak Population and Mortality — https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGty5QVJl2CHNNKh4J5JcB0PK4wl7h6dTxtfLofRbNEDsBJMIeeXeUT0hTfM9SQdwBRuX-hevLZ7uKOOO6LA-zGsAeTiku7V2AN70DyXVgduZSMWvRx1zqLGuwrr8pIl1Cp4r_MwJ6Q-N-ETTCpeoyvOm4guGvffpWnXNtRBtvaJ_uHNHDkKVM6WZBFnOZ8sSI",
+    "Cambridge University Press (Anna Hájková / H.G. Adler demographic & spatial analyses) — https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcq1y3dnct4K7hvWCcPVk3CgLnuvn5K_UtHpQ4kTCaLHWE42c1OUdWMWdXWFeDVw8TbchJSXPHnMjV-TM171u5MY6Tp0HOXJw5U0CvN5nBlV9u64cYcAa8NItF0-IRwzo4pB1IjW5CUCOM643bzuxyWRzVShN61XRY1UBJYyGzwxgfDmIWlbfXKV-10zu92CfXz34uR3IIDkeTKxED1mWZauLqbxo=",
+    "Cambridge University Press, Child Survivors in Terezín (1,633 liberated) and Spatial Area (335,056 m²) — https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfrj1OHE-S77Rl9kQz6izuGMGO59r6wWahCE4pDxMzxKVRX5_xu1hcpvP7wbYOIa-3GXg2t-6KpSgIdb2khYOT6GZOY710AVGocNHLLP278HYdTyZMdftdpIudeau1Qp-3w9tfdlpvwSz-RuQtYhWGLyl7wX76hkFtauxrOMjUZxjAW0DeDS3CCfToPFO7J1KQqsNSezLmDufeK_cXFw_m-k6_aGQy5p56D9he6pzZI8Pw43A=",
+    "UNESCO World Heritage Centre, Terezín Fortress Area — https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeVL14v4xVFg2D9mXwChxbV6-j_gZKPfTHEzq5N2NzVoil3ERG1bNO8zSU05eqROuAgooukUHv9YPX1Cxw4oo_qJH3rBEJZr0nwFFP6eDTEAm2LrdQZyiwLgbzpbEvHIK3Ly9V",
+    "Raul Hilberg data via Bard College, Theresienstadt Prisoners by Origin — https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzDh6jWaLeaBWah9fusGiGP9kzNRDt4f-1lRVKbdB_Xl4Z34fUW_rKZvWfUzMqYcIgYkYJ0ClRPWRk3mSC1gXqmzlCbKPet9DUSx5lIOFJa_GJCIPzWj4qJRT_gRDmWneMjVWi3hwzWrbfggrFmeoCwy4qmKEe90LJ2TowvDOinAeQ2JPGcBdTCv3wvL54x1emxJo3"
+  ],
+  "findings": [
+    {
+      "claim": "Pre-war population of the Terezín garrison town prior to ghetto conversion (evacuated by July 1942)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Some summaries cite ~3,500–4,000 civilian residents alone; combined civilian (~3,700) plus military garrison (~3,500) totaled ~7,000–7,200 people. Civilian residents were completely expelled by July 1942.",
+      "sources": [
+        "YIVO Encyclopedia / Yad Vashem / Academic refs: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEut4blehTEWPbXK2mONlKjYxOPhWsjJJKiF-wvFYlA3AF4puQL4SGPsFakjjp0ppOll2S-zP4CEXw4wnm_n3a8yagXcLBcBC0lTG9hBXiGOP_tk0uQkzIaJ8wS1DHUEL2nZYt8_qv-bg==",
+        "Key Documents / H.G. Adler refs: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgNxFxZTuYdNh1tPjGftteLpavwTPl5qi8cV_FrWhPUtVcgdSvk_JvbAjF5LDZGnGX6lUAY-cHkF6U_Zj6B3wvW78Q9-DcA_6UeGGxv7BrxEISq7mOvvavWP3aOsgMn_p5BFMGJ2H0nfU1uIqNKgljRw8BKg=="
+      ],
+      "unit": "residents and soldiers (pre-1942)",
+      "value_or_range": "~7,000–7,200 (~3,700 civilians + ~3,500 garrison soldiers)"
+    },
+    {
+      "claim": "Footprint and physical area of the Terezín fortress town and designated ghetto space",
+      "confidence": "HIGH (fortress footprint); LOW CONFIDENCE (internal 335,056 m² / 95,000 m² split, single retrieved academic source)",
+      "disagreements_or_caveats": "The walled octagonal Main Fortress (ghetto town) spans ~36 ha (0.36 km²) inside its ramparts, while the full 18th-century military fortress complex covers ~398 ha (~3.98 km²) and the modern municipality covers 13.52 km². Within the ghetto, Cambridge University Press cites 335,056 m² (~33.5 ha) total settlement space (42% built-up, 16% courtyards, 42% streets/gardens), with ~95,000 m² used as actual living quarters.",
+      "sources": [
+        "UNESCO: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeVL14v4xVFg2D9mXwChxbV6-j_gZKPfTHEzq5N2NzVoil3ERG1bNO8zSU05eqROuAgooukUHv9YPX1Cxw4oo_qJH3rBEJZr0nwFFP6eDTEAm2LrdQZyiwLgbzpbEvHIK3Ly9V",
+        "Cambridge University Press: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGz78XyQTmhf6tAjCzo7LTqF3EdO0GxCakSJw_dlnfJ92RK4U5GJ_B-2L98sn8xNfZUqYYzoQZ8xzvFSifzTZnQUY2Nf1zFtdd1cRqvGuyk0PAGgrR2PHGex3qbTwrAYT-C-JjEolfofiD3TERRJmjH1ZG9HU_9POVCMZu4SiVqnbYe8fp4mss3CaP1yVDORA7EJunxHJVDdpOc"
+      ],
+      "unit": "hectares / square meters",
+      "value_or_range": "36 ha walled town (335,056 m² ghetto settlement; ~95,000 m² living quarters); 398 ha full fortress complex"
+    },
+    {
+      "claim": "Peak ghetto population reached in September 1942 (September 18, 1942; variant log date September 16, 1942)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Administrative logs cite 58,491 (with minor variant 58,497) on Sept 16 or Sept 18, 1942—more than 8 times the pre-war combined civilian-and-garrison population.",
+      "sources": [
+        "EHRI: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9dooFnED558D3SAFPIkK98icwJ9-Tr1PjjGlIEnbT6LVObqJ5zMEsfvdUPxpOVoXzSB2r7JQbBQgtjRRN_h3jt_f4eSnQfK9UwQsQwN0FfDkWqmoRbN-d8bGm83MUt3QRh2XYmD_o1XOSyu2qB6toTCh_wwhsOevx-tY6lQ_oYbFqjm-SV-xm_eWSoPHmPcF61Q==",
+        "Beit Theresienstadt: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBvy68XYgVnH56d1tUKjrFbXkG9smrA4joQ3UMSIutJmStuEwm0gQhVJe2h8KIO9KMZUT2IsMfVqindt8tvIesFuAZiKs4wcNxlU-IVapbcjdxeXjobKaUDZeqNGMgpdCZdeHFCuqSFPArFyWa_X9-ImUXMo0SfSgC6oV0"
+      ],
+      "unit": "prisoners (September 1942)",
+      "value_or_range": "58,491–58,497"
+    },
+    {
+      "claim": "Average living space per prisoner at peak overcrowding (August–September 1942)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "H.G. Adler documents ~1.6 m² per inmate (including uninsulated attics and casemates); other summaries cite 1.5–2.0 m² or <2.5 m² depending on which auxiliary rooms/barracks are included.",
+      "sources": [
+        "Cambridge University Press (H.G. Adler data): https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExuOuVZsK4QJmGshZbPWQx3cjOkhBMQT7clYJmNbJH4eEre5EahIzafozcQnsD-DFfCYAswQp62IbwnrUA3HIMYyUBNGvfiQlZTl5d__Jx3QlF8mZEJrsPty5UtVB3glANJgCpdk6v-DOmCYRmwmYkRHtW1gLAxuR2rphGZ1RZ16NV0mKGfN3a96U_eGGyolNE1qJMnG4I3XdQnQ==",
+        "Yad Vashem: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHux0cgbZggK28RUXoQxNG7vtIKE2TtH0Gg_-4eYHClSM4CGjhgVgxymVNtQrB_UeQ5hkMaV8bpvoJxrQUHA3Z2hGYa3YbISlOngiNFAEbj7SqlJUxs-6HYtuB3mHxH7YOVqf9sh4-q1lnEJgjLRelEAw==",
+        "Arolsen Archives: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETxAYXDhYrE0kz3y10jHh9XgelZ5vtpltSIWc9nUrJdLZFB6JWw3dq-66hrDqieSNe7yLwMH4BXhJ016ZusmtMl_3VAc-rNvZZf9G0tVRDB11Ophpz-t8UvmMP3EWkhpkodPmXhT_xkqZ7LODGRZUcqVCTWYArBHo="
+      ],
+      "unit": "square meters per person (Aug–Sept 1942)",
+      "value_or_range": "1.5–2.0 m² (Adler: 1.6 m²)"
+    },
+    {
+      "claim": "Total Jewish prisoners sent to Terezín (November 1941–May 1945)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "~140,000–141,184 covers regular ghetto transports (Nov 1941–Apr 1945); ~150,000–155,000 (Yad Vashem, Památník Terezín) adds the ~13,000–15,000 concentration camp evacuees forced into Terezín in April–May 1945.",
+      "sources": [
+        "USHMM (141,184): https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwknO2i2OA-VdXJP-1jiKL-WhnjbOs9em4RXPvfgjItExR9ir9w9jnwMD0Ltg6Br9XOWV0xe5GVrSiQKcU-kRjO9SsGs18Sux7bCib_m-O23ECosyONeqWGkVom1f9CCLkHpEFl8QQU9w93dECJNUC6ZuCTUc1l9fr3WZe5uY7UQXGi7wtV2RYRUTEPw==",
+        "Yad Vashem (>150,000–155,000): https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiOb1FRdLSEcHoonECn9bsPbWmmgVpPVqe4MTz8TzUFlGi0GjGpDZzGgFN23q4fqSQ1YG5asYfqd7-g5dPvr4hZhuGe2MK0mH96evoqaV8lKW8JxoyVfSoK6zISJh52-H80HrzzA==",
+        "Památník Terezín: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsUU00Gfc9zPbpZojSLo_ri3Bt4ad8aShFLyWa6K9ZzmxIdSXn1jfPKB5CI8QVLXU1F4cwnZvkSF_u-grtjl9A7RGgVr61WtzmEmPMXoni7fM_lYHJVjQqIyTfIIMisMJ_4l6T3jsvYG31c6fG1aR7t7Jdcjd2r7Dg0IDPZiOhJFoyFwW1Hylp_3fJm10slxmy1auIptErguhsr8GVfkp9"
+      ],
+      "unit": "prisoners (1941–1945)",
+      "value_or_range": "140,000–141,184 (regular transports); 150,000–155,000 (incl. 1945 evacuations)"
+    },
+    {
+      "claim": "Breakdown of regular ghetto arrivals (~140,000–141,184) by country/region of origin (1941–1945)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "The seven listed cohorts (Protectorate of Bohemia & Moravia 73,608; Germany 42,821 [var. 42,832]; Austria 15,266 [var. 15,254]; Netherlands 4,894 [var. 4,897]; Slovakia 1,447; Hungary 1,150; Denmark 476 [var. 466]) sum to 139,662; the remaining ~1,522 to reach 141,184 includes smaller groups (e.g., Bialystok children, unclassified arrivals) and ~207–230 births inside the ghetto.",
+      "sources": [
+        "USHMM: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3zYkiuPXJjMRG9iWJtQx-jZuoibRp_h4JX5kMFxV6r61JZ5ktiYtb44-pLih4zBQyfN4dEJ_9cETQ1OElwWK1P2o8NJhdkh0Q1x3RnVDi2CL_MbWfs0rjIQYdOUuSw0ICycW-WLbCo9kbV_JfbikG5uBcf8Ss6AscG-sfZnc8NFTtvHpQGw6NRYuR",
+        "Raul Hilberg via Bard College: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzDh6jWaLeaBWah9fusGiGP9kzNRDt4f-1lRVKbdB_Xl4Z34fUW_rKZvWfUzMqYcIgYkYJ0ClRPWRk3mSC1gXqmzlCbKPet9DUSx5lIOFJa_GJCIPzWj4qJRT_gRDmWneMjVWi3hwzWrbfggrFmeoCwy4qmKEe90LJ2TowvDOinAeQ2JPGcBdTCv3wvL54x1emxJo3"
+      ],
+      "unit": "prisoners by origin (1941–1945)",
+      "value_or_range": "Bohemia & Moravia 73,608; Germany 42,821; Austria 15,266; Netherlands 4,894; Slovakia 1,447; Hungary 1,150; Denmark 476"
+    },
+    {
+      "claim": "Total deaths inside the Terezín ghetto itself (1941–1945)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "USHMM cites ~33,000 (rounded) and 33,456 (archival count of recorded ghetto deaths up to May 1945; variants 33,430–33,529). Yad Vashem cites ~35,000–35,440, which includes unregistered late-war evacuation deaths and ~1,500+ post-liberation deaths from the May–June 1945 typhus epidemic.",
+      "sources": [
+        "USHMM (33,456): https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMPt3x8Ah3jOy9J3P-gAd9_3kDjxCsjYvD2LmtJpNU8d_dDemTcZ1nNjlli6ZazLkEzOtHm91VrAtXpv6l5OKw7uvQrsY6kodryJHS-Q4H-NyiWvI0AqE_F9U8onR4oA7oWZ9QIBxUk2UR4QW_1_NhvvrjtTuPuLBZQ27sSeO01JhBa-Li59JIok08UA==",
+        "Yad Vashem (35,440): https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZ-OP4ygN6IdXdzmzTToG4TbGSWiwHDISPc4UsbCSDGge1m1m2iQIZi1Go-96ehjfq3_fINgTF4eQeo4amF8j3I0x0Jh6nQRuSvXTdcHvsFILpmEUajh0WUwLSHe7hAIuw0xZZ",
+        "EHRI: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvJhZ4ypSYNzqX8rLnSfFqawSzzipFEperoh00BldcsQr2o-fuv6Ge51zQsBV2Sj9goKX4616Lm9n7dRXOz6zCH43xqlrrOQCA0GqPHWj8QaWHvubArWVyaylDSrqXdf89DTJq3i8ZqmWaw0Es16_TRP88uKxs68q6LutOP0HOy0JCqvHr5NGVG5wqZ6484O_EBg=="
+      ],
+      "unit": "deaths (1941–1945)",
+      "value_or_range": "33,430–35,440 (USHMM archival: 33,456; Yad Vashem: 35,440)"
+    },
+    {
+      "claim": "Peak monthly mortality inside Terezín (September 1942)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Occurred during peak overcrowding (~58,491 inmates), forcing rapid construction and operation of the ghetto crematorium in early September 1942.",
+      "sources": [
+        "EHRI: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGty5QVJl2CHNNKh4J5JcB0PK4wl7h6dTxtfLofRbNEDsBJMIeeXeUT0hTfM9SQdwBRuX-hevLZ7uKOOO6LA-zGsAeTiku7V2AN70DyXVgduZSMWvRx1zqLGuwrr8pIl1Cp4r_MwJ6Q-N-ETTCpeoyvOm4guGvffpWnXNtRBtvaJ_uHNHDkKVM6WZBFnOZ8sSI",
+        "EHRI (3,941): https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjMxRQ1EwHR68mZd1-Oh2AxiCmRJyqylR2-qx5bVauYc-0GJC1nBmg4cHpq3IQdKi2dJLDTQCGJ8D0aN6mKutMBeLpW2ybyQwFxCY0-s6QwTIH3Wc1marl2KNaE61ZmaWnkbFJhPPYw_MB3G3mIX3SIf6c4ruhDl2bxmSOFCm1v9G-4roVY5NrWxaIKf-rJ3tj"
+      ],
+      "unit": "deaths in September 1942",
+      "value_or_range": "3,941"
+    },
+    {
+      "claim": "Primary causes of death inside Terezín (digestive, respiratory, age-related, cardiac, infectious, and 1945 typhus)",
+      "confidence": "LOW CONFIDENCE (exact category counts from single retrieved scholarly source, Cambridge University Press / Adler)",
+      "disagreements_or_caveats": "Category counts derive from internal Jewish self-administration medical statistics (recorded diagnoses across select years) synthesized in H.G. Adler / Cambridge University Press; pulmonary tuberculosis was frequently co-diagnosed with cardiac failure, and the April–June 1945 typhus epidemic caused >2,190 hospital admissions, >500 pre-liberation deaths, and ~1,500 post-liberation deaths.",
+      "sources": [
+        "Cambridge University Press (internal health reports & Adler): https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcq1y3dnct4K7hvWCcPVk3CgLnuvn5K_UtHpQ4kTCaLHWE42c1OUdWMWdXWFeDVw8TbchJSXPHnMjV-TM171u5MY6Tp0HOXJw5U0CvN5nBlV9u64cYcAa8NItF0-IRwzo4pB1IjW5CUCOM643bzuxyWRzVShN61XRY1UBJYyGzwxgfDmIWlbfXKV-10zu92CfXz34uR3IIDkeTKxED1mWZauLqbxo=",
+        "Cambridge University Press (1945 typhus epidemic): https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy4DaFcQw2CKl5MoMMofTw3ySISeis9MJURFZFz9rnapfrIT0BQ11sqEYxqvlpTlfFUxbR1i3XsXvNLFUk6BNdzJcGKYWboLX2bj_Vw20c92wKQPgD5dcOMRaPEbnnqrMHSws6e8-M1Uo0gpduG77OZR1j5Kjp4HVucYp5uSxZA-sh2M3QIkshCxm4qgwujgVW6Cnr9YSEhjWsz9sCHieNTqLfBAxcdV1wgYOT_5WOX8ArctiO4PBNYAikM7Hd30ewb6_ABwKco6Fc_InV-RlUPMS2TyTetNYn4PxkRDe2cdZe5XJweinj3gRy9x8-O9JYDFsyn-HKF00gVrarIchLYp63wq2Hflbov5GLbpAfCqc-bCY="
+      ],
+      "unit": "deaths by recorded cause (1941–1945)",
+      "value_or_range": "Enteritis 8,664; age/senility 6,558; pneumonia 6,260; heart disease 3,473+; general infections 2,083+; typhus (spring 1945) >500 pre-liberation + ~1,500 post-liberation"
+    },
+    {
+      "claim": "Total deported east from Terezín (1942–1944, ~63 outward transports) and number of deportees who survived",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Total deported: ~87,000 (Auschwitz Museum) to 88,202 (USHMM) to ~90,000 (Yad Vashem). Survivors among those deported east: ~3,097–3,800 (~3.5%–4.3% survival rate; USHMM ~3,500, EHRI ~3,800).",
+      "sources": [
+        "USHMM (88,202 deported, ~3,500 survived): https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8-JaaDqnkwfsvgx2Kv00A7DKLbeyYcREDCgkbcn2uL8HqgcZXqNKnIIfkBVNmIDEgwZ4LwDy1m5B3175yS9A1Dbm7Y-_bjXUEeiJQOdRmeSEY6R1opJ8zASGoE0qwMpfhDr3vsh6oVTLr1Y2mB7p4Mrpq2MSb",
+        "EHRI (~3,800 survived): https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGplqX_SLWFKV_YJMYwklB1k821Q1JiQkcR4m-EWf_okvRDY8yvHWorZs6B2GEd5I3d9Wc71UFtXoJXnodHJyrhPO8KXJzz1-5dS9Gel7tACwJLJolXo-tVLtl_CHFP-a98pJylEXLvRu9OJ7c=",
+        "Auschwitz-Birkenau State Museum (~87,000): https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEC4x2W8Jvr0aE4jETyKdxggjcu6X0-zuQGEMhG7Ne6ViYTVt6odNszES48R6bzuYXLD2Qu7RffMI6i7djSGDh45t-a454fzyvScNsnJq7oczCirya-sAaW1GvQBWkudAjC0byz73xCETdgJxkIxKsomNk9Js9rwwSxiqRTff9Etd0hL8E4fb_ixJgszjE0wiW6ByKpKgYJXfArdKCrXv1OfADfL8EFCpV-NBKgnZrJT2Q="
+      ],
+      "unit": "deportees / survivors (1942–1945)",
+      "value_or_range": "87,000–90,000 deported (USHMM: 88,202); 3,097–3,800 survived"
+    },
+    {
+      "claim": "Deportation breakdown by eastern destination (Auschwitz-Birkenau, Treblinka, Maly Trostinets, Lublin district/Izbica/Zamość/Sobibor, Riga)",
+      "confidence": "MEDIUM (Auschwitz/Treblinka/Maly Trostinets/Lublin); LOW CONFIDENCE (Riga exact total from single source)",
+      "disagreements_or_caveats": "Auschwitz-Birkenau: 44,693–46,099; Treblinka: ~18,000 across 10 transports Bo–Bx in Sept–Oct 1942 (though some secondary summaries cite 8,000); Maly Trostinets: 5,000 across 5 transports (AAx, AAz, Bc, Bk, Bn of 1,000 each); Lublin district / Aktion Reinhard sites (Izbica Aa/Ab/Aq, Zamość Ar/As, Sobibor AAi at ~1,000 per transport); Riga: ~3,000 (transports O, P, Bb). Separately, ~1,200 Jews were sent to Switzerland in Feb 1945.",
+      "sources": [
+        "Yad Vashem (Bo–Bx Treblinka): https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRQtwpYKwVmfGSBQ5BzLydPLgvX3Fkei2pM_P6AbcY6dCgHlaLMgmzee732l_s89yLW4eIbMs-ftDyQtW121qAb9ZEcs6SSoTpq6CucHMbjZqK8RKoZARaRCjoNfgHelRZV9wQsey_XCFPegsQ8hXgVGvYFVf8Kfc=",
+        "Terezín Initiative (terezinstudies.cz): https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAGzkVjs7_3wMcK-AK_aPrJ0k8T1NHS8UOmGnEpTRjI4nrU4KHSuD4x3oCnmTFgeSYLm1xy1dPZTE_sdksQZ3nfAOldWR7vPLTAJ8U0G6iVjaAx8QUYDiFGlKZzGf62fXbo4KQ-n4DLqDF8bzNSEMU5ijqbQ==",
+        "Holocaust.cz (Maly Trostinets): https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWMc5ctK9lrd3SJiSu-aoB-zm3QZ17Rs9fi1YANwsEe3WkdNrWwRZvC7lfPpyuIox_iF0becgeFKdHxJFptndG98tUFs6ZhkI1T9nILZeeG1vDXEssgHUpLKZ9d-UiZRltzb6CXrH3NIAVjzTQ97eEX9c8paIylrM=",
+        "Yad Vashem (Sobibor AAi): https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVYlw0IFEcvMPYPavXKUpFSFXOx0ki6c3ScMbH7CGlzTXmugCY7cUb1ARSVmUFqQxz87vo2eKVqgH2hEaH7_Ig_MrF7szLXaWfu19OG4B_t5avgCqLvKuf-hcpAA9Tuv_AjcXQ6Bq8D6NM4Hk="
+      ],
+      "unit": "deportees by destination (1942–1944)",
+      "value_or_range": "Auschwitz 44,693–46,099; Treblinka ~18,000 (var. 8,000); Maly Trostinets 5,000; Izbica/Zamość/Sobibor 1,000+ per transport; Riga ~3,000"
+    },
+    {
+      "claim": "Prisoners liberated at Terezín in May 1945 (registered ghetto residents vs. total including April–May 1945 evacuees)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "16,832 (USHMM, Cambridge, Yale) represents registered pre-evacuation ghetto residents at Soviet liberation on May 8–9, 1945; 17,247 reflects broader Red Cross / immediate post-liberation counts. Adding ~13,000–15,000 concentration-camp evacuees arriving in April–May 1945 brings the total liberated population to ~30,000.",
+      "sources": [
+        "USHMM (~13,000+ evacuees, ~30,000 total): https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCPgPxneHJN3kmImNv9I0FX1Tk9FkpCiFmaYTjK7cbRJWUMxiEd3n2wt8mCqI7V_VpMnU6jduLzjauQrYnwJgHn4zULExKPjis9ES1dyRsziEYJsALKM31-2ZKRTxHxbivuw07i6nXElCBEjvbqPSv5qziB7L8KO8l7cHYlZnHLT_pRA==",
+        "USHMM (16,832): https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHWDyIsFWu2HVO8WeNLVtTaQgqqm-vXbZJergpyv0h6YmUn7P1bTuLNiyRgnLqS-qh8OSA8GDxeVHNURLsWKmkA25k6_hq3ePkNaUjArvJlfMJFhL6c9HL2Y5pPIQn8khNjd57FKCe7ROGcWALHNpxeq20e30AiFzTYlVaQwnzfRj4awZpcoY858H11w==",
+        "Cambridge University Press (16,832): https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9yiLR1hLo-lIOECKCfq06jV3gsDY7duYKtJ54f_711d4xoNumw2fkfulpVxY1c7UkHNLt2lpcTRFx7jfjwdWfkFhUBENv2puAOhGPn7goJjm5c9OSLayZJrJ0ALx8MweJjexoDLaS9i-zfctSA44_sgaiaSHlmlgyob4xVDqiAZ7fjvQEFce17iVoWw26dj1fW4nR9aSXomCp0w=="
+      ],
+      "unit": "liberated prisoners (May 1945)",
+      "value_or_range": "16,832–17,247 (registered ghetto prisoners); ~30,000 (incl. ~13,000–15,000 evacuees)"
+    },
+    {
+      "claim": "Children in Terezín: popular '15,000 / ~100 survived' vs. modern archival counts (total under 15, deported, born in ghetto, died in ghetto, and liberated in May 1945)",
+      "confidence": "HIGH (1,633 liberated, 207–230 births, 7,590 deported, 142–245 deported survivors); LOW CONFIDENCE (~400 deaths inside Terezín from single retrieved medical-historical source)",
+      "disagreements_or_caveats": "Scholarly counts diverge for four key reasons: (1) The popular '~100' (archival 142, or up to 242–245 under broader age cutoffs) measures ONLY children deported east (out of 7,590 deported) who returned alive, ignoring the 1,633 children (<15) liberated inside Terezín in May 1945 (~half long-term residents never deported, ~half April–May 1945 evacuation arrivals); (2) Age cutoffs (<14 vs <15 vs <16/<18—~10,500–12,000 in strict under-15/regional cohorts vs ~15,000 under broader youth cutoffs); (3) Inclusion/exclusion of 207–230 births in Terezín (despite forced-abortion rules); (4) Inclusion/exclusion of late-war evacuation arrivals.",
+      "sources": [
+        "Památník Terezín (7,590 deported, 142 deported survivors, ~1,600 liberated): https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAtC__fCw9EBKpJwY0Es_gSUnDzjj4RKVDyqzF4dl3b7KtqGePFtEmTaxBFbv53nsjI31xR5Fix3dyx1zLGxyYQVJILY4MvUbqfxWBERR-O0WyO9TcB6YVZ98pmP3TT3l8xi82",
+        "Cambridge University Press (Anna Hájková / Miroslav Kárný: 1,633 liberated <15, 207–230 births): https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfrj1OHE-S77Rl9kQz6izuGMGO59r6wWahCE4pDxMzxKVRX5_xu1hcpvP7wbYOIa-3GXg2t-6KpSgIdb2khYOT6GZOY710AVGocNHLLP278HYdTyZMdftdpIudeau1Qp-3w9tfdlpvwSz-RuQtYhWGLyl7wX76hkFtauxrOMjUZxjAW0DeDS3CCfToPFO7J1KQqsNSezLmDufeK_cXFw_m-k6_aGQy5p56D9he6pzZI8Pw43A=",
+        "Karger (~400 deaths in Terezín, ~1,600 liberated, births): https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjOp0xw1-rtgauTM93oUMpQYCypkxw5wHiFSXFvwBef_4jM7WS3PY-760sjPnXPhFQsJFCt4EpxYJ-hkv4LJswgmiahB05vd-JGxHV0rgs1YJeheyMkXRH1r1i43Mu3e42lHIKM59saCZx1MnUFlMv91vBysujTT2Rmtl8G4GM3y1D03tFe696Rk2jqbhL_w44JNcF",
+        "Concordia University (7,590 deported, 142 survived): https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnpR5wXHGX8GI74zTwrzluNZhunE5olzUzeg3B4JIlrzGlaHaEQPnTXSqYD-sUeOd6WeIzKAhgj4cqeVJK66CINq1V9EUYFwqSBw6D8Sx0tDYGrdjLKVFV2HUjLt_fC3L8IMLJe5IiXuBjkEPNwieorBYAaINK86pl",
+        "USHMM (popular 15,000 / <150 summary): https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR5kw_LVHJysTJGQQozvhqTADH-4zjAYniT9sqQlPBdmCh4oM8DCDeBKXXbQ1LMivsI_lA5aBtAqb8JJXW_g3HreRA7WkJqPu0HRkj1TPQbhcZ794xNLWUNfs6RgHfP_yyTvU8EbagxRAymWbmuhNL9mLUrQSuZ5Ove6PX4WFJSZvEumVShWJ3eDCfUyMCpy_1l5F8K99kyvh3g-wNEj3KPL_jwyNIC-sq1YZwpL7w99MdgyJTprXPzSWkFEkiSA=="
+      ],
+      "unit": "children (1941–1945)",
+      "value_or_range": "~10,500–15,000 total; 7,590 deported east (142–245 survived); ~400 died in ghetto; 207–230 born; 1,633 (<15) liberated in Terezín"
+    }
+  ],
+  "id": "p1_terezin_demographics",
+  "myths_checked": [
+    "Popular claim '15,000 children passed through Terezín and only ~100 survived' (from early postwar accounts such as Hana Volavková's 'I Never Saw Another Butterfly'): Checked against Památník Terezín, Terezín Initiative, Miroslav Kárný, and Anna Hájková (Cambridge University Press). The ~100 figure (more precisely 142, or up to 242–245 depending on age cutoff) reflects only children deported east (out of ~7,590 deported) who returned alive; it omits the 1,633 children (<15) who survived inside Terezín until May 1945 liberation (roughly half pre-evacuation ghetto children, half late-war evacuation arrivals). Furthermore, strict under-15 cohorts yield ~10,500–12,000 children rather than 15,000 (which reflects broader youth cutoffs up to 16–18).",
+    "Claim that '8,000' prisoners were deported to Treblinka vs. full transport roster: Checked against Yad Vashem Transports to Extinction and Terezín Initiative Institute (terezinstudies.cz), which document 10 consecutive transports (Bo through Bx, Sept 19–Oct 22, 1942) to Treblinka totaling ~18,000 deportees.",
+    "Claim that '16,832' or '17,247' represents all prisoners liberated at Terezín in May 1945: Checked against USHMM and Cambridge University Press; 16,832–17,247 counts registered pre-evacuation ghetto survivors only, whereas adding ~13,000–15,000 concentration-camp evacuees arriving in April–May 1945 yields ~30,000 total prisoners liberated."
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "angle": "Verified archival history of the clandestine boys' magazine Vedem (Dec 1942–July 1944) in Home I of Building L417 at Terezín, its organizational structure, key creators and fates, Josef 'Pepek' Stiassny's 'Loonie / idiot' editorial (vedem-terezin.cz/en/rambles/22.html), and survival counts across Room 1 and L417.",
+  "bibliography": [
+    "https://www.vedem-terezin.cz (Vedem digital archive, Archiv Památníku Terezín A 1317, Přírodní škola & Památník Terezín)",
+    "https://www.vedem-terezin.cz/en/rambles/22.html (Rambles through Terezín #22: Block E VII – Kavalír Barracks)",
+    "https://www.vedem-terezin.cz/toulky/kasarna-kavalir (Toulky Terezínem: Kasárna Kavalír)",
+    "pamatnik-terezin.cz (Terezín Memorial / Archiv Památníku Terezín, collection A 1317)",
+    "ghetto-terezin.cz (Terezín Memorial / Terezín Initiative Encyclopedia)",
+    "holocaust.cz (Terezín Initiative Transport & Victim Database)",
+    "ushmm.org (United States Holocaust Memorial Museum Collections & Holocaust Encyclopedia)",
+    "yadvashem.org (Yad Vashem Art Collection & Digital Archives)",
+    "jewishmuseum.cz (Jewish Museum in Prague)",
+    "centropa.org (Centropa Oral History Archives: Kurt Kotouč & Sidney Taussig testimonies)",
+    "pametnaroda.cz (Memory of Nations / Paměť národa)",
+    "ehri-project.eu (European Holocaust Research Infrastructure)",
+    "pamatniknarodnihopisemnictvi.cz (Museum of Czech Literature)",
+    "muni.cz / cuni.cz / zcu.cz / theses.cz (Czech academic theses & research repositories)",
+    "prirodniskola.cz (Přírodní škola / Nature School Prague, Vedem digitization project)",
+    "hmh.org (Holocaust Museum Houston)",
+    "usf.edu (University of South Florida Holocaust & Genocide Studies)",
+    "soton.ac.uk / jahrbuch-bruecken.de (Academic studies on Josef Stiassny's Terezín writings)"
+  ],
+  "findings": [
+    {
+      "claim": "Vedem founding and ending dates",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "First issue published Dec 18, 1942 (coinciding with formal inauguration of Home 1 self-government, Republic of Škid, which itself organized Dec 11, 1942 per vedem-terezin.cz). Final known issue is dated July 30, 1944 (ghetto-terezin.cz), with publication ending in July–August 1944 (vedem-terezin.cz, usf.edu) before autumn 1944 mass transports to Auschwitz (Sept–Oct 1944).",
+      "sources": [
+        "vedem-terezin.cz",
+        "ghetto-terezin.cz",
+        "centropa.org",
+        "usf.edu"
+      ],
+      "unit": "date range",
+      "value_or_range": "1942-12-18 to 1944-07-30 (July–August 1944)"
+    },
+    {
+      "claim": "Vedem production frequency and distribution method",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Produced as a single master copy per issue (first ~30 issues / ~190 pages typed on a typewriter; remaining ~53 issues handwritten and hand-illustrated on DIN A4 sheets after typewriter ribbon/ink ran out) and read aloud secretly every Friday evening (Sabbath Eve) at Home 1 general meetings.",
+      "sources": [
+        "vedem-terezin.cz",
+        "ghetto-terezin.cz",
+        "zcu.cz",
+        "hmh.org"
+      ],
+      "unit": "cadence",
+      "value_or_range": "Weekly (Friday evening readings)"
+    },
+    {
+      "claim": "Vedem total surviving pages and issue count",
+      "confidence": "MEDIUM",
+      "disagreements_or_caveats": "Approximately 800 pages survive in Archiv Památníku Terezín (ID A 1317). Multiple sources (hmh.org, theses.cz, prirodniskola.cz) cite 83 weekly issues in total (30 typed + 53 handwritten); ghetto-terezin.cz states most issues survived ('většina výtisků se dochovala'), though an exact itemized count of complete vs. partial surviving issues inside A 1317 is not separately specified in retrieved summaries.",
+      "sources": [
+        "vedem-terezin.cz",
+        "ghetto-terezin.cz",
+        "pamatnik-terezin.cz",
+        "hmh.org",
+        "theses.cz",
+        "zcu.cz"
+      ],
+      "unit": "pages / issues",
+      "value_or_range": "~800 surviving pages across up to 83 weekly issues (30 typed, 53 handwritten)"
+    },
+    {
+      "claim": "Building L417 identity and internal structure",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Former German/Czech municipal school converted in 1942 into a boys' home (Knabenheim / Jugendheim L 417) subdivided into roughly 10 residential rooms ('heims' / domovy). Today houses the Terezín Ghetto Museum. L417 housed ~300 boys overall at a time (aged ~10–15), while Room 1 (Home 1 / Heim 1, self-governed as 'Republic of Škid') held ~40–50 boys at a time (~100–110 passing through over its existence, typically aged ~12–15 or 13–15).",
+      "sources": [
+        "pamatnik-terezin.cz",
+        "centropa.org",
+        "vedem-terezin.cz",
+        "ghetto-terezin.cz",
+        "ehri-project.eu",
+        "cuni.cz"
+      ],
+      "unit": "boys / rooms",
+      "value_or_range": "L417 overall: ~300 boys across ~10 rooms (ages 10–15); Room 1 ('Republic of Škid'): ~40–50 concurrent boys, ~100–110 cumulative (ages ~12–15)"
+    },
+    {
+      "claim": "Valtr Eisinger (head educator of Home 1 / L417)",
+      "confidence": "MEDIUM",
+      "disagreements_or_caveats": "Born 1913 (May 27, 1913 in non-primary summaries); Czech Jewish teacher and warden of Home 1 (L417) who fostered the boys' Republic of Škid self-government and contributed >40 pieces to Vedem under pseudonyms such as 'Prcek'. Deported from Terezín to Auschwitz in September 1944 (Transport Ek), transferred to a Buchenwald forced-labor subcamp, and murdered on a death march in Thuringia in January 1945 (Jan 15, 1945 in secondary/literarnimuzea references; exact day-month in Jan 1945 is LOW CONFIDENCE from primary databases).",
+      "sources": [
+        "pamatnik-terezin.cz",
+        "vedem-terezin.cz",
+        "literarnimuzea.cz",
+        "ushmm.org"
+      ],
+      "unit": "biographical dates & fate",
+      "value_or_range": "1913–1945 (deported Sept 1944; murdered on Buchenwald death march, Jan 1945)"
+    },
+    {
+      "claim": "Petr Ginz (Vedem founder/editor '-nz-', Moon Landscape, fate)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Born Feb 1, 1928 in Prague; deported to Terezín Oct 24, 1942 (Transport Ca, no. 446). Founder and editor-in-chief of Vedem in Home 1 (L417), signing works '-nz-' ('nz'). Created pen-and-ink drawing 'Moon Landscape' (Měsíční krajina / Tero vidata de Luno, c. 1942–1943, original at Yad Vashem; replica carried aboard Space Shuttle Columbia STS-107 in 2003). Deported to Auschwitz on Sept 28, 1944 (Transport Ek, no. 1880) and murdered upon arrival at age 16.",
+      "sources": [
+        "holocaust.cz",
+        "yadvashem.org",
+        "vedem-terezin.cz",
+        "ushmm.org"
+      ],
+      "unit": "biographical dates & fate",
+      "value_or_range": "Born 1928-02-01; Terezín 1942-10-24 (Ca-446); Auschwitz 1944-09-28 (Ek-1880), murdered Sept 1944"
+    },
+    {
+      "claim": "Jiří Kurt Kotouč (Kurt Kotouč)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Born 1928 in Brno (one catalog note at pamatniknarodnihopisemnictvi.cz mentions 1929 as an alternate listing, primary records use 1928); deported to Terezín spring 1942; lived in Home 1 (L417), served as chairman/president of Republic of Škid and deputy editor/contributor to Vedem under pseudonym 'Svatý' ('Saint'). Survived Auschwitz and Buchenwald subcamp (Niederorschel). Post-war graphic/book designer; co-edited 'Je mojí vlastí hradba ghett?' ('We Are Children Just the Same', 1995) with Marie Rút Křížková and Zdeněk Ornest. Died in Prague in 2008. Exact day/month of birth and death not surfaced in retrieved records.",
+      "sources": [
+        "vedem-terezin.cz",
+        "centropa.org",
+        "pamatniknarodnihopisemnictvi.cz",
+        "zcu.cz",
+        "muni.cz"
+      ],
+      "unit": "biographical dates & fate",
+      "value_or_range": "1928–2008; survivor of Terezín, Auschwitz, and Buchenwald (Niederorschel)"
+    },
+    {
+      "claim": "Hanuš Hachenburg",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Born July 12, 1929 in Prague; deported to Terezín Oct 24, 1942 (Transport Ca, no. 711). Lived in Home 1 (L417) and contributed poetry/prose to Vedem under signatures 'Ha-' and 'Akademie', plus satirical puppet play 'Hledáme strašidlo'. Deported to Auschwitz-Birkenau Dec 18, 1943 (Transport Ds, no. 677); murdered in Auschwitz in July 1944 around age 15 (some summaries cite 1943 deportation year as death year).",
+      "sources": [
+        "holocaust.cz",
+        "vedem-terezin.cz",
+        "cuni.cz",
+        "muni.cz",
+        "ehri-project.eu"
+      ],
+      "unit": "biographical dates & fate",
+      "value_or_range": "Born 1929-07-12; Terezín 1942-10-24 (Ca-711); Auschwitz 1943-12-18 (Ds-677), murdered July 1944"
+    },
+    {
+      "claim": "Zdeněk (Sidney) Taussig and preservation of Vedem pages",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Born Oct 17, 1929 in Prague (note: Centropa interview summary states 1928; Oct 17, 1929 is standard; died Dec 13, 2023 in Florida, USA). Deported to Terezín 1941/1942; lived in Home 1 (L417) and contributed to Vedem as 'Blesk' ('Lightning'). Stayed in Terezín until liberation because his father was the camp's horse-shoeing blacksmith (kovář) and they lived in a makeshift coal room at the smithy. Before final transports, Zdeněk hid the ~800 pages of Vedem (in a metal box/cache) in the blacksmith's forge/smithy behind the Magdeburg Barracks ('v kovárně za Magdeburskými kasárnámi') until May 1945 liberation, then brought them to Prague.",
+      "sources": [
+        "vedem-terezin.cz",
+        "centropa.org",
+        "pametnaroda.cz",
+        "muni.cz",
+        "npi.cz"
+      ],
+      "unit": "biographical dates & preservation method",
+      "value_or_range": "1929-10-17 (or 1928 per Centropa) – 2023-12-13; hid ~800 pages in blacksmith's forge behind Magdeburg Barracks until May 1945 liberation"
+    },
+    {
+      "claim": "Josef 'Pepek' Stiassny — identity, dates, transport, and death",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Full name Josef Stiassny (variants: Josef Stiassný, Josef Šťastný, and 'Josef Štiavný' in one English excerpt on vedem-terezin.cz; pre-war pen name Pavel Glücklich; nickname 'Pepek'). Born Sept 16, 1916 in Německý Brod (now Havlíčkův Brod). Arrived in Terezín July 27, 1942 via Transport AAu, no. 221 (note: ghetto-terezin.cz prints July 7, 1942, conflicting with holocaust.cz Transport AAu date of July 27, 1942). Co-tutor alongside Valtr Eisinger in Home 1 (L417). Deported to Auschwitz Sept 28, 1944 via Transport Ek, no. 1759, where he perished. LOW CONFIDENCE detail: ghetto-terezin.cz reports he survived initial selection and died by walking into the camp's electrified barbed-wire fence (single-source detail).",
+      "sources": [
+        "holocaust.cz",
+        "pamatnik-terezin.cz",
+        "ghetto-terezin.cz",
+        "vedem-terezin.cz",
+        "muni.cz",
+        "ehri-project.eu"
+      ],
+      "unit": "biographical dates & fate",
+      "value_or_range": "Born 1916-09-16; Terezín 1942-07-27 (AAu-221; 1942-07-07 per ghetto-terezin.cz); Auschwitz 1944-09-28 (Ek-1759), perished 1944"
+    },
+    {
+      "claim": "Pepek's 'Loonie / idiot' editorial at vedem-terezin.cz/en/rambles/22.html — date, issue, translator, and license terms",
+      "confidence": "LOW CONFIDENCE",
+      "disagreements_or_caveats": "At https://www.vedem-terezin.cz/en/rambles/22.html (Czech: https://www.vedem-terezin.cz/toulky/kasarna-kavalir), the text appears in 'Rambles through Terezín' ('Toulky Terezínem') entry #22 on Block E VII – Kavalír Barracks. The 'Rambles' series began in February 1943, and a summary notes a Feb 1943 Kavalír installment, but neither the retrieved English nor Czech webpage summaries specify an exact Vedem issue number or exact date for Pepek's passage (LOW CONFIDENCE). No individual English translator is credited in retrieved vedem-terezin.cz pages (site created by Přírodní škola students/teachers, survivors, and Marie Rút Křížková). License/copyright: vedem-terezin.cz does NOT use Creative Commons; it states 'The Theresienstadt Memorial retains all copyrights in any text, graphic images in journal Vedem. (Archiv Památníku Terezín, identifikační číslo A 1317).'",
+      "sources": [
+        "https://www.vedem-terezin.cz/en/rambles/22.html",
+        "https://www.vedem-terezin.cz/toulky/kasarna-kavalir",
+        "https://www.vedem-terezin.cz",
+        "pamatnik-terezin.cz"
+      ],
+      "unit": "metadata / copyright",
+      "value_or_range": "Rambles #22 (Block E VII – Kavalír Barracks, series began Feb 1943; exact issue/date & translator unstated online); Copyright: Památník Terezín (A 1317), no CC license"
+    },
+    {
+      "claim": "Survival count of boys from Room 1 (Home 1, L417) / Vedem contributors",
+      "confidence": "MEDIUM",
+      "disagreements_or_caveats": "Authoritative sources diverge on exact numerator and denominator: (1) Centropa (Kurt Kotouč / Centropa) states ~100 to 110 boys passed through House Number One (L417) and only about 10 survived (~9–10%); (2) Paměť národa (Memory of Nations) states more than 100 / around 100 boys passed through Home 1 ('Jednička' / Republic of Škid) and roughly 15 survived (~15%); (3) Secondary/educational accounts cite 15 survivors out of 92 Vedem contributors (~16.3%). Overall survival across all ~10 rooms (~300 concurrent boys) of L417 combined is not separately itemized in retrieved primary records.",
+      "sources": [
+        "centropa.org",
+        "pametnaroda.cz",
+        "muni.cz"
+      ],
+      "unit": "boys survived / total cohort",
+      "value_or_range": "~10 to ~15 survivors out of ~100–110 boys in Room 1 (or 15 out of 92 Vedem contributors in secondary summaries)"
+    }
+  ],
+  "id": "p4_vedem_l417",
+  "myths_checked": [
+    "Myth/oversimplification: 'Vedem was printed or distributed in multiple copies' — FALSE; only a single master copy of each issue was produced (first ~30 typed, remaining ~53 handwritten) and read aloud secretly on Friday evenings.",
+    "Myth/oversimplification: 'Out of 15,000 Terezín children vs. ~100 boys in Room 1, exact survivor count is universally 15' — NUANCED; authoritative survivor/archival sources disagree slightly between 'about 10 out of ~100–110' (Centropa) and 'roughly 15 out of ~100' (Paměť národa), while secondary summaries often cite '15 out of 92 Vedem contributors'.",
+    "Myth/oversimplification: 'vedem-terezin.cz is licensed under Creative Commons' — FALSE; the site explicitly states that Památník Terezín (Terezín Memorial, Archiv A 1317) retains all copyrights in any text and graphic images of Vedem.",
+    "Myth/oversimplification: 'All of L417 was just the 40 boys of Room 1' — FALSE; L417 was a whole former school building subdivided into ~10 residential rooms ('heims') housing ~300 boys overall; Room 1 ('Republic of Škid') was one room holding ~40–50 boys at a time (~100–110 cumulatively)."
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "angle": "Exhaustive verification of Wikimedia Commons and USHMM Public Domain / CC-licensed wartime and architectural Terezín (Theresienstadt) photographs, exact URLs, license templates, and US URAA / 2D-copyright caveats",
+  "bibliography": [
+    "United States Holocaust Memorial Museum (USHMM) Collections Search — Catalog records pa1121405, pa1121409, pa1121419, pa1144019 (Photo #59539), pa1144022 (Photo #59542), pa1050584 (Photo #05862), pa1129215 (Photo #42024), pa1055047, irn556026 (RG-60.1904 / Film ID 4205), and Accession 1989.2.93 (https://collections.ushmm.org/)",
+    "Wikimedia Commons — File:Theresienstadt_film_crew.jpg (https://commons.wikimedia.org/wiki/File:Theresienstadt_film_crew.jpg)",
+    "Wikimedia Commons — File:Brundibar_Theresienstadt_Standfoto_20.jpg (https://commons.wikimedia.org/wiki/File:Brundibar_Theresienstadt_Standfoto_20.jpg)",
+    "Wikimedia Commons — File:Facades_for_the_International_Commission.jpg (https://commons.wikimedia.org/wiki/File:Facades_for_the_International_Commission.jpg)",
+    "Wikimedia Commons — File:In_the_Living_Quarters.jpg (https://commons.wikimedia.org/wiki/File:In_the_Living_Quarters.jpg)",
+    "Wikimedia Commons — File:Map_of_Theresienstadt_with_plan_of_the_visit_of_the_international_delegation.jpg (https://commons.wikimedia.org/wiki/File:Map_of_Theresienstadt_with_plan_of_the_visit_of_the_international_delegation.jpg)",
+    "Wikimedia Commons — File:Budova_L417_-_Terez%C3%ADn.jpg (https://commons.wikimedia.org/wiki/File:Budova_L417_-_Terez%C3%ADn.jpg)",
+    "Wikimedia Commons — File:Petr_Ginz_(1928_1944)_Mlady_Vek.jpg (https://commons.wikimedia.org/wiki/File:Petr_Ginz_(1928_1944)_Mlady_Vek.jpg)",
+    "Wikimedia Commons — File:Sanitn%C3%AD_auta_za_karant%C3%A9ny_v_terez%C3%ADnsk%C3%A9m_ghettu_(kv%C4%9Bten_1945).png (https://commons.wikimedia.org/wiki/File:Sanitn%C3%AD_auta_za_karant%C3%A9ny_v_terez%C3%ADnsk%C3%A9m_ghettu_(kv%C4%9Bten_1945).png)",
+    "Wikimedia Commons — File:Three_Jewish_children_rescued_from_Theresienstadt.jpg & File:Elderly_Jews_rescued_from_Theresienstadt.jpg (https://commons.wikimedia.org/wiki/File:Three_Jewish_children_rescued_from_Theresienstadt.jpg ; https://commons.wikimedia.org/wiki/File:Elderly_Jews_rescued_from_Theresienstadt.jpg)",
+    "Wikimedia Commons — Category:Theresienstadt_(film), Category:Theresienstadt_Ghetto, Category:Theresienstadt_concentration_camp, Category:Fortification_of_Terezín_Fortress (https://commons.wikimedia.org/wiki/Category:Theresienstadt_(film))"
+  ],
+  "findings": [
+    {
+      "claim": "USHMM Public Domain still photographs of Theresienstadt exist for the February 11, 1945 Swiss Red Cross rescue transport (St. Gallen, Switzerland), but NO indexed USHMM still photograph taken inside Terezín barracks or during the May 1945 Red Army liberation carries 'Copyright: Public Domain'",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Verified USHMM 'Copyright: Public Domain' records (courtesy of Stadtarchiv (Vadiana) St. Gallen, photographer Walter Scheiwiller, Feb 11, 1945) depict survivors rescued from Theresienstadt upon arrival in St. Gallen: pa1121405 (child portrait), pa1121409 (elderly Jews eating a meal), and pa1121419 (three Jewish children resting). By contrast, indexed USHMM ghetto/Small Fortress stills are NOT Public Domain: pa1144019 (#59539), pa1144022 (#59542), and pa1055047 state 'In Copyright - Use Permitted' (courtesy of Ivan Vojtech Fric); pa1050584 (#05862, Small Fortress Ravelin) and pa1129215 (#42024, map) list 'Copyright: United States Holocaust Memorial Museum'. USHMM's barracks interior '1989.2.93' (no restrictions) is a charcoal drawing, not a photograph, and May 1945 liberation item irn556026 ('German soldiers forced to dig up mass graves at Terezin') is Czech archival newsreel film requiring Národní filmový archiv (nfa@nfa.cz) licensing and is not downloadable online.",
+      "sources": [
+        "https://collections.ushmm.org/search/catalog/pa1121405",
+        "https://collections.ushmm.org/search/catalog/pa1121409",
+        "https://collections.ushmm.org/search/catalog/pa1121419",
+        "https://collections.ushmm.org/search/catalog/pa1144019",
+        "https://collections.ushmm.org/search/catalog/pa1144022",
+        "https://collections.ushmm.org/search/catalog/pa1050584",
+        "https://collections.ushmm.org/search/catalog/pa1129215",
+        "https://collections.ushmm.org/search/catalog/irn556026"
+      ],
+      "unit": "USHMM catalog status",
+      "value_or_range": "3 verified Public Domain survivor-rescue still photos (pa1121405, pa1121409, pa1121419); 0 verified Public Domain still photos inside ghetto barracks or May 1945 liberation"
+    },
+    {
+      "claim": "File:Theresienstadt_film_crew.jpg on Wikimedia Commons (1944 wartime photo) uses {{PD-anon-50}} and lacks a US/EU jurisdiction tag, so it is NOT 100% unambiguous Public Domain in the US or EU",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Page URL: https://commons.wikimedia.org/wiki/File:Theresienstadt_film_crew.jpg | Direct file URL: https://upload.wikimedia.org/wikipedia/commons/2/2f/Theresienstadt_film_crew.jpg. Template {{PD-anon-50}} explicitly displays a warning that it does not apply to the EU, US, India, or Russia and instructs adding {{PD-anon-70-EU}} or {{PD-US}}. Anonymous 1944 photo featuring assistant cameraman Ivan Frič and a Jewish assistant wearing a Star of David.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Theresienstadt_film_crew.jpg"
+      ],
+      "unit": "Wikimedia Commons file & license",
+      "value_or_range": "{{PD-anon-50}} (ambiguous in US/EU)"
+    },
+    {
+      "claim": "File:Brundibar_Theresienstadt_Standfoto_20.jpg on Wikimedia Commons (1944 film still) uses {{PD-old}} / {{PD-old-auto}} without a parallel US public domain tag, leaving US/URAA status unverified",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Page URL: https://commons.wikimedia.org/wiki/File:Brundibar_Theresienstadt_Standfoto_20.jpg | Direct file URL: https://upload.wikimedia.org/wikipedia/commons/3/32/Brundibar_Theresienstadt_Standfoto_20.jpg. Unknown author, 1944; sourced from Milan Kuna's 1993 book. Commons' {{PD-old}} template warns that a parallel US PD tag is required and notes URAA restoration risk for works first published post-1978.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Brundibar_Theresienstadt_Standfoto_20.jpg"
+      ],
+      "unit": "Wikimedia Commons file & license",
+      "value_or_range": "{{PD-old}} / {{PD-old-auto}} (missing US PD tag; URAA caveat)"
+    },
+    {
+      "claim": "File:Facades_for_the_International_Commission.jpg and File:In_the_Living_Quarters.jpg are tagged Public Domain in both EU and US ({{PD-old-70}}, {{PD-Czecho-50}}, {{PD-US-1996}}), but BOTH are wartime 2D drawings by Bedřich Fritta, NOT photographs",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Facades_for_the_International_Commission.jpg: https://commons.wikimedia.org/wiki/File:Facades_for_the_International_Commission.jpg | Direct: https://upload.wikimedia.org/wikipedia/commons/b/bd/Facades_for_the_International_Commission.jpg (tags: {{PD-Art}}, {{PD-old-70}}, {{PD-Czecho-50}}, {{PD-US-1996}}; source: Jewish Museum Berlin). In_the_Living_Quarters.jpg: https://commons.wikimedia.org/wiki/File:In_the_Living_Quarters.jpg | Direct: https://upload.wikimedia.org/wikipedia/commons/8/89/In_the_Living_Quarters.jpg (tags: {{PD-old-70}}, {{PD-Czecho-50}}, {{PD-US-1996}}; source: Ghetto Fighters' House Museum). Fritta died in 1944; US {{PD-US-1996}} validity assumes pre-1996 publication in Czechoslovakia (if unpublished until after 1996, URAA nuances would apply).",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Facades_for_the_International_Commission.jpg",
+        "https://commons.wikimedia.org/wiki/File:In_the_Living_Quarters.jpg"
+      ],
+      "unit": "Wikimedia Commons file & license",
+      "value_or_range": "{{PD-Art}} + {{PD-old-70}} + {{PD-Czecho-50}} + {{PD-US-1996}} (2D artworks, not photos)"
+    },
+    {
+      "claim": "File:Map_of_Theresienstadt_with_plan_of_the_visit_of_the_international_delegation.jpg is a 1944 map/document scan tagged {{PD-1.0}} (Public Domain Mark 1.0), NOT a photograph, and lacks a formal US URAA tag",
+      "confidence": "MEDIUM",
+      "disagreements_or_caveats": "Page URL: https://commons.wikimedia.org/wiki/File:Map_of_Theresienstadt_with_plan_of_the_visit_of_the_international_delegation.jpg | Direct file URL: https://upload.wikimedia.org/wikipedia/commons/9/99/Map_of_Theresienstadt_with_plan_of_the_visit_of_the_international_delegation.jpg. Feb 1944 map from Jewish Museum in Prague, unknown author. Tagged {{PD-1.0}} (Creative Commons Public Domain Mark 1.0), with search results also referencing {{PD-1996}}/{{PD-old-auto-expired}}/{{PD-US-expired}} metadata variants; PDM 1.0 is self-asserted rather than a statutory US pre-1931 expiration.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Map_of_Theresienstadt_with_plan_of_the_visit_of_the_international_delegation.jpg"
+      ],
+      "unit": "Wikimedia Commons file & license",
+      "value_or_range": "{{PD-1.0}} (1944 map scan, not a photo)"
+    },
+    {
+      "claim": "File:Budova_L417_-_Terezín.jpg is cleanly licensed {{Cc-by-sa-3.0}} with no underlying 2D copyright conflict, but it is a modern 2012 photograph, NOT a wartime (1941–1945) image",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Page URL: https://commons.wikimedia.org/wiki/File:Budova_L417_-_Terez%C3%ADn.jpg | Direct file URL: https://upload.wikimedia.org/wikipedia/commons/3/3d/Budova_L417_-_Terez%C3%ADn.jpg. Taken October 25, 2012 by Terezínská štafeta; depicts Building L417 (boys' home / Vedem). 3D architecture covered by Freedom of Panorama; requires CC BY-SA 3.0 attribution.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Budova_L417_-_Terez%C3%ADn.jpg"
+      ],
+      "unit": "Wikimedia Commons file & license",
+      "value_or_range": "{{Cc-by-sa-3.0}} (2012 photo, clean free license)"
+    },
+    {
+      "claim": "File:Petr_Ginz_(1928_1944)_Mlady_Vek.jpg is tagged {{PD-anon-70-EU}} (EU anonymous expiration only) and is NOT unambiguously Public Domain in the United States",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Page URL: https://commons.wikimedia.org/wiki/File:Petr_Ginz_(1928_1944)_Mlady_Vek.jpg | Direct file URL: https://upload.wikimedia.org/wikipedia/commons/3/34/Petr_Ginz_%281928_1944%29_Mlady_Vek.jpg. Extracted from File:Ginz_Family_Otto_Petr_Marie_Eva.jpg (family archive of Eva Ginz / Chava Pressburger via Holocaust.cz). Uses {{PD-anon-70-EU}} (plus transitional-law note on parent file); lacks a verified US/URAA public domain basis and is a family portrait rather than a documented inside-Terezín wartime photo.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Petr_Ginz_(1928_1944)_Mlady_Vek.jpg",
+        "https://commons.wikimedia.org/wiki/File:Ginz_Family_Otto_Petr_Marie_Eva.jpg"
+      ],
+      "unit": "Wikimedia Commons file & license",
+      "value_or_range": "{{PD-anon-70-EU}} (EU PD only; US/URAA unverified)"
+    },
+    {
+      "claim": "No 1945 Soviet liberation photos of Terezín exist on Wikimedia Commons, and the sole May 1945 Czech quarantine photo (File:Sanitní_auta_za_karantény_v_terezínském_ghettu_(květen_1945).png) has a disputed US URAA claim because its cited first print publication was in 1974",
+      "confidence": "LOW CONFIDENCE",
+      "disagreements_or_caveats": "Page URL: https://commons.wikimedia.org/wiki/File:Sanitn%C3%AD_auta_za_karant%C3%A9ny_v_terez%C3%ADnsk%C3%A9m_ghettu_%28kv%C4%9Bten_1945%29.png | Direct file URL: https://upload.wikimedia.org/wikipedia/commons/5/51/Sanitn%C3%AD_auta_za_karant%C3%A9ny_v_terez%C3%ADnsk%C3%A9m_ghettu_%28kv%C4%9Bten_1945%29.png. Tagged {{PD-Czechoslovak-anonymous}} + {{PD-US-1989-URAA}}. However, the file page states it was first published in print in Hlas revoluce no. 28 (1974); under Czechoslovak Copyright Act 1965 §33(3), 50 years from 1974 would expire in 2024 (after Jan 1, 1996), making {{PD-US-1989-URAA}} legally questionable unless an undocumented 1945 publication occurred. Separately, File:Holocaust_train_liberated_by_US_Army.jpg depicts a Bergen-Belsen train bound for Theresienstadt liberated at Farsleben, Germany—not Terezín.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Sanitn%C3%AD_auta_za_karant%C3%A9ny_v_terez%C3%ADnsk%C3%A9m_ghettu_%28kv%C4%9Bten_1945%29.png",
+        "https://commons.wikimedia.org/wiki/File:Holocaust_train_liberated_by_US_Army.jpg"
+      ],
+      "unit": "1945 liberation photo status on Commons",
+      "value_or_range": "0 Soviet liberation photos; 1 Czech May 1945 photo with disputed 1974-publication URAA tag"
+    },
+    {
+      "claim": "Two wartime (Feb 11, 1945) photographs of children and elderly Jews rescued from Theresienstadt exist on BOTH USHMM ('Copyright: Public Domain') and Wikimedia Commons with direct upload URLs",
+      "confidence": "MEDIUM",
+      "disagreements_or_caveats": "1) File:Three_Jewish_children_rescued_from_Theresienstadt.jpg — https://commons.wikimedia.org/wiki/File:Three_Jewish_children_rescued_from_Theresienstadt.jpg | https://upload.wikimedia.org/wikipedia/commons/2/2a/Three_Jewish_children_rescued_from_Theresienstadt.jpg | USHMM pa1121419 (Copyright: Public Domain). 2) File:Elderly_Jews_rescued_from_Theresienstadt.jpg — https://commons.wikimedia.org/wiki/File:Elderly_Jews_rescued_from_Theresienstadt.jpg | https://upload.wikimedia.org/wikipedia/commons/6/6e/Elderly_Jews_rescued_from_Theresienstadt.jpg | USHMM pa1121409 (Copyright: Public Domain). Both taken Feb 11, 1945 in St. Gallen, Switzerland by Walter Scheiwiller (Stadtarchiv Vadiana St. Gallen). Commons tags are {{PD-Switzerland}} and {{PD-US-expired}} (note: {{PD-US-expired}} is technically inaccurate for 1945 photos, though USHMM explicitly states Copyright: Public Domain).",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Three_Jewish_children_rescued_from_Theresienstadt.jpg",
+        "https://commons.wikimedia.org/wiki/File:Elderly_Jews_rescued_from_Theresienstadt.jpg",
+        "https://collections.ushmm.org/search/catalog/pa1121419",
+        "https://collections.ushmm.org/search/catalog/pa1121409"
+      ],
+      "unit": "Cross-verified USHMM + Commons wartime PD photos",
+      "value_or_range": "2 direct Wikimedia Commons files matching USHMM Public Domain records (taken in St. Gallen, Feb 1945)"
+    },
+    {
+      "claim": "Additional 1942/1944 propaganda film stills on Commons lack clean US Public Domain status, whereas modern CC BY-SA photographs of Terezín town, barracks, ramparts, and Small Fortress have zero 2D copyright conflict",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "1942/1944 wartime files with US PD gaps: File:Shooting_'Film_Ghetto_Theresienstadt'.jpg (https://upload.wikimedia.org/wikipedia/commons/0/04/Shooting_%27Film_Ghetto_Theresienstadt%27.jpg — explicitly flagged as NOT PD in US under URAA); File:Ghetto_Swingers_Theresienstadt_1944_10.jpg (https://upload.wikimedia.org/wikipedia/commons/1/19/Ghetto_Swingers_Theresienstadt_1944_10.jpg — {{PD-anon}}, missing US/EU tags). Clean 1944 2D poster: File:Brundibar_poster_Theresienstadt.jpg (https://upload.wikimedia.org/wikipedia/commons/0/09/Brundibar_poster_Theresienstadt.jpg, Walter Heimann d. 1945, {{PD-US-expired}}/{{PD-old-auto-expired}} — artwork, not photo). Clean modern CC BY-SA architectural photos (with attribution): File:Terezin_CZ_Bodenbach_Barracks_TERSAN2.jpg (https://upload.wikimedia.org/wikipedia/commons/e/e0/Terezin_CZ_Bodenbach_Barracks_TERSAN2.jpg, {{cc-by-sa-2.0-de}}), File:Terezín_-_Theresienstadt_-_Former_Jewish_Ghetto_04.jpg (https://upload.wikimedia.org/wikipedia/commons/4/4b/Terez%C3%ADn_-_Theresienstadt_-_Former_Jewish_Ghetto_04.jpg, {{cc-by-sa-4.0}}), File:Czech-2013-Terezin-Theresienstadt-Arbeit_macht_frei.JPG (https://upload.wikimedia.org/wikipedia/commons/2/2c/Czech-2013-Terezin-Theresienstadt-Arbeit_macht_frei.JPG, {{cc-by-sa-4.0}}).",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/Category:Theresienstadt_(film)",
+        "https://commons.wikimedia.org/wiki/File:Terezin_CZ_Bodenbach_Barracks_TERSAN2.jpg",
+        "https://commons.wikimedia.org/wiki/File:Terez%C3%ADn_-_Theresienstadt_-_Former_Jewish_Ghetto_04.jpg",
+        "https://commons.wikimedia.org/wiki/File:Czech-2013-Terezin-Theresienstadt-Arbeit_macht_frei.JPG",
+        "https://commons.wikimedia.org/wiki/File:Brundibar_poster_Theresienstadt.jpg"
+      ],
+      "unit": "Commons wartime vs modern CC BY-SA inventory",
+      "value_or_range": "0 unambiguous US+EU PD wartime still photos taken inside Terezín; 4+ clean CC BY-SA modern architectural photos"
+    }
+  ],
+  "id": "p2_gap_pd_photos",
+  "myths_checked": [
+    "Myth: All USHMM Theresienstadt photographs (such as propaganda film stills #59539, #59542 or Small Fortress #05862) are Public Domain — FALSE; those specific records carry 'In Copyright - Use Permitted' or 'Copyright: United States Holocaust Memorial Museum', while 'Copyright: Public Domain' was verified on the Feb 1945 St. Gallen rescue photos (pa1121405, pa1121409, pa1121419).",
+    "Myth: Wikimedia Commons hosts 1945 Soviet liberation photographs of Terezín and File:Holocaust_train_liberated_by_US_Army.jpg shows Terezín — FALSE; no 1945 Soviet liberation photos of Terezín were found on Commons, and the liberated train photo was taken near Farsleben, Germany (Bergen-Belsen transport).",
+    "Myth: The 7 specified Wikimedia Commons files are all 100% unambiguous Public Domain wartime photographs — FALSE; Budova_L417 is a 2012 CC BY-SA 3.0 photo, Facades and In_the_Living_Quarters are 2D drawings (not photos), Map is a 1944 map scan ({{PD-1.0}}), and Theresienstadt_film_crew, Brundibar_Standfoto_20, and Petr_Ginz_Mlady_Vek lack verified US/URAA public domain tags.",
+    "Myth: USHMM's irn556026 ('German soldiers forced to dig up mass graves at Terezin') is a downloadable Public Domain still photograph — FALSE; it is digitized Czech newsreel film requiring Národní filmový archiv (nfa@nfa.cz) permission and is not downloadable online."
+  ]
+}

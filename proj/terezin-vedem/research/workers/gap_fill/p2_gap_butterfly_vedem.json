@@ -1,0 +1,128 @@
+{
+  "angle": "Verification of Czech original text and publication history of Pavel Friedmann's 'Motýl' (4. 6. 1942), verbatim metadata/text and OCR/typo artifacts on vedem-terezin.cz Rambles #22 ('Kasárna Kavalír'), and reconciliation of L417 Home 1 survival counts and survivor biographical dates (Zdeněk Taussig, Kurt Jiří Kotouč).",
+  "bibliography": [
+    "holocaust.cz — Database of Victims: Pavel Friedmann (b. 7 Jan 1921; Transport Ao no. 956, 28 Apr 1942; Transport El no. 95, 29 Sep 1944).",
+    "jewishmuseum.cz — Archival collections of the Jewish Museum in Prague (Pavel Friedmann typescript manuscripts and 1959 State Jewish Museum exhibition/anthology).",
+    "yadvashem.org — Educational materials on Pavel Friedmann's 'Motýl' (4. 6. 1942) Czech text.",
+    "kjm.cz / upm.cz / mzk.cz / ushmm.org — Bibliographic records for Hana Volavková (ed.), 'Dětské kresby na zastávce k smrti, Terezín 1942–1944' (Prague: Státní židovské museum, 1959); English editions 'I Never Saw Another Butterfly' (trans. Jeanne Němcová, McGraw-Hill 1964 / Schocken 1978, 1993); and 1993 Jewish Museum in Prague edition 'I have not seen a butterfly around here' (trans. Joy Kadečková, Jeanne Němcová, Edith Pargeter).",
+    "https://www.vedem-terezin.cz/en/rambles/22.html — Rambles through Terezín: Block E VII – The Kavalier Barracks (Object 22), Pepek (Josef Stiassny) and Dr. Kelly excerpts.",
+    "https://www.vedem-terezin.cz/toulky/kasarna-kavalir — Toulky Terezínem: Blok E VII – Kasárna Kavalír, Czech original texts.",
+    "pamatnik-terezin.cz — Terezín Memorial database: Josef Stiassny (b. 16 Sep 1916; Transport AAu no. 221, 27 Jul 1942; Transport Ek no. 2499, 28 Sep 1944).",
+    "centropa.org — Kurt Kotouc oral history interview (\"About a hundred or a hundred and ten boys went through house number one in Terezin and of those about ten survived the Holocaust\").",
+    "pamatniknarodnihopisemnictvi.cz — Authority/biographical record for Kurt Jiří Kotouč (b. 12 Jul 1928, Brno; d. 2008, Prague).",
+    "pametnaroda.cz — Survivor testimonies referencing L417, Vedem, Zdeněk Taussig, and Jiří Kurt Kotouč.",
+    "dignitymemorial.com / inquirer.com — Obituary and biographical records for Sidney Zdeněk Taussig (b. 17 Oct 1929, Prague; d. 13 Dec 2023, Greenacres, Florida).",
+    "un.org — January 2012 UN Holocaust Outreach publication on Petr Ginz and Vedem documenting Zdeněk Taussig's preservation of ~800 pages.",
+    "moderni-dejiny.cz / ceskatelevize.cz — Czech educational and broadcast references citing 15 survivors out of ~100 boys in Home 1 / Vedem (sourcing vedem-terezin.cz)."
+  ],
+  "findings": [
+    {
+      "claim": "Exact Czech original text of Pavel Friedmann's poem 'Motýl' (dated 4. 6. 1942)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Yad Vashem's pedagogical page prints 'my mě tu našli pampelišky' (orthographic/line-break variant for 'mí mě tu našli') and omits several commas; other Czech reprints match 'mí mě tu našli' (literally 'my [loved ones] found me here'). English translations render that line as 'But I have found what I love here' (Jeanne Němcová), 'Who loved me have found me', or 'But I have found my people here'. Also note deportation to Terezín: holocaust.cz records Transport Ao (no. 956) on 28 April 1942, whereas some English summaries (USHMM, HMD) state 26 April 1942.",
+      "sources": [
+        "jewishmuseum.cz",
+        "yadvashem.org",
+        "holocaust.cz",
+        "hmd.org.uk"
+      ],
+      "unit": "verbatim Czech poem text (17 lines, dated 4. 6. 1942)",
+      "value_or_range": "Ten poslední, ten zcela poslední, / tak sytě, hořce, oslnivě žlutý, / snad kdyby slunce slzou zazvonilo / o bílý kámen... / taková, taková žluť / vznášel se lehce, tak do vysoka, / šel jistě, jistě, chtěl políbit / svět svůj poslední. // Na sedmý týden tu žiji, / ghettoisiert, / mí mě tu našli, / pampelišky tu na mne volají / i bílá větev v dvoře kaštanu. / Motýla jsem tu neviděl, / ten tenkrát byl poslední. / Motýli tady nežijí, / v ghettu."
+    },
+    {
+      "claim": "First publication of Pavel Friedmann's 'Motýl' (1959 State Jewish Museum Prague edition vs. earlier postwar Czech press)",
+      "confidence": "MEDIUM (1959 book publication HIGH; absence of pre-1959 Czech press printing LOW CONFIDENCE)",
+      "disagreements_or_caveats": "Confirmed first major book publication was 1959 in 'Dětské kresby na zastávce k smrti: Terezín 1942–1944' (Prague: Státní židovské museum v Praze), edited by Hana Volavková with an afterword by Jiří Weil and catalogue/biographical notes by Olga Herbenová. General summaries occasionally mention 1950s Czech Jewish community press ('Věstník židovských náboženských obcí'), but no specific pre-1959 newspaper or periodical citation for 'Motýl' was confirmed in museum or library catalogues queried.",
+      "sources": [
+        "kjm.cz",
+        "upm.cz",
+        "ushmm.org",
+        "bnf.fr"
+      ],
+      "unit": "publication year and imprint",
+      "value_or_range": "1959 (State Jewish Museum in Prague, 'Dětské kresby na zastávce k smrti: Terezín 1942–1944')"
+    },
+    {
+      "claim": "Exact English translator credit in 'I Never Saw Another Butterfly'",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "In the standard English editions ('I Never Saw Another Butterfly: Children's Drawings and Poems from Terezín Concentration Camp, 1942–1944' — Artia/McGraw-Hill 1962/1964, Schocken 1978, and Schocken/USHMM expanded 2nd ed. 1993), Jeanne Němcová is credited as the English translator. By contrast, a separate 1993 Prague Jewish Museum edition ('I have not seen a butterfly around here' / 'Motýli tady nežijí') jointly credits Joy Kadečková (Joy Turner-Kadečková), Jeanne Němcová, and Edith Pargeter as translators.",
+      "sources": [
+        "ushmm.org",
+        "mzk.cz",
+        "lieder.net"
+      ],
+      "unit": "translator credit",
+      "value_or_range": "Jeanne Němcová (sole English translator in McGraw-Hill 1964 / Schocken 1978 & 1993 editions; co-credited with Joy Kadečková and Edith Pargeter only in the 1993 Prague Jewish Museum edition)"
+    },
+    {
+      "claim": "Exact title, Vedem issue/date metadata, and Pepek (Josef Stiassny) signature/dates on vedem-terezin.cz Rambles #22 ('Kasárna Kavalír')",
+      "confidence": "MEDIUM (title, signature, Stiassny dates HIGH; absence of issue number/date on the page itself LOW CONFIDENCE)",
+      "disagreements_or_caveats": "No specific Vedem issue number or calendar date for that article was surfaced in the indexed text of 22.html / kasarna-kavalir (the site notes the 'Rambles around Terezín' / 'Toulky' series launched in February 1943). The page includes both the narrator's visit/interview with Dr. Kelly (commandant of the Kavalír Ordnerwache) and Pepek's reflection on Terezín slang ('cvok' / 'idiot'). On the page itself, Pepek is signed 'Pepek (Josef Stiassny)'; archival biographical records establish Josef Stiassny's dates as born 16 September 1916, deported to Terezín 27 July 1942 (Transport AAu, no. 221), deported to Auschwitz 28 September 1944 (Transport Ek, no. 2499), perished 1944.",
+      "sources": [
+        "https://www.vedem-terezin.cz/en/rambles/22.html",
+        "https://www.vedem-terezin.cz/toulky/kasarna-kavalir",
+        "pamatnik-terezin.cz"
+      ],
+      "unit": "page metadata and archival dates",
+      "value_or_range": "Title: Object 22 — 'Block E VII – The Kavalier Barracks' ('Blok E VII – Kasárna Kavalír') in 'Rambles through Terezín' ('Toulky Terezínem'); Signature: 'Pepek (Josef Stiassny)'; Josef Stiassny dates: 16 Sep 1916 – after 28 Sep 1944 (Auschwitz)"
+    },
+    {
+      "claim": "Exact English translation wording and OCR/typo artifacts on https://www.vedem-terezin.cz/en/rambles/22.html",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "The opening quote before 'idiot' appears in indexed text as a left single curly quote (‘idiot”) rather than a double open quote; OCR/encoding artifacts 'ít ís' (for 'it is') and 'mearung' (for 'meaning'; Czech: 'každé slovo má svůj význam'), as well as 'matter-of factness' and 'liver pate - everything', are verbatim present in the published English text on vedem-terezin.cz.",
+      "sources": [
+        "https://www.vedem-terezin.cz/en/rambles/22.html",
+        "https://www.vedem-terezin.cz/toulky/kasarna-kavalir"
+      ],
+      "unit": "verbatim English excerpts with OCR/typo artifacts",
+      "value_or_range": "“Loonie” and ‘idiot” are the most frequently used terms in the vocabulary of Terezín boys. ... The statement that a proposal, the Madrich's order, a book written by an Olbracht, a Hostovský, a Poláček, is idiotic, is pronounced in a loud voice, with such certainty and matter-of factness that ít ís persuasive. ... Boys, do you realize that every word has its mearung? ... Boys, respect your comrades, respect yourselves. You are responsible not only for your actions, but also for your words. Every one of your mothers may one day have to sell slippers made of crumpled paper from behind the barred windows of the madhouse. — Pepek (Josef Stiassny)"
+    },
+    {
+      "claim": "Reconciliation of survival counts for Home 1 / Room 1 of L417 and Vedem contributors",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "All three cited ratios refer to the same cohort (~9%–16% survival) and differ due to oral approximation vs. compiled contributor counts and turnover across 1942–1944 (~40–50 boys lived in Room 1 at a given time, while ~92–110 passed through across transports). Kurt Kotouč (centropa.org) gave an oral estimate of 'about ten' survivors out of 'a hundred or a hundred and ten' boys who passed through House No. 1; Czech educational summaries citing vedem-terezin.cz (moderni-dejiny.cz, ceskatelevize.cz) give '15' survivors out of '~100' boys; English summaries (PR Newswire, Atlanta Jewish Times, Wikipedia) specify '15' survivors out of '92' boys who contributed to Vedem / lived in Home 1.",
+      "sources": [
+        "centropa.org",
+        "vedem-terezin.cz",
+        "moderni-dejiny.cz",
+        "ceskatelevize.cz",
+        "atlantajewishtimes.com"
+      ],
+      "unit": "survivors / cohort total",
+      "value_or_range": "~10 / 100–110 (Kurt Kotouč oral estimate, centropa.org); 15 / ~100 (Czech summaries citing vedem-terezin.cz); 15 / 92 Vedem contributors (English secondary summaries)"
+    },
+    {
+      "claim": "Zdeněk (Sidney) Taussig birth and death dates (resolving Dec 13, 2023 vs. 2012 contradiction)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Confirmed dead on 13 December 2023 in Greenacres, Florida, aged 94 (born 17 October 1929 in Prague; note centropa.org secondary profile lists 1928, whereas obituary and biographical records establish 17 Oct 1929). He did NOT die in 2012; the 2012 date stems from major 2012 Vedem/Petr Ginz commemorations featuring Taussig's rescue of ~800 pages (notably the January 2012 UN Holocaust Outreach booklet and 2012 musical/documentary works).",
+      "sources": [
+        "dignitymemorial.com",
+        "inquirer.com",
+        "un.org",
+        "vedem-terezin.cz"
+      ],
+      "unit": "calendar dates",
+      "value_or_range": "Born 17 October 1929 (Prague); Died 13 December 2023 (Greenacres, Florida) — NOT 2012"
+    },
+    {
+      "claim": "Kurt Jiří Kotouč (Jiří Kurt Kotouč) exact birth and death dates",
+      "confidence": "HIGH for birth date and death year; LOW CONFIDENCE for exact day/month of death in 2008",
+      "disagreements_or_caveats": "Památník národního písemnictví (pamatniknarodnihopisemnictvi.cz) records his exact birthdate as 12 July 1928 in Brno (some secondary sources errantly give 1929) and his death year as 2008 in Prague. Exact calendar day and month of his 2008 death were not found in the queried archival records.",
+      "sources": [
+        "pamatniknarodnihopisemnictvi.cz",
+        "vedem-terezin.cz",
+        "centropa.org"
+      ],
+      "unit": "calendar dates",
+      "value_or_range": "Born 12 July 1928 (Brno); Died 2008 (Prague; exact day/month unverified)"
+    }
+  ],
+  "id": "p2_gap_butterfly_vedem",
+  "myths_checked": [
+    "Myth/Error: Zdeněk (Sidney) Taussig died in 2012 — FALSE. Verified dead 13 December 2023 in Greenacres, FL (aged 94); 2012 refers to the January 2012 UN booklet and 2012 Vedem documentaries/works featuring his story.",
+    "Myth/Error: Edith Pargeter translated 'I Never Saw Another Butterfly' — FALSE for the standard 1962/1964/1978/1993 McGraw-Hill/Schocken editions (translated solely by Jeanne Němcová); Pargeter is co-credited alongside Joy Kadečková and Jeanne Němcová only in the 1993 Prague Jewish Museum edition ('I have not seen a butterfly around here').",
+    "Myth/Error: 'mearung' and 'ít ís' are intentional dialect or translator inventions on vedem-terezin.cz — FALSE. Verified as OCR/encoding typos on vedem-terezin.cz/en/rambles/22.html for 'meaning' and 'it is', alongside mismatched opening quote ‘idiot”.",
+    "Discrepancy: 'About 10 of 100–110' vs '15 of ~100' vs '15 of 92' survivors in L417 Home 1 — RECONCILED. Reflects Kurt Kotouč's oral approximation (~10 of ~100–110 cumulative residents) vs. compiled survivor counts (15) against ~100 cumulative Home 1 boys or 92 documented Vedem contributors.",
+    "Discrepancy: Pavel Friedmann's Terezín deportation date (26 April vs. 28 April 1942) — CHECKED. Holocaust.cz victim database specifies Transport Ao (no. 956) on 28 April 1942, while some English summaries (USHMM, HMD) cite 26 April 1942."
+  ]
+}

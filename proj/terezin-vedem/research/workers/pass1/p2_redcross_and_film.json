@@ -1,0 +1,148 @@
+{
+  "angle": "Verified historical chronology, demographic figures, staged props, inspection failures, and cinematic propaganda surrounding the 1944 Terezín (Theresienstadt) Stadtverschönerung, the June 23, 1944 ICRC/Danish delegation visit, Kurt Gerron's coerced documentary film, and the autumn 1944 liquidation transports to Auschwitz-Birkenau.",
+  "bibliography": [
+    "United States Holocaust Memorial Museum (USHMM), Holocaust Encyclopedia: 'Theresienstadt' and 'Theresienstadt: Red Cross Visit' (https://www.ushmm.org)",
+    "Yad Vashem: Theresienstadt Ghetto / Transports and Propaganda Film archives (https://www.yadvashem.org)",
+    "Památník Terezín (Terezín Memorial): Historical documentation of the 1944 beautification, Kurt Gerron, and autumn 1944 transports (https://www.pamatnik-terezin.cz)",
+    "Terezín Initiative Institute / Holocaust.cz: 'Ghetto Terezín', transport registries Dz/Ea/Eb/Ev, and June 23, 1944 visit records (https://www.holocaust.cz; terezinstudies.cz)",
+    "International Committee of the Red Cross (ICRC) Archives & Daniel Palmieri (2026), 'What did he really see? An ICRC delegate's visit to Theresienstadt on 23 June 1944', Cross-Files (https://blogs.icrc.org/cross-files/what-did-he-really-see-an-icrc-delegates-visit-to-theresienstadt-on-23-june-1944/; ICRC ref. B G 59/12)",
+    "Jewish Museum in Prague: Theresienstadt 1944 beautification and Kurt Gerron film collections (https://www.jewishmuseum.cz)",
+    "Karel Margry, 'A False Start. The Filming at Theresienstadt of January 20, 1944', Apparatus: Film, Media and Digital Cultures of Central and Eastern Europe, No. 2-3 (2016) (https://www.apparatusjournal.net) & Historical Journal of Film, Radio and Television (1992)",
+    "Natascha Drubek, 'The Three Screenings of a Secret Documentary. Theresienstadt Revised', Apparatus No. 2-3 (2016) (https://www.apparatusjournal.net)",
+    "European Holocaust Research Infrastructure (EHRI) Portal & Arolsen Archives: Theresienstadt transport lists and Aktualita film documentation (ehri-project.eu; arolsen-archives.org)",
+    "H. G. Adler, Theresienstadt 1941–1945: Das Antlitz einer Zwangsgemeinschaft (cited via scholarly syntheses)"
+  ],
+  "findings": [
+    {
+      "claim": "Pre-inspection deportations from Theresienstadt to Auschwitz-Birkenau Family Camp (BIIb) to reduce visible overcrowding before the June 23, 1944 Red Cross visit (Transport Dz on May 15: 2,503; Transport Ea on May 16: 2,500; Transport Eb on May 18: 2,500).",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "One general Yad Vashem summary page cites 'between 3,000 and 5,000' deportees, whereas transport lists (Dz, Ea, Eb), USHMM, and Terezín Studies establish the exact total as 7,503 (~7,500) across May 15–18, 1944.",
+      "sources": [
+        "USHMM (ushmm.org)",
+        "Yad Vashem (yadvashem.org)",
+        "Terezín Initiative / Terezín Studies (terezinstudies.cz)",
+        "Arolsen Archives (arolsen-archives.org)"
+      ],
+      "unit": "deportees (across 3 transports)",
+      "value_or_range": "7503"
+    },
+    {
+      "claim": "Staged Stadtverschönerung (beautification) alterations along the tour route: fresh paint on building facades, flower gardens/parks/benches, German civic street signs replacing block numbers (e.g., Rathausgasse), fake/stocked shops using confiscated prisoner goods, a mock café (Kaffeehaus), the Bank of Jewish Self-Administration (Bank der Jüdischen Selbstverwaltung) issuing worthless Theresienstadt Kronen, a children's pavilion (Kinderpavillon) and playground, a music pavilion/bandstand, and reduced barracks density (three-tier bunks replaced with two-tier bunks in selected show quarters while sick/elderly prisoners were hidden or deported).",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "The Bank of Jewish Self-Administration was originally established earlier (1943) and renovated/featured as a showcase during the 1944 beautification.",
+      "sources": [
+        "USHMM (ushmm.org)",
+        "Yad Vashem (yadvashem.org)",
+        "Holocaust.cz (holocaust.cz)",
+        "Jewish Museum in Prague (jewishmuseum.cz)"
+      ],
+      "unit": "staged props and structural modifications",
+      "value_or_range": "8+ documented categories"
+    },
+    {
+      "claim": "Performances of Hans Krása's children's opera Brundibár (libretto by Adolf Hoffmeister) in Terezín, relocated from cramped barracks to the renovated Sokolovna hall for a special staged performance during the June 23, 1944 visit.",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Premiere in Terezín occurred Sept 23, 1943 in the Magdeburg Barracks; cast members were continually replaced as children were deported.",
+      "sources": [
+        "Holocaust.cz (holocaust.cz)",
+        "USHMM (ushmm.org)",
+        "Památník Terezín (pamatnik-terezin.cz)"
+      ],
+      "unit": "total ghetto performances",
+      "value_or_range": "55"
+    },
+    {
+      "claim": "Attendees of the June 23, 1944 inspection: Swiss ICRC delegate Dr. Maurice Rossel (Berlin delegation), Danish Ministry of Foreign Affairs official Frants Hvass, and Danish Ministry of Health / Danish Red Cross representative Dr. Eigil Juel Henningsen, escorted by Nazi/SS officials (including commandant Karl Rahm, German Foreign Office representative Eberhard von Thadden, and Hans Günther) and greeted by Ghetto Elder Dr. Paul Eppstein in top hat and morning coat (forced to deliver a scripted speech while visibly bearing a black eye from a beating by Rahm).",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Hvass and Henningsen submitted more guarded/sympathetic reports regarding Danish prisoners than Rossel's glowing ICRC report, though none exposed the camp's true function as a transit site to extermination.",
+      "sources": [
+        "ICRC Cross-Files (blogs.icrc.org)",
+        "USHMM (ushmm.org)",
+        "Holocaust.cz (holocaust.cz)",
+        "Památník Terezín (pamatnik-terezin.cz)"
+      ],
+      "unit": "inspectors (1 ICRC + 2 Danish)",
+      "value_or_range": "3 delegates"
+    },
+    {
+      "claim": "Duration of the June 23, 1944 delegation visit to Theresienstadt.",
+      "confidence": "MEDIUM",
+      "disagreements_or_caveats": "Sources diverge: some Holocaust.cz and ICRC summaries state ~4 hours (approx. 12:00–16:00), USHMM/academic summaries state ~6 hours, and other accounts state ~8 hours (likely reflecting differences between time inside the staged ghetto route vs. total escorted day schedule).",
+      "sources": [
+        "Holocaust.cz (holocaust.cz)",
+        "USHMM (ushmm.org)",
+        "ICRC Archives / Cross-Files (icrc.org)"
+      ],
+      "unit": "hours",
+      "value_or_range": "4-8"
+    },
+    {
+      "claim": "Pre-planned route and inspection omissions on June 23, 1944: delegates were restricted to a choreographed path through beautified Main Fortress streets, show barracks, shops, café, bank, children's pavilion, sports match, and Sokolovna (Brundibár); Rossel was prevented from—or failed to insist on—moving freely, interviewing inmates privately outside selected Danish Jews and Eppstein, inspecting unrenovated barracks/attics/basements/real hospitals, checking transport records, or visiting the adjacent Small Fortress (Malá pevnost) Gestapo prison.",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "ICRC historian Daniel Palmieri notes from archival records (B G 59/12) that Rossel recognized elements were staged yet produced a report reflecting ICRC institutional constraints and failure to act.",
+      "sources": [
+        "ICRC Cross-Files (blogs.icrc.org)",
+        "USHMM (ushmm.org)",
+        "Holocaust.cz (holocaust.cz)"
+      ],
+      "unit": "qualitative scope",
+      "value_or_range": "Strictly pre-planned tour; Small Fortress & unrenovated quarters omitted"
+    },
+    {
+      "claim": "Conclusions of Maurice Rossel's official ICRC report (ref. B G 59/12): portrayed life in the ghetto as 'almost normal' with adequate provisions and Jewish self-administration, and falsely accepted Nazi assurances that Theresienstadt was an 'Endlager' (final/terminal destination camp) from which no residents were deported further.",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Rossel's report and photographs were used by German Foreign Office official Eberhard von Thadden for Nazi propaganda to counter Allied/Red Cross intelligence on mass murder.",
+      "sources": [
+        "ICRC Archives / Cross-Files (blogs.icrc.org)",
+        "USHMM (ushmm.org)",
+        "Holocaust.cz (holocaust.cz)"
+      ],
+      "unit": "archival report conclusion",
+      "value_or_range": "Endlager (no onward deportations) / 'almost normal'"
+    },
+    {
+      "claim": "Photographs taken by Maurice Rossel with his personal Leica-format camera during the June 23, 1944 visit, capturing staged scenes of smiling children and orderly streets (preserved in ICRC audiovisual archives).",
+      "confidence": "LOW CONFIDENCE",
+      "disagreements_or_caveats": "ICRC audiovisual archives confirm Rossel took photographs during the visit, but the exact figure of 36 exposures derives from secondary chronologies/academic summaries rather than an audited frame-by-frame ICRC catalog check in this session.",
+      "sources": [
+        "ICRC Archives (icrc.org)",
+        "USHMM (ushmm.org)",
+        "Secondary academic/chronology citations (cairn.info; kronobase.org)"
+      ],
+      "unit": "photographs (exposures)",
+      "value_or_range": "36"
+    },
+    {
+      "claim": "Production of the 1944 propaganda film 'Theresienstadt. Ein Dokumentarfilm aus dem jüdischen Siedlungsgebiet', directed under SS coercion by Kurt Gerron and shot by Prague newsreel company Aktualita (head Karel Pečený; cinematographers Ivan V. Frič and Čeněk Zahradníček) under SS supervision (Karl Rahm, Hans Günther). Principal photography spanned 11 shooting days between August 16 and September 11, 1944 (following an aborted test shoot on January 20, 1944). The film was completed in rough cut in March 1945, never publicly released, and survives only in fragments totaling roughly 20 minutes.",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Only fragments (~20 minutes) survive in archives such as USHMM and Czech/Israeli film archives.",
+      "sources": [
+        "USHMM (ushmm.org)",
+        "Apparatus Journal No. 2-3 (2016) / Karel Margry & Natascha Drubek (apparatusjournal.net)",
+        "EHRI Portal (ehri-project.eu)",
+        "Jewish Museum in Prague (jewishmuseum.cz)"
+      ],
+      "unit": "shooting days (Aug 16 – Sep 11, 1944)",
+      "value_or_range": "11"
+    },
+    {
+      "claim": "Autumn 1944 liquidation transports from Theresienstadt to Auschwitz-Birkenau between September 28 and October 28, 1944 (11 consecutive transports), and post-war survivor count.",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Includes Kurt Gerron and his wife Olga on the final transport 'Transport Ev' (Oct 28, 1944, >2,000 deportees; Gerron's murder is recorded as Oct 28 upon arrival or Oct 30, 1944 in some registries), composer Hans Krása (deported Oct 16, 1944), nearly all Brundibár child performers (with rare exceptions such as Ela Stein Weissberger), and most Council of Elders members; Ghetto Elder Paul Eppstein was arrested Sept 27, 1944 and shot dead at the Small Fortress (Sept 27–28, 1944) on the eve of the transports.",
+      "sources": [
+        "Památník Terezín (pamatnik-terezin.cz)",
+        "USHMM (ushmm.org)",
+        "Yad Vashem (yadvashem.org)",
+        "EHRI Portal (ehri-project.eu)"
+      ],
+      "unit": "deportees / survivors across 11 transports",
+      "value_or_range": "18,402 deported / 1,574 survived (<9%)"
+    }
+  ],
+  "id": "p2_redcross_and_film",
+  "myths_checked": [
+    "Myth: The 1944 Nazi propaganda film was titled 'Der Führer schenkt den Juden eine Stadt' ('The Führer Gives the Jews a City'). Fact: Archival research by Karel Margry (Historical Journal of Film, Radio and Television, 1992; Apparatus, 2016) and USHMM confirms this was never the official or Nazi working title; the actual title was 'Theresienstadt. Ein Dokumentarfilm aus dem jüdischen Siedlungsgebiet', while 'Der Führer schenkt den Juden eine Stadt' originated as an ironic inmate phrase or postwar misnomer.",
+    "Myth: Maurice Rossel's claim that Theresienstadt was an 'Endlager' (terminal destination camp) with no further deportations. Fact: 7,503 inmates were deported to Auschwitz-Birkenau just weeks before his June 23, 1944 visit (May 15–18, 1944), and 18,402 were deported to Auschwitz in autumn 1944 (Sept 28 – Oct 28, 1944), part of ~88,000–90,000 total deported from Theresienstadt to killing centers.",
+    "Myth: Directing or performing in the 1944 propaganda film or the Red Cross staging protected the participants from deportation. Fact: Immediately after filming ended on Sept 11, 1944, the SS executed Ghetto Elder Paul Eppstein (Sept 27–28, 1944) and deported 18,402 inmates to Auschwitz—including director Kurt Gerron (Transport Ev, Oct 28, 1944), composer Hans Krása (Oct 16, 1944), most Council of Elders members, and nearly all Brundibár children, of whom only 1,574 survived."
+  ]
+}

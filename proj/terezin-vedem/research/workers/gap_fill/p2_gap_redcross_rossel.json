@@ -1,0 +1,108 @@
+{
+  "angle": "Archival and historiographical reconciliation of the June 23, 1944 ICRC visit to Theresienstadt (duration, Maurice Rossel's photograph count and report, May and Sept-Oct 1944 deportation manifests, and Paul Eppstein's coerced role and execution).",
+  "bibliography": [
+    "https://blogs.icrc.org/cross-files/en/what-did-he-really-see-an-icrc-delegates-visit-to-theresienstadt-on-23-june-1944/",
+    "https://encyclopedia.ushmm.org/content/en/article/theresienstadt-as-tool-of-nazi-propaganda-the-red-cross-visit-1944",
+    "https://encyclopedia.ushmm.org/content/en/article/nazi-propaganda",
+    "https://encyclopedia.ushmm.org/content/en/article/the-theresienstadt-terezin-ghetto",
+    "https://www.holocaust.cz/en/history/theresienstadt/the-makeover-of-the-theresienstadt-ghetto/",
+    "https://www.holocaust.cz/en/history/theresienstadt/",
+    "https://www.holocaust.cz/zdroje/clanky-z-holocaust-cz/posledni-transporty-a-konec-valky-v-terezine/",
+    "https://www.holocaust.cz/en/database-of-digitised-documents/document/89750-dz-terezin-auschwitz/",
+    "https://www.pamatnik-terezin.cz/autumn-transports-of-1944-from-the-ghetto-to-the-east-reflected-in-prisoners-recollections",
+    "https://www.pamatnik-terezin.cz/pietni-shromazdeni-u-prilezitosti-65-vyroci-transportu-ze-16-rijna",
+    "https://shs.cairn.info/revue-le-mouvement-social1-2009-2-page-65?lang=fr",
+    "https://www.apparatusjournal.net/index.php/apparatus/article/view/29",
+    "https://www.apparatusjournal.net/index.php/apparatus/article/view/34",
+    "https://www.apparatusjournal.net/index.php/apparatus/article/view/51",
+    "https://www.apparatusjournal.net/index.php/apparatus/article/view/52",
+    "https://www.gdw-berlin.de/en/recess/biographies/index_of_biographies/biographie-detail/paul-eppstein/",
+    "https://collections.yadvashem.org/en/deportations/12711679"
+  ],
+  "findings": [
+    {
+      "claim": "Duration of the June 23, 1944 ICRC and Danish delegation visit to Theresienstadt",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Sources differ between 4, 6, and 8 hours depending on whether they measure the choreographed ghetto tour itself or the full arrival-to-departure schedule at Theresienstadt: holocaust.cz specifies 'approx. 12 to 4 p.m.' (4 hours) for the ghetto inspection (noting evening dinner at Czernin Palace in Prague at 20:30); USHMM articles 'nazi-propaganda' and 'the-theresienstadt-terezin-ghetto' state 'six hours'; USHMM's dedicated Red Cross visit article ('theresienstadt-as-tool-of-nazi-propaganda-the-red-cross-visit-1944') states 'approximately 11:00 a.m. until 7:00 p.m.' (8 hours total on site). Daniel Palmieri (ICRC Cross-Files, April 8, 2026) characterizes it broadly as an 'hours-long visit' along a tightly escorted route (report B G 59/12-368.02).",
+      "sources": [
+        "https://www.holocaust.cz/en/history/theresienstadt/the-makeover-of-the-theresienstadt-ghetto/",
+        "https://encyclopedia.ushmm.org/content/en/article/theresienstadt-as-tool-of-nazi-propaganda-the-red-cross-visit-1944",
+        "https://encyclopedia.ushmm.org/content/en/article/nazi-propaganda",
+        "https://encyclopedia.ushmm.org/content/en/article/the-theresienstadt-terezin-ghetto",
+        "https://blogs.icrc.org/cross-files/en/what-did-he-really-see-an-icrc-delegates-visit-to-theresienstadt-on-23-june-1944/"
+      ],
+      "unit": "hours",
+      "value_or_range": "4 to 8 hours (4 hours: ~12:00-16:00; 6 hours; 8 hours: ~11:00-19:00)"
+    },
+    {
+      "claim": "Exact photograph count taken by ICRC delegate Maurice Rossel on June 23, 1944",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Two authoritative counts exist: ICRC historian Daniel Palmieri (Cross-Files, 2026) and the ICRC Audiovisual Archives (series V-P-HIST-01160, V-P-HIST-01161, V-P-HIST-01162, including V-P-HIST-01161-27 showing Rossel before the music kiosk and 5 fire-brigade drill shots) confirm 38 photos taken by Rossel. Historians Sébastien Farré and Yan Schubert (Le Mouvement Social No. 227, 2009, 'L'illusion de l'objectif') cite 36 photographs (matching a standard 36-exposure 35mm Leica roll), noting not all were attached to Rossel's report (B G 59/12-368.02); secondary summaries commonly report 16 prints attached to the official report.",
+      "sources": [
+        "https://blogs.icrc.org/cross-files/en/what-did-he-really-see-an-icrc-delegates-visit-to-theresienstadt-on-23-june-1944/",
+        "https://shs.cairn.info/revue-le-mouvement-social1-2009-2-page-65?lang=fr"
+      ],
+      "unit": "photographs",
+      "value_or_range": "38 (ICRC Cross-Files & V-P-HIST archives) vs. 36 (Farré & Schubert 2009; ~16 attached to report)"
+    },
+    {
+      "claim": "May 15-18, 1944 pre-visit deportations from Theresienstadt to Auschwitz-Birkenau (Family Camp BIIb) across Transports Dz, Ea, and Eb",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Transport Dz (May 15, 1944): 2,503 deportees (holocaust.cz victim profile summaries also note 2,501 / 2,503; digitised document 89750-dz-terezin-auschwitz); Transport Ea (May 16, 1944): 2,500 deportees (40 survived, 2,460 murdered per holocaust.cz); Transport Eb (May 18, 1944): 2,500 deportees (301 survived, 2,199 murdered per holocaust.cz). Combined total = 7,503 deportees.",
+      "sources": [
+        "https://www.holocaust.cz/en/database-of-digitised-documents/document/89750-dz-terezin-auschwitz/",
+        "https://www.holocaust.cz/en/history/theresienstadt/",
+        "https://collections.yadvashem.org/en/deportations/12711679",
+        "https://www.pamatnik-terezin.cz/autumn-transports-of-1944-from-the-ghetto-to-the-east-reflected-in-prisoners-recollections"
+      ],
+      "unit": "deportees across 3 transports",
+      "value_or_range": "7,503 (Dz: 2,503 [or 2,501]; Ea: 2,500; Eb: 2,500)"
+    },
+    {
+      "claim": "September 28 - October 28, 1944 autumn liquidation transports from Theresienstadt to Auschwitz-Birkenau (11 transports: Ek through Et, plus Ev)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Exact 11 Terezín-to-Auschwitz transports skip code 'Eu' (Oct 27, 1944, Prague -> Auschwitz, 18 deportees, all murdered). The 11 Terezín transports total 18,402 per holocaust.cz and Terezín Memorial (Památník Terezín): Ek (Sept 28: 2,499; one holocaust.cz page lists 2,500 with 477 survived/2,023 murdered), El (Sept 29: 1,500), Em (Oct 1: 1,500), En (Oct 4: 1,500), Eo (Oct 6: 1,550), Ep (Oct 9: 1,600; one snippet notes 1,500), Eq (Oct 12: 1,500), Er (Oct 16: 1,500), Es (Oct 19: 1,500), Et (Oct 23: 1,715 [~1,714-1,715]; ~197 survived), Ev (Oct 28: 2,038 [2,035 on individual holocaust.cz transport page, 163 survived/1,872 murdered]). Note: holocaust.cz overview rounds total to 'na 18400 lidí'.",
+      "sources": [
+        "https://www.pamatnik-terezin.cz/autumn-transports-of-1944-from-the-ghetto-to-the-east-reflected-in-prisoners-recollections",
+        "https://www.pamatnik-terezin.cz/pietni-shromazdeni-u-prilezitosti-65-vyroci-transportu-ze-16-rijna",
+        "https://www.holocaust.cz/zdroje/clanky-z-holocaust-cz/posledni-transporty-a-konec-valky-v-terezine/",
+        "https://www.holocaust.cz/en/history/theresienstadt/"
+      ],
+      "unit": "deportees across 11 transports",
+      "value_or_range": "18,402 (11 transports: Ek-Et, Ev)"
+    },
+    {
+      "claim": "Survivors from the 18,402 deportees sent from Theresienstadt to Auschwitz-Birkenau (Sept 28 - Oct 28, 1944)",
+      "confidence": "MEDIUM",
+      "disagreements_or_caveats": "Památník Terezín and holocaust.cz ('posledni-transporty-a-konec-valky-v-terezine') both report 1,574 survivors ('Z nich přežilo jen 1574 osob', <10%). Secondary tallies occasionally cite a range (~1,474 to 1,574).",
+      "sources": [
+        "https://www.holocaust.cz/zdroje/clanky-z-holocaust-cz/posledni-transporty-a-konec-valky-v-terezine/",
+        "https://www.pamatnik-terezin.cz/autumn-transports-of-1944-from-the-ghetto-to-the-east-reflected-in-prisoners-recollections",
+        "https://www.pamatnik-terezin.cz/pietni-shromazdeni-u-prilezitosti-65-vyroci-transportu-ze-16-rijna"
+      ],
+      "unit": "survivors",
+      "value_or_range": "1,574 (secondary tallies ~1,474-1,574)"
+    },
+    {
+      "claim": "Paul Eppstein's coerced 'mayor' role, black eye (blaues Auge), scripted speech (June 23, 1944), and arrest/execution (Sept 27-28, 1944)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "On June 23, 1944, 2nd Judenältester Paul Eppstein was forced to wear a morning coat and top hat, ride in a limousine driven by an SS officer posing as a chauffeur, and deliver a scripted speech portraying Theresienstadt as a normal town with no deportations, while bearing a visible black eye from a beating by SS Commandant Karl Rahm days earlier (documented in scholarship e.g. Cambridge University Press / Hájková; H.G. Adler). Note: apparatusjournal.net articles (view/29, 34, 51, 52) examine Eppstein's forced welcoming speech in propaganda film shoots (Jan 20, 1944 and summer 1944) and his Sept 1944 New Year's speech, NOT the black-eye detail. Eppstein was arrested by the Gestapo/SS on Sept 27, 1944 and shot at the Small Fortress (Kleine Festung) on Sept 27 or Sept 28, 1944 (exact execution date Sept 27 vs Sept 28 varies in records per gdw-berlin.de).",
+      "sources": [
+        "https://www.gdw-berlin.de/en/recess/biographies/index_of_biographies/biographie-detail/paul-eppstein/",
+        "https://www.apparatusjournal.net/index.php/apparatus/article/view/29",
+        "https://www.apparatusjournal.net/index.php/apparatus/article/view/34",
+        "https://www.apparatusjournal.net/index.php/apparatus/article/view/51",
+        "https://www.apparatusjournal.net/index.php/apparatus/article/view/52"
+      ],
+      "unit": "historical event dates & details",
+      "value_or_range": "June 23, 1944 (inspection); Sept 27-28, 1944 (arrest & execution)"
+    }
+  ],
+  "id": "p2_gap_redcross_rossel",
+  "myths_checked": [
+    "Claim that '36 photos' is the confirmed ICRC archive count: ICRC Cross-Files (Daniel Palmieri, 2026) and V-P-HIST catalog actually confirm 38 photos, whereas '36' derives from Farré & Schubert (2009) / standard 36-exposure 35mm Leica film roll size (and ~16 prints were attached to report B G 59/12-368.02).",
+    "Assumption that the 11 autumn 1944 Terezín-to-Auschwitz transports were consecutive Ek through Eu: Transport Eu (Oct 27, 1944, 18 deportees) went from Prague to Auschwitz; the 11 Terezín transports were Ek through Et plus Ev.",
+    "Assumption that 4 vs 6 vs 8 hours are contradictory errors: 4 hours (holocaust.cz, ~12:00-16:00) reflects the guided ghetto tour; 6 hours (USHMM main articles) and 8 hours (USHMM Red Cross article, ~11:00-19:00) reflect broader on-site/itinerary windows.",
+    "Assumption that apparatusjournal.net documents Paul Eppstein's black eye: apparatusjournal.net covers Eppstein's forced film welcoming speeches and Sept 1944 New Year's speech, while the black eye from Karl Rahm's beating appears in broader Theresienstadt historiography (e.g., Cambridge UP, H.G. Adler)."
+  ]
+}
