@@ -1,0 +1,159 @@
+{
+  "angle": "Inventory of license-verified Public Domain and CC-BY-SA historical photographs, propaganda film stills, ghetto artworks, Building L417 / Vedem documentation, and explicit copyright exclusions across Wikimedia Commons, USHMM, Bundesarchiv, ICRC, and vedem-terezin.cz.",
+  "bibliography": [
+    "Wikimedia Commons, File:Theresienstadt_film_crew.jpg — https://commons.wikimedia.org/wiki/File:Theresienstadt_film_crew.jpg",
+    "Wikimedia Commons, File:Brundibar_Theresienstadt_Standfoto_20.jpg — https://commons.wikimedia.org/wiki/File:Brundibar_Theresienstadt_Standfoto_20.jpg",
+    "Wikimedia Commons, File:Ghetto_Swingers_Theresienstadt_1944_10.jpg — https://commons.wikimedia.org/wiki/File:Ghetto_Swingers_Theresienstadt_1944_10.jpg",
+    "Wikimedia Commons, File:Ghetto_Swingers_Theresienstadt_1944_20.jpg — https://commons.wikimedia.org/wiki/File:Ghetto_Swingers_Theresienstadt_1944_20.jpg",
+    "Wikimedia Commons, File:Shooting_%27Film_Ghetto_Theresienstadt%27.jpg — https://commons.wikimedia.org/wiki/File:Shooting_%27Film_Ghetto_Theresienstadt%27.jpg",
+    "Wikimedia Commons, File:Map_of_Theresienstadt_with_plan_of_the_visit_of_the_international_delegation.jpg — https://commons.wikimedia.org/wiki/File:Map_of_Theresienstadt_with_plan_of_the_visit_of_the_international_delegation.jpg",
+    "Wikimedia Commons, File:Elderly_Jews_rescued_from_Theresienstadt.jpg & USHMM Catalog pa1121409 — https://commons.wikimedia.org/wiki/File:Elderly_Jews_rescued_from_Theresienstadt.jpg | http://collections.ushmm.org/search/catalog/pa1121409",
+    "Wikimedia Commons, File:Facades_for_the_International_Commission.jpg — https://commons.wikimedia.org/wiki/File:Facades_for_the_International_Commission.jpg",
+    "Wikimedia Commons, File:Transport_arriving_in_Theresienstadt.jpg — https://commons.wikimedia.org/wiki/File:Transport_arriving_in_Theresienstadt.jpg",
+    "Wikimedia Commons, File:Petr_Ginz_(1928_1944)_Mlady_Vek.jpg — https://commons.wikimedia.org/wiki/File:Petr_Ginz_(1928_1944)_Mlady_Vek.jpg",
+    "Wikimedia Commons, File:Petr_Ginz_-_Posledn%C3%AD_let.jpg — https://commons.wikimedia.org/wiki/File:Petr_Ginz_-_Posledn%C3%AD_let.jpg",
+    "Wikimedia Commons, File:Budova_L417_-_Terez%C3%ADn.jpg — https://commons.wikimedia.org/wiki/File:Budova_L417_-_Terez%C3%ADn.jpg",
+    "Wikimedia Commons, File:Terezin_CZ_Magdeburg_Barracks_Ater91.jpg — https://commons.wikimedia.org/wiki/File:Terezin_CZ_Magdeburg_Barracks_Ater91.jpg",
+    "Wikimedia Commons, File:N%C3%A1rodn%C3%AD_h%C5%99bitov_Terez%C3%ADn.jpg — https://commons.wikimedia.org/wiki/File:N%C3%A1rodn%C3%AD_h%C5%99bitov_Terez%C3%ADn.jpg",
+    "Wikimedia Commons, File:%C4%8Casopis_Vedem.jpg — https://commons.wikimedia.org/wiki/File:%C4%8Casopis_Vedem.jpg",
+    "Wikimedia Commons, File:Bundesarchiv_Bild_183-B0711-0005-036,_Oberstes_Gericht,_Globke-Prozess,_Aussage,_Judis_Urbanova.jpg — https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-B0711-0005-036,_Oberstes_Gericht,_Globke-Prozess,_Aussage,_Judis_Urbanova.jpg",
+    "International Committee of the Red Cross (ICRC) Audiovisual Archives & Terms of Use (Maurice Rossel 1944 collection)",
+    "Památník Terezín / vedem-terezin.cz (Archiv Památníku Terezín A 1317 copyright notice)",
+    "United States Holocaust Memorial Museum (USHMM) Collections Search Rights & Restrictions Policy (collections.ushmm.org)",
+    "Milan Kuna, Musik an der Grenze des Lebens (Zweitausendeins, 1993); Karel Margry, Historical Journal of Film, Radio & Television (Vol. 19, Issue 3, Aug. 1999, p. 323)"
+  ],
+  "findings": [
+    {
+      "claim": "Candidate 1 — 1944 Nazi Propaganda Film Crew Photograph (File:Theresienstadt_film_crew.jpg)",
+      "confidence": "MEDIUM",
+      "disagreements_or_caveats": "Tagged on Wikimedia Commons with an anonymous public domain notice (Berne Convention Art. 7, >50 years since publication), accompanied by Commons' standard warning that anonymous PD status may not apply automatically in jurisdictions with longer anonymous or URAA terms (US, EU, India, Russia). Note also that English Wikipedia hosts a related local file File:Theresienstadt_film.jpg, whereas the verified Commons title is File:Theresienstadt_film_crew.jpg.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Theresienstadt_film_crew.jpg",
+        "European Holocaust Research Infrastructure (EHRI) / USHMM collections"
+      ],
+      "unit": "Verified Commons File + License Metadata",
+      "value_or_range": "Exact Title: File:Theresienstadt film crew.jpg | Page URL: https://commons.wikimedia.org/wiki/File:Theresienstadt_film_crew.jpg | Depicts: Film crew shooting motion pictures inside the Theresienstadt ghetto during the 1944 Nazi propaganda film; assistant cameraman Ivan Frič stands near the cameraman with a Jewish assistant wearing a Star of David on the right. | Creator/Date: Unknown photographer, 1944 (source: EHRI / USHMM). | License: Public Domain (anonymous work >50 years, {{PD-old-auto-expired}} / anonymous PD notice). | Attribution: None legally required under PD; recommended scholarly credit: \"Unknown photographer, 1944, via EHRI / Wikimedia Commons\"."
+    },
+    {
+      "claim": "Candidate 2 — 1944 Propaganda Film Still of Brundibár Performance (File:Brundibar_Theresienstadt_Standfoto_20.jpg)",
+      "confidence": "MEDIUM",
+      "disagreements_or_caveats": "Still from coerced 1944 Nazi propaganda filming; full surviving film reels in Národní filmový archiv (Prague) or Murnau-Stiftung may have institutional access/restoration terms, though this published still from Kuna (1993) is tagged PD on Commons. Single-sourced to Commons metadata + Milan Kuna (1993).",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Brundibar_Theresienstadt_Standfoto_20.jpg",
+        "Milan Kuna, Musik an der Grenze des Lebens (Frankfurt am Main: Zweitausendeins, 1993)"
+      ],
+      "unit": "Verified Commons File + License Metadata",
+      "value_or_range": "Exact Title: File:Brundibar Theresienstadt Standfoto 20.jpg | Page URL: https://commons.wikimedia.org/wiki/File:Brundibar_Theresienstadt_Standfoto_20.jpg | Depicts: Production still from the children's opera Brundibár (by Hans Krása) staged for the 1944 propaganda film Theresienstadt. | Creator/Date: Unknown photographer, 1944 (published in Milan Kuna, 1993). | License: Public Domain (expired in country of origin / life+70 or fewer and PD in the US). | Attribution: None legally required under PD; recommended credit: \"Unknown photographer, 1944 (via Milan Kuna, Musik an der Grenze des Lebens, 1993 / Wikimedia Commons)\"."
+    },
+    {
+      "claim": "Candidate 3 — 1944 Propaganda Film Stills of Ghetto Swingers Jazz Band (File:Ghetto_Swingers_Theresienstadt_1944_10.jpg & 20.jpg)",
+      "confidence": "MEDIUM",
+      "disagreements_or_caveats": "Same anonymous-work PD caveat as other 1944 stills if reused in jurisdictions requiring longer anonymous terms or URAA compliance; depicts coerced propaganda staging rather than voluntary performance.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Ghetto_Swingers_Theresienstadt_1944_10.jpg",
+        "https://commons.wikimedia.org/wiki/File:Ghetto_Swingers_Theresienstadt_1944_20.jpg",
+        "Milan Kuna, Musik an der Grenze des Lebens (Zweitausendeins, 1993)"
+      ],
+      "unit": "Verified Commons File + License Metadata",
+      "value_or_range": "Exact Titles: File:Ghetto Swingers Theresienstadt 1944 10.jpg and File:Ghetto Swingers Theresienstadt 1944 20.jpg | Page URLs: https://commons.wikimedia.org/wiki/File:Ghetto_Swingers_Theresienstadt_1944_10.jpg and https://commons.wikimedia.org/wiki/File:Ghetto_Swingers_Theresienstadt_1944_20.jpg | Depicts: Jewish prisoner jazz band the Ghetto Swingers (led by Martin Roman) performing during the 1944 Theresienstadt propaganda film shoot. | Creator/Date: Unknown photographer, 1944 (from Milan Kuna, 1993). | License: Public Domain (anonymous old work / Berne Convention Art. 7 >50 years). | Attribution: None legally required under PD; recommended credit: \"Unknown photographer, 1944 (via Milan Kuna, 1993 / Wikimedia Commons)\"."
+    },
+    {
+      "claim": "Candidate 4 — 1942 First Theresienstadt Propaganda Film Shoot (File:Shooting_%27Film_Ghetto_Theresienstadt%27.jpg)",
+      "confidence": "LOW CONFIDENCE",
+      "disagreements_or_caveats": "LOW CONFIDENCE on universal PD applicability: Wikimedia Commons file page explicitly notes that while tagged PD as an anonymous work, copyright status may vary in the United States and the European Union under URAA or local term extensions. Also note this depicts the lesser-known 1942 film shoot (not the 1944 Red Cross visit).",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Shooting_%27Film_Ghetto_Theresienstadt%27.jpg",
+        "Karel Margry, Historical Journal of Film, Radio & Television, Aug. 1999, Vol. 19, Issue 3, p. 323; EHRI"
+      ],
+      "unit": "Verified Commons File + License Metadata",
+      "value_or_range": "Exact Title: File:Shooting 'Film Ghetto Theresienstadt'.jpg | Page URL: https://commons.wikimedia.org/wiki/File:Shooting_%27Film_Ghetto_Theresienstadt%27.jpg | Depicts: On-set photograph identified by film historian Karel Margry as the shooting of the first Theresienstadt propaganda film in 1942. | Creator/Date: Unknown photographer, 1942 (source: EHRI). | License: Public Domain (anonymous work; subject to US URAA / EU term-extension caveat on Commons). | Attribution: None legally required under PD; recommended credit: \"Unknown photographer, 1942, via EHRI / Wikimedia Commons\"."
+    },
+    {
+      "claim": "Candidate 5 — 1945 Rescue of Theresienstadt Survivors in Switzerland (File:Elderly_Jews_rescued_from_Theresienstadt.jpg / USHMM pa1121409)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Verified across both Wikimedia Commons and the USHMM catalog (pa1121409 explicitly lists Copyright: Public Domain). Caveat: photograph was taken in St. Gallen, Switzerland immediately after the February 1945 rescue transport, rather than inside Terezín itself.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Elderly_Jews_rescued_from_Theresienstadt.jpg",
+        "http://collections.ushmm.org/search/catalog/pa1121409"
+      ],
+      "unit": "Verified Commons + USHMM Catalog File",
+      "value_or_range": "Exact Title: File:Elderly Jews rescued from Theresienstadt.jpg (USHMM Catalog pa1121409) | Page URLs: https://commons.wikimedia.org/wiki/File:Elderly_Jews_rescued_from_Theresienstadt.jpg and http://collections.ushmm.org/search/catalog/pa1121409 | Depicts: Elderly Jewish survivors rescued from Theresienstadt eating a warm meal at the Hadwigschulhaus refugee center in St. Gallen, Switzerland. | Creator/Date: Walter Scheiwiller (for Fotopress-Zuerich), February 11, 1945 (source: Stadtarchiv [Vadiana] St. Gallen via USHMM). | License: Public Domain (USHMM lists \"Copyright: Public Domain\"; Commons cites Swiss Copyright Act Art. 5). | Attribution: None legally required under PD; recommended credit: \"Walter Scheiwiller / Stadtarchiv (Vadiana) St. Gallen, courtesy of USHMM (Catalog pa1121409)\"."
+    },
+    {
+      "claim": "Candidate 6 — Historical Portrait of Vedem Editor Petr Ginz (File:Petr_Ginz_(1928_1944)_Mlady_Vek.jpg) & Solo Artwork (File:Petr_Ginz_-_Posledn%C3%AD_let.jpg)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Portrait (Mlady Vek.jpg) relies on anonymous-work PD rules (single-sourced family archive via Holocaust.cz / Memory of Nations); artwork (Poslední let.jpg) is securely PD in life+70/life+80 jurisdictions because Petr Ginz was murdered in 1944 (80+ years ago as of 2026), though Commons notes PD-100 / life+80 or less.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Petr_Ginz_(1928_1944)_Mlady_Vek.jpg",
+        "https://commons.wikimedia.org/wiki/File:Petr_Ginz_-_Posledn%C3%AD_let.jpg"
+      ],
+      "unit": "Verified Commons Files + License Metadata",
+      "value_or_range": "Exact Titles: File:Petr Ginz (1928 1944) Mlady Vek.jpg (portrait photo) and File:Petr Ginz - Poslední let.jpg (Terezín artwork) | Page URLs: https://commons.wikimedia.org/wiki/File:Petr_Ginz_(1928_1944)_Mlady_Vek.jpg and https://commons.wikimedia.org/wiki/File:Petr_Ginz_-_Posledn%C3%AD_let.jpg | Depicts: Archival portrait of Vedem editor-in-chief Petr Ginz (1928–1944) and his Terezín drawing \"The Last Flight\" / Moon Landscape. | Creator/Date: Portrait: Unknown photographer, pre-1944 (via Holocaust.cz / Chava Pressburger archive); Artwork: Petr Ginz, 1942–1944 (via Museum of Fine Arts, Houston). | License: Public Domain (portrait: anonymous work PD; artwork: PD-100 / life+80 or less, faithful 2D reproduction). | Attribution: None legally required under PD; recommended credit: \"Petr Ginz (artwork) / Chava Pressburger family archive (portrait), via Wikimedia Commons\"."
+    },
+    {
+      "claim": "Candidate 7 — 1944 Red Cross International Delegation Visit Map (File:Map_of_Theresienstadt_with_plan_of_the_visit_of_the_international_delegation.jpg)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Archival map/plan rather than a photograph, but rock-solid Public Domain Mark 1.0 status and directly documents the June 1944 Red Cross inspection route.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Map_of_Theresienstadt_with_plan_of_the_visit_of_the_international_delegation.jpg",
+        "Jewish Museum in Prague"
+      ],
+      "unit": "Verified Commons File + License Metadata",
+      "value_or_range": "Exact Title: File:Map of Theresienstadt with plan of the visit of the international delegation.jpg | Page URL: https://commons.wikimedia.org/wiki/File:Map_of_Theresienstadt_with_plan_of_the_visit_of_the_international_delegation.jpg | Depicts: Historical map detailing the planned inspection route and locations staged for the 1944 international Red Cross delegation visit to Terezín. | Creator/Date: Unknown creator, February 1944 (source: Jewish Museum in Prague). | License: Public Domain / Public Domain Mark 1.0 (free of known copyright restrictions; life+70 or less). | Attribution: None legally required under PDM 1.0; recommended credit: \"Jewish Museum in Prague (February 1944), via Wikimedia Commons\"."
+    },
+    {
+      "claim": "Candidate 8 — Bedřich Fritta Ghetto Drawings Exposing the 1944 Red Cross Facade & Deportations (File:Facades_for_the_International_Commission.jpg & File:Transport_arriving_in_Theresienstadt.jpg)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "These are secret documentary drawings rather than photographs, but they are rock-solid Public Domain (author died Nov 1944, >80 years ago as of 2026; URAA-compliant faithful 2D reproductions) and directly counter the Nazi 1944 propaganda imagery. Other verified PD Fritta files on Commons include File:Kaffeehaus_Theresienstadt.jpg, File:In_the_Living_Quarters.jpg, File:A_Funeral_in_the_Ghetto.jpg, and File:Deportation_Fritta.jpg.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Facades_for_the_International_Commission.jpg",
+        "https://commons.wikimedia.org/wiki/File:Transport_arriving_in_Theresienstadt.jpg",
+        "https://commons.wikimedia.org/wiki/File:A_Funeral_in_the_Ghetto.jpg"
+      ],
+      "unit": "Verified Commons Files + License Metadata",
+      "value_or_range": "Exact Titles: File:Facades for the International Commission.jpg (1943–1944) and File:Transport arriving in Theresienstadt.jpg | Page URLs: https://commons.wikimedia.org/wiki/File:Facades_for_the_International_Commission.jpg and https://commons.wikimedia.org/wiki/File:Transport_arriving_in_Theresienstadt.jpg | Depicts: Secret documentary ink drawings created inside Terezín depicting the Potemkin facades built for the June 1944 Red Cross inspection and transport arrivals. | Creator/Date: Bedřich Fritta (1906–1944), 1941–1944 (source: Jewish Museum Berlin / Ghetto Fighters' House). | License: Public Domain (author died >70 years ago in 1944 + URAA / faithful 2D reproduction). | Attribution: None legally required under PD; recommended credit: \"Bedřich Fritta (1943–1944), Jewish Museum Berlin, via Wikimedia Commons\"."
+    },
+    {
+      "claim": "Candidate 9 — Building L417 (Former Boys' Home & Vedem Site) and Terezín Barracks / Memorial Photographs (CC BY-SA)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Contemporary documentary photographs (2006–2022) of the historic structures rather than 1941–1945 archival photos. Require strict CC BY-SA (or CC BY) attribution and ShareAlike compliance.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Budova_L417_-_Terez%C3%ADn.jpg",
+        "https://commons.wikimedia.org/wiki/File:Terezin_CZ_Magdeburg_Barracks_Ater91.jpg",
+        "https://commons.wikimedia.org/wiki/File:N%C3%A1rodn%C3%AD_h%C5%99bitov_Terez%C3%ADn.jpg"
+      ],
+      "unit": "Verified Commons CC Files + Attribution Strings",
+      "value_or_range": "1) File:Budova L417 - Terezín.jpg (https://commons.wikimedia.org/wiki/File:Budova_L417_-_Terez%C3%ADn.jpg) — Building L417 (Boys' Home 1 / Ghetto Museum where Vedem was produced); Author: Terezínská štafeta, 25 Oct 2012; License: CC BY-SA 3.0 Unported; Attribution: \"Terezínská štafeta, CC BY-SA 3.0, via Wikimedia Commons\". 2) File:Terezin CZ Magdeburg Barracks Ater91.jpg (https://commons.wikimedia.org/wiki/File:Terezin_CZ_Magdeburg_Barracks_Ater91.jpg) — Magdeburg Barracks in Terezín; Author: Hans Weingartz (Leonce49), 1 Jul 2006; License: CC BY-SA 2.0 DE; Attribution: \"Hans Weingartz (Leonce49), CC BY-SA 2.0 DE, via Wikimedia Commons\". 3) File:Národní hřbitov Terezín.jpg (https://commons.wikimedia.org/wiki/File:N%C3%A1rodn%C3%AD_h%C5%99bitov_Terez%C3%ADn.jpg) — National Cemetery at Terezín Small Fortress; Author: Ondřej Žváček, 3 Jul 2022; License: CC BY-SA 4.0; Attribution: \"Ondřej Žváček, CC BY-SA 4.0, via Wikimedia Commons\"."
+    },
+    {
+      "claim": "Candidate 10 (With Major Caveat) — Vedem Magazine Photograph on Wikimedia Commons (File:%C4%8Casopis_Vedem.jpg) vs. vedem-terezin.cz Scans",
+      "confidence": "LOW CONFIDENCE",
+      "disagreements_or_caveats": "LOW CONFIDENCE for clean reuse: Although photographer Terezínská štafeta uploaded File:Časopis Vedem.jpg (5184×3456 px) as \"Own work\" under CC BY-SA 3.0 on April 5, 2013, the underlying 1942–1944 Vedem issues are cataloged at Terezín Memorial (Archiv Památníku Terezín A 1317), which explicitly claims all copyrights on vedem-terezin.cz, and several Vedem boys survived well past 1955 (e.g., Kurt Jiří Kotouč d. 2008, Zdeněk Taussig d. 2012). Do NOT use scans from vedem-terezin.cz (explicitly copyrighted by Památník Terezín), and treat File:Časopis Vedem.jpg with caution regarding underlying 2D content rights.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:%C4%8Casopis_Vedem.jpg",
+        "vedem-terezin.cz (Archiv Památníku Terezín A 1317 copyright statement)"
+      ],
+      "unit": "Verified Commons File + Copyright Exclusion Notice",
+      "value_or_range": "Exact Title: File:Časopis Vedem.jpg | Page URL: https://commons.wikimedia.org/wiki/File:%C4%8Casopis_Vedem.jpg | Depicts: 2013 DSLR photograph (5,184 × 3,456 px) of an issue/display of Vedem. | Creator/Date: Terezínská štafeta, April 5, 2013. | License: CC BY-SA 3.0 Unported (photographer's layer only). | Attribution: \"Terezínská štafeta, CC BY-SA 3.0, via Wikimedia Commons\". | vedem-terezin.cz scans: COPYRIGHTED by Památník Terezín (Archiv Památníku Terezín, identifikační číslo A 1317) — DO NOT USE without permission."
+    },
+    {
+      "claim": "Exclusion / Do Not Use — Maurice Rossel 1944 ICRC Photographs & Restricted USHMM Items & Bundesarchiv Scope",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Essential negative findings: (1) Maurice Rossel's June 23, 1944 photographs of Theresienstadt are NOT public domain; copyright is held by the International Committee of the Red Cross (ICRC Audiovisual Archives, V-P-HIST series) and commercial/publication reuse requires prior express ICRC authorization (© International Committee of the Red Cross / Maurice Rossel / 1944). (2) USHMM collections.ushmm.org has mixed rights: researchers must verify \"Rights & Restrictions\" per record and only use records explicitly marked Public Domain (e.g. pa1121409), avoiding third-party/donor-restricted items. (3) Bundesarchiv's CC-BY-SA 3.0 DE Commons donation includes postwar 1963 Globke trial testimony photos of Theresienstadt survivors (e.g., File:Bundesarchiv Bild 183-B0711-0005-036, Oberstes Gericht, Globke-Prozess, Aussage, Judis Urbanova.jpg, CC BY-SA 3.0 DE, Attribution: \"Bundesarchiv, Bild 183-B0711-0005-036 / CC-BY-SA 3.0\"), not 1941–1945 camp photographs.",
+      "sources": [
+        "ICRC Audiovisual Archives & ICRC Terms of Use",
+        "https://collections.ushmm.org (USHMM Rights & Restrictions policy)",
+        "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-B0711-0005-036,_Oberstes_Gericht,_Globke-Prozess,_Aussage,_Judis_Urbanova.jpg"
+      ],
+      "unit": "Archival Copyright Verification",
+      "value_or_range": "Maurice Rossel (1944): Copyrighted by ICRC (DO NOT USE without ICRC license) | vedem-terezin.cz: Copyrighted by Terezín Memorial (DO NOT USE without permission) | USHMM: Mixed rights (use only explicit PD items like pa1121409) | Bundesarchiv CC BY-SA 3.0 DE: Postwar survivor testimony photos only (e.g. Globke-Prozess 1963)"
+    }
+  ],
+  "id": "p5_licensed_photos_and_archives",
+  "myths_checked": [
+    "Myth: Maurice Rossel's June 1944 Red Cross inspection photos of Theresienstadt are in the public domain because they are from WWII. Reality: Verified false — copyright is actively held by the International Committee of the Red Cross (ICRC), requiring prior express authorization for publication or commercial reuse.",
+    "Myth: All scans on vedem-terezin.cz or USHMM collections are public domain for open reuse. Reality: Verified false — vedem-terezin.cz explicitly states Památník Terezín retains all copyrights to texts and graphic scans (Archiv Památníku Terezín A 1317), and USHMM has mixed rights requiring per-record verification in the \"Rights & Restrictions\" block.",
+    "Myth: The Bundesarchiv Wikimedia Commons donation (CC BY-SA 3.0 DE) contains 1941–1945 wartime photographs of the Theresienstadt ghetto. Reality: Searches across Wikimedia Commons Bundesarchiv categories surface postwar 1963 Globke-Prozess survivor testimony photographs (e.g., Bild 183-B0711-0005-036 and -042), rather than wartime Bundesarchiv camp photography.",
+    "Myth: Any Wikimedia Commons file tagged \"PD-anon\" from 1942–1944 is unconditionally public domain everywhere. Reality: Commons explicitly flags anonymous 1942–1944 film stills (e.g. Shooting 'Film Ghetto Theresienstadt'.jpg and Theresienstadt film crew.jpg) with jurisdictional caveats regarding US URAA and EU term rules."
+  ]
+}

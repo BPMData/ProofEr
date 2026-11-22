@@ -1,0 +1,185 @@
+{
+  "angle": "Canonical primary URL resolution and multi-source verification of Terezín (Theresienstadt) spatial footprint, pre-war population, September 1942 overcrowding/mortality peaks, child mortality/births/survival, and aggregate prisoner/deportation/death cohorts.",
+  "bibliography": [
+    "Adler, H. G. (2017 [1955]). Theresienstadt 1941–1945: The Face of a Coerced Community (trans. B. Cooper). Cambridge University Press. https://www.cambridge.org/core/books/theresienstadt-19411945/741CA0829871F8EFC4099684C2F4BE69 | https://doi.org/10.1017/9781139017053",
+    "Beit Theresienstadt (House of Terezín). Historical Background: Ghetto Theresienstadt. https://bterezin.org.il/ghetto-theresienstadt/historical-background/",
+    "Blodig, Vojtěch (Památník Terezín). Přežívání v ghettu Terezín (Roš chodeš, hosted on Holocaust.cz). https://www.holocaust.cz/zdroje/clanky-z-ros-chodes/prezivani-v-ghettu-terezin/",
+    "David, Matthias, Andreas D. Ebert, & Benjamin Kuntz (2022). Gynecologist in the Theresienstadt Concentration Camp: Commemoration of a Publication by Franz Bass (1900–1962) in This Journal 75 Years Ago. Gynecologic and Obstetric Investigation, 87(6), 406–410. https://karger.com/goi/article/87/6/406/825227 | https://doi.org/10.1159/000528008",
+    "European Holocaust Research Infrastructure (EHRI) Document Blog (2016, May 18). Daily Orders from the Terezín (Theresienstadt) Ghetto. https://blog.ehri-project.eu/2016/05/18/daily-orders-from-the-terezin-theresienstadt-ghetto/",
+    "Hájková, Anna (2020). The Last Ghetto: An Everyday History of Theresienstadt. Oxford University Press. https://academic.oup.com/book/36881 | https://doi.org/10.1093/oso/9780190051778.001.0001",
+    "Holocaust.cz (Terezín Initiative Institute). The Terezín Ghetto. https://www.holocaust.cz/en/history/theresienstadt/the-terezin-ghetto",
+    "Kučerová, Michaela. Masaryk University Thesis Repository (Terezín children mortality). https://is.muni.cz/th/vyonh/",
+    "Müller-Wesemann, Barbara (ed.). Martha Glass: \"Every day in Theresin is a gift.\" Key Documents of German-Jewish History. https://keydocuments.net/article/martha-glass-every-day-in-theresin-is-a-gift",
+    "Památník Terezín (Terezín Memorial). Terezin Ghetto (EN) / Ghetto Terezín (CS). https://www.pamatnik-terezin.cz/terezin-ghetto | https://www.pamatnik-terezin.cz/ghetto-terezin",
+    "Penn State University / Unizin Press. Terezín and 'The Last Cyclist', in The Holocaust: Remembrance, Respect, and Resilience. https://psu.pb.unizin.org/holocaust/chapter/terezin-and-the-last-cyclist/",
+    "UNESCO World Heritage Centre. The Fortress of Terezín (Tentative List #1561). https://whc.unesco.org/en/tentativelists/1561/",
+    "United States Holocaust Memorial Museum (USHMM). Holocaust Encyclopedia: Theresienstadt. https://encyclopedia.ushmm.org/content/en/article/theresienstadt",
+    "United States Holocaust Memorial Museum (USHMM). Holocaust Encyclopedia: The Holocaust in Bohemia and Moravia. https://encyclopedia.ushmm.org/content/en/article/the-holocaust-in-bohemia-and-moravia",
+    "Wurm, Susanne. The KZ Theresienstadt: The Deceit of the Nazis of a \"Jewish Ghetto for the Privileged and the Old\" & the True Living Conditions, Especially of the Elderly. Central European Economic and Social History. https://centraleuropeaneconomicandsocialhistory.com/the-kz-theresienstadt-the-deceit-of-the-nazis-of-a-jewish-ghetto-for-the-privileged-and-the-old-the-true-living-conditions-especially-of-the-elderly/",
+    "Yad Vashem. Theresienstadt Ghetto (The Holocaust: Key Topics). https://www.yadvashem.org/holocaust/about/ghettos/theresienstadt.html",
+    "Yad Vashem. Holocaust Timeline: 1940–1945 (Theresienstadt entry). https://www.yadvashem.org/holocaust/about/timeline/1940-1945.html"
+  ],
+  "findings": [
+    {
+      "claim": "Total area of the walled Terezín Main Fortress (Hlavní pevnost / Große Festung) enclosing the ghetto town",
+      "confidence": "LOW CONFIDENCE",
+      "disagreements_or_caveats": "Single authoritative primary measurement directly observed in session (UNESCO Tentative List #1561, inner defense perimeter 3,040 m; total 18th-century fortress land purchase ~400 ha; Small Fortress ~2.5 ha). Corroborated in scale by Adler's 335,056 m² (33.51 ha) Jewish settlement footprint within the walled fortress.",
+      "sources": [
+        "https://whc.unesco.org/en/tentativelists/1561/",
+        "https://www.cambridge.org/core/books/theresienstadt-19411945/741CA0829871F8EFC4099684C2F4BE69"
+      ],
+      "unit": "hectares",
+      "value_or_range": "~36"
+    },
+    {
+      "claim": "Total surface area of the Jewish settlement/ghetto within Terezín and usable inmate living quarters area",
+      "confidence": "LOW CONFIDENCE",
+      "disagreements_or_caveats": "335,056 m² total settlement area (~42% built up, ~16% courtyards, ~42% streets/public spaces/gardens) and ~95,000 m² living space trace primarily to H. G. Adler (Ch. 11 \"Housing\"), cited by later scholarship including Anna Hájková. Independently cross-checked by Vojtěch Blodig (Památník Terezín), who reports 1.6 m² average living space per prisoner at the ~58,500 Sept 1942 peak (~93,600 m² implied).",
+      "sources": [
+        "https://www.cambridge.org/core/books/theresienstadt-19411945/741CA0829871F8EFC4099684C2F4BE69",
+        "https://doi.org/10.1017/9781139017053",
+        "https://academic.oup.com/book/36881",
+        "https://www.holocaust.cz/zdroje/clanky-z-ros-chodes/prezivani-v-ghettu-terezin/"
+      ],
+      "unit": "square meters (m²)",
+      "value_or_range": "335,056 (settlement total); ~95,000 (living quarters)"
+    },
+    {
+      "claim": "Pre-war / pre-ghetto population of Terezín garrison town (civilians plus military garrison)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Beit Theresienstadt, Key Documents (Martha Glass edition), and Vojtěch Blodig cite ~7,000 total (roughly half civilian, half military); Key Documents specifies ~3,700 civilian residents resettled by July 1942, and Adler / Lederer detail ~3,700 civilians + ~3,500 soldiers (~7,200 total).",
+      "sources": [
+        "https://bterezin.org.il/ghetto-theresienstadt/historical-background/",
+        "https://keydocuments.net/article/martha-glass-every-day-in-theresin-is-a-gift",
+        "https://www.holocaust.cz/zdroje/clanky-z-ros-chodes/prezivani-v-ghettu-terezin/",
+        "https://www.cambridge.org/core/books/theresienstadt-19411945/741CA0829871F8EFC4099684C2F4BE69"
+      ],
+      "unit": "persons",
+      "value_or_range": "7,000–7,200 (~3,700 civilians + ~3,500 garrison)"
+    },
+    {
+      "claim": "Peak simultaneous inmate population inside Terezín ghetto in mid-September 1942",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "EHRI Document Blog (Daily Orders) and Beit Theresienstadt report 58,491 (16 September 1942); Susanne Wurm reports 58,497 (18 September 1942); Vojtěch Blodig rounds to ~58,500. The 6-person difference reflects daily registration updates in mid-September 1942. Note: EHRI archival unit https://portal.ehri-project.eu/units/cz-002195~pt-3941 is an unrelated concert program (PT 3941), NOT a demographic figure.",
+      "sources": [
+        "https://blog.ehri-project.eu/2016/05/18/daily-orders-from-the-terezin-theresienstadt-ghetto/",
+        "https://bterezin.org.il/ghetto-theresienstadt/historical-background/",
+        "https://centraleuropeaneconomicandsocialhistory.com/the-kz-theresienstadt-the-deceit-of-the-nazis-of-a-jewish-ghetto-for-the-privileged-and-the-old-the-true-living-conditions-especially-of-the-elderly/",
+        "https://www.holocaust.cz/zdroje/clanky-z-ros-chodes/prezivani-v-ghettu-terezin/"
+      ],
+      "unit": "prisoners",
+      "value_or_range": "58,491–58,497 (rounded ~58,500)"
+    },
+    {
+      "claim": "Peak monthly death toll inside Terezín ghetto (September 1942)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Exact monthly figure 3,941 corroborated by EHRI Document Blog (Daily Orders), Beit Theresienstadt, and H. G. Adler.",
+      "sources": [
+        "https://blog.ehri-project.eu/2016/05/18/daily-orders-from-the-terezin-theresienstadt-ghetto/",
+        "https://bterezin.org.il/ghetto-theresienstadt/historical-background/",
+        "https://www.cambridge.org/core/books/theresienstadt-19411945/741CA0829871F8EFC4099684C2F4BE69"
+      ],
+      "unit": "deaths in September 1942",
+      "value_or_range": "3,941"
+    },
+    {
+      "claim": "Children who died directly inside the Terezín ghetto",
+      "confidence": "MEDIUM",
+      "disagreements_or_caveats": "Both David, Ebert, & Kuntz (2022, Karger peer-reviewed article) and Penn State / Unizin (*Terezín and 'The Last Cyclist'*, citing Nazi records) report 400 children died inside Terezín; Czech university scholarship (Masaryk University) likewise cites ~400. Major institutional summaries (USHMM, Yad Vashem, Památník Terezín) typically omit a separate in-ghetto child mortality sub-total and focus on ~15,000 total children and 7,590 deported children.",
+      "sources": [
+        "https://karger.com/goi/article/87/6/406/825227",
+        "https://doi.org/10.1159/000528008",
+        "https://psu.pb.unizin.org/holocaust/chapter/terezin-and-the-last-cyclist/",
+        "https://is.muni.cz/th/vyonh/"
+      ],
+      "unit": "children",
+      "value_or_range": "~400"
+    },
+    {
+      "claim": "Children deported east from Terezín and number of those deportees who survived",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Památník Terezín reports 7,590 youngest child prisoners deported east with 142 survivors. Penn State / Unizin reports >7,500 children deported east with 245 alive at war's end (some secondary/academic tallies cite 242). The 142 vs. 242–245 gap reflects cohort/age definitions (youngest 7,590 cohort vs. broader >7,500 child deportees) and post-war registry cutoffs.",
+      "sources": [
+        "https://www.pamatnik-terezin.cz/terezin-ghetto",
+        "https://www.pamatnik-terezin.cz/ghetto-terezin",
+        "https://psu.pb.unizin.org/holocaust/chapter/terezin-and-the-last-cyclist/"
+      ],
+      "unit": "children",
+      "value_or_range": "7,590 deported; 142–245 survivors"
+    },
+    {
+      "claim": "Children under age 15 alive inside Terezín at liberation (May 1945)",
+      "confidence": "LOW CONFIDENCE",
+      "disagreements_or_caveats": "Exact figure 1,633 traces to H. G. Adler (Ch. \"Welfare\"); David, Ebert, & Kuntz (2022, Karger) round to ~1,600. Roughly half were long-term ghetto inmates and the remainder arrived via late-war evacuation transports in April–May 1945.",
+      "sources": [
+        "https://www.cambridge.org/core/books/theresienstadt-19411945/741CA0829871F8EFC4099684C2F4BE69",
+        "https://doi.org/10.1017/9781139017053",
+        "https://karger.com/goi/article/87/6/406/825227"
+      ],
+      "unit": "children (<15 years)",
+      "value_or_range": "1,633 (~1,600 rounded)"
+    },
+    {
+      "claim": "Live births inside the Terezín ghetto (1941–1945)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "H. G. Adler (Ch. 16 \"Health Conditions\") explicitly writes that figures vary between 205 and 209, possibly reaching 230 (Gonda Redlich's diary/internal records cite 207); David, Ebert, & Kuntz (2022, Karger) document Franz Bass's obstetric records (~207–230 births alongside ~350 forced abortions). Note: SS authorities falsely claimed 300–400 births during the June 1944 Red Cross visit.",
+      "sources": [
+        "https://www.cambridge.org/core/books/theresienstadt-19411945/741CA0829871F8EFC4099684C2F4BE69",
+        "https://doi.org/10.1017/9781139017053",
+        "https://karger.com/goi/article/87/6/406/825227",
+        "https://doi.org/10.1159/000528008"
+      ],
+      "unit": "births",
+      "value_or_range": "205–230 (207–230 in Pass 1)"
+    },
+    {
+      "claim": "Total arriving prisoner cohorts in Terezín (regular transports vs. including April–May 1945 evacuation transports)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Regular ghetto transports (Nov 1941 – Apr 20, 1945): ~140,000 (USHMM Theresienstadt, Yad Vashem, Památník Terezín, Beit Theresienstadt) to 141,184 (USHMM Bohemia & Moravia ledger). Adding ~15,000 concentration camp evacuation prisoners arriving in April–May 1945 yields ~150,000–155,000+ (Beit Theresienstadt notes up to ~158,000).",
+      "sources": [
+        "https://encyclopedia.ushmm.org/content/en/article/theresienstadt",
+        "https://encyclopedia.ushmm.org/content/en/article/the-holocaust-in-bohemia-and-moravia",
+        "https://www.pamatnik-terezin.cz/terezin-ghetto",
+        "https://www.yadvashem.org/holocaust/about/ghettos/theresienstadt.html",
+        "https://bterezin.org.il/ghetto-theresienstadt/historical-background/"
+      ],
+      "unit": "prisoners",
+      "value_or_range": "140,000–141,184 (regular); 150,000–155,000+ (incl. 1945 evacuations)"
+    },
+    {
+      "claim": "Deaths inside the Terezín ghetto (1941–1945)",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "USHMM Bohemia & Moravia ledger gives 33,456 (USHMM Theresienstadt rounds to ~34,000); Yad Vashem gives 35,440; Památník Terezín gives >35,000; Beit Theresienstadt gives ~35,000 (~35,409). Discrepancy reflects regular wartime ghetto registry totals (33,456) vs. expanded postwar tallies incorporating late-war evacuation and typhus deaths at/around liberation (35,440).",
+      "sources": [
+        "https://encyclopedia.ushmm.org/content/en/article/the-holocaust-in-bohemia-and-moravia",
+        "https://encyclopedia.ushmm.org/content/en/article/theresienstadt",
+        "https://www.yadvashem.org/holocaust/about/ghettos/theresienstadt.html",
+        "https://www.pamatnik-terezin.cz/terezin-ghetto",
+        "https://bterezin.org.il/ghetto-theresienstadt/historical-background/"
+      ],
+      "unit": "deaths",
+      "value_or_range": "33,456–35,440"
+    },
+    {
+      "claim": "Prisoners deported east from Terezín and survivors among eastern deportees",
+      "confidence": "HIGH",
+      "disagreements_or_caveats": "Deportations east: 86,934 (Yad Vashem Timeline), >87,000 across 63 transports (Památník Terezín), ~88,000 (USHMM Theresienstadt & Yad Vashem Ghetto article), 88,202 (USHMM Bohemia & Moravia ledger), up to ~90,000 (broader Yad Vashem summaries). Survivors among eastern deportees: 3,097 (Yad Vashem Timeline, matching Miroslav Kárný / Czech historiography), ~3,500 (USHMM Theresienstadt), ~3,800 (Památník Terezín). USHMM Bohemia & Moravia also records 16,832 liberated in Terezín, ~2,418 escaped/released earlier in 1945, and 276 arrested by the Gestapo.",
+      "sources": [
+        "https://encyclopedia.ushmm.org/content/en/article/the-holocaust-in-bohemia-and-moravia",
+        "https://encyclopedia.ushmm.org/content/en/article/theresienstadt",
+        "https://www.yadvashem.org/holocaust/about/ghettos/theresienstadt.html",
+        "https://www.yadvashem.org/holocaust/about/timeline/1940-1945.html",
+        "https://www.pamatnik-terezin.cz/terezin-ghetto"
+      ],
+      "unit": "prisoners",
+      "value_or_range": "86,934–90,000 deported; 3,097–3,800 survivors"
+    }
+  ],
+  "id": "p2_gap_demographics_urls",
+  "myths_checked": [
+    "EHRI unit https://portal.ehri-project.eu/units/cz-002195~pt-3941 is NOT a citation for 3,941 September 1942 deaths—it is an unrelated archival item (PT 3941, concert program in Heřman's Collection). The canonical EHRI source for 58,491 and 3,941 is https://blog.ehri-project.eu/2016/05/18/daily-orders-from-the-terezin-theresienstadt-ghetto/.",
+    "The 300–400 births figure reported to International Committee of the Red Cross inspectors in June 1944 was SS propaganda; documented births were 205–230 (207–230).",
+    "The 1,633 children (<15) liberated in May 1945 were not all long-term Terezín ghetto children—roughly half arrived on late-war April–May 1945 evacuation transports from other camps.",
+    "USHMM's 33,456 deaths and Yad Vashem's 35,440 deaths are not contradictory errors; they reflect regular wartime ghetto registry accounting (33,456 out of 141,184) versus expanded tallies including late-war evacuation/liberation-period deaths."
+  ]
+}
