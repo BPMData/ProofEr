@@ -3,6 +3,7 @@
 A ProofEr piece must work with the network off: fonts, data, code and images all inside the one HTML file. This
 script lists every remote load it finds (stylesheets, scripts, images, fonts, frames, CSS @import and url()).
 Plain links the reader clicks (<a href>) are fine: sources should link out.
+It also fails a piece that is missing the invisible view counter: fix that by running tools/add_view_counter.py.
 Run it in Thonny with the Run button (set CHECK below), or CI runs it on everything in pieces/ and fails on a hit.
 """
 import glob, os, re, sys
@@ -10,6 +11,7 @@ import glob, os, re, sys
 # ===================== SETTINGS =====================
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # the repo root (this script sits in tools/)
 CHECK = [os.path.join(ROOT, 'pieces', '*.html')]                     # files or glob patterns to check
+REQUIRE_COUNTER = True                                               # fail a piece that lacks the view counter
 ALLOWED_PINGS = ['https://bpmdata.goatcounter.com/count']            # the one outgoing ping allowed (view counter,
                                                                      # from add_view_counter.py); it loads nothing in
 # ====================================================
@@ -46,15 +48,18 @@ def main():
     for f in files:
         rel = os.path.relpath(f, ROOT).replace(os.sep, '/')
         hits = check_file(f)
-        bad += bool(hits)
         with open(f, encoding='utf-8', errors='replace') as fh:
-            ping = ' (+ view-counter ping)' if any(ok in fh.read() for ok in ALLOWED_PINGS) else ''
-        print(f'{rel}: ' + ('offline OK' + ping if not hits else f'{len(hits)} remote load(s)'))
+            has_counter = any(ok in fh.read() for ok in ALLOWED_PINGS)
+        if REQUIRE_COUNTER and not has_counter:
+            hits.append((1, 'missing view counter', 'run tools/add_view_counter.py'))
+        bad += bool(hits)
+        ping = ' (+ view-counter ping)' if has_counter else ''
+        print(f'{rel}: ' + ('offline OK' + ping if not hits else f'{len(hits)} problem(s)'))
         for line, kind, url in hits:
-            print(f'::error file={rel},line={line}::{kind} loads {url}' if gh else f'  line {line}: {kind}: {url}')
+            print(f'::error file={rel},line={line}::{kind}: {url}' if gh else f'  line {line}: {kind}: {url}')
     if not files:
         print('Nothing to check yet.')
-    print(f'{len(files)} file(s) checked, {bad} with remote loads.')
+    print(f'{len(files)} file(s) checked, {bad} with problems.')
     return bad == 0
 
 

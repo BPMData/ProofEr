@@ -26,5 +26,5 @@ Still staying out of `pieces/`, `examples/`, and `tools/`:
 3. **Present the concise outline + visual mockup** to the user for refinement. Once approved, mark `proj/<name>/layout.md` `APPROVED` and advance to `Stage: build`.
 
 ## Stage 4 — Interactive Data Essay Build & Final Visual/Offline QA (`Stage: build`)
-1. Read `tools/CLAUDE.md`, generate `pieces/<name>.html`, run `tools/embed_fonts.py`, and update `index.html` + `STATUS.md`.
+1. Read `tools/CLAUDE.md`, generate `pieces/<name>.html`, run `tools/embed_fonts.py` and `tools/add_view_counter.py`, and update `index.html` + `STATUS.md`.
 2. Capture final desktop + phone PNGs into `proj/<name>/qa/` (`desktop.png`, `phone.png`), inspect both via `Read`, fix any defect, and run `python3 tools/check_offline.py` + `python3 tools/check_stage_reads.py`.

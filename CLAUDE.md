@@ -20,6 +20,9 @@ when working on that piece. Update both at the end of a working session.
   drafted are marked **DRAFT**.
 - **A piece is a single offline HTML file:** fonts, data, code and images inlined; nothing loads from the internet
   (`tools/embed_fonts.py` inlines Google Fonts). Open-licensed fonts only, license noted.
+- **Every published piece has the view counter:** run `tools/add_view_counter.py` after copying a piece into
+  `pieces/` (and after rebuilding one). It adds an invisible GoatCounter ping, nothing shown; `check_offline.py`
+  and CI fail a piece without it.
 - **Readable and accessible:** sizes from where it's read (phone, projector, print, poster); WCAG AA contrast,
   reported honestly; color never the only carrier of meaning; a text alternative for every chart;
   prefers-reduced-motion respected; it prints cleanly.
