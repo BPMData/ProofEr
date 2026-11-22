@@ -289,6 +289,36 @@ class StageGateTests(unittest.TestCase):
         })
         self.assertEqual(json.loads(out)["decision"], "continue")
 
+    def test_offline_check_on_one_piece_does_not_trip_another(self):
+        """Regression (Nov 22, 2026): running check_offline.py while editing piece A re-stamped committed
+        piece B's receipt, so the Stop gate demanded screenshots of B and B's receipt showed as uncommitted."""
+        git_root = Path(self.tmp.name) / "repo2"
+        for name in ("active", "other"):
+            (git_root / "proj" / name).mkdir(parents=True)
+            (git_root / "proj" / name / "brief.md").write_text(f"# Brief\n\nStage: build\n", encoding="utf-8")
+            (git_root / "proj" / name / ".offline_checked.json").write_text('{"ts": 1}\n', encoding="utf-8")
+        (git_root / "pieces").mkdir(parents=True)
+        for name in ("active", "other"):
+            (git_root / "pieces" / f"{name}.html").write_text("<html></html>", encoding="utf-8")
+        for cmd in (["git", "init", "-q"], ["git", "config", "user.email", "t@example.com"],
+                    ["git", "config", "user.name", "T"], ["git", "add", "."], ["git", "commit", "-q", "-m", "init"]):
+            subprocess.run(cmd, cwd=str(git_root), check=True)
+
+        (git_root / "pieces" / "active.html").write_text("<html>edited</html>", encoding="utf-8")
+        rc, _, _ = _run_gate("claude", "PostToolUse", {
+            "cwd": str(git_root), "tool_name": "Bash",
+            "tool_input": {"command": "python3 tools/check_offline.py"}, "tool_response": {},
+        })
+        self.assertEqual(rc, 0)
+        other_stamp = json.loads((git_root / "proj" / "other" / ".offline_checked.json").read_text())
+        self.assertEqual(other_stamp, {"ts": 1}, "untouched piece's receipt must not be rewritten")
+        active_stamp = json.loads((git_root / "proj" / "active" / ".offline_checked.json").read_text())
+        self.assertGreater(active_stamp["ts"], 1)
+
+        # Stop may still ask for QA on the active piece, but never on the untouched one.
+        rc, out, err = _run_gate("claude", "Stop", {"cwd": str(git_root), "stop_hook_active": False})
+        self.assertNotIn("pieces/other.html", out + err)
+
     def test_skills_workflow_taste_and_eval_budget_invariants(self):
         # 1. Antigravity workflow compiles cleanly with top-level await support
         wf_path = REPO_ROOT / ".agents" / "workflows" / "research_piece.py"

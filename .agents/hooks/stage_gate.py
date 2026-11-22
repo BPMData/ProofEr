@@ -217,8 +217,10 @@ def _record_post_tool(root: Path, tool_name: str, args: dict, error) -> None:
             for brief in glob.glob(str(root / "proj" / "*" / "brief.md")):
                 piece = Path(brief).parent.name
                 html = root / "pieces" / f"{piece}.html"
-                if html.exists():
-                    opath = _offline_checked_path(root, piece)
+                opath = _offline_checked_path(root, piece)
+                # Stamp only pieces with local work (or no stamp yet): re-stamping every piece on every
+                # check dirtied untouched pieces' receipt files and made them look "touched" at Stop.
+                if html.exists() and (not opath.exists() or _piece_has_local_changes(root, piece)):
                     opath.write_text(json.dumps({"ts": now, "cmd": cmd[:200]}) + "\n", encoding="utf-8")
 
 
@@ -385,15 +387,12 @@ def _check_pre_write(root: Path, harness: str, rel_path: str) -> str | None:
     return None
 
 
-def _piece_touched_in_repo(root: Path, piece: str) -> bool:
-    """In a git repo, skip pre-existing committed pieces with no local work or receipts."""
+RECEIPT_NAMES = (".offline_checked.json", ".inspected_pngs.json", ".subagent_receipts.jsonl")
+
+
+def _piece_has_local_changes(root: Path, piece: str) -> bool:
+    """True if the piece's page or project files (receipt files excluded) differ from git HEAD."""
     if not (root / ".git").exists():
-        return True
-    if (
-        _subagent_receipts_path(root, piece).exists()
-        or _inspected_pngs_path(root, piece).exists()
-        or _offline_checked_path(root, piece).exists()
-    ):
         return True
     try:
         p = subprocess.run(
@@ -403,11 +402,24 @@ def _piece_touched_in_repo(root: Path, piece: str) -> bool:
             text=True,
             timeout=3,
         )
-        if p.returncode == 0:
-            return bool(p.stdout.strip())
     except OSError:
-        pass
-    return True
+        return True
+    if p.returncode != 0:
+        return True
+    for line in p.stdout.splitlines():
+        path = line[3:].strip().strip('"')
+        if not path.endswith(RECEIPT_NAMES):
+            return True
+    return False
+
+
+def _piece_touched_in_repo(root: Path, piece: str) -> bool:
+    """In a git repo, skip committed pieces with no local work.
+
+    Receipt files no longer count as work: they are committed, and check_offline.py used to rewrite
+    them for every piece, which made untouched pieces (e.g. a published one) trip the Stop gate.
+    """
+    return _piece_has_local_changes(root, piece)
 
 
 def _check_stop(root: Path, stop_active: bool) -> str | None:

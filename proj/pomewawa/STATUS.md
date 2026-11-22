@@ -22,3 +22,4 @@ Not verified / known limits:
   PMC, akc.org). `checked*` rows rely on secondary sources.
 - Screen-reader pass with a real reader not done; checked by structure only.
 - Usage not recorded (brief `Usage:` line).
+- **Nov 22, 2026:** brief's status line corrected to `Stage: published` (it still said `build`, which let the Stop hook demand QA screenshots of this finished piece). Stray QA screenshots from that false alarm deleted.
