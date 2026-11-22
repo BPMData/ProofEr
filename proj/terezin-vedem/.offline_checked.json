@@ -1,1 +1,1 @@
-{"ts": 1795328332.382048, "cmd": "git status -s && python3 tools/check_offline.py"}
+{"ts": 1795328939.24545, "cmd": "python3 tools/check_offline.py && python3 - <<'EOF'\nfrom pathlib import Path\nfrom playwright.sync_api import sync_playwright\n\nqa = Path(\"proj/terezin-vedem/qa\")\ntarget = Path(\"pieces/terezin-vedem.htm"}
