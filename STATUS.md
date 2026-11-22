@@ -3,14 +3,15 @@
 > **Visitors:** this is the project's working log. For what ProofEr is and how to use it, start with
 > [README.md](README.md).
 
-_Last updated: Nov 22, 2026 (invisible GoatCounter view counter on all published pieces)._
+_Last updated: Nov 22, 2026 (clay-cookware v2 remake published unlinked for comparison; invisible GoatCounter view
+counter on all published pieces)._
 
 ## Pieces
 - **holocaust-by-country**, **nazi-victims-all-groups**: Bryan's pre-ProofEr pages, published in `pieces/`.
 - **terezin-vedem** (Terezín/Theresienstadt, *I Never Saw Another Butterfly*, and *Vedem*; for HS students and online): **published** to `pieces/terezin-vedem.html` (`index.html` updated; dark-slate mode matching companion pieces' `:root[data-theme="dark"]`; full offline fonts + 7 licensed PD / CC BY-SA archival images inlined; `check_offline.py` passed; desktop, phone, interactive `dialog#sheet`, and `@media print` Chromium QA verified with 0 errors and 0 overflow; 0 restricted reads before gate). `proj/terezin-vedem/STATUS.md`.
 - **pomewawa** (Pomeranians, Chihuahuas and the mix; for family and online): **published** to `pieces/pomewawa.html`; live once merged to main. `proj/pomewawa/STATUS.md`.
 - **knife-country** (Yangjiang and the "City of Knives" title; a long scrolling piece for knife nerds online): **published** to `pieces/knife-country.html`; live once merged. Built in EOMD by mistake, then moved here; Bryan accepted its single-source figures as shown. `proj/knife-country/STATUS.md`.
-- **clay-cookware** (Glazed vs. unglazed clay in cookware & multi-cooker inserts; interactive data essay for food-science/cookware enthusiasts): **published** to `pieces/clay-cookware.html` (`index.html` updated; `0` restricted reads before gate; `check_offline.py` passed; desktop/phone Chromium QA verified; usage on \$20/mo plan all on Gemini 4 Hydrogen High incl. 11 workers + 3 PRs: ~36% of 5-hr window, ~8% weekly—indicating Antigravity has comfortable headroom before needing aggressive Medium/light throttling). `proj/clay-cookware/STATUS.md`.
+- **clay-cookware** (Glazed vs. unglazed clay in cookware & multi-cooker inserts; interactive data essay for food-science/cookware enthusiasts): **published** to `pieces/clay-cookware.html` (`index.html` updated; `0` restricted reads before gate; `check_offline.py` passed; desktop/phone Chromium QA verified; usage on \$20/mo plan all on Gemini 4 Hydrogen High incl. 11 workers + 3 PRs: ~36% of 5-hr window, ~8% weekly—indicating Antigravity has comfortable headroom before needing aggressive Medium/light throttling). `proj/clay-cookware/STATUS.md`. **v2 remake** ("It's All in the Wall": scannable, pot picker, interactive plates) at `pieces/clay-cookware-v2.html`, live but **not on the hub** until Bryan picks a version.
 
 ## Across the repo
 - **Scope:** sourced visual pieces—short **infographics** and long-form **interactive data essays**. Recipe cards may come later.
