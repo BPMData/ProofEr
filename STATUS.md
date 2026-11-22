@@ -3,7 +3,7 @@
 > **Visitors:** this is the project's working log. For what ProofEr is and how to use it, start with
 > [README.md](README.md).
 
-_Last updated: Nov 22, 2026 (clay-cookware v2 remake published unlinked for comparison; invisible GoatCounter view
+_Last updated: Nov 22, 2026 (terezin-vedem glosses added; clay-cookware v2 remake published unlinked for comparison; invisible GoatCounter view
 counter on all published pieces)._
 
 ## Pieces

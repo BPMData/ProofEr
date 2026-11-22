@@ -1,1 +1,1 @@
-{"ts": 1795353676.123461, "cmd": "python3 tools/add_view_counter.py && python3 tools/check_offline.py && python3 tools/add_view_counter.py | tail -2; git diff --stat"}
+{"ts": 1795386494.3799872, "cmd": "cd /home/user/ProofEr; python3 - <<'E'\np='pieces/terezin-vedem.html'; s=open(p).read()\nreps=[\n('depending on how uninsulated attics and casemates are counted)',\n 'depending on how uninsulated attics a"}

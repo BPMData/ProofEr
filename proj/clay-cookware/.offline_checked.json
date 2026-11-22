@@ -1,1 +1,1 @@
-{"ts": 1795351902.6461983, "cmd": "python3 - <<'EOF'\np='proj/clay-cookware/STATUS.md'; s=open(p).read()\ns=s.replace('_Last updated: 2026-11-20_','_Last updated: 2026-11-22_')\ns+='''\n## v2 remake: \"It's All in the Wall\" (Nov 22, 2026)\n-"}
+{"ts": 1795386494.3799872, "cmd": "cd /home/user/ProofEr; python3 - <<'E'\np='pieces/terezin-vedem.html'; s=open(p).read()\nreps=[\n('depending on how uninsulated attics and casemates are counted)',\n 'depending on how uninsulated attics a"}

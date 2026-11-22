@@ -1,1 +1,1 @@
-{"ts": 1795328939.24545, "cmd": "python3 tools/check_offline.py && python3 - <<'EOF'\nfrom pathlib import Path\nfrom playwright.sync_api import sync_playwright\n\nqa = Path(\"proj/terezin-vedem/qa\")\ntarget = Path(\"pieces/terezin-vedem.htm"}
+{"ts": 1795386494.3799872, "cmd": "cd /home/user/ProofEr; python3 - <<'E'\np='pieces/terezin-vedem.html'; s=open(p).read()\nreps=[\n('depending on how uninsulated attics and casemates are counted)',\n 'depending on how uninsulated attics a"}
