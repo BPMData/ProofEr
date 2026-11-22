@@ -264,6 +264,7 @@ header.hero{padding-top:clamp(36px,7vw,80px)}
 .row .nm .ring{width:13px;height:13px}
 .row .nm small{display:block;font-weight:400;font-size:.75rem;color:var(--muted);margin-top:2px}
 .row .later{font-weight:500;font-size:.6875rem;color:var(--ally);display:block;margin-top:2px}
+.row .subnote{font-weight:400;font-size:.6875rem;color:var(--muted);display:block;margin-top:2px}
 .bar{position:relative;height:16px;background:var(--survived);border-radius:1px;overflow:hidden}
 .bar b{position:absolute;inset:0 auto 0 0;background:var(--killed)}
 .row .pc{font-family:var(--sans);font-variant-numeric:tabular-nums;font-weight:600;text-align:right;font-size:.9375rem}
@@ -497,7 +498,7 @@ const COUNTRIES = [
  "Many Dutch Jews were long-settled and working-class, and many believed following the rules was safer than hiding. More than 100,000 were deported, mainly to Auschwitz and Sobibór. Anne Frank's family was on the last train from the Netherlands to Auschwitz, in September 1944."],
  factors:["SS-influenced civilian rule","Efficient registration","No escape route","Compliant bureaucracy"],
  sources:[{t:"Anne Frank House: Why the Netherlands had the most victims in Western Europe",u:"https://www.annefrank.org/en/anne-frank/go-in-depth/netherlands-greatest-number-jewish-victims-western-europe/"}]},
-{id:"bohemia",alt:{p0:117551,p1:117551,k0:77297,k1:77297,yr:"1930"},pctSrc:"60%",name:"Bohemia-Moravia",pop:118310,killed:71150,surv:47160,cat:"occupied",
+{id:"bohemia",alt:{p0:117551,p1:117551,k0:77297,k1:77297,yr:"1930"},pctSrc:"60%",name:"Bohemia-Moravia",sub:"The Czech lands (German Protectorate)",pop:118310,killed:71150,surv:47160,cat:"occupied",
  status:"The Czech lands, seized by Germany in March 1939 and ruled as a \u201cProtectorate.\u201d",
  headline:"Funneled through Theresienstadt.",
  why:["Germany took the Czech lands in March 1939, six months before the war began. Some Jews emigrated in time; the rest lived directly under German rule, with SS leader Reinhard Heydrich in charge from 1941.",
@@ -735,8 +736,8 @@ function applyFilter(){
 let mode="group";
 function rowHTML(c, showRing){
   const p=pctOf(c);
-  return `<li><button class="row" data-id="${c.id}" aria-label="${c.name}, ${pcS(c)} murdered. Open details.">
-    <span class="nm">${showRing?ring(c.cat,13):""}<span>${c.name}<small class="num">${fmt(c.pop)} before the war</small>${c.later?`<span class="later">${c.later}</span>`:""}${c.rowNote?`<span class="rnote">${c.rowNote}</span>`:""}</span></span>
+  return `<li><button class="row" data-id="${c.id}" aria-label="${c.name}${c.sub?` — ${c.sub}`:""}, ${pcS(c)} murdered. Open details.">
+    <span class="nm">${showRing?ring(c.cat,13):""}<span>${c.name}<small class="num">${fmt(c.pop)} before the war</small>${c.sub?`<span class="subnote">${c.sub}</span>`:""}${c.later?`<span class="later">${c.later}</span>`:""}${c.rowNote?`<span class="rnote">${c.rowNote}</span>`:""}</span></span>
     <span class="bar" aria-hidden="true"><b style="width:${(p*100).toFixed(2)}%"></b></span>
     <span class="pc">${pcS(c)}</span></button></li>`;
 }
