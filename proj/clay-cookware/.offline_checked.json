@@ -1,1 +1,1 @@
-{"ts": 1795192861.693913, "cmd": "playwright screenshot --viewport-size=1280,900 --full-page file:///Users/murphb/Documents/Github/ProofEr/pieces/clay-cookware.html proj/clay-cookware/qa/desktop.png && playwright screenshot --viewport"}
+{"ts": 1795351902.6461983, "cmd": "python3 - <<'EOF'\np='proj/clay-cookware/STATUS.md'; s=open(p).read()\ns=s.replace('_Last updated: 2026-11-20_','_Last updated: 2026-11-22_')\ns+='''\n## v2 remake: \"It's All in the Wall\" (Nov 22, 2026)\n-"}
