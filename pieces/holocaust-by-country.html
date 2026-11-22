@@ -837,5 +837,17 @@ ready.then(drawMap);
 let lastW=innerWidth;
 addEventListener("resize",()=>{ if(innerWidth===lastW) return; lastW=innerWidth; clearTimeout(window.__rs); window.__rs=setTimeout(()=>{ svg.innerHTML=""; drawMap(); applyFilter(); },200); });
 </script>
+<!-- proofer-view-counter: invisible GoatCounter view count (no cookies, nothing shown; skipped offline). tools/add_view_counter.py -->
+<script>
+(function () {
+  try {
+    var l = location;
+    if (!/^https?:$/.test(l.protocol) || /^(localhost|127\.|\[::1\]|.*\.localhost$)/.test(l.hostname)) return;
+    var e = encodeURIComponent;
+    new Image().src = 'https://bpmdata.goatcounter.com/count?p=' + e(l.pathname) + '&t=' + e(document.title) +
+      '&r=' + e(document.referrer) + '&s=' + e(screen.width) + '&rnd=' + Math.random().toString(36).slice(2);
+  } catch (err) {}
+})();
+</script>
 </body>
 </html>

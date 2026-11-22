@@ -8,5 +8,5 @@ restricted-path stage order).
   1. **Interview first** (`brief/INTERVIEW.md`, showing optional style/template options if helpful or requested) until the user confirms format (**infographic** vs. **interactive data essay**), audience, tone, aesthetic, and level of detail.
   2. **Autonomous multi-pass research:** run isolated parallel deep-research workers (`.agents/workflows/research_piece.py` or subagents) + gap-fill/fact-check passes into `proj/<name>/research/`, then synthesize `figures.md`.
   3. **Outline & mockup review:** self-critique rendered mockup `.png`s first, then present the quick outline/mockup to the user for refinement until `layout.md` is `APPROVED`.
-  4. **Autonomous build & QA:** generate `pieces/<name>.html`, embed fonts, verify `tools/check_offline.py` + final desktop/phone PNGs.
+  4. **Autonomous build & QA:** generate `pieces/<name>.html`, embed fonts, run `tools/add_view_counter.py`, verify `tools/check_offline.py` + final desktop/phone PNGs.
 - **Programmatic gates:** `.agents/hooks/stage_gate.py` (wired in `.agents/hooks.json`, `.claude/settings.json`, and `.codex/hooks.json`) enforces stage order and QA receipts.

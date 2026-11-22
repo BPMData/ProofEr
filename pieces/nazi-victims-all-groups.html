@@ -936,5 +936,17 @@ drawWall(reduce); updateTotals(); drawTreemap(); drawTimeline(); drawUnc();
 if(!reduce){ const io=new IntersectionObserver(es=>{ if(es.some(e=>e.isIntersecting)){ setTimeout(animateWall,350); io.disconnect(); } },{threshold:.15}); io.observe(wallEl); }
 let lastW=innerWidth; addEventListener("resize",()=>{ if(innerWidth===lastW) return; lastW=innerWidth; clearTimeout(window.__rs); window.__rs=setTimeout(drawTreemap,150); });
 </script>
+<!-- proofer-view-counter: invisible GoatCounter view count (no cookies, nothing shown; skipped offline). tools/add_view_counter.py -->
+<script>
+(function () {
+  try {
+    var l = location;
+    if (!/^https?:$/.test(l.protocol) || /^(localhost|127\.|\[::1\]|.*\.localhost$)/.test(l.hostname)) return;
+    var e = encodeURIComponent;
+    new Image().src = 'https://bpmdata.goatcounter.com/count?p=' + e(l.pathname) + '&t=' + e(document.title) +
+      '&r=' + e(document.referrer) + '&s=' + e(screen.width) + '&rnd=' + Math.random().toString(36).slice(2);
+  } catch (err) {}
+})();
+</script>
 </body>
 </html>

@@ -75,7 +75,7 @@ Default checks; add the piece's own:
 - Charts: zero baselines on bars and areas, proportional areas, labeled units and scales.
 - Legibility: readable at the brief's distance; at 25% scale the headline still reads.
 - Contrast: every text/background pair meets WCAG AA, reported honestly; color isn't the only cue.
-- Offline: opens with the network off (`tools/check_offline.py`); fonts embedded.
+- Offline: opens with the network off (`tools/check_offline.py`); fonts embedded; view counter added (`tools/add_view_counter.py`).
 - Accessibility: chart text alternatives; reading order makes sense to a screen reader; reduced motion respected.
 - Print: one clean print preview (no cut-off sections, no dark-background ink flood unless intended).
 - Taste: every applicable `strong` item in `brief/taste/house.md` is honored, or overridden in §12 with a reason.

@@ -1674,5 +1674,17 @@ addEventListener("resize", onScroll);
 frame();
 })();
 </script>
+<!-- proofer-view-counter: invisible GoatCounter view count (no cookies, nothing shown; skipped offline). tools/add_view_counter.py -->
+<script>
+(function () {
+  try {
+    var l = location;
+    if (!/^https?:$/.test(l.protocol) || /^(localhost|127\.|\[::1\]|.*\.localhost$)/.test(l.hostname)) return;
+    var e = encodeURIComponent;
+    new Image().src = 'https://bpmdata.goatcounter.com/count?p=' + e(l.pathname) + '&t=' + e(document.title) +
+      '&r=' + e(document.referrer) + '&s=' + e(screen.width) + '&rnd=' + Math.random().toString(36).slice(2);
+  } catch (err) {}
+})();
+</script>
 </body>
 </html>

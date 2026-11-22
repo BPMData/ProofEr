@@ -3,7 +3,8 @@
 > **Visitors:** this is the project's working log. For what ProofEr is and how to use it, start with
 > [README.md](README.md).
 
-_Last updated: Nov 22, 2026 (clay-cookware v2 remake published unlinked for comparison)._
+_Last updated: Nov 22, 2026 (clay-cookware v2 remake published unlinked for comparison; invisible GoatCounter view
+counter on all published pieces)._
 
 ## Pieces
 - **holocaust-by-country**, **nazi-victims-all-groups**: Bryan's pre-ProofEr pages, published in `pieces/`.
@@ -23,6 +24,11 @@ _Last updated: Nov 22, 2026 (clay-cookware v2 remake published unlinked for comp
 - **Multi-harness gates:** `.agents/hooks/stage_gate.py` enforces research/figures/stills/QA gates across
   Antigravity (`.agents/hooks.json`), Claude Code (`.claude/settings.json`), and Codex (`.codex/hooks.json`), with
   the `auto-piece` skill and `.agents/workflows/research_piece.py` for explicit autonomous end-to-end runs.
+- **View counts:** every piece in `pieces/` has an invisible GoatCounter ping (no cookies, nothing shown, skipped
+  offline/localhost); Bryan's private dashboard is https://bpmdata.goatcounter.com. New pieces: run
+  `tools/add_view_counter.py` when publishing or rebuilding (root `CLAUDE.md` rule); `check_offline.py` and CI
+  fail a piece without it and allow only that ping. Counting began Nov 22, 2026;
+  earlier site visits were never recorded (GitHub's Insights → Traffic counts only the repo page, not the site).
 - **Peeking audit:** 0 new pieces so far. Decision rule in `notes/architecture.md`.
 
 ## Next
