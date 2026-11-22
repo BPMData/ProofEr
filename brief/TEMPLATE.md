@@ -1,6 +1,6 @@
 # Brief: <piece name>
 
-Status: DRAFT | APPROVED <date> by <name> · Stage: interview | brief | research | figures | concepts | layout | build · Mode: quicker | from scratch · Client: <name> · Sign-off: <names>
+Status: DRAFT | APPROVED <date> by <name> · Stage: interview | brief | research | figures | concepts | layout | build · Mode: quicker | from scratch · Budget: light | standard | deep · Client: <name> · Sign-off: <names>
 Usage: <model, effort> · <share of a 5-hour limit, per stage, as the Claude app or Claude Code shows it>
 
 _Copy to `proj/<name>/brief.md` once round 1 of the interview (`INTERVIEW.md`) is answered, and update `Stage:` at

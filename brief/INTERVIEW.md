@@ -56,6 +56,8 @@ the lines the piece must never cross.
   data essay** (scrolling, deep mechanics, detailed sources)?
 - ★ What is it about, who is it for, where will they see it, and by when? *"A poster about school lunch waste for
   the cafeteria wall, by December."*
+- ★ Usage budget (`Budget: light | standard | deep`): ask in everyday words how much session usage they want to spend:
+  *Light* (keep under ~25% of a 5-hour Pro limit—external research or ≤3 workers in 1 pass), *Standard* (balanced—Opus medium / Hydrogen High coordination, lighter Pass 1 workers), or *Deep* (go all-out on multi-pass research and visuals).
 - ★ How to build it (skip this until the toolbox holds earlier work: see `STATUS.md`; until then every piece is made
   from scratch). In everyday words: "Quicker, built from designs this kit already has; or from scratch, designed only
   for yours. From scratch uses more of your Claude usage. Which would you like?"

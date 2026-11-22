@@ -12,10 +12,11 @@ description: >-
 2. Lock those decisions into `proj/<name>/brief.md` and advance to `Stage: research`.
 
 ## Stage 2 — Autonomous Multi-Pass Deep Research & Fact-Checking (`Stage: research -> figures`)
-Once tone, aesthetic, audience, and detail are set, take over the research loop completely:
+Once tone, aesthetic, audience, budget (`Budget: light | standard | deep`), and detail are set, take over the research loop:
+- **Budget & model rules (Claude Code):** Never invoke `fable`, `turbo`, or effort above `high` (`max`). On `Budget: light`, route Pass 1 workers to `sonnet` (via `.claude/agents/research-worker.md`; `haiku` is fine for narrow, clearly defined lookups) and ask the user before spawning `>3` workers or a second pass (`Budget-Override: approved`). On `Budget: standard`, Opus (`medium` effort) is fine for coordination/synthesis with `sonnet` Pass 1 workers. On `Budget: deep`, run full multi-pass fan-out while still banning `fable` and `>high`.
 1. Write `proj/<name>/research/prompts.md` and `prompts.json` targeting brief questions, primary sources, and likely LLM blind spots.
-2. Launch **Pass 1** isolated parallel `Agent` workers writing structured findings to `proj/<name>/research/workers/pass1/`.
-3. **Evaluate & Gap-Fill (Pass 2+):** Inspect Pass 1 outputs for missing metrics, single-source claims, or contradictions; launch follow-up `Agent` workers (`gap_fill`) to fact-check primary sources.
+2. Launch **Pass 1** isolated parallel `Agent` workers (`subagent_type: "research-worker"` / `model: "sonnet"`) writing structured findings to `proj/<name>/research/workers/pass1/`.
+3. **Evaluate & Gap-Fill (Pass 2+):** Inspect Pass 1 outputs for missing metrics, single-source claims, or contradictions; launch follow-up `Agent` workers (`gap_fill`) when budget permits to fact-check primary sources.
 4. Synthesize into `proj/<name>/figures.md` (`>= 2` independent sources per `checked` figure, disagreements recorded as honest ranges/notes, myths tagged per `T10`). Set `Stage: concepts`.
 
 ## Stage 3 — Visual Self-Critique -> Quick Outline/Mockup for User Review (`Stage: concepts -> layout`)
