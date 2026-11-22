@@ -1,0 +1,749 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>It's All in the Wall</title>
+<meta name="description" content="Glazed vs. unglazed clay cookware, from Römertopf and La Chamba to VitaClay and Magnifique: how the pot wall decides heat, water, cracks, stovetops, browning and flavor. Every number sourced.">
+<style>{{FONTFACES}}</style>
+<style>{{CSS}}</style>
+</head>
+<body>
+
+<!-- icon sprite: the six pots and four burners -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-rt" viewBox="0 0 80 56">
+      <path d="M6 31 Q8 47 40 47 Q72 47 74 31 Z" fill="#B8532F"/>
+      <path d="M8 30 Q12 13 40 13 Q68 13 72 30 Z" fill="#CC6B42"/>
+      <path d="M20 27 Q24 19 40 18 M60 27 Q56 19 40 18" stroke="#9C4324" stroke-width="1.6" fill="none"/>
+      <path d="M6 30.5 H74" stroke="#7E3017" stroke-width="1.8"/>
+    </symbol>
+    <symbol id="i-lc" viewBox="0 0 80 56">
+      <ellipse cx="9" cy="31" rx="6" ry="3.5" fill="#26221F"/><ellipse cx="71" cy="31" rx="6" ry="3.5" fill="#26221F"/>
+      <path d="M12 27 H68 Q68 47 40 47 Q12 47 12 27 Z" fill="#26221F"/>
+      <path d="M14 26 Q16 15 40 15 Q64 15 66 26 Z" fill="#35302C"/>
+      <rect x="35" y="9" width="10" height="7" rx="3" fill="#26221F"/>
+      <path d="M22 22 Q30 18 40 18" stroke="#A49B8E" stroke-width="1.6" fill="none"/>
+      <path d="M20 33 Q22 40 30 42" stroke="#6E665E" stroke-width="1.4" fill="none"/>
+    </symbol>
+    <symbol id="i-vc" viewBox="0 0 80 56">
+      <path d="M20 18 Q22 9 40 9 Q58 9 60 18 Z" fill="#8A4F48"/>
+      <rect x="18" y="17" width="44" height="12" fill="#6E3B36"/>
+      <rect x="12" y="26" width="56" height="25" rx="4" fill="#ECE7DF" stroke="#7C756B" stroke-width="1.5"/>
+      <rect x="31" y="35" width="18" height="8" rx="1.5" fill="#4E463E"/>
+    </symbol>
+    <symbol id="i-mg" viewBox="0 0 80 56">
+      <path d="M20 18 Q22 9 40 9 Q58 9 60 18 Z" fill="#2A6C8E"/>
+      <rect x="18" y="17" width="44" height="12" fill="#1B5674"/>
+      <path d="M24 13 Q30 11 36 11" stroke="#BFE0EE" stroke-width="2" fill="none"/>
+      <rect x="12" y="26" width="56" height="25" rx="4" fill="#3E434A" stroke="#22262B" stroke-width="1.5"/>
+      <rect x="31" y="35" width="18" height="8" rx="1.5" fill="#BFE0EE"/>
+    </symbol>
+    <symbol id="i-al" viewBox="0 0 80 56">
+      <path d="M14 20 H66 L63 46 Q62 49 58 49 H22 Q18 49 17 46 Z" fill="#A3AAB4"/>
+      <ellipse cx="40" cy="20" rx="26" ry="6" fill="#2B2F35"/>
+      <ellipse cx="40" cy="20" rx="26" ry="6" fill="none" stroke="#C6CBD2" stroke-width="2"/>
+      <path d="M22 28 V42" stroke="#C6CBD2" stroke-width="2"/>
+    </symbol>
+    <symbol id="i-ci" viewBox="0 0 80 56">
+      <path d="M4 26 Q2 31 8 31 H12 M76 26 Q78 31 72 31 H68" stroke="#383D44" stroke-width="3.5" fill="none"/>
+      <path d="M11 22 H69 V40 Q69 49 59 49 H21 Q11 49 11 40 Z" fill="#383D44"/>
+      <ellipse cx="40" cy="22" rx="29" ry="6" fill="#EFE6D6"/>
+      <ellipse cx="40" cy="22" rx="29" ry="6" fill="none" stroke="#383D44" stroke-width="2.5"/>
+      <path d="M18 30 V42" stroke="#5A6068" stroke-width="2"/>
+    </symbol>
+    <symbol id="b-gas" viewBox="0 0 64 44">
+      <ellipse cx="32" cy="34" rx="24" ry="6" fill="none" stroke="currentColor" stroke-width="2.5"/>
+      <g fill="#2F7FC1"><path d="M14 31 Q12 22 17 16 Q17 25 20 31 Z"/><path d="M26 30 Q24 19 30 11 Q30 22 33 30 Z"/><path d="M38 30 Q36 20 42 13 Q42 23 45 30 Z"/><path d="M48 31 Q47 23 52 18 Q51 26 53 31 Z"/></g>
+    </symbol>
+    <symbol id="b-coil" viewBox="0 0 64 44">
+      <path d="M32 22 m-4 0 a4 3 0 1 0 8 0 a8 6 0 1 0 -16 0 a12 9 0 1 0 24 0 a16 12 0 1 0 -32 0 a20 15 0 1 0 40 0" fill="none" stroke="#C2411E" stroke-width="2.5"/>
+    </symbol>
+    <symbol id="b-glass" viewBox="0 0 64 44">
+      <rect x="4" y="6" width="56" height="34" rx="3" fill="#1F1F22"/>
+      <ellipse cx="32" cy="23" rx="18" ry="11" fill="none" stroke="#E0553A" stroke-width="2.5"/>
+      <ellipse cx="32" cy="23" rx="11" ry="6.5" fill="none" stroke="#E0553A" stroke-width="1.5" opacity=".7"/>
+    </symbol>
+    <symbol id="b-ind" viewBox="0 0 64 44">
+      <rect x="4" y="6" width="56" height="34" rx="3" fill="#1F1F22"/>
+      <ellipse cx="32" cy="23" rx="18" ry="11" fill="none" stroke="#8C8C94" stroke-width="1.5" stroke-dasharray="3 3"/>
+      <ellipse cx="32" cy="21" rx="15" ry="7" fill="#9DA3AB" stroke="#E7EAEE" stroke-width="1.5"/>
+      <text x="32" y="24" text-anchor="middle" font-size="7" font-weight="700" fill="#1F1F22">STEEL</text>
+    </symbol>
+  </defs>
+</svg>
+
+<nav class="rail" aria-label="Chapters">
+  <div class="rail-in">
+    <a class="rail-brand" href="../index.html">ProofEr</a>
+    <span class="rail-now" id="railnow">It's All in the Wall</span>
+    <span class="rail-dots" id="raildots">
+      <a href="#c1" title="The wall">1</a><a href="#c2" title="The names">2</a><a href="#c3" title="Heat">3</a><a href="#c4" title="Water">4</a><a href="#c5" title="Cracks">5</a><a href="#c6" title="Stovetops">6</a><a href="#c7" title="Browning and flavor">7</a><a href="#c8" title="Multi-cookers">8</a><a href="#c9" title="Glaze safety">9</a>
+    </span>
+  </div>
+  <div class="rail-bar" id="railbar"></div>
+</nav>
+
+<header class="hero">
+  <div class="hero-in">
+    <p class="kick">ProofEr · Clay cookware, glazed and unglazed</p>
+    <h1>It's All in the Wall</h1>
+    <p class="deck">Römertopf or La Chamba, VitaClay or Magnifique: nearly everything a clay pot does at dinner, from how slowly it heats to whether it cracks on a burner to whether Tuesday’s garlic turns up in Thursday’s porridge, comes down to three things the box almost never prints, namely <em>how hot it was fired</em>, <em>how open its pores are</em>, and <em>how much it swells when it heats</em>.[[8]]</p>
+    <p class="pick-title">Pick your pot.</p>
+    <p class="pick-sub">Every chapter ends with a verdict for all six; the one you pick here stays highlighted, and you can switch any time from the bar at the bottom of the screen.</p>
+    <div class="hero-pots" id="heropots" role="group" aria-label="Pick your pot">
+      <button type="button" data-pot="rt"><svg aria-hidden="true"><use href="#i-rt"/></svg><b>Römertopf</b><small>soaked, unglazed terracotta</small></button>
+      <button type="button" data-pot="lc"><svg aria-hidden="true"><use href="#i-lc"/></svg><b>La Chamba</b><small>burnished, unglazed, black</small></button>
+      <button type="button" data-pot="vc"><svg aria-hidden="true"><use href="#i-vc"/></svg><b>VitaClay</b><small>unglazed Zisha multi-cooker</small></button>
+      <button type="button" data-pot="mg"><svg aria-hidden="true"><use href="#i-mg"/></svg><b>Magnifique</b><small>glazed clay multi-cooker</small></button>
+      <button type="button" data-pot="al"><svg aria-hidden="true"><use href="#i-al"/></svg><b>Aluminum insert</b><small>non-stick multi-cooker pot</small></button>
+      <button type="button" data-pot="ci"><svg aria-hidden="true"><use href="#i-ci"/></svg><b>Cast-iron insert</b><small>enameled, electric Dutch oven</small></button>
+    </div>
+  </div>
+</header>
+
+<section class="short" aria-labelledby="h-short">
+  <div class="short-in">
+    <h2 id="h-short">The short version, in six numbers</h2>
+    <p>Each one opens its chapter; everything else on the page is there to explain them.</p>
+    <div class="tiles">
+      <a class="tile" href="#c1"><b>8–25%</b><span>of its own dry weight in water: what an unglazed terracotta wall drinks in a standard soak test, against roughly nothing for a glazed face.</span><i>1 · The wall</i></a>
+      <a class="tile" href="#c3"><b>≈1%</b><span>of aluminum’s speed: how fast heat moves through a clay wall, which is why clay is closer to an oven mitt than a pan.</span><i>3 · Heat</i></a>
+      <a class="tile" href="#c3"><b>+100°F</b><span>is what the US Römertopf booklet says to add to a metal-pan recipe, not the +50°F you’ll read on blogs.</span><i>3 · Heat</i></a>
+      <a class="tile k" href="#c4"><b>0</b><span>published side-by-side tables of how much water clay vs. metal pots lose over 2, 4 and 8 hours. We looked.</span><i>4 · Water</i></a>
+      <a class="tile" href="#c5"><b>&lt;100°C</b><span>sudden temperature jump is enough to crack plain earthenware in a water-quench test; petalite flameware survives 500–800°C.</span><i>5 · Cracks</i></a>
+      <a class="tile g" href="#c6"><b>0</b><span>clay pots that work on an induction cooktop by themselves, and the steel adapter plates that fix it are banned by Miele and Bosch.</span><i>6 · Stovetops</i></a>
+    </div>
+  </div>
+</section>
+
+<main>
+
+<!-- 1 · THE WALL -->
+<section class="ch" id="c1" data-name="1 · The wall" aria-labelledby="h1">
+  <div class="ch-in">
+    <div class="ch-head">
+      <p class="ch-num"><span>1</span>The wall</p>
+      <h2 id="h1">What is actually different about a glazed and an unglazed clay wall?</h2>
+      <p class="answer"><b>Short answer</b>Unglazed walls are full of open pores that drink water, oil and soap; a glaze is a layer of glass that shuts them all out; and La Chamba, which looks glazed, isn’t.</p>
+    </div>
+
+    <div class="plate" id="plate-wall">
+      <div class="plate-hd"><span>Plate 1 · Four walls, cut open</span><span>food side up, burner side down</span></div>
+      <h3>Throw something at the wall and see what gets in.</h3>
+      <p class="how">Each strip is a slice through a pot wall, drawn to show the kind of pores, not their exact size. Pick something that happens to a pot in a normal week.</p>
+      <div class="ctl" role="group" aria-label="What hits the wall">
+        <span class="lbl">Test</span>
+        <button type="button" class="seg" data-wall="water" aria-pressed="true">Cold-water soak</button>
+        <button type="button" class="seg" data-wall="oil" aria-pressed="false">Cooking oil &amp; aromas</button>
+        <button type="button" class="seg" data-wall="soap" aria-pressed="false">Dish soap</button>
+        <button type="button" class="seg" data-wall="flame" aria-pressed="false">Gas flame</button>
+      </div>
+      <div class="walls" id="walls"><!-- built by script --></div>
+      <p class="readout" id="wallread" aria-live="polite"></p>
+      <details class="table-alt">
+        <summary>Show as a table</summary>
+        <div class="tscroll"><table>
+          <thead><tr><th>Wall</th><th>Cold-water soak</th><th>Oil &amp; aromas</th><th>Dish soap</th><th>Gas flame</th></tr></thead>
+          <tbody id="walltable"></tbody>
+        </table></div>
+      </details>
+    </div>
+
+    <div class="plate">
+      <div class="plate-hd"><span>Plate 1b · Water absorption</span><span>% of the wall’s dry weight · bars start at zero</span></div>
+      <h3>How much water the wall itself soaks up</h3>
+      <p class="how">The lab test (ASTM C373) boils a dry piece of fired clay in water, weighs it again, and reports the water gained as a share of the dry weight.[[2]] Each bar is solid up to the low end of the published range and hatched across the rest of it.</p>
+      <div class="bars" id="absbars"></div>
+      <div class="axis"><span></span><div class="axis-ticks"><span>0%</span><span>5%</span><span>10%</span><span>15%</span><span>20%</span><span>25%</span></div></div>
+    </div>
+
+    <div class="verdicts" data-ch="1">
+      <div class="v-hd"><b>Verdicts · the wall</b><small>Your pot first; tap the bar at the bottom to switch.</small></div>
+      <div class="v-mine" aria-live="polite"></div>
+      <ul class="v-list">
+        <li data-pot="rt"><b>Römertopf</b>Wide-open pores: 8–25% water absorption, which is the whole reason you soak it.[[1]][[2]]</li>
+        <li data-pot="lc"><b>La Chamba</b>No glaze at all: the shine is stone-burnishing and smoke, and nobody has lab-measured its porosity.[[5]][[6]]</li>
+        <li data-pot="vc"><b>VitaClay</b>Tight but still open: about 2–6% water absorption, so no soak, though fats and aromas still get in.[[3]][[4]]</li>
+        <li data-pot="mg"><b>Magnifique</b>A glass face over a kaolin body: about 0% at the surface, though the box doesn’t say what keeps the body from cracking.[[7]]</li>
+        <li data-pot="al"><b>Aluminum insert</b>No pores: an aluminum wall under a PTFE or sol-gel ceramic coating.[[28]]</li>
+        <li data-pot="ci"><b>Cast-iron insert</b>No pores: porcelain enamel fused over gray iron.[[29]]</li>
+      </ul>
+    </div>
+
+    <div class="drills">
+      <details class="why"><summary>Why does “water absorption” come out smaller than “open porosity”?</summary><div>
+        <p>Water absorption divides the water gained by the <em>dry clay’s weight</em>; open porosity divides the pore space by the <em>whole pot’s volume</em>. Fired clay (about 1.6–2.5 g/cm³) is denser than water, so a terracotta pot that absorbs 15% by weight routinely has 24–30% of its volume open to water.[[2]]</p>
+      </div></details>
+      <details class="why"><summary>What’s a Zisha “dual pore”?</summary><div>
+        <p>Fired Zisha, the purple clay from Yixing that VitaClay uses, has two families of pores at once: gaps of roughly 0.2–0.5 µm between grains, and nanopores under 10 nm inside the glassy matrix between them, which is why it holds a broth without soaking yet still picks up fats and aromas.[[3]]</p>
+      </div></details>
+      <details class="why"><summary>What does the box tell you, if it won’t print any of this?</summary><div>
+        <p>The care rules give it away: <b>“soak 10–20 minutes, cold oven only”</b> means low-fired, wide-open terracotta (Römertopf);[[14]] <b>“never soak the outside, no oven or stovetop”</b> means a semi-vitrified body that relies on an electric base’s gentle heating (VitaClay);[[17]] <b>“gas OK, diffuser on electric coils”</b> means crack-stopping mica or a low-expansion flameware body (La Chamba, flameware);[[11]] and <b>“glazed; sear, stovetop and oven OK”</b> means a glass-sealed body tuned to resist shock (Magnifique), even if the maker won’t say how.[[7]]</p>
+      </div></details>
+    </div>
+  </div>
+</section>
+
+<!-- 2 · THE NAMES -->
+<section class="ch alt" id="c2" data-name="2 · The names" aria-labelledby="h2">
+  <div class="ch-in">
+    <div class="ch-head">
+      <p class="ch-num"><span>2</span>The names</p>
+      <h2 id="h2">Does it matter whether a pot is German, Colombian, Chinese or “volcanic”?</h2>
+      <p class="answer"><b>Short answer</b>Much less than the kiln: where the clay came from matters less than how hot it was fired, how much open pore space is left, and how its thermal expansion was tamed.[[8]]</p>
+    </div>
+
+    <div class="plate">
+      <div class="plate-hd"><span>Plate 2 · Six clay families on one thermometer</span><span>firing temperature, °C</span></div>
+      <h3>Hotter kilns close the pores; added minerals stop the swelling.</h3>
+      <p class="how">Each bar is the range of kiln temperatures a family is fired at; lighter extensions are the broader traditional span. Tap a family for its card.</p>
+      <div class="fam-wrap">
+        <div class="tscroll"><svg id="famchart" viewBox="0 0 640 380" role="img" aria-labelledby="famtitle famdesc"><title id="famtitle">Firing temperature ranges of six clay cookware families</title><desc id="famdesc">Burnished micaceous clay 750 to 800°C (broadly 600 to 900); red earthenware 900 to 1,063°C; Zisha 1,100 to 1,200°C; LAS and MAS flameware 1,100 to 1,350°C; kaolin stoneware and porcelain 1,186 to 1,400°C and up; volcanic clay pots 900 to 1,250°C and up.</desc></svg></div>
+        <p class="cap swipe">Swipe the chart sideways for the full scale.</p>
+        <div class="fam-card" id="famcard" aria-live="polite"></div>
+      </div>
+      <details class="table-alt">
+        <summary>Show as a table</summary>
+        <div class="tscroll"><table>
+          <thead><tr><th>Family</th><th>Fired at</th><th>Water absorption</th><th>How it handles heat</th><th>Examples</th></tr></thead>
+          <tbody id="famtable"></tbody>
+        </table></div>
+      </details>
+    </div>
+
+    <div class="verdicts" data-ch="2">
+      <div class="v-hd"><b>Verdicts · which family is it?</b><small>Your pot first.</small></div>
+      <div class="v-mine" aria-live="polite"></div>
+      <ul class="v-list">
+        <li data-pot="rt"><b>Römertopf</b>Red earthenware (terracotta), fired at about 900–1,063°C.[[1]]</li>
+        <li data-pot="lc"><b>La Chamba</b>Burnished micaceous clay from three Magdalena River clays, fired at only 750–800°C.[[5]]</li>
+        <li data-pot="vc"><b>VitaClay</b>Yixing Zisha: 40–50% quartz, 25–40% kaolinite and hydromica, 8–12% iron oxides, fired at 1,100–1,220°C.[[3]][[17]]</li>
+        <li data-pot="mg"><b>Magnifique</b>Sold as 100% kaolin clay with a kaolin glaze fired above 1,500°F (815°C); whether it adds petalite or spodumene isn’t disclosed.[[7]]</li>
+        <li data-pot="al"><b>Aluminum insert</b>Not clay: aluminum alloy with a PTFE or sol-gel ceramic coating.[[28]]</li>
+        <li data-pot="ci"><b>Cast-iron insert</b>Not clay: porcelain-enameled gray cast iron.[[29]]</li>
+      </ul>
+    </div>
+
+    <div class="drills">
+      <details class="why"><summary><span class="tag">Myth check</span>“Volcanic clay” is molded lava</summary><div>
+        <p>Fresh basalt, pumice and lava have no plasticity at all, so you can’t throw a pot from them. Real “volcanic” pottery either uses weathered volcanic soils, mixes crushed basalt or scoria in as grit (Jeju), or, in the modern Korean <em>ttukbaegi</em> that claim 0% absorption and no cracking, blends in imported lithium-bearing <b>petalite</b> and fires above 1,250°C. Traditional Korean <em>onggi</em> fired at 1,100–1,200°C measures 10.8–38.2% porosity.[[9]] <b>Verdict:</b> a marketing label; the crack resistance comes from petalite.</p>
+      </div></details>
+      <details class="why"><summary><span class="tag">Myth check</span>Clay gives off special “far-infrared” heat</summary><div>
+        <p>Every surface at 100–250°C radiates infrared at roughly 5–20 µm, metal included, and those waves reach only fractions of a millimeter into food. What clay really has over shiny metal is <b>emissivity</b>: it radiates at about 0.90–0.95 of the theoretical maximum against under 0.1 for polished aluminum or steel, plus a low conductivity that keeps hot spots from scorching.[[10]] <b>Verdict:</b> real effect, ordinary physics.</p>
+      </div></details>
+      <details class="why"><summary><span class="tag">Myth check</span>La Chamba is shiny, so it must be glazed</summary><div>
+        <p>Protected by Colombia’s SIC Resolution No. 72993 (2019), La Chamba blends three Magdalena River clays: plastic <em>arcilla lisa</em>, sandy <em>arcilla arenosa</em>, and a fine red slip, <em>arcilla roja</em>, all rich in mica.[[5]] Potters rub the leather-hard pots with smooth river stones (<em>bruñido</em>), which lays the clay’s flat platelets parallel so they reflect like a mirror, then smother the hot pots in organic chaff (<em>ahumado</em>), which drives carbon into the surface and turns the iron black. Since the pores stay open, importers say to cure liquid-holding pots before first use: three-quarters full of water, uncovered, into a cold oven, 400°F (200°C) for 30 minutes.[[11]] <b>Verdict:</b> 0% glaze.</p>
+      </div></details>
+      <details class="why"><summary>What are petalite, spodumene and cordierite, and what is “thermal expansion”?</summary><div>
+        <p>Thermal expansion (CTE) is how many millionths of its length a material grows for each degree it heats; when one patch of a pot is hotter than the next, the difference in growth is the stress that cracks it. Petalite and spodumene (lithium minerals) and cordierite (a magnesium mineral) form crystals that barely expand, so “flameware” built on them has a CTE of roughly −0.5 to 3.5 millionths per °C, against 4.5–8.0 for ordinary earthenware.[[23]] Banko-yaki <em>donabe</em> contain about 40–50% petalite.[[9]]</p>
+      </div></details>
+    </div>
+  </div>
+</section>
+
+<!-- 3 · HEAT -->
+<section class="ch" id="c3" data-name="3 · Heat" aria-labelledby="h3">
+  <div class="ch-in">
+    <div class="ch-head">
+      <p class="ch-num"><span>3</span>Heat</p>
+      <h2 id="h3">Why does clay cook so slowly, and how much hotter should the oven be?</h2>
+      <p class="answer"><b>Short answer</b>Clay lets heat through at roughly 1% of aluminum’s rate, so it’s slow to heat and slow to swing; and for a soaked clay baker, the US Römertopf booklet says +100°F and 30 minutes less, starting from a cold oven.[[12]][[14]]</p>
+    </div>
+
+    <div class="plate">
+      <div class="plate-hd"><span>Plate 3 · Heat, three ways</span><span>bars start at zero</span></div>
+      <h3>Aluminum moves heat; cast iron stores it; clay mostly holds it in place.</h3>
+      <div class="ctl" role="group" aria-label="Which property">
+        <span class="lbl">Show</span>
+        <button type="button" class="seg" data-heat="k" aria-pressed="true">How fast heat travels</button>
+        <button type="button" class="seg" data-heat="cv" aria-pressed="false">How much heat it stores</button>
+        <button type="button" class="seg" data-heat="a" aria-pressed="false">How fast it evens out</button>
+        <button type="button" class="seg" data-zoom aria-pressed="false">Zoom in on clay</button>
+      </div>
+      <p class="how" id="heatwhat"></p>
+      <div class="bars" id="heatbars"></div>
+      <div class="axis"><span></span><div class="axis-ticks" id="heataxis"></div></div>
+      <p class="cap" id="heatcap"></p>
+      <details class="table-alt">
+        <summary>Show as a table</summary>
+        <div class="tscroll"><table>
+          <thead><tr><th>Material</th><th>Conductivity, W/(m·K)</th><th>Heat stored per volume, MJ/(m³·K)</th><th>Diffusivity, mm²/s</th></tr></thead>
+          <tbody>
+            <tr><td>Aluminum 3003 (non-stick pans)</td><td>159–190</td><td>2.40–2.46</td><td>63–77</td></tr>
+            <tr><td>Gray cast iron</td><td>40–72</td><td>3.27–3.69</td><td>10–18</td></tr>
+            <tr><td>Glazed stoneware / porcelain</td><td>1.0–4.0</td><td>1.6–2.3</td><td>0.5–1.5</td></tr>
+            <tr><td>Unglazed Zisha</td><td>1.3 (single source)</td><td>not published</td><td>not published</td></tr>
+            <tr><td>Unglazed terracotta</td><td>0.50–1.30</td><td>1.2–1.9</td><td>0.2–0.7</td></tr>
+          </tbody>
+        </table></div>
+      </details>
+    </div>
+
+    <div class="plate">
+      <div class="plate-hd"><span>Plate 3b · Converting a recipe</span><span>for any soaked, unglazed clay baker</span></div>
+      <h3>Set the dial to what the metal-pan recipe says.</h3>
+      <div class="two">
+        <div>
+          <div class="slider-head"><label for="ovenin">Recipe written for a metal pan</label><span id="ovenout">350°F</span></div>
+          <input type="range" id="ovenin" min="275" max="400" step="25" value="350">
+          <div class="oven">
+            <div class="oven-box"><small>Metal pan, preheated</small><b id="ovmetal">350°F</b><span id="ovmetalc">177°C · recipe time</span></div>
+            <div class="oven-box clay"><small>Soaked clay, cold oven</small><b id="ovclay">450°F</b><span id="ovclayc">232°C · 30 min less</span></div>
+          </div>
+          <p class="cap" id="ovennote"></p>
+        </div>
+        <div>
+          <p style="margin:0 0 8px;font-size:15px"><b>The routine:</b> soak the pot in cold water for 10–20 minutes (30 if it’s new or bone dry), put it in a <b>cold</b> oven, and take the lid off for the last 15–20 minutes so the top can dry out and brown. While the walls are still wet, evaporation holds the food chamber near 212°F (100°C), and the cold start adds roughly 10–30 minutes of lag.[[14]]</p>
+          <div class="trap" aria-label="The +50 trap">
+            <div><b>+50°C = +90°F</b>a 50-degree Celsius difference</div>
+            <div><b>+50°F = +27.8°C</b>what the blogs end up telling you</div>
+          </div>
+          <p class="cap">Where “+50°F” comes from: somebody read a 50°C <em>difference</em> as 50°F.[[14]]</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="verdicts" data-ch="3">
+      <div class="v-hd"><b>Verdicts · heat</b><small>Your pot first.</small></div>
+      <div class="v-mine" aria-live="polite"></div>
+      <ul class="v-list">
+        <li data-pot="rt"><b>Römertopf</b>Terracotta conducts 0.50–1.30 W/(m·K): practically an insulator. Cold oven, +100°F, 30 minutes less, 500°F at most.[[12]][[14]]</li>
+        <li data-pot="lc"><b>La Chamba</b>No conductivity has been measured for La Chamba itself; it’s low-fired clay, so it belongs at the slow end of the chart.[[6]]</li>
+        <li data-pot="vc"><b>VitaClay</b>Zisha comes in at 1.3 W/(m·K), from a single modeling study; the electric base does the gentle heating.[[13]][[22]]</li>
+        <li data-pot="mg"><b>Magnifique</b>Glazed stoneware runs 1.0–4.0 W/(m·K); Magnifique doesn’t publish its own figure.[[12]][[7]]</li>
+        <li data-pot="al"><b>Aluminum insert</b>The fastest mover by far (159–190 W/(m·K)), but thin walls lose their heat quickly when cold food goes in.[[12]][[28]]</li>
+        <li data-pot="ci"><b>Cast-iron insert</b>Slower than aluminum, yet it stores the most heat per volume (3.27–3.69 MJ/(m³·K)), which is what wins a sear.[[12]][[29]]</li>
+      </ul>
+    </div>
+
+    <div class="drills">
+      <details class="why"><summary><span class="tag">Myth check</span>Cast iron sears well because it has a “high specific heat”</summary><div>
+        <p>Backwards, per kilogram: gray cast iron stores 460–505 J/(kg·K), about half of aluminum’s 880–904 or clay’s 750–1,000. Cast iron wins <em>per volume</em> because it’s so dense (7,100–7,300 kg/m³), so every millimeter of wall holds 3.27–3.69 MJ/(m³·K) of heat against about 2.4 for aluminum.[[12]] That stored heat is what keeps the pan from crashing when a cold, wet steak lands on it.</p>
+      </div></details>
+      <details class="why"><summary>What do W/(m·K), MJ/(m³·K) and mm²/s actually measure?</summary><div>
+        <p><b>Conductivity, W/(m·K):</b> how many watts flow through a one-meter slab for each degree of difference between its faces; higher means a hot burner spot spreads out faster. <b>Volumetric heat capacity, MJ/(m³·K):</b> how much energy a cubic meter of wall takes up per degree, density times specific heat. <b>Diffusivity, mm²/s:</b> conductivity divided by that heat capacity, which says how fast a temperature change sweeps across the wall; aluminum evens out about a hundred times faster than terracotta.[[12]]</p>
+      </div></details>
+      <details class="why"><summary>Why do the German and US Römertopf instructions differ?</summary><div>
+        <p>The US booklet prints “+100°F (~50°C)” and minus 30 minutes against an ordinary recipe; the German site (<em>roemertopf.de</em>) skips conversions entirely and just prescribes 180–200°C with convection, or about 220°C top and bottom heat, maximum 250°C, from a cold oven.[[14]]</p>
+      </div></details>
+    </div>
+  </div>
+</section>
+
+<!-- 4 · WATER -->
+<section class="ch alt" id="c4" data-name="4 · Water" aria-labelledby="h4">
+  <div class="ch-in">
+    <div class="ch-head">
+      <p class="ch-num"><span>4</span>Water</p>
+      <h2 id="h4">On a 2-, 4- or 8-hour cook, do you have to top up the water?</h2>
+      <p class="answer"><b>Short answer</b>That depends far more on how well the lid seals than on whether the clay is glazed: a closed slow-cooker crock needs <em>less</em> liquid to begin with, while a soaked Römertopf runs out of wall water after a few hours.[[15]][[17]]</p>
+    </div>
+
+    <div class="plate">
+      <div class="plate-hd"><span>Plate 4 · The clock</span><span>what the manuals and extension services say</span></div>
+      <h3>Pick how long it’s been cooking.</h3>
+      <div class="hours" role="group" aria-label="Hours of cooking">
+        <button type="button" data-hr="2" aria-pressed="false">2 h<small>a roast</small></button>
+        <button type="button" data-hr="4" aria-pressed="true">4 h<small>a braise</small></button>
+        <button type="button" data-hr="8" aria-pressed="false">8 h<small>all day</small></button>
+      </div>
+      <div class="hr-rows" id="hrrows" aria-live="polite"></div>
+      <details class="table-alt">
+        <summary>Show as a table</summary>
+        <div class="tscroll"><table>
+          <thead><tr><th>Pot</th><th>2 hours</th><th>4 hours</th><th>8 hours</th></tr></thead>
+          <tbody id="hrtable"></tbody>
+        </table></div>
+      </details>
+    </div>
+
+    <div class="two">
+      <div class="plate" style="margin-top:0">
+        <div class="plate-hd"><span>Plate 4b · The chart nobody made</span><span>a gap, not a zero</span></div>
+        <div class="nochart" role="img" aria-label="An empty chart frame: percent of water lost after 2, 4 and 8 hours by pot type. No such data has been published.">
+          <span class="ylab">% of water lost ↑</span>
+          <div class="msg"><div><b>Not published.</b>No test kitchen (America’s Test Kitchen, Serious Eats, <em>Modernist Cuisine</em>, Stiftung Warentest) and no university extension has measured clay against metal at 2, 4 and 8 hours, and nobody has weighed a soaked Römertopf in grams. So this chart stays empty.[[16]]</div></div>
+          <div class="xl"><span>2 h</span><span>4 h</span><span>8 h</span></div>
+        </div>
+      </div>
+      <div class="plate" style="margin-top:0">
+        <div class="plate-hd"><span>Plate 4c · The lid is the variable</span><span>enameled Dutch oven, low oven</span></div>
+        <h3>Same pot, same oven; the only change is the lid.</h3>
+        <div class="lid">
+          <div><b>~210°F</b><span>lid on tight: the liquid stays wet and hot</span></div>
+          <div><b>~190°F</b><span>lid cracked open: evaporation cools it</span></div>
+        </div>
+        <p class="cap">J. Kenji López-Alt’s tests in a 250°F oven.[[18]] And meat itself gives up 20–40% of its raw weight in water as it cooks, lid or no lid,[[15]] which is why slow-cooker recipes start with 30–50% less broth.</p>
+      </div>
+    </div>
+
+    <div class="verdicts" data-ch="4">
+      <div class="v-hd"><b>Verdicts · water</b><small>Your pot first.</small></div>
+      <div class="v-mine" aria-live="polite"></div>
+      <ul class="v-list">
+        <li data-pot="rt"><b>Römertopf</b>Made for 1–3 hour oven roasts; by 4 hours the soak water is spent, and cold liquid into hot clay is how pots crack.[[14]]</li>
+        <li data-pot="lc"><b>La Chamba</b>No published water-loss figures for La Chamba; its pores stay open, so watch the level as you would in any unglazed pot.[[16]][[6]]</li>
+        <li data-pot="vc"><b>VitaClay</b>Depends on the lid: double-lid models finish 8-hour recipes in about 2, while the dome-lid stockpot needs 4–8 cups to start and warm top-ups.[[17]]</li>
+        <li data-pot="mg"><b>Magnifique</b>No published water-loss figures; glazed slow-cooker crocks in general run a closed loop and shouldn’t be topped up.[[15]]</li>
+        <li data-pot="al"><b>Aluminum insert</b>No published water-loss figures for these inserts; the lid seal, not the metal, decides it.[[16]]</li>
+        <li data-pot="ci"><b>Cast-iron insert</b>Lid on, ~210°F and little loss; check at 3–4 hours if the lid’s ajar or the oven’s above 300°F.[[18]]</li>
+      </ul>
+    </div>
+
+    <div class="drills">
+      <details class="why"><summary>If the lid traps the steam, why does slow-cooked meat still come out drier?</summary><div>
+        <p>Because the water was never the pot’s to keep. A 1983 University of Illinois study (Peters et al., <em>Journal of the American Dietetic Association</em>) found that meat loaves and chickens cooked in an electric slow cooker lost <em>more</em> drip and total weight than oven-cooked ones:[[19]] a sealed pot stops evaporation, but it doesn’t stop muscle proteins from squeezing out their own water over hours at temperature.</p>
+      </div></details>
+      <details class="why"><summary>What’s an extension service?</summary><div>
+        <p>The public outreach arm of a US land-grant university (Michigan State, Purdue, Texas A&amp;M and others), which publishes tested home-cooking and food-safety advice; their slow-cooker guidance is where the “30–50% less liquid” and “each lid lift costs 20–30 minutes” rules come from.[[15]]</p>
+      </div></details>
+    </div>
+  </div>
+</section>
+
+<!-- 5 · CRACKS -->
+<section class="ch kiln" id="c5" data-name="5 · Cracks" aria-labelledby="h5">
+  <div class="ch-in">
+    <div class="ch-head">
+      <p class="ch-num"><span>5</span>Cracks</p>
+      <h2 id="h5">Why do clay pots crack, and why do multi-cooker inserts almost never do?</h2>
+      <p class="answer"><b>Short answer</b>Clay is strong when squeezed and weak when stretched; heat one patch faster than the wall can spread it, and the hot part pulls the cold part apart. Electric bases avoid that by wrapping the pot in heat and ramping it slowly.[[20]][[22]]</p>
+    </div>
+
+    <div class="plate">
+      <div class="plate-hd"><span>Plate 5 · The quench test</span><span>drawing, not to scale</span></div>
+      <h3>Pick a material, then make the temperature jump.</h3>
+      <p class="how">Labs heat a sample, drop it into room-temperature water, and raise the starting temperature until it cracks; that jump is its <em>critical ΔT</em>.[[21]] It’s a harsh lab proxy, not a recipe, but it ranks materials honestly.</p>
+      <div class="ctl" role="group" aria-label="Material">
+        <span class="lbl">Material</span>
+        <button type="button" class="seg" data-mat="earth" aria-pressed="true">Earthenware</button>
+        <button type="button" class="seg" data-mat="stone" aria-pressed="false">Stoneware</button>
+        <button type="button" class="seg" data-mat="zisha" aria-pressed="false">Zisha</button>
+        <button type="button" class="seg" data-mat="cord" aria-pressed="false">Cordierite flameware</button>
+        <button type="button" class="seg" data-mat="las" aria-pressed="false">Petalite flameware</button>
+      </div>
+      <div class="shock">
+        <svg id="potsvg" viewBox="0 0 440 300" role="img" aria-labelledby="pottitle"><title id="pottitle">A pot, before and after a sudden temperature jump</title></svg>
+        <div>
+          <div class="slider-head"><label for="dt">Sudden temperature jump (ΔT)</label><span id="dtout">200°C</span></div>
+          <input type="range" id="dt" min="0" max="800" step="10" value="200">
+          <div class="presets">
+            <button type="button" class="seg" data-dt="210">Room-temp pot into a 450°F oven (≈210°C)</button>
+            <button type="button" class="seg" data-dt="160">Zisha’s national test: 180°C into 20°C water (160°C)</button>
+          </div>
+          <p class="verdict-big" id="dtverdict" aria-live="polite"></p>
+          <p class="readout" id="dtread"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="plate">
+      <div class="plate-hd"><span>Plate 5b · Critical ΔT</span><span>°C · bars start at zero</span></div>
+      <h3>How big a jump each material survives</h3>
+      <div class="bars" id="shockbars"></div>
+      <div class="axis"><span></span><div class="axis-ticks"><span>0</span><span>200</span><span>400</span><span>600</span><span>800°C</span></div></div>
+      <p class="cap">Solid: the low end of the published range; hatched: the rest of it. Zisha shows the jump its national standard (GB/T 10816) requires it to pass, not a measured breaking point.[[4]][[23]]</p>
+    </div>
+
+    <div class="verdicts" data-ch="5">
+      <div class="v-hd"><b>Verdicts · cracks</b><small>Your pot first.</small></div>
+      <div class="v-mine" aria-live="polite"></div>
+      <ul class="v-list">
+        <li data-pot="rt"><b>Römertopf</b>Plain earthenware fails a water quench below 100°C: never put it wet into a hot oven, never on a burner.[[21]][[14]]</li>
+        <li data-pot="lc"><b>La Chamba</b>Survives a low-to-medium gas flame by stopping cracks rather than resisting them: mica, grit and open pores catch them.[[20]][[11]]</li>
+        <li data-pot="vc"><b>VitaClay</b>Zisha must pass a 160°C quench; VitaClay’s “480°F shock resistance” is on its website but not in its manuals.[[4]][[17]]</li>
+        <li data-pot="mg"><b>Magnifique</b>Rated for the stovetop and up to 750°F in the oven, so something tames its expansion, but the maker won’t say what.[[7]]</li>
+        <li data-pot="al"><b>Aluminum insert</b>It’s metal: no thermal-shock breakage.[[28]]</li>
+        <li data-pot="ci"><b>Cast-iron insert</b>The iron won’t crack, but the enamel can craze if you quench it violently.[[29]]</li>
+      </ul>
+    </div>
+
+    <div class="drills">
+      <details class="why"><summary><span class="tag">Myth check</span>Dense, high-fired stoneware is tougher on a flame than porous pottery</summary><div>
+        <p>Not on a flame. Vitrified stoneware is strong, so it shrugs off small stresses right up until it fails, and then the crack runs through the whole glassy wall. Thermal-shock damage theory and archaeological tests (Tite et al. 2001; Müller et al. 2010) show that coarse grit, open pores and flat mica flakes deflect and stop small cracks before they split the pot, trading impact strength for burner survival.[[20]]</p>
+      </div></details>
+      <details class="why"><summary>Why does a <em>wet</em> pot crack in a hot oven?</summary><div>
+        <p>Two ways at once: the outside heats and swells faster than the inside, and the soak water in the pores flashes to steam with nowhere to go. Starting a soaked pot in a cold oven lets both happen slowly.[[21]][[14]]</p>
+      </div></details>
+      <details class="why"><summary>How does an electric multi-cooker keep a clay insert from cracking?</summary><div>
+        <p>From the first slow cooker patent (Naxon, US 2,187,888) to modern ones, the heating element wraps around the sides rather than sitting under one spot, and controllers pulse the power to ramp the temperature instead of slamming it on, which keeps the difference across the wall small.[[22]]</p>
+      </div></details>
+    </div>
+  </div>
+</section>
+
+<!-- 6 · STOVETOPS -->
+<section class="ch" id="c6" data-name="6 · Stovetops" aria-labelledby="h6">
+  <div class="ch-in">
+    <div class="ch-head">
+      <p class="ch-num"><span>6</span>Stovetops</p>
+      <h2 id="h6">Can it go on my stove, and what about induction?</h2>
+      <p class="answer"><b>Short answer</b>Gas is the friendliest burner for clay that’s rated for it; coils and glass tops need a diffuser; and no clay pot works on induction by itself, while the steel adapter plates that would make it work are banned by some cooktop makers.[[24]]</p>
+    </div>
+
+    <div class="plate">
+      <div class="plate-hd"><span>Plate 6 · Your stove</span><span>maker and importer instructions</span></div>
+      <h3>Pick a burner.</h3>
+      <div class="burners" role="group" aria-label="Burner type">
+        <button type="button" data-stove="gas" aria-pressed="true"><svg aria-hidden="true"><use href="#b-gas"/></svg>Gas flame</button>
+        <button type="button" data-stove="coil" aria-pressed="false"><svg aria-hidden="true"><use href="#b-coil"/></svg>Electric coil</button>
+        <button type="button" data-stove="glass" aria-pressed="false"><svg aria-hidden="true"><use href="#b-glass"/></svg>Radiant glass top</button>
+        <button type="button" data-stove="ind" aria-pressed="false"><svg aria-hidden="true"><use href="#b-ind"/></svg>Induction + steel plate</button>
+      </div>
+      <div class="stove-rows" id="stoverows" aria-live="polite"></div>
+      <details class="table-alt">
+        <summary>Show all four burners as a table</summary>
+        <div class="tscroll"><table>
+          <thead><tr><th>Pot</th><th>Gas</th><th>Electric coil</th><th>Radiant glass</th><th>Induction + plate</th></tr></thead>
+          <tbody id="stovetable"></tbody>
+        </table></div>
+      </details>
+    </div>
+
+    <div class="plate">
+      <div class="plate-hd"><span>Plate 6b · The adapter-plate argument</span><span>who says what</span></div>
+      <h3>Cooktop makers and clay makers flatly disagree.</h3>
+      <div class="clash">
+        <div>
+          <h4>Induction cooktop makers</h4>
+          <ul>
+            <li>Miele <span class="chip c-bad">Prohibits</span></li>
+            <li>Bosch <span class="chip c-bad">Prohibits</span></li>
+            <li>GE Appliances <span class="chip c-amb">Warns against</span></li>
+            <li>Sub-Zero / Wolf <span class="chip c-amb">Warns against</span></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Clay and flameware makers</h4>
+          <ul>
+            <li>Emile Henry (Flame line) <span class="chip c-ok">Allows, low–medium</span></li>
+            <li>Clay Coyote <span class="chip c-ok">Allows, low–medium</span></li>
+            <li><span>Toiro (Iga-yaki <em>donabe</em>)</span> <span class="chip c-bad">Advises against</span></li>
+          </ul>
+        </div>
+      </div>
+      <p class="cap">Why the cooktop makers object: an insulating clay pot sitting on a hot steel plate traps heat against the glass, pushing it past its normal ~350°C under a pot (empty pots exceed 500°C), tripping cut-offs and voiding warranties; Miele and Bosch warn the electronics “may be damaged or destroyed.” Toiro objects for the pot’s sake: uneven contact cracks it.[[24]]</p>
+    </div>
+
+    <div class="verdicts" data-ch="6">
+      <div class="v-hd"><b>Verdicts · stovetops</b><small>Your pot first.</small></div>
+      <div class="v-mine" aria-live="polite"></div>
+      <ul class="v-list">
+        <li data-pot="rt"><b>Römertopf</b>Oven only: no burner of any kind.[[14]]</li>
+        <li data-pot="lc"><b>La Chamba</b>Gas, starting low with liquid inside; a diffuser on coils and glass; induction is where the makers fight.[[11]][[24]]</li>
+        <li data-pot="vc"><b>VitaClay</b>Its own electric base only: the manual bans stovetop and oven alike.[[17]]</li>
+        <li data-pot="mg"><b>Magnifique</b>Rated for gas and electric stovetops on gradual heat; not induction.[[7]]</li>
+        <li data-pot="al"><b>Aluminum insert</b>The Ninja MC1001 pot is oven-safe to 500°F but not stovetop-safe.[[28]]</li>
+        <li data-pot="ci"><b>Cast-iron insert</b>Everything, including induction natively: iron is magnetic.[[29]]</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 7 · BROWNING & FLAVOR -->
+<section class="ch alt" id="c7" data-name="7 · Browning and flavor" aria-labelledby="h7">
+  <div class="ch-in">
+    <div class="ch-head">
+      <p class="ch-num"><span>7</span>Browning and flavor</p>
+      <h2 id="h7">Will it brown, will it stick, and will it remember last week’s curry?</h2>
+      <p class="answer"><b>Short answer</b>Browning needs a dry surface at 140–165°C, which a lidded clay pot full of steam won’t give you until the lid comes off; and unglazed clay soaks up fats and aromas that a glaze simply wipes clean of.[[25]][[27]]</p>
+    </div>
+
+    <div class="plate">
+      <div class="plate-hd"><span>Plate 7 · The browning map</span><span>drag or tap the map, or use the sliders</span></div>
+      <h3>Browning happens in a small window of heat and dryness.</h3>
+      <div class="brown">
+        <div class="tscroll">
+          <svg id="mapsvg" viewBox="0 0 560 380" role="img" aria-labelledby="maptitle mapdesc"><title id="maptitle">Browning map: pan surface temperature against food surface water activity</title><desc id="mapdesc">The fast-browning window is 140 to 165°C at a water activity of 0.55 to 0.85, peaking at 0.6 to 0.7. Wet food is held near 100°C until its water boils off. Charring begins above 176 to 200°C. PTFE non-stick starts to deteriorate at 260°C, with polymer fume fever around 350°C.</desc></svg>
+        </div>
+        <div>
+          <p class="cap swipe">Swipe the map sideways for the full scale; tap it to move the dot.</p>
+          <div class="slider-head"><label for="mt">Pan surface temperature</label><span id="mtout"></span></div>
+          <input type="range" id="mt" min="90" max="360" step="5" value="155">
+          <div class="slider-head"><label for="maw">Food surface wetness (water activity)</label><span id="mawout"></span></div>
+          <input type="range" id="maw" min="0.15" max="1" step="0.05" value="0.65">
+          <p class="readout" id="mapread" aria-live="polite"></p>
+          <details class="why" style="margin-top:12px"><summary>What is “water activity”?</summary><div><p>A 0-to-1 scale of how much free, chemically available water is at the food’s surface (pure water is 1.0); it isn’t the same as total moisture, and browning slows when it’s below about 0.3 or above about 0.85.[[25]]</p></div></details>
+        </div>
+      </div>
+    </div>
+
+    <div class="two">
+      <div class="plate" style="margin-top:0">
+        <div class="plate-hd"><span>Plate 7b · Why food sticks</span><span>surface energy, mN/m · bars start at zero</span></div>
+        <h3>The stickier the surface, the more the meat grabs it.</h3>
+        <div class="bars" id="stickbars"></div>
+        <div class="axis"><span></span><div class="axis-ticks"><span>0</span><span>400</span><span>800</span><span>1,200</span></div></div>
+        <p class="cap">Glazed ceramic is covered in polar silanol groups that bind wet proteins unless the surface is oiled; bare iron binds hardest of all until polymerized oil (seasoning) covers it.[[26]] Surface energy is the energy it takes to make a square meter of new surface; higher means liquids and proteins cling harder.</p>
+      </div>
+      <div class="plate" style="margin-top:0">
+        <div class="plate-hd"><span>Plate 7c · Flavor memory</span><span>how deep it gets in</span></div>
+        <h3>Fats go 5–400+ µm into unglazed clay.</h3>
+        <svg id="depthsvg" viewBox="0 0 420 150" role="img" aria-label="A ruler from 0 to 0.5 millimeters into the wall; fatty acids from cooking reach 5 to over 400 micrometers deep."></svg>
+        <p class="cap">Mass spectrometry of unglazed Yixing pots and La Chamba cooking experiments find fatty acids (palmitic, stearic), waxes and hydrocarbons, not water-soluble broth, migrating into the wall.[[27]][[6]]</p>
+        <div class="helps">
+          <div class="h-ok"><h4>When it helps</h4><p>One pot for one tea (<em>yi tu yi cha</em>) rounds off astringency; a pot kept for the same savory stew deepens it.[[27]]</p></div>
+          <div class="h-bad"><h4>When it hurts</h4><p>Garlic, curry or fish ghosts turn up in porridge or yogurt; and since clay can’t be baked at cast iron’s 450–500°F seasoning heat, absorbed oils don’t polymerize and can go rancid in storage.[[26]]</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="verdicts" data-ch="7">
+      <div class="v-hd"><b>Verdicts · browning and flavor</b><small>Your pot first.</small></div>
+      <div class="v-mine" aria-live="polite"></div>
+      <ul class="v-list">
+        <li data-pot="rt"><b>Römertopf</b>Steams while lidded; take the lid off for the last 15–20 minutes to brown. Its pores keep oils and aromas.[[14]][[27]]</li>
+        <li data-pot="lc"><b>La Chamba</b>Absorbs cooking fats into the wall over repeated use, so it builds a flavor history.[[6]]</li>
+        <li data-pot="vc"><b>VitaClay</b>Can’t sear in it: brown meat in a separate skillet. Its pores trap fats; mild soap is allowed if rinsed well.[[17]][[27]]</li>
+        <li data-pot="mg"><b>Magnifique</b>Sears and sautés in the pot on its base; glaze grabs wet protein unless oiled, but keeps no flavor and goes in the dishwasher.[[7]][[26]]</li>
+        <li data-pot="al"><b>Aluminum insert</b>The easiest release while the coating lasts; PTFE starts breaking down at 260°C (500°F), sol-gel ceramic coatings at 250–300°C.[[26]][[28]]</li>
+        <li data-pot="ci"><b>Cast-iron insert</b>The best sear, thanks to all that stored heat; the enamel keeps no flavor.[[12]][[29]]</li>
+      </ul>
+    </div>
+
+    <div class="drills">
+      <details class="why"><summary><span class="tag">Myth check</span>One drop of dish soap ruins an unglazed pot</summary><div>
+        <p>Half true. Soap surfactants (SDS, LAS) do get pulled into clay pores and cling to the clay minerals electrostatically, which is why dishwashers and harsh detergents stay banned and traditional guides say to scrub with warm water, coarse salt or baking-soda paste.[[26]] But newer Römertopf and VitaClay manuals allow a little <em>mild</em> dish soap once the pot is cool, as long as you rinse thoroughly with hot water; VitaClay suggests a soak with a quarter-cup of baking soda for odors.[[17]][[14]]</p>
+      </div></details>
+      <details class="why"><summary>Why does a sealed, wet pot refuse to brown?</summary><div>
+        <p>While there’s free water on the food’s surface, it can’t get much hotter than water’s boiling point, 100°C (212°F); browning only takes off once that water is gone and the surface climbs to 140–165°C.[[25]]</p>
+      </div></details>
+    </div>
+  </div>
+</section>
+
+<!-- 8 · MULTI-COOKERS -->
+<section class="ch" id="c8" data-name="8 · Multi-cookers" aria-labelledby="h8">
+  <div class="ch-in">
+    <div class="ch-head">
+      <p class="ch-num"><span>8</span>Multi-cookers</p>
+      <h2 id="h8">Magnifique, VitaClay, or the metal insert you already own?</h2>
+      <p class="answer"><b>Short answer</b>Magnifique is the clay pot that behaves most like a metal one (sear on the base, stovetop, oven, dishwasher); VitaClay is the one that behaves most like clay (gentle, no searing, keeps flavors); the metal inserts won’t crack, though enamel can craze.[[7]][[17]][[29]]</p>
+    </div>
+
+    <div class="plate">
+      <div class="plate-hd"><span>Plate 8 · Side by side</span><span>maker specs and manuals</span></div>
+      <div class="tscroll">
+        <table class="matrix" id="matrix">
+          <thead><tr>
+            <th></th>
+            <th data-pot="mg"><svg aria-hidden="true"><use href="#i-mg"/></svg>Magnifique<small>glazed kaolin</small></th>
+            <th data-pot="vc"><svg aria-hidden="true"><use href="#i-vc"/></svg>VitaClay<small>unglazed Zisha</small></th>
+            <th data-pot="al"><svg aria-hidden="true"><use href="#i-al"/></svg>Aluminum non-stick<small>Ninja, Crock-Pot</small></th>
+            <th data-pot="ci"><svg aria-hidden="true"><use href="#i-ci"/></svg>Enameled cast iron<small>All-Clad, Instant</small></th>
+          </tr></thead>
+          <tbody>
+            <tr><td>Size and power</td><td data-pot="mg">MCR51P: 4.5 qt, 1,130 W[[7]]</td><td data-pot="vc">VM7900 / VF7700: 3–4.2 qt, 500–600 W; VM7800: 6–6.5 qt, 600 W[[17]]</td><td data-pot="al">6–8.5 qt, 1,000–1,780 W[[28]]</td><td data-pot="ci">5–6 qt, 1,000–1,500 W[[29]]</td></tr>
+            <tr><td>Sear in the pot</td><td data-pot="mg"><span class="chip c-ok">Yes</span><br>Sear/Sauté mode on the base</td><td data-pot="vc"><span class="chip c-bad">No</span><br>brown meat in a separate pan</td><td data-pot="al"><span class="chip c-ok">Yes</span><br>fast heat-up, but thin walls drop temperature</td><td data-pot="ci"><span class="chip c-ok">Yes</span><br>the best sear inertia</td></tr>
+            <tr><td>Stovetop</td><td data-pot="mg"><span class="chip c-ok">Gas, electric</span></td><td data-pot="vc"><span class="chip c-bad">Prohibited</span></td><td data-pot="al"><span class="chip c-bad">No</span> (Ninja MC1001)</td><td data-pot="ci"><span class="chip c-ok">Gas, electric</span></td></tr>
+            <tr><td>Induction</td><td data-pot="mg"><span class="chip c-bad">No</span></td><td data-pot="vc"><span class="chip c-bad">No</span></td><td data-pot="al"><span class="chip c-bad">No</span></td><td data-pot="ci"><span class="chip c-ok">Yes, natively</span></td></tr>
+            <tr><td>Oven</td><td data-pot="mg"><span class="chip c-ok">Up to 750°F</span><br>(450–500°F listed for MCP41P)</td><td data-pot="vc"><span class="chip c-bad">Prohibited</span></td><td data-pot="al"><span class="chip c-ok">To 500°F</span> (Ninja MC1001)</td><td data-pot="ci"><span class="chip c-ok">450–500°F</span></td></tr>
+            <tr><td>Soap and dishwasher</td><td data-pot="mg"><span class="chip c-ok">Both</span></td><td data-pot="vc"><span class="chip c-amb">Mild soap only</span><br>rinse well; never soak the outside</td><td data-pot="al"><span class="chip c-ok">Soap</span></td><td data-pot="ci"><span class="chip c-ok">Soap</span></td></tr>
+            <tr><td>Flavor memory</td><td data-pot="mg"><span class="chip c-ok">None</span><br>glass-sealed</td><td data-pot="vc"><span class="chip c-amb">Yes</span><br>pores keep fats and aromas</td><td data-pot="al"><span class="chip c-ok">None</span></td><td data-pot="ci"><span class="chip c-ok">None</span></td></tr>
+            <tr><td>Can it crack?</td><td data-pot="mg"><span class="chip c-amb">Clay can</span><br>rated for stovetop heat</td><td data-pot="vc"><span class="chip c-amb">Clay can</span><br>the base heats it gently</td><td data-pot="al"><span class="chip c-ok">No</span></td><td data-pot="ci"><span class="chip c-amb">Enamel can craze</span></td></tr>
+            <tr><td>What they don’t say</td><td data-pot="mg">Slow-cook temperatures; whether low-expansion minerals are in the body</td><td data-pot="vc">“480°F shock resistance” is on the website, not in the manuals; 2-qt VS7600-2C wattage (120 W vs. 500–600 W) conflicts</td><td data-pot="al">Wall thickness</td><td data-pot="ci">Wall thickness; and it weighs 21–22 lb in all</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="cap">Magnifique is sold as PFAS-, PTFE- and lead-free.[[7]] PTFE coatings start to deteriorate at 260°C (500°F) and cause polymer fume fever around 350°C.[[26]] Factory electric Dutch ovens use enameled rather than bare iron because moisture rusts bare iron and acids strip its seasoning.[[29]]</p>
+    </div>
+  </div>
+</section>
+
+<!-- 9 · GLAZE SAFETY -->
+<section class="ch alt" id="c9" data-name="9 · Glaze safety" aria-labelledby="h9">
+  <div class="ch-in">
+    <div class="ch-head">
+      <p class="ch-num"><span>9</span>Glaze safety</p>
+      <h2 id="h9">Should I worry about lead in the glaze?</h2>
+      <p class="answer"><b>Short answer</b>Not with intact commercial cookware, which is tested against the limits below; the real, documented hazard is uncertified, low-fired (about 900–1,000°C) lead-glazed folk pottery, especially with hot, acidic food.[[30]]</p>
+    </div>
+    <div class="plate">
+      <div class="plate-hd"><span>Plate 9 · Leachable lead limits</span><span>mg/L after 24 h in 4% acetic acid · bars start at zero</span></div>
+      <h3>The stricter the standard, the shorter the bar.</h3>
+      <div class="bars" id="leadbars"></div>
+      <div class="axis"><span></span><div class="axis-ticks"><span>0</span><span>0.5</span><span>1.0</span><span>1.5 mg/L</span></div></div>
+      <p class="cap">The test: fill the pot with 4% acetic acid (about the strength of vinegar), leave it 24 hours at room temperature, and measure the lead that comes out. 1 mg/L is 1 part per million.[[30]]</p>
+    </div>
+    <div class="drills">
+      <details class="why"><summary><span class="tag">Myth check</span>You can “cure” a lead-glazed pot by boiling vinegar, milk or garlic in it</summary><div>
+        <p>FDA testing says no: home curing doesn’t seal or neutralize lead. And unglazed La Chamba has no glaze to leach in the first place.[[30]]</p>
+      </div></details>
+    </div>
+  </div>
+</section>
+
+<!-- SOURCES -->
+<section class="ch sources" id="sources" data-name="About these numbers" aria-labelledby="hs">
+  <div class="ch-in">
+    <div class="about">
+      <h3 id="hs">About these numbers</h3>
+      <p>Every figure on this page comes from at least two independent sources, except where it says otherwise; where sources disagree, the page shows the range. What’s single-sourced or missing:</p>
+      <ul>
+        <li><b>Single source:</b> Zisha’s thermal conductivity, 1.3 W/(m·K), comes from one peer-reviewed modeling study (Lee &amp; Attinger 2016).</li>
+        <li><b>Not measured anywhere we could find:</b> a 2/4/8-hour water-loss table for clay against metal; the grams of water a soaked Römertopf holds; a lab porosity figure for modern La Chamba; thermal expansion for the Zisha subtypes; conductivity for La Chamba itself.</li>
+        <li><b>Not disclosed by the maker:</b> Magnifique’s slow-cook temperatures and any low-expansion additives; VitaClay’s “480°F shock resistance” is in web and video copy but not in its PDF manuals; the 2-qt VitaClay’s wattage conflicts between listings.</li>
+        <li><b>Drawings:</b> the wall strips, the cracking pot and the flavor ruler show how things work, not measurements; the quench test and the browning map use the published thresholds.</li>
+      </ul>
+      <p>This is a scannable remake of <a href="clay-cookware.html">Glazed, Unglazed, and Mostly Undisclosed</a>, built from the same checked figures table. Fonts: Newsreader and IBM Plex Sans (SIL Open Font License 1.1), embedded so the page works offline.</p>
+    </div>
+    <h3 style="font-family:var(--serif);font-size:26px;margin:0 0 8px">Sources</h3>
+    <ol>
+      <li id="s1">García-Ten et al. (2010), <em>Ceramics International</em> 36(6):1951–1959; Kingery et al., <em>Introduction to Ceramics</em> (2nd ed.); ASTM C373 / USITC.</li>
+      <li id="s2">ASTM C242 &amp; ASTM C373; ISO 13006 &amp; ISO 10545-3 water absorption &amp; apparent porosity standards.</li>
+      <li id="s3">Wu et al. (2013), <em>Ceramics International</em> 39(3):2589–2595; Yang et al. (2021), <em>Ceramics International</em> 47(8):10650–10657; Lin et al. (2021), <em>J. Ceram. Sci. Technol.</em> 12(2):107–114.</li>
+      <li id="s4">SAMR China National Standard GB/T 10816-2008 &amp; GB/T 10816-2024 (<em>Zisha Pottery</em>).</li>
+      <li id="s5">Superintendencia de Industria y Comercio (SIC), Colombia, Resolución No. 72993 (2019); Bronitsky &amp; Hamer (1986), <em>American Antiquity</em> 51(1):89–101.</li>
+      <li id="s6">Miller et al. (2020), <em>Scientific Reports</em> (La Chamba lipid experiment); SciELO Brasil MIP micaceous potsherd porosity study.</li>
+      <li id="s7">Magnifique official specs &amp; manuals (cookmagnifique.com MCR51P / MCP41P; Target &amp; Dillard’s spec sheets); Digitalfire kaolin firing milestones.</li>
+      <li id="s8">Kingery (1955), <em>J. Am. Ceram. Soc.</em> 38(1):3–15; Hasselman (1969); Skibo &amp; Schiffer ceramic performance studies; Digitalfire glaze-fit &amp; 573°C quartz inversion guides.</li>
+      <li id="s9">Katsuki et al., <em>J. Korean Ceram. Soc.</em> (<em>onggi</em> porosity); MDPI Jeju volcanic scoria studies; Banko-yaki / Korean petalite flameware disclosures.</li>
+      <li id="s10">Planck’s &amp; Wien’s displacement laws; Thermtest &amp; ceramic emissivity literature (ε ≈ 0.90–0.95 vs. polished metal &lt;0.1).</li>
+      <li id="s11">Chamba Imports (chambaimports.com); Toque Blanche (mytoque.com); Ancient Cookware; Paula Wolfert (paula-wolfert.com).</li>
+      <li id="s12">ASM Handbooks Vols. 1 &amp; 2; MatWeb (Aluminum 3003-H14 / 1100-H14, ASTM A48 Gray Cast Iron); Incropera et al., Table A.1; <em>Modernist Cuisine</em> Vol. 2; García et al. (2011) LFM tile study.</li>
+      <li id="s13">Lee &amp; Attinger (2016), <em>Scientific Reports</em> 6:28609 (DOI: 10.1038/srep28609) [single source for <em>k</em> = 1.3 W/(m·K)].</li>
+      <li id="s14">Römertopf GmbH (roemertopf.de); Römertopf USA (romertopf-usa.com); Römertopf English instruction booklet (manuals.plus); McGee (2004), <em>On Food and Cooking</em>.</li>
+      <li id="s15">Michigan State, Purdue, Texas A&amp;M, Arkansas, CSU, NC State, and K-State University Extensions; America’s Test Kitchen / Cook’s Illustrated; <em>Modernist Cuisine</em> meat moisture loss.</li>
+      <li id="s16">Gap cross-check across ATK, Serious Eats, <em>Modernist Cuisine</em>, Stiftung Warentest, and university extensions (no published 2/4/8 h % evaporation table or weighed Römertopf soak grams).</li>
+      <li id="s17">VitaClay official specs &amp; PDF manuals (vitaclaychef.com, Home Depot thdstatic.com, ManualsLib VM7900 / VF7700 / VM7800 / VS7600).</li>
+      <li id="s18">J. Kenji López-Alt (Serious Eats / <em>The Food Lab</em>) Dutch oven lid-ajar (~190°F) vs. sealed (~210°F) evaporation tests.</li>
+      <li id="s19">Peters, Sinwell, &amp; Van Duyne (1983), <em>J. Am. Diet. Assoc.</em> 83(4):430–435 (PMID: 6619457).</li>
+      <li id="s20">Tite, Kilikoglou, &amp; Vekinis (2001), <em>Archaeometry</em> 43(3):301–324; Müller et al. (2010, 2014), <em>J. Eur. Ceram. Soc.</em> / <em>Archaeometry</em>.</li>
+      <li id="s21">ASTM C484, C554, C1525; ISO 10545-8 &amp; 10545-9; ceramic pore-steam spalling literature.</li>
+      <li id="s22">US Patents 2,187,888 (Naxon), 6,498,323 (Rival), 6,573,483, 6,740,855, and 10,588,443.</li>
+      <li id="s23">Corning / NIST Pyroceram 9608 &amp; 9606 datasheets; Junlar et al. (2021) / Saengchantara et al. (2012–13) cordierite flameware studies.</li>
+      <li id="s24">Miele, Bosch, GE Appliances, and Sub-Zero/Wolf induction manuals; SCHOTT CERAN (700°C shock / 350°C under-pot); Emile Henry, Toiro Kitchen, and Clay Coyote care guides.</li>
+      <li id="s25">Hodge (1953), <em>J. Agric. Food Chem.</em>; Labuza (1970) &amp; Labuza/Saltmarch (1981); Martins et al. (2000), <em>Trends Food Sci. Technol.</em>; van Boekel (2006).</li>
+      <li id="s26">Royal Society of Chemistry &amp; NIH/PMC silica/iron protein adhesion studies; Bernardin &amp; Mudawar (1999); Chemours Teflon specs &amp; FDA 21 CFR 177.1550; <em>Applied Clay Science</em> surfactant adsorption.</li>
+      <li id="s27">Chung et al. (2015), <em>J. Food Drug Anal.</em>; Liao et al. (2018), <em>J. Sci. Food Agric.</em>; Evershed &amp; Heron SIMS ceramic residue studies.</li>
+      <li id="s28">SharkNinja (Ninja MC1001), Crock-Pot (SCCPPC600-V1), and Breville (BPR700BSS) official manuals.</li>
+      <li id="s29">All-Clad (SD922D51) &amp; Instant Brands (Instant Precision Electric Dutch Oven) specs; MS State, UIUC, UMaine, NCSU, UADA cast-iron extensions.</li>
+      <li id="s30">FDA CPG Sec. 545.450 &amp; 545.400; 21 CFR § 109.16; CPSC 16 CFR Part 1303; ISO 6486-1/2:1999; EU Directive 84/500/EEC; CA OEHHA Prop 65; CDC MMWR lead-glazed pottery advisories.</li>
+    </ol>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <span>Written by Bryan Murphy · Sourced with <a href="../index.html">ProofEr</a> · <a href="clay-cookware.html">Read the original long version</a></span>
+  <span>Works offline</span>
+</footer>
+
+<div class="picker" role="group" aria-label="Your pot, highlighted in every chapter">
+  <span class="picker-lbl">Your pot<b id="pickname">Römertopf</b></span>
+  <span class="picker-btns" id="pickbtns">
+    <button type="button" data-pot="rt" aria-label="Römertopf" title="Römertopf"><svg aria-hidden="true"><use href="#i-rt"/></svg></button>
+    <button type="button" data-pot="lc" aria-label="La Chamba" title="La Chamba"><svg aria-hidden="true"><use href="#i-lc"/></svg></button>
+    <button type="button" data-pot="vc" aria-label="VitaClay" title="VitaClay"><svg aria-hidden="true"><use href="#i-vc"/></svg></button>
+    <button type="button" data-pot="mg" aria-label="Magnifique" title="Magnifique"><svg aria-hidden="true"><use href="#i-mg"/></svg></button>
+    <button type="button" data-pot="al" aria-label="Aluminum insert" title="Aluminum insert"><svg aria-hidden="true"><use href="#i-al"/></svg></button>
+    <button type="button" data-pot="ci" aria-label="Cast-iron insert" title="Cast-iron insert"><svg aria-hidden="true"><use href="#i-ci"/></svg></button>
+  </span>
+</div>
+
+<script>{{JS}}</script>
+</body>
+</html>

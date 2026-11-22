@@ -1,8 +1,16 @@
 # proj/clay-cookware/STATUS.md
 
-_Last updated: 2026-11-20_
+_Last updated: 2026-11-22_
 
 - **Stage:** `done` (built to `pieces/clay-cookware.html`, fonts embedded, linked in `index.html`, QA passed).
 - **Done:** Interview Rounds 1–3; `brief.md` approved; Pass 1 (6 workers), Pass 2 gap-fill (4 workers), and clay-types primer (1 worker) completed; `figures.md` synthesized (31 rows, 8 myth checks, explicit gaps); `layout.md` approved after 3 self-critiqued stills; `pieces/clay-cookware.html` built (`1.58 MB` with embedded `Newsreader` + `IBM Plex Sans`), `tools/check_offline.py` passed (`0` remote loads), `tools/check_stage_reads.py` passed (`0` restricted reads before gate), and `qa/desktop.png` + `qa/phone.png` inspected in Chromium.
 - **Known limits / disclosures:** Zisha thermal conductivity `1.3 W/(m·K)` is a single peer-reviewed modeling source (Lee & Attinger 2016) and visibly tagged as such; no published 2/4/8h % evaporation table, weighed soaked Römertopf grams, modern La Chamba ASTM porosity, or Zisha subtype CTEs exist in open authoritative sources (disclosed as gaps).
 - **Usage benchmark (\$20/mo plan, Gemini 4 Hydrogen High):** ~36% of 5-hr session window / ~8% weekly for the entire run (including 11 parallel workers, 3 stills, build/QA, and debugging 3 PRs)—suggesting Antigravity has plenty of headroom before needing conservative Medium-tier throttling.
+
+## v2 remake: "It's All in the Wall" (Nov 22, 2026)
+- **What:** a more scannable, more visual remake, published to `pieces/clay-cookware-v2.html` (live on Pages once merged), **not linked from `index.html`**, so Bryan can compare it with the original before choosing which one goes on the hub. The original `pieces/clay-cookware.html` is untouched.
+- **Built from:** the same `figures.md` and the same 30 sources (numbering kept); no new research. Sources and build in `proj/clay-cookware/v2/` (`src/page.html|css|js`, Thonny-friendly `build.py`, which reuses the original's embedded Newsreader + IBM Plex Sans).
+- **Mechanisms borrowed from Knife Country (not its look):** an always-visible running device (a "your pot" picker: Römertopf, La Chamba, VitaClay, Magnifique, aluminum insert, cast-iron insert) that highlights that pot's verdict in every chapter; one question headline plus a "Short answer" per chapter; interactive plates (wall cross-sections that show water, oil, soap and flame happening; a firing-temperature map of six clay families; heat bars with a zoom-to-clay toggle; a +100°F oven converter; a 2/4/8-hour clock; a quench test where the pot drops into water and cracks; a burner picker; a draggable browning map; a lead-limit chart); drill-downs and labeled myth checks for the detail; "Show as a table" alternatives.
+- **Corrections vs. v1:** Korean *onggi* 10.8–38.2% is now labeled *porosity* (per F27), not water absorption; the unsourced "~40°C multi-cooker gradient" and "~350°C burner" shock presets were dropped (presets now: room-temperature pot into a 450°F oven, ≈210°C by arithmetic; Zisha's GB/T test, 160°C); the empty 2/4/8-hour chart is drawn as an explicit gap.
+- **QA:** `tools/check_offline.py` passed (0 remote loads); Chromium desktop 1280 and phone 390: 0 script errors, 0 sideways overflow, every control clicked; WCAG AA checked on all text/ground pairs (lowest 5.03 after darkening the PTFE labels); prints with drill-downs opened; `prefers-reduced-motion` turns animation off. QA shots: `qa/v2-*.png`.
+- **Next:** Bryan picks v1 or v2 for the hub card (or asks for changes).
