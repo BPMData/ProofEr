@@ -332,6 +332,19 @@ dialog#sheet::backdrop{background:rgba(4,5,7,.72)}
 @media (prefers-reduced-motion:reduce){
   *{animation:none!important;transition:none!important}
 }
+
+/* ---------- family camp bars ---------- */
+.fc{margin:22px 0 0}
+.fc-row{margin:0 0 14px}
+.fc-label{font-family:var(--sans);font-size:.95rem;line-height:1.4;margin-bottom:5px;color:var(--ink)}
+.fc-track{display:flex;height:18px;border-left:1.5px solid var(--ink);background:repeating-linear-gradient(90deg,transparent 0 calc(50% - 1px),var(--rule) calc(50% - 1px) 50%)}
+.fc-bar,.fc-ext{display:block;height:100%;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.k-sent{background:var(--occ);color:var(--occ)}
+.k-killed{background:var(--killed);color:var(--killed)}
+.k-labor{background:var(--ally);color:var(--ally)}
+.k-surv{background:var(--survived);color:var(--survived);outline:1px solid var(--muted);outline-offset:-1px}
+.fc-track .fc-ext{background:repeating-linear-gradient(45deg,currentColor 0 3px,transparent 3px 6px);outline:none}
+.fc-axis{position:relative;height:1.2em;font-family:var(--sans);font-size:.75rem;color:var(--muted);margin-top:2px}
 </style>
 </head>
 <body>
@@ -472,13 +485,43 @@ dialog#sheet::backdrop{background:rgba(4,5,7,.72)}
     </div>
     <div class="factor">
       <h3>Photographs without context</h3>
-      <p>Rossel shot 36 to 38 exposures on his camera (38 archived at the ICRC, roughly 16 prints attached to his report), while German Foreign Office official Eberhard von Thadden circulated the report to neutralize Allied warnings: staged stillness in a single frame looked indistinguishable from normal life.</p>
+      <p>Rossel shot 36 to 38 exposures on his camera (38 archived at the ICRC, roughly 16 prints attached to his report) and sent his report to Geneva and to the German Foreign Office. On July 1 he mailed a set of his photographs to Eberhard von Thadden, the Foreign Office official who had escorted the tour, who used them to answer foreign reports about Terezín: staged stillness in a single frame looked indistinguishable from normal life.</p>
     </div>
     <div class="factor">
       <h3>The film myth, checked</h3>
       <p>Contrary to postwar lore, the SS propaganda film directed under coercion by <button class="term-btn" data-sheet="gerron">Kurt Gerron</button> was never officially titled <em>“Der Führer schenkt den Juden eine Stadt”</em> (“The Führer Gives the Jews a City”); archival film scholarship confirms that was an ironic prisoner phrase, while the Nazi title was <em>Theresienstadt. Ein Dokumentarfilm aus dem jüdischen Siedlungsgebiet</em>.</p>
     </div>
   </div>
+
+  <div class="prose" style="margin-top:44px">
+    <h3 id="h-familycamp" style="font-size:1.35rem;margin-bottom:.5em">Where the 7,503 went</h3>
+    <p>The people shipped out in May went to a “family camp” at Auschwitz-Birkenau, where almost everyone came from Terezín. Families were kept together and made to write calm postcards home. Two escaped prisoners, Rudolf Vrba and Alfréd Wetzler, had already described this camp in a report written in April 1944, warning that its December arrivals faced death when their six months ran out on June 20.</p>
+    <p>In the first days of July, SS doctor Josef Mengele selected about 3,000 to 3,800 people for forced labor. On the nights of July 10–11 and 11–12, 1944, the SS murdered the rest in the gas chambers: about 6,000 to 7,000 people, most of those deported in May among them. Of about 17,500 people sent from Terezín to the family camp, fewer than 1,300 survived the war.</p>
+    <p>Some historians believe the SS kept the camp ready in case the Red Cross asked to see Auschwitz too, and emptied it once the Terezín visit had worked. Others doubt it, and no surviving SS document says why. The Red Cross never asked to see it. When Rossel himself went to Auschwitz on September 27, 1944, he was not let inside.</p>
+  </div>
+
+  <figure class="surface-panel fc" aria-labelledby="fc-title">
+    <p class="small" id="fc-title" style="margin:0 0 4px;color:var(--ink)"><strong>The Theresienstadt family camp at Auschwitz-Birkenau, September 1943 – July 1944</strong></p>
+    <p class="small" style="margin:0 0 16px">People, on one scale starting at zero. Solid bars run to the lowest published estimate; the lighter, striped part shows how far the higher estimates reach.</p>
+      <div class="fc-row">
+        <div class="fc-label"><strong>About 17,500</strong> sent from Terezín to the family camp on 7 transports (including the 7,503 sent in May 1944)</div>
+        <div class="fc-track" aria-hidden="true"><span class="fc-bar k-sent" style="width:87.29%"></span><span class="fc-ext k-sent" style="width:0.29%"></span></div>
+      </div>
+      <div class="fc-row">
+        <div class="fc-label"><strong>6,000–7,000</strong> murdered in the gas chambers, nights of July 10–11 and 11–12, 1944</div>
+        <div class="fc-track" aria-hidden="true"><span class="fc-bar k-killed" style="width:30.00%"></span><span class="fc-ext k-killed" style="width:5.00%"></span></div>
+      </div>
+      <div class="fc-row">
+        <div class="fc-label"><strong>3,000–3,800</strong> selected for forced labor in other camps, early July 1944</div>
+        <div class="fc-track" aria-hidden="true"><span class="fc-bar k-labor" style="width:15.00%"></span><span class="fc-ext k-labor" style="width:4.00%"></span></div>
+      </div>
+      <div class="fc-row">
+        <div class="fc-label"><strong>1,167–1,294</strong> survived the war</div>
+        <div class="fc-track" aria-hidden="true"><span class="fc-bar k-surv" style="width:5.83%"></span><span class="fc-ext k-surv" style="width:0.64%"></span></div>
+      </div>
+      <div class="fc-axis" aria-hidden="true"><span style="position:absolute;left:0">0</span><span style="position:absolute;left:50%;transform:translateX(-50%)">10,000</span><span style="position:absolute;right:0">20,000 people</span></div>
+    <figcaption class="small" style="margin-top:12px">Every figure is an estimate or a range: no SS count of the July killings survives. Sources: Terezín Initiative Institute (holocaust.cz); Auschwitz-Birkenau State Museum; USHMM; Miroslav Kárný (1994). See “About these numbers” below.</figcaption>
+  </figure>
 
   <div class="plates-2">
     <figure class="plate">
@@ -660,9 +703,11 @@ v ghettu.</p>
       <li><strong>Why Terezín death and deportation numbers appear as ranges:</strong> USHMM’s wartime ledger lists <strong>33,456</strong> deaths inside Terezín; Yad Vashem (<strong>35,440</strong>) and Památník Terezín (&gt;35,000) include late-war evacuation and May–June 1945 typhus epidemic deaths. Eastern deportees span <strong>86,934</strong> (Yad Vashem Timeline) to <strong>88,202</strong> (USHMM ledger) to ~90,000, with <strong>3,097–3,800</strong> survivors.</li>
       <li><strong>Untangling “15,000 children / ~100 survived”:</strong> Památník Terezín records <strong>7,590</strong> youngest children deported east with <strong>142</strong> survivors (broader cohorts give <strong>242–245</strong>), omitting the <strong>1,633</strong> children under 15 liberated inside Terezín in May 1945 (roughly half long-term inmates, half late-war evacuation arrivals) and ~400 in-ghetto child deaths; strict &lt;15 totals run ~10,500–12,000 while broader youth cutoffs reach ~15,000.</li>
       <li><strong>Room 1 (<em>Vedem</em>) &amp; 1944 inspection nuances:</strong> Room 1 survivor estimates reflect Kurt Kotouč’s oral approximation (~10 of 100–110) alongside compiled tallies (15 of ~100 or 15 of 92 contributors). June 23 visit durations (4 hours at holocaust.cz vs. 6–8 hours at USHMM) reflect guided-route hours vs. total on-site itinerary; ICRC archives catalog <strong>38</strong> Rossel photographs vs. <strong>36</strong> cited in Farré &amp; Schubert (2009).</li>
+      <li><strong>The Birkenau family camp:</strong> Transport lists give <strong>17,517</strong> people on the seven transports (Kárný, 1994); holocaust.cz rounds to <strong>17,500</strong>. No SS tally of the July 10–12, 1944 killings survives, so historians estimate by subtracting those selected for labor from the camp’s late-June population: about <strong>6,500</strong> murdered (Kárný), “approximately 6–7,000” (holocaust.cz), about <strong>7,000</strong> (Auschwitz-Birkenau State Museum, which counts <strong>3,800</strong> selected for labor; Kárný counts about 3,500). Survivors: <strong>1,167</strong> (Kárný’s count) to <strong>1,294</strong> (holocaust.cz). Whether the camp was kept as a show site for a possible Red Cross visit, and whether the June 23 visit’s success decided when it was destroyed, is argued by Otto Dov Kulka, Miroslav Kárný and Nili Keren and doubted by other historians, including Tomáš Fedorovič; no surviving SS document settles it. The claim that the Red Cross planned and then canceled a visit to the camp is not supported by any source.</li>
       <li><strong>Copyright, attribution &amp; open licenses:</strong> Fonts (<em>Spectral</em> and <em>Public Sans</em>) are open-licensed under the SIL Open Font License and embedded offline via <code>tools/embed_fonts.py</code>. Bedřich Fritta drawings, the February 1944 Red Cross map (Jewish Museum in Prague), and Walter Scheiwiller’s February 11, 1945 USHMM photos (<code>pa1121409</code>, <code>pa1121419</code>) are Public Domain; Building L417 and Magdeburg Barracks photos are used under <code>CC BY-SA 3.0</code> and <code>CC BY-SA 2.0 DE</code> with photographer credit above. Pavel Friedmann’s 1942 Czech poem <em>“Motýl”</em> is Public Domain in Czechia/EU; Jeanne Němcová’s English translation (© 1978, 1993 Artia / © 1993 Schocken Books) and Josef “Pepek” Stiassny’s <em>Vedem</em> editorial (Archiv Památníku Terezín ID A 1317, <code>vedem-terezin.cz</code>) remain under copyright and are included here in full for non-commercial educational and historical commentary with full attribution.</li>
     </ul>
     <p class="small"><strong>Primary institutional &amp; scholarly sources:</strong> <a href="https://encyclopedia.ushmm.org/content/en/article/theresienstadt" target="_blank" rel="noopener">USHMM: Theresienstadt</a> · <a href="https://encyclopedia.ushmm.org/content/en/article/the-holocaust-in-bohemia-and-moravia" target="_blank" rel="noopener">USHMM: Bohemia &amp; Moravia</a> · <a href="https://encyclopedia.ushmm.org/content/en/article/theresienstadt-as-tool-of-nazi-propaganda-the-red-cross-visit-1944" target="_blank" rel="noopener">USHMM: Red Cross Visit 1944</a> · <a href="https://www.yadvashem.org/holocaust/about/ghettos/theresienstadt.html" target="_blank" rel="noopener">Yad Vashem: Theresienstadt</a> · <a href="https://www.pamatnik-terezin.cz/terezin-ghetto" target="_blank" rel="noopener">Památník Terezín</a> · <a href="https://blogs.icrc.org/cross-files/en/what-did-he-really-see-an-icrc-delegates-visit-to-theresienstadt-on-23-june-1944/" target="_blank" rel="noopener">ICRC Cross-Files (Daniel Palmieri)</a> · <a href="https://blog.ehri-project.eu/2016/05/18/daily-orders-from-the-terezin-theresienstadt-ghetto/" target="_blank" rel="noopener">EHRI Daily Orders</a> · <a href="https://www.holocaust.cz/en/history/theresienstadt/the-makeover-of-the-theresienstadt-ghetto/" target="_blank" rel="noopener">Holocaust.cz</a> · <a href="https://www.vedem-terezin.cz/en/rambles/22.html" target="_blank" rel="noopener">Vedem-Terezin.cz</a> · <a href="https://www.cambridge.org/core/books/theresienstadt-19411945/741CA0829871F8EFC4099684C2F4BE69" target="_blank" rel="noopener">H.G. Adler / Anna Hájková (Cambridge UP)</a> · <a href="https://karger.com/goi/article/87/6/406/825227" target="_blank" rel="noopener">David, Ebert &amp; Kuntz (Karger, 2022)</a>.</p>
+    <p class="small"><strong>The family camp, Rossel &amp; the Vrba–Wetzler report:</strong> <a href="https://www.holocaust.cz/en/history/events/the-terezin-family-camp-in-auschwitz-birkenau/" target="_blank" rel="noopener">Terezín Initiative Institute: The Terezín Family Camp in Auschwitz-Birkenau</a> · <a href="https://www.auschwitz.org/en/museum/news/the-60th-anniversary-of-the-liquidation-of-the-czech-family-camp-in-auschwitz,372.html" target="_blank" rel="noopener">Auschwitz-Birkenau State Museum (2004)</a> · <a href="https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1942-1945/czech-family-camp-at-auschwitz-liquidated" target="_blank" rel="noopener">USHMM: “Czech Family Camp” Liquidated</a> · <a href="https://encyclopedia.ushmm.org/content/en/article/theresienstadt-red-cross-visit" target="_blank" rel="noopener">USHMM: The Red Cross Visit, 1944</a> · <a href="https://www.icrc.org/en/document/icrc-wwii-holocaust" target="_blank" rel="noopener">ICRC: The ICRC in World War Two: The Holocaust</a> · <a href="https://ghdi.ghi-dc.org/pdf/eng/English45.pdf" target="_blank" rel="noopener">Vrba &amp; Wetzler report, English translation (GHDI)</a> · Miroslav Kárný, “Terezínský rodinný tábor v konečném řešení” (1994) and “Zpráva Maurice Rossela o prohlídce Terezína” (1996) · Danuta Czech, <em>Auschwitz Chronicle 1939–1945</em> (1990) · Sébastien Farré &amp; Yan Schubert, “L’illusion de l’objectif,” <em>Le Mouvement social</em> 227 (2009) · Toman Brod, “Zamyšlení nad účelem rodinného tábora” (1994) · Tomáš Fedorovič, “Terezín’s Propagandist Role and the Terezín Family Camp” (2018).</p>
   </div>
   <footer class="small">
     Companion pieces: <a href="nazi-victims-all-groups.html">Victims of Nazi Germany and its allies, 1933–1945</a> · <a href="holocaust-by-country.html">The fate of Europe’s Jews, country by country, 1939–1945</a>.<br><br>
