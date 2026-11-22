@@ -1,1 +1,1 @@
-{"ts": 1795386494.3799872, "cmd": "cd /home/user/ProofEr; python3 - <<'E'\np='pieces/terezin-vedem.html'; s=open(p).read()\nreps=[\n('depending on how uninsulated attics and casemates are counted)',\n 'depending on how uninsulated attics a"}
+{"ts": 1795386517.2901118, "cmd": "cd /home/user/ProofEr; cat >> proj/terezin-vedem/brief.md <<'E'\n- `2026-11-22` \u00b7 Reviewer feedback, Bryan: \"Do 1\" (add short glosses for *Madrich* and *casemates*). Glosses added outside the *Vedem* q"}
