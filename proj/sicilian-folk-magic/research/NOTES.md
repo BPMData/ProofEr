@@ -29,3 +29,14 @@
   Guggino; Schmitt 1977 quote against survivals; Pitrè dates (Treccani, Dei 2015); timeline 8th c. BC–1860 from
   Italian institutions; Pitrè Feste patronali: of 150/160 towns, Mary 45, Joseph 13, Rosalia 7. Gaps: A.3 earliest
   records for most practices.
+- E-pass1 done: agrees with E-pass2 → Q7 has substance for a main section near the end, narrower than resemblance:
+  one Inquisition family (Lea 1908), Sicilian Black saints (Benedict d. 1589, Antonio of Noto d. 1549/50) spread by
+  Black Rosary brotherhoods to Brazil/Iberian Atlantic from 1600s (Rio altar 1612, Salvador brotherhood 1630, Dell'Aira
+  2009; Fiume 2009), Rosalia to New Spain via Jesuits, Joseph cult under Spanish hegemony (Del Giudice; New Spain patron
+  1555, needs 2nd source), Day of the Dead and Festa dei Morti as cousins via All Souls (Brandes). Candles/ex-votos =
+  resemblance only. Sicilian migration mostly to US. "Categeró = Caltagirone" unsourced: don't print.
+- D-pass1 done (D1–D2 only): Geremia 2024 (5 new Monreale trials), Henningsen 2020 (named defendants), Henningsen
+  1985 healer interview (belief). Executions 1540–1700 all crimes: 25 or 52 (DISPUTED). Donne di fuora count: 65/70/
+  193/77 → show as range unless Henningsen 1990 opened. "456 magic cases" blog-only: don't use. D3 evil eye/charms and
+  D4 surveys: nothing opened by either pass → main gap-fill target (Pitrè Medicina popolare p.181+, Migliore 1997).
+  Side leads: Van Dyck sketch of Palermo auto de fe 1624 (image); Casimiro Piccolo fairy paintings (aside).
