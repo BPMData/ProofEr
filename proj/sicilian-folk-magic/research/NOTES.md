@@ -97,3 +97,9 @@
   claim (Isis, Ceres, Tanit, St Joseph bonfires) is myth-labelled; big feasts are baroque. "Only in Sicily": only Del
   Giudice on St Joseph tables. → Ask Bryan before building on the flipped version. Clashes: Rosalia declared 11 vs
   18/22 Feb 1625; candelore 11 has a 2007 scholarly source (B1 p.179); Messina 1518 donations vs 1522 engraving.
+- X2 cross-check done (149 rows: 37 checked, 7 disputed, 73 single, 24 unverified, 8 myth). Fingerbone tally: 15
+  cases, but NO source shows two places claiming the same finger; real double claims: Lucy body (Venice vs Metz),
+  Lucy head (Venice vs Bourges, synthesis), Louis IX heart (Monreale vs Saint-Denis), Agatha body 1204 (Dandolo).
+  Agatha = "spread" story (31 places, tourism page only). No reliquary count (only Palermo Cathedral chapel 17).
+  Myths: Buckland goat bones, relic "classes" as Church law, Calvin "dozen heads of John". Care: Bonelli vision
+  (X2-75) has a suicide theme → frame gently or omit.
