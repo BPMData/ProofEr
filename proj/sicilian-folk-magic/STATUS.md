@@ -43,5 +43,4 @@ _Last updated: Nov 23, 2026 (evening)._
   Juliana stand-in on the stage (`make_cutouts.py`, `agathabust`); cabinet drawers open photos of the bust, the Messina
   Letter manuscript (no photo of the hair exists), Lucy in Venice (her feet show) and Louis IX's tomb, which gets a
   fifth drawer (copy `_cabinet louis_`). Page now 3.2 MB. Research reports behind today's revisions saved as
-  `research/H-revision-reads.md`. **Waiting on Bryan:** the author of the Rosalia urn photo (CC BY-SA needs the name);
-  it stays out until then. Then Act 8.
+  `research/H-revision-reads.md`. Rosalia's urn photo (Effems, CC BY-SA 4.0) added after Bryan sent the author. **Next:** Act 8.

@@ -97,6 +97,9 @@ FIG_CREDITS = {k: (v[1], v[3]) for k, v in FIGS.items()}
 def cc(code, ver):
     return f'<a href="https://creativecommons.org/licenses/{code}/{ver}/">CC {code.upper()} {ver}</a>'
 RELICS = {
+    'urn': ('Urna_Santa_Rosalia_PA_14_07_2019_01.jpg', 1600, None, 'Rosalia’s urn',
+            'The silver urn of Saint Rosalia, enthroned in the nave of Palermo Cathedral, 14 July 2019. Photo: Effems, '
+            'own work, via Wikimedia Commons, ' + cc('by-sa', '4.0') + '. Resized.'),
     'lettera': ('Virgin-to-Messina-1674-78_Bibliotheca_Fictiva_nr._8699204.png', 1600, None, 'The Letter, copied out',
                 '<i>Lettera di Maria Vergine ai Messinesi</i>, manuscript, Messina(?), about 1674–78. Bibliotheca Fictiva '
                 'Collection, Sheridan Libraries, Johns Hopkins University. Public domain. No photo of the hair relic itself was found.'),
@@ -510,7 +513,7 @@ CAB_ORDER = [4, 5, 6, 10, 'louis']   # the order a reader meets them
 CAB_INFO = {
     4: ('Most of her bones, in a jewelled silver bust of 1376, carried through Catania on her feast days. The jewels are '
         'gifts left over the centuries.', 'bust'),
-    5: ('Bones found in a cave in 1624 and credited with ending the plague; they ride in a silver urn.', ''),
+    5: ('Bones found in a cave in 1624 and credited with ending the plague; they ride in a silver urn.', 'urn'),
     6: ('A lock of hair said to be Mary’s, kept in a small gold case and carried on the June float. No photo of it turned '
         'up, so here is a 1670s copy of the Letter it came with.', 'lettera'),
     10: ('Claimed whole by two cities at once. In Venice she lies under glass, face hidden by a silver mask; at the far end '
