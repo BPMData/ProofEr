@@ -54,8 +54,8 @@ the lines the piece must never cross.
   sister repo EOMD by mistake.) Motion pieces, players and screensavers belong in EOMD.
 - ★ Ask what format depth fits: quick, breezy **infographic** (1–2 screens / printable poster) or long-form **interactive
   data essay** (scrolling, deep mechanics, detailed sources)?
-- ★ What is it about, who is it for, where will they see it, and by when? *"A poster about school lunch waste for
-  the cafeteria wall, by December."*
+- ★ What is it about, who is it for, and where will they see it? *"A poster about school lunch waste for the
+  cafeteria wall."* Don't ask about deadlines or set one (T22).
 - ★ Usage budget (`Budget: light | standard | deep`): ask in everyday words how much session usage they want to spend:
   *Light* (keep under ~25% of a 5-hour Pro limit—external research or ≤3 workers in 1 pass), *Standard* (balanced—Opus medium / Hydrogen High coordination, lighter Pass 1 workers), or *Deep* (go all-out on multi-pass research and visuals).
 - ★ How to build it (skip this until the toolbox holds earlier work: see `STATUS.md`; until then every piece is made
