@@ -81,6 +81,7 @@
 }
 </style>
 <style>
+[hidden] { display:none !important; }   /* .zoom, .cabpop and .glosspop set display; without this, hidden ones show on the live page */
 /* Layout: a sticky cut-paper puppet stage (top of the screen on phones, left half on desktop) with the essay's
    plaster cards scrolling beside or under it. Single look: light tile ground, two night acts. */
 :root {
@@ -829,7 +830,7 @@ function openZoom(k) {
   zimg.src = DATA.zoom[k]; zimg.alt = DATA.names[k] || ''; zcap.innerHTML = '<b>' + (DATA.names[k] || '') + '</b> · ' + (DATA.credits[k] || '');
   zoom.classList.remove('big'); zoom.hidden = false; zclose.focus();
 }
-function closeZoom() { if (zoom.hidden) return; zoom.hidden = true; zimg.removeAttribute('src'); if (zBack && zBack.focus) zBack.focus(); }
+function closeZoom() { zoom.hidden = true; zoom.classList.remove('big'); zimg.removeAttribute('src'); if (zBack && zBack.focus) zBack.focus(); }
 zclose.addEventListener('click', closeZoom);
 zoom.addEventListener('click', (e) => { if (e.target === zimg) zoom.classList.toggle('big'); else if (e.target === zoom) closeZoom(); });
 zoom.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeZoom(); if (e.key === 'Tab') { e.preventDefault(); zclose.focus(); } });
