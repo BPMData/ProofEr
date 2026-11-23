@@ -13,6 +13,10 @@ counter on all published pieces)._
 - **knife-country** (Yangjiang and the "City of Knives" title; a long scrolling piece for knife nerds online): **published** to `pieces/knife-country.html`; live once merged. Built in EOMD by mistake, then moved here; Bryan accepted its single-source figures as shown. `proj/knife-country/STATUS.md`.
 - **clay-cookware** (Glazed vs. unglazed clay in cookware & multi-cooker inserts; interactive data essay for food-science/cookware enthusiasts): **published** to `pieces/clay-cookware.html` (`index.html` updated; `0` restricted reads before gate; `check_offline.py` passed; desktop/phone Chromium QA verified; usage on \$20/mo plan all on Gemini 4 Hydrogen High incl. 11 workers + 3 PRs: ~36% of 5-hr window, ~8% weekly—indicating Antigravity has comfortable headroom before needing aggressive Medium/light throttling). `proj/clay-cookware/STATUS.md`. **v2 remake** ("It's All in the Wall": scannable, pot picker, interactive plates) at `pieces/clay-cookware-v2.html`, live but **not on the hub** until Bryan picks a version.
 
+- **sicilian-folk-magic** (Sicilian Catholicism and folk magic; long scrolling essay for witty history nerds;
+  baroque x cut-paper puppets): **figures** stage; brief approved; research run by Claude (14 passes); 575
+  cross-checked rows; decisions waiting on Bryan. `proj/sicilian-folk-magic/STATUS.md`.
+
 ## Across the repo
 - **Scope:** sourced visual pieces—short **infographics** and long-form **interactive data essays**. Recipe cards may come later.
 - **License:** AGPLv3 (Oct 26); pieces people make are theirs.

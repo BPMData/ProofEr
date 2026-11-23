@@ -1,0 +1,912 @@
+# Figures: Sicilian folk magic
+
+Stage: figures · Cross-checked Nov 23, 2026 from 11 research passes and 3 gap-fill passes in `research/`
+(prompts in `research/prompts.md`; Claude's running notes in `research/NOTES.md`; per-topic working files in
+`research/xcheck/`). Rules: `brief/RESEARCH.md` §2. IDs keep the cross-check prefixes: **X1** timeline, practices,
+feasts and primer (Q1, Q2, Q3, Q5); **X2** relics (Q4); **X3** the Inquisition, healers and the evil eye (Q6) and
+Sicily and Latin America (Q7).
+
+**Status:** `checked` = two independent sources, at least one primary or scholarly, at least one opened (two reports
+citing the same work count once; wikis, tourism pages, blogs, Medium and Reddit never count). `disputed` = reputable
+sources differ (each value and why). `single source` / `unverified` = not on the page unless Bryan accepts it with a
+visible note. `myth` = a popular claim the sources reject or can't back; shown with a myth-check label (T10).
+**Belief** rows report what practitioners hold, as belief.
+
+## Summary
+
+| Part | checked | disputed | single source | unverified | myth | rows |
+|---|---|---|---|---|---|---|
+| X1 timeline, practices, feasts, primer | 69 | 12 | 103 | 17 | 12 | 213 |
+| X2 relics | 37 | 7 | 73 | 24 | 8 | 149 |
+| X3 trials, healers, Latin America | 26 | 9 | 141 | 20 | 17 | 213 |
+| **Total** | **132** | **28** | **317** | **61** | **37** | **575** |
+
+Many `single source` rows are counts that can only come from one primary document (the Region's 2013 heritage
+register; Pitrè's 1899 patron-saint sample). Where a rounder `checked` version exists ("about 6,000–7,000 tried"),
+the page uses it.
+
+## Premise check (brief §4)
+Bryan's starting idea: "how italian catholicism absorbed local pre extant indigenous traditions, and what sicilian
+catholics practice that the rest of catholicism does not."
+- **Supported:** buildings were taken over (temples into churches from the late 6th century; the cathedral on a mosque
+  site). Sicily has its own dated cults, places and calendar (Agatha's relics back in 1126, Rosalia from 1624, the
+  Messina Letter, the decollati, St Joseph's tables, which Del Giudice says have "no counterpart in Spain or its
+  colonies").
+- **Not supported as cult continuity:** every "goddess under the saint" claim (Isis or Ceres under Agatha, Tanit at
+  Rosalia's cave, Demeter at Enna's Marian feast, pagan St Joseph bonfires) traces to a named author of 1823–1905 or
+  to bare assertion, and current scholarship rejects or can't back it. The big city feasts are "creations of the
+  baroque" (Benigno). Pitrè himself started the survival story ("resti di antiche mitologie", 1881).
+- **"Only in Sicily" is hard to show:** the evil eye and the cults of executed souls are found across southern Italy
+  and Europe; what is Sicilian is the local form, names and calendar.
+- **Open for Bryan:** build on the flipped version? (See D0 below.)
+
+## Decisions for Bryan
+Only disputes that change what the page shows. Claude's suggested display in brackets; nothing is decided until he
+answers.
+
+- **D0 · The premise.** Research backs "the Church took over the buildings and wrapped local life in its own
+  calendar" and shows most "pagan survival" stories as later inventions. Build on that (the survival myths become a
+  running myth-check), or keep hunting for continuity?
+- **D1 · Donne di fuora count** (X3-46): 65 (people tried in the surviving reports, 1579–1651, 8 men) / 77 (one
+  historian's "contact with the dead" charges) / 193 (perhaps every woman named). [Show "dozens tried", or all three
+  with what each counts; a scan of Henningsen 1990 would settle it.]
+- **D2 · Executions, all crimes, 1540–1700** (X3-30): 25 in person in the surviving reports vs 52 in Monter's fuller
+  count. Neither was for witchcraft. ["25 to 52".]
+- **D3 · One-document counts** (X1): REI 2013 register (177 entries, 86 feasts, 11 St Joseph), Pitrè's 1899 sample
+  (Mary 45, St Joseph 13, Crucifix 13, Rosalia 7 of about 150 towns), the ~100 decollati tablets. [Accept with a
+  visible note naming the document.]
+- **D4 · Agatha's removal year** (X1-85, X2-03): no primary source gives one. ["About 1040, during Maniakes's campaign
+  of 1038–40".]
+- **D5 · Louis IX's heart at Monreale** (X2-116): one medieval account says yes, Le Goff says Saint-Denis. ["His
+  entrails (and, by one medieval account, his heart)".]
+- **D6 · Small dates:** Normans take Palermo 1071/1072 ["1071–72"]; Two Sicilies 1815/1816 [1816, the founding law];
+  Rosalia in the Roman Martyrology 1630/1631 and declared hers 11/18/22 Feb 1625 ["about 1630", "February 1625"];
+  Lucy in Venice 1204/1206 ["after 1204"]; Benedict born 1524/1526 ["1524 (some lives say 1526)"]; Messina Letter
+  first recorded 1518/1522/1556 ["the 1520s"]; decollati church 1785/1799/1857–65 [both sources named]; candelore 11
+  (2007) vs 16 (wiki) ["11 in 2007"].
+- **D7 · Names:** name Geronima La Gattuta as the guide to Rosalia's bones, or keep it nameless? Name Michael IV or
+  Theodora as receiving Agatha's relics, or leave it out? Benedict born free or freed at 18 [give that his parents had
+  been enslaved].
+- **Care note:** the cathedral's version of the Bonelli vision (Rosalia's bones; X2-75) has a suicide theme: tell it
+  gently or leave that part out.
+
+## Still unsourced (the page says nothing about these until a source is opened)
+- A Sicilian evil-eye charm text and the oil-drops-in-water test (Pitrè 1896 pp. 176–184 would settle it).
+- Any survey of belief in the evil eye in Sicily (none exists in what was found; Pew 2017 gives Western Europe only).
+- Any count of reliquaries or relic-holding churches in Sicily (only Palermo Cathedral's Chapel of Relics: 17).
+- A modern island-wide count of patron saints.
+- The Festa dei Morti's earliest record; Sicilian ex-voto collection counts.
+
+
+
+## Corrections carried in (override the rows below)
+- Henningsen 1990's subtitle is "An Archaic Pattern of the Witches' Sabbath", not "Fairies, Witches, and Poverty in
+  Early Modern Sicily" (D2 had it wrong; G3).
+- "70 trials" of *donne di fuora* has no source: drop it (G3).
+- Rio's "1640" brotherhood is the Rosary brotherhood, not Benedict's (G3).
+- Benedict was beatified in 1743, not 1763; canonized on 24 May, not 25 May, 1807 (G3).
+- "Categeró = Caltagirone" is not a debunked myth but one scholar's hedged guess (Zarattini 2025, pp. 147–148); only
+  the confident popular version gets a myth label.
+- Inquisition start: use **1487** (first inquisitor, `checked`); 24 March 1486 is the papal act (`single source`
+  through Geremia citing La Motta); X1-81 defers to X3.
+- Rosalia's bones declared hers: 11 Feb (C-pass1) vs 18/22 Feb 1625 (B-pass2) → "February 1625" (D6).
+- Candelore: the "11" has a 2007 scholarly source (Di Giovanni 2007, p. 179), so it is `single source`, not
+  unverified (X1-91).
+- Pitrè's Crucifix count is 13, the same as St Joseph's 13: keep them apart.
+
+## Part X1: timeline, practices, feasts, primer
+
+### How the status rules were applied
+
+- **Independent** means a different author or institution. The same document read by two reports counts once (for
+  example Pitrè's *Feste patronali*, read by A2 and G2; Geremia 2024, read by A1 and A2; the Treccani DBI entry, read
+  by A1 and A2; Britannica, read by A1 and A2).
+- **Never counted toward the two:** Wikipedia, tourism pages (including the Comune di Catania tourism portal), blogs
+  (including the Leicester project blog), aggregators (Tuttitalia, lasiciliainrete.it), news sites (CNA/EWTN,
+  LiveSicilia, NewSicilia, Corriere Etneo, Balarm) and popular magazines (*Image*, *Saudi Aramco World*, NPR). A BA
+  thesis (Aaron 2015) is treated as a lead, not as scholarship. The Padua MA thesis (Montalto) is counted only as a
+  weak second source for a belief, never for a figure.
+- **Counted, with a note:** Church institutions (Vatican City State, Cattedrale di Palermo, Santuario di Santa
+  Rosalia, dioceses) for their own dates and traditions; the Comune di Palermo's history page (a municipal page, not a
+  tourism portal); Britannica, the Met's Heilbrunn Timeline and the 1907–1911 *Catholic Encyclopedia* (CE) as reference
+  works. The Cattedrale and the Santuario both belong to the Palermo church, so they are not counted as independent of
+  each other.
+- **A count inside one primary document** (the REI register, Pitrè's 1899 sample, an ICCD record) can only come from
+  that document. Several workers recounting it confirms the reading, not the fact, so these rows are `single source
+  (primary)`. They are listed for Bryan under "Decisions" as candidates to accept with a visible note.
+- **Quotes:** a quote read in the original text is "original opened"; a quote seen only inside another author's work is
+  "seen cited". Translations into English made by a worker are marked DRAFT.
+- **Belief** rows say what practitioners hold. They are never figures and are listed again under "Belief statements".
+
+### Table
+
+| Draft ID | Figure / claim (exactly what) | Value used | Sources (title, author/institution, year, page) | Reports that agree | Disagreement | Status |
+|---|---|---|---|---|---|---|
+| **A. Primer: terms and scholars (Q5)** | | | | | | |
+| X1-01 | First recorded use of the verb *synkretizein* (syncretism): Plutarch, for Cretans uniting against an outside enemy | Plutarch, *De fraterno amore* 19 | Levinskaya, "Syncretism: The Term and Phenomenon", *Tyndale Bulletin* 44.1 (1993), p. 119; Meynell, "Syncretism", *Encyclopedia of Religion and Society* (Hartford Institute, n.d.) | A2 (both opened) | none | checked |
+| X1-02 | Erasmus revives the word in a letter to Melanchthon | 1519 | Levinskaya 1993, p. 119 | A2 | none | single source |
+| X1-03 | "Syncretism" turns into an insult in 17th-century Protestant quarrels (Calixtus) | 17th century | Levinskaya 1993, p. 119 | A2 | none | single source |
+| X1-04 | "Syncretism" first means "a mixture" of religions | 19th century | Levinskaya 1993, p. 120 | A2 | none | single source |
+| X1-05 | Shaw & Stewart reframe syncretism as a question of who calls a religion "mixed" and why | 1994, pp. 1–26 | R. Shaw & C. Stewart, "Introduction: Problematizing Syncretism", *Syncretism/Anti-Syncretism*, Routledge 1994 | A1 (citation record only); A2 (not opened) | none | unverified (book not opened; no definition quoted) |
+| X1-06 | Primiano's "vernacular religion": religion "as it is lived" | *Western Folklore* 54(1), 1995, pp. 37–56, at p. 44 | Primiano 1995, quoted in M. Bowman's tribute, *Traditiones* (ZRC SAZU), p. 7 | A2 (via Bowman); A1 (listing only) | A1 had no volume or pages; A2 supplies them via Bowman | single source (seen cited) |
+| X1-07 | Yoder's definition of "folk religion" | 1974 | Yoder, "Toward a Definition of Folk Religion", *Western Folklore* 33 (1974) | A1, A2: neither opened | none | unverified |
+| X1-08 | Christian's "local religion": "the religion actually practiced by thousands of ordinary Spaniards" | 1981 | Princeton UP page for W. A. Christian Jr., *Local Religion in Sixteenth-Century Spain*, quoting R. L. Kagan's review | A1 | none | single source |
+| X1-09 | Peter Brown's critique of the elite-vs-vulgar "two-tier" model | 1981 | Brown, *The Cult of the Saints*, U. Chicago Press 1981 | A1 (not opened) | none | unverified |
+| X1-10 | Gramsci treated folklore as an unofficial worldview, "to be taken seriously" | Prison Notebooks, Quaderno 27 | Satta (Univ. of Bari) handout quoting Gramsci, "Osservazioni sul folclore" (ed. 1971, pp. 267–68); *Dizionario gramsciano*, "Folclore" (PhilArchive BONDGX); Boesch Gajano, *Itinerari di ricerca storica* XXXIV.1 (2020), p. 242 | A2 (all opened); A1 (named, unsourced) | The 1935 date of the notebook is not confirmed | checked (the claim); exact wording single (via Satta) |
+| X1-11 | "Folklore" appears about 100 times in the Prison Notebooks | about 100 | *Dizionario gramsciano*, "Folclore" | A2 | none | single source |
+| X1-12 | de Martino's *Sud e magia* | 1959 (English, *Magic: A Theory from the South*, trans. D. L. Zinn, HAU 2015) | HAU Books publisher page; Campennì, *Mediterranea* XX (2023), bibliography; Lepage, *Anthropologie et Sociétés* 41 (2017) | A1, A2 | none | checked |
+| X1-13 | de Martino's fieldwork for *Sud e magia* was in Lucania (Basilicata), not Sicily | 1950s; 1950–1957 per Lepage | HAU Books page (Lucania, 1950s); Lepage 2017 (1950–1957) | A1 | none | checked ("Lucania, 1950s"); 1950–57 single |
+| X1-14 | de Martino's other dates: *La terra del rimorso* 1961; *Il mondo magico* 1948; *Morte e pianto rituale* 1958; life 1908–1965 | 1961 / 1948 / 1958 / 1908–1965 | Campennì 2023 (1961; lists *Morte e pianto rituale* in the 1975 ed.); the rest from Wikipedia (lead) | A1 (Wikipedia lead), A2 (Campennì) | none | single source (1961); unverified (1948, 1958, 1908–65) |
+| X1-15 | de Martino rejected reading southern magic as a pre-Christian leftover; he tied it to Catholic practice | qualitative | Lepage 2017 (review); Dei, *nostos* 3 (2018), p. 55; de Martino, "Crisis of presence and religious reintegration", *HAU* 2(2) (2012), pp. 434–50 | A1, A2 | none | checked |
+| X1-16 | "Crisis of presence": de Martino's term; magic as a "reintegrative technique grounded upon dehistorification" | *HAU* 2012 trans., pp. 434, 443, 447 | de Martino 2012 (primary, in translation) | A2 | none | single source (primary, opened) |
+| X1-17 | The "survivals" idea comes from 19th-century evolutionism (Tylor; then Frazer and Murray in Britain) | late 19th c.; Tylor 1871 | Hutton, Gresham College lecture transcript, 7 June 2023; Dei, "Pitrè, Giuseppe", DBI vol. 84 (Treccani 2015: Pitrè shaped by Tylor) | A1, A2 | Tylor 1871 itself not opened by either | checked (the claim); "1871" single (Hutton names Tylor; the year is from A1's own note) |
+| X1-18 | Pitrè wrote for readers who approach traditions "come a resti di antiche mitologie" (as remains of ancient mythologies) | 1881 | Dei, DBI vol. 84 (2015), describing Pitrè's 1881 introduction | A1, A2 (same source) | Pitrè's own text not opened | single source |
+| X1-19 | The survival model is mostly rejected in current scholarship, but a long continuity of some beliefs is still argued as a hypothesis | qualitative | Against: Schmitt 1977 (via Campennì 2023, p. 609); Angioni 1972 (via Satta); Dei 2018; Lepage 2017; Filotas 2005 (via Bugslag 2007); Hutton 2023. For: Geremia, *Religions* 15(2):161 (2024) | A1, A2 | none | checked |
+| X1-20 | Pitrè's dates | 1841–1916 | Bellantonio, *Palaver* 6(1) (2017), p. 136; DBI vol. 84 | A1, A2 | Exact days (22 Dec 1841; 10 Apr 1916) from Wikipedia only | checked (years); unverified (days) |
+| X1-21 | Pitrè's *Biblioteca delle tradizioni popolari siciliane* | 25 volumes | DBI vol. 84; Bellantonio 2017, p. 136 | A1, A2 | Years: DBI gives 1871–1913 but dates vols 1–2 to 1870 (inconsistent inside one source); Bellantonio gives no years | checked (25 vols); disputed (start 1870 or 1871; end 1913 single). Option: "25 volumes, 1870s–1913" |
+| X1-22 | Pitrè, *Spettacoli e feste popolari siciliane* | 1881 (Biblioteca vol. 12) | DBI vol. 84; Giacomarra (Univ. Palermo repository) citing Pitrè 1881; Pitrè, *La famiglia, la casa…* (1913) front matter pointing to it | A1, A2, B2 | none | checked (year); book itself not opened |
+| X1-23 | Pitrè, *Usi e costumi, credenze e pregiudizi del popolo siciliano* | 1889, 4 vols (Biblioteca vols 14–17); vol. IV = vol. XVII, Palermo, Pedone Lauriel | DBI vol. 84; archive.org scan of vol. IV (opened, OCR) | A1, A2, G1 | none | checked |
+| X1-24 | Pitrè, *Medicina popolare siciliana* | 1896 (Biblioteca vol. 19) | DBI vol. 84; D'Amato, "Regesto…" (Univ. Pisa PDF); Comelles, *Medicine Anthropology Theory* 3:2 (2016), citing Pitrè 1896 | A1, A2, G1 | none | checked |
+| X1-25 | Pitrè, *Feste patronali in Sicilia* | Biblioteca vol. 21; preface dated Palermo 23 Dec 1899; usually cited as 1900 | archive.org scan (primary, opened); Del Giudice 2010 and Benigno (Teramo) both cite it as 1900 | A2, G2, B1, B2 | "1899" (preface) vs "1900" (title page as cited) | checked. Option: "1900 (preface dated 1899)" |
+| X1-26 | Pitrè's journal, *Archivio per lo studio delle tradizioni popolari*, founded | 1882 | DBI vol. 84 (1882–1909); Bellantonio 2017, p. 141 (1882) | A1, A2 | Wikipedia gives 1880–1906 (does not count). End year 1909: DBI only | checked (1882) |
+| X1-27 | First university chair of *demopsicologia* (study of the folk mind), Palermo | created 1910; inaugural lecture 12 Jan 1911 | DBI vol. 84; Bellantonio 2017, p. 140 (1910) | A1, A2 | none | checked (1910); 12 Jan 1911 single |
+| X1-28 | Pitrè's ethnographic museum (now Museo Pitrè) opens | 1909 | DBI vol. 84 | A1, A2 (same source) | none | single source |
+| X1-29 | Pitrè's fieldwork on supernatural beings covered 172 municipalities, 1870–1890 | 172; 1870–1890 | Geremia 2024, §2 | A1, A2 (same source) | Not the same sample as his patron-saint count (X1-183) | single source |
+| X1-30 | Annabella Rossi, *Le feste dei poveri* | Laterza 1969 | Dei 2018, p. 57 n. 15; Russo, in Ricci (ed.), *L'eredità rivisitata* (CISU 2019), p. 300 | A2 | none | checked |
+| X1-31 | Luigi M. Lombardi Satriani's main works | 1966, 1968, 1971 (*Santi, streghe e diavoli*), 1982 | Campennì 2023; Dei 2018, p. 51 n. 6; Gallini, *nostos* 3 (2018), via Satta | A2 | *Folklore e profitto* (1971) from one source only | checked (bibliography) |
+| X1-32 | Clara Gallini, *Dono e malocchio*: the evil eye read as social levelling | 1973 | Dei 2018, p. 65 (quoting Gallini p. 112) | A2 | G1 warns the fieldwork may be Sardinian, not Sicilian (not checked) | single source; don't use as Sicilian evidence until checked |
+| X1-33 | Elsa Guggino, *La magia in Sicilia* (main modern fieldwork on Sicilian healers) | Sellerio 1978 | Dei 2018, p. 52 n. 6 | A2; G1 lists it as an unopened lead | none | single source (seen cited) |
+| X1-34 | Alfonso M. Di Nola, *Gli aspetti magico-religiosi di una cultura subalterna* | 1976 | Dei 2018, pp. 51–52 n. 6 | A2; B1 (Valentin cites Di Nola 1976) | none | checked (bibliography) |
+| X1-35 | Gabriele De Rosa's model: southern syncretism grew out of Counter-Reformation pastoral work | 1971, 1978 | Campennì 2023, p. 618 | A2 | none | single source |
+| X1-36 | Carroll dates the shape of Italian popular Catholicism from the 15th century on | 1992 | JHU Press page for *Madonnas That Maim* | A1; B1 (listing) | A1: his exact position on pagan survivals NOT verified | single source |
+| X1-37 | Carroll: the Italian-American "pagan Catholicism" story is a later, American-made construction | qualitative | Unsigned *Commonweal* review of Carroll, *American Catholics in the Protestant Imagination* | A1 | none | single source (a magazine review) |
+| X1-38 | Hutton: share of British medieval parish churches showing pre-Christian activity on site | 33 of about 1,500 | Hutton 2023 | A1 | Britain only; do not transfer to Sicily | single source |
+| X1-39 | Aradia / Italian "witch religion" is a modern legend | 2002 | Magliocco, *The Pomegranate* 18 (2002), pp. 5–22 (abstract page; DOI did not match volume) | A1 | none | single source (abstract only) |
+| X1-40 | Henningsen's reading of the *donne di fuora* (fairy cult, "white" sabbath, collective dreaming) | 1990, pp. 191–215 | Henningsen in Ankarloo & Henningsen (eds), *Early Modern European Witchcraft* (OUP 1990): book confirmed on OUP's page (A2); pages and argument via Geremia 2024 | A1, A2 | Chapter not opened; counts belong to D (see NOTES: disputed) | single source (argument via Geremia) |
+| X1-41 | Ginzburg ties the night fairies to the *dominae nocturnae* of Herodias/Diana | *Storia notturna* 1989, p. 101 | Geremia 2024, §2; Campennì 2023 lists the book | A1, A2 | none | checked (book); single (argument, via Geremia) |
+| X1-42 | Temples turned into churches in the late 6th century (Temple of Concord at Agrigento; Athenaion at Syracuse) | late 6th c. | Spatafora, *La Sicilia antica* (Regione Siciliana); Maurici, "Las ciudades sicilianas…", p. 306 (Bishop Gregory of Agrigento) | A2 | none. A2 notes this shows reuse of the building, not continuity of the cult | checked |
+| X1-43 | Palermo cathedral rebuilt on the site of a mosque | c. 1169–1185 (ICOMOS); 1170 (CE 1911) | ICOMOS evaluation, WHC 1487 (2015), pp. 236–237; Benigni, "Palermo", CE 1911 | A1 | 1169 vs 1170 as start: same event, approximate | checked. Option: "begun about 1170" |
+| X1-44 | Tombstone in four languages (Latin, Greek, Arabic, Judeo-Arabic) | 1149 | Fein, "Norman Sicily", Smarthistory (2021) | A1 | none | single source |
+| X1-45 | Witchcraft death sentences in all Counter-Reformation Italian states (Roman Inquisition, not the Spanish-run Sicilian court) | 8 | Kallestrup, *Historisk Tidsskrift*, p. 283 n. 3 | A1 | Different court system from Sicily's; do not merge | single source |
+| X1-46 | Sixtus V's bull against magic, *Coeli et Terrae* | 1585 | Kallestrup, p. 283 | A1 | none | single source |
+| **B. Timeline: peoples and rulers (Q1)** | | | | | | |
+| X1-47 | Peoples before the colonies: Sicani, Sicels (Siculi, from Italy), Elymians (Eryx, Segesta); Phoenicians on the coasts | before Greek colonisation (no year) | Thucydides 6.2–6.3 (Perseus, primary); Spatafora (Regione Siciliana); Britannica "Sicily" | A1, A2 | none | checked |
+| X1-48 | Phoenician–Punic presence in Sicily attested | from the 8th c. BC | Spatafora | A2 | none | single source |
+| X1-49 | Carthage founded | end of the 9th c. BC | Spatafora | A2 | none | single source |
+| X1-50 | Greek colonies founded | from the 8th c. BC (Britannica: 8th–6th c.) | Spatafora; Britannica "Sicily"; Benigni, "Catania", CE 1908 (Catania c. 730 BC) | A1, A2 | none | checked ("8th century BC") |
+| X1-51 | Naxos the first Greek colony; Syracuse founded "the next year" | sequence, no BC year | Thucydides 6.3 | A1 | The usual 734/733 BC years were not sourced by any report | single source (primary); don't print a BC year |
+| X1-52 | Greek–Carthaginian wars: Himera 480; Selinus and Himera destroyed 409; Akragas 406; Motya falls 397 | years BC | Spatafora | A2 | none | single source |
+| X1-53 | Sicily becomes a Roman province | 241 BC (after the First Punic War) | Spatafora (241 BC); Britannica "Sicily" (3rd c. BC, no year) | A1, A2 | A1 could not source 241; A2 did | single source for "241"; the century is checked |
+| X1-54 | Syracuse falls to Rome | 212 BC | Hemingway & Hemingway, Met Heilbrunn Timeline (2007) | A1 | none | single source |
+| X1-55 | Early Christian bishops of Palermo | Gratianus 503 … Theodorus 787 | Benigni, "Palermo", CE 1911 | A1 | none | single source |
+| X1-56 | Byzantine reconquest (Belisarius) | 535 | Met Heilbrunn "Italian Peninsula, 500–1000"; Britannica "Sicily"; Spatafora | A1, A2 | none | checked |
+| X1-57 | Arab (Aghlabid) landing at Mazara | 827 | Maurici, p. 304; *Saudi Aramco World* 29(6) (1978; popular, not counted) | A1, A2 | none | single source |
+| X1-58 | Arabs take Palermo | 831 | Maurici, p. 318; Spatafora ("nell'831, con la resa di Palermo") | A2 | A1 had only CE 1911: 820 (temporary) and 835 (permanent). An old reference vs two modern ones | disputed. Option: show 831; the CE dates are superseded |
+| X1-59 | Enna falls 858; Syracuse 878; Taormina 902 (end of organised Byzantine resistance) | 858 / 878 / 902 | Maurici, pp. 314–316 | A2 | Britannica gives 965 as the year the island "fell" (A1): a different end-point (Rometta, not sourced) | single source (each) |
+| X1-60 | Norman conquest of Sicily | 1061–1091 | Met Heilbrunn "1000–1400"; Maurici, p. 304; ICOMOS 2015, p. 236 (by 1091); Indelli (1091 ends the Kalbid emirate) | A1, A2 | Britannica: the Normans "took the island in 1060" | disputed. Option: show 1061–1091 (four sources vs one) |
+| X1-61 | Normans take Palermo | 1071 or 1072 | 1071: ICOMOS 2015, p. 236; Benigni, CE 1911. 1072: Maurici, p. 319 | A1 (1071), A2 (1072) | Reports differ. A1 suggests the siege ended in January 1072, but that is unverified | disputed. Options: "1071–72", or "1072" with a note |
+| X1-62 | Kingdom of Sicily founded; Roger II crowned | 1130 | ICOMOS 2015, pp. 236–237; Met Heilbrunn; Britannica "Kingdom of Sicily" | A1, A2 | A memolaproject.eu page wrongly says 1091 (not counted) | checked |
+| X1-63 | Concordat of Benevento (papacy and William I) | 1156 | Britannica "Kingdom of Sicily" | A1 | none | single source |
+| X1-64 | Hohenstaufen (Swabian) rule; Henry VI crowned at Palermo, Christmas 1194 | 1194–1266 | ICOMOS 2015, p. 237; Met Heilbrunn; Indelli (Univ. Salerno) | A1, A2 | none | checked |
+| X1-65 | Frederick II crowned king of Sicily; dies | May 1198; 13 Dec 1250 | Britannica (1198); Indelli (1250) | A1, A2 | none | single source (each) |
+| X1-66 | Angevin rule (Charles of Anjou crowned 6 Jan 1266; Benevento, Feb 1266) | 1266–1282 | Met Heilbrunn; Indelli | A1, A2 | none | checked (1266–1282); exact days single (Indelli) |
+| X1-67 | Sicilian Vespers; Aragonese rule begins | 1282 (Easter Monday, 30 March 1282) | Met Heilbrunn (Aragon 1282–1516); Britannica "Kingdom of the Two Sicilies" and "Sicilian Vespers" | A1, A2 | none | checked (1282); the day is single (Britannica). "About 2,000 French killed" is Britannica only: single |
+| X1-68 | Separate Aragonese royal line in Sicily | 1296–1409 | Britannica "Kingdom of Sicily" | A1, A2 (same source) | When Sicily passed to the Spanish crown and viceroys (1409/1412/1415/1479) is unsourced | single source |
+| X1-69 | Peace of Caltabellotta | 31 Aug 1302 | Britannica "Sicilian Vespers" | A2 | none | single source |
+| X1-70 | Alfonso V reunites Naples and Sicily ("rex Utriusque Siciliae") | 1443 | Britannica "Kingdom of the Two Sicilies"; Met Heilbrunn "1400–1600" | A1 | none | checked |
+| X1-71 | Crown of Spain (Habsburg) rules Sicily | 1516–1713 | Met Heilbrunn table | A1 | A2 lists the Spanish transitions as unsourced | single source |
+| X1-72 | Plague of 1347–49 kills over half the population of Sicily and Italy | 1347–1349; "over half" | Met Heilbrunn "1000–1400" | A1 | none | single source (the share especially) |
+| X1-73 | Earthquake destroys Catania cathedral | January 1693 (CE gives 22 Jan) | Benigni, "Catania", CE 1908 (22 Jan); Margiotta 2018, p. 9 (the "January 1693 earthquake") | A1, B2 | Only one source gives a day | checked ("January 1693"); the day is single |
+| X1-74 | Sicily to Victor Amadeus II of Savoy (Utrecht) | 1713 | Britannica "Italy: Reform and Enlightenment"; Di Franco, *Humanities* (Univ. Messina) VIII.16 (2019) | A1, A2 | none | checked |
+| X1-75 | Austrian rule | 1720–1734 | Britannica; Di Franco 2019 | A1, A2 | none | checked |
+| X1-76 | Bourbon rule: Charles of Bourbon takes Naples and Sicily; crowned | 1734; crowned 1735 | Britannica "Charles III"; Univ. Teramo Digital History "Charles III of Bourbon" | A1, A2 | none | checked (1734); 1735 single (Teramo) |
+| X1-77 | Kingdom of the Two Sicilies made official | 8 Dec 1816 (founding law) or 1815 | 1816: *Legge fondamentale del Regno delle Due Sicilie*, 8 Dec 1816, art. 1 (primary text, giurcost.org). 1815: Britannica "Kingdom of the Two Sicilies" | A1 (1815), A2 (1816) | Reports differ. Likely the Vienna settlement (1815) vs the founding law (1816) | disputed. Option: "1816" (primary law) with a note |
+| X1-78 | Plebiscite on joining Italy | 21 Oct 1860 | House Divided (Dickinson College), citing Wambaugh, *A Monograph on Plebiscites* (OUP 1920), p. 631 | A2 | none | single source |
+| X1-79 | Garibaldi frees Sicily; Kingdom of Italy | 1860; 1861 | Britannica "Sicily" | A1 | A2 lists both as unsourced | single source |
+| X1-80 | Sicilian regional autonomy | 1947 (Britannica) | Britannica "Sicily" | A1 | 1946 is "commonly" given but no report sourced it | single source |
+| X1-81 | Spanish Inquisition in Sicily: papal authorisation; court working; abolished; archive burning ordered | 24 Mar 1486; 1500; 16 Mar 1782; 27 Jun 1783 | Geremia 2024, nn. 1, 3 | A1, A2 (same source) | Geremia's abstract says "1516–1782". G3 (outside X1's sources, per NOTES) sorts these as 1486 authority / 1487 first inquisitor / 1500 working court / 1516 a riot / 1782 / 1783 | single source in X1's sources; defer to the D-scope cross-check |
+| **C. Practices: earliest records, what each involves (Q1, Q2)** | | | | | | |
+| *Saint Agatha, Catania* | | | | | | |
+| X1-82 | Agatha's martyrdom | under Decius (250–253); "251" | Kirsch, "St. Agatha", CE 1907 (under Decius; "Historic certitude attaches merely to the fact of her martyrdom"); Aaron, BA thesis 2015, pp. 4–5 (251; not counted) | A1, B1 | "251" follows the *passio* tradition, not a document | single source. Option: "tradition places it in the 250s" |
+| X1-83 | Earliest records of Agatha's cult | 5th–6th c. martyrologies (5 Feb); a basilica named by Pope Gelasius (492–496) | Kirsch, CE 1907 | A1 | none | single source |
+| X1-84 | Agatha's body taken to Constantinople by the Byzantine general George Maniakes | event (no year) | Bishop Maurice of Catania, *Historia translationis corporis S. Agathae* (BHL 139), ALIM text (primary, opened); Papasidero, *Thefts of Relics in Italy* (Amsterdam UP 2025), §4.7, pp. 142–146 | B1, G2; B2 (news only) | none on the event | checked |
+| X1-85 | Year Maniakes took the relics | about 1040 | 1040: Papasidero 2025 (no footnote); Comune di Catania tourism page (lead); LiveSicilia (news). No year: Maurice's letter; Aaron (following Oldfield) says no evidence either way. Campaign 1038–1040: Samčević, *Zbornik radova* (Priština) 54(3) (2024), p. 217, citing Skylitzes | B1, B2, G2 | No primary source gives a year. C-pass1/C-pass2 (outside X1's sources) also report "1039" in popular accounts | disputed. Option (G2): "about 1040, during George Maniakes's campaign of 1038–40" |
+| X1-86 | Agatha's relics return to Catania | 17 Aug 1126 (16 kalends of September, 4th indiction) | Maurice's letter (primary); Di Giovanni, *Traditiones* 36/1 (2007), pp. 180, 183; Benigno, "Baroque Festivals in Sicily", Univ. Teramo Digital History | B1, B2, G2 | A1 had only a Wikipedia lead | checked |
+| X1-87 | The two men who brought the relics back | Gislebertus and Goselinus (Italian: Gisliberto, Goselmo) | Maurice's letter (primary) | B1; B2 (news only) | Spelling varies (news) | single source (primary) |
+| X1-88 | When Maurice's account was written | 1155–1169 (Papasidero) vs Maurice bishop 1122–1143/44 (same book) | Papasidero 2025, §4.7 | G2 (also flagged by B1, C-pass1) | The book contradicts itself | disputed. Option: cite "Bishop Maurice's account (BHL 139)" with no date |
+| X1-89 | Agatha's cult revived in the 12th century through Norman political circles | 12th c. | Oldfield, *J. Eccles. Hist.* 62:3 (2011), pp. 439–456 (abstract only) | B1 | none | single source (abstract) |
+| X1-90 | Agatha's feast days in Catania | 3–5 Feb, plus 17 Aug | Di Giovanni 2007, pp. 178, 183; Benigno (Teramo) | B1, B2 | Benigno calls 4–5 Feb the main days | checked |
+| X1-91 | Number of *candelore* (guild candle-towers) | 11 (a 2007 count) | Di Giovanni 2007, p. 179 ("today there are 11 of them") | B1 | B2: 16 (Wikipedia EN via *Italy Magazine*, not counted) and called 11 "popular, unverified", not having seen Di Giovanni. NOTES lists "candelore 11" as unverified; B1's row shows it is in a scholarly source | single source. Option: "about a dozen" or "11 in 2007" |
+| X1-92 | The devotees' white *sacco* (robe) has five parts | tunic, cap, cord, gloves, handkerchief | Di Giovanni 2007, p. 180 | B1 | none | single source |
+| X1-93 | Where the white *sacco* comes from | 18th-century creation (Benigno) vs a memory of the nightshirts worn when the relics came back in 1126 (one reading given by Di Giovanni) | Benigno (Teramo): "The sack was an 18th century creation, as were the black velvet cap and white gloves now in use"; Di Giovanni 2007, p. 180 | B1, B2 | A dated historical claim vs a folk explanation the author reports as one interpretation | disputed. Option: give Benigno's date, report the 1126 story as what devotees tell |
+| X1-94 | Agatha's feast continues the cult of Isis | myth | Started: E. Ciaceri, *ASSO* 1905 (reprint *ASSO* 2021/2, pp. 151–173; record and introduction opened). Rejected: C. Soraci, "Né Demetra, né Iside", *ASSO* IX (2025), pp. 93–118 (abstract: "no historical foundation for a direct continuity"); the 2021 editor says Ciaceri's conservative outlook shaped his results; Benigno's 18th-c. date for the robe undercuts the white-robe parallel | B1, B2 | Di Giovanni 2007, p. 179, repeats it without a source | myth |
+| X1-95 | Agatha continues Ceres / Demeter and the Eleusinian mysteries | myth | Started: J. J. Blunt, *Vestiges of Antient Manners and Customs* (1823), who admitted he couldn't prove it (via Walendziak-Genco, *Kwartalnik Neofilologiczny* 65(4), 2018). Rejected: Soraci 2025 (title "Né Demetra, né Iside") | B1, B2 | none | myth |
+| X1-96 | Agatha's feast is "the world's third-largest religious festival" | myth | No source found by B2; Wikipedia says only "among the largest" | B2 | none | myth (no origin traced) |
+| X1-97 | 2026 is the 900th anniversary of the relics' return | 2026 | Arithmetic from X1-86 (1126); news titles only (EWTN UK, La Sicilia) | B1, B2 | none | checked (derived from a checked date) |
+| *Saint Rosalia, Palermo* | | | | | | |
+| X1-98 | Plague reaches Palermo | May 1624 (7 May, "on a ship from Tunis") | Vatican City State, "September 4: Saint Rosalia" (7 May, Tunis); Bizzarro, *Iconocrazia* 17 (2020), p. 7 ("early May 1624") | B1 | Scalisi 2023, p. 186: officially confirmed early Aug 1624. Arrival vs official confirmation | checked ("May 1624"); the day and the ship are single |
+| X1-99 | Rosalia's bones found on Monte Pellegrino | 15 July 1624 | Bizzarro 2020, fn. 18; Vatican City State page; Cattedrale di Palermo "Il miracolo"; Comune di Palermo "Storia del Festino" | B1, B2 | A1, A2 had leads only. Scalisi's account fits the date | checked |
+| X1-100 | Who led the find | guided by the visions of Girolama (Geronima) La Gattuta; the sailor Vito Amodeo found the bones (Comune); Franciscans then Jesuits ran the search (Scalisi) | Comune di Palermo; Santuario "Breve storia"; Scalisi, *Quaderni Mediterranea* 41 (2023), p. 186 | B2 | Layers of one story, not contradictions (B2). The Santuario dates La Gattuta's first vision to Oct 1623, the cathedral to May 1624 | checked (La Gattuta, as the tradition tells it); Amodeo single |
+| X1-101 | Rosalia elected Palermo's patron by the Senate | 27 July 1624 | Comune di Palermo "Storia del Festino" | B2 | none (C-pass2, outside scope, gives the same date per NOTES) | single source |
+| X1-102 | The bones declared Rosalia's | February 1625: commission certifies 18 Feb, Senate/Church declares 22 Feb | Cattedrale di Palermo; Santuario (same church; not independent) | B2 | C-pass1 (outside X1's sources) gives 11 Feb 1625 (Anello 2024; Jay 2021). The cathedral notes the remains seemed to come from different people | disputed. Option: "February 1625" |
+| X1-103 | Commission to verify the bones | headed by the Jesuit Giordano Cascini, named by Cardinal Giannettino Doria; set up 30 Nov 1624 | Scalisi 2023, p. 186 (Cascini, Doria); Cattedrale di Palermo (30 Nov 1624) | B1, B2 | Different details from different sources | single source (each) |
+| X1-104 | First procession of the relics, credited by tradition with ending the plague | 9 June 1625 | Vatican City State page; Bizzarro 2020, p. 1; Cattedrale di Palermo; Comune di Palermo; Palazzotto 2018, p. 63 | B1, B2 | A2 had a lead only | checked (the date); the ending of the plague is belief (see Belief statements) |
+| X1-105 | Plague declared over | 15 July 1625 | Vatican City State page; Santuario ("held to be beaten by 15 July 1625"); Bizzarro 2020 (window 9 June–15 July 1625) | B1, B2 | none | checked |
+| X1-106 | Rosalia's traditional life | born c. 1130, died c. 1170 (4 Sept) | Vatican City State page; Santuario "Breve storia" | B1, B2 | Hagiographic tradition, not biography. The Santuario calls a plaque's 1160 wrong; A1's 1166 rests on Catholic Online via Wikipedia | checked (as tradition). Option: "tradition says she lived in the 12th century" |
+| X1-107 | A cult of Rosalia existed before 1624, but a weak one | "seppur debole" | Palazzotto, "La Patrona contesa", in *Rosalia. Eris in peste Patrona* (Fondazione Federico II, 2018), p. 61; Petrarca, *Genesi di una tradizione urbana* (2008, from a 1986 article), pp. 20, 24–28 | B2 | none | checked |
+| X1-108 | Cascini's *Vita* of Rosalia published | 1627 | Scalisi 2023, p. 198 n. 42; Bizzarro 2020, fn. 3 | B1 | none | checked |
+| X1-109 | Rosalia entered in the Roman Martyrology | 1630 or 1631 | 1630: Bizzarro 2020, fn. 3; Cattedrale di Palermo (quotes the entry); Margiotta 2018, p. 10. 1631: Scalisi 2023, p. 195 | B1, B2 | Decision vs printed edition, probably. Margiotta's "canonized" is loose wording | disputed. Option: "about 1630" |
+| X1-110 | Relics sent to Pope Urban VIII, who reportedly wore a tooth of the saint | 1626 | Scalisi 2023, p. 198 | B1, B2 (same source) | "Reportedly" is Scalisi's hedge | single source |
+| X1-111 | Van Dyck's *Mystic Marriage of St Rosalia* for Antwerp | 1629 | Scalisi 2023, p. 199 | B1, B2 (same source) | none | single source |
+| X1-112 | Van Dyck, *Saint Rosalie Interceding for the Plague-stricken of Palermo* | painted 1624; Met 71.41 | The Met collection record 436257 (primary) | B1 | "One of five surviving Rosalia paintings by Van Dyck" is Bizzarro only: single | single source (primary record) |
+| X1-113 | Silver urn for the relics in the cathedral | 1631 (a first urn of 1625 lacked the statuette) | Comune di Palermo; Palazzotto 2018, p. 63 | B2 | none | checked |
+| X1-114 | The festino becomes a civic and political show | c. 1649 | Petrarca 2008, pp. 32–33 | B2 | none | single source |
+| X1-115 | Paolo Amato's triumphal cart: first used 1686, shown yearly from 1693; festino stretched to four days in 1693 | 1686; 1693 | Margiotta 2018, pp. 15, 17 | B2 | none | single source |
+| X1-116 | The festino today: 10–15 July; cart on the evening of 14 July; relic urn procession 15 July; night climb (*acchianata*) 3–4 Sept | dates | Comune di Palermo; Santuario "Breve storia"; Salerno, *Religions* 15(1):126 (2024) | B1, B2 | none | checked |
+| X1-117 | Rosalia's two feast days | 15 July (the finding) and 4 Sept (her death day) | Vatican City State page; Santuario; Bizzarro 2020, fn. 6 | B1, B2 | Bizzarro's fn. 3 gives 5 Sept (internal slip, B1) | checked |
+| X1-118 | Festino numbering: the 400th was 2024 (so the 1st was 1625) | 400th = 2024 | Comune di Palermo; Cattedrale di Palermo (menu shows the "402°" in 2026) | B1, B2 | The Comune homepage also says "Dal 1624" (counting from the find). Petrarca: civic festino c. 1649 | checked (the numbering rule) |
+| X1-119 | 1992: a torchlight procession instead of fireworks after the Falcone and Borsellino murders | 1992 | Salerno 2024 | B2 | The article is unevenly edited (B2) | single source. Landmine: crime appears only as this sourced fact tied to the feast |
+| X1-120 | Tamil Hindu devotees take part, seeing in Rosalia a "Great Mother" | qualitative, no headcount | Salerno 2024, §§3–4 (participant observation) | B2 | The Durga comparison is the author's own | single source |
+| X1-121 | Rosalia's cave was a Punic shrine to Tanit (and Rosalia continues a goddess cult) | myth | Claim: Petrarca 2008, p. 19 ("probabilmente dedicato a Tanit"); G. Mazzola on the Santuario site, citing V. Giustolisi (not opened). Against: no inscription or finds cited; Petrarca says parallels "do not prove identical origins"; Palazzotto finds only a weak medieval Christian cult; Benigno calls the festino baroque. B1 found no pagan-survival claim for Rosalia in scholarship | B1, B2 | none | myth (architectural reuse at most) |
+| *Four big city feasts* | | | | | | |
+| X1-122 | Palermo's Rosalia, Catania's Agatha, Messina's Assunta/Vara and Trapani's Misteri are "creations of the baroque", "urban productions" | qualitative | Benigno (Teramo); for Rosalia also Petrarca 2008 | B2 | none | single source (for all four); checked for Rosalia (Benigno + Petrarca) |
+| *Madonna della Lettera, Messina* | | | | | | |
+| X1-123 | What the legend says: a letter from Mary to the people of Messina, dated 42 CE, 3 June, tied with a lock of her hair | 42 CE (claimed) | Champagne & Havens, Stern Center, Johns Hopkins Sheridan Libraries (2024); Campagna, *Humanities* (Univ. Messina) XV.27 (2025), p. 38 ("bound by her hair") | B1, G2; B2 (Wikipedia) | none | checked (as the legend's content) |
+| X1-124 | The letter legend arose in the 16th century | 16th c.; oldest text on an engraving of 1522; oldest Latin print Maurolico 1556; oldest manuscript copy 1599 | Campagna 2025, pp. 38–39 (1522); Franceschini, *Mitteilungen des KHI in Florenz* 61:3 (2019), pp. 336–337 (1556, 1599, "probably invented in the first half of the sixteenth century") | B1, G2 | 1522 vs 1556 measure different things (an engraving vs a printed Latin text). G2's own table also gives 1518 donations to the cathedral's "Holy Licterio" chapel (Campagna, n. 18), earlier than the "oldest firm date 1522" in G2's summary | checked ("16th century"); 1518/1522/1556 single each. Option: "first recorded in the 1520s" or "by 1518" |
+| X1-125 | Rome's Holy Office condemns the letter as apocryphal | 1598 | Franceschini 2019, p. 337 n. 10 (citing Fantini) | B1, G2 (same source) | none | single source |
+| X1-126 | Inchofer's 1629 defence of the letter censured by the Index; corrected edition 1632 | 1629; 1632 | Franceschini 2019, p. 337 n. 11; Stern Center 2024 | B1, G2 | Frontispiece misdated 1619 | checked |
+| X1-127 | The letter was found in Greek in the 15th century and translated by Constantine Lascaris (1467) | myth | The supporters' claim, per Franceschini 2019; the Stern Center gives 1467 as when Lascaris reached Messina | B1, G2 | none | myth (supporters' claim) |
+| X1-128 | "The letter has been venerated since the Middle Ages" | myth | Ciaramitaro, *Lexicon* 1 (2005), p. 21 ("fin dal medioevo", nothing to back it). Against: Franceschini 2019; Campagna 2025 ("the cult stayed embryonic for much of the 16th century") | G2 | none | myth |
+| X1-129 | Famine ended 3 June 1636 "by a miracle of Our Lady of the Holy Letter"; Senate's vow 30 July 1636; eight-day feast 26 May–3 June 1657 | 1636; 1657 | Ciaramitaro 2005, pp. 21–22 | G2 | none | single source |
+| X1-130 | Lettera feast day | 3 June | Stern Center 2024; Benigno (Teramo); Arcidiocesi di Messina, *Madonna della Lettera 2026* programme | B1, B2, G2 | none | checked |
+| X1-131 | The hair relic is carried on the silver *vara* in the Lettera procession | 1657 and today (31 May 2026 "enthronement") | Ciaramitaro 2005, p. 22; Arcidiocesi di Messina 2026 programme | G2 | The reliquary is dated c. 1600 by style (ICCD14636571); first record of the hair not found | checked (the practice); relic history belongs to Q4 |
+| X1-132 | Messina's mock-galley pageant went on "until 1832" | 1832 | Pitrè, *Feste patronali* (1900), pp. XVI, XX | A2 | none | single source (primary) |
+| X1-133 | Messina's Assunta: 15 Aug, the *Vara*, the giants Mata and Grifone; present form late 16th c. | 15 Aug | Benigno (Teramo), citing Giorgianni 1995 | B2 | none | single source |
+| *Trapani Misteri* | | | | | | |
+| X1-134 | Earliest record: a notarial deed granting a group to a guild | 20 Apr 1612 | Wikipedia EN/IT only (citing italia.it, Serraino 1980, Cammareri 1998) | A1, B2 (leads) | none | unverified |
+| X1-135 | Introduced by the Jesuits in the 17th century, replacing the older *Cilii* guild-candle procession | 17th c. | Benigno (Teramo), citing Bernardi 1991; Teramo "History of the procession" page (no sources cited; guilds assigned statues from the first two decades of the 17th c.) | B1, B2 | none | single source (Benigno; the second Teramo page cites nothing) |
+| X1-136 | Number of groups carried | 20 | Wikipedia IT only | B2 | none | unverified |
+| X1-137 | Statues carved in the 18th–19th c.; most rebuilt after the 1940–41 bombing | dates | Teramo "History of the procession" page (cites no sources) | B1 | none | single source (weak) |
+| *Saint Joseph's tables (cena / tavulata di San Giuseppe)* | | | | | | |
+| X1-138 | St Joseph's feast day | 19 March | ICCD MODI record ICCD14955029 (2015); Canning & Zinni, *Voices* 44 (2018), p. 30 | B1, B2 | Pitrè (p. XXXIII) writes "20 March" opens the solar cycle of feasts (A2: check) | checked |
+| X1-139 | The feast fixed on 19 March "by the 16th century" | by 16th c. | Canning & Zinni 2018, p. 30 | B1 | none | single source |
+| X1-140 | Joseph's public and liturgical cult codified | 14th–15th c. | Del Giudice, *California Italian Studies* 1:2 (2010), p. 8 (citing Giallombardo) | B1 | none | single source |
+| X1-141 | When the Sicilian table custom began | unknown | Del Giudice 2010, p. 16 ("It is not exactly clear when or how the table tradition began in Sicily") | B1; A1 and B2 also found no earliest record | none | single source (a scholar's statement, matched by every search) |
+| X1-142 | Pitrè recorded St Joseph meals for the poor by 1899 | by 1899/1900 | Pitrè, *Feste patronali*, p. XXXIII ("il trionfo della carità"; primary, opened); Del Giudice 2010, p. 10 (Pitrè 1900 on S. Croce Camerina, via Uccello 1976) | A2, B1 | Giacomarra cites Pitrè 1881 (*Spettacoli e feste*, not opened), which may be earlier | checked ("by 1900 at the latest"); 1881 unverified |
+| X1-143 | What the rite involves (state catalogue): rites from January to September centred on 19 March; bonfires, alms collecting, auctions, a ritual banquet for poor people or children who play the Holy Family, a procession, verses in Sicilian; family-run, often to keep a vow | qualitative | ICCD record ICCD14955029 (2015; from G. Mingozzi's 1963 film *Li mali mistieri*) | B2 | none | single source (primary catalogue) |
+| X1-144 | Who is fed at the table: three of the poorest (orphans included) dressed as Mary, Joseph and Jesus, the *santi* or *virgineddi*; now often an honorary role | practice | Del Giudice 2010, pp. 10, 16–17; Valentin, *Dve domovini / Two Homelands* (c. 2009), p. 171; ICCD14955029 | B1, B2 | Giacomarra (B2) uses *fari i virgineddi* for meals for unmarried young people in the Madonie. In western New York, family children take the roles (Canning & Zinni) | checked (the practice); term defined differently by place (see X1-205) |
+| X1-145 | Where the tables are strongest | western Sicily (provinces of Palermo, Trapani, Enna, Agrigento; Salemi), plus sites in Ragusa, Catania, Siracusa, the Egadi | Del Giudice 2010, p. 10 | B1 | none | single source |
+| X1-146 | Ritual breads | large braided *cucciddati*, "often 3 to 7 kg" | Del Giudice 2010, p. 3 | B1 | none | single source |
+| X1-147 | Bonfires on St Joseph's eve (18 March) | practice | Pitrè 1900, p. XXXIII; REI entry no. 96 "Vampata di San Giuseppe", Palermo; ICCD14955029 (bonfires) | A2, B1, B2, G2 | none | checked |
+| X1-148 | The tables have "no counterpart in Spain or its colonies" | qualitative | Del Giudice 2010, p. 16 | B1 | Matters for Q7 | single source |
+| X1-149 | The table began after a medieval famine or drought, when Joseph sent rain (the fava bean story) | myth | Told as "the story" (a late-13th-c. drought) by Canning & Zinni 2018, p. 28, with no source; NPR 2017 (lead). Rejected: Del Giudice 2010, pp. 17–18 (found "almost exclusively in diaspora" sources, "little trace… in homeland Italian literature") | A1, B1 | none | myth (a meaningful origin story, not history) |
+| X1-150 | The tables are a Christianised spring / Demeter rite; the eve bonfires are "certainly pagan" | myth | Claim: Giallombardo (via Del Giudice, p. 20); Pitrè 1900, p. XXXIII (asserted, no evidence). Against: Del Giudice 2010, pp. 20–21 (continuity "more challenging"; Noyes: "non-Christian" fits better than "pre-Christian"); Giacomarra links it to spring but makes no pagan claim; the ICCD record frames it by vows, the poor and food | A2, B1, B2 | none | myth (contested; parallels, not descent) |
+| *Decollati (souls of the beheaded), Palermo* | | | | | | |
+| X1-151 | Compagnia de' Bianchi (confraternity that comforted the condemned) founded in Palermo | 1541 | Pitrè, *Usi e costumi* vol. IV (1889), p. 5 (primary, opened) | G1; B1 (via Harper, magazine, not counted) | none | single source (primary) |
+| X1-152 | The Bianchi were active until 1820 and assisted 2,127 condemned | 1541–1820; 2,127 | Harper, "Beheaded", *Image* 102 (c. 2019), citing M. P. Di Bella (not opened) | B1, G1 | none | unverified |
+| X1-153 | The Bianchi stayed with the condemned for three days and nights before execution | 3 days | Davies & Matteoni, *Executing Magic in the Modern Era* (Palgrave OA 2017), pp. 81–105 | G1 | none | single source |
+| X1-154 | The decollati church by the Oreto river: dates | called "Madonna del Fiume" before 1785; rebuilt 1785 (Fatta); executed buried there from 1799 (Harper); rebuilt 1857–1865 (Pitrè) | Pitrè 1889, p. 10; Fatta, *Notiziario Archeologico* 12/2016 (Soprintendenza di Palermo), p. 8; Harper (not counted) | B1, G1 | Three dates for possibly three events. Pitrè's own bridge year ("1113") may be an OCR slip; don't print it. Pitrè's *La vita in Palermo* puts the night-walking souls by the Ponte dell'Ammiraglio, buried at S. Antoninello | disputed. Option (G1): "by the Oreto river"; "rebuilt in 1785 and again in 1857–65", both sources named |
+| X1-155 | Head-pyramid with a 1604 inscription at the execution site; moved by order of the Senate in 1779 | 1604; 1779 | Fatta 2016, p. 8 (from Villabianca) | B1 | none | single source |
+| X1-156 | Bodies of the executed displayed at the Sperone until a viceregal ban | 16th c. to 1788 | Fatta 2016, pp. 7–8 | B1 | none | single source |
+| X1-157 | Painted votive tablets on the decollati church walls | "about a hundred" (in Pitrè's day, before 1889) | Pitrè 1889, pp. 10–11 | G1 | Not a modern count | single source (primary) |
+| X1-158 | Devotees visit on Monday and Friday, often barefoot, and say a rosary to the souls; those who can't go keep a home novena by candlelight | practice | Pitrè 1889, pp. 14–17 | G1 | none | single source (primary) |
+| X1-159 | Francesco Frusteri, beheaded at Paceco in 1817, became a popular saint | 5 Nov 1817 | Davies & Matteoni 2017; Pitrè 1889 (the day) | G1 | none | checked (1817); the day single |
+| X1-160 | The decollati cult is a pagan survival | myth | General survival framing (no named author). Against: Pitrè 1889, p. 24, reads it as a Christian idea (the repentant executed as martyrs); Davies & Matteoni trace such cults to late-medieval confraternities (1350–1550) | G1 | none | myth |
+| X1-161 | Ex-votos at the decollati church are marked "V.F.G.A." (*vuto fattu, grazia avuta*, "vow made, grace received") | formula | Harper (magazine) only | B1, G1 | Buttitta (G1) gives modern inscriptions as "per grazia ricevuta" | unverified |
+| *Festa dei Morti (2 November)* | | | | | | |
+| X1-162 | The dead return on 2 November and bring children gifts: sugar dolls (*pupi di zùccaru*), fruit, nuts, in a basket (*canistru*) | belief / practice | Campanella, *Dialoghi Mediterranei* 64 (2023), p. 1 (oral testimony); Montalto, MA thesis, Padua 2022–23, pp. 41–42 (weak) | B1, G1 | none | checked (as a reported practice and belief, with the weak second source noted) |
+| X1-163 | The sugar doll (*pupa*) for girls, the knight (*cavaliere*) for boys | practice | Campanella 2023 | G1 | none | single source |
+| X1-164 | Gift-giving from the dead reaches "about nine-tenths" of Sicily | 9/10 | Buttitta 1996 via Montalto (not opened) | B1 | none | unverified |
+| X1-165 | Earliest record of the Festa dei Morti gifts | not found | Leads: Pitrè 1889 on the *cunsulu* meal at Modica (via Montalto); Pitrè 1881 "I Morti" | A1, B1, G1 | none | unverified |
+| X1-166 | The *frutta martorana* were invented by the Martorana nuns to fake fruit for a visiting archbishop or king | myth | Popular food sites, Balarm, Wikipedia (flags it unverified). No document found anywhere | G1 | none | myth ("the story Palermitans tell") |
+| X1-167 | People feasted in cemeteries on 2 November "until the 4th–5th century"; the gifts continue Roman offerings to the dead | myth | Gnoffo, Balarm (2019), "antichi documenti" unnamed; Buttitta 1996 via Montalto (not opened) | B1, G1 | The 2 Nov date of All Souls (Cluny, c. 1000) was not opened by any X1 report | myth |
+| *Ex-votos* | | | | | | |
+| X1-168 | What a Sicilian ex-voto is: painted tablets show the danger, the person saved and the holy helper; wax, metal or terracotta ones show the healed body part; a painted ex-voto is a "standing declaration of debt" to the saint | definition | I. E. Buttitta (Univ. Palermo), "«Portavano pitture della disgrazia sofferta»", pp. 401–429, at 403–405 (journal and year to confirm on Dialnet) | G1 | none | single source |
+| X1-169 | A painted-tin ex-voto at the Casa-Museo Antonino Uccello for a miracle of 23 Nov 1890; dialect name *miraculu*; the Region acquired the collection 31 Oct 1983 | 1890; 1983 | ICCD record ICCD16374938 (primary) | G1 | none | single source (primary catalogue) |
+| X1-170 | Altavilla Milicia shrine museum holds "about 400" votive tablets from 1837; opened 1983 | about 400; 1837; 1983 | altavillamilicia.com (local site) | G1 | Second source (A. Buttitta 1983 catalogue) cited, not opened | unverified |
+| X1-171 | Ex-votos prove pagan–Christian continuity (silver limbs in an Agrigento church beside ancient terracottas) | myth | I. E. Buttitta, pp. 403–404, 412 (after Burke 2001). The dated Sicilian painted tablets found are 19th–20th c. | G1 | A serious scholar's resemblance argument | myth (resemblance, not descent) |
+| *Healers, charms, evil eye (only as practices)* | | | | | | |
+| X1-172 | Napoli's fieldwork on *ciarmavermi* (worm-charmers) | about 25 healers, 5 provinces (Messina, Enna, Ragusa, Catania, Palermo), 2002–2006 | Napoli, *J. Ethnobiology and Ethnomedicine* 4:21 (2008) | G1 | A count of healers met, not of belief | single source |
+| X1-173 | The worm-charming rite: sign of the cross, three crosses on the stomach while reciting; charms run through Holy Week day by day, "cutting" the worms; garlic, threads, herbs | practice | Napoli 2008, pp. 5–10 | G1 | none | single source |
+| X1-174 | Worm-charmers also lift the evil eye, using a "little plate" (*u piattinu*) | practice | Napoli 2008, pp. 5–6 | G1 | none | single source |
+| X1-175 | The evil eye (*ittatura*) in a Sicilian-Canadian community from Racalmuto: cast by witches or by ordinary envious people | belief | Antze, review of Migliore, *Mal'uocchiu* (U. Toronto Press 1997), *Anthropologica* XLI (1999), pp. 78–79 | G1 | Diaspora (Hamilton, Ontario), not Sicily; Migliore's book not opened | single source |
+| X1-176 | Amulets against the evil eye: coral, silver-bell rattles, the raised thumb-and-little-finger gesture, the *cimaruta* | objects | Intorre, in *Le culture della cura* (Palermo UP 2025), pp. 406–416, reporting early-20th-c. English collectors | G1 | The cimaruta–Diana link there is a survivals-era reading (myth-check) | single source |
+| X1-177 | The oil-drops-in-water test for the evil eye in Sicily | not found | No opened Sicilian source; Napoli 2008 does not describe it | G1 | Target: Pitrè 1896, pp. 176–184 | unverified (don't print as Sicilian) |
+| X1-178 | The evil-eye prayer may be learned only on Christmas Eve | not found for Sicily | Sourced only for Abruzzo and Molise (Giancristofaro, in *The Language of Magic*, LED 2022, pp. 53–67). Napoli 2008 records Christmas midnight Mass for worm-charm learning in Sicily | G1 | none | unverified (for Sicily) |
+| X1-179 | The evil eye is not specific to Sicily | qualitative | Pew Research Center, *Being Christian in Western Europe* (2018), §5 (belief in 15 countries); Giancristofaro 2022 (Abruzzo, Molise) | G1 | Italy's Pew figure was not read | checked (as a "not only Sicilian" statement; no Sicilian figure exists) |
+| X1-180 | A count of belief in the evil eye or charms for Sicily | none found | G1 searched Pew, Gershman (*PLOS ONE* 2022), Eurispes (walled) | G1 | none | unverified (say: no survey found, naming where it was searched) |
+| **D. Counts: comuni, patrons, register (Q3)** | | | | | | |
+| X1-181 | Sicily's comuni (municipalities) | 391 (since 20 Feb 2021) | ISTAT, "Il censimento permanente della popolazione in Sicilia. Anno 2021" (22 Sep 2023) and "Variazioni amministrative… 2026–2017"; IFEL / ANCI Sicilia, *Atlante dei Comuni della Sicilia* (390 to 12 Jan 2015, + Misiliscemi) | G2; B2 (Tuttitalia lead) | none | checked |
+| X1-182 | Sicily's comuni in 1899 | 357 | Pitrè, *Feste patronali*, §VII | G2 | none | single source (primary) |
+| X1-183 | Size of Pitrè's patron-saint sample | about 150 towns ("in 150 paesi"; also "i 160 da me studiati") | Pitrè 1900, §VII | A2, G2 (same source) | He uses both numbers; his percentages are of 150 | disputed (inside one source). Option: "about 150 towns he studied" |
+| X1-184 | Principal patrons in Pitrè's sample: Mary 45 towns; the Crucifix 13; 50 different saints for 88 towns | 45 / 13 / 50 for 88 | Pitrè 1900, §VII ("I 50 santi son patroni di 88 comuni; Maria lo è di 45, il Crocifisso di 13") | A2, G2 (same source; readings agree) | none | single source (primary) |
+| X1-185 | St Joseph the most common saint-patron in Pitrè's sample | 13 towns, "almost 9 in 100" | Pitrè 1900, §VII ("Dei santi il più carezzato patrono è S. Giuseppe, che occupa 13 comuni") | A2, G2 | none | single source (primary) |
+| X1-186 | Female saints as patrons in Pitrè's sample; Rosalia | no more than 16 of 150; Rosalia 7 | Pitrè 1900, §VII | A2, G2 | none | single source (primary) |
+| X1-187 | Mary's titles as patron (Pitrè): Annunziata 4, Assunta 6, "giver of help and graces" 9, other titles 21 | 4 / 6 / 9 / 21 | Pitrè 1900, §VII | G2 | A separate phrase gives 24 comuni with Mary's "warmest cult": don't add | single source (primary) |
+| X1-188 | Patron saints across today's 391 comuni | no count found | Searched: B1, B2, G2 (institutions, university repositories, Palazzotto 2005, Abbate 2012) | B1, B2, G2 | none | unverified (say: no modern count found; Pitrè's is the only one) |
+| X1-189 | Comuni *named* after a saint (not patrons) | 40 of 390 (25 male, 15 female; highest female share of any region) | Ausloos & Cerqueti, *Quality & Quantity* 50(4) (2016), pp. 1539–1565, Table 2 | G2 | Measures names, not patrons | single source |
+| X1-190 | Sicily's intangible-heritage register (REI) set up | Decree D.A. 77, 26 July 2005 | Regione Siciliana, REIS page (updated 11 June 2021); Regione's REI page captured 27 Feb 2014 (UNESCO ICH doc 26090) | B1, B2 | Same institution, two documents | single source (primary) |
+| X1-191 | REI replaced by REIS, in six books | D.A. 571, 5 March 2014; 6 books | Regione Siciliana, REIS page | B1, B2 | none | single source (primary) |
+| X1-192 | Entries in the REI by Sept 2013 | 177 | Regione REIS page ("177 elementi"); 2013 table (UNESCO ICH doc 26090), nos. 1–177 checked one by one (G2) | B1, B2, G2 | Wikipedia IT 201 and the aggregator's 305 don't count (different dates and units) | single source (primary) |
+| X1-193 | REI 2013 entries by book | Celebrazioni 86; Saperi 38; Espressioni 32; Tesori Umani Viventi 21 | 2013 table (doc 26090) | B1 (~86, tool), B2 (~86, tool), G2 (hand count, script-checked) | none | single source (primary; three counts agree) |
+| X1-194 | St Joseph entries in the REI 2013 Celebrazioni book | 11 of 86 (about 13%); the saint with the most entries | 2013 table (doc 26090) | B2, G2 | Counting rule: title names St Joseph. Motta's "Pranzo delle Verginelle" (no. 97) is left out | single source (primary) |
+| X1-195 | Holy Week entries in REI 2013 | 11 by title (+2 that belong to Holy Week without naming it) | 2013 table; G2's own count | G2 | none | single source (primary) |
+| X1-196 | Not all REI "celebrations" are religious | at least 16 plainly secular (carnivals, jousts, Targa Florio, anti-mafia memorials) | 2013 table; G2's own classification | G2 | A worker's classification, not the register's | single source (label "our reading") |
+| X1-197 | Not in the REI 2013 list: the Palermo festino, Sant'Agata in Catania, the Trapani Misteri, any Festa dei Morti | absent in 2013 | 2013 table | B2, G2 | An aggregator says the festino and Sant'Agata were added to the REIS later (lead only) | single source (primary) |
+| X1-198 | Current REIS total | not found | Regione REIS page gives only 177; XLS lists (2014–16) refused | B1, B2, G2 | none | unverified |
+| X1-199 | Any Sicilian religious feast on a UNESCO list; Catania's Agatha bid | not verified | No article opened (B1); B2 made no claim | B1, B2 | none | unverified (make no claim either way) |
+| **E. Sicilian terms for inline definitions** | | | | | | |
+| X1-200 | *candelora* (pl. *candelore*): giant carried candle-tower of a guild or trade, Catania | term | Di Giovanni 2007, p. 179 | B1, B2 | none | single source |
+| X1-201 | *sacco*: the devotees' white robe at Sant'Agata | term | Di Giovanni 2007, p. 180; Benigno (Teramo) | B1, B2 | none | checked |
+| X1-202 | *festino*: Palermo's July feast of Rosalia | term | Comune di Palermo; Petrarca 2008; Salerno 2024 | B1, B2 | none | checked |
+| X1-203 | *acchianata*: the night climb up Monte Pellegrino, 3–4 Sept | term | Comune di Palermo; Santuario "Breve storia" (independent of the Comune) | B2 | none | checked |
+| X1-204 | *vara*: processional float (Messina's silver *vara*) | term | Benigno (Teramo); Arcidiocesi di Messina 2026; Ciaramitaro 2005 | B2, G2 | none | checked |
+| X1-205 | *virgineddi* ("little virgins"): the guests fed at a St Joseph meal (poor children dressed as the Holy Family; in the Madonie, unmarried young people) | term | Del Giudice 2010, pp. 10, 16–17; Giacomarra, pp. 191–196 | B1, B2 | The two define the guests differently | disputed (by place). Option: define as "the guests of honour, poor children or unmarried young people, depending on the town" |
+| X1-206 | *vampata*: the St Joseph's eve bonfire | term | REI entry no. 96; ICCD14955029 (bonfires) | B1, B2, G2 | none | checked |
+| X1-207 | *armi di li corpi decullati* (Palermo), *beati* (Acireale), *armiceddi* (Trapani): the souls of the beheaded | terms | Pitrè 1889, p. 1 | G1 | none | single source (primary) |
+| X1-208 | *ciarmavermi*: healer who charms away worms; *ciurmadore*: charmer | terms | Napoli 2008 (ciarmavermi); Comelles 2016 citing Pitrè 1896 (ciurmadore) | G1 | Two related terms, one source each | single source (each) |
+| X1-209 | *scantu*: fright (held to cause worms and other ills) | term | Napoli 2008; Maffei, *La maga e il velo* (CISU 2021), via review in *Humanities* X/19 (2021) | G1 | none | checked |
+| X1-210 | *ittatura* / *malocchiu*: evil-casting / evil eye | terms | Antze 1999 on Migliore (ittatura); Maffei via review (*malocchi*); Intorre 2025 (malocchio) | G1 | Spellings vary by source and place | checked |
+| X1-211 | *miraculu*: dialect name for an ex-voto ("miracle") | term | ICCD16374938 | G1 | none | single source (primary) |
+| X1-212 | *pupi di zùccaru*: sugar dolls for the Festa dei Morti; *canistru*: the basket of gifts | terms | Campanella 2023 (pupi); Montalto thesis (canistru) | B1, G1 | none | single source (each) |
+| X1-213 | *cuccìa*: boiled-wheat dish for Santa Lucia (famine-ship story) | term | none (B1, B2: not researched / unsourced) | B1, B2 | none | unverified |
+
+Belief statements and quotes for X1: `research/xcheck/X1.md`.
+
+## Part X2: relics
+
+### Table
+
+#### A. Agatha (Catania)
+
+| Draft ID | Figure / claim (exactly what) | Value used | Sources (title, author/institution, year, page) | Reports that agree | Disagreement | Status |
+|---|---|---|---|---|---|---|
+| X2-01 | Agatha's martyrdom, date as the tradition gives it | 5 Feb 251, under Decius (tradition's date; the *passio* was written in the mid-5th c.) | Papasidero 2025, §4.7, pp. 142–146; lead: Aaron 2015, pp. 4–5 | C1, B1 | None on the value. It's the legend's date, not a contemporary record | `single source` |
+| X2-02 | Agatha's body taken from Catania to Constantinople by the Byzantine general George Maniakes (the event, no year) | Taken by Maniakes ("Maniacus" in Maurice) | Maurice of Catania, *Historia translationis* (BHL 139), Latin text on ALIM (opened by B1); Papasidero 2025, pp. 142–146 (with Orderic Vitalis and William of Malmesbury, seen cited) | B1, C1, C2, G2 | None on the event | `checked` |
+| X2-03 | Year Maniakes took Agatha's body | 1040 vs 1039 vs "11th century, possibly earlier" | 1040: Papasidero 2025 (no footnote); leads: Comune di Catania tourism portal, LiveSicilia, LiveUniversity, NewSicilia, Balarm. 1039: lead NLM 2023; *Avvenire* June 2024. "No evidence either way by 1040": Aaron 2015 p. 6, following Oldfield 2011 (abstract only) | B1, C1, C2, G2 | Maurice's letter gives **no year** (B1, G2); the Byzantine historians are silent (Papasidero). Each year is worked back from the 1038–40 campaign or from "86 years before 1126". Display options: "about 1040, during Maniakes's campaign of 1038–40" (G2), or "in the 11th century, under Maniakes" (B1) | `disputed` |
+| X2-04 | Maniakes's Sicilian campaign | 1038–1040 (and 1042; Messina lost 1042) | Samčević 2024, p. 217 (citing Skylitzes) | G2 | Papasidero gives Maniakes's death as 1041 (no clash) | `single source` |
+| X2-05 | Byzantine historians (Skylitzes, Psellos, Attaleiates) don't mention Agatha's removal | Silent | Papasidero 2025, pp. 142–146 | C1, G2 (same source) | None | `single source` |
+| X2-06 | Earliest Latin mentions of the removal | Orderic Vitalis, *Historia ecclesiastica* bk V (first half 12th c.); William of Malmesbury, *Gesta regum Anglorum* (c. 1125–35) | Papasidero 2025 (primaries seen cited only) | C1 | None | `single source` |
+| X2-07 | Who received Agatha's relics in Constantinople | Uncertain | Papasidero 2025 ("difficult to say exactly where"; cites Constantine Lascaris, 1434–1501: Empress Theodora put them in a convent of virgins); leads: LiveSicilia (gift to Emperor Michael IV), *Avvenire* 2024 (to Empress Theodora, with Lucy) | C1, C2 | Michael IV vs Theodora; Lascaris is 400 years after the event. Display: leave out, or "the sources don't agree" | `disputed` |
+| X2-08 | Agatha's relics return to Catania | 17 Aug 1126 | Maurice, BHL 139 (1126, Indiction 4, "16 kalends of September" = 17 Aug; opened by B1); Di Giovanni 2007, pp. 180, 183; Archdiocese of Catania 2026 (homily 8 Aug; *La Sicilia* 17 Aug); Papasidero 2025 (17 Aug, under John II Komnenos, r. 1118–43, no year) | B1, B2, C1, C2, G2 | None | `checked` |
+| X2-09 | Years the relics were away | 86 (if 1040); 87 (if 1039) | Leads: Comune di Catania tourism portal ("86 years"), LiveSicilia, LiveUniversity. Arithmetic from X2-03 and X2-08 | C1, C2, G2 | Follows X2-03. Display "86 years" only if the page prints 1040; otherwise "more than 80 years" | `disputed` |
+| X2-10 | Names of the two soldiers who brought the relics back | Gislebertus and Goselinus (Latin) | Maurice, BHL 139 (B1); Papasidero 2025 | B1, C1, C2, B2 | Italian spellings vary in four ways: Gisliberto / Gisilberto, Goselmo / Gonselmo / Goselino (diocese, LiveSicilia, Balarm). Use the Latin, or the diocese's Gisliberto and Goselmo, and note the rest | `checked` |
+| X2-11 | Route of the return | Constantinople → Taranto → Messina → Catania (escorted by Maurice's monks Luca and Holdomanus) | Papasidero 2025; leads: LiveSicilia, NewSicilia ("via Messina and Aci Castello") | C1, B2, C2 | Leads add Aci; not a conflict | `single source` |
+| X2-12 | Quotable: how Catania's clergy met the relics | "nudis pedibus et in albis vestibus" (barefoot and in white robes) | Papasidero 2025 (Latin); Archbishop of Catania, *La Sicilia*, 17 Aug 2026 (Italian, "a piedi nudi e in vesti bianche") | C1, C2 | None. Both quote Maurice's letter; check the Latin against the ALIM text before printing | `checked` |
+| X2-13 | Date and author of the main account | Bishop Maurice (BHL 139); bishop 1122–1143/44; "composed between 1155 and 1169" | Papasidero 2025; lead: NewSicilia (see 1125–1131) | C1, G2, B2 | Papasidero clashes with himself (composition after the bishop's death; perhaps a copy's date). Display: "Bishop Maurice's account (BHL 139)", with no date | `disputed` |
+| X2-14 | Miracles recorded at the returned relics | Blandinus, *Sanctae Agathae miracula* (BHL 140); e.g. a possessed woman from Syracuse healed about 5 years after the return | Papasidero 2025 (primary seen cited) | C1 | None. Belief record | `single source` |
+| X2-15 | Quotable: Agatha's theft was rare | "one of the few female saints whose relics were stolen in the Middle Ages"; also "a furtum designed to transfer the remains to their original place, Catania" | Papasidero 2025 | C1 | None. Attributed quote, so the one opened text is its source | `single source` |
+| X2-16 | Quotable: the archbishop's name for it | "sacro furto" (holy theft) | Archbishop of Catania, *La Sicilia*, 17 Aug 2026 | C2 | Signed "Luigi, Arcivescovo"; G2 gives the surname Renna on other diocesan texts | `single source` |
+| X2-17 | Rival Venetian account: Agatha's body still in Constantinople in 1204 | Crusaders found the bodies of Agatha and Lucy (1204); Agatha's was given to Sicilian pilgrims | Papasidero 2025, citing Andrea Dandolo, *Chronicon Venetum* (edition p. 331, not opened) | C1 | Clashes with Catania's 1126 return. C1 also flags the date of Dandolo's chronicle (its summary said "first half of the 13th c."; C1 notes he is usually dated to the 14th); unresolved | `single source` |
+| X2-18 | Agatha's reliquary bust: maker and date | Giovanni di Bartolo of Siena; 1376 by its inscription ("Mille ter et centum post partum Virginis almae…"); commissioned c. 1371 | Riccioni 2010; Di Natale 2009, pp. 141–143; lead: Comune di Catania tourism (commissioned 1373) | C1, C2, G2 | Venturi read the date as 1371 (Di Natale p. 143); the tourism page says commissioned 1373. Commission (c. 1371) and finished work (1376) are different events. Display "1376" | `checked` |
+| X2-19 | Bust arrived from Avignon | Dec 1377 (a Catanese document) | Riccioni 2010 | C2 | None | `single source` |
+| X2-20 | Text on the tablet the bust holds | "Mentem sanctam spontaneam, honorem Dei et patriae liberationem" | Riccioni 2010 | C2 | The usual liturgical form reads "honorem Deo"; check the printed page. Riccioni suggests the tablet may be later than the bust | `single source` |
+| X2-21 | Agatha's crown a gift of Richard the Lionheart (1191) | No: made in the late 15th c. (by the 1556 inventory at latest) | Di Natale 2009, pp. 145, 149 (quoting Mauceri: "A me sembra che ciò sia da escludersi") | C2 | Popular claim vs scholarship | `myth` |
+| X2-22 | Agatha's gold collar | 42 pieces, by Vincenzo Archifel, delivered 16 Aug 1492 and Feb 1493 | Di Natale 2009, pp. 149–150 (citing the 1521 inventory, "unu cullaro di oro smaltato di peczi quarantadue") | C2 | None | `single source` |
+| X2-23 | What the Catania reliquaries hold | The bust holds most of the relics; two femur reliquaries sit inside a large reliquary chest | Di Natale 2009, p. 153 n. 59; lead: LiveUniversity, 21 Jul 2026 | C2 | Mauceri: "I vari reliquiari fortunatamente esistono", no total. No full list of Agatha's Catania reliquaries in any report | `single source` |
+| X2-24 | Agatha's skull taken out of the bust for veneration | 3 Feb 1963 (Card. Larraona, Mons. Bentivoglio) | Archbishop Renna, greeting, 20 Jul 2026 | G2 | None | `single source` |
+| X2-25 | A pelvis relic sealed in the bust | Yes | Archbishop Renna, *Lettera di comunione* 5/2026 | G2 | None | `single source` |
+| X2-26 | Other Catania reliquaries: limb reliquaries (Limoges work), breast and veil reliquaries (1628), silver casket (1576, about 85 cm × 1 m) | As listed | Comune di Catania tourism portal only | C1, G2 | Tourism page; no scholarly second source | `unverified` |
+| X2-27 | Agatha's veil, size | Dark red silk, about 4 m × 50 cm | Comune di Catania tourism portal only | C1 | None | `unverified` |
+| X2-28 | Belief: Agatha's veil protects Catania from Etna's lava | Devotees hold that the veil is "the instrument of this prodigious intercession" | Univ. of Teramo DHCH, "Saint Agatha and fire" (no citations); Ruiz Jiménez 2025 (abstract); leads: LiveUniversity; Aaron 2015 | C1, C2, B1 | None. Present as what Catanians hold | `checked` |
+| X2-29 | Veil carried in processions during the 1669 eruption | Processions March–July 1669; lava reached Catania 30 Apr 1669 | Ruiz Jiménez 2025 (Zenodo record and abstract); Univ. of Teramo DHCH (1669 lava ran to the sea) | C1 | 30 April is in Ruiz Jiménez only. Open the full record before printing dates | `checked` |
+| X2-30 | Veil shown at Nicolosi and the lava stopped short of the town | 1886, Archbishop Dusmet | Univ. of Teramo DHCH only | C1 | None | `single source` |
+| X2-31 | First use of the veil against lava | 5 Feb 252, first anniversary of the martyrdom | Univ. of Teramo DHCH (no citation); lead: LiveUniversity | C1, C2, B1 | Earliest written record of the 252 story not traced. Present as tradition | `unverified` |
+| X2-32 | Veil against lava in 1190 | Roger of Howden reports it | Aaron 2015, p. 5 (citing Howden; not opened) | B1 | A BA thesis citing a chronicle nobody opened | `unverified` |
+| X2-33 | Legend: the relics came home hidden in quivers instead of arrows | "per tradizione" | Lead: LiveUniversity, 21 Jul 2026 | C2 | Label as legend | `unverified` |
+| X2-34 | Devotees' white *sacco* recalls the nightclothes Catanians ran out in on 17 Aug 1126 | No historical support | Started as one reading reported by Di Giovanni 2007, p. 180. Rejected by Benigno (Teramo): the sack, cap and gloves are "an 18th century creation"; lead LiveSicilia: "non trova alcun riscontro storico" | B1, B2, C2 | Maurice does put the clergy in white (X2-12), so white dress in 1126 is sourced; the nightclothes origin is not | `myth` |
+| X2-35 | Feast of the return | 17 August ("little procession"), beside the 3–5 Feb feast | Di Giovanni 2007, p. 183; Benigno (Teramo) | B1, B2 | None | `checked` |
+| X2-36 | 900th anniversary of the return | 2026 | Archdiocese of Catania 2026 (homily "nono centenario", 8 Aug 2026); EWTN UK (title only) | C2, B1 | Arithmetic from X2-08 holds anyway | `single source` |
+| X2-37 | A breast relic of Agatha is at Galatina (Apulia) today | Yes, "una reliquia della mammella" | Archbishop Renna, *Lettera di comunione* 5/2026; homily 8 Aug 2026 (same author); leads: Comune di Catania tourism, Balarm | C1, C2, G2 | Inveges (1651, quoted by Balarm, not opened) names "San Pietro di Galatina"; today it is in Santa Caterina d'Alessandria's museum. Naming or a move: unsettled | `single source` |
+| X2-38 | The breast relic's path: Gallipoli from Aug 1126, moved to Galatina in 1389 by Raimondello del Balzo Orsini | 1126; 1389 | Archdiocese of Catania homily 2026 (left on the Ionian coast in 1126; Gallipoli later lost it; no 1389); leads: Comune di Catania tourism (Gallipoli 1126–1389), Balarm (1389, Orsini) | C1, C2, G2 | 1389 rests on a tourism page and a magazine | `unverified` |
+| X2-39 | Legend of how the breast was found | (a) lost at Taranto, found by a child (medieval account); (b) found on the beach at Cutrieri on 8 Aug by a little girl who nursed from it | (a) Papasidero 2025; (b) lead: Balarm ("local tradition") | C1, C2, G2 | Two layers of legend, two towns. The archbishop calls the episode "avvolto dalla leggenda" | `single source` |
+| X2-40 | Quotable: a 1651 historian on two breasts in two places | "Una mammella si mostra in Catania e l'altra in San Pietro di Galatina" | Agostino Inveges, *Annali* (1649–51), as quoted by Balarm; book not opened | C2 | None | `unverified` |
+| X2-41 | An Agatha relic in Palermo Cathedral | Yes; Palazzotto: "il suo braccio" (her arm) | Palazzotto 2005, catalogue introduction; Cattedrale di Palermo, Chapel of the Relics page 2025 (names Agatha among the saints there) | C2, G2 | The cathedral page doesn't say which bone; "arm" is Palazzotto's alone | `checked` |
+| X2-42 | Reliquary of Saints Agatha and Lawrence, Cappella Palatina, Palermo | Relics "in una capsula eburnea" at the De Ciocchis visitation of 1741; reworked 1751 by Benedetto Perricone | Di Natale & Vitella 2014, p. 37 | C2 | The tourism page says Palermo's Royal Chapel holds Agatha's ulna and radius (lead) | `single source` |
+| X2-43 | Places outside Catania said to hold Agatha relics | 31: 17 in Italy, 14 abroad in 6 countries (Spain, France, Belgium, Luxembourg, Czech Republic, Germany) | Comune di Catania tourism portal, "The relics" only | C1, G2 | **Workers' tally of one page's list**: C1 counted "17 Italian places + 6 countries", G2 counted 31 places. Spellings "Venalzio", "Hanan", "Breau Preau" unidentified. Not a census | `unverified` |
+
+#### B. Lucy (Syracuse, Venice, Metz)
+
+| Draft ID | Figure / claim (exactly what) | Value used | Sources (title, author/institution, year, page) | Reports that agree | Disagreement | Status |
+|---|---|---|---|---|---|---|
+| X2-44 | Lucy's martyrdom | 13 Dec 304, under Diocletian | Leads only: NLM 2023, History Walks in Venice | C1 | NLM itself calls the accounts of her life "historically unreliable" | `unverified` |
+| X2-45 | Reliability of Lucy's legend | Acts "probably belong to the fifth century" and "cannot be regarded as accurate" | Bridge, *Catholic Encyclopedia* 1910; lead: NLM 2023 | C2 | None | `single source` |
+| X2-46 | Venetian tradition: Maniakes took Lucy's body from Syracuse to Constantinople | 1039 (NLM, *Avvenire*); 1038–39 (History Walks); 1040 (BlogSicilia) | *Avvenire*, June 2024; leads: NLM, History Walks, BlogSicilia | C1, C2 | No primary or scholarly source traced for the Maniakes–Lucy link (C1). The *Catholic Encyclopedia* doesn't mention Maniakes for Lucy | `unverified` |
+| X2-47 | Venetian tradition: Lucy's body was in Constantinople at the 1204 sack and went to Venice | After 1204; first at San Giorgio Maggiore | Papasidero 2025, citing Dandolo; Bridge, *Catholic Encyclopedia* 1910 (the French found "some of the relics" in 1204); Comune di Venezia, 1600 Venezia site | C1, C2 | None on the claim | `checked` |
+| X2-48 | Year Lucy's body reached Venice | 1204 vs 1205 vs 1206 | 1204: Comune di Venezia; Bridge 1910; NLM. 1205: History Walks. 1206 (official *traslatio*): BlogSicilia, citing the Venice sanctuary. The *Cronaca Veniera* gives 1026 (a copyist's slip for 1206, per BlogSicilia) | C1, C2 | 1204 is the city's capture; 1206 the ceremonial translation. Display options: "after 1204", or "1204 (officially translated 1206)" | `disputed` |
+| X2-49 | Lucy moved into a Venetian church of her own after pilgrims drowned (1279) | 18 Jan 1280, to Santa Maria Annunziata, renamed Santa Lucia | Comune di Venezia; leads: NLM ("1279"), History Walks | C1, C2 | NLM gives 1279 for the new church | `single source` |
+| X2-50 | Corpus Domini nuns hid Lucy's body; the state walled up the convent | 1476 | Lead: History Walks only | C1 | None | `unverified` |
+| X2-51 | Lucy's head sent to Bourges | 1513, given by the Venetians to Louis XII; another account has it reach Bourges from Rome | Bridge, *Catholic Encyclopedia* 1910 | C1 | Bridge: "the subsequent history of the relics is not clear." See the tally: Venice also keeps a head | `single source` |
+| X2-52 | Lucy's body moved to San Geremia | 11 July 1860 | Leads: BlogSicilia, NLM ("1860"), History Walks ("1860s"); Wikipedia citing *The Independent* (1861, not opened) | C1, C2 | 1860 / 1860s / 1861. C1 says the prompt's 1863 is in no source | `unverified` |
+| X2-53 | Venice's Santa Lucia church pulled down for the railway station; new chapel at San Geremia | Demolished 1861–63; chapel 1863 | Comune di Venezia | C2 | Fits X2-52: move first, demolition later | `single source` |
+| X2-54 | Silver mask on Lucy's face | 1955, gift of Patriarch Angelo Roncalli | Lead: NLM only | C1 | The mask itself is confirmed by X2-55 | `unverified` |
+| X2-55 | Lucy's body stolen in Venice and recovered | Stolen 7 Nov 1981 (head and mask left); recovered 13 Dec 1981, her feast day (36 days) | Comune di Venezia; leads: NLM ("five weeks"), History Walks; *The Press* 10 Nov 1981 (blocked), *The Independent* (not opened) | C1, C2 | None on the dates | `single source` |
+| X2-56 | Lucy's body visits Syracuse | 2004 (1700th anniversary), 2014, Dec 2024; an agreement with the Patriarchate sets one visit every ten years | *Avvenire*, June 2024; leads: BlogSicilia, NLM, History Walks | C1, C2 | None on the years | `single source` |
+| X2-57 | Dates of the 2024 visit | 14–26 Dec in Syracuse, then Carlentini, Belpasso, Catania; back in Venice 30 Dec | *Avvenire*, June 2024; lead: BlogSicilia 2023 (14–24 Dec) | C2 | *Avvenire* is nearer the event | `single source` |
+| X2-58 | Syracuse's city council asks for Lucy's body back for good; the archdiocese declines politely | 2024 | *Avvenire*, June 2024 | C2 | None. The archdiocese treats the 1039 removal as providential | `single source` |
+| X2-59 | Western tradition: Lucy's body went from Sicily to Corfinium (Duke Faroald of Spoleto), then to St Vincent's, Metz | Recorded by Sigebert of Gembloux (1030–1112), monk at St Vincent's, Metz | Bridge, *Catholic Encyclopedia* 1910 (citing Sigebert's *Sermo*); Krimm-Beumann, *Neue Deutsche Biographie* 24, 2010, pp. 395–397 (Sigebert wrote a verse *Vita* of Lucy at St Vincent's, where she ranked next after the patron) | C1, C2 | Rival to X2-47. No source tests either scientifically | `checked` |
+| X2-60 | Year Lucy reached Metz | 972, under Otto I | Bridge 1910; lead: techno-science.net mirror (St Vincent's dedicated 6 Aug 972 with Lucy's relics) | C1, C2 | C2 writes "970s" | `single source` |
+| X2-61 | An arm of Lucy taken from Metz to Luitburg (diocese of Speyer) | Yes | Bridge 1910 | C1 | None | `single source` |
+| X2-62 | Pope Stephen II sent Lucy's relics to Constantinople | 768 | Benigni, "Syracuse", *Catholic Encyclopedia* 1912, seen cited by Wikipedia only | C1 | A third route story | `unverified` |
+| X2-63 | Other places claiming parts of Lucy | Rome, Naples, Verona, Lisbon, Milan, Germany, France | *The Independent*, 17 Dec 2004, as cited by Wikipedia; not opened | C1 | None | `unverified` |
+| X2-64 | Syracuse's own Lucy relics | A "Festa delle Reliquie" on 13 Jan; relics carried from the niche with her silver statue; **which** relics, and since when, unknown | Lead: Quotidiano di Ragusa, 12 Jan 2026 | C2 | Gap | `unverified` |
+| X2-65 | Number of places claiming Lucy's whole body | At least 2 (Venice and Metz), against Syracuse's original tomb | Built from X2-47 and X2-59 | C1, C2 | **Workers' synthesis** (C1 row 81, C2 row 37), not a figure any source gives. Both parts are checked; label the count as "our count" on the page | `checked` |
+| X2-66 | "Lucy's body is in Syracuse" | No: the body is in Venice, with a rival claim at Metz; Syracuse has the empty burial site, the statue and unnamed relics | *Avvenire* 2024; Comune di Venezia; Bridge 1910 | C2 | Popular claim vs the sources | `myth` |
+
+#### C. Rosalia (Palermo)
+
+| Draft ID | Figure / claim (exactly what) | Value used | Sources (title, author/institution, year, page) | Reports that agree | Disagreement | Status |
+|---|---|---|---|---|---|---|
+| X2-67 | Rosalia's bones found in a cave on Monte Pellegrino | 15 July 1624 | Fagiolo & Colonnese 2022, p. 32; Jay 2021; Bizzarro 2020, fn. 18; Archdiocese of Palermo, *Conta preghiere* 2021; Cattedrale di Palermo "Il miracolo"; Comune di Palermo "Storia del Festino"; Santuario "Breve storia"; Anello 2024 | B1, B2, C1, C2 | None | `checked` |
+| X2-68 | Who guided or made the find | Tradition: a sick woman's vision, Geronima (Girolama) La Gattuta of Ciminna; the Comune adds the sailor Vito Amodeo as finder | Jay 2021 ("La Cattuta"); Comune di Palermo; Santuario; Cattedrale di Palermo; Anello 2024 ("a woman also named Rosalia"); Scalisi 2023, p. 186 (Franciscans led the search, Jesuits joined) | B2, C1, C2 | Spelling (La Cattuta / La Gattuta); Anello's "a woman named Rosalia"; finder vs guide. Jay: the 17th-c. accounts themselves are inconsistent. Display option: "guided, the story goes, by a sick woman's vision" with the name as tradition gives it | `disputed` |
+| X2-69 | La Gattuta's vow climb up the mountain (tradition's date) | 26 May 1624; digging from 29 May | Santuario "Breve storia"; Anello 2024 (dream on 26 May); lead: Balarm | B2, C1, C2 | The Santuario puts her first vision in Oct 1623; the cathedral dates her dream to May 1624. Tradition's dates | `checked` |
+| X2-70 | Rosalia elected patron of Palermo by the Senate | 27 July 1624 (before the bones were authenticated) | Palazzotto 2005, p. 15; Fagiolo & Colonnese 2022, p. 32 ("twelve days later"); Comune di Palermo | B2, C2 | None | `checked` |
+| X2-71 | Palermo's Public Council orders a silver reliquary ark | 27 July 1624 | Jay 2021 | C1 | Same day as X2-70; may be the same session | `single source` |
+| X2-72 | Church commission on the bones set up by Cardinal Giannettino Doria | November 1624 (30 Nov, per the cathedral) | Jay 2021 (Nov 1624); Cattedrale di Palermo (30 Nov 1624) | C1, B2 | Day from the cathedral only | `checked` |
+| X2-73 | Commission headed by the Jesuit Giordano Cascini | Yes | Scalisi 2023, p. 186 | B1, B2 (same source) | Scalisi: Cascini's credibility was questioned among his fellow Jesuits | `single source` |
+| X2-74 | First examiners' verdict on the bones | "the bones of three different men" | Anello 2024 (*L'Osservatore Romano*); Cattedrale di Palermo (doctors puzzled because the remains seemed to come from different people); lead: Balarm (other bones nearby called a novice's, or "di leocorno o di elefanti", of unicorns or elephants) | C1, C2, B2 | "Three men" is Anello's alone; "more than one person" has the cathedral too. Jay says only that a commission was set up | `single source` |
+| X2-75 | Vision of the soap-maker Vincenzo Bonelli (Bonello): Rosalia asks for a procession | Tradition; 4 Feb 1625 (cathedral) | Cattedrale di Palermo "Il miracolo"; Anello 2024 | B2, C1 | Spelling Bonelli / Bonello. **Care:** the cathedral's version has him climbing the mountain meaning to kill himself; frame gently or leave that part out | `checked` |
+| X2-76 | Bones recognised as Rosalia's | February 1625 | Jay 2021; Fagiolo & Colonnese 2022, p. 32; Anello 2024 (11 Feb, Doria's second commission); Cattedrale di Palermo (commission certifies 18 Feb; 22 Feb); Santuario; lead: Balarm (22 Feb) | B2, C1, C2 | The day: 11, 18 or 22 Feb (perhaps verdict, certificate and handover to the Senate). Display "February 1625" | `checked` |
+| X2-77 | Physicians who examined the bones | Geronimo Salato, protomedico Giovan Francesco Fiochetto, Francisco Guerreri | Lead: Balarm only | C2 | None | `unverified` |
+| X2-78 | First procession of Rosalia's relics | 9 June 1625 | Jay 2021; Bizzarro 2020, p. 1; Palazzotto 2018, p. 63; Vatican City State "Saint of the Day"; Cattedrale di Palermo; Comune di Palermo; Santuario; Anello 2024 | B1, B2, C1, C2 | See X2-79 | `checked` |
+| X2-79 | A 1625 printed account of a procession "nel dì 9 di luglio lo anno MDCXXV" | 9 July 1625; the chariot set up 12 July | Fagiolo & Colonnese 2022, p. 47 (title of the print, cited) and text | C2 | May be a second, festive "triumph" rather than a rival date for X2-78 (C2). Needs Paruta 1651 or Petrarca | `single source` |
+| X2-80 | Palermo held the plague beaten by 15 July 1625, one year after the finding, and credits Rosalia | 15 July 1625 | Vatican City State "Saint of the Day"; Santuario; Anello 2024 (zero cases for the first time on 15 July); Bizzarro 2020 ("delivered… between 9 June and 15 July of 1625") | B1, B2, C1 | Present as what the city declared and believes, not as epidemiology. See X2-81 | `checked` |
+| X2-81 | Medical end of the plague | Feb 1626, credited to protomedico Marco Antonio Alaimo | Lead: Balarm only | C2 | Differs from X2-80 by measure (civic declaration vs medical history) | `unverified` |
+| X2-82 | Doria restores free movement | 3 Sept 1625 | Santuario "Breve storia" | B2 | None | `single source` |
+| X2-83 | Plague deaths in Palermo, 1624 | "ten thousand" | Anello 2024 | C1 | Round, unsourced newspaper estimate. C1: don't use without a demographic source | `single source` |
+| X2-84 | A first relic urn of 1625 (without the statuette) | 1625 | Palazzotto 2018, p. 63 (citing Di Natale 1994, Mendola 2001a); Comune di Palermo | B2 | None | `checked` |
+| X2-85 | Rosalia's silver urn in Palermo Cathedral: date and designer | 1631; designed by Mariano Smiriglio | Vitella 2019, p. 101 and n. 11 p. 105; Palazzotto 2005, p. 24 and 2018, p. 63 (one author); Fagiolo & Colonnese 2022, n. 3 p. 33; Archdiocese of Palermo press release, 24 May 2024; Comune di Palermo | B2, C2 | None. No weight found | `checked` |
+| X2-86 | The silversmiths who made the urn | Giuseppe Oliveri, Francesco Rivelo (or Ruvolo), Giancola Viviano, Matteo Lo Castro | Vitella 2019; Archdiocese of Palermo 2024 (names Viviano among "argentieri palermitani") | C2 | Only Viviano has a second source | `single source` |
+| X2-87 | The urn opened | 16 Feb 2024, by Archbishop Corrado Lorefice; inside, the 1631 cotton wadding and Cascini's booklet signed by Doria | Archdiocese of Palermo press release, 24 May 2024 | C2 | None | `single source` |
+| X2-88 | Silver reliquary bust of Rosalia | 1626 | Palazzotto 2005, p. 38 | C2 | None. No maker given | `single source` |
+| X2-89 | Rosalia's prayer-bead counter divided and reunited | 12 beads to the Dominican nuns of Santa Caterina; the cross to don Giuseppe Bonfante; back in the cathedral for 1924; one silver reliquary in 2021 | Archdiocese of Palermo, *Conta preghiere* 2021; lead: BlogSicilia, 14 Jul 2021 | C2 | None. A relic divided and put back together | `single source` |
+| X2-90 | Quotable: Cascini on the beads | "Sembrava una di quelle pallottole che noi portiamo in filza, per dir Padrenostro e Ave Marie" | Cascini, *Di S. Rosalia vergine palermitana* (1651), as quoted by BlogSicilia; book not opened | C2 | Edition not stated | `unverified` |
+| X2-91 | Rosalia relic fragments sent away | To Pope Urban VIII (sent 1626; he "reportedly" wore a tooth on his chest), other Sicilian cities, Italian and European courts; relics to the Antwerp confraternity (Van Dyck, 1629) | Scalisi 2023, pp. 198–199 | B1, B2 (same source) | **No count given** | `single source` |
+| X2-92 | Rosalia had a cult before 1624, though a weak one | "seppur debole" | Palazzotto 2018, p. 61 (citing Collura 1977, Fiume 2002, Cabibbo 2004) | B2 | C1's summary line "no medieval relic history" is a **worker's synthesis**: no report found a relic record before 1624, but no source states it as such | `single source` |
+| X2-93 | William Buckland declared Rosalia's bones a goat's (1825) | Late second-hand anecdote | Started: W. Tuckwell, *Reminiscences of Oxford* (1900), as linked by Switek's blog (2009); neither Tuckwell's passage nor Gordon's *Life* (1894) body text was read. Gordon's ch. IV contents list "Santa Rosalia", so Buckland had some Rosalia episode | C1, C2 | No source backs the "goat" verdict; no one rejects it either. Nothing shows Buckland handled the bones in the cathedral urn. C2: "must not be used without a source" | `myth` |
+| X2-94 | Before Rosalia, Palermo's four main patronesses; two of their reliquaries processed in 1624 | Agatha, Cristina, Ninfa, Oliva; Cristina and Ninfa processed | Petrarca 2008, p. 14 ("due delle quattro patrone principali della città"); Palazzotto 2005 (title: *Sante e Patrone… Agata, Cristina, Ninfa e Oliva*) | B2, C2 | None | `checked` |
+| X2-95 | Saint Ninfa's head comes to Palermo | In Rome (S. Maria in Monticelli) "fin dal 1098"; to Palermo Cathedral 1593 | Palazzotto 2005, introduction | C2 | None | `single source` |
+| X2-96 | Saint Cristina's relics come to Palermo | Part of them brought from Rome 1154–1166; silver urn by Paolo Gili c. 1540 | Palazzotto 2005, pp. 26, 30 | C2 | Palazzotto ties the Gili ark both to Rosalia's chapel and to Cristina, unresolved | `single source` |
+| X2-97 | Reliquaries in Palermo Cathedral's Chapel of the Relics | 17 (6 silver-topped urns, the urn of St Cosmas, 10 carved wooden reliquaries); saints named: Agatha, Nympha, Mary Magdalene, Mamilian, Christina, Eustace, Proculus, Golbodeus, Cosmas | Cattedrale di Palermo, restoration page, c. 6 Mar 2025 | G2 | Palazzotto 2005, p. 17: "molte reliquie", no number. Counts one chapel's reliquaries, not relics | `single source` |
+
+#### D. Messina: the Letter and the Holy Hair
+
+| Draft ID | Figure / claim (exactly what) | Value used | Sources (title, author/institution, year, page) | Reports that agree | Disagreement | Status |
+|---|---|---|---|---|---|---|
+| X2-98 | What the legend says the Letter is | A letter from Mary to the people of Messina, dated "the year of our Son 42… June 3… from Jerusalem", tied with a lock of her hair | Stern Center, Johns Hopkins Sheridan Libraries 2024 (catalogue note on a 17th-c. manuscript); Campagna 2025, p. 38 ("bound by her hair"); lead: Wikipedia IT | B1, B2, G2 | None. It is the legend's content | `checked` |
+| X2-99 | Feast of the Madonna della Lettera | 3 June | Stern Center 2024; Benigno (Teramo); Archdiocese of Messina, *Madonna della Lettera 2026* programme | B1, B2, C2, G2 | Benigno: once a separate feast, later tied to the Assunta | `checked` |
+| X2-100 | When the Letter legend arose | 16th century ("probably invented in the first half of the sixteenth century") | Franceschini 2019, pp. 336–337; Campagna 2025, pp. 38–39 ("the cult stayed embryonic for much of the 16th century") | B1, G2 | None | `checked` |
+| X2-101 | Oldest known text of the Letter | An engraving dated 1522 (the Virgin pleading with Christ to spare Messina from plague), first reproduced 1740 | Campagna 2025, pp. 38–39 and n. 19 | G2 | Not a conflict with X2-102: different things measured | `single source` |
+| X2-102 | Oldest printed Latin text | Francesco Maurolico, 1556 | Franceschini 2019, p. 337 and n. 8 | B1, G2 (same source) | None | `single source` |
+| X2-103 | Oldest manuscript copy | 1599, register of Messina's privileges | Franceschini 2019, p. 337; Campagna 2025, pp. 38–39 | B1, G2 | None | `checked` |
+| X2-104 | Early official uses of the Letter | 1518, gifts to the cathedral's "Holy Licterio" chapel; 1575, the city's jurors cite it to Philip II | Campagna 2025, nn. 18, 20 (Gallo 1877; Simancas, Estado, Sicilia, leg. 1144, doc. 192, seen cited) | G2 | None | `single source` |
+| X2-105 | Rome's Holy Office condemns the Letter as apocryphal | 1598 | Franceschini 2019, p. 337 n. 10 (citing Fantini, p. 526 n. 23, seen cited) | B1, G2 (same source) | None, but only one source opened. Fantini or the Stern Center page would make it two | `single source` |
+| X2-106 | Inchofer's defence of the Letter censured by the Congregation of the Index | Book 1629 (imprint misdated "1619"); corrected edition 1632 | Franceschini 2019, p. 337 n. 11; Stern Center 2024 | B1, G2 | Exact date of the Index decree not given | `checked` |
+| X2-107 | "The Letter was found in Greek and translated by Constantine Lascaris" (Stern Center: 1467, when Lascaris reached Messina) | Supporters' claim, unsupported | Started with the Letter's supporters (Franceschini 2019: "allegedly found" in the 15th c.); rejected by Franceschini's 16th-c. dating and Campagna's 1522 earliest text | B1, G2 | Stern Center gives 1467 as part of the story | `myth` |
+| X2-108 | "The Letter has been venerated since the Middle Ages" | Unsupported; oldest firm date 1522 | Asserted by Ciaramitaro 2005 ("fin dal medioevo", no evidence); rejected by Campagna 2025 and Franceschini 2019 | G2, B1 | None | `myth` |
+| X2-109 | A famine ends and the Senate vows a grander feast | Famine over 3 June 1636 "per prodigio di Nostra Donna della S. Lettera"; vow 30 July 1636 | Ciaramitaro 2005, pp. 21–22 | G2 | None | `single source` |
+| X2-110 | The Holy Hair carried in the 1657 procession | 8-day festival, 26 May–3 June 1657; "il capello della Madonna" on the *vara* at the head of the procession, Archbishop Simone Carafa before it | Ciaramitaro 2005, p. 22 | G2 | None | `single source` |
+| X2-111 | The Holy Hair's reliquary | Gold capsule with champlevé enamel and crystal, 5.5 × 3.5 cm, base 6.4 cm; Sicilian workshop, late 16th to early 17th c. (by style); Messina Cathedral Treasury | ICCD / MiC, catalogue record ICCD14636571 | G2 | Dates the container, not the hair. First record of the hair as a relic: not found | `single source` |
+| X2-112 | The "sacri capelli" enthroned on the silver *vara* | 31 May 2026; feast 3 June 2026 | Archdiocese of Messina, *Madonna della Lettera 2026* programme | C2, G2 (same source) | None. Primary for the diocese's own rite | `single source` |
+| X2-113 | Quotable: inscription on the base of the port's Madonnina | "Vos et ipsam civitatem benedicimus" (We bless you and your city itself) | Benigno (Teramo); lead: Wikipedia IT | B2 | None | `single source` |
+| X2-114 | The only ancient witness to the Letter is the pseudo-Dexter chronicle, a passage Mommsen judged a later interpolation | As stated | Lead: Wikipedia IT only | B2 | None | `unverified` |
+
+#### E. Monreale: Louis IX of France
+
+| Draft ID | Figure / claim (exactly what) | Value used | Sources (title, author/institution, year, page) | Reports that agree | Disagreement | Status |
+|---|---|---|---|---|---|---|
+| X2-115 | Louis IX's entrails buried at Monreale after he died on crusade at Tunis | 1270, on Charles of Anjou's orders | Costa 2023–24, pp. 31–32 and n. 98 (citing Geoffroy de Beaulieu, *Vita*, p. 24, and Le Goff, *San Luigi*, p. 240, seen cited); Minieri 2026 (MEMOs); #SmartEducationUnescoSicilia (Regione Siciliana / MiC), "St. Louis bay"; seen cited: Gaposchkin 2008, pp. 28–29 | C1, C2 | None on the entrails | `checked` |
+| X2-116 | Is Louis IX's heart at Monreale too? | Yes (Geoffroy de Beaulieu, his confessor) vs probably at Saint-Denis with the bones (Le Goff) | Geoffroy as cited by Costa, plus Minieri 2026, the SmartEducation page and a Bridgeman caption (lead): yes. Le Goff as cited by Costa: "è invece più verosimile che il cuore sia stato sepolto assieme alle ossa a Saint-Denis" | C1, C2 | A medieval eyewitness-era source vs a leading modern historian. Display options: "his entrails (and, by one medieval account, his heart)", or "heart and entrails" with a note | `disputed` |
+| X2-117 | Louis IX's bones went to Saint-Denis | Saint-Denis; May 1271 | Costa 2023–24 (Saint-Denis); Gaposchkin 2008 (May 1271, seen cited only) | C1, C2 | The month has no opened source | `single source` |
+| X2-118 | How the body was divided | Bones, entrails and heart "dissected and boiled"; remains split among Carthage, Monreale and France | Minieri 2026 | C2 | None | `single source` |
+| X2-119 | Where the Monreale urn is now (said to be Carthage) | Not settled | No source opened settles it | C1, C2 | — | `unverified` |
+| X2-120 | Louis IX canonized; relics spread by Philip the Fair; a reliquary survives in Bologna | Canonized 1297; Bologna reliquary c. 1297–1305 (San Domenico) | ICCD / MiC record ICCD2526949 | C2 | Not Sicilian. Lucherini 2014 ("Smembrare il corpo del re e moltiplicare le reliquie") blocked by a bot check | `single source` |
+
+#### F. Church law on relics
+
+| Draft ID | Figure / claim (exactly what) | Value used | Sources (title, author/institution, year, page) | Reports that agree | Disagreement | Status |
+|---|---|---|---|---|---|---|
+| X2-121 | Canon law bans selling relics | "It is absolutely forbidden to sell sacred relics." | *Code of Canon Law* (1983), can. 1190 §1, Holy See; 2017 Instruction, Art. 25 (cites it); *Avvenire* (Lenzi), 15 Dec 2017 | C1, C2 | None | `checked` |
+| X2-122 | Significant relics can't be given away or moved for good without Rome | "Relics of great significance and other relics honored with great reverence by the people cannot be alienated validly in any manner or transferred permanently without the permission of the Apostolic See." | *Code of Canon Law* (1983), can. 1190 §2 | C1, C2 (same source) | None. §3 extends it to much-honoured images | `single source` |
+| X2-123 | Relics under fixed altars | "The ancient tradition of placing relics of martyrs or other saints under a fixed altar is to be preserved" | *Code of Canon Law* (1983), can. 1237 §2 | C1 | None. **Don't** turn this into a count of churches with relics: it states a custom to keep, not that every altar has one | `single source` |
+| X2-124 | Whom one may venerate publicly | Only those Church authority lists among the saints or blessed | *Code of Canon Law* (1983), can. 1187 | C1, C2 (same source) | None | `single source` |
+| X2-125 | The 2017 Vatican Instruction on relics: date and signers | *Relics in the Church: Authenticity and Conservation*, Congregation for the Causes of Saints, 8 Dec 2017 (approved 5 Dec; signed Card. Angelo Amato and Abp Marcello Bartolucci; in *L'Osservatore Romano* 17 Dec 2017) | The Instruction (EN and IT, Holy See); Vatican News (Lomonaco), 16 Dec 2017; *Avvenire* (Lenzi), 15 Dec 2017 | C1, C2 | C1 gives the English title as "…and Conservation", C2 as "…and Preservation" | `checked` |
+| X2-126 | The Church's current categories of relics | Two: **significant** (*insigni*: the body, notable parts of it, or all the ashes) and **non-significant** (*non insigni*: small fragments, or objects in direct contact with the saint) | The 2017 Instruction, Introduction (EN and IT) | C1, C2 (same source) | None. The primary text is the authority for its own categories | `single source` |
+| X2-127 | Trade and sale of relics banned | Art. 25: trade (swapping a relic for goods or money) and sale "are absolutely prohibited", and so is showing relics in profane or unauthorised places | The 2017 Instruction, Art. 25; *Avvenire*, 15 Dec 2017; Vatican News, 16 Dec 2017 | C1, C2 | None | `checked` |
+| X2-128 | Dividing a saint's body | Art. 24: dismembering a body isn't allowed unless the bishop has the Congregation's consent to make significant relics; Art. 21 §1: small fragments only at a canonical recognition, for set reasons | The 2017 Instruction, Arts. 21, 24; *Avvenire*, 15 Dec 2017 ("non è consentito lo smembramento del corpo") | C2 | None | `checked` |
+| X2-129 | Relics can't be displayed without a certificate of authenticity | As stated | The 2017 Instruction, Introduction | C1 | None | `single source` |
+| X2-130 | The 2017 Instruction replaces the appendix of *Sanctorum Mater* (2007) | As stated | Vatican News, 16 Dec 2017; *Avvenire*, 15 Dec 2017 | C2 | None | `checked` |
+| X2-131 | Eastern Churches' code has the same ban | CCEO can. 888 §1 | The 2017 Instruction, n. 4 | C2 | None | `single source` |
+| X2-132 | "Relics come in first, second and third class, by Church law" | Not in the current Church text | Rejected by omission: the 2017 Instruction uses only *insigni* / *non insigni* (opened in EN and IT by C1 and C2). Who started the three-class scheme: **not traced** in any report | C1, C2 | It is a common devotional scheme; source it separately before saying anything about its origin | `myth` |
+| X2-133 | Fourth Lateran Council on relics | 1215, c. 62: old relics not "exhibited outside of a vessel or exposed for sale"; new relics need the pope's approval; prelates mustn't let pilgrims be deceived by worthless relics or false documents | Fourth Lateran Council, tr. Schroeder, *Disciplinary Decrees of the General Councils* (1937), via Fordham Internet Medieval Sourcebook | C1 | The web page doesn't number the canon; 62 is its standard number | `single source` |
+| X2-134 | Council of Trent on relics | Session 25, Dec 1563: saints' bodies "are to be venerated"; "every superstition shall be removed, all filthy lucre be abolished"; no new relics recognised unless the bishop has taken cognizance | Council of Trent, tr. Waterworth (1848), pp. 233–236, via Hanover College | C1 | The web text has OCR errors; check wording against print | `single source` |
+| X2-135 | Roman law against trading in relics | Theodosian Code: "Nemo martyrem mercetur" (let no one trade in a martyr) | Thurston, "Relics", *Catholic Encyclopedia* 1911 (Code not opened) | C1 | None | `single source` |
+| X2-136 | Quotable: a Jesuit scholar on fake relics | Many relics in great sanctuaries "must now be pronounced to be either spurious or open to grave suspicion"; he blames partly "the custom of making facsimiles and imitations" | Thurston, *Catholic Encyclopedia* 1911 | C1 | None. Attributed quote | `single source` |
+
+#### G. Calvin and the critics
+
+| Draft ID | Figure / claim (exactly what) | Value used | Sources (title, author/institution, year, page) | Reports that agree | Disagreement | Status |
+|---|---|---|---|---|---|---|
+| X2-137 | Year of Calvin's *Treatise on Relics* | 1543 | Mellet, Musée protestant (using Backus's critical edition, 2000); Autin (ed.), *Traité des reliques* (1921), introduction; Schaff, *History of the Christian Church* vol. VIII, §122 | C1, C2 | Cambridge UL's exhibition page says 1553; C1 reads it as a slip against the critical edition | `checked` |
+| X2-138 | First edition's printer and size | Geneva, Jean Girard; small octavo, 110 numbered pages | Autin 1921, introduction | C2 | None | `single source` |
+| X2-139 | Calvin's full French title | Begins *Advertissement très utile du grand proffit qui reviendroit à la Chrestienté s'il se faisoit inventoire de tous les corps sainctz et reliques…* | Autin 1921 / Mellet (C2 doesn't say which gave the French) | C2 | French wording not checked against a scan | `single source` |
+| X2-140 | Calvin on the True Cross | The pieces would make a ship's load: "la charge d'un bon grand bateau" (French, as quoted by Autin p. 43); "inough to fraighte a great ship" (Withers tr., 1561); "a whole ship's cargo" (Krasinski tr.); "a good shipload" (Schaff) | Calvin, *Treatise*, Krasinski tr., CCEL; Cambridge UL *Reformation* exhibition (Withers 1561, CUL Syn.8.56.20); Autin 1921; Schaff §122 | C1, C2 | Wording differs by translation: pick one and cite that translation | `checked` |
+| X2-141 | Calvin on duplicate bodies | "every apostle had more than four bodies", and "each saint at least two or three" | Calvin, *Treatise*, Krasinski tr., CCEL; Schaff §122 (summary) | C1, C2 | None | `checked` |
+| X2-142 | Calvin's count of the nails of the Cross | 14 ("That makes a total of fourteen.") | Mellet, Musée protestant (Backus ed.) | C1, C2 | None. Calvin's own satirical tally | `single source` |
+| X2-143 | Calvin's count of Christ's foreskins | 3 | Mellet, Musée protestant | C2 | None | `single source` |
+| X2-144 | "Tel saint, deux corps ; tel autre, trois têtes"; "Le Lazare n'a que trois corps" (Lazarus has only three bodies) | As quoted | Autin 1921, introduction p. 42 | C2 | May be Autin's paraphrase, not Calvin's words; check the main text | `unverified` |
+| X2-145 | "Calvin counted a dozen heads of John the Baptist" | It's the 19th-c. translator's tally, not Calvin's | Started: Valerian Krasinski's translator's note (fn. 146) to the *Treatise*, CCEL: "about a dozen whole heads of St John the Baptist". Calvin's own text: "the whole and real head of St John the Baptist will be shown to us". Rejected (as attribution) by reading Calvin's text (C1) | C1 | Attribute it to the translator, or don't use it | `myth` |
+| X2-146 | St James's four bodies (incl. Verona and Toulouse) | 4 | Krasinski's notes to the *Treatise*, CCEL | C1 | Translator's tally | `single source` |
+| X2-147 | Calvin names no Sicilian relic | No Lucy, Agatha, Rosalia, Sicily, Syracuse, Catania or Messina found | Machine search of the CCEL text (C1); C2 read only Autin's introduction and summaries | C1, C2 | C1 asks for one human check. Don't print "Calvin never mentions Sicily" until then | `unverified` |
+
+#### H. Counts of reliquaries
+
+| Draft ID | Figure / claim (exactly what) | Value used | Sources (title, author/institution, year, page) | Reports that agree | Disagreement | Status |
+|---|---|---|---|---|---|---|
+| X2-148 | Number of reliquaries, or of churches holding relics, in Sicily or any Sicilian diocese | **None found** | Tried: BeWeB (CEI) failed to load three times (G2); BeWeB inventories page: "more than half" of dioceses have finished their surveys. Not opened: Sciortino in *Sacra et Pretiosa* 2019 (Monreale); the De Ciocchis visitation of 1741; ICCD/SIGECweb search by "reliquiario" | C1, C2, G2 | A BeWeB count would be "catalogued objects so far", not all relics | `unverified` |
+| X2-149 | Named Agatha reliquaries in Catania | At least 3 (the bust and two femur reliquaries) | Di Natale 2009 (p. 153 n. 59; Mauceri's "vari reliquiari", no total); lead: LiveUniversity 2026 | C2 | **Worker's synthesis** (C2), a floor, not a total | `single source` |
+
+### The fingerbone tally
+
+Every case in the reports where more than one place claims the same relic (same body part of the same saint), or
+where a body part is spread over several places. "X2 synthesis" means I put two reported facts side by side; no
+source makes the comparison.
+
+| # | Relic | Claimants (place, since when) | Draft IDs | Status | Whose count |
+|---|---|---|---|---|---|
+| T1 | **Lucy's whole body** | (1) Venice: in Constantinople by 1204, Venice after 1204, San Geremia since 1860; (2) Metz, St Vincent's: from Corfinium, 972 (Sigebert's tradition). Syracuse, the original tomb, has no permanent body; the body visits about every ten years | X2-47, X2-59, X2-60, X2-65 | Both claims `checked` as claims; Metz's year `single source` | "At least 2" is the workers' synthesis (C1, C2) |
+| T2 | **Lucy's head** | (1) Venice: the 1981 thieves took everything but the head and its silver mask (Comune di Venezia); (2) Bourges Cathedral: given by the Venetians to Louis XII in 1513, or arrived from Rome (*Catholic Encyclopedia* 1910) | X2-51, X2-55 | Each `single source` | **X2 synthesis**: no report frames this as a double claim |
+| T3 | **Agatha's whole body, 1126–1204** | (1) Catania: home on 17 Aug 1126 (Maurice); (2) Andrea Dandolo's Venetian chronicle: crusaders found Agatha's body in Constantinople in 1204 and gave it to Sicilian pilgrims (via Papasidero) | X2-08, X2-17 | Catania `checked`; Dandolo `single source` | X2 synthesis (a rival chronicle, not a rival shrine today) |
+| T4 | **Agatha's breasts** | Catania: breast reliquary of 1628 (tourism page); Galatina: a breast relic today (archdiocese 2026), at Gallipoli from 1126 and Galatina from 1389 (tourism page, Balarm); Inveges 1651: "one breast is shown in Catania and the other in San Pietro di Galatina" (quoted, not opened) | X2-26, X2-37, X2-38, X2-40 | Galatina `single source`; Catania and the dates `unverified` | Two breasts, two places: **no excess**. The arithmetic works |
+| T5 | **Agatha's arms** | Catania: limb reliquaries with arms (tourism page); Palermo Cathedral: "her arm" (Palazzotto 2005); Palermo, Cappella Palatina: ulna and radius (tourism page), in an Agatha-and-Lawrence reliquary recorded 1741 (Di Natale & Vitella 2014); Messina, SS. Salvatore: an arm bone (tourism page); Alì: part of an arm bone (tourism page) | X2-26, X2-41, X2-42, X2-43 | Palermo Cathedral `checked` (an Agatha relic; "arm" from Palazzotto only); the rest `single source` or `unverified` | **X2 synthesis**: up to 5 places hold arm material for 2 arms. No source lists which bones, so this is **not** proof of excess: one arm has three long bones, and partial bones can be split |
+| T6 | **Agatha's femurs** | Catania: two femur reliquaries in a large chest | X2-23 | `single source` | Two femurs, two reliquaries: no excess |
+| T7 | **Agatha's finger** | Sant'Agata de' Goti: a finger (tourism page). No second finger claim anywhere in the reports | X2-43 | `unverified` | — |
+| T8 | **Agatha's veil** | Catania: the veil, about 4 m (tourism page); Rome: veil fragments in "several churches" (tourism page) | X2-27, X2-43 | `unverified` | Fragments of one veil, not rival whole veils |
+| T9 | **Agatha in general** | 31 places outside Catania (17 in Italy, 14 abroad in 6 countries) | X2-43 | `unverified` | **Workers' tally** (C1, G2) of one tourism page's list |
+| T10 | **Louis IX's heart** | Monreale, with the entrails (Geoffroy de Beaulieu, as cited) vs Saint-Denis, with the bones (Le Goff, as cited) | X2-116 | `disputed` | — |
+| T11 | **Louis IX's entrails** | Monreale since 1270 (`checked`); the urn is said to be at Carthage now (unsettled) | X2-115, X2-119 | `checked` / `unverified` | — |
+| T12 | **Rosalia's prayer beads** | 12 beads to the Dominican nuns of Santa Caterina, the cross to don Giuseppe Bonfante; reunited in one reliquary in 2021 | X2-89 | `single source` | A division, not a duplicate |
+| T13 | **Rosalia's bones** | Fragments to Urban VIII (a tooth), other Sicilian cities, courts, Antwerp | X2-91 | `single source` | No count in any source |
+| T14 | **Calvin's tallies (not Sicilian; context for the joke)** | True Cross: a shipload; nails: 14; foreskins of Christ: 3; every apostle: more than 4 bodies; each saint: 2 or 3 bodies. Not Calvin's: "about a dozen" heads of John the Baptist and St James's 4 bodies (translator Krasinski's notes); "Lazarus has only three bodies" (Autin, maybe paraphrase) | X2-140 to X2-146 | Mixed: see rows | Calvin's own satirical counts; translator's counts flagged |
+| T15 | **Ninfa's head; Cristina's relics** | Ninfa's head: Rome from 1098, Palermo from 1593 (a move). Cristina: "part" of her relics came from Rome 1154–66; where the rest is, no report says | X2-95, X2-96 | `single source` | Transfers, not duplicates |
+
+**What the tally can honestly say.** The reports contain **no** case of two places claiming the same finger. The
+strongest same-part double claims are Lucy's body (Venice and Metz) and Lucy's head (Venice and Bourges, X2
+synthesis), with Louis IX's heart disputed between Monreale and Saint-Denis. Agatha is the "spread" story (pieces said
+to be in 31 places beyond Catania, per one tourism page) more than a "duplicate" story: where the parts can be
+counted (breasts, femurs), the numbers add up. No reliquary count exists for Sicily or any diocese (X2-148); the only
+counted figure is one chapel in Palermo Cathedral, 17 reliquaries, from the cathedral's own page (X2-97).
+
+Myth-check summary and full source key: `research/xcheck/X2.md`.
+
+## Part X3: the Inquisition, healers, evil eye; Sicily and Latin America
+
+### Table
+
+#### A. The Inquisition in Sicily: dates and places
+
+| Draft ID | Figure / claim (exactly what) | Value used | Sources (title, author/institution, year, page) | Reports that agree | Disagreement | Status |
+|---|---|---|---|---|---|---|
+| X3-01 | First Spanish inquisitor for Sicily appointed (Fray Antonio de la Peña, named by Torquemada) | 1487 | Lea, *The Inquisition in the Spanish Dependencies*, 1908, ch. I "Sicily"; Torres Arce, "Un palacio para la Inquisición de Palermo", *Investigaciones Históricas* 38, 2018, p. 12; Sciuti Russi, "La Inquisición española en Sicilia", *Studia Historica HM* 26, 2004, §§1, 3; Ruiz Rodríguez, "La Inquisición siciliana", *Revista de la Inquisición* 9, 2000, p. 102; Fiume, "Strepitus silentii", *Giornale di storia* 24, 2017, p. 2 | E1, E2, D2, G3 | Lea says "about 1487". Ruiz Rodríguez says the Dominicans named in 1487 were "largely inactive" | `checked` |
+| X3-02 | First auto de fe in Sicily | 18 Aug 1487 | Lea 1908, ch. I | E1 | — | `single source` |
+| X3-03 | Papal act (Innocent VIII) giving the Spanish Inquisition authority that covered Sicily | 24 Mar 1486 | Geremia, "The *Donna de Fora*", *Religions* 15(2):161, 2024, n. 3; La Motta, "L'Inquisizione in Sicilia", *Ereticopedia*, c. 2016 | D1, D2, A1, A2, G3 | Not independent: Geremia's note cites La Motta 2015/2019 (and Rivero Rodríguez 2010, not opened). Print 1487 (X3-01) as the start | `single source` |
+| X3-04 | Tribunal working as a stable court in Palermo | from 1500 | La Motta, *Ereticopedia* (her 2015 thesis); Sciuti Russi 2004 ("se estabiliza en 1500"); Geremia 2024, n. 3; Fiume 2017, p. 2 ("steadily from 1500") | D1, D2, A1, G3 | The Teramo project page gives "working c. 1500, stable and definitive from 1543" (X3-06) | `checked` |
+| X3-05 | Day of the decree that set up the district tribunal (inquisitors Rinaldo Montoro and Giovanni Sgalambro) | 8 Nov 1500 | La Motta, *Ereticopedia* | D2, G3 | — | `single source` |
+| X3-06 | First attempt to set up the tribunal; tribunal permanent | 1483; 1543 | "Opponents of the Sicilian Holy Office", Digital History and Cultural Heritage, Università di Teramo (no author) | E1 | Counts different steps from X3-01/04 | `single source` |
+| X3-07 | Riot in Palermo after which the tribunal was driven out for "unos tres años" (about three years) | 1516 | Ruiz Rodríguez 2000, p. 104 | G3 | Geremia 2024 uses "1516–1782" as the span of her documents and doesn't explain it (D1) | `single source` |
+| X3-08 | Medieval papal inquisitors in Sicily before the Spanish tribunal | from 1252; 52 of them by 1500 | La Motta, *Ereticopedia* | D2 | — | `single source` |
+| X3-09 | Inquisition abolished in Sicily, by Ferdinand IV's decree at viceroy Domenico Caracciolo's request | 16 Mar 1782 | Lea 1908, ch. I; Geremia 2024, n. 1; La Motta, *Ereticopedia*; Sciuti Russi 2004; Bazzano, *Ebrei, conversos e Inquisizione nella Sicilia spagnola*, p. 91 (citing Renda 2010) | D1, D2, E1, E2, A1, A2, G3 | Geremia: the decree formalized the viceroy's decision of four days earlier | `checked` |
+| X3-10 | Year the tribunal's archive was burned | 1783 | Geremia 2024, n. 1 (citing Rodríguez 2010, pp. 1422–23); La Motta, *Ereticopedia* ("un anno dopo, nel 1783"); Bazzano, p. 91 (citing Renda 2010); Liberti, *Internazionale/L'Essenziale*, 2 Dec 2022 | D1, D2, A1, G3 | Henningsen, "El vuelo de las brujas", *Príncipe de Viana* 278, 2020, p. 1064: "burned in 1782" (citing his 1986 work, p. 58). G3: he folds the burning into the abolition year | `checked` |
+| X3-11 | Day of the order to burn the archive | 27 Jun 1783 | Geremia 2024, n. 1 | D1, D2, A1, G3 | — | `single source` |
+| X3-12 | An earlier fire in the tribunal's archive | 2 Jan 1590 | Fiume 2017, p. 3 | D2 | — | `single source` |
+| X3-13 | Tribunal seated in Palazzo Chiaromonte, the Steri, Palermo | 1601–1782 | Università di Palermo, "Steri – Palazzo Chiaromonte – Info" ("tra 1601 e il 1782"); Torres Arce 2018, p. 39 ("a finales de julio de 1601"); La Motta, *Ereticopedia*; Liberti 2022 | E2, D2 | Fiume 2017 gives a royal order of 1600 and formal possession on 23 Jul 1605 (X3-14): different steps | `checked` |
+| X3-14 | Royal order for the Steri; formal possession | 1600; 23 Jul 1605 | Fiume 2017, pp. 3–4, n. 21 | D2 | See X3-13 | `single source` |
+| X3-15 | Earlier seats of the tribunal | Castillo de San Pedro 1512; Castello a mare 1552–53 | Torres Arce 2018, pp. 15, 23 | E2 | — | `single source` |
+| X3-16 | Secret prisons in the Steri built | lower floor by 1610; upper floor 1630–31 | Fiume 2017, pp. 4–5 | D2 | — | `single source` |
+| X3-17 | Oldest dated prison graffito | "1606 servo di Maria" | Fiume 2017, p. 5 | D2 | — | `single source` |
+| X3-18 | Pitrè uncovered the prison graffiti; six months removing whitewash; his phrase "una vera generazione scomparsa" ("a whole vanished generation", DRAFT) | 1906 | Fiume 2017, p. 1 (Pitrè, *Del Sant'Uffizio a Palermo e di un carcere di esso*, 1940, not opened) | D2 | Liberti 2022 quotes another Pitrè phrase, "palinsesti del carcere", without the date | `single source` |
+| X3-19 | Rooms covered in prisoners' drawings | 14 | Liberti 2022 (journalism) | D2 | — | `single source` |
+| X3-20 | Women's prison for convicted *magare* (witches) | planned 1650; 1658 complex of 10 cells plus 10 on the raised floor | Fiume 2017, p. 6 | D2 | — | `single source` |
+| X3-21 | The only graffito Fiume securely attributes to a woman | "Piange la misera perché il luogo è di pianto" ("The wretched woman weeps, for this is a place of weeping", DRAFT) | Fiume 2017, p. 5 | D2 | — | `single source` (quote verified) |
+| X3-22 | Lay "familiars" (informers) of the tribunal | 251 in 1561; 1,572 in 1577, in 173 of 180 towns | La Motta, *Ereticopedia* | D2 | — | `single source` |
+| X3-23 | Luis de Páramo, inquisitor of Sicily | 1586–1608 | Henningsen, "La Inquisición y las brujas", *eHumanista* 26, 2014, p. 138 n. 14 (citing Renda 1997, p. 235) | D2 | — | `single source` |
+
+#### B. How many were tried, for what, and how many died
+
+| Draft ID | Figure / claim (exactly what) | Value used | Sources (title, author/institution, year, page) | Reports that agree | Disagreement | Status |
+|---|---|---|---|---|---|---|
+| X3-24 | People tried by the Sicilian tribunal over its life (rounded range) | about 6,000 to 7,000 | Renda, *L'Inquisizione in Sicilia*, Sellerio, 1997, p. 203 (7,161, via La Motta); Messana's trial database, "più di seimila" (via Fiume 2017, p. 8, opened; Basile, review of Messana 2012, "circa 6000", opened) | D2, G3 | Different spans and units (people vs trials); two independent counting projects | `checked` (as a range) |
+| X3-25 | People tried, whole life 1487–1782, including about 2,110 Judaizers | 7,161 | Renda 1997, p. 203, as quoted by La Motta, *Ereticopedia* | D2, G3 | Renda's 13 categories, as La Motta lists them, add up to 6,766, not 7,161; the gap is unexplained (D2) | `single source` |
+| X3-26 | Trials in Messana's database, 1500–1782 | "more than 6,000" (6,393 in one blog; "up to 6,500" on the publisher's page) | Messana, via Fiume 2017, p. 8; Basile review; Moca, *Il Foglio*, 8 Apr 2022; Sellerio catalogue 2022; *Le Ali di Ermes*, 2026 (6,393, popular) | D2, G3 | All carriers of one database. 6,393 only in a blog | `single source` |
+| X3-27 | Cases in the surviving *relaciones de causas* (annual reports to Madrid) for Sicily | 3,188 | Contreras & Henningsen, "Forty-Four Thousand Cases", 1986, pp. 100–129, as cited by Sciuti Russi 2004, §8 (opened) and Karlikowski, *Ereticopedia* (opened) | D1, D2, G3 | Period: "1540–1700" (D1, D2) vs Sicily "1547–1701" (G3, Sciuti Russi). One original count | `single source` |
+| X3-28 | Henningsen's recount of the *relaciones*; estimated total if the lost years are filled in | 4,057 reported; est. 6,302 (6,426 before correction); reports survive for 101 or 103 of 160 years | Henningsen, "The Database of the Spanish Inquisition", 1993, pp. 43–85 (tables pp. 83–84), via Karlikowski, *Ereticopedia* | D1, D2, G3 | **Estimate** | `single source` |
+| X3-29 | Sciuti Russi's estimate of all trials | "supera la cifra de 5000" (more than 5,000) | Sciuti Russi 2004, §8 | G3 | — | `single source` |
+| X3-30 | Executions in person, all charges, 1540–1700 | 25 (plus 25 in effigy) or 52 | 25: Contreras & Henningsen 1986 via Karlikowski; Sciuti Russi 2004, §8 ("0.8% of 3,188"; "about 50 in all, half in effigy"). 52: Monter, *Frontiers of Heresy*, CUP, 1990, pp. 326–327, via Karlikowski | D1, D2, G3 | 25 counts only the surviving reports; 52 adds other documents. Neither is for magic. Display: "25 to 52", or "a few dozen" with a note | `disputed` |
+| X3-31 | Executions before 1540 (mostly people accused of secretly keeping Jewish practice) | 207 in person and 257 in effigy; or "more than seventy" for 1511–Jan 1516; or 440 relaxed 1511–1546 / 340 burnings | Del Col, *L'Inquisizione in Italia*, 2006, p. 243 (cited only); Ruiz Rodríguez 2000, p. 104; Sciuti Russi 2004, §§3, 7 (the article gives both 440 and 340) | D1, D2, G3 | Different spans; Sciuti Russi contradicts himself. Display: "hundreds in the first decades" with a note, or leave out | `disputed` |
+| X3-32 | "At least 284 burned" over the tribunal's life | — | Liberti 2022 (journalism, no source given) | D2 | — | `unverified` |
+| X3-33 | People charged with magic and witchcraft (rounded) | about 900 to 1,000 | Renda 1997, p. 203: 921 people (via La Motta; also Fiume 2017, p. 11, "921 negromanti e streghe"); Messana 2007: 976 witchcraft causes (via Fiume 2017, n. 36; Profeta, "Le streghe di Isnello", *Mediterranea ricerche storiche* XXI, 2024, p. 111, "poco meno di mille") | D2, G3 | People (Renda) vs causes (Messana); within about 6% | `checked` (as "about 1,000") |
+| X3-34 | Magic defendants by sex | 427 men, 494 women | La Motta, *Ereticopedia*: the sentence carries no citation (may be Messana's, not Renda's) | D2, G3 | G3: don't use | `unverified` |
+| X3-35 | Outcomes of Messana's 976 witchcraft causes | 565 acquitted, 96 *penitenziati*, 23 *riconciliati*, 2 handed to the secular arm (for execution) | Messana 2007, p. 290, via Fiume 2017, n. 36; Profeta 2024, p. 111 ("quasi seicento assolti", citing Messana pp. 162–171) | D2, G3 | The four outcomes add to 686; the rest are other or unknown | `single source` |
+| X3-36 | Executions for witchcraft by the Sicilian tribunal | almost none: no woman executed as a witch; two men handed over in nearly three centuries | Messana 2007 (via Fiume 2017, n. 36, and Profeta 2024, p. 111); Henningsen 2014, p. 138 n. 14 (citing Renda 1997, p. 414): "no conocemos ni una quema de brujas correspondiente a este tribunal" ("we know of not a single burning of witches by this tribunal", DRAFT) | D1, D2, G3 | "Two handed over" vs "no burning known" fit if the two were not burned for witchcraft; the sources don't say. The exact "two men" rests on Messana alone | `checked` (as "almost none") |
+| X3-37 | Magic charges by kind, Messana 2012 | healing 163; *sortilegio* 105; fortune-telling 89; death spells 75; contact with the dead 77; treasure-hunting 70; love spells 64 (total 643) | Basile, review of Messana, *Il Santo Ufficio dell'Inquisizione. Sicilia 1500-1782*, 2012 | G3 | Doesn't add up to 976; don't sum. Healing is the largest group | `single source` |
+| X3-38 | Magic cases 1547–1701, none executed | 456 | *Bartered History* blog, 2017, attributed to Henningsen 1990 without a page | D1, D2, G3 | G3: don't use | `unverified` |
+| X3-39 | Magic practitioners first appear in Sicilian inquisition sources | 1530s | Messana, quoted in *Le Ali di Ermes*, 2026 (popular) | D2 | — | `unverified` |
+| X3-40 | Inquisitors' letter of 26 Apr 1652: culprits in public autos; their offences | 207; "mostly blasphemy, bigamy and sorcery" | Lea 1908, ch. I (quoting the letter) | E1 | The inquisitors' own claim, not an audit | `single source` |
+| X3-41 | Prisoners found at the 1782 suppression | 3, all "women accused of witchcraft"; after 1746 autos mostly involved women accused of sorcery | Lea 1908, ch. I | E1 | — | `single source` |
+| X3-42 | Magic and witchcraft trials in early modern Italy (all states) | 22,000–33,000, "a very low rate of capital sentences" | Duni 2020, p. 85, as cited by Valente, *Religions* 14:610, 2023, p. 5, and Lovison, *Giornale di storia* 43, 2023, p. 11 | D2 | **Estimate**; one original | `single source` |
+| X3-43 | Witchcraft executions by Inquisition tribunals; share of all executions in those lands | Spain 59, Italy 36, Portugal 4; "menos de cien" of about 1,300; about 20,000 magic and superstition causes | Henningsen 2014, pp. 139–142 and n. 24 | D2 | **Estimate** | `single source` |
+| X3-44 | Witchcraft death sentences in the Counter-Reformation Italian states (Roman Inquisition, not Sicily's Spanish tribunal) | 8 | Kallestrup, *Historisk Tidsskrift*, pp. 283–305, n. 3 | A1 (outside my reports; listed because it is Q6 context) | Don't merge with Sicily's figures | `single source` |
+| X3-45 | Witchcraft trials across Spain's tribunals, 1610–1700 | more than 5,000 (doubling 2,520 counted) | Henningsen 2020, p. 1060 and n. 3 | D1 | **Estimate**, all Spanish tribunals | `single source` |
+
+#### C. The *donne di fuora* ("ladies from outside")
+
+| Draft ID | Figure / claim (exactly what) | Value used | Sources (title, author/institution, year, page) | Reports that agree | Disagreement | Status |
+|---|---|---|---|---|---|---|
+| X3-46 | How many *donne di fuora* are in the records | 65, 77 or 193 | **65 people, 8 men, 1579–1651** (defendants in the surviving *relaciones*): Gijswijt-Hofstra, Levack & Porter, *Witchcraft and Magic in Europe*, Athlone, 1999, p. 140 (cited only, via Wikipedia); *All About History*, Mar 2018 (popular, no source); *Bartered History* blog ("65 of 456"). **77** (Messana's charge category "contact with the dead", 1500–1782): Basile review (opened); Geremia 2024, p. 4 (citing Messana 2007, p. 75), who reads them as *donne de fora*. **193** "ladies from outside": Geremia 2024, p. 3, reading Henningsen 1990 with no page | D1, D2, A1, A2, G3 | Each counts something different: defendants, a charge category, or (perhaps) every woman named, companions included. A1 adds that Geremia notes the *relaciones* cover all the Spanish Empire's tribunals. Display options: "dozens were tried"; or "one count of the surviving reports finds 65, eight of them men, 1579–1651 (as cited)"; or a range with a note | `disputed` |
+| X3-47 | "70 trials" of *donne di fuora* | — | D1 took it from a blog; G3 re-read the blog and it gives 65 and 456, not 70. The only "70" found is Messana's treasure-hunting count (X3-37) | D1 | Drop it | `unverified` |
+| X3-48 | Earliest Sicilian mention: a mid-15th-century *Confessionale* asking penitents whether they believe in *donne di fuora* and werewolves | c. 1450 | Geremia 2024, p. 2 (via Pitrè; edition Branciforti, *Regole, confessionali e rituali*, 1973) | D2, A1, A2 | — | `single source` |
+| X3-49 | Pitrè's definition: "something of a fairy and something of a witch although, one cannot really distinguish which is which" | quote | Pitrè, *Usi e costumi, credenze e pregiudizi del popolo siciliano*, vol. IV, 1889, p. 163, as quoted (in English) by Geremia 2024, p. 2 | D1, D2, A2 | Page 163 (Geremia) vs 153 (blog). Borghini 2008 puts the chapter at pp. 153–176, so either could be the chapter page vs the quote page. Take the Italian from the book | `single source` (quote verified in Geremia's English) |
+| X3-50 | Pitrè: they are "spiriti balzani e capricciosissimi ma non naturalmente cattivi" ("odd and very capricious spirits, but not wicked by nature", DRAFT) | quote, vol. IV p. 161 | Borghini, "Le 'Donne di fuora'/'Padroni del luogo'", *Le Apuane* XXVIII n. 55, 2008, pp. 113–145 | D2 | — | `single source` |
+| X3-51 | Pitrè's fieldwork base | 172 municipalities, 1870–1890 | Geremia 2024, p. 3 | D1, D2, A2 | A2: not the same as Pitrè's 150/160-town sample for patron saints | `single source` |
+| X3-52 | Local names | *magare*; *patroneddri di casa* ("little masters of the house", DRAFT); *donni di locu* ("ladies of the place", DRAFT); Pitrè's witch types *stria*, *nserra*, *fattucchiera*, *magara* | Geremia 2024, pp. 3, 7 | D1 | — | `single source` |
+| X3-53 | The *donne di fuora* were above all healers: people went to them to cure illness the fairies had caused, and most of their spells were curative | claim | Henningsen 2020, p. 1063 (opened); Messana 2007, as summarized in Geremia 2024, pp. 4–5 (opened) | D1, D2 | — | `checked` |
+| X3-54 | Main yearly gathering St John's Eve (night of 23–24 June), called by the Great Fairy of Messina; meeting place in Palermo the Cortile delle sette fate (Courtyard of the Seven Fairies); also Saturday nights | belief | Geremia 2024, pp. 1, 7–9 | D1, D2 | — | `single source` |
+| X3-55 | Days the fairy companies went out | Tuesdays, Thursdays and Saturdays; never Fridays or Sundays | Henningsen 2020, p. 1065 | D1 | Consistent with Geremia's Saturdays (X3-54) | `single source` |
+| X3-56 | What the fairies did in homes | came in invisibly "like a breath of air", played with children, opened chests, ate and drank; a tidy house was blessed | Henningsen 2020, p. 1065; Pitrè 1889, vol. IV pp. 153–4 (via blog, lead) | D1 | — | `single source` |
+| X3-57 | Fairy names in the records (as the Spanish clerks wrote them) | Doña Inguanta; Rey Cuco ("King Cuco"); Doña Zabela, leader of a company linked to Malta; Octaviana; the "Company of the Romans" | Henningsen 2020, pp. 1066–1067 | D1 | — | `single source` |
+| X3-58 | Healers' "sweet blood" (*sangre dulce*) that let them travel in spirit | claim | Henningsen 1990, p. 195, via a blog | D1 | — | `unverified` |
+| X3-59 | Lauria de Pavia, elderly wife of a poor fisherman; the Palermo inquisitors' letter: "If what this woman says is true … a new sect of witches has arisen" | 1587 (letter); trial 1587–88 | Henningsen 2020, p. 1063 (his Spanish rendering; English DRAFT) | D1, G3 | Wikipedia dates the trial 1588; compatible | `single source` (quote verified) |
+| X3-60 | Her testimony | flew about six *palmos* above the ground to Benevento, where a young red-haired man and a beautiful woman were called King and Queen | Henningsen 2020, p. 1064 (citing Henningsen 1990, p. 196) | D1 | — | `single source` |
+| X3-61 | Catarina Calandrino: aged 40, a Franciscan tertiary; denounced by 18 witnesses; her company had 26 or 27 people; sentenced to reconciliation and perpetual reclusion in the great hospital of Palermo | denounced 1624; auto de fe 13 Feb 1628 | Henningsen 2020, pp. 1066–1068 | D1, G3 | — | `single source` |
+| X3-62 | Vicencia (in Calandrino's network): tortured without confessing; case suspended, freed | Jul 1627 | Henningsen 2020 (AHN, Inquisición, lib. 900) | D1 | — | `single source` |
+| X3-63 | The Terranova women, denounced by the Carmelite prior: Gracia Giarraffa (18), Alfia Zafara (about 60, a healer), Vicencia Cuchinella (26, a healer); sentences: Alfia 3 years' prison; Vicencia tortured without confessing, 2 years' exile; Gracia 5 years' exile after she could not bear torture | 1638 (arrests Feb, May, Oct) | Henningsen 2020, pp. 1068–1071 | D1, G3 ("1638–40") | Leave out Gracia's occupation (D1) | `single source` |
+| X3-64 | The tribunal's stance | "Superstition was a form of heresy and had to be punished in an exemplary way" (Henningsen's paraphrase) | Henningsen 2020, p. 1071 | D1 | — | `single source` |
+| X3-65 | Van Dyck sketch of a small auto de fe in Palermo | 19 May 1624 | Henningsen 2020, p. 1069, fig. 2 caption | D1 | Image lead for Group F | `single source` |
+| X3-66 | Delia Digno: tried by the Holy Office after a mother asked her to exorcise a "possessed" girl; Delia and the girl were tortured, then acquitted for lack of evidence | 1630 | Messana 2007, pp. 388–89, as summarized in Geremia 2024, p. 4 | D1, D2, A1 | D1 omits the torture | `single source` |
+| X3-67 | Diana La Viscusa: healer and exorcist accused of *maleficia* and *magaria*; condemned and confined in the Hospital of Santa Caterina, Monreale; condemned again for healing in prison; a 31-page trial file | 1638–39 | Archivio Diocesano di Monreale, carte processuali sciolte, s. 1, busta 30, in Geremia 2024, pp. 5–7 | D1, D2, A1 | Bishop's court, not the Inquisition | `single source` |
+| X3-68 | Gracia la Chiaczisa of Sciacca, summoned after neighbours' complaints; her description of the *donne di fuora*: "They look like people in front and empty on the back like the tiles of the roofs" | 1619 | ADM, s. 1, busta 29, in Geremia 2024, p. 8 | D1, D2, A1 | — | `single source` (quote verified) |
+| X3-69 | Full trial files of *donne de fora* found in the Monreale diocesan archive, "the first full trials discovered" | 5 | Geremia 2024, p. 5 | D1, D2, A1 | — | `single source` |
+| X3-70 | Agrigento episcopal edict: virgins barred from leaving home on St John's Eve; fathers fined four ounces; church doors locked at 2 a.m. | 23 Jun 1656 | Archivio Diocesano di Agrigento, cited in Geremia 2024, p. 9 | D1, D2 | Geremia's shelfmark names a register of 1548–1550 for a 1656 edict | `single source` |
+| X3-71 | Cammarata proclamation: fine for night-time "magic and superstition" of four ounces (three to the poor, one to the informer) | 1566–67 | ADA, Registro 1566–1567, c. 144, in Geremia 2024, p. 7 | D2 | — | `single source` |
+| X3-72 | Henningsen's reading: a Sicilian fairy cult with a "white" sabbath; a shared set of cultural dreams; not shamanism, because "no trance technique is discernible" | attribution | Henningsen 2020, pp. 1071–1074 (his own words); Geremia 2024, p. 3 (summary of Henningsen 1990) | D1, D2, A1, A2 | — | `checked` (as what Henningsen argues) |
+| X3-73 | Henningsen: the fairy figure was turned into a witch around the end of the 15th century; Sicily had no demonic-witch idea before the Inquisition | attribution | Geremia 2024, p. 3, summarizing Henningsen 1990 | D1, D2 | — | `single source` |
+| X3-74 | Henningsen 1990: a "daydream religion" that let poor women experience splendours denied them | quote | Henningsen 1990, p. 200, via a blog | D1 | — | `unverified` |
+| X3-75 | Ginzburg: the night ladies belong with the *dominae nocturnae* who followed Herodias/Diana, part of a very old Eurasian substratum | attribution | Ginzburg, *Storia notturna*, 1989, p. 101, via Geremia 2024, p. 3 | D1, D2, A1 | — | `single source` |
+| X3-76 | Messana: three readings in the records (inquisitors saw witches in league with the devil; the accused lived between dream and reality; witnesses described spells); the Inquisition aimed to break Sicilians' independence in dealing with the supernatural | attribution | Messana 2007, p. 557, via Geremia 2024, pp. 4–5 | D1, D2, A1 | — | `single source` |
+| X3-77 | Borghini: *donne di fuora* as "ladies of the doors" (Latin *fores*), compared with the Greek Tritopatores | hypothesis | Borghini 2008 ("mi pare", "suppongo") | D2 | The author's own proposal; label speculative | `single source` |
+| X3-78 | Was it shamanism? | interpretation | Against: Henningsen 2020, p. 1071. For the comparison: Ginzburg 1989 (via Geremia); comparisons with the *benandanti* and Balkan fairy cults (D1) | D1 | A live scholarly debate, not a value | `disputed` |
+
+#### D. Other healers, church courts, and Pitrè's record of healing
+
+| Draft ID | Figure / claim (exactly what) | Value used | Sources (title, author/institution, year, page) | Reports that agree | Disagreement | Status |
+|---|---|---|---|---|---|---|
+| X3-79 | Bishops' courts also tried magic: Isnello's *Corte Spirituale*, *magarìa* cases | about 8, 1557–1614 | Profeta 2024, p. 115. Named there: Lucia Maurino (exiled 24 Jun 1560); Michela Brigaglia; Antonia Tulia and Perna Coccia (healers, 1607; Antonia flogged in Cefalù and banished 50 miles); Angela Bonafede; Paola Laparo (her accusers had quarrelled with her); Antonia Fiorella | D2 | — | `single source` |
+| X3-80 | An oil divination tried in court, "lo sortilegio dello oglio" | 16th–17th c. | Profeta 2024, p. 101 | D2 | Not the modern evil-eye oil-in-water test (X3-95); don't merge | `single source` |
+| X3-81 | 1658 auto de fe: nine "indovine et superstiziose" (diviners and superstitious women) and two "invocatrici di demoni" (women who invoked demons); the same year a Collesano surgeon-sorcerer, Pietro La Bruna, got 100 lashes | 1658 | Profeta 2024, pp. 115–116 | D2 | — | `single source` |
+| X3-82 | Civic medical authority also policed charm-healers: the 16th-century *Costituzioni protomedicali* over "fascinatori" and "incantatori", and against "orazioni non approvate dalla chiesa" used to heal | 16th c. | Pitrè, *Medicina popolare siciliana*, 1896, p. 9 | D2 | The quoted text calls the women "donnicciuole" (a belittling word): quote it as the source's word, not ours | `single source` |
+| X3-83 | Remedies Pitrè lists | amulets, *brevi* (written charms), exorcisms, *sfatturamenti* (undoing of spells), *orazioni* (prayers) | Pitrè 1896, p. XXI | D1 | — | `single source` |
+| X3-84 | Pitrè's kinds of healer | the *ciurmadore* (charmer, "a sacred healer"), physician-surgeon, dealer in secrets, barber, *conciaossi* (bone-setter) | Comelles, "From superstition to folk medicine", *Medicine Anthropology Theory* 3:2, 2016, citing Pitrè 1896 | G1 | — | `single source` |
+| X3-85 | The Potenzano family healed with "l'orazione, e lana ed olio" (the prayer, and wool and oil) | practice | Pitrè 1896, pp. 12–13 (footnotes) | D2, G1 (via D2) | — | `single source` |
+| X3-86 | Families held to have hereditary healing gifts: the Geranio families to make venomous snake bites harmless; others to heal "col solo tocco della mano destra" (with the touch of the right hand alone) | belief | Pitrè 1896, pp. 12–13 | D2 | — | `single source` |
+| X3-87 | Proverb on faith in healing | "Fidi mi salva e no lignu di varca" ("Faith saves me, not the timber of the boat") | Pitrè 1896, p. 14 | D2 | — | `single source` (quote verified) |
+| X3-88 | Where Pitrè's evil-eye section is | *Medicina popolare siciliana* pp. 176–184; "Jettatura e malocchio" from p. 181 | Pitrè 1896, outline in the front matter (archive.org scan, opened); D'Amato, "Regesto delle note di ricerca…", *Lares* 2006 n. 3 (opened) | D1, G1 | Compatible: 176–184 is the run "Irritazione" to "Jettatura". The text itself was never reached | `checked` (location only) |
+| X3-89 | Pitrè in English: *Sicilian Folk Medicine*, trans. Phyllis H. Williams, Coronado Press, 1971, xv + 317 pp. | book | Title of a *Medical History* review (search result only) | D1, G1 | Confirm before citing | `unverified` |
+
+#### E. The evil eye, worm-charmers and surveys
+
+| Draft ID | Figure / claim (exactly what) | Value used | Sources (title, author/institution, year, page) | Reports that agree | Disagreement | Status |
+|---|---|---|---|---|---|---|
+| X3-90 | Migliore's study: Sicilian-Canadian community of Hamilton, Ontario, "some 25,000", most tracing ancestry to Racalmuto (central Sicily); key healer "Don Gesualdo" | book / place | Antze, review of Migliore, *Mal'uocchiu* (University of Toronto Press, 1997), *Anthropologica* XLI, 1999, pp. 78–79; Project MUSE record, book 104951 (bibliography only) | G1 | © 1997 vs MUSE metadata 2000: cite 1997. Diaspora, not Sicily: say so | `single source` |
+| X3-91 | How Migliore's informants explain the evil eye: it sits under *disgrazia* (misfortune) and *sortilegio* (power to disrupt events); *ittatura* ("evil-casting") shares both; the caster can be a witch or an ordinary person whose envy grows strong enough | belief | Antze 1999, summarising Migliore | G1 | — | `single source` |
+| X3-92 | Worm-charmers also lift the evil eye and the "bad mother" (an affliction of women in labour); a "little plate for the evil eye" (*u piattinu*) | practice | Napoli, "The plants, rituals and spells that 'cured' helminthiasis in Sicily", *J. Ethnobiology and Ethnomedicine* 4:21, 2008, pp. 5–6 of 19 | G1 | Napoli describes no oil-in-water test | `single source` |
+| X3-93 | Amulets against the *malocchio*: coral; a rattle of silver bells for a child; a mother raising thumb and little finger when a stranger looks at her child; the *cimaruta* (rue-sprig charm) | objects / gesture | Intorre, in *Le culture della cura*, Palermo UP, 2025, pp. 406–416 (at 408, 410, 414, 415), reporting early-20th-c. English collectors Churchill and Jackson | G1 | Intorre's link of the *cimaruta* to "Diana Triformis" is an old survival claim: contested | `single source` |
+| X3-94 | Gallini, *Dono e malocchio* (1973): the evil eye as "la legge di un gruppo che tende al proprio livellamento" (the law of a group that tends to level itself) | quote | Dei, *nostos* 3, 2018, p. 65, quoting Gallini p. 112 | A2 | G1: check whether Gallini's fieldwork is Sardinian before using it for Sicily | `unverified` (for Sicily) |
+| X3-95 | The oil-drops-in-water test for the evil eye, as done in Sicily | — | No opened Sicilian source | D1, D2, G1 | — | `unverified` |
+| X3-96 | The rule that the evil-eye prayer may only be learned on Christmas Eve, in Sicily | — | Only sourced for Abruzzo and Molise (X3-97). The Sicilian Christmas rule found is for worm-charms (X3-103) | G1 | — | `unverified` (for Sicily) |
+| X3-97 | Abruzzo and Molise, for comparison only: a new charmer is made only at midnight on Christmas Eve or St John's Eve, by an older charmer | rule | Giancristofaro, "Undoing the 'Evil Eye' in Italy", in *The Language of Magic*, LED, 2022, pp. 53–67 | G1 | Not Sicily: use only as "elsewhere in the South" | `single source` |
+| X3-98 | The *maga* in the Aeolian Islands: afflictions named *scantu* (fright), *vranca matri*, *malocchi* ("evil looks"), *fatture* (spells), *ligamenti* (bindings) | belief | Review of Maffei, *La maga e il velo*, CISU, 2021, in *Humanities* X/19, 2021, pp. 197–199 | G1 | The review names three local women by nicknames ("the possessed", "the bewitched"); don't name them: living practitioners are not an exhibit | `single source` |
+| X3-99 | Napoli's fieldwork on worm-charmers (*ciarmavermi*) | 2002–2006 (and Villarosa, Sept 2007), provinces of Messina, Enna, Ragusa, Catania, Palermo | Napoli 2008 | G1 | — | `single source` |
+| X3-100 | Worm-charmers she interviewed | about 25; mostly women over 60, some helpers 40–50, some men 70–80, one nearly 100 | Napoli 2008 | G1 | A count of healers met, not of belief | `single source` |
+| X3-101 | The worm-charm rite | sign of the cross, three crosses on the stomach while reciting the charm, massage to "find" the worms; garlic necklaces, garlic-rimmed cups, measured threads, herbs | Napoli 2008 | G1 | — | `single source` |
+| X3-102 | Who may use a charm | only the "disciple" after the "master" dies; handed down man to man, woman to woman, or across the sexes | Napoli 2008, pp. 5–6 of 19 | G1 | Napoli: the rules aren't always kept | `single source` |
+| X3-103 | When a charm may be learned | every Friday for seven Fridays (Madonie); a Lascari healer recited the prayers at Christmas midnight Mass; some gifts got on Christmas night or Easter Day | Napoli 2008, pp. 5–6 of 19 | G1 | — | `single source` |
+| X3-104 | Payment | "not be paid in money at risk of losing their powers but only in kind if offered" (the paper's own typo) | Napoli 2008, p. 5 of 19 | G1 | — | `single source` (quote verified) |
+| X3-105 | A survey of belief in the evil eye, or of use of healers, for Sicily or the South | none found | Workers searched; Eurispes was behind a verification wall | D1, D2, G1 | Print as "no survey was found", never as a number | `unverified` |
+| X3-106 | Pew 2017 Western Europe survey: size and method; belief in the evil eye | 24,599 adults, 15 countries, phone, Apr–Aug 2017; median 16%; Portugal 48%, Spain 33%, Denmark 9%, Sweden 9% | Pew Research Center, *Being Christian in Western Europe*, 29 May 2018, p. 12 and section 5 | G1 | — | `single source` |
+| X3-107 | Italy's figure in the Pew survey | — | Only in a chart image no worker could read; Italy's inclusion not confirmed in the text read | G1 | — | `unverified` |
+| X3-108 | Pooled Pew waves: belief in the evil eye or curses worldwide | 95 countries, 140,000+ people, 2008–2017; mean 43%; Sweden ~9%, Tunisia ~90% | Gershman, "Witchcraft beliefs around the world", *PLOS ONE* 17(11), 2022 | G1 | Built on Pew data, so not independent of X3-106 | `single source` |
+
+#### F. Q6 myths
+
+| Draft ID | Figure / claim (exactly what) | Value used | Sources (title, author/institution, year, page) | Reports that agree | Disagreement | Status |
+|---|---|---|---|---|---|---|
+| X3-109 | "Thousands of witches were burned in Sicily" | — | Rejected by Messana 2007 (two men handed over; 565 of 976 acquitted), Profeta 2024, p. 111 (no woman executed as a witch), Henningsen 2014, p. 138 n. 14 (no witch-burning known). See X3-36 | D1, D2, G3 | — | `myth` |
+| X3-110 | "The *donne di fuora* were an unbroken pagan cult surviving from antiquity" | — | A cult of some kind in the 16th–17th c. is supported by the trial records; an unbroken line from antiquity is not (Henningsen 2020; Messana via Geremia; Geremia 2024). Ginzburg argues a deep substrate; Borghini calls his own link a hypothesis | D1, D2, A1, A2 | — | `myth` |
+| X3-111 | "There were 33 *donas de fuera* in Sicily" | — | Balarm.it, Ciprì, 2 Jun 2020 ("according to what has been handed down"); matches no scholarly count | D1 | — | `myth` |
+| X3-112 | "Benevento is the Blockula of Sicily" | — | Wikipedia, citing a self-published book. Benevento does appear in the 1587/88 testimony (X3-60), but the comparison has no scholarly source | D1 | — | `myth` |
+| X3-113 | "The Steri graffiti were made by witches" | — | Fiume 2017: prisoners of all charges; only one graffito securely by a woman; the women's prison was a separate, later block | D2 | — | `myth` |
+| X3-114 | "Sicilian magic trials were all about women" | — | Lovison 2023, p. 15: men were not condemned less; Profeta 2024: both men handed over for witchcraft were men; male necromancers and treasure-hunters were a large group (D2). The exact sex split (X3-34) is uncited | D2 | The *donne di fuora* subgroup was mostly women | `myth` |
+
+#### G. Q7: the same institutions
+
+| Draft ID | Figure / claim (exactly what) | Value used | Sources (title, author/institution, year, page) | Reports that agree | Disagreement | Status |
+|---|---|---|---|---|---|---|
+| X3-115 | Sicily's tribunal was a tribunal of the Spanish Inquisition, answering to Madrid, not Rome | claim | Fiume 2017, p. 2; Torres Arce 2018, p. 12 ("la Inquisición española"); Lea 1908 | D2, E1, E2 | — | `checked` |
+| X3-116 | Lea's 1908 study treats Sicily, Naples, Sardinia, Milan, the Canaries, Mexico, Peru and New Granada in one book as "Spanish dependencies" | book | Lea 1908, contents (Torres Arce 2018, n. 11, cites Lea for the same framing) | E1, E2 | — | `single source` |
+| X3-117 | Inquisition tribunal of Lima established | 29 Jan 1570 | Lea 1908, ch. VII | E1, E2 | — | `single source` |
+| X3-118 | Inquisition tribunal of Mexico | inquisitors sent 1570; installed 4 Nov 1571 | Lea 1908, ch. VI | E1, E2 | — | `single source` |
+| X3-119 | Inquisition tribunal of Cartagena de Indias | 1610 | Lea 1908, ch. VIII | E1, E2 | — | `single source` |
+| X3-120 | One viceroy governed both: Francisco Fernández de la Cueva, 8th Duke of Alburquerque | New Spain 1653–60; Sicily 1667–70 | *Gran Enciclopèdia Catalana* (both posts); Universidad Iberoamericana, "Virreyes de la Nueva España" (New Spain only: arrived 15 Aug 1653, term ended 16 Sep 1660) | E2 | The Sicily dates rest on one source | `single source` |
+| X3-121 | A viceroy of Sicily, the Duke of Escalona, wrote to Philip III promoting Benedict the Moor's cause; the Inquisition's process on Benedict opened | 1594 (process) | Vincent, "San Benito de Palermo en España", *Studia Historica HM* 38(1), 2016, p. 24 | E2 | — | `single source` |
+
+#### H. Q7: Benedict the Moor (*San Benedetto il Moro*; Spanish *San Benito de Palermo*; Portuguese *São Benedito*)
+
+| Draft ID | Figure / claim (exactly what) | Value used | Sources (title, author/institution, year, page) | Reports that agree | Disagreement | Status |
+|---|---|---|---|---|---|---|
+| X3-122 | Birthplace | San Fratello (formerly San Filadelfo), Sicily | Vincent 2016; Fiume, "Antônio Etíope e Benedito, o mouro", *Afro-Ásia* 40, 2009; Zarattini, "São Benedito…", *Imagem Brasileira*, p. 224; Dell'Aira, "St. Benedict of San Fratello", *Proc. 23rd ICOS*, 2009; Diocese of Cabimas, pastoral letter, 2024, §8 | E1, E2 | — | `checked` |
+| X3-123 | Birth year | 1524 or 1526 | 1524: Dell'Aira 2009, pp. 284–285; Zarattini, p. 224; Reginaldo, *Studia Historica HM* 38(1), 2016, p. 145; Rincón & Carrasquero 2015, p. 23. 1526: Vincent 2016, p. 24; Reginaldo 2016, p. 136; Oliveira 2017, p. 369; Casanova, p. 4 n. 4. Fiume 2009, p. 52: died "com 65 (talvez 64) anos" (aged 65, perhaps 64), pointing to about 1524 | E1, E2, G3 | No birth record; the year is worked back from his age at death. Older lives give 1526; Palermo scholarship and the 2024 quincentenary use 1524. Display: "born in 1524 (some lives say 1526)" | `disputed` |
+| X3-124 | His parents were Africans who had been enslaved | claim | Zarattini, p. 224; Oliveira 2017, p. 369; Rincón & Carrasquero 2015, p. 24; Dell'Aira 2009 | E1, E2 | — | `checked` |
+| X3-125 | Was he born free? | born free, or freed at 18 | Born free: Dell'Aira 2009, pp. 284–285 ("born in freedom"); Zarattini, p. 224 ("nasceu em liberdade"). Freed at 18: Oliveira 2017, p. 369 | E2, G3 | Unexplained in the sources. Display: say his parents had been enslaved and leave his own status out, or give both | `disputed` |
+| X3-126 | Death, at the convent of Santa Maria di Gesù, Palermo | 4 Apr 1589 | Vincent 2016, p. 24; Fiume 2009, p. 52; Dell'Aira 2009, p. 284; Zarattini, p. 225 | E1, E2 | — | `checked` |
+| X3-127 | Beatified | 1743 (May) | 11 May 1743: Dell'Aira 2009, p. 286; Zarattini, p. 226. 1743: Vincent 2016, pp. 23, 32. 15 May (equipollent): GCatholic (lead) | E1, E2, G3 | Reginaldo 2016, p. 136 gives 1763: G3 calls it a slip. Day uncertain: say "May 1743" | `checked` |
+| X3-128 | Canonized, by Pius VII | 24 May 1807 | Vincent 2016, pp. 36–37; Zarattini, p. 226; Dell'Aira 2009, p. 286; Diocese of Cabimas 2024, §11 | E1, E2, G3 | Dell'Aira's "25 May" (p. 284) sits in a sentence that wrongly names Pius VI: a slip | `checked` |
+| X3-129 | "The first Black canonical saint" | claim | Dell'Aira 2009 | E1 | — | `single source` |
+| X3-130 | His cult had reached Spain and Portugal; relics sent to Spain | by June 1607; relics 1606 | Vincent 2016, pp. 24, 27 | E2 | Within 20 years of his death, before beatification | `single source` |
+| X3-131 | Plays about him: Lope de Vega, *El Santo negro Rosambuco de la ciudad de Palermo*; Vélez de Guevara, *El negro del serafín* | by 1607; 1643 | Vincent 2016, pp. 27–28 | E2 | — | `single source` |
+| X3-132 | Black confraternities created in Spain, late 14th to mid-18th c.; how many bore Benedict's name | at least 26; 7 | Vincent 2016, p. 29 | E2 | — | `single source` |
+| X3-133 | First Black Rosary brotherhoods in Lisbon | 1490 | Dell'Aira 2009, p. 287 | E1 | — | `single source` |
+| X3-134 | First confraternity of São Benedito (Mosteiro de Santa Joana, Lisbon) | 1609 | Reginaldo 2016, p. 137; Zarattini, pp. 222–223; Dell'Aira 2009, p. 286 | E1, E2 | Reginaldo: not known to have been mainly Black at first | `checked` |
+| X3-135 | Palermo senators in Lisbon saw enslaved people processing behind a Black friar's banner | 1619 | Dell'Aira 2009, p. 286 | E1 | — | `single source` |
+| X3-136 | Benedict's cult (with Antonio of Noto's) in Brazil and the Iberian New World | from the early 1600s | Fiume 2009, p. 67 ("cultualmente associados desde o início do século XVII, tanto na Península Ibérica quanto no Novo Mundo"); Zarattini, p. 223; Dell'Aira 2009, p. 286; Reginaldo 2016, p. 137 (Franciscan convent brotherhoods in Brazil, undated) | E1, E2, G3 | The exact first years are thin (X3-137 to X3-139) | `checked` (as "from the early 1600s") |
+| X3-137 | Altar of Benedict in the Rosary church, Rio de Janeiro | 1612 | Dell'Aira 2009, p. 286 (no source given); Zarattini, p. 223 (citing a Rio architectural inventory, [2023?]) | E1, E2, G3 | G3: still thin, no document from 1612; independence can't be shown because Dell'Aira cites nothing | `single source` |
+| X3-138 | First fraternity in Salvador da Bahia | c. 1630 | Zarattini, p. 223 (citing Röwer 1941); Dell'Aira 2009, p. 286 (no source) | E1, E2, G3 | What was founded: a Benedict brotherhood (Dell'Aira) or a general Franciscan fraternity (Zarattini's companion article, p. 146). Reginaldo confirms a São Benedito brotherhood at Salvador's Franciscan convent with no date. Display: "Franciscans in Salvador fostered his cult from the 1600s" | `disputed` |
+| X3-139 | Brotherhood at Angra dos Reis | 1648 | Dell'Aira 2009, p. 286; Zarattini, p. 223 | E1, E2 | Same problem as X3-137 | `single source` |
+| X3-140 | Rio's "oldest brotherhood, 1640" is the Rosary brotherhood; the São Benedito confraternity joined it, and the joint statute was approved | c. 1640 (Rosary); Feb 1668 (union); 22 Mar 1669 (statute) | PUC-Rio thesis, Maxwell repository 30569, ch. 2, citing Castro, *Memórias sobre a irmandade…*, 1928 | G3 | E1 had read 1640 as Benedict's brotherhood | `single source` |
+| X3-141 | Statue of Benedict at Colônia do Sacramento (now Uruguay) | 1680 | Dell'Aira 2009, p. 287 | E1 | — | `single source` |
+| X3-142 | Franciscan convents sponsored São Benedito brotherhoods in Brazil (Salvador, Cairu, Sergipe del Rei, Ipojuca, Recife); in the 18th–19th c. the cult "ganhou independência dos frades e grande popularidade entre os negros" ("broke free of the friars and became hugely popular among Black people") | places / quote | Reginaldo 2016, pp. 137–138 | E2 | — | `single source` |
+| X3-143 | His cult in Angola: altar in the Rosary church, Luanda; a Black São Benedito church at Massangano | late 17th c.; early 18th c. | Reginaldo 2016, p. 145, citing Cadornega | E2 | — | `single source` |
+| X3-144 | Legend that Benedict was born in Quissama (Kissama), Angola | — | Reginaldo 2016, p. 123 n. 1 reports it as a 17th-c. legend and a sign of his popularity; every biographical source puts his birth in San Fratello | E2 | — | `myth` |
+| X3-145 | Fiume: Benedict was "o campeão da religiosidade dos escravos negros africanos em todo o Império Espanhol" ("the champion of the religion of enslaved Black Africans throughout the Spanish Empire") | quote | Fiume 2009, p. 84 | E1, E2 | Her interpretation | `single source` (quote verified) |
+| X3-146 | In Sicily Benedict's cult survives only in San Fratello and at Santa Maria di Gesù, Palermo; Antonio's cult disappeared from Noto; in Central and South America their devotion is "ainda hoje… extremamente viva" (still extremely alive today) | claim | Fiume 2009, pp. 54–55 | E1, E2 | Caution: a 2026 notice (Tecnica della Scuola) calls Benedict co-patron of Palermo, and Palermo held 500th-birthday events in 2024, so "only" may be dated | `single source` |
+
+#### I. Q7: Antonio of Noto (*Antonio da Noto*, "the Ethiopian"; Brazil: *Santo Antônio de Categeró*)
+
+| Draft ID | Figure / claim (exactly what) | Value used | Sources (title, author/institution, year, page) | Reports that agree | Disagreement | Status |
+|---|---|---|---|---|---|---|
+| X3-147 | Origin: a captive from the Barca mountains (Libya), enslaved after capture by Sicilian galleys | claim | Fiume 2009, pp. 51–52 | E1 | — | `single source` |
+| X3-148 | Death, at Noto | March 1549 or 1550 | Fiume 2009, p. 52 (15 Mar 1549, "probably 1550"); Dell'Aira 2009, p. 284 (1550); Zarattini, "O beato franciscano Antônio de Noto", *Imagem Brasileira*, 2025, p. 150 (c. 1549–50) | E1, E2 | Display "1549/50" | `checked` |
+| X3-149 | Witnesses heard about him | 38, on 22 Apr 1549 | Fiume 2009, pp. 56, 58 | E1 | — | `single source` |
+| X3-150 | Antonio is still venerated in Latin America; in Brazil he is called Santo Antônio de Categeró | claim | Fiume 2009, pp. 54–55, 67; Zarattini 2025, pp. 147–148, 156 | E1, E2 | — | `checked` |
+| X3-151 | Antônio de Categeró devotion found from the 17th century; sculptures in Rosário dos Homens Pretos churches in Salvador, São João del Rei, Tiradentes, Ouro Preto, Minas Novas, Santa Bárbara, and in São Paulo and Florianópolis | century / places | Zarattini 2025, pp. 154–156 | E1 (abstract), E2 | — | `single source` |
+| X3-152 | "Categeró" is "provável referência equivocada a Caltagirone" (probably a mistaken reference to Caltagirone), or a mix-up with Frei Antônio Caltanisseta | hedged hypothesis | Zarattini 2025, pp. 147–148 | E2 | E1 found no source and said not to print. The brief listed "Categeró = Caltagirone" as a myth example; the research shows one scholar's hedged guess, not a debunked claim. Display: "one scholar thinks it may be a garbled Caltagirone" | `single source` |
+| X3-153 | Popular version: "Categeró means Caltagirone", stated as fact | — | No source states it as fact; the only scholar says "probably" and offers an alternative (X3-152) | E1, E2 | — | `myth` |
+| X3-154 | The Sicilian Inquisition "deu logo licença para se poder pintar a sua imagem" (at once gave leave for his image to be painted) after his relics were moved | 1599 | Frei José Baião, Lisbon, 1726, quoted in Zarattini 2025, p. 150 | E2 | — | `single source` |
+
+#### J. Q7: San Benito in Venezuela
+
+| Draft ID | Figure / claim (exactly what) | Value used | Sources (title, author/institution, year, page) | Reports that agree | Disagreement | Status |
+|---|---|---|---|---|---|---|
+| X3-155 | Regions where San Benito's cult is strongest | Zulia, Trujillo, Mérida | Casanova, "Un santo negro pasea por las calles", Universidad del Zulia, p. 4 | E2 | Falcón named only by the diocese letter and press | `single source` |
+| X3-156 | When the cult reached Venezuela | late colonial period, brought by Spaniards | Casanova, p. 3, citing Salazar Mays 2001 | E2 | See X3-157 | `single source` |
+| X3-157 | "San Benito's cult in Venezuela dates from the first decades of the 16th century" | — | Rincón & Carrasquero, *Perspectivas* 3(6), 2015, p. 21. Impossible for a saint born 1524/26 who died 1589; may mean the drumming tradition | E2 | — | `myth` |
+| X3-158 | The *chimbangueles*: drums, flags, maracas, flutes, songs and dances that accompany the saint; number of drums | 7 or 8 | Casanova, p. 4 n. 5; Rincón & Carrasquero 2015, p. 22 | E2 | — | `checked` |
+| X3-159 | The word *chimbangueles* traced to Bantu *Imbangala* | etymology | Rincón & Carrasquero 2015, p. 22 (citing García 2006, Martínez 2003) | E2 | Not checked | `single source` |
+| X3-160 | Festival cycle | October to 2 Feb, peak late December (e.g. 27 Dec); liturgical feast 4 April | Casanova, p. 4 and nn. 4, 6 | E2 | — | `single source` |
+| X3-161 | Cabimas San Benito festival: "second most important socio-religious event" in Venezuela, after the Divina Pastora | assessment | Rincón & Carrasquero 2015, p. 22 | E2 | No count or method | `single source` |
+| X3-162 | Oldest San Benito image in Venezuela "tal vez" (perhaps) the Capuchin mission image now in Cabimas Cathedral | claim | Diocese of Cabimas, pastoral letter, Prot. 2024/079, 4 Apr 2024, §12 | E2 | Hedged | `single source` |
+| X3-163 | What survived the 2023 fire at Benedict's tomb in Palermo | only a femur, or bones reassembled and shown in Palermo Cathedral July 2024 | Diocese of Cabimas 2024, §10 (femur); Follari, *BlogSicilia*, 24 Jul 2024 (reassembled) | E2 | Both non-scholarly; leave out | `disputed` |
+| X3-164 | Sicilian friars (Frati Minori di Sicilia) took Benedict's relics to Venezuela and Peru | 2024 | Follari, *BlogSicilia*, 24 Jul 2024 | E2 | Regional news | `single source` |
+| X3-165 | Buenos Aires's Palermo district is named after an "Abadía San Benito de Palermo" | — | Stella, *Corriere della Sera*, 1 Aug 2023 (Portuguese trans., IHU-Unisinos) | E2 | Popular, no city-history source | `unverified` |
+
+#### K. Q7: Rosalia and the Jesuits
+
+| Draft ID | Figure / claim (exactly what) | Value used | Sources (title, author/institution, year, page) | Reports that agree | Disagreement | Status |
+|---|---|---|---|---|---|---|
+| X3-166 | Rosalia's cult crossed to New Spain and Spanish America, spread by the Jesuits and the networks of the Spanish monarchy | claim | LACMA, *Saint Rosalía*, Mexico, 18th c., object 293600 (opened); Scalisi, "Le reliquie di Rosalia", in *Mezzogiorno prodigioso*, Quaderni Mediterranea 41, 2023, p. 199 ("da Palermo all'Europa e alle Indie"); Calero Ruiz (Tinoco and Correa paintings); Jaffe, talk abstract, Texas State, 2025 | E1, E2, G3 | — | `checked` |
+| X3-167 | LACMA: "Sicilian missionaries introduced her cult to the viceroyalty"; floods, earthquakes and epidemics drove devotion; her images widespread by the mid-18th c. | claim | LACMA object 293600 | G3 | Not about Mulegé specifically | `single source` |
+| X3-168 | Her cult reached New Mexico, lasted into the early 19th c. and outlived the 1767 Jesuit expulsion; Fernández de Lizardi satirized her life in *La Quijotita y su prima* | 1818–19 (satire) | Jaffe, talk abstract, Center for the Study of the Southwest, Texas State University, 18 Mar 2025 | E1 | A talk abstract, not a publication | `single source` |
+| X3-169 | Jaime de Palafox y Cardona, archbishop of Palermo, then of Seville, brought her cult to Seville | Palermo from 1677; Seville 1684–1701 | Chillón Raposo, "La sensibilidad estética siciliana en la ciudad de Sevilla", *Espacio, Tiempo y Forma* VII 5, UNED, 2017, pp. 248, 253 | E2 | — | `single source` |
+| X3-170 | Seville details: silver bust by Antonino Lorenzo Castelli of Palermo; *Vida y milagros* printed; cathedral feast; Capuchin convent of Santa Rosalía; her Seville cult today "casi ha desaparecido en su totalidad" (has almost entirely disappeared) | 1687; 1689; 7 Sep 1689; 1694–1701 | Chillón Raposo 2017, pp. 255–262 | E2 | — | `single source` |
+| X3-171 | Rosalia painted in New Spain by Juan Tinoco (San Agustín, Puebla) and Juan Correa | 2nd half 17th c.; c. 1695 | Calero Ruiz, "Una imagen americana y su cofradía en La Laguna", Cabildo de Gran Canaria journals, p. c. 415 | E2 | Journal, year and page not visible; check against museum catalogues | `single source` |
+| X3-172 | A Rosalia image came back "de los Reynos de Indias" to La Laguna (Canaries); its confraternity licensed | 7 May 1755 | Calero Ruiz, pp. 416–417 | E2 | — | `single source` |
+| X3-173 | Rosalia relics went to Urban VIII via the Jesuits, and to Antwerp before 1628 (Van Dyck, 1629); no American relic shipments named | 1626 | Scalisi 2023, pp. 198–199 | E2 | — | `single source` |
+| X3-174 | Francisco María Píccolo, a Sicilian Jesuit in the Baja California missions | claim | Barco, *Historia natural y crónica de la Antigua California*, ed. León-Portilla, UNAM-IIH, 3rd ed. 2019, p. 542 ("siciliano"); CULCO BCS (popular, says Palermo-born) | E1, E2 | Palermo as birthplace is popular-only | `single source` |
+| X3-175 | Píccolo's life dates | 1658–1729 | Newberry Library name authority (Ayer MS 1880) | E1, E2 | CULCO BCS (popular) gives born 25 Mar 1654, died Loreto 22 Feb 1729; only the Newberry heading counts | `single source` |
+| X3-176 | Píccolo founded the mission of San Francisco Javier | May 1699 | Barco/León-Portilla 2019, p. 542; CULCO BCS (11 May 1699, popular) | E1, E2 | — | `single source` |
+| X3-177 | Mission of Santa Rosalía de Mulegé founded, by Father Basaldúa | 1705 | Gurría Lacroix & Messmacher, "Las misiones de Baja California", *Boletín INAH* 20, 1965 (opened); CULCO BCS (popular, "November 1705"); Beebe & Senkewicz, *Lands of Promise and Despair*, 2001, p. 80 (cited via Wikipedia, not opened) | E1, E2, G3 | G3 calls the year confirmed, but only one countable source was opened. Name: "Juan Manuel (de) Basaldúa" vs "Juan María Bassaldúa (?)": say "Father Basaldúa" | `single source` |
+| X3-178 | The mission existed: Píccolo's letter written from Santa Rosalía | 10 Jan 1717 | Newberry Library, Ayer MS 1880 (catalogue record) | E1, E2 | — | `single source` |
+| X3-179 | Píccolo in charge of Mulegé | 1709–1718 | CULCO BCS (popular) | E2, G3 | — | `unverified` |
+| X3-180 | "Santa Rosalía de Mulegé was named by Sicilian Jesuits for their home saint" | — | No source gives the reason for the name; Píccolo ran it from 1709 but didn't found it | E2, G3 | — | `myth` |
+
+#### L. Q7: St Joseph, the Day of the Dead, candles and look-alikes
+
+| Draft ID | Figure / claim (exactly what) | Value used | Sources (title, author/institution, year, page) | Reports that agree | Disagreement | Status |
+|---|---|---|---|---|---|---|
+| X3-181 | First Mexican Provincial Council: "recibimos al dicho glorioso san José por patrón general de esta nueva Iglesia" (we receive the glorious St Joseph as general patron of this new Church); feast on 19 March | 1555, cap. XVIII | *Concilios provinciales mexicanos. Época colonial*, coord. Martínez López-Cano, UNAM-IIH, 2004, Concilio Primero, p. 23 (primary, opened); Villaseñor Black, *Creating the Cult of St. Joseph*, Princeton UP, 2006 (via CAA review) | E1, G3 | Wording: patron of New Spain's Church, not a civil act of the viceroyalty | `checked` |
+| X3-182 | Images of Joseph increase from about 1600, after Trent; New Spain an "early locus" of the cult | claim | Schreffler, review of Villaseñor Black 2006, caa.reviews | E1 | — | `single source` |
+| X3-183 | Del Giudice: "Thanks in part to Spanish hegemony, Joseph became deeply rooted in Sicilian soil"; the cult "is considered to be largely the product of Spain" | quote | Del Giudice, "Rituals of Charity and Abundance: Sicilian St. Joseph's Tables and Feeding the Poor in Los Angeles", eScholarship (likely *California Italian Studies*; year to verify), p. 7 and n. 19 | E1 | She also asks, "Does this Hispanic cult have much to do with tradition in Southern Italy?": a hedged argument | `single source` (quote verified) |
+| X3-184 | Earliest written account of Sicilian St Joseph tables; origin unknown ("It is not exactly clear when or how the table tradition began in Sicily") | Pitrè, *Feste patronali in Sicilia*, 1900 | Del Giudice, p. 16 (citing Uccello 1976: 75) | E1 (B-pass1 cites the same) | — | `single source` |
+| X3-185 | Sicilian Holy Family pageant and Mexican Las Posadas "seem to so closely coincide" | resemblance | Del Giudice, p. 16 | E1 | A resemblance, not a line of descent | `single source` |
+| X3-186 | Sicilian women held a St Joseph's table at St. Joseph's Church, East Los Angeles, a "poor, largely Latino parish" | case (US) | Del Giudice, p. 23 | E1 | — | `single source` |
+| X3-187 | Black Catholics in New Orleans make St Joseph altars (St. Augustine Church, Tremé, builds one each year) | case (US) | Green, "St. Joseph Altars in Baton Rouge", Louisiana Folklife Program, 2016; Feldman, *The World* (PRX), 16 Mar 2016 | E1 | US side note, not Latin America | `checked` |
+| X3-188 | Black New Orleanians making and visiting altars by 1945 | 1945 | Green 2016, citing *Gumbo Ya-Ya* (1945, not opened) | E1 | — | `single source` |
+| X3-189 | "St Joseph's tables are a Latin American tradition too" | — | No *mesas de San José* found; the food altar is recorded as Sicilian (Del Giudice). E2 did not research it | E1 | — | `myth` |
+| X3-190 | "Mardi Gras Indians took St Joseph's Night from the Sicilians" | — | *The World* (2016) labels it speculation | E1 | — | `myth` |
+| X3-191 | "St Joseph's table began with a medieval Sicilian famine broken by fava beans" | — | Told as legend by informants (Green 2016: "1500s" or "Middle Ages"); Del Giudice: origin unclear | E1 | Tell it as a legend | `myth` |
+| X3-192 | Brandes and other scholars argue Mexico's Day of the Dead is largely a colonial form of the European All Souls' feast, with Indigenous elements, not a pure Aztec survival | attribution | Brandes, *Skulls to the Living, Bread to the Dead*, Blackwell, 2006 (excerpts, no pages) and "Sugar, Colonialism, and Death", *CSSH* 39(2), 1997, pp. 270–299 (first page); Marchi, "Day of the Dead in Latin America and the United States", Berkley Center, Georgetown, 2 Nov 2018 (opened; summarizes Brandes, Lomnitz, Nutini) | E1 | Kallendorf (TAMU blog, 2021) keeps an Aztec root for the skulls (X3-194) | `checked` (as what these scholars argue) |
+| X3-193 | Brandes's words: "a prominent, though not exclusive, Spanish origin"; "a colonial invention"; "The principal types and uses of food on this holiday definitely derive from Europe" | quotes | Brandes 2006, as excerpted on the SOHO San Diego site (third party, no page numbers) | E1 | Need the book's pages before printing | `unverified` |
+| X3-194 | Sugar-skull motif: European baroque and later caricature, or the Aztec skull rack (*tzompantli*)? | interpretation | European: Brandes, *Ethnohistory* 45(2), 1998 (via JSTOR Daily summary); Lomnitz and Nutini (via Marchi 2018). Aztec root: Kallendorf, quoted in a TAMU blog, 2021 | E1 | A live debate; the Aztec side has only a blog quote | `disputed` |
+| X3-195 | The sugar-paste technique (*alfeñique*) came with the Spanish | claim | Marchi 2018 (opened, scholar). Others are popular (JSTOR Daily summary; TAMU blog) | E1 | All sides agree, but only one countable source | `single source` |
+| X3-196 | Pan de muerto first appears | between 1930 and 1960 | Lomnitz, *Death and the Idea of Mexico*, 2005, p. 430, as read by Laudan (blog, 2010) | E1 | Brandes: bread is the "earliest and most widely reported offering" (may mean bread in general) | `unverified` |
+| X3-197 | Population of central Mexico fell from "over 25 million" to "just over 1 million" by 1605 | estimate | Brandes 1998, via JSTOR Daily 2020 (popular summary) | E1 | A debated estimate; leave out | `unverified` |
+| X3-198 | Sicily's Festa dei Morti and Mexico's Day of the Dead are cousins, both grown from the medieval All Souls' feast | synthesis | E1's own reading of Brandes; no source states it for Sicily (Brandes 1997 cites a 1990 piece "All Souls' Day in Italy", not opened) | E1 | Needs Brandes's pages and a Sicilian source on 2 November | `unverified` |
+| X3-199 | "Mexico got the Day of the Dead from Sicily" (or "sugar skulls came from Italian missionaries") | — | No transfer found in either direction (E1); E2 didn't research it | E1, E2 | — | `myth` |
+| X3-200 | "The Day of the Dead is a pure Aztec survival" | — | Brandes (1997, 1998, 2006), Marchi 2018 and Lomnitz put the weight against "pure" | E1 | — | `myth` |
+| X3-201 | Where the retablo (painted ex-voto) habit came from: Latin *retro tabulum*; Catholic orders brought the imagery to the Spanish colonies in the 16th c.; small paintings on tin by the 18th c.; cheap tinplate from the 1820s spread it | dates | Dweck, "Miracles on the Border", Princeton University Art Museum, 25 Mar 2019 | E1 | Points to a shared European votive habit, not a Sicilian or Spanish one | `single source` |
+| X3-202 | Retablo texts analysed by Durand & Massey | 124 | Durand & Massey, *Miracles on the Border*, University of Arizona Press, 1995 (press page only) | E1 | — | `single source` |
+| X3-203 | "Sicilian and Latin American Catholics share the candles and the gaudy look because of a direct link (or because Spain ruled both)" | — | No scholar found who gives candles or decoration one shared origin. Supported only for specific channels (X3-115, X3-136, X3-166, X3-181). Votive images and candles are a pan-Catholic habit (Dweck 2019), intensified by post-Trent baroque (E1) | E1, E2 | Resemblance, not descent | `myth` |
+| X3-204 | Jesuits called southern Italy "the Indies down here" (letter of Miguel Navarro to General Mercurian) | 1575 | Selwyn, *A Paradise Inhabited by Devils*, Ashgate/Routledge, 2004, ch. 4 (abstract and contents only) | E1 | About Naples and the mainland; Sicily not named | `single source` |
+
+#### M. Q7: migration
+
+| Draft ID | Figure / claim (exactly what) | Value used | Sources (title, author/institution, year, page) | Reports that agree | Disagreement | Status |
+|---|---|---|---|---|---|---|
+| X3-205 | Where Italian emigrants went: US/Canada labour "chiefly from Sicily, Campania, the Abruzzi, and Calabria"; Argentina and Brazil drew "noteworthy" shares from the north | claim | Ratti, "Italian Migration Movements, 1876 to 1926", in Willcox (ed.), *International Migrations* II, NBER, 1931, pp. 440–470 | E1 | — | `single source` |
+| X3-206 | Returnees from Argentina went home mainly to Piedmont, Calabria and Sicily | claim | Ratti 1931, p. 462 | E1 | No regional count readable | `single source` |
+| X3-207 | Italian emigration by destination, 1921–26 (national, not Sicilian) | Argentina c. 387,000; US c. 281,000; Brazil c. 60,000 | Ratti 1931, p. 450 | E1 | — | `single source` |
+| X3-208 | Italian-born residents of Venezuela | 43,997 (1950); 121,838 (1961) | Filippi, *Boletín de la Academia Nacional de la Historia* (Caracas) 76(304), 1993, p. 50 | E1 | No regional breakdown | `single source` |
+| X3-209 | Italians in Venezuela today: about 220,000 entered 1949–60; c. 160,000 citizens registered; 1.5 million+ of Italian descent; main regions Campania, Sicily, Abruzzo, Puglia | persons | AGI news agency, 3 Jan 2026, citing the Italian Embassy and the Farnesina | E1 | Press; 1.5 million is an estimate; no Sicilian share | `single source` |
+| X3-210 | A southern Italian saint carried by migrants: San Cono of Teggiano (Campania) in Argentina and Uruguay, where it became Uruguay's most important religious event | case | Ragone, *La cultura visual de los tanos en el Río de la Plata*, PhD, Universitat de Barcelona, 2019, pp. 23, 42 | E1 | Campanian, not Sicilian | `single source` |
+| X3-211 | "Sicilian immigrants brought their saints to Argentina, Brazil and Venezuela" | — | Not found for Sicily: Ratti 1931 sends Sicilians chiefly north; the transplanted feasts found are Campanian, Calabrian, Vicentine or Pompeian (Ragone 2019; Schmidt 2016; Paravati 2018). The Sicilian saints in Latin America went earlier, through Spain and Portugal | E1, E2 | — | `myth` |
+| X3-212 | Rosalia's triumphal cart landed in New York (Pier 85), a gift of the city of Palermo | 2023 | Salerno, "Internal Secularisation at the Festival of Saint Rosalia", *Religions* 15(1):126, 2024 | E1 | US diaspora | `single source` |
+| X3-213 | Enna's Holy Week rites keep customs "dating back to the Spanish domination" | claim | VisitSicily (Regione Siciliana tourism), 2019 | E1 | Tourism page | `unverified` |
+
+Belief statements, charm texts and the Q7 verdict: `research/xcheck/X3.md`.
+
+## Primary documents Bryan could find
+
+Books and chapters the workers couldn't open. A scan of the pages named would settle the rows shown.
+
+1. Henningsen, Gustav. "'The Ladies from Outside': An Archaic Pattern of the Witches' Sabbath." In Bengt Ankarloo &
+   Gustav Henningsen (eds.), *Early Modern European Witchcraft: Centres and Peripheries*. Oxford: Clarendon Press,
+   1990, ch. 7, **pp. 191–215, especially 191–196, 200 and 205**. Settles X3-46, X3-47, X3-38, X3-58, X3-74. (Said in
+   a search result to be excerpted in Oldridge (ed.), *The Witchcraft Reader*, Routledge: unchecked.)
+2. Gijswijt-Hofstra, Marijke, Brian P. Levack & Roy Porter. *Witchcraft and Magic in Europe: The Eighteenth and
+   Nineteenth Centuries*. London: Athlone, 1999, **p. 140** (the "65 people, 8 men" figure, X3-46).
+3. Pitrè, Giuseppe. *Medicina popolare siciliana* (Biblioteca delle tradizioni popolari siciliane XIX).
+   Torino–Palermo: Clausen, 1896, **pp. 176–184** ("Jettatura e malocchio" from p. 181) and the chapter on *vermi*
+   (worms). The scans are on archive.org (ids `afm3499.0019.001.umich.edu`, `medicinapopolar00pitrgoog`), but the
+   tool stopped near p. 14. Or the English translation: *Sicilian Folk Medicine*, trans. Phyllis H. Williams, Coronado
+   Press, 1971. Settles X3-95, X3-96 and the missing Sicilian evil-eye charm text.
+4. Pitrè, Giuseppe. *Usi e costumi, credenze e pregiudizi del popolo siciliano*, vol. IV (Biblioteca XVII). Palermo:
+   Pedone Lauriel, 1889, **pp. 153–176** (the *donne di fuora* chapter; p. 161; p. 163 for the "fairy and witch"
+   quote in Italian). archive.org id `afm3499.0017.001.umich.edu`. Settles X3-49, X3-50, X3-56.
+5. Messana, Maria Sofia. *Inquisitori, negromanti e streghe nella Sicilia moderna (1500–1782)*. Palermo: Sellerio,
+   2007 (new ed. 2022), **p. 75** (the 77), **p. 290** (sentences table), **pp. 162–171**, **pp. 388–389** (Delia
+   Digno), **p. 557**. Settles X3-26, X3-35, X3-46, X3-66, X3-76.
+6. Renda, Francesco. *L'Inquisizione in Sicilia. I fatti, le persone*. Palermo: Sellerio, 1997, **p. 203** (7,161
+   and 921), **p. 414**, **p. 235**. Settles X3-25, X3-33, X3-34.
+7. Contreras, Jaime & Gustav Henningsen. "Forty-Four Thousand Cases of the Spanish Inquisition (1540–1700)." In
+   Henningsen & Tedeschi (eds.), *The Inquisition in Early Modern Europe*. DeKalb: Northern Illinois UP, 1986,
+   **pp. 100–129**; and Monter, William, *Frontiers of Heresy*, Cambridge UP, 1990, **pp. 39, 166, 326–327**.
+   Settle X3-27 and X3-30.
+8. Migliore, Sam. *Mal'uocchiu: Ambiguity, Evil Eye, and the Language of Distress*. University of Toronto Press, 1997,
+   **pp. 30–53** ("The Power of Strong Emotions") and the glossary **pp. 127–130**. For an oil test or charm text in a
+   Sicilian community (X3-95).
+9. Lea, Henry Charles. *The Inquisition in the Spanish Dependencies*. New York: Macmillan, 1908 (Project Gutenberg
+   68744), the **Mexico, Peru and New Granada chapters** (bodies, not only headings). A second source for X3-117 to
+   X3-119 would come from any modern history of those tribunals.
+10. Villaseñor Black, Charlene. *Creating the Cult of St. Joseph: Art and Gender in the Spanish Empire*. Princeton UP,
+    2006: the page for 1555 and the post-1600 rise (X3-181, X3-182).
+11. Brandes, Stanley. *Skulls to the Living, Bread to the Dead*. Blackwell, 2006, the pages of the three quotes in
+    X3-193, and "Sugar, Colonialism, and Death", *CSSH* 39(2), 1997, pp. 270–299 (X3-192, X3-198).
+12. Beebe, Rose Marie & Robert M. Senkewicz. *Lands of Promise and Despair*. 2001, **p. 80**: a second source for
+    Mulegé 1705 (X3-177).
+13. Fiume, Giovanna. *Il santo moro. I processi di canonizzazione di Benedetto da Palermo (1594–1807)*. Milano:
+    FrancoAngeli. **Its year is given as 2000 (D1) and 2002 (E2): check the title page.** For X3-121, X3-123,
+    X3-125, X3-146.
+14. Castro, O. *Memórias sobre a irmandade de N. S. do Rosário e São Benedito dos Homens Pretos do Rio de Janeiro*,
+    1928 (X3-137, X3-140); Rowe, Erin K., *Black Saints in Early Modern Global Catholicism*, Cambridge UP, 2019, ch. 2
+    (Spanish-American dates for Benedict and Antonio).
+15. Not a book: the Pew report *Being Christian in Western Europe* (2018), section 5 chart, to read Italy's evil-eye
+    figure by eye (X3-107).
