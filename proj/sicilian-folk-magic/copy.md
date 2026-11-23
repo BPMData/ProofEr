@@ -193,8 +193,18 @@ Catania still celebrates her with the Festa di Sant'Agata, from 3 to 5 February,
 return. Devotees wear a white robe, the *sacco*. A lovely story says it recalls the nightshirts people ran out in when
 the relics came home in 1126; the historian Benigno dates the robe to the 1700s. [X1-90, X2-35, X1-201, X1-93]
 
-Her silver bust was made by Giovanni di Bartolo of Siena; its inscription dates it to 1376. Her crown is often said to
-be a gift from Richard the Lionheart. It was made in the late 1400s, long after his day. [X2-18, X2-21]
+**Inside the silver woman.** Here's the part that startles people who didn't grow up Catholic: Agatha isn't buried.
+Most of her bones sit inside a bust of her in gilded silver, made by Giovanni di Bartolo of Siena and dated 1376 by its
+inscription, and so covered in donated jewellery that the silver barely shows. A piece of her pelvis is sealed inside
+it. In 1963 her skull was taken out so the faithful could venerate it. Her two thighbones have reliquaries of their
+own, inside a great relic chest. In her legend her torturers cut off her breasts, and one breast is honoured as a relic
+too, in the town of Galatina in Apulia, on the mainland. On her feast days the bust leaves the cathedral and is carried
+through the streets. [X2-18, X2-150, X2-25, X2-24, X2-23, X1-250, X2-37, X2-151]
+
+To devotees that isn't morbid. A saint's body keeps the saint present in the town that holds it, close enough to be
+asked for help, and Catania has her. Act 7 opens the cabinet on how Europe came to collect saints this way. Her crown,
+by the way, is often said to be a gift from Richard the Lionheart. It was made in the late 1400s, long after his day.
+[X2-152, X2-21]
 
 You'll also read that this is the world's third-largest religious festival. We found no count behind that ranking,
 and Catania's own daily paper, *La Sicilia*, has called it a figure "never verified", repeated for 30 years. [X1-96]
@@ -469,29 +479,70 @@ named)]
 
 ## 10 · Act 7 · The relic cabinet opens
 
-How many fingerbones can one dead saint have? In Sicily's case, the honest answer is disappointing: we found no saint
-with two of the same finger. [fingerbone tally]
+Time to open the cabinet. A relic is a saint's body, a piece of it, or something that touched it, kept and honoured in
+a church. For most of Christian history a saint's bones were no museum piece: they kept the saint present, and on the
+side of the town that held them. So towns wanted them, traded for them, and now and then stole them. [X2-126, X2-152]
 
-What we did find:
-- **Lucy's body:** two places claim the whole thing, Venice and Metz. Syracuse, where she was buried, has the empty
-  tomb. [X2-47, X2-59, X2-65]
-- **Lucy's head:** Venice and Bourges each have a claim, by our own comparison of the sources. [tally T2]
-- **Agatha:** spread, not doubled. One tourism list names 31 places outside Catania with a piece of her, and where
-  parts can be counted, the numbers add up. Palermo Cathedral holds her arm. [tally T4–T9, X2-41]
-- **Louis IX of France,** who died on crusade at Tunis in 1270: his entrails, and by one medieval account his heart,
-  were buried at Monreale. [X2-115, X2-116]
+**Meet Lucy.** Sicily's other great virgin martyr is Lucy of Syracuse. By tradition she was killed in her home city
+in 304, under the emperor Diocletian, and her feast is 13 December. She is the patron of Syracuse and of sight, and
+medieval painters showed her carrying her eyes on a dish. Her life story is legend; even the *Catholic Encyclopedia* admitted in 1910
+that it "cannot unfortunately be accepted without criticism". [X2-44, X2-45, X1-251]
 
-Palermo Cathedral says its Chapel of the Relics holds 17 reliquaries. No one has counted them for the island.
+**One saint, two bodies.** Here the cabinet gets crowded, because Lucy's whole body is claimed by two cities. Venice
+says it came from Constantinople after the crusaders sacked that city in 1204; it lies today in the church of San
+Geremia, its face under a silver mask. Metz, in France, says a duke of Spoleto carried it off from Sicily and that it
+reached the abbey of St Vincent in 972. Syracuse, where she was buried, has the empty tomb, and borrows the Venetian body
+about once every ten years. Her head is claimed twice too. Thieves who stole the body in Venice in 1981 left the head
+behind; Bourges Cathedral, in France, says the Venetians gave it Lucy's head in 1513. Both doubles are our own count,
+from sources that never compare notes. [X2-47, X2-52, X2-55, X2-59, X2-60, X2-56, X2-51, X2-65]
+
+**Agatha adds up.** One tourism list counts 31 places outside Catania with a piece of her, yet where the parts can be
+counted, nothing is doubled: two thighbones in Catania, one breast in Catania and one in Galatina. Palermo Cathedral
+holds her arm. [X2-43, X2-41, X2-23, X2-37]
+
+**A king, boiled.** Royalty was divided too. When King Louis IX of France died on crusade at Tunis in 1270, his body was
+dissected and boiled. His bones went to Saint-Denis, near Paris, and his entrails were buried at Monreale, near Palermo.
+Whether his heart is at Monreale as well is still argued. [X2-115, X2-117, X2-118, X2-116]
+
+Palermo Cathedral says its Chapel of the Relics holds 17 reliquaries. No one has counted them for the whole island.
 [X2-97 (the cathedral, named)]
 
-**The critics.** In 1543 the Protestant reformer John Calvin wrote a *Treatise on Relics*. Collect every piece of the
-True Cross, he joked, and you'd fill a good big boat; every apostle had more than four bodies, and each saint at least
-two or three. The line about a dozen heads of John the Baptist that's often pinned on him was his 19th-century
-translator's. [X2-137, X2-140, X2-141, X2-145]
+**Why Europe wanted bones.** It wasn't always so. Roman law banned selling martyrs' bodies in 386. In 594 Pope Gregory
+the Great turned down an empress who wanted the head of St Paul: it is "not the custom of the Romans", he wrote, "to
+presume to touch any part of the body". He sent cloths that had lain near the saint's tomb instead, with filings from
+St Peter's chains, and said he could "scarcely believe" the Greeks dug up saints' bones. Historians still argue how
+strict that Roman custom really was. [X2-135, X2-153, X2-154 (Gregory's letter, named)]
 
-**The rules.** The Church took the point. Canon law says: "It is absolutely forbidden to sell sacred relics." The
-Vatican's 2017 rules ban trading them too, and forbid cutting up a saint's body without Rome's consent. The familiar
-"first-, second- and third-class relics" aren't in those rules at all. [X2-121, X2-125, X2-127, X2-128, X2-132]
+Demand won. In 787 a Church council ruled that churches must have relics, and that a bishop who consecrated one
+without them should be deposed. Bones became precious, and in the Middle Ages they were bought, swapped and stolen. The
+historian Patrick Geary wrote a whole book, *Furta Sacra* (1978), on relic thefts and why medieval Christians so often
+approved of them. Catania's homecoming of 1126 was one: its archbishop still calls it a "sacro furto", a holy theft.
+[X2-155, X2-156 (Geary, named), X2-15, X2-16]
+
+So cutting up saints was common long before anyone wrote rules about it. When Rosalia's bones turned up in 1624,
+Palermo sent pieces to other cities, to royal courts and to Pope Urban VIII, who reportedly wore one of her teeth on
+his chest. The Church mostly regulated the trade rather than stopping it. In 1215 a council forbade showing old relics
+outside their cases or selling them, and new relics needed the pope's approval. In 1563 the Council of Trent told
+bishops to abolish "all filthy lucre". [X2-91 (Scalisi, named), X2-133, X2-134]
+
+**The critics.** Protestants thought the whole business a racket. In 1543 the reformer John Calvin published a
+*Treatise on Relics*; its full French title argues that Christendom would profit greatly from an inventory of every
+saint's body and relic. Gather all the pieces of the True Cross, the cross Jesus died on, he joked, and you'd fill a
+good big boat. Every apostle had more than four bodies, each saint at least two or three, and he counted 14 nails from
+the Cross. You'll often see him credited with a dozen heads of John the Baptist too. That count isn't Calvin's: it
+comes from a footnote by his 19th-century English translator, Valerian Krasinski. [X2-137, X2-139, X2-140, X2-141,
+X2-142, X2-145]
+
+**The rules today.** Canon law now says: "It is absolutely forbidden to sell sacred relics." The Vatican's 2017
+instruction bans trading them too, and says a saint's body may not be cut up unless the bishop has Rome's consent. It
+sorts relics into just two kinds: "significant" ones (the body, large parts of it, or all the ashes) and
+"non-significant" ones (small fragments, or objects that touched the saint). [X2-121, X2-125, X2-127, X2-128, X2-126]
+
+You may have met a three-tier ranking instead, from first-class relics (the body itself) down to third-class ones
+(cloths touched to a relic). It's a popular devotional scheme, but the Church's own rules don't use it. [X2-132]
+
+**Stamp:** MYTH-CHECK · first-, second- and third-class relics are Church law · the Vatican's 2017 rules use only
+"significant" and "non-significant" [X2-132]
 
 _Relic cabinet opens: every drawer met so far, side by side._
 

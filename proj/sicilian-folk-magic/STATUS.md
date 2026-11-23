@@ -1,6 +1,6 @@
 # STATUS: Sicilian folk magic
 
-_Last updated: Nov 23, 2026 (night)._
+_Last updated: Nov 23, 2026 (late)._
 
 - **Stage:** build done, on branch `claude/project-thread-gi5ppk` (not merged, not published). Brief approved Nov 22
   (Bryan, with amendments); layout approved Nov 23 ("Lock it in").
@@ -32,5 +32,11 @@ _Last updated: Nov 23, 2026 (night)._
   treatment" (Southern Question, race science, New Orleans 1891); Act 5 (intercession, decollati, frusteri); Act 6
   (archive fire, who was executed, the ladies from outside, Gratteri's healers, three captioned pictures); click any
   painting or statue to zoom (embedded, about +0.8 MB; page now 2.5 MB). Scenes are picked by scroll position so beats
-  inside a section work. **Next:** Bryan's Act 7 notes (real Agatha bust, clickable relic cabinet, Lucy, relic history,
-  relic classes, Calvin) through Act 7 before Act 8.
+  inside a section work.
+- **Nov 23 late:** Act 1 "Inside the silver woman" (what the bust holds, jewels, the breast legend, why bodies matter);
+  Act 7 rewritten (Lucy introduced; Venice vs Metz as the lead duplicate; Louis IX; why Europe wanted bones: altars,
+  Nicaea 787, pilgrimage, the trade, *furta sacra*; Lateran 1215, Trent 1563; Calvin 1543 and Krasinski's footnote;
+  2017 rules; one stamp on "first/second/third-class"). Relic cabinet: one drawer per relic (4), no empty slots, fill
+  read from scroll position so fast scrolling can't desync it; tap it for a list with a note per relic. "The boat:
+  drawn for this page" tooltip removed. **Waiting on Bryan:** photo files for the real Agatha bust (to replace the
+  Juliana stand-in) and for each cabinet relic; the proxy blocks Commons downloads. Then Act 8.

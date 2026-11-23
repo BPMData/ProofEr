@@ -455,7 +455,7 @@ for s in SECS:
     if s['num'] == 9:
         s['blocks'] = [unit_html() if b == '{{UNIT}}' else b for b in s['blocks']]
     if s['num'] == 10:
-        i = next(k for k, b in enumerate(s['blocks']) if b.startswith('<p>What we did find'))
+        i = next(k for k, b in enumerate(s['blocks']) if b.startswith('<p><strong>Agatha adds up'))
         s['blocks'].insert(i + 1, cabinet_html())
     if s['num'] == 11:
         i = next(k for k, b in enumerate(s['blocks']) if '<strong>Rosalia</strong>' in b)
@@ -482,7 +482,14 @@ SCENES = {
                                          ['img', 'lucy', 70, 56], ['img', 'joseph', 81, 58], ['img', 'angel1m', 90, 50]]),
     13: dict(curtain=True, cast=[]),
 }
-CAB = {4: 'Agatha’s body · Catania', 5: 'Rosalia’s bones · Palermo', 6: 'Mary’s hair · Messina'}
+CAB = {4: 'Agatha’s body · Catania', 5: 'Rosalia’s bones · Palermo', 6: 'Mary’s hair · Messina', 10: 'Lucy’s body · Venice, or Metz'}
+# What each drawer holds, shown in the cabinet pop-up (our words; sources in the acts). z = a zoom picture key, once cleared.
+CAB_INFO = {
+    4: ('Most of her bones, in a jewelled silver bust of 1376, carried through Catania on her feast days.', ''),
+    5: ('Bones found in a cave in 1624 and credited with ending the plague; they ride in a silver urn.', ''),
+    6: ('A lock of hair said to be Mary’s, tied to a letter the legend says she wrote to Messina.', ''),
+    10: ('Claimed whole by two cities at once. Syracuse, where she was buried, keeps the empty tomb.', ''),
+}
 
 # ---------- sections html ----------
 def section_html(s):
@@ -577,7 +584,8 @@ for n, sc in SCENES.items():
                    {0: 'Saints & Spells', 1: 'Overture', 14: 'Overture', 15: 'Overture', 2: 'The goddess story', 3: 'Sicily 101', 12: 'Curtain call', 13: 'Sources'}.get(n, ''))
     sc['title'] = {7: 'Act 4 · St Joseph', 10: 'Act 7 · Relics', 11: 'Act 8 · Americas'}.get(n, sc['title'])
 CALL_DATA = {k: dict(v, text=inline(v['text']), sub=inline(v['sub'])) for k, v in CALLOUT.items()}
-data = dict(callouts=CALL_DATA, imgs=IMGS, zoom=ZOOM, names={k: v[0] for k, v in {**CREDITS, **FIG_CREDITS}.items()}, credits={k: v[1] for k, v in {**CREDITS, **FIG_CREDITS}.items()}, scenes=SCENES)
+CAB_DATA = [dict(label=CAB[k], note=CAB_INFO[k][0], z=CAB_INFO[k][1]) for k in sorted(CAB)]
+data = dict(cab=CAB_DATA, callouts=CALL_DATA, imgs=IMGS, zoom=ZOOM, names={k: v[0] for k, v in {**CREDITS, **FIG_CREDITS}.items()}, credits={k: v[1] for k, v in {**CREDITS, **FIG_CREDITS}.items()}, scenes=SCENES)
 page = (tpl.replace('{{BODY}}', body)
            .replace('{{FRAME}}', FRAME).replace('{{TILE}}', TILE)
            .replace('{{DATA}}', json.dumps(data, ensure_ascii=False)))
