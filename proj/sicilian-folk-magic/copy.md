@@ -490,15 +490,17 @@ that it "cannot unfortunately be accepted without criticism". [X2-44, X2-45, X1-
 
 **One saint, two bodies.** Here the cabinet gets crowded, because Lucy's whole body is claimed by two cities. Venice
 says it came from Constantinople after the crusaders sacked that city in 1204; it lies today in the church of San
-Geremia, its face under a silver mask. Metz, in France, says a duke of Spoleto carried it off from Sicily and that it
+Geremia, in a glass case, its face under a silver mask; at the far end her dried feet show. Metz, in France, says a duke of Spoleto carried it off from Sicily and that it
 reached the abbey of St Vincent in 972. Syracuse, where she was buried, has the empty tomb, and borrows the Venetian body
 about once every ten years. Her head is claimed twice too. Thieves who stole the body in Venice in 1981 left the head
 behind; Bourges Cathedral, in France, says the Venetians gave it Lucy's head in 1513. Both doubles are our own count,
-from sources that never compare notes. [X2-47, X2-52, X2-55, X2-59, X2-60, X2-56, X2-51, X2-65]
+from sources that never compare notes. [X2-47, X2-52, X2-55, X2-59, X2-60, X2-56, X2-51, X2-65, X2-157]
 
 **Agatha adds up.** One tourism list counts 31 places outside Catania with a piece of her, yet where the parts can be
 counted, nothing is doubled: two thighbones in Catania, one breast in Catania and one in Galatina. Palermo Cathedral
 holds her arm. [X2-43, X2-41, X2-23, X2-37]
+
+_cabinet louis_
 
 **A king, boiled.** Royalty was divided too. When King Louis IX of France died on crusade at Tunis in 1270, his body was
 dissected and boiled. His bones went to Saint-Denis, near Paris, and his entrails were buried at Monreale, near Palermo.

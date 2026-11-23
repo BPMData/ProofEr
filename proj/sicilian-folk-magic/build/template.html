@@ -256,12 +256,13 @@ function stampOn(c, x, y, sc, line1, line2) {
 }
 function cabinet(c, x, y, sc, filled, total) {      // one drawer per relic the show meets, no spare slots
   c.save(); c.translate(x, y); c.scale(sc, sc);
-  const cols = Math.min(total, 2), rows = Math.ceil(total / cols), dw = 50, dh = 40, gw = cols * dw + (cols - 1) * 6;
+  const cols = Math.min(total, 2), rows = Math.ceil(total / cols), dw = 50, dh = Math.min(40, (92 - 6 * (rows - 1)) / rows), gw = cols * dw + (cols - 1) * 6;
   cut(c, P((c) => { c.moveTo(-70, 70); c.lineTo(-70, -40); c.quadraticCurveTo(0, -95, 70, -40); c.lineTo(70, 70); }), '#d8b45a', 7, 4, 6);
-  for (let i = 0; i < total; i++) { const r = Math.floor(i / cols), k = i % cols, x0 = -gw / 2 + k * (dw + 6), y0 = -30 + r * (dh + 6), on = i < filled;
-    cut(c, P((c) => c.rect(x0, y0, dw, dh)), on ? '#7d1a1f' : '#6b4a2b', 3, 1, 2);
-    if (on) { c.fillStyle = '#f3ead6'; c.beginPath(); c.ellipse(x0 + dw / 2, y0 + dh / 2, 6, 13, 0.5, 0, 7); c.fill(); }
-    else { c.fillStyle = '#d8b45a'; c.beginPath(); c.arc(x0 + dw / 2, y0 + dh / 2, 3, 0, 7); c.fill(); } }
+  for (let i = 0; i < total; i++) { const r = Math.floor(i / cols), k = i % cols, lone = r === rows - 1 && total % cols === 1,   // an odd last drawer spans the row
+    x0 = lone ? -gw / 2 : -gw / 2 + k * (dw + 6), w = lone ? gw : dw, y0 = -30 + r * (dh + 6), on = i < filled;
+    cut(c, P((c) => c.rect(x0, y0, w, dh)), on ? '#7d1a1f' : '#6b4a2b', 3, 1, 2);
+    if (on) { c.fillStyle = '#f3ead6'; c.beginPath(); c.ellipse(x0 + w / 2, y0 + dh / 2, 6 * dh / 40, 13 * dh / 40, 0.5, 0, 7); c.fill(); }
+    else { c.fillStyle = '#d8b45a'; c.beginPath(); c.arc(x0 + w / 2, y0 + dh / 2, 3, 0, 7); c.fill(); } }
   c.restore();
 }
 
@@ -336,7 +337,7 @@ const PROPS = {
     c.save(); c.translate(0, -h * 0.12);
     cut(c, P((c) => c.rect(-2 * s, -h * 1.15, 6 * s, h * 1.1)), '#6b4a2b', 3 * s, 2 * s, 3 * s);
     cut(c, P((c) => { c.moveTo(6 * s, -h * 1.1); c.quadraticCurveTo(bw * 0.38, -h * 0.75, 6 * s, -h * 0.2); }), '#f6efe2', 4 * s, 3 * s, 4 * s);
-    c.save(); c.translate(-bw * 0.2, -h * 0.05); stick(c, s, h); drawImg(c, p[1], h * 0.62, s); c.restore();
+    c.save(); c.translate(-bw * 0.2, -h * 0.05); stick(c, s, h); drawImg(c, p[1], h * 0.85, s); c.restore();
     cut(c, P((c) => { c.moveTo(-bw / 2, -h * 0.12); c.lineTo(bw / 2, -h * 0.12); c.lineTo(bw * 0.37, h * 0.12); c.lineTo(-bw * 0.37, h * 0.12); }), '#8a5a33', 6 * s, 4 * s, 6 * s);
     c.restore(); },
   letter(c, p, h, s) { stick(c, s, STICK); const w = h * 0.8;

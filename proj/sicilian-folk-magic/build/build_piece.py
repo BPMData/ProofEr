@@ -30,7 +30,7 @@ CREDITS = {
     'rosalia': ('Saint Rosalia', 'Anthony van Dyck, <i>Saint Rosalie Interceding for the Plague-stricken of Palermo</i>, 1624 (detail). The Met, 71.41. CC0.'),
     'float': ('Rosalia’s car', 'Jean Houël, <i>The car of Saint Rosalia</i>, aquatint, 1780s. Wellcome Collection, 7145i. Public Domain Mark.'),
     'agatha': ('Saint Agatha', '<i>Saint Agatha</i>, bronze statuette, Italian (probably Naples), mid-17th c. The Met, 197071. CC0.'),
-    'bust': ('A reliquary bust', '<i>Reliquary Bust of Saint Juliana</i>, circle of Giovanni di Bartolo, c. 1376. The Met, 61.266. CC0. A stand-in: Agatha’s own bust in Catania is by Giovanni di Bartolo.'),
+    'bust': ('Agatha’s bust', 'Giovanni di Bartolo, reliquary bust of Saint Agatha, 1376, Catania Cathedral. Photo: Riccardo Spoto, 2007, via Wikimedia Commons; released into the public domain by the author. Cut out for the stage.'),
     'lucy': ('Saint Lucy', 'Francisco de Zurbarán, <i>Saint Lucy</i>, c. 1625/30. National Gallery of Art, 1943.7.11. Public domain.'),
     'joseph': ('Saint Joseph', '<i>St. Joseph</i>, crèche figure, attributed to Salvatore di Franco, Naples, 2nd half 18th c. The Met, 64.164.3a–c. CC0.'),
     'goddess': ('A goddess', 'Terracotta bust (Persephone or Demeter), Greek, made in Sicily, 4th c. BCE. The Met, 1994.600.1–.2. CC0.'),
@@ -40,7 +40,8 @@ CREDITS = {
     'exvoto': ('An ex-voto', 'Ex-voto: a man falls in a Roman street while his wife prays to Sansovino’s Virgin and Child, 27 May 1851. Rome, not Sicily. Wellcome Collection, 44879i. Public Domain Mark.'),
     'angel1': ('An angel', '<i>Angel</i>, crèche figure, Naples, 2nd half 18th c. The Met (crèche angels, 64.164). CC0.'),
 }
-IMGS = {k: webp(k) for k in CREDITS if k not in ('frame', 'float', 'exvoto')}
+IMGS = {k: webp(k) for k in CREDITS if k not in ('frame', 'float', 'exvoto', 'bust')}
+IMGS['bust'] = webp('agathabust')   # the real bust (Bryan's photo, Nov 23); bust.png is the old Juliana stand-in
 IMGS['float'] = webp('float', 520)
 IMGS['exvoto'] = webp('exvoto', 520)
 IMGS['angel1m'] = webp('angel1', mirror=True)
@@ -49,12 +50,14 @@ FRAME = webp('frame', 640)
 # ---------- zoom (Bryan, Nov 23: click a painting or statue to see it up close) ----------
 # Embedded, not hotlinked: ProofEr pieces load nothing from the internet (CLAUDE.md; check_offline.py and CI).
 ZOOM_SRC = {'rosalia': ('01-rosalia-vandyck', 1400), 'float': ('02-houel-car-rosalia', 1400), 'agatha': ('03-agatha-bronze', 1000),
-            'bust': ('04-bust-front', 1000), 'lucy': ('05-lucy-zurbaran', 1400), 'joseph': ('06-joseph', 1000),
+            'bust': ("Busto_di_Sant'Agata.jpg", 1400), 'lucy': ('05-lucy-zurbaran', 1400), 'joseph': ('06-joseph', 1000),
             'goddess': ('07-goddesses-front', 1000), 'isis': ('08-isis-front', 1000), 'albarello': ('09-albarello-front', 1000),
             'exvoto': ('11-exvoto', 1400), 'angel1': ('12-angel-1', 1000)}
 ZOOM_QUALITY = 62
-def zoomimg(name, side):
-    im = Image.open(P('art', 'originals', name + '.jpg')).convert('RGB')
+def zoomimg(name, side, crop=None):
+    im = Image.open(P('art', 'originals', name if '.' in name else name + '.jpg')).convert('RGB')
+    if crop:
+        L, T, R, B = crop; im = im.crop((int(L * im.width), int(T * im.height), int(R * im.width), int(B * im.height)))
     im.thumbnail((side, side), Image.LANCZOS)
     b = io.BytesIO(); im.save(b, 'WEBP', quality=ZOOM_QUALITY, method=6)
     return 'data:image/webp;base64,' + base64.b64encode(b.getvalue()).decode()
@@ -88,6 +91,22 @@ def figthumb(name, side=760):
 for k, v in FIGS.items():
     ZOOM[k] = zoomimg(v[0], 1600 if k == 'bosch' else 1200)
 FIG_CREDITS = {k: (v[1], v[3]) for k, v in FIGS.items()}
+
+# ---------- relic photos for the cabinet (Bryan's files and licences, Nov 23) ----------
+# key: (original file, zoom side, crop or None, name, credit). CC licences need the author, the licence link and a note of changes.
+def cc(code, ver):
+    return f'<a href="https://creativecommons.org/licenses/{code}/{ver}/">CC {code.upper()} {ver}</a>'
+RELICS = {
+    'lettera': ('Virgin-to-Messina-1674-78_Bibliotheca_Fictiva_nr._8699204.png', 1600, None, 'The Letter, copied out',
+                '<i>Lettera di Maria Vergine ai Messinesi</i>, manuscript, Messina(?), about 1674–78. Bibliotheca Fictiva '
+                'Collection, Sheridan Libraries, Johns Hopkins University. Public domain. No photo of the hair relic itself was found.'),
+    'lucybody': ('The_relics_of_Santa_Lucia,_Chiesa_di_San_Geremia,_Venice_(37060531904).jpg', 1600, None, 'Lucy in Venice',
+                 'The relics of Saint Lucy, church of San Geremia, Venice, 2017. Photo: Dimitris Kamaras, ' + cc('by', '2.0') + '. Resized.'),
+    'louis': ('Tomb_of_Louis_IX_of_France_-_Cathedral_of_Monreale_-_Italy_2015_(2).jpeg', 1600, None, 'Louis IX at Monreale',
+              'Tomb of Louis IX, Monreale Cathedral, 2015. © José Luiz Bernardes Ribeiro / ' + cc('by-sa', '4.0') + '. Resized.'),
+}
+for k, v in RELICS.items(): ZOOM[k] = zoomimg(v[0], v[1], v[2])
+FIG_CREDITS.update({k: (v[3], v[4]) for k, v in RELICS.items()})
 def figure_html(k):
     f = FIGS[k]
     return (f'<figure class="infig"><button type="button" class="figbtn" data-z="{k}" aria-label="See {html.escape(f[1])} up close">'
@@ -230,6 +249,8 @@ for sec in sections:
         lines = p.split('\n')
         if p.startswith('>'):
             continue  # margin voices cut (Bryan, Nov 23)
+        elif re.match(r'_cabinet \w+_$', p.strip()):
+            blocks.append(f'{{{{CAB:{p.strip()[9:-1]}}}}}')   # a drawer fills partway through the section
         elif re.match(r'_scene \d+_$', p.strip()):
             blocks.append(f'{{{{BEAT:{p.strip()[7:-1]}}}}}')   # stage switches partway through the section
         elif re.match(r'_figure \w+_$', p.strip()):
@@ -482,13 +503,20 @@ SCENES = {
                                          ['img', 'lucy', 70, 56], ['img', 'joseph', 81, 58], ['img', 'angel1m', 90, 50]]),
     13: dict(curtain=True, cast=[]),
 }
-CAB = {4: 'Agatha’s body · Catania', 5: 'Rosalia’s bones · Palermo', 6: 'Mary’s hair · Messina', 10: 'Lucy’s body · Venice, or Metz'}
+CAB = {4: 'Agatha’s body · Catania', 5: 'Rosalia’s bones · Palermo', 6: 'Mary’s hair · Messina', 10: 'Lucy’s body · Venice, or Metz',
+       'louis': 'Louis IX’s insides · Monreale'}
+CAB_ORDER = [4, 5, 6, 10, 'louis']   # the order a reader meets them
 # What each drawer holds, shown in the cabinet pop-up (our words; sources in the acts). z = a zoom picture key, once cleared.
 CAB_INFO = {
-    4: ('Most of her bones, in a jewelled silver bust of 1376, carried through Catania on her feast days.', ''),
+    4: ('Most of her bones, in a jewelled silver bust of 1376, carried through Catania on her feast days. The jewels are '
+        'gifts left over the centuries.', 'bust'),
     5: ('Bones found in a cave in 1624 and credited with ending the plague; they ride in a silver urn.', ''),
-    6: ('A lock of hair said to be Mary’s, tied to a letter the legend says she wrote to Messina.', ''),
-    10: ('Claimed whole by two cities at once. Syracuse, where she was buried, keeps the empty tomb.', ''),
+    6: ('A lock of hair said to be Mary’s, kept in a small gold case and carried on the June float. No photo of it turned '
+        'up, so here is a 1670s copy of the Letter it came with.', 'lettera'),
+    10: ('Claimed whole by two cities at once. In Venice she lies under glass, face hidden by a silver mask; at the far end '
+         'her bare, dried feet show. Syracuse, where she was buried, keeps the empty tomb.', 'lucybody'),
+    'louis': ('The French king died on crusade in 1270; his entrails were buried here, his bones went to Paris. Whether the '
+              'entrails are still in this tomb is not settled.', 'louis'),
 }
 
 # ---------- sections html ----------
@@ -514,10 +542,15 @@ myth-checks.</p></div></header>'''
     else:
         h = f'<h2>{inline(t)}</h2>'
     cab = f' data-cabinet="{html.escape(CAB[n])}"' if n in CAB else ''
-    inner, open_beat = [], False
+    inner, open_beat, beat_scene = [], False, n
     for b in s['blocks']:
-        m = re.match(r'\{\{BEAT:(\d+)\}\}$', b)
-        if m:
+        m = re.match(r'\{\{BEAT:(\d+)\}\}$', b) or re.match(r'\{\{CAB:(\w+)\}\}$', b)
+        if m and b.startswith('{{CAB'):
+            if open_beat:
+                inner.append('</div>')
+            inner.append(f'<div class="beat" data-scene="{beat_scene}" data-cabinet="{html.escape(CAB[m.group(1)])}">'); open_beat = True
+        elif m:
+            beat_scene = m.group(1)
             if open_beat:
                 inner.append('</div>')
             inner.append(f'<div class="beat" data-scene="{m.group(1)}">'); open_beat = True
@@ -584,7 +617,7 @@ for n, sc in SCENES.items():
                    {0: 'Saints & Spells', 1: 'Overture', 14: 'Overture', 15: 'Overture', 2: 'The goddess story', 3: 'Sicily 101', 12: 'Curtain call', 13: 'Sources'}.get(n, ''))
     sc['title'] = {7: 'Act 4 · St Joseph', 10: 'Act 7 · Relics', 11: 'Act 8 · Americas'}.get(n, sc['title'])
 CALL_DATA = {k: dict(v, text=inline(v['text']), sub=inline(v['sub'])) for k, v in CALLOUT.items()}
-CAB_DATA = [dict(label=CAB[k], note=CAB_INFO[k][0], z=CAB_INFO[k][1]) for k in sorted(CAB)]
+CAB_DATA = [dict(label=CAB[k], note=CAB_INFO[k][0], z=CAB_INFO[k][1]) for k in CAB_ORDER]
 data = dict(cab=CAB_DATA, callouts=CALL_DATA, imgs=IMGS, zoom=ZOOM, names={k: v[0] for k, v in {**CREDITS, **FIG_CREDITS}.items()}, credits={k: v[1] for k, v in {**CREDITS, **FIG_CREDITS}.items()}, scenes=SCENES)
 page = (tpl.replace('{{BODY}}', body)
            .replace('{{FRAME}}', FRAME).replace('{{TILE}}', TILE)

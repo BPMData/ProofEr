@@ -1,6 +1,6 @@
 # STATUS: Sicilian folk magic
 
-_Last updated: Nov 23, 2026 (late)._
+_Last updated: Nov 23, 2026 (evening)._
 
 - **Stage:** build done, on branch `claude/project-thread-gi5ppk` (not merged, not published). Brief approved Nov 22
   (Bryan, with amendments); layout approved Nov 23 ("Lock it in").
@@ -38,5 +38,10 @@ _Last updated: Nov 23, 2026 (late)._
   Nicaea 787, pilgrimage, the trade, *furta sacra*; Lateran 1215, Trent 1563; Calvin 1543 and Krasinski's footnote;
   2017 rules; one stamp on "first/second/third-class"). Relic cabinet: one drawer per relic (4), no empty slots, fill
   read from scroll position so fast scrolling can't desync it; tap it for a list with a note per relic. "The boat:
-  drawn for this page" tooltip removed. **Waiting on Bryan:** photo files for the real Agatha bust (to replace the
-  Juliana stand-in) and for each cabinet relic; the proxy blocks Commons downloads. Then Act 8.
+  drawn for this page" tooltip removed.
+- **Nov 23 evening:** Bryan's relic photos (art/originals, licences in figures X1-252). The real Agatha bust replaces the
+  Juliana stand-in on the stage (`make_cutouts.py`, `agathabust`); cabinet drawers open photos of the bust, the Messina
+  Letter manuscript (no photo of the hair exists), Lucy in Venice (her feet show) and Louis IX's tomb, which gets a
+  fifth drawer (copy `_cabinet louis_`). Page now 3.2 MB. Research reports behind today's revisions saved as
+  `research/H-revision-reads.md`. **Waiting on Bryan:** the author of the Rosalia urn photo (CC BY-SA needs the name);
+  it stays out until then. Then Act 8.

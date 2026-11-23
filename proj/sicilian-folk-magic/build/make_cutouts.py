@@ -24,8 +24,9 @@ ITEMS = {
     'frame':     ('10-frame.jpg',            (0.0, 0.0, 1.0, 1.0), 'cut'),
     'exvoto':    ('11-exvoto.jpg',           (0.0, 0.0, 1.0, 1.0), 'print'),
     'angel1':    ('12-angel-1.jpg',          (0.0, 0.0, 1.0, 1.0), 'cut'),
+    'agathabust': ("Busto_di_Sant'Agata.jpg", (0.0, 0.07, 0.92, 1.0), 'cut'),   # the real bust, Catania (Bryan's photo, Nov 23)
 }
-ONLY = []
+ONLY = []                # e.g. ['agathabust'] to redo one
 # 'disc' items: (centre x, centre y, radius) in source pixels, plus the hanging string as a box
 DISCS = {}
 HOLLOW = ['frame']      # cut the bright mirror out of the middle (the frame becomes a window)                # e.g. ['rosalia'] to redo one
