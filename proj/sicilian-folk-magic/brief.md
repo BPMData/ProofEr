@@ -1,6 +1,6 @@
 # Brief: Sicilian folk magic (working title)
 
-Status: DRAFT · Stage: brief · Mode: from scratch · Budget: standard to deep · Client: Bryan Murphy · Sign-off: Bryan
+Status: APPROVED Nov 22, 2026 by Bryan (with amendments) · Stage: research · Mode: from scratch · Budget: standard to deep · Client: Bryan Murphy · Sign-off: Bryan
 Usage: Opus 5.5 (Claude Duet thread) · interview: not measured (the Duet app shows no per-stage share)
 
 _Made from `brief/TEMPLATE.md`. **ASK** = missing, **DRAFT** = Claude's draft, **Claude's call** = delegated by the
@@ -12,7 +12,7 @@ client. Quotes are Bryan's own words, Nov 22, 2026._
 - **Format:** "medium to long scrolling interactive essay", published on the ProofEr site (`pieces/`, linked from
   `index.html`).
 - **Audience:** "bored history nerds on mobile or pc"; "educated, clever, witty adults".
-- **By when:** no deadline given (**ASK**: confirm). Byline date: Nov 22, 2026 ("todays date").
+- **By when:** no deadline (Bryan). Byline date: Nov 22, 2026 ("todays date").
 
 ## 2. Purpose and tone
 - **Know:** "how italian catholicism absorbed local pre extant indigenous traditions, and what sicilian catholics
@@ -21,8 +21,12 @@ client. Quotes are Bryan's own words, Nov 22, 2026._
 - **Do:** nothing asked for (**DRAFT**: a sources and further-reading list is the next step for the curious).
 - **Stance:** "No need to be disrespectful but no need to pretend this shit is 100% real. More like a cultural
   anthropologist analyzing the mechanism of transfer and syncretism respectfully but without ascribing to it. Just a
-  hint of Barnes and noble white girl tarot card self help mysticism energy." The wink and the field manual at once;
-  the piece explains how practices moved and merged and never claims the magic works. The tarot-shop mysticism is a
+  hint of Barnes and noble white girl tarot card self help mysticism energy."
+- **Amended at approval:** "Not that doesnt believe a word of it. More like scully and mulder from xfiles combined:
+  acknowledge the optics of it but secretly DL "i want to believe." I mean, some sicilians think the charms work
+  magic so the belief should be clearly defined." So: Scully's eye for the evidence and the optics, Mulder's quiet
+  wish that it's true. The piece never claims the magic works and never sneers that it doesn't; where people believe
+  a charm works, it says so plainly, as their belief, with what they believe it does. The tarot-shop mysticism is a
   hint of flavor, not the voice.
 - **Tone words:** upbeat, dynamic, eclectic, erudite, fun, occultist. **Must not feel like:** homework, a sneer at
   believers, or a sincere spellbook.
@@ -39,17 +43,19 @@ client. Quotes are Bryan's own words, Nov 22, 2026._
   why scholars argue about them) before the examples make sense. Its questions are in the first research pass (Q5).
 - **Landmines.** Bryan: "yeah neither of those examples. Tbh i trust your judgement on this one be normal about it."
   His two: never "Sicilians are superstitious peasants"; never treat living practitioners as a museum exhibit. The
-  rest is **DRAFT** for his approval:
-  - **DRAFT** No mafia, *Godfather* or crime framing; organized crime appears only if research ties it to a specific
+  rest Claude drafted and Bryan approved ("yes with my amendments above"):
+  - No mafia, *Godfather* or crime framing; organized crime appears only if research ties it to a specific
     practice, and then as a sourced fact, not flavor.
-  - **DRAFT** No claim that a practice "survived unbroken from pagan antiquity" unless the sources trace it; legends
+  - No claim that a practice "survived unbroken from pagan antiquity" unless the sources trace it; legends
     the research can't back get a myth-check label (T10).
-  - **DRAFT** Jokes aim at relic markets, institutions, marketing and myths (`clients/bryan.md`), never at the faith
+  - Jokes aim at relic markets, institutions, marketing and myths (`clients/bryan.md`), never at the faith
     of living Catholics or practitioners.
-  - **DRAFT** No instructions presented as working magic; charms are quoted as recorded texts, with their source.
-  - **DRAFT** No "backward South" or North/South Italy ranking.
-  - **DRAFT** Inquisition and witch-trial defendants are people, not punchlines.
-  - **DRAFT** No photos of identifiable living people at rituals unless the license allows it.
+  - The piece doesn't present a charm as working magic in its own voice, and doesn't dismiss it either: belief is
+    defined clearly as belief ("practitioners hold that ..."), with what it is for and who holds it; charms are quoted
+    as recorded texts, with their source.
+  - No "backward South" or North/South Italy ranking.
+  - Inquisition and witch-trial defendants are people, not punchlines.
+  - No photos of identifiable living people at rituals unless the license allows it.
 
 ## 5. The questions the numbers must answer
 Bryan: "we can downplay the numbers and strict figures for this one. Dates in history, counts of saints and feast
@@ -64,8 +70,8 @@ essay, and the stories carry the reader. Every date, name, count and quoted char
 | Q3 | How many saints, feast days and processions does Sicily keep, and which are said to sit on older cults, with what evidence? | main | Shows the scale of the saint calendar and where the syncretism claims cluster. |
 | Q4 | How many churches hold reliquaries, and how many claim the same relic? ("how many fingerbones can one dead saint have?") | main | The essay's best running joke, and a real story about relic markets. |
 | Q5 | Primer: what do "syncretism", "folk Catholicism" and "pagan survival" mean, and where do scholars disagree? | main (primer) | Readers need the mechanism before the examples. |
-| Q6 | **DRAFT** What do Inquisition records and ethnography say about folk healers, the evil eye and the *donne di fuora*, and how many cases are recorded? | **ASK** (main or side) | The best-documented meeting point of Church and folk magic. |
-| Q7 | Is there a real connection between Sicilian and Latin American Catholicism ("They both love hella candles and gaudy shit")? Shared Spanish rule, baroque, saints? | side (**ASK**) | Bryan asked in passing; a side note until he says main (T13). |
+| Q6 | What do Inquisition records and ethnography say about folk healers, the evil eye and the *donne di fuora*, and how many cases are recorded? | main | Bryan: "main point, how could they not be?" The best-documented meeting point of Church and folk magic. |
+| Q7 | Is there a real connection between Sicilian and Latin American Catholicism ("They both love hella candles and gaudy shit")? Shared Spanish rule, baroque, saints? | main if the research shows substance, otherwise side | Bryan: "maybe a main point towards the end of the piece, if there's substance there as shown by the research. Otherwise side note." |
 
 ## 6. Research plan
 - **Changed from the repo default (Bryan):** "You run the research tasks yourself via yourself or subagents, I want to
@@ -134,10 +140,7 @@ and tablet widths.
 Bryan signs off. Success: readers leave "edified, amused and edutained".
 
 ## 18. Open questions
-1. No deadline, right?
-2. Approve the DRAFT landmines in §4.
-3. Q6 (trial records and healers): main or side?
-4. Q7 (Sicilian and Latino Catholicism): side note, or main?
+None at approval. Research may raise disputed figures for Bryan to settle.
 
 ## Decisions log
 - Nov 22 · "medium to long scrolling interactive essay"; "bored history nerds on mobile or pc ... Should also work on
@@ -149,3 +152,7 @@ Bryan signs off. Success: readers leave "edified, amused and edutained".
   his approval.
 - Nov 22 · know/feel, look ("baroque sicilian x ... rock of ages"), credit ("bryan murphy, todays date"), language
   ("English only, sicilian where appropriate but each term is defined") · brief drafted, Stage: brief.
+- Nov 22 · approved: "yes with my amendments above"; voice "scully and mulder from xfiles combined: acknowledge the
+  optics of it but secretly DL "i want to believe""; "some sicilians think the charms work magic so the belief
+  should be clearly defined"; "no deadline"; trials and healers "main point, how could they not be?"; Latino link
+  "maybe a main point towards the end of the piece, if there's substance there" · Status APPROVED, Stage: research.
