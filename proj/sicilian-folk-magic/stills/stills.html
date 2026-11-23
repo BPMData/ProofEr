@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Saints and Spells Stills</title>
+<!-- Layout stills for proj/sicilian-folk-magic (layout.md). Mockups only; fonts load from Google Fonts here and are inlined at build. -->
+</head>
+<body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gloock&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap">
+<style>
+  /* Layout: a review sheet of three real-size frames (two phones, one desktop), each scaled down to fit, with one line on what it proves */
+  :root {
+    --tile:#efe4c8; --plaster:#fcf9f2; --ink:#2a1d16; --ink-soft:#5f4b3e; --blue:#1d4f8a; --red:#a3171f; --gold:#e3a82f;
+    --night:#1c1020; --night2:#3a1416; --candle:#f4d27c; --night-ink:#f3e8d8; --night-soft:#cdb9a3;
+    --sheet:#e9e2d3; --sheet-ink:#2a1d16; --sheet-dim:#665648; --rule:#cfc3ad;
+    --display:"Gloock", "Bodoni 72", Didot, Georgia, serif; --body:"Literata", Georgia, "Times New Roman", serif;
+  }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --sheet:#15110e; --sheet-ink:#f1e8da; --sheet-dim:#b5a691; --rule:#3a3129; color-scheme:dark; } }
+  :root[data-theme="dark"] { --sheet:#15110e; --sheet-ink:#f1e8da; --sheet-dim:#b5a691; --rule:#3a3129; color-scheme:dark; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--sheet); color:var(--sheet-ink); font:16px/1.5 var(--body); }
+  .sheet { max-width:1500px; margin:0 auto; padding-block:28px 48px; padding-left:max(16px, env(safe-area-inset-left, 0px)); padding-right:max(16px, env(safe-area-inset-right, 0px)); display:grid; gap:28px; }
+  .sheet > header h1 { font:400 clamp(28px, 4vw, 44px)/1.1 var(--display); margin:0 0 6px; text-wrap:balance; }
+  .sheet > header p { margin:0; color:var(--sheet-dim); max-width:72ch; }
+  .row { display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:28px; }
+  @media (max-width:820px) { .row { grid-template-columns:1fr; } }
+  figure { margin:0; min-width:0; display:grid; gap:10px; align-content:start; }
+  figcaption { color:var(--sheet-dim); font-size:15px; max-width:60ch; }
+  figcaption b { color:var(--sheet-ink); }
+  .fit { position:relative; width:100%; overflow:hidden; border-radius:6px; box-shadow:0 1px 0 var(--rule), 0 10px 30px rgba(0,0,0,.18); }
+  .row .fit { max-width:390px; }
+  .fit > .frame { position:absolute; left:0; top:0; transform-origin:0 0; overflow:hidden; }
+
+  /* the piece itself (inside frames) */
+  .frame { background:var(--tile); color:var(--ink); font:17px/1.55 var(--body); }
+  .frame canvas { display:block; }
+  .card { background:var(--plaster); margin:0 14px; padding:20px 20px 22px; border-radius:3px; box-shadow:0 6px 0 rgba(42,29,22,.12), 0 0 0 5px var(--plaster), 0 8px 16px rgba(42,29,22,.25); position:relative; }
+  .kicker { font:600 12px/1.2 var(--body); letter-spacing:.14em; text-transform:uppercase; color:var(--blue); }
+  .frame h2 { font:400 34px/1.08 var(--display); margin:6px 0 10px; text-wrap:balance; }
+  .frame p { margin:0 0 12px; }
+  .gl { color:var(--blue); text-decoration:underline; text-decoration-thickness:2px; text-underline-offset:3px; font-style:italic; }
+  .byline { font-size:14px; color:var(--ink-soft); }
+  .acts { display:flex; flex-wrap:wrap; gap:6px; margin-top:14px; }
+  .acts span { font-size:12px; padding:3px 8px; border:1.5px solid var(--ink); border-radius:2px; background:#fff; }
+  .acts span.on { background:var(--gold); }
+  .night { background:linear-gradient(var(--night), var(--night2)); color:var(--night-ink); }
+  .night .card { background:#241519; color:var(--night-ink); box-shadow:0 0 0 5px #241519, 0 8px 16px rgba(0,0,0,.5); }
+  .night .kicker { color:var(--candle); }
+  .night .gl { color:#9cc3f2; }
+  .pop { position:absolute; left:16px; right:16px; background:var(--plaster); color:var(--ink); border:2px solid var(--blue); padding:10px 12px; font-size:14px; line-height:1.45; box-shadow:0 8px 20px rgba(0,0,0,.45); border-radius:3px; }
+  .pop b { color:var(--blue); font-style:italic; }
+  .chartcap { font-size:13px; line-height:1.4; color:var(--night-soft); margin-top:6px; }
+  .stamp { display:inline-block; border:3px solid var(--red); color:var(--red); padding:6px 10px 5px; font:400 15px/1.25 var(--display); letter-spacing:.06em; text-transform:uppercase; transform:rotate(-3deg); background:rgba(255,255,255,.5); }
+  .stamp small { display:block; font:600 11px/1.3 var(--body); letter-spacing:.08em; }
+  .myth { display:grid; grid-template-columns:auto minmax(0,1fr); gap:14px; align-items:center; margin:16px 0; padding:12px; background:#f6ecdc; border-radius:2px; }
+  .myth p { margin:0; font-size:15px; line-height:1.45; }
+  .voices { display:grid; gap:8px; margin-top:14px; }
+  .voice { font-style:italic; padding:8px 12px; background:#fff; border-radius:16px; width:fit-content; box-shadow:0 2px 0 rgba(42,29,22,.15); font-size:15px; }
+  .voice.m { color:#24406e; } .voice.s { color:#7a2a1c; margin-left:auto; }
+  .voice span { font-style:normal; font-size:11px; letter-spacing:.1em; text-transform:uppercase; margin-right:6px; color:var(--ink-soft); }
+  .note-draft { font:600 11px/1 var(--body); letter-spacing:.12em; text-transform:uppercase; position:absolute; right:10px; bottom:10px; background:var(--ink); color:var(--plaster); padding:4px 7px; border-radius:2px; }
+  @media (prefers-reduced-motion: reduce) { * { animation:none !important; } }
+</style>
+
+<main class="sheet">
+  <header>
+    <h1>Saints &amp; Spells: stills</h1>
+    <p>Three frames at their real size, scaled to fit your screen. The puppets are drawn stand-ins for cutouts from public-domain paintings, and the words are draft copy. Everything else (type, colors, where things sit) is what the build will use.</p>
+  </header>
+
+  <div class="row">
+    <figure>
+      <div class="fit" data-w="390" data-h="844">
+        <div class="frame" id="f1" style="width:390px;height:844px">
+          <canvas id="c1" width="390" height="470" style="width:390px;height:470px"></canvas>
+          <div class="card" style="margin-top:-28px">
+            <div class="kicker">A show in eight acts</div>
+            <h2>Under every saint, a goddess?</h2>
+            <p>That’s the story Sicily gets told about itself. We put every claim on stage and check it: who said it first, and what the record shows.</p>
+            <div class="byline">By Bryan Murphy · November 22, 2026</div>
+            <div class="acts"><span class="on">Overture</span><span>Primer</span><span>Catania</span><span>Palermo</span><span>Messina</span><span>St Joseph</span><span>The dead</span><span>Healers</span><span>Relics</span><span>Americas</span></div>
+          </div>
+          <div class="note-draft">Draft copy</div>
+        </div>
+      </div>
+      <figcaption><b>1. Phone, curtain up (390 × 844).</b> The stage holds the top half and stays put while the text scrolls under it. Each puppet rides a visible stick, pushed up through the stage floor.</figcaption>
+    </figure>
+
+    <figure>
+      <div class="fit" data-w="390" data-h="844">
+        <div class="frame night" id="f2" style="width:390px;height:844px">
+          <canvas id="c2" width="390" height="300" style="width:390px;height:300px"></canvas>
+          <div class="card" style="margin-top:-14px">
+            <div class="kicker">Act 6 · Night</div>
+            <h2>Witches, healers and the evil eye</h2>
+            <p>From 1487 to 1782 Sicily had its own court of the Spanish Inquisition, answering to Madrid. It tried about 6,000 to 7,000 people, and about 1,000 of them for magic or witchcraft. Dozens of <span class="gl">donne di fuora</span> stood trial there.</p>
+            <canvas id="c2b" width="350" height="250" style="width:350px;height:250px"></canvas>
+            <div class="chartcap">One square = 10 people tried. Hatched squares: the range between sources. One dot = one person executed, any charge, 1540–1700.</div>
+          </div>
+          <div class="pop" style="top:476px"><b>donne di fuora</b> · “ladies from outside”: fairy women in Sicilian belief, and the healers who said they went out with them.</div>
+          <div class="note-draft">Draft copy</div>
+        </div>
+      </div>
+      <figcaption><b>2. Phone, Act 6 at night (390 × 844).</b> The densest section: candle wall, a myth-check stamp, the trial chart and a tapped gloss. Night text is cream on plum-black, well past AA.</figcaption>
+    </figure>
+  </div>
+
+  <figure>
+    <div class="fit" data-w="1440" data-h="900">
+      <div class="frame" id="f3" style="width:1440px;height:900px;display:grid;grid-template-columns:720px 1fr">
+        <canvas id="c3" width="720" height="900" style="width:720px;height:900px"></canvas>
+        <div style="padding:70px 70px 0 56px;overflow:hidden">
+          <div class="card" style="margin:0;max-width:560px">
+            <div class="kicker">Act 1 · Catania</div>
+            <h2 style="font-size:46px">Agatha goes away, and comes back</h2>
+            <p>Around 1040 the Byzantine general George Maniakes took Agatha’s body from Catania to Constantinople. On 17 August 1126 two soldiers, Gislebertus and Goselinus, brought it home. The clergy met it <i>“nudis pedibus et in albis vestibus”</i>: barefoot, in white.</p>
+            <p>That makes 2026 the 900th year. Catania still runs into the street for her every February, in the white robe called the <span class="gl">sacco</span>.</p>
+            <div class="myth">
+              <div class="stamp">Myth-check<small>first claimed 1823</small></div>
+              <p>“Agatha is Ceres in disguise.” The English writer J. J. Blunt said it first, and admitted he couldn’t prove it. Scholars today reject it.</p>
+            </div>
+            <div class="voices">
+              <div class="voice m"><span>Mulder</span>A goddess who saves a city from a volcano? I want to believe.</div>
+              <div class="voice s"><span>Scully</span>Show me a source older than 1823.</div>
+            </div>
+          </div>
+        </div>
+        <div class="note-draft">Draft copy</div>
+      </div>
+    </div>
+    <figcaption><b>3. Desktop, Act 1 (1440 × 900).</b> Stage on the left, text on the right. The relic cabinet in the stage’s corner gets its first drawer here and fills as the show goes on.</figcaption>
+  </figure>
+</main>
+
+<script>
+// ---------- fit frames to the sheet ----------
+function fitAll() {
+  document.querySelectorAll('.fit').forEach((f) => {
+    const W = +f.dataset.w, H = +f.dataset.h, s = Math.min(1, f.clientWidth / W);
+    f.style.height = (H * s) + 'px'; f.firstElementChild.style.transform = 'scale(' + s + ')';
+  });
+}
+addEventListener('resize', fitAll); fitAll();
+
+// ---------- cut-paper helpers ----------
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const RIM = '#f7f0e0', SHADOW = 'rgba(30,12,0,.3)';
+function cut(c, path, fill, rim = 11, dx = 7, dy = 10) {
+  c.save(); c.translate(dx, dy); path(c); c.fillStyle = SHADOW; c.fill(); c.lineWidth = rim; c.strokeStyle = SHADOW; c.lineJoin = 'round'; c.stroke(); c.restore();
+  path(c); c.lineJoin = 'round'; c.lineWidth = rim; c.strokeStyle = RIM; c.stroke(); c.fillStyle = fill; c.fill();
+}
+const P = (fn) => (c) => { c.beginPath(); fn(c); c.closePath(); };
+const circ = (x, y, r) => P((c) => c.arc(x, y, r, 0, Math.PI * 2));
+// stick puppet; o.stick = stick length below the hem
+function puppet(c, x, y, s, rot, o) {
+  c.save(); c.translate(x, y); c.rotate(rot); c.scale(s, s);
+  cut(c, P((c) => c.rect(-7, 120, 14, o.stick || 300)), '#7a5432', 6);
+  cut(c, P((c) => { c.moveTo(-50, -18); c.lineTo(50, -18); c.quadraticCurveTo(70, 80, 92, 170); c.quadraticCurveTo(0, 190, -92, 170); c.quadraticCurveTo(-70, 80, -50, -18); }), o.robe);
+  cut(c, P((c) => { c.moveTo(-56, -20); c.quadraticCurveTo(-20, 60, 30, 172); c.quadraticCurveTo(-60, 178, -94, 168); c.quadraticCurveTo(-74, 70, -56, -20); }), o.mantle, 7, 3, 4);
+  if (o.halo) { c.save(); c.translate(0, -66); cut(c, P((c) => { for (let i = 0; i < 24; i++) { const a = i / 24 * Math.PI * 2, r = i % 2 ? 50 : 62; c.lineTo(Math.cos(a) * r, Math.sin(a) * r); } }), o.halo, 6, 3, 4); c.restore(); }
+  cut(c, circ(0, -66, 34), o.skin, 8, 3, 5);
+  c.beginPath(); c.arc(0, -72, 37, Math.PI * 1.02, Math.PI * 1.98); c.lineTo(30, -40); c.quadraticCurveTo(0, -96, -30, -40); c.closePath(); c.fillStyle = o.hair; c.fill();
+  c.fillStyle = '#2a1a10'; c.beginPath(); c.arc(-11, -64, 3.4, 0, 7); c.arc(11, -64, 3.4, 0, 7); c.fill();
+  c.strokeStyle = '#8a3b2a'; c.lineWidth = 3; c.beginPath(); c.arc(0, -52, 8, 0.2, Math.PI - 0.2); c.stroke();
+  c.save(); c.translate(42, -8); c.rotate(o.arm);
+  cut(c, P((c) => c.roundRect(-13, -10, 26, 92, 12)), o.robe, 7, 3, 4); cut(c, circ(0, 90, 13), o.skin, 6, 2, 3);
+  if (o.item) o.item(c);
+  // the control rod on the hand
+  c.strokeStyle = '#7a5432'; c.lineWidth = 5; c.beginPath(); c.moveTo(0, 96); c.lineTo(o.rodX || 40, o.rodY || 330); c.stroke();
+  c.restore(); c.restore();
+}
+const palm = (c) => cut(c, P((c) => { c.moveTo(-3, 90); c.quadraticCurveTo(-30, 10, 10, -70); c.quadraticCurveTo(-8, 10, 6, 92); }), '#4f7f3a', 6, 3, 3);
+const herbs = (c) => { for (let i = -1; i <= 1; i++) cut(c, P((c) => { c.moveTo(0, 96); c.quadraticCurveTo(i * 20, 40, i * 26, -20); c.lineTo(i * 26 + 10, -14); c.quadraticCurveTo(i * 16 + 6, 40, 6, 96); }), '#6f9a4a', 4, 2, 2); };
+function tiles(c, W, H, sz) {
+  c.fillStyle = '#efe4c8'; c.fillRect(0, 0, W, H);
+  for (let y = 0; y < H; y += sz) for (let x = 0; x < W; x += sz) {
+    const m = sz / 2, r = sz * 0.16;
+    c.fillStyle = ((x + y) / sz) % 2 ? '#1d4f8a' : '#e3a82f';
+    c.beginPath(); for (let k = 0; k < 4; k++) { const a = k * Math.PI / 2; c.moveTo(x + m, y + m); c.arc(x + m + Math.cos(a) * sz * .22, y + m + Math.sin(a) * sz * .22, r, 0, 7); } c.fill();
+    c.fillStyle = '#2f6b45'; c.beginPath(); c.moveTo(x + m, y + m - sz * .16); c.lineTo(x + m + sz * .16, y + m); c.lineTo(x + m, y + m + sz * .16); c.lineTo(x + m - sz * .16, y + m); c.fill();
+    c.strokeStyle = 'rgba(29,79,138,.3)'; c.lineWidth = 1.5; c.strokeRect(x, y, sz, sz);
+  }
+}
+function proscenium(c, L, T, R, B, floorY) {
+  c.fillStyle = '#2a0f12'; c.beginPath(); c.moveTo(L, B); c.lineTo(L, T + 60); c.quadraticCurveTo((L + R) / 2, T - 60, R, T + 60); c.lineTo(R, B); c.fill();
+  const g = c.createRadialGradient((L + R) / 2, floorY - 80, 20, (L + R) / 2, floorY - 80, (R - L) * .7); g.addColorStop(0, 'rgba(255,200,120,.38)'); g.addColorStop(1, 'rgba(255,200,120,0)'); c.fillStyle = g; c.fillRect(L, T - 60, R - L, B - T + 60);
+}
+function curtains(c, L, T, R, B, sc) {
+  for (const side of [-1, 1]) { const x0 = side < 0 ? L - 20 * sc : R + 20 * sc;
+    cut(c, P((c) => { c.moveTo(x0, T); c.lineTo(x0 - side * 120 * sc, T); c.quadraticCurveTo(x0 - side * 80 * sc, (T + B) / 2, x0 - side * 34 * sc, B); c.lineTo(x0, B); }), '#b0242b', 7 * sc, 4 * sc, 6 * sc); }
+  cut(c, P((c) => { c.moveTo(L - 30 * sc, T - 30 * sc); c.lineTo(R + 30 * sc, T - 30 * sc); c.lineTo(R + 30 * sc, T + 24 * sc); const n = 7, step = (R - L + 60 * sc) / n; for (let k = 0; k < n; k++) { const x = R + 30 * sc - k * step; c.quadraticCurveTo(x - step / 2, T + 64 * sc, x - step, T + 24 * sc); } }), '#8f1c22', 7 * sc, 4 * sc, 6 * sc);
+}
+function floor(c, L, R, y, H, sc) {
+  cut(c, P((c) => c.rect(L - 40 * sc, y, R - L + 80 * sc, H - y + 20)), '#8a5a33', 7 * sc, 0, -4 * sc);
+  c.strokeStyle = 'rgba(40,20,5,.35)'; c.lineWidth = 2 * sc; for (let x = L; x < R + 40 * sc; x += 50 * sc) { c.beginPath(); c.moveTo(x, y + 4); c.lineTo(x - 20 * sc, H); c.stroke(); }
+  c.fillStyle = '#1b0b08'; c.fillRect(L + 20 * sc, y + 6 * sc, R - L - 40 * sc, 8 * sc); // the slot the sticks come through
+}
+function cabinet(c, x, y, sc, filled, total) {
+  c.save(); c.translate(x, y); c.scale(sc, sc);
+  cut(c, P((c) => { c.moveTo(-70, 70); c.lineTo(-70, -40); c.quadraticCurveTo(0, -95, 70, -40); c.lineTo(70, 70); }), '#d8b45a', 7, 4, 6);
+  for (let r = 0; r < 2; r++) for (let k = 0; k < 3; k++) { const on = r * 3 + k < filled; cut(c, P((c) => c.rect(-56 + k * 38, -22 + r * 42, 34, 36)), on ? '#7d1a1f' : '#6b4a2b', 3, 1, 2); if (on) { c.fillStyle = '#f3ead6'; c.beginPath(); c.ellipse(-39 + k * 38, -4 + r * 42, 5, 11, 0.5, 0, 7); c.fill(); } }
+  c.fillStyle = '#2a1d16'; c.font = '600 15px Literata, Georgia, serif'; c.textAlign = 'center'; c.fillText('Relics: ' + total, 0, 98);
+  c.restore();
+}
+function ribbon(c, x, y, sc, txt) {
+  c.save(); c.translate(x, y); c.scale(sc, sc);
+  cut(c, P((c) => { c.moveTo(-300, -46); c.lineTo(300, -46); c.lineTo(336, 0); c.lineTo(300, 46); c.lineTo(-300, 46); c.lineTo(-336, 0); }), '#f6e7c3', 10);
+  c.fillStyle = '#7d1a1f'; c.font = '62px Gloock, Didot, Georgia, serif'; c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillText(txt, 0, 4);
+  c.restore();
+}
+function stampOn(c, x, y, sc, line1, line2) {
+  c.save(); c.translate(x, y); c.rotate(-0.14); c.scale(sc, sc);
+  c.fillStyle = 'rgba(247,240,224,.92)'; c.fillRect(-170, -56, 340, 112);
+  c.strokeStyle = '#a3171f'; c.lineWidth = 6; c.strokeRect(-160, -46, 320, 92); c.lineWidth = 2; c.strokeRect(-150, -36, 300, 72);
+  c.fillStyle = '#a3171f'; c.textAlign = 'center'; c.textBaseline = 'middle';
+  c.font = '40px Gloock, Didot, Georgia, serif'; c.fillText(line1, 0, -10); c.font = '600 17px Literata, Georgia, serif'; c.fillText(line2, 0, 24);
+  c.restore();
+}
+function hi(cv) { const d = Math.min(2, devicePixelRatio || 1), w = cv.width, h = cv.height; if (!cv.dataset.w) { cv.dataset.w = w; cv.dataset.h = h; cv.width = w * d * 1.5; cv.height = h * d * 1.5; } const c = cv.getContext('2d'); c.setTransform(cv.width / cv.dataset.w, 0, 0, cv.height / cv.dataset.h, 0, 0); return c; }
+
+// ---------- frame 1: phone hero ----------
+function f1(t) {
+  const c = hi(document.getElementById('c1')), W = 390, H = 470;
+  tiles(c, W, H, 48);
+  proscenium(c, 34, 92, 356, 420, 382);
+  // float
+  c.save(); c.translate(195, 360); c.rotate(Math.sin(t * 1.6) * 0.015);
+  for (const wx of [-88, 88]) { c.save(); c.translate(wx, 34); cut(c, circ(0, 0, 26), '#c48a2c', 5, 3, 4); c.strokeStyle = '#6b3a14'; c.lineWidth = 4; for (let k = 0; k < 4; k++) { c.rotate(Math.PI / 4); c.beginPath(); c.moveTo(-22, 0); c.lineTo(22, 0); c.stroke(); } c.restore(); }
+  cut(c, P((c) => { c.moveTo(-150, -22); c.quadraticCurveTo(-160, 30, -114, 36); c.lineTo(114, 36); c.quadraticCurveTo(166, 26, 156, -30); c.quadraticCurveTo(130, -6, 104, -10); c.lineTo(-104, -10); c.quadraticCurveTo(-130, -6, -150, -22); }), '#a8231f', 7, 4, 6);
+  cut(c, P((c) => c.rect(-110, -6, 220, 14)), '#e3a82f', 4, 1, 2);
+  for (let k = -3; k <= 3; k++) { if (!k) continue; cut(c, P((c) => c.rect(k * 30 - 4, -46, 8, 36)), '#f6efe2', 3, 1, 2); const f = 1 + 0.25 * Math.sin(t * 11 + k * 2); c.fillStyle = '#ffb02e'; c.beginPath(); c.ellipse(k * 30, -54, 4, 8 * f, 0, 0, 7); c.fill(); }
+  c.restore();
+  // the saint on a long stick, through the float to below the stage
+  puppet(c, 195, 210, 0.62, Math.sin(t * 2.1) * 0.035, { robe: '#6d3f8c', mantle: '#3a2a5e', skin: '#f0cfae', hair: '#5a3a24', halo: '#e3a82f', arm: -2.0 + Math.sin(t * 2.7) * 0.12, item: palm, stick: 420, rodX: 120, rodY: 380 });
+  floor(c, 34, 356, 402, H, 0.6);
+  curtains(c, 34, 92, 356, 420, 0.75);
+  cabinet(c, 330, 150, 0.36, 0, 0);
+  ribbon(c, 195, 58, 0.5, 'Saints & Spells');
+  for (let i = 0; i < 9; i++) { const px = 60 + (i * 83) % 280, py = 120 + ((t * 30 + i * 61) % 260), a = t + i; c.fillStyle = i % 2 ? '#e25c7a' : '#f39bb0'; c.beginPath(); c.ellipse(px + Math.sin(a) * 10, py, 5, 3, a, 0, 7); c.fill(); }
+}
+// ---------- frame 2: phone, night ----------
+function exvoto(c, kind, m) {
+  if (kind === 0) cut(c, P((c) => { c.moveTo(0, 60); c.bezierCurveTo(-42, 32, -32, 0, -15, 3); c.bezierCurveTo(-5, 5, 0, 14, 0, 19); c.bezierCurveTo(0, 14, 5, 5, 15, 3); c.bezierCurveTo(32, 0, 42, 32, 0, 60); }), m, 4, 2, 3);
+  else if (kind === 1) { cut(c, P((c) => { c.moveTo(-32, 28); c.quadraticCurveTo(0, 0, 32, 28); c.quadraticCurveTo(0, 56, -32, 28); }), m, 4, 2, 3); c.fillStyle = '#3c3a37'; c.beginPath(); c.arc(0, 28, 8, 0, 7); c.fill(); }
+  else cut(c, P((c) => { c.moveTo(-8, 0); c.lineTo(8, 0); c.lineTo(7, 50); c.lineTo(24, 58); c.lineTo(22, 64); c.lineTo(-9, 64); c.lineTo(-10, 0); }), m, 4, 2, 3);
+}
+function f2(t) {
+  const c = hi(document.getElementById('c2')), W = 390, H = 300;
+  const bg = c.createLinearGradient(0, 0, 0, H); bg.addColorStop(0, '#1c1020'); bg.addColorStop(1, '#3a1416'); c.fillStyle = bg; c.fillRect(0, 0, W, H);
+  for (let i = 0; i < 6; i++) { const x = 36 + i * 64, y0 = 24 + (i % 2) * 34; c.strokeStyle = 'rgba(230,210,170,.45)'; c.lineWidth = 1; c.beginPath(); c.moveTo(x, 0); c.lineTo(x, y0); c.stroke();
+    c.save(); c.translate(x, y0); c.rotate(Math.sin(t * 1.3 + i) * 0.12); const m = c.createLinearGradient(-30, 0, 30, 60); m.addColorStop(0, '#f4f1ea'); m.addColorStop(.5, '#a9a7a2'); m.addColorStop(1, '#7b7974'); exvoto(c, i % 3, m); c.restore(); }
+  c.save(); c.globalCompositeOperation = 'lighter';
+  for (let i = 0; i < 7; i++) { const x = 30 + i * 55, f = .85 + .15 * Math.sin(t * 9 + i * 1.7), g = c.createRadialGradient(x, 230, 3, x, 230, 120 * f); g.addColorStop(0, 'rgba(255,170,60,.4)'); g.addColorStop(1, 'rgba(255,120,30,0)'); c.fillStyle = g; c.fillRect(x - 130, 100, 260, 200); }
+  c.restore();
+  puppet(c, 120, 170, 0.48, Math.sin(t * 1.8) * 0.04, { robe: '#3f5d3a', mantle: '#c9b48a', skin: '#e9c9a2', hair: '#2b1b12', arm: -2.3, item: herbs, stick: 300, rodX: 60, rodY: 300 });
+  for (let i = 0; i < 7; i++) { const x = 30 + i * 55, f = .85 + .15 * Math.sin(t * 9 + i * 1.7);
+    cut(c, P((c) => c.roundRect(x - 17, 248, 34, 60, 5)), i % 3 ? '#a3171f' : '#c7462a', 3, 2, 3);
+    c.fillStyle = '#ffd27a'; c.beginPath(); c.ellipse(x, 234, 5, 12 * f, 0, 0, 7); c.fill(); c.fillStyle = '#fff3d0'; c.beginPath(); c.ellipse(x, 238, 2.5, 5 * f, 0, 0, 7); c.fill(); }
+  stampOn(c, 280, 150, 0.52, 'MYTH-CHECK', '“thousands of witches burned”');
+  cabinet(c, 352, 62, 0.3, 5, 5);
+}
+function f2chart() {
+  const c = hi(document.getElementById('c2b')), W = 350;
+  c.clearRect(0, 0, W, 250);
+  const cs = 9, cols = 35, x0 = 10, y0 = 18;
+  c.fillStyle = '#cdb9a3'; c.font = '600 12px Literata, Georgia, serif'; c.textBaseline = 'alphabetic';
+  c.fillText('People tried, 1487–1782: about 6,000 to 7,000', x0, 12);
+  for (let i = 0; i < 700; i++) { const x = x0 + (i % cols) * cs, y = y0 + Math.floor(i / cols) * cs;
+    if (i < 100) { c.fillStyle = '#f4d27c'; c.fillRect(x, y, cs - 2, cs - 2); }
+    else if (i < 600) { c.fillStyle = '#6e5446'; c.fillRect(x, y, cs - 2, cs - 2); }
+    else { c.strokeStyle = '#8a6e5c'; c.lineWidth = 1; c.strokeRect(x + .5, y + .5, cs - 3, cs - 3); c.beginPath(); c.moveTo(x + 1, y + cs - 3); c.lineTo(x + cs - 3, y + 1); c.stroke(); } }
+  const yb = y0 + 20 * cs + 10;
+  c.fillStyle = '#f4d27c'; c.fillRect(x0, y0 - 1, 0, 0);
+  c.fillStyle = '#f4d27c'; c.font = '600 12px Literata, Georgia, serif'; c.fillText('Gold: about 1,000 charged with magic or witchcraft', x0, yb + 4);
+  c.fillStyle = '#cdb9a3'; c.fillText('Executed, any charge, 1540–1700: 25 to 52', x0, yb + 24);
+  for (let i = 0; i < 52; i++) { const x = x0 + 4 + i * 6.3, y = yb + 36; c.beginPath(); c.arc(x, y, 2.4, 0, 7); if (i < 25) { c.fillStyle = '#f3e8d8'; c.fill(); } else { c.strokeStyle = '#f3e8d8'; c.lineWidth = 1; c.stroke(); } }
+}
+// ---------- frame 3: desktop, Act 1 ----------
+function f3(t) {
+  const c = hi(document.getElementById('c3')), W = 720, H = 900;
+  tiles(c, W, H, 80);
+  proscenium(c, 70, 170, 650, 760, 700);
+  // strip map along the back wall
+  c.fillStyle = 'rgba(246,231,195,.92)'; c.fillRect(110, 250, 500, 92);
+  c.strokeStyle = '#7d1a1f'; c.setLineDash([8, 8]); c.lineWidth = 3; c.beginPath(); c.moveTo(150, 300); c.quadraticCurveTo(360, 250, 570, 300); c.stroke(); c.setLineDash([]);
+  c.fillStyle = '#2a1d16'; c.font = '600 18px Literata, Georgia, serif'; c.textAlign = 'center'; c.fillText('Catania', 150, 334); c.fillText('Constantinople', 560, 334);
+  c.font = 'italic 16px Literata, Georgia, serif'; c.fillText('about 1040 →', 300, 272); c.fillText('← 17 Aug 1126', 430, 272);
+  [150, 570].forEach((x) => cut(c, circ(x, 300, 9), '#7d1a1f', 3, 1, 2));
+  // sea and boat
+  const bx = 360 + Math.sin(t * .6) * 120;
+  c.fillStyle = '#1d4f8a'; for (let k = 0; k < 3; k++) { c.beginPath(); for (let x = 70; x <= 650; x += 10) c.lineTo(x, 640 + k * 26 + Math.sin(x / 30 + t * 2 + k) * 6); c.lineTo(650, 760); c.lineTo(70, 760); c.closePath(); c.globalAlpha = .55 + k * .15; c.fill(); } c.globalAlpha = 1;
+  c.save(); c.translate(bx, 610 + Math.sin(t * 2) * 5); c.rotate(Math.sin(t * 1.7) * .04);
+  cut(c, P((c) => { c.moveTo(-130, 0); c.lineTo(130, 0); c.lineTo(96, 48); c.lineTo(-96, 48); }), '#8a5a33', 7, 4, 6);
+  cut(c, P((c) => c.rect(-4, -190, 8, 190)), '#6b4a2b', 4, 2, 3);
+  cut(c, P((c) => { c.moveTo(6, -180); c.quadraticCurveTo(90, -120, 6, -30); }), '#f6efe2', 5, 3, 4);
+  // Agatha's bust on its stick
+  c.save(); c.translate(-62, -70);
+  cut(c, P((c) => c.rect(-5, 40, 10, 240)), '#7a5432', 5, 2, 3);
+  cut(c, P((c) => { c.moveTo(-46, 46); c.quadraticCurveTo(-40, 0, 0, -4); c.quadraticCurveTo(40, 0, 46, 46); }), '#e3a82f', 6, 3, 4);
+  c.save(); c.translate(0, -40); cut(c, P((c) => { for (let i = 0; i < 20; i++) { const a = i / 20 * Math.PI * 2, r = i % 2 ? 34 : 42; c.lineTo(Math.cos(a) * r, Math.sin(a) * r); } }), '#e3a82f', 4, 2, 3); c.restore();
+  cut(c, circ(0, -40, 24), '#f0d0b0', 5, 2, 3);
+  cut(c, P((c) => { c.moveTo(-26, -52); c.lineTo(-18, -78); c.lineTo(-8, -62); c.lineTo(0, -82); c.lineTo(8, -62); c.lineTo(18, -78); c.lineTo(26, -52); }), '#c48a2c', 4, 1, 2);
+  c.fillStyle = '#2a1a10'; c.beginPath(); c.arc(-8, -40, 2.5, 0, 7); c.arc(8, -40, 2.5, 0, 7); c.fill();
+  c.restore(); c.restore();
+  floor(c, 70, 650, 760, H, 1);
+  curtains(c, 70, 170, 650, 760, 1.3);
+  ribbon(c, 360, 110, 0.7, 'Act 1 · Catania');
+  cabinet(c, 120, 830, 0.7, 1, 1);
+}
+const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const t0 = performance.now();
+function loop(now) { const t = reduced ? 2 : (now - t0) / 1000; try { f1(t); f2(t); f3(t); } catch (e) { console.error(e); } if (!reduced) requestAnimationFrame(loop); }
+f2chart(); requestAnimationFrame(loop);
+document.fonts && document.fonts.ready.then(() => { f2chart(); requestAnimationFrame(loop); });
+</script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 # Brief: Sicilian folk magic (working title)
 
-Status: APPROVED Nov 22, 2026 by Bryan (with amendments) · Stage: concepts · Mode: from scratch · Budget: standard to deep · Client: Bryan Murphy · Sign-off: Bryan
+Status: APPROVED Nov 22, 2026 by Bryan (with amendments) · Stage: layout · Mode: from scratch · Budget: standard to deep · Client: Bryan Murphy · Sign-off: Bryan
 Usage: Opus 5.5 (Claude Duet thread) · interview: not measured (the Duet app shows no per-stage share)
 
 _Made from `brief/TEMPLATE.md`. **ASK** = missing, **DRAFT** = Claude's draft, **Claude's call** = delegated by the
@@ -166,5 +166,8 @@ None at approval. Research may raise disputed figures for Bryan to settle.
 - Nov 22 · disputed counts and dates: "show dozens tried and 25 to 52: yes. 3) a range" · donne di fuora shown as
   "dozens tried"; executions "25 to 52" (none for witchcraft); small date gaps shown as ranges (1071–72, 1815–16,
   1630–31, 1204–06, 1524–26, 1785–1865 etc.). Stage: concepts.
-- Nov 23 · hero options shown as `choices-hero.html` (A festa stage, recommended; B myth-check; C candle night);
-  waiting on Bryan's letter.
+- Nov 23 · hero options shown as `choices-hero.html` (A festa stage, recommended; B myth-check; C candle night).
+- Nov 23 · hero pick: "I like that. A borrowing from b and c. The stick figure puppets look great on an actual
+  stick, try to incorporate that into A too." · Concept A (festa stage) with B's myth-check stamp and C's candle
+  wall; puppets ride visible sticks. T12 settled: light tile ground, night only for the dead and healers acts.
+  Stage: layout.
