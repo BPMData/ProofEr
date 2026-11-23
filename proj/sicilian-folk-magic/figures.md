@@ -47,10 +47,10 @@ answers.
 - **D0 · The premise. DECIDED: build on the research (Bryan: "go for it").** Research backs "the Church took over the buildings and wrapped local life in its own
   calendar" and shows most "pagan survival" stories as later inventions. Build on that (the survival myths become a
   running myth-check), or keep hunting for continuity?
-- **D1 · Donne di fuora count** (X3-46): 65 (people tried in the surviving reports, 1579–1651, 8 men) / 77 (one
+- **D1 · DECIDED: "dozens tried" (Bryan).** Donne di fuora count (X3-46): 65 (people tried in the surviving reports, 1579–1651, 8 men) / 77 (one
   historian's "contact with the dead" charges) / 193 (perhaps every woman named). [Show "dozens tried", or all three
   with what each counts; a scan of Henningsen 1990 would settle it.]
-- **D2 · Executions, all crimes, 1540–1700** (X3-30): 25 in person in the surviving reports vs 52 in Monter's fuller
+- **D2 · DECIDED: "25 to 52" (Bryan).** Executions, all crimes, 1540–1700 (X3-30): 25 in person in the surviving reports vs 52 in Monter's fuller
   count. Neither was for witchcraft. ["25 to 52".]
 - **D3 · One-document counts** (X1): REI 2013 register (177 entries, 86 feasts, 11 St Joseph), Pitrè's 1899 sample
   (Mary 45, St Joseph 13, Crucifix 13, Rosalia 7 of about 150 towns), the ~100 decollati tablets. [Accept with a
@@ -59,7 +59,7 @@ answers.
   of 1038–40".]
 - **D5 · Louis IX's heart at Monreale** (X2-116): one medieval account says yes, Le Goff says Saint-Denis. ["His
   entrails (and, by one medieval account, his heart)".]
-- **D6 · Small dates:** Normans take Palermo 1071/1072 ["1071–72"]; Two Sicilies 1815/1816 [1816, the founding law];
+- **D6 · DECIDED: show a range (Bryan: "a range").** Small dates: Normans take Palermo 1071/1072 ["1071–72"]; Two Sicilies 1815/1816 [1816, the founding law];
   Rosalia in the Roman Martyrology 1630/1631 and declared hers 11/18/22 Feb 1625 ["about 1630", "February 1625"];
   Lucy in Venice 1204/1206 ["after 1204"]; Benedict born 1524/1526 ["1524 (some lives say 1526)"]; Messina Letter
   first recorded 1518/1522/1556 ["the 1520s"]; decollati church 1785/1799/1857–65 [both sources named]; candelore 11

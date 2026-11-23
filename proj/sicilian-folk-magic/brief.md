@@ -1,6 +1,6 @@
 # Brief: Sicilian folk magic (working title)
 
-Status: APPROVED Nov 22, 2026 by Bryan (with amendments) · Stage: figures · Mode: from scratch · Budget: standard to deep · Client: Bryan Murphy · Sign-off: Bryan
+Status: APPROVED Nov 22, 2026 by Bryan (with amendments) · Stage: concepts · Mode: from scratch · Budget: standard to deep · Client: Bryan Murphy · Sign-off: Bryan
 Usage: Opus 5.5 (Claude Duet thread) · interview: not measured (the Duet app shows no per-stage share)
 
 _Made from `brief/TEMPLATE.md`. **ASK** = missing, **DRAFT** = Claude's draft, **Claude's call** = delegated by the
@@ -163,3 +163,6 @@ None at approval. Research may raise disputed figures for Bryan to settle.
   "maybe a main point towards the end of the piece, if there's substance there" · Status APPROVED, Stage: research.
 - Nov 22 · research flips the premise; Bryan: "go for it. Follow where the data leads, we want honesty not sparkly
   fiction." · §4 premise rebuilt on the research; survival stories become a running myth-check (T10).
+- Nov 22 · disputed counts and dates: "show dozens tried and 25 to 52: yes. 3) a range" · donne di fuora shown as
+  "dozens tried"; executions "25 to 52" (none for witchcraft); small date gaps shown as ranges (1071–72, 1815–16,
+  1630–31, 1204–06, 1524–26, 1785–1865 etc.). Stage: concepts.
