@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Saints and Spells Hero Picker</title>
+<!-- Choice panel (from .claude/skills/toolbox/choice-panel.html): hero options for proj/sicilian-folk-magic. Sketches drawn live on canvas; no files, works offline. -->
+</head>
+<body>
+<style>
+  /* Layout: the toolbox choice panel, 3 lettered tiles, each a live cut-paper sketch on a 16:9 stage */
+  :root { --bg:#efe9dc; --card:#fffdf8; --ink:#231a14; --dim:#5e5246; --line:#d8cdb9; --accent:#9b2d20; --tile:#e3dac8; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#17130f; --card:#221c17; --ink:#f3ece0; --dim:#b9ab98; --line:#3b3229; --accent:#e9a23b; --tile:#2c241d; color-scheme:dark; } }
+  :root[data-theme="dark"] { --bg:#17130f; --card:#221c17; --ink:#f3ece0; --dim:#b9ab98; --line:#3b3229; --accent:#e9a23b; --tile:#2c241d; color-scheme:dark; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:1500px; margin:0 auto; padding-block:28px 40px; padding-left:max(16px, env(safe-area-inset-left, 0px)); padding-right:max(16px, env(safe-area-inset-right, 0px)); }
+  h1 { font-size:clamp(24px, 3vw, 34px); margin:0 0 6px; line-height:1.2; text-wrap:balance; }
+  .ask { color:var(--dim); margin:0 0 22px; max-width:70ch; }
+  .grid { display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:18px; }
+  @media (max-width:900px) { .grid { grid-template-columns:repeat(2, minmax(0, 1fr)); } }
+  @media (max-width:560px) { .grid { grid-template-columns:1fr; } }
+  .opt { background:var(--card); border:1px solid var(--line); border-radius:14px; overflow:hidden; display:flex; flex-direction:column; }
+  .opt.pick { border:2px solid var(--accent); }
+  .media { position:relative; aspect-ratio:16 / 9; max-width:100%; background:var(--tile); cursor:zoom-in; }
+  .media > img, .media > video, .media > canvas { position:absolute; inset:0; width:100%; height:100%; object-fit:contain; display:block; }
+  .letter { position:absolute; left:10px; top:10px; z-index:2; width:44px; height:44px; border-radius:50%; background:var(--ink); color:var(--bg);
+            display:grid; place-items:center; font-weight:800; font-size:24px; }
+  .text { padding:12px 14px 16px; min-width:0; }
+  .label { font-weight:700; font-size:19px; }
+  .badge { display:inline-block; margin-left:8px; padding:1px 8px; border-radius:99px; background:var(--accent); color:var(--card); font-size:13px; font-weight:700; letter-spacing:.04em; vertical-align:2px; }
+  .note { color:var(--dim); margin-top:4px; }
+  .how { margin-top:24px; color:var(--dim); max-width:75ch; }
+  .zoom { position:fixed; inset:0; background:rgba(0,0,0,.92); display:none; align-items:center; justify-content:center; z-index:10; cursor:zoom-out; padding:16px; }
+  .zoom.on { display:flex; }
+  .zoom .media { width:min(100%, calc((100vh - 32px) * 16 / 9)); cursor:zoom-out; background:#000; }
+</style>
+<main>
+  <h1 id="title"></h1>
+  <p class="ask" id="ask"></p>
+  <div class="grid" id="grid"></div>
+  <p class="how" id="how"></p>
+</main>
+<div class="zoom" id="zoom" aria-hidden="true"></div>
+<script>
+// ===================== PANEL =====================
+const PANEL = {
+  title: 'How should the piece open?',
+  ask: 'Three ways to open the Sicilian saints and folk magic essay. These are rough sketches: the real puppets will be cut from public-domain paintings, and the title is a stand-in. Tap a picture to see it big. Answer with a letter, and add anything you like ("A, but darker").',
+  pick: 0,
+  options: [
+    { label: 'The festa stage', note: 'A baroque puppet theatre on painted tiles. A saint’s float rolls on, rocks to a stop, and the title drops in on a ribbon. Loud, festive, upbeat. The essay plays out on this stage as you scroll.', draw: (c, w, h, t) => sceneStage(c, w, h, t) },
+    { label: 'The myth-check', note: 'A goddess cutout, a saint slides over her, then lifts away, and a red stamp lands: first claimed in 1823. Mulder and Scully argue in the margin. Witty, sly, leads with the twist the research found.', draw: (c, w, h, t) => sceneMyth(c, w, h, t) },
+    { label: 'Candle night', note: 'A dark chapel wall of swinging tin ex-votos over rows of flickering votive candles. Moody, occult, a little spooky. Strongest for the evil-eye and healers part, darker than the brief’s “upbeat”.', draw: (c, w, h, t) => sceneCandles(c, w, h, t) },
+  ],
+};
+// ===================== sketches =====================
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const ease = (x) => 1 - Math.pow(1 - clamp(x), 3);
+const back = (x) => { x = clamp(x); const k = 1.9; return 1 + (k + 1) * Math.pow(x - 1, 3) + k * Math.pow(x - 1, 2); };
+const RIM = '#f7f0e0', SHADOW = 'rgba(30,12,0,.3)';
+function unit(c, w, h) { c.setTransform(w / 1600, 0, 0, h / 900, 0, 0); }
+// A paper cutout: drop shadow, a white cut rim, then the colour.
+function cut(c, path, fill, rim = 11, dx = 7, dy = 10) {
+  c.save(); c.translate(dx, dy); path(c); c.fillStyle = SHADOW; c.fill(); c.lineWidth = rim; c.strokeStyle = SHADOW; c.lineJoin = 'round'; c.stroke(); c.restore();
+  path(c); c.lineJoin = 'round'; c.lineWidth = rim; c.strokeStyle = RIM; c.stroke(); c.fillStyle = fill; c.fill();
+}
+const P = (fn) => (c) => { c.beginPath(); fn(c); c.closePath(); };
+const circ = (x, y, r) => P((c) => c.arc(x, y, r, 0, Math.PI * 2));
+// A stick puppet. o: robe, mantle, skin, hair, item, arm (radians)
+function puppet(c, x, y, s, rot, o) {
+  c.save(); c.translate(x, y); c.rotate(rot); c.scale(s, s);
+  cut(c, P((c) => c.rect(-7, 120, 14, 300)), '#6b4a2b', 6);
+  cut(c, P((c) => { c.moveTo(-50, -18); c.lineTo(50, -18); c.quadraticCurveTo(70, 80, 92, 170); c.quadraticCurveTo(0, 190, -92, 170); c.quadraticCurveTo(-70, 80, -50, -18); }), o.robe);
+  cut(c, P((c) => { c.moveTo(-56, -20); c.quadraticCurveTo(-20, 60, 30, 172); c.quadraticCurveTo(-60, 178, -94, 168); c.quadraticCurveTo(-74, 70, -56, -20); }), o.mantle, 7, 3, 4);
+  if (o.halo) {
+    c.save(); c.translate(0, -66);
+    cut(c, P((c) => { for (let i = 0; i < 24; i++) { const a = i / 24 * Math.PI * 2, r = i % 2 ? 50 : 62; c.lineTo(Math.cos(a) * r, Math.sin(a) * r); } }), o.halo, 6, 3, 4);
+    c.restore();
+  }
+  cut(c, circ(0, -66, 34), o.skin, 8, 3, 5);
+  c.beginPath(); c.arc(0, -72, 37, Math.PI * 1.02, Math.PI * 1.98); c.lineTo(30, -40); c.quadraticCurveTo(0, -96, -30, -40); c.closePath(); c.fillStyle = o.hair; c.fill();
+  c.fillStyle = '#2a1a10'; c.beginPath(); c.arc(-11, -64, 3.4, 0, 7); c.arc(11, -64, 3.4, 0, 7); c.fill();
+  c.strokeStyle = '#8a3b2a'; c.lineWidth = 3; c.beginPath(); c.arc(0, -52, 8, 0.2, Math.PI - 0.2); c.stroke();
+  c.save(); c.translate(42, -8); c.rotate(o.arm);
+  cut(c, P((c) => c.roundRect(-13, -10, 26, 92, 12)), o.robe, 7, 3, 4);
+  cut(c, circ(0, 90, 13), o.skin, 6, 2, 3);
+  if (o.item) o.item(c);
+  c.restore();
+  c.restore();
+}
+const palm = (c) => { cut(c, P((c) => { c.moveTo(-3, 90); c.quadraticCurveTo(-30, 10, 10, -70); c.quadraticCurveTo(-8, 10, 6, 92); }), '#4f7f3a', 6, 3, 3); };
+const sheaf = (c) => { for (let i = -2; i <= 2; i++) cut(c, P((c) => { c.moveTo(0, 96); c.quadraticCurveTo(i * 14, 30, i * 18, -50); c.lineTo(i * 18 + 9, -48); c.quadraticCurveTo(i * 14 + 6, 30, 6, 96); }), '#d9a441', 4, 2, 2); };
+const tray = (c) => { cut(c, P((c) => c.ellipse(0, 96, 34, 11, 0, 0, 7)), '#d8b45a', 5, 2, 3); cut(c, circ(-12, 88, 9), '#f2e6d6', 3, 1, 2); cut(c, circ(12, 88, 9), '#f2e6d6', 3, 1, 2); };
+
+// A: the festa stage
+function tiles(c, t0) {
+  c.fillStyle = '#f1e6cc'; c.fillRect(0, 0, 1600, 900);
+  for (let y = 0; y < 900; y += 100) for (let x = 0; x < 1600; x += 100) {
+    c.fillStyle = (x + y) % 200 ? '#1f5f8b' : '#e2a72e';
+    c.beginPath(); for (let k = 0; k < 4; k++) { const a = k * Math.PI / 2; c.moveTo(x + 50, y + 50); c.arc(x + 50 + Math.cos(a) * 22, y + 50 + Math.sin(a) * 22, 16, 0, 7); } c.fill();
+    c.fillStyle = '#2f7a4b'; c.beginPath(); c.moveTo(x + 50, y + 34); c.lineTo(x + 66, y + 50); c.lineTo(x + 50, y + 66); c.lineTo(x + 34, y + 50); c.fill();
+    c.strokeStyle = 'rgba(31,95,139,.35)'; c.lineWidth = 2; c.strokeRect(x, y, 100, 100);
+  }
+}
+function sceneStage(c, w, h, t) {
+  unit(c, w, h); const T = t % 11;
+  tiles(c);
+  // the stage opening
+  c.fillStyle = '#2a0f12'; c.beginPath(); c.moveTo(250, 790); c.lineTo(250, 260); c.quadraticCurveTo(800, 40, 1350, 260); c.lineTo(1350, 790); c.fill();
+  const g = c.createRadialGradient(800, 520, 40, 800, 520, 620); g.addColorStop(0, 'rgba(255,200,120,.35)'); g.addColorStop(1, 'rgba(255,200,120,0)'); c.fillStyle = g; c.fillRect(250, 120, 1100, 680);
+  // floor
+  cut(c, P((c) => c.rect(160, 760, 1280, 160)), '#8a5a33', 10, 0, -6);
+  c.strokeStyle = 'rgba(40,20,5,.35)'; c.lineWidth = 3; for (let x = 200; x < 1440; x += 90) { c.beginPath(); c.moveTo(x, 765); c.lineTo(x - 40, 900); c.stroke(); }
+  // the float
+  const fx = -500 + 1300 * ease(T / 3.2), rock = T > 3.2 ? Math.sin((T - 3.2) * 4) * 0.05 * Math.exp(-(T - 3.2) * 0.6) : 0;
+  c.save(); c.translate(fx, 690); c.rotate(rock);
+  for (const wx of [-170, 170]) { c.save(); c.translate(wx, 70); c.rotate(fx / 60); cut(c, circ(0, 0, 52), '#c48a2c', 9); c.strokeStyle = '#6b3a14'; c.lineWidth = 7; for (let k = 0; k < 4; k++) { c.rotate(Math.PI / 4); c.beginPath(); c.moveTo(-46, 0); c.lineTo(46, 0); c.stroke(); } c.restore(); }
+  cut(c, P((c) => { c.moveTo(-290, -40); c.quadraticCurveTo(-310, 60, -220, 70); c.lineTo(220, 70); c.quadraticCurveTo(320, 50, 300, -60); c.quadraticCurveTo(250, -10, 200, -20); c.lineTo(-200, -20); c.quadraticCurveTo(-250, -10, -290, -40); }), '#a8231f');
+  cut(c, P((c) => c.rect(-210, -10, 420, 26)), '#e8b93e', 6, 2, 3);
+  for (let k = -3; k <= 3; k++) { cut(c, P((c) => c.rect(k * 58 - 8, -88, 16, 70)), '#f6efe2', 4, 2, 3); const f = 1 + 0.25 * Math.sin(t * 11 + k * 2); c.fillStyle = '#ffb02e'; c.beginPath(); c.ellipse(k * 58, -102, 7, 14 * f, 0, 0, 7); c.fill(); }
+  puppet(c, 0, -250, 0.95, Math.sin(t * 2.2) * 0.04, { robe: '#6d3f8c', mantle: '#3a2a5e', skin: '#f0cfae', hair: '#5a3a24', halo: '#f0c34a', arm: -1.9 + Math.sin(t * 3) * 0.15, item: palm });
+  c.restore();
+  // curtains and valance
+  for (const side of [-1, 1]) {
+    cut(c, P((c) => { const x0 = side < 0 ? 140 : 1460; c.moveTo(x0, 130); c.lineTo(x0 - side * 230, 130); c.quadraticCurveTo(x0 - side * 160, 470, x0 - side * 70, 820); c.lineTo(x0, 820); }), '#b0242b');
+    cut(c, circ(side < 0 ? 300 : 1300, 470, 18), '#e8b93e', 6);
+  }
+  cut(c, P((c) => { c.moveTo(120, 90); c.lineTo(1480, 90); c.lineTo(1480, 190); for (let x = 1480; x > 120; x -= 85) c.quadraticCurveTo(x - 42, 250, x - 85, 190); }), '#8f1c22');
+  cut(c, P((c) => { c.moveTo(560, 40); c.quadraticCurveTo(800, -10, 1040, 40); c.lineTo(1000, 110); c.quadraticCurveTo(800, 80, 600, 110); }), '#e8b93e', 9);
+  // petals
+  for (let i = 0; i < 14; i++) { const px = (i * 131 + 300) % 1100 + 250, py = ((t * 60 + i * 97) % 760) + 120, a = t + i; c.fillStyle = i % 2 ? '#e25c7a' : '#f39bb0'; c.beginPath(); c.ellipse(px + Math.sin(a) * 20, py, 9, 5, a, 0, 7); c.fill(); }
+  // title ribbon drops in
+  const d = back((T - 3.6) / 1.1);
+  if (T > 3.6) {
+    c.save(); c.translate(800, -150 + 470 * d);
+    cut(c, P((c) => { c.moveTo(-430, -60); c.lineTo(430, -60); c.lineTo(480, 0); c.lineTo(430, 60); c.lineTo(-430, 60); c.lineTo(-480, 0); }), '#f6e7c3', 12);
+    c.fillStyle = '#7d1a1f'; c.font = 'italic 700 76px Georgia, "Times New Roman", serif'; c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillText('Saints & Spells', 0, 4);
+    c.restore();
+  }
+}
+
+// B: the myth-check
+function sceneMyth(c, w, h, t) {
+  unit(c, w, h); const T = t % 12;
+  c.fillStyle = '#e9dcc0'; c.fillRect(0, 0, 1600, 900);
+  c.strokeStyle = 'rgba(70,90,140,.22)'; c.lineWidth = 2; for (let y = 120; y < 900; y += 56) { c.beginPath(); c.moveTo(0, y); c.lineTo(1600, y); c.stroke(); }
+  c.strokeStyle = 'rgba(190,40,40,.45)'; c.beginPath(); c.moveTo(170, 0); c.lineTo(170, 900); c.stroke();
+  // Greek column and goddess
+  cut(c, P((c) => { c.rect(470, 200, 120, 620); }), '#ece6da'); c.strokeStyle = 'rgba(90,80,60,.35)'; c.lineWidth = 4; for (let x = 490; x < 590; x += 22) { c.beginPath(); c.moveTo(x, 215); c.lineTo(x, 805); c.stroke(); }
+  cut(c, P((c) => c.rect(440, 170, 180, 40)), '#ece6da', 9); cut(c, P((c) => c.rect(440, 810, 180, 40)), '#ece6da', 9);
+  puppet(c, 760, 420, 1.15, Math.sin(t * 1.7) * 0.03, { robe: '#efe7d6', mantle: '#c4793a', skin: '#e9c9a2', hair: '#3b2616', arm: -2.4, item: sheaf });
+  tag(c, 760, 230, 'Demeter?', Math.sin(t * 2) * 0.06);
+  // the saint slides over her, then lifts away
+  const inX = 1900 - 1140 * ease((T - 0.8) / 1.6), up = ease((T - 4) / 1.4);
+  const sx = T < 4 ? inX : 760 + 360 * up, sy = 420 - 40 * Math.sin(Math.PI * up);
+  puppet(c, sx, sy, 1.15, Math.sin(t * 2.3) * 0.04 + (T > 4 && T < 5.4 ? 0.08 : 0), { robe: '#2e6d5b', mantle: '#a3242a', skin: '#f0d0b0', hair: '#4a2d1c', halo: '#f0c34a', arm: -1.6, item: tray });
+  tag(c, sx, sy - 190, 'St Agatha', Math.sin(t * 2.4) * 0.06);
+  // the stamp
+  if (T > 5.8) {
+    const k = clamp((T - 5.8) / 0.35), sc = 2.4 - 1.4 * k;
+    c.save(); c.translate(1220, 700); c.rotate(-0.16); c.scale(sc, sc); c.globalAlpha = 0.25 + 0.65 * k;
+    c.strokeStyle = '#b3261e'; c.lineWidth = 9; c.strokeRect(-230, -78, 460, 156); c.lineWidth = 3; c.strokeRect(-216, -64, 432, 128);
+    c.fillStyle = '#b3261e'; c.textAlign = 'center'; c.textBaseline = 'middle';
+    c.font = '800 64px "Courier New", Courier, monospace'; c.fillText('MYTH-CHECK', 0, -16);
+    c.font = '700 28px "Courier New", Courier, monospace'; c.fillText('FIRST CLAIMED 1823', 0, 38);
+    c.restore();
+  }
+  // margin voices
+  if (T > 7) bubble(c, 330, 120, 'I want to believe.', '#24406e', clamp((T - 7) / 0.4));
+  if (T > 8) bubble(c, 1250, 120, 'Show me the source.', '#7a2a1c', clamp((T - 8) / 0.4));
+  c.fillStyle = '#231a14'; c.font = 'italic 700 58px Georgia, "Times New Roman", serif'; c.textAlign = 'left'; c.textBaseline = 'alphabetic'; c.fillText('Saints & Spells', 200, 860);
+}
+function tag(c, x, y, txt, rot) {
+  c.save(); c.translate(x, y); c.rotate(rot);
+  c.strokeStyle = '#6b5a44'; c.lineWidth = 3; c.beginPath(); c.moveTo(0, -60); c.lineTo(0, -28); c.stroke();
+  cut(c, P((c) => c.roundRect(-95, -30, 190, 58, 8)), '#fbf6ea', 7, 3, 5);
+  c.fillStyle = '#2b2118'; c.font = '700 32px Georgia, serif'; c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillText(txt, 0, 0);
+  c.restore();
+}
+function bubble(c, x, y, txt, col, k) {
+  c.save(); c.translate(x, y); c.scale(0.6 + 0.4 * back(k), 0.6 + 0.4 * back(k)); c.globalAlpha = k;
+  cut(c, P((c) => { c.roundRect(-190, -46, 380, 92, 40); }), '#fffaf0', 7, 4, 6);
+  c.fillStyle = col; c.font = 'italic 700 34px Georgia, serif'; c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillText(txt, 0, 2);
+  c.restore();
+}
+
+// C: candle night
+function sceneCandles(c, w, h, t) {
+  unit(c, w, h);
+  const bg = c.createLinearGradient(0, 0, 0, 900); bg.addColorStop(0, '#1b1022'); bg.addColorStop(1, '#3a1416'); c.fillStyle = bg; c.fillRect(0, 0, 1600, 900);
+  c.strokeStyle = 'rgba(214,170,80,.35)'; c.lineWidth = 6;
+  for (let x = 100; x < 1600; x += 280) { c.beginPath(); c.arc(x, 70, 40, Math.PI, 0); c.arc(x + 80, 70, 40, Math.PI, 0, true); c.stroke(); }
+  const shapes = [heartV, eyeV, legV, handV, heartV, armV, eyeV, heartV];
+  for (let row = 0; row < 2; row++) for (let i = 0; i < 8; i++) {
+    const x = 130 + i * 190 + row * 95, y0 = 120 + row * 210, sw = Math.sin(t * 1.3 + i * 0.9 + row) * 0.12;
+    c.strokeStyle = 'rgba(230,210,170,.5)'; c.lineWidth = 2; c.beginPath(); c.moveTo(x, 0); c.lineTo(x, y0); c.stroke();
+    c.save(); c.translate(x, y0); c.rotate(sw);
+    const met = c.createLinearGradient(-60, 0, 60, 140); met.addColorStop(0, '#f4f1ea'); met.addColorStop(0.45, '#a9a7a2'); met.addColorStop(0.55, '#d9d6cf'); met.addColorStop(1, '#7b7974');
+    shapes[(i + row * 3) % shapes.length](c, met);
+    c.restore();
+  }
+  c.save(); c.globalCompositeOperation = 'lighter';
+  for (let i = 0; i < 13; i++) { const x = 70 + i * 122, f = 0.8 + 0.2 * Math.sin(t * 9 + i * 1.7) + 0.08 * Math.sin(t * 23 + i); const g = c.createRadialGradient(x, 690, 5, x, 690, 260 * f); g.addColorStop(0, 'rgba(255,170,60,.42)'); g.addColorStop(1, 'rgba(255,120,30,0)'); c.fillStyle = g; c.fillRect(x - 270, 420, 540, 480); }
+  c.restore();
+  for (let i = 0; i < 13; i++) {
+    const x = 70 + i * 122, f = 0.85 + 0.15 * Math.sin(t * 9 + i * 1.7);
+    cut(c, P((c) => c.roundRect(x - 38, 720, 76, 130, 10)), i % 3 ? '#a3171f' : '#c7462a', 6, 4, 6);
+    c.fillStyle = 'rgba(255,190,120,.35)'; c.fillRect(x - 26, 730, 12, 110);
+    c.fillStyle = '#ffd27a'; c.beginPath(); c.ellipse(x, 690, 11, 26 * f, Math.sin(t * 5 + i) * 0.12, 0, 7); c.fill();
+    c.fillStyle = '#fff3d0'; c.beginPath(); c.ellipse(x, 698, 5, 11 * f, 0, 0, 7); c.fill();
+  }
+  c.fillStyle = '#f3d27a'; c.font = 'italic 700 84px Georgia, "Times New Roman", serif'; c.textAlign = 'center'; c.textBaseline = 'middle';
+  c.shadowColor = 'rgba(255,170,60,.7)'; c.shadowBlur = 30; c.fillText('Saints & Spells', 800, 590); c.shadowBlur = 0;
+}
+const heartV = (c, m) => { cut(c, P((c) => { c.moveTo(0, 130); c.bezierCurveTo(-90, 70, -70, 0, -32, 6); c.bezierCurveTo(-10, 10, 0, 30, 0, 40); c.bezierCurveTo(0, 30, 10, 10, 32, 6); c.bezierCurveTo(70, 0, 90, 70, 0, 130); }), m, 6, 4, 6); c.fillStyle = '#ffb02e'; c.beginPath(); c.ellipse(0, -8, 9, 18, 0, 0, 7); c.fill(); };
+const eyeV = (c, m) => { cut(c, P((c) => { c.moveTo(-70, 60); c.quadraticCurveTo(0, 0, 70, 60); c.quadraticCurveTo(0, 120, -70, 60); }), m, 6, 4, 6); c.fillStyle = '#3c3a37'; c.beginPath(); c.arc(0, 60, 18, 0, 7); c.fill(); };
+const legV = (c, m) => { cut(c, P((c) => { c.moveTo(-18, 0); c.lineTo(18, 0); c.lineTo(16, 110); c.lineTo(52, 128); c.lineTo(48, 142); c.lineTo(-20, 142); c.lineTo(-22, 0); }), m, 6, 4, 6); };
+const armV = (c, m) => { cut(c, P((c) => { c.moveTo(-16, 0); c.lineTo(16, 0); c.lineTo(20, 100); c.lineTo(34, 140); c.lineTo(-30, 140); c.lineTo(-20, 100); }), m, 6, 4, 6); };
+const handV = (c, m) => { cut(c, P((c) => { c.moveTo(-34, 140); c.lineTo(-34, 40); for (let k = 0; k < 4; k++) { c.lineTo(-34 + k * 18, 0); c.lineTo(-20 + k * 18, 0); c.lineTo(-20 + k * 18, 40); } c.lineTo(40, 60); c.lineTo(50, 90); c.lineTo(36, 140); }), m, 6, 4, 6); };
+// ================================================
+
+const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const opts = PANEL.options.slice(0, 6);
+document.getElementById('title').textContent = PANEL.title;
+document.getElementById('ask').textContent = PANEL.ask;
+document.getElementById('how').textContent = 'My pick is A: it is the most upbeat and the most like moving puppets on a stage, and it can borrow B’s red stamp for every myth-check and C’s candle wall for the evil-eye part. The colors and fonts follow from your pick. Reply with a letter: ' + opts.map((_, i) => 'ABCDEF'[i]).join(', ') + '.';
+const draws = [];
+function makeMedia(o, i, big) {
+  const m = document.createElement('div'); m.className = 'media';
+  m.setAttribute('role', 'img'); m.setAttribute('aria-label', 'Sketch ' + 'ABCDEF'[i] + ': ' + o.label + '. ' + o.note);
+  const L = document.createElement('div'); L.className = 'letter'; L.textContent = 'ABCDEF'[i]; m.appendChild(L);
+  const cv = document.createElement('canvas'); m.appendChild(cv); draws.push({ cv, fn: o.draw, big });
+  return m;
+}
+const grid = document.getElementById('grid'), zoom = document.getElementById('zoom');
+opts.forEach((o, i) => {
+  const card = document.createElement('section'); card.className = 'opt' + (PANEL.pick === i ? ' pick' : '');
+  const m = makeMedia(o, i, false); m.tabIndex = 0;
+  m.onclick = () => openZoom(o, i); m.onkeydown = (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openZoom(o, i); } };
+  const tx = document.createElement('div'); tx.className = 'text';
+  tx.innerHTML = '<div class="label"></div><div class="note"></div>';
+  tx.querySelector('.label').textContent = 'ABCDEF'[i] + '. ' + o.label;
+  if (PANEL.pick === i) { const b = document.createElement('span'); b.className = 'badge'; b.textContent = 'MY PICK'; tx.querySelector('.label').appendChild(b); }
+  tx.querySelector('.note').textContent = o.note;
+  card.append(m, tx); grid.appendChild(card);
+});
+function openZoom(o, i) { zoom.innerHTML = ''; zoom.appendChild(makeMedia(o, i, true)); zoom.classList.add('on'); zoom.setAttribute('aria-hidden', 'false'); }
+function closeZoom() { for (let k = draws.length - 1; k >= 0; k--) if (draws[k].big) draws.splice(k, 1); zoom.innerHTML = ''; zoom.classList.remove('on'); zoom.setAttribute('aria-hidden', 'true'); }
+zoom.onclick = closeZoom;
+addEventListener('keydown', (e) => { if (e.key === 'Escape') closeZoom(); });
+const t0 = performance.now();
+function frame(now) {
+  const t = reduced ? 9 : (now - t0) / 1000;
+  for (const d of draws) {
+    const r = d.cv.getBoundingClientRect(), dpr = Math.min(2, devicePixelRatio || 1);
+    const w = Math.max(1, Math.round(r.width * dpr)), h = Math.max(1, Math.round(r.height * dpr));
+    if (d.cv.width !== w || d.cv.height !== h) { d.cv.width = w; d.cv.height = h; }
+    const c = d.cv.getContext('2d'); c.setTransform(1, 0, 0, 1, 0, 0);
+    try { d.fn(c, w, h, t); } catch (err) { console.error(err); }
+  }
+  requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+</script>
+</body>
+</html>

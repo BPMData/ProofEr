@@ -166,3 +166,5 @@ None at approval. Research may raise disputed figures for Bryan to settle.
 - Nov 22 · disputed counts and dates: "show dozens tried and 25 to 52: yes. 3) a range" · donne di fuora shown as
   "dozens tried"; executions "25 to 52" (none for witchcraft); small date gaps shown as ranges (1071–72, 1815–16,
   1630–31, 1204–06, 1524–26, 1785–1865 etc.). Stage: concepts.
+- Nov 23 · hero options shown as `choices-hero.html` (A festa stage, recommended; B myth-check; C candle night);
+  waiting on Bryan's letter.
