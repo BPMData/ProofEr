@@ -132,6 +132,7 @@ Spelling. The sources spell the name several ways: *donne di fuora* (Sicilian-It
 | The *donne di fuora* were an unbroken survival of a pre-Christian goddess cult (Diana, Herodias, the "ladies of the night") | Ginzburg, *Storia notturna* / *Ecstasies* (1989/1991), building on medieval *Canon episcopi* material; popular neo-pagan sites build a "Sicilian faerie tradition" on it (e.g. streghe.us, not opened) | **Contested** | For a deep root: Ginzburg (Eurasian substratum). Against "unbroken cult": Henningsen (a shared set of cultural dreams, a fairy figure reshaped into a witch around 1500), Messana and Geremia (the records are layered by inquisitors, accused and neighbours, and say more about early-modern Sicilian society than about antiquity) |
 | It was "shamanism" | Comparisons with the Friulian *benandanti* and with Hungarian and Balkan fairy cults (Pócs, Ginzburg) | **Contested** | Henningsen rejects it: "no trance technique is discernible" (2020, p. 1071). Others keep the comparison |
 | The Spanish Inquisition burned lots of Sicilian witches | General witch-craze image | **Unsupported** for Sicily | Henningsen: of 25 burned for heresy, none was a witch (1990, p. 194, via blog); 25 or 52 executions in person, 1540–1700, for all crimes (C&H 1986; Monter 1990); Henningsen says Sicily had no witch-hunt |
+| There were "33 donas de fuera" in Sicily | Balarm.it (Palermo web magazine), M. Ciprì, 2 June 2020, "secondo quanto tramandato" ("according to what has been handed down"); opened | **Unsupported.** No scholar, archive or years given, and it matches none of the scholarly counts (65 / 70 / 77 / 193) | — |
 | "Benevento is the Blockula of Sicily" | en.wikipedia and it.wikipedia, citing a self-published Lulu book (Covington 2015) | **Unsupported as a citation.** Benevento does appear in the 1587/88 testimony (Henningsen 2020, p. 1064), but the "Blockula" comparison has no scholarly source | — |
 
 ## Gaps for the gap-fill pass (not researched; budgets ran out)
@@ -217,6 +218,8 @@ leads, with no figures taken from them:
 - en.wikipedia "Doñas de fuera" and "Gertrude Cordovana"; it.wikipedia "Donas de fuera".
 - Blogs: dontburnwitches.wordpress.com (2020), barteredhistory.wordpress.com (2017).
 
+- Balarm.it, M. Ciprì, 2 June 2020: https://www.balarm.it/news/non-erano-ne-streghe-ne-fate-la-vera-identita-delle-33-donas-de-fuera-in-sicilia-118238 (opened; popular, no sources).
+
 **Tried and refused:** Project Gutenberg (Lea), Taylor & Francis (Henningsen 2009; Folklore obituary of
-Henningsen, 2023), ResearchGate, Academia.edu, The Free Library, balarm.it (fetch budget ran out), sv.wikipedia
+Henningsen, 2023), ResearchGate, Academia.edu, The Free Library, Dialnet "griegos y albaneses" article (fetch budget ran out), sv.wikipedia
 (not found).
