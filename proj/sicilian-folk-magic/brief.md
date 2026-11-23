@@ -1,6 +1,6 @@
 # Brief: Sicilian folk magic (working title)
 
-Status: APPROVED Nov 22, 2026 by Bryan (with amendments) · Stage: research · Mode: from scratch · Budget: standard to deep · Client: Bryan Murphy · Sign-off: Bryan
+Status: APPROVED Nov 22, 2026 by Bryan (with amendments) · Stage: figures · Mode: from scratch · Budget: standard to deep · Client: Bryan Murphy · Sign-off: Bryan
 Usage: Opus 5.5 (Claude Duet thread) · interview: not measured (the Duet app shows no per-stage share)
 
 _Made from `brief/TEMPLATE.md`. **ASK** = missing, **DRAFT** = Claude's draft, **Claude's call** = delegated by the
