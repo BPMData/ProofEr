@@ -1,6 +1,6 @@
 # Brief: Sicilian folk magic (working title)
 
-Status: APPROVED Nov 22, 2026 by Bryan (with amendments) · Stage: layout · Mode: from scratch · Budget: standard to deep · Client: Bryan Murphy · Sign-off: Bryan
+Status: APPROVED Nov 22, 2026 by Bryan (with amendments) · Stage: build · Mode: from scratch · Budget: standard to deep · Client: Bryan Murphy · Sign-off: Bryan
 Usage: Opus 5.5 (Claude Duet thread) · interview: not measured (the Duet app shows no per-stage share)
 
 _Made from `brief/TEMPLATE.md`. **ASK** = missing, **DRAFT** = Claude's draft, **Claude's call** = delegated by the
@@ -195,3 +195,11 @@ None at approval. Research may raise disputed figures for Bryan to settle.
   one-document facts shown with the document named; the Bonelli vision told, including that he climbed the mountain
   meaning to kill himself, plainly and without sensationalizing. Applied in `copy.md`; D3–D5, D7 marked decided in
   `figures.md`. He is sending the 12 painting files; the build waits for them.
+- Nov 23 · charm pictures: Bryan sent a glass evil eye from an Etsy listing and charm necklaces and a keychain from two
+  shops as references. Used for reference only: the blue glass eye and the coral horn are drawn for the page; no shop
+  photo is used. The mano cornuta was not drawn: the source describes a "raised thumb and little finger" amulet, which
+  may not be the index-and-little-finger horn sign.
+- Nov 23 · Inquisition chart: "idk if we want to use the same little cubes from the holocaust. maybe it could be svg
+  burning stakes or something lol" … "you can leave it as cubes for now and maybe we can think of something more fun
+  later. okay, the penitent hat works too." Built with penitent's hats (the coroza) for people tried, one hat = 10
+  people, and stakes only for the 25 to 52 executed, one stake = one person, any charge. Stage: build.

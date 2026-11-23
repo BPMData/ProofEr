@@ -2,20 +2,23 @@
 
 _Last updated: Nov 23, 2026._
 
-- **Stage:** layout approved; build next. Brief approved Nov 22 (Bryan, with amendments). Research run by Claude at Bryan's ask: 11
-  independent passes + 3 gap-fill/fact-check passes, all in `research/`.
-- **Figures:** `figures.md`, 575 cross-checked rows. All decisions answered (D3–D5, D7 and the X2-75 care
-  note on Nov 23).
-- **Concept:** A, the festa stage, with B's myth-check stamp and C's candle wall; puppets on visible sticks (Bryan,
-  Nov 23). Panel: `choices-hero.html`.
-- **Layout:** `layout.md` APPROVED Nov 23 ("Lock it in"); stills in `stills/`. Toolbox opened; build plan in the
-  brief.
-- **Copy:** `copy.md` DRAFT with Bryan's seven calls applied (every fact tagged with its row ID). **Waiting on
-  Bryan:** the 12 image files in `image-shortlist.md` (he's sending them; no stand-ins) and a screenshot of the
-  stills page for the build gate.
-- **Lessons:** this environment shares ~200 web searches per turn and ~400 fetches per hour across all workers;
-  11 parallel workers each ran out partway. Next time: fewer workers per round, explicit per-worker caps.
-- **Next:** when the images and the screenshot arrive: save the screenshot as a PNG in `stills/` and inspect it,
-  cut out the paintings, set `Stage: build`, build. Real PD cutouts need image files: the proxy here blocks museum image hosts.
+- **Stage:** build done, on branch `claude/project-thread-gi5ppk` (not merged, not published). Brief approved Nov 22
+  (Bryan, with amendments); layout approved Nov 23 ("Lock it in").
+- **Page:** `pieces/sicilian-folk-magic.html` (1.1 MB, one offline file, fonts and pictures inside, view counter
+  added, `check_offline.py` passes). Built by `build/build_piece.py` from `copy.md`, `figures.md` and
+  `build/template.html` (the `build/` scripts are force-added; `build/out/` stays ignored). Cutouts by
+  `build/make_cutouts.py` into `art/cut/`; originals in `art/originals/`.
+- **Charts:** rulers timeline (Inquisition dates in blue), Rosalia day strip, Inquisition chart (penitent's hats, one
+  = 10 people tried; stakes, one = one person executed, any charge; Bryan, Nov 23), relic cabinet drawers, routes
+  map (not to scale). Each has a caption; the timeline and strip have "Read it as a list".
+- **QA done:** HTML nesting, ids, heading order; WCAG AA contrast for every text and chart color (all pass); no
+  leftover markers; the page script runs without errors through all 14 scenes; every stage scene redrawn and looked
+  at (`stills/qa-stage-phone.png`). **Not done:** a look in a real browser (none here; installing one was refused),
+  so the text column, glosses, scrolling and print are checked in code only.
+- **Pictures:** all 12 used. Stand-ins and caveats in the credits: the bust is Saint Juliana's (Agatha's own is not
+  open-licensed); the ex-voto is Roman, 1851; the angel is credited to the Met's crèche angels (64.164) since which
+  of the four photos is .16 is unclear. The eye charm and coral horn are drawn; shop photos were reference only.
+- **Next:** Bryan looks at the page on his phone. Then, on his yes: merge to main (publishes the page and the hub card).
 - **Repo note for Bryan:** `.agents/hooks/stage_gate.py` checks figures.md for `| F01 |` rows; this piece's rows are
-  `X1-01` style, so the design gate's row check doesn't match them.
+  `X1-01` style, so the design gate's row check doesn't match them. The repo-wide `build/` ignore rule also catches
+  piece build scripts.
