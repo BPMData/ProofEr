@@ -17,7 +17,8 @@ counter on all published pieces)._
   baroque x cut-paper puppets): **built** Nov 23 at `pieces/sicilian-folk-magic.html` on branch
   `claude/project-thread-gi5ppk` (view counter added, `check_offline.py` passed, card added to `index.html` on the
   branch). No browser in this environment: the stage was checked by redrawing every scene from the page's own drawing
-  code; the text column still needs one look on a real phone. Not merged or published. `proj/sicilian-folk-magic/STATUS.md`.
+  code; the text column still needs one look on a real phone. Merged to main Nov 23. Bryan's Acts 1–4 notes partly done
+  (Act 1, Act 2 fixes, call-outs, Mulder/Scully cut); a new thesis and opening wait on his approval. `proj/sicilian-folk-magic/STATUS.md`.
 
 ## Across the repo
 - **Scope:** sourced visual pieces—short **infographics** and long-form **interactive data essays**. Recipe cards may come later.

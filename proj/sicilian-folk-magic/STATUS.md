@@ -19,6 +19,11 @@ _Last updated: Nov 23, 2026._
   open-licensed); the ex-voto is Roman, 1851; the angel is credited to the Met's crèche angels (64.164) since which
   of the four photos is .16 is unclear. The eye charm and coral horn are drawn; shop photos were reference only.
 - **Merged** to main Nov 23 (Bryan: "Merge it"). Credit tooltips on the stage and red stakes added after, also on main.
+- **Nov 23, Bryan's read-through (Acts 1–4):** Mulder/Scully cut; call-outs for Pitrè, Gramsci, de Martino and the
+  first peoples (portraits for Pitrè and Gramsci only); Act 1 rewritten for readers new to Sicily; Act 2 fixes (timeline
+  labels, the *Life*, the Roman Martyrology, "Why the floats?", the REIS link). New rows at the end of figures.md
+  ("Added Nov 23"). **Waiting on Bryan:** the thesis, act-by-act line and new opening (sent Nov 23); then rewrite the
+  body around it, and his notes on Acts 5–8.
 - **Repo note for Bryan:** `.agents/hooks/stage_gate.py` checks figures.md for `| F01 |` rows; this piece's rows are
   `X1-01` style, so the design gate's row check doesn't match them. The repo-wide `build/` ignore rule also catches
   piece build scripts.

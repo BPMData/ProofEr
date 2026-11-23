@@ -212,3 +212,21 @@ None at approval. Research may raise disputed figures for Bryan to settle.
 - Nov 23 · "the black crosses/stakes for people actually killed are hard to see, either outline them in white or make
   them red or something". Stakes now the page's red with a light outline (the earlier colors never reached the
   stakes, so they drew black).
+- Nov 23 · "I did not mean for you to ACTUALLY INCLUDE (fictionalized) QUOTES FROM MULDER AND SCULLY IN THIS. We gotta
+  take those out, it's incredibly cringe." All margin voices removed; the myth-check stamps stay.
+- Nov 23 · "Items which need drill-down call-outs: Antonio Gramsci, Ernesto de Martino, Giuseppe Pitre. the Sicani, the
+  Sicels and the Elymians (can be one collective callout box)." Added as tap or click notes. Portraits for Pitrè and
+  Gramsci (public domain by age); none for de Martino (no photographer, date or licence found).
+- Nov 23 · On Act 1: "Don't assume people know who saint Agatha is or even what Catania is", "'the world's
+  third-largest religious festival' what is?", "don't assume the reader necessarily is even that familiar with the
+  idea of saints being pagan gods in disguse", "Did 'the veil' save Catania or not?" Act 1 now says who Agatha was,
+  where Catania is, what the 900th year counts from, defines Ceres and Isis and why they were linked to her, names the
+  Festa di Sant'Agata and what's known of the ranking, and tells the 1669 veil story to the end.
+- Nov 23 · On Act 2: callouts "run off the page" (fixed); "Why is life capitalized and italicized… WTF Is the Roman
+  Martyology?" (explained); "You keep talking about all these floats and processions without naming wtf they are…
+  Do they just love marching?" (a "Why the floats?" paragraph, from Benigno); "Who keeps this register? Is there a
+  link we can include?" (the REIS, linked, dated 2013).
+- Nov 23 · Big picture: "the lack of context means the infographic so far… pretty much fails to convey any
+  interesting information in a meaningful way. There's no real thesis statement… Assume no actual familiarity with
+  Sicily or its religious traditions". A thesis, act-by-act line and new opening sent for his approval; the body
+  rewrite waits on it.

@@ -51,7 +51,7 @@ TILE = webp('tile', None)
 fig = open(P('figures.md'), encoding='utf-8').read()
 SRC = {}
 for ln in fig.splitlines():
-    m = re.match(r'^\|\s*(X\d-\d+)\s*\|', ln)
+    m = re.match(r'^\|\s*(X\d-\d+[a-z]?)\s*\|', ln)
     if m:
         cells = [c.strip() for c in ln.strip().strip('|').split('|')]
         if len(cells) >= 4:
@@ -64,7 +64,7 @@ for ln in fig.splitlines():
         TALLY[m.group(1)] = re.findall(r'X2-\d+', cells[3])
 
 def ids_in(ref):
-    out = re.findall(r'X\d-\d+', ref)
+    out = re.findall(r'X\d-\d+[a-z]?', ref)
     for a, b in re.findall(r'T(\d+)[–-]T(\d+)', ref):
         for t in range(int(a), int(b) + 1):
             out += TALLY.get(f'T{t}', [])
@@ -86,7 +86,29 @@ copy = copy.replace(
     '"standing declaration of debt" to the saint. [X1-168 (Buttitta, named)]')
 copy = re.sub(r'\[\*\*Left out until sourced:\*\*[^\]]*\]\n', '', copy)
 gloss_part = copy.split('## Glosses')[1]
-copy = copy.split('## Glosses')[0]
+call_part = copy.split('## Call-outs')[1].split('## Glosses')[0]
+copy = copy.split('## Call-outs')[0]
+
+# call-outs: '- **Name** | dates | portrait-key: text [ids]'  (Bryan, Nov 23: drill-downs for people and peoples)
+PORTRAITS = {
+    'pitre': ('Giuseppe Pitrè', 'Photograph by an unknown photographer, before 1916 (Pitrè died that year). Public domain by age. '
+              'Copy supplied by Bryan from Sicilian Post.'),
+    'gramsci': ('Antonio Gramsci', 'Photograph by an unknown photographer, about 1922. Public domain by age. Copy supplied by '
+                'Bryan from Wikimedia Commons (File:Gramsci.png).'),
+}
+def portrait(k):
+    b = open(P('art', 'portraits', k + '.jpg'), 'rb').read()
+    return 'data:image/jpeg;base64,' + base64.b64encode(b).decode()
+CALLOUT, CALL_IDS = {}, {}
+for item in re.split(r'\n- ', '\n' + call_part.split('\n', 1)[1].strip()):
+    item = ' '.join(item.split())
+    m = re.match(r'\*\*(.+?)\*\* \| (.*?) \| (\w*): (.*?)\s*(\[[^\]]*\])?$', item)
+    if not m:
+        continue
+    key, sub, img, text = m.group(1), m.group(2), m.group(3), m.group(4)
+    CALLOUT[key] = dict(title=key if key[0].isupper() else sub, sub=sub if key[0].isupper() else '', text=text,
+                        img=portrait(img) if img else '', credit=PORTRAITS[img][1] if img else '')
+    CALL_IDS[key] = re.findall(r'X\d-\d+[a-z]?', m.group(5) or '')
 
 GLOSS = {}
 for item in re.split(r'\n- ', '\n' + gloss_part.split('\n', 1)[1]):
@@ -106,10 +128,18 @@ def smart(s):
     s = re.sub(r"(^|\s)'", r'\1‘', s)
     return s.replace("'", '’')
 
+USED_CALLS = []
 def inline(s):
     s = html.escape(s, quote=False)
     s = smart(s)
-    s = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', s)
+    def call(key, label):
+        USED_CALLS.append(key)
+        return (f'<button type="button" class="gloss callout" aria-expanded="false" data-callout="{html.escape(key)}">'
+                f'{label}</button>')
+    s = re.sub(r'\[\[([^|\]]+)\|([^\]]+)\]\]', lambda m: call(m.group(2), m.group(1)), s)
+    s = re.sub(r'\[([^\[\]]+)\]\((https://[^)\s]+)\)', r'<a href="\2" rel="noopener">\1</a>', s)
+    s = re.sub(r'\*\*([^*]+)\*\*', lambda m: call(m.group(1), f'<strong>{m.group(1)}</strong>') if m.group(1) in CALLOUT
+               else f'<strong>{m.group(1)}</strong>', s)
     def em(m):
         t = m.group(1)
         if t in GLOSS:
@@ -141,15 +171,13 @@ for sec in sections:
     for p in paras:
         for r in REF.findall(p):
             ids += ids_in(r)
+        for k in CALLOUT:
+            if f'**{k}**' in p or f'|{k}]]' in p:
+                ids += CALL_IDS[k]
         p = REF.sub('', p)
         lines = p.split('\n')
         if p.startswith('>'):
-            ds = []
-            for ln in lines:
-                mm = re.match(r'>\s*\*\*(\w+):\*\*\s*(.*)', ln)
-                if mm:
-                    ds.append(f'<p class="say {mm.group(1).lower()}"><b>{mm.group(1)}</b> {inline(mm.group(2))}</p>')
-            blocks.append('<aside class="duo" aria-label="Margin voices">' + ''.join(ds) + '</aside>')
+            continue  # margin voices cut (Bryan, Nov 23)
         elif p.startswith('_[Unit chart'):
             blocks.append('{{UNIT}}')
         elif p.startswith('_'):
@@ -247,18 +275,20 @@ def strip_svg():
         m = dt.date(m.year + (m.month == 12), m.month % 12 + 1, 1); i += 1
     s.append(f'<line x1="72" x2="72" y1="{y(d0):.1f}" y2="{y(d1):.1f}" class="axis"/>')
     ya, yb = y(dt.date(1624, 7, 27)), y(dt.date(1625, 2, 15))
+    yn = y(dt.date(1624, 11, 15))
+    gy = (ya + 17 + yn) / 2 - 6
     s.append(f'<rect x="68" y="{ya:.1f}" width="8" height="{yb - ya:.1f}" class="gap"/>'
-             f'<text x="84" y="{(ya + yb) / 2:.1f}" class="gaplab">Patron for about seven</text>'
-             f'<text x="84" y="{(ya + yb) / 2 + 16:.1f}" class="gaplab">months before the proof</text>')
+             f'<text x="100" y="{gy:.1f}" class="gaplab">Patron for about seven</text>'
+             f'<text x="100" y="{gy + 16:.1f}" class="gaplab">months before the proof</text>')
     last = -99
     for d, when, what, cls in ev:
         yy = y(d)
         ty = max(yy + 4, last + 17); last = ty
         mark = (f'<rect x="66" y="{yy - 6:.1f}" width="12" height="12" class="pt month"/>' if 'month' in cls
                 else f'<circle cx="72" cy="{yy:.1f}" r="5" class="pt"/>')
-        s.append(mark + f'<text x="{230 if "hit" in cls else 230}" y="{ty:.1f}" class="lab{" hit" if "hit" in cls else ""}">'
+        s.append(mark + f'<text x="100" y="{ty:.1f}" class="lab{" hit" if "hit" in cls else ""}">'
                  f'<tspan class="lyr">{when}</tspan> {html.escape(what)}</text>'
-                 f'<line x1="80" x2="226" y1="{yy:.1f}" y2="{ty - 4:.1f}" class="lead"/>')
+                 f'<line x1="80" x2="96" y1="{yy:.1f}" y2="{ty - 4:.1f}" class="lead"/>')
     s.append('</svg>')
     return ''.join(s)
 
@@ -409,7 +439,7 @@ def section_html(s):
 <div class="card"><p class="dek">Under every saint in Sicily, the story goes, there’s a goddess wearing a disguise. We
 put that story on stage and checked it, claim by claim: who said it first, and what the record shows.</p>
 <p class="byline"><i>A show in eight acts</i><br>By Bryan Murphy · November 22, 2026</p>
-{ACTS}<p class="howto">Scroll, and the stage changes with each act. Underlined words open a short gloss. Point at or tap a puppet to see where it comes from. Red stamps are
+{ACTS}<p class="howto">Scroll, and the stage changes with each act. Underlined words and names open a short note. Point at or tap a puppet to see where it comes from. Red stamps are
 myth-checks.</p></div></header>'''
     if n == 13:
         return ''
@@ -462,7 +492,9 @@ how many Sicilians hold it today. Beliefs are written as beliefs.</p>
     out.append('<h3>Pictures</h3><ul class="src">' + ''.join(f'<li><b>{a}:</b> {b}</li>' for a, b in CREDITS.values()) +
                '<li><b>Drawn for this page:</b> the scholars’ and rulers’ placards, the boat, the letter, the table, the ship '
                'the blue glass eye charm and the coral horn charm. No open-licensed picture of Benedict the Moor or Antonio of Noto turned up, so '
-               'they are not shown.</li></ul>')
+               'they are not shown.</li>' + ''.join(f'<li><b>Portrait of {a}:</b> {b}</li>' for a, b in PORTRAITS.values()) +
+               '<li><b>Ernesto de Martino:</b> no portrait. The photo we had came from a personal site with no photographer, '
+               'date or licence, so we could not clear it.</li></ul>')
     out.append('<h3>Type</h3><p class="small">Gloock (display) and Literata (text), both under the SIL Open Font License.</p>')
     out.append('<p class="small">Made with ProofEr. Research and drafting by Claude for Bryan Murphy, November 2026.</p></div></section>')
     return ''.join(out)
@@ -476,7 +508,8 @@ for n, sc in SCENES.items():
     sc['title'] = (f'{m2.group(1)} · {m2.group(2)}' if m2 else
                    {0: 'Saints & Spells', 1: 'Overture', 2: 'Primer', 3: 'Who ruled Sicily', 12: 'Curtain call', 13: 'Sources'}.get(n, ''))
     sc['title'] = {7: 'Act 4 · St Joseph', 10: 'Act 7 · Relics', 11: 'Act 8 · Americas'}.get(n, sc['title'])
-data = dict(imgs=IMGS, names={k: v[0] for k, v in CREDITS.items()}, credits={k: v[1] for k, v in CREDITS.items()}, scenes=SCENES)
+CALL_DATA = {k: dict(v, text=inline(v['text']), sub=inline(v['sub'])) for k, v in CALLOUT.items()}
+data = dict(callouts=CALL_DATA, imgs=IMGS, names={k: v[0] for k, v in CREDITS.items()}, credits={k: v[1] for k, v in CREDITS.items()}, scenes=SCENES)
 page = (tpl.replace('{{BODY}}', body)
            .replace('{{FRAME}}', FRAME).replace('{{TILE}}', TILE)
            .replace('{{DATA}}', json.dumps(data, ensure_ascii=False)))

@@ -3,8 +3,8 @@
 Status: DRAFT by Claude, Nov 23, 2026 · Bryan's seven calls applied Nov 23 · for Bryan to read before the build
 
 _Written from `figures.md` only. Every fact carries its row ID in brackets; the IDs come out at build. Lines that rest on
-one document name that document in the sentence (Bryan's call, D3). Stamps are the red myth-check stamps; "Mulder"
-and "Scully" are the two margin voices. Sicilian terms in italics get a tap-to-open gloss (listed at the end)._
+one document name that document in the sentence (Bryan's call, D3). Stamps are the red myth-check stamps.
+(The two margin voices were cut on Bryan's note, Nov 23.) Sicilian terms in italics get a tap-to-open gloss (listed at the end)._
 
 ---
 
@@ -27,8 +27,6 @@ underneath. [X1-94, X1-95, X1-121]
 
 It's a great story. It's also mostly a 19th-century one. [X1-19; premise check]
 
-> **Mulder:** Two thousand years of goddesses hiding in plain sight. I want to believe.
-> **Scully:** Then let's see who said it first.
 
 What the record does show is stranger and better: a Church that moved into the island's temples and calendar, and
 Sicilians who made its saints, relics and rites entirely their own.
@@ -54,14 +52,12 @@ reject it as a general model, though a few still argue for long continuity in pa
   pre-Christian leftover and tied it to Catholic practice instead. His book *Sud e magia* came out in 1959.
   [X1-12, X1-13, X1-15]
 
-> **Scully:** So the man who wrote down the customs also wrote the theory about them.
-> **Mulder:** Someone has to start the file.
 
 ---
 
 ## 3 · Who ruled Sicily, and what they left
 
-Before the colonists came, the island belonged to the Sicani, the Sicels and the Elymians, with Phoenicians trading
+Before the colonists came, the island belonged to [[the Sicani, the Sicels and the Elymians|first peoples]], with Phoenicians trading
 on the coasts. Greeks founded colonies from the 8th century BC. [X1-47, X1-50]
 
 Then the island changed hands, again and again:
@@ -84,18 +80,25 @@ And in 1487 the Spanish Inquisition sent its first inquisitor to Sicily. Hold th
 
 ## 4 · Act 1 · Catania: Agatha goes away, and comes back
 
-Agatha is Catania's own saint. About 1040, during his campaign of 1038–40, the Byzantine general George Maniakes
-took her body to Constantinople. No source from the time gives the year. [X1-84, X2-02, X1-85, X2-03]
+Catania is a city on Sicily's east coast, at the foot of Mount Etna, the volcano that towers over the island's
+east. Its patron saint is Agatha, a young Christian woman of the city who, by tradition, was put to death there for
+her faith in the 250s, under the Roman emperor Decius. Christians were honoring her by late Roman times.
+[X1-200a, X1-82, X1-83]
+
+About 1040, during his campaign of 1038–40, the Byzantine general George Maniakes took her body to Constantinople,
+the capital of the Byzantine Empire. No source from the time gives the year. [X1-84, X2-02, X1-85, X2-03]
 
 Who received her there, the sources don't agree: some say Emperor Michael IV, others Empress Theodora, who in the
 scholar Constantine Lascaris's account, written some 400 years later, put the relics in a convent of virgins. [X2-07]
 
-On 17 August 1126 two soldiers, Gislebertus and Goselinus, brought it home. The clergy met it "nudis pedibus et in
-albis vestibus": barefoot, in white. That makes 2026 the 900th year. [X1-86, X2-08, X2-10, X2-12, X1-97]
+On 17 August 1126 two soldiers, Gislebertus and Goselinus, brought her body home to Catania. The clergy met it
+"nudis pedibus et in albis vestibus": barefoot, in white. That makes 2026 the 900th anniversary of her homecoming.
+[X1-86, X2-08, X2-10, X2-12, X1-97]
 
-Catania still celebrates her from 3 to 5 February, and again on 17 August for the return. Devotees wear a white robe,
-the *sacco*. One story says it recalls the nightshirts people ran out in when the relics came home in 1126. The
-historian Benigno says the robe is an 18th-century creation. [X1-90, X2-35, X1-201, X1-93]
+Catania still celebrates her with the Festa di Sant'Agata, from 3 to 5 February, and again on 17 August for the
+return. Devotees wear a white robe, the *sacco*. One story says it recalls the nightshirts people ran out in when the
+relics came home in 1126. The historian Benigno says the robe is an 18th-century creation. [X1-90, X2-35, X1-201,
+X1-93]
 
 **Stamp:** MYTH-CHECK · the *sacco* remembers 1126 · no historical support [X2-34]
 
@@ -104,18 +107,31 @@ from Richard the Lionheart, whatever you've heard: it was made in the late 15th 
 
 **Stamp:** MYTH-CHECK · Richard the Lionheart's crown · made in the late 1400s [X2-21]
 
-Devotees hold that her veil protects the city from Etna's lava. When Etna erupted in 1669 the veil was carried in
-processions from March to July; the lava reached Catania on 30 April. [X2-28, X2-29]
-
-**Stamp:** MYTH-CHECK · Agatha is Ceres in disguise · first claimed 1823 [X1-95]
-The English writer J. J. Blunt said it first, and admitted he couldn't prove it. The Isis version comes from
-Emanuele Ciaceri in 1905. A 2025 study's title says it plainly: "Né Demetra, né Iside" (neither Demeter nor Isis).
-[X1-94, X1-95]
+You'll often read that this is the world's third-largest religious festival. We found no count behind that ranking,
+and Catania's own daily paper, *La Sicilia*, has called it a figure "never verified", repeated for 30 years. [X1-96]
 
 **Stamp:** MYTH-CHECK · "the world's third-largest religious festival" · no source found [X1-96]
 
-> **Mulder:** A saint who stops a volcano.
-> **Scully:** A city that walked into the lava's path carrying her veil. Both of those are true.
+**Is Agatha a goddess in disguise?** Since the 1800s some writers have argued that Catholic saints quietly took the
+place of older gods, so that people went on worshipping the same power under a new name. For Agatha the candidates
+are two goddesses. Ceres was the Roman goddess of growing crops; early on her cult merged with that of the Greek
+Demeter, who was widely worshipped in Sicily. Isis was one of the great goddesses of ancient Egypt, and her cult
+spread across the Roman Empire. [X1-94a, X1-94b]
+
+Why them? In 1823 the English writer J. J. Blunt set Agatha beside Ceres, and admitted he couldn't prove it. In 1905
+the historian Emanuele Ciaceri compared her feast to a procession for Isis described by the Roman writer Apuleius:
+crowds, white clothes, lights. A 2025 study by Cristiana Soraci answers in its title, "Né Demetra, né Iside" (neither
+Demeter nor Isis). At Apuleius's procession everyone wore white; in 1126 only the clergy did. And Isis is known in
+Catania only from a few statuettes, a lamp and some coins. [X1-94, X1-95, X1-94c (Soraci 2025, named)]
+
+**Stamp:** MYTH-CHECK · Agatha is Ceres or Isis in disguise · first claimed in 1823 and 1905 [X1-94, X1-95]
+
+**The veil.** Devotees believe her veil can hold back Etna's lava. In 1669 Etna erupted for four months, from March
+to July. Through those months the veil and other relics were carried in prayer processions, in the villages in the
+lava's path and in Catania itself, and citizens led by Diego Pappalardo tried to dig the flow aside. On 30 April the
+lava broke through the city walls on the west side and destroyed part of the walls and a number of buildings; it had
+already reached the sea at the harbor. Believers said the veil kept the whole city from being destroyed. The rest of
+Catania did survive the lava. [X2-28, X2-29, X2-29a, X2-29b]
 
 _Relic cabinet: drawer 1, Agatha's body, Catania._
 
@@ -146,22 +162,28 @@ procession of her relics. [X2-75]
 Palermo made her its patron seven months before anyone confirmed whose bones they were. Palermitans credit her with
 ending the plague; that is their belief, and they have kept it for four centuries. [X2-70, X1-104]
 
-A *Life* of Rosalia came out in 1627, and her name entered the Roman Martyrology about 1630. Her relics have lain in
-a silver urn in the cathedral since 1631. [X1-108, X1-109, X1-113, X2-85]
+In 1627 Giordano Cascini published a biography of her (a saint's life story is traditionally called a *Life*, in
+Latin a *vita*). About 1630 her name went into the Roman Martyrology, the Church's official list of saints in the
+order of their feast days. Her relics have lain in a silver urn in the cathedral since 1631. [X1-108, X1-109,
+X1-109a, X1-113, X2-85]
 
 Even so, she never took over the island. Around 1900 the folklorist Pitrè surveyed about 150 towns: Mary was the
 main patron of 45, the Crucifix of 13, and Rosalia of 7. [X1-183, X1-184, X1-186 (Pitrè 1900, named)]
 
-Today the *festino* runs 10 to 15 July, with the great cart on the evening of the 14th and the urn procession on the
-15th. The 400th festino was in 2024. On the night of 3 to 4 September comes the *acchianata*, the climb up the
+Today the *festino* runs 10 to 15 July. On the evening of the 14th a huge decorated cart, the *carro*, carries her
+image through the city; on the 15th her urn of relics goes in procession. The 400th festino was in 2024. On the night of 3 to 4 September comes the *acchianata*, the climb up the
 mountain to her cave. [X1-116, X1-117, X1-118, X1-202, X1-203]
+
+**Why the floats?** Sicily's four great city feasts, for Rosalia in Palermo, Agatha in Catania, the Assumption
+of Mary in Messina and the Good Friday *Misteri* in Trapani, all took their present shape in the baroque age of the
+1600s and 1700s. Jesuits, trade guilds and civic pride turned them into spectacles meant to astonish, with carts,
+giant candles and machines. The historian Francesco Benigno calls them "creations of the baroque". [X1-122,
+X1-122a]
 
 **Stamp:** MYTH-CHECK · Rosalia's cave was Tanit's shrine · no finds, no inscription [X1-121]
 
 **Stamp:** MYTH-CHECK · a geologist proved the bones were a goat's · a late, second-hand anecdote [X2-93]
 
-> **Scully:** Elected first, authenticated later.
-> **Mulder:** And the plague still ended. Just saying.
 
 _Relic cabinet: drawer 2, Rosalia's bones, Palermo._
 
@@ -182,8 +204,6 @@ The hair relic still rides the city's silver *vara* in procession. [X1-131]
 **Stamp:** MYTH-CHECK · found in Greek and translated in the 1400s · the supporters' claim, unsupported [X1-127]
 **Stamp:** MYTH-CHECK · "venerated since the Middle Ages" · oldest firm date: 1522 [X1-128]
 
-> **Mulder:** A letter from the Virgin Mary.
-> **Scully:** Censored by the Vatican for overselling it.
 
 _Relic cabinet: drawer 3, Mary's hair, Messina._
 
@@ -199,14 +219,15 @@ The night before, bonfires: the *vampata*. [X1-147, X1-206]
 Pitrè recorded these meals for the poor by 1900 at the latest. Nobody knows exactly when they began. The folklorist
 Del Giudice found nothing like them in Spain or its colonies. [X1-142, X1-141, X1-148 (single source, named)]
 
-In the Sicilian Region's register of living traditions, as it stood in 2013, St Joseph had 11 of its 86
-celebrations, more than any other saint. [X1-192, X1-193, X1-194 (the Region's 2013 register, named)]
+Sicily's regional government keeps an official register of living traditions, the
+[REIS](https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/assessorato-beni-culturali-identita-siciliana/dipartimento-beni-culturali-identita-siciliana/altri-contenuti/reis)
+(Registro delle Eredità Immateriali), begun in 2005. In its list as published in September 2013, the latest full
+list we could find, St Joseph had 11 of the 86 feasts and rituals, more than any other saint. [X1-190, X1-192,
+X1-193, X1-194 (the Region's 2013 register, named)]
 
 **Stamp:** MYTH-CHECK · a medieval famine ended by fava beans · told mostly by emigrants, with no source [X1-149]
 **Stamp:** MYTH-CHECK · a Christianized Demeter rite · parallels, not descent [X1-150]
 
-> **Mulder:** Feeding the poor as if they were the Holy Family.
-> **Scully:** No myth required.
 
 ---
 
@@ -276,8 +297,6 @@ raised thumb and little finger, as a 2025 Palermo University Press study reports
 
 [**Left out until sourced:** a Sicilian evil-eye charm text and the oil-in-water test (Pitrè 1896, pp. 176–184).]
 
-> **Mulder:** Fairy women who cure the sick.
-> **Scully:** The Inquisition's own records say so. That's the strange part.
 
 ---
 
@@ -341,8 +360,6 @@ Catholics everywhere, and the baroque turned up the volume in both places. [X3-2
   through Spain and Portugal [X3-211]
 - MYTH-CHECK · St Joseph's tables are a Latin American tradition too · not found [X3-189]
 
-> **Mulder:** Two Sicilian saints in the drums of Venezuela.
-> **Scully:** Carried by Black brotherhoods through Lisbon, not by emigrants.
 
 ---
 
@@ -353,19 +370,38 @@ Sicily's temples and calendar, and Sicilians who made it their own, with a hermi
 were checked, a letter from Mary, tables for the poor, gifts from the dead, and healers the Inquisition couldn't quite
 bring itself to burn.
 
-> **Mulder:** I still want to believe.
-> **Scully:** Good. Now you know what you're believing.
 
 ---
 
 ## 13 · About these numbers / Sources
 At build, from `figures.md` (sources by act; image credits; the notes listed in `layout.md`).
 
+## Call-outs (tap to open; portraits only where cleared)
+- **Giuseppe Pitrè** | 1841–1916 | pitre: Palermo's great collector of Sicilian folk life. Italy's national biography
+  (Treccani) says he worked as a doctor all his life, hardly ever leaving Palermo. In his spare hours he gathered
+  tales, songs, feasts, cures and beliefs into 25 volumes, founded a journal for them in 1882, and in 1910 got the
+  first university chair in the subject. He also wrote that these traditions were "remains of ancient mythologies",
+  the idea this show keeps testing. [X1-20, X1-20a, X1-21, X1-26, X1-27, X1-18]
+- **Antonio Gramsci** | 1891–1937 | gramsci: A Marxist thinker from Sardinia and a leader of Italy's Communist
+  Party. Mussolini's government arrested him in 1926, and he filled notebook after notebook in prison; the complete
+  *Prison Notebooks* came out in 1975. In them he argued that the folklore of ordinary people was a worldview of its
+  own, "to be taken seriously". [X1-10, X1-10a]
+- **Ernesto de Martino** | 1908–1965 | : An Italian historian of religions, from Naples, says Italy's national
+  biography (Treccani). In the 1950s he did fieldwork on magic in Lucania, in mainland southern Italy. In *Sud e
+  magia* (1959; in English *Magic: A Theory from the South*) he argued that southern magic was not a pagan leftover
+  but a way of weathering what he called a "crisis of presence", bound up with Catholic practice. [X1-12, X1-13,
+  X1-14a, X1-15, X1-16]
+- **first peoples** | The Sicani, the Sicels and the Elymians | : Sicily's peoples before the Greek colonies. The
+  Greek historian Thucydides says the Sicani called themselves the island's first inhabitants, though he thought they
+  came from Iberia; the Elymians, around Eryx and Segesta in the west, were said to descend from refugees of Troy;
+  and the Sicels crossed over from mainland Italy. Phoenician traders held points along the coast. [X1-47]
+
 ## Glosses (tap to open)
 - *sacco*: the white robe worn by Agatha's devotees in Catania [X1-201]
 - *festino*: Palermo's July feast of Rosalia [X1-202]
 - *acchianata*: the night climb up Monte Pellegrino to Rosalia's cave, 3–4 September [X1-203]
 - *vara*: a processional float; Messina's is silver [X1-204]
+- *carro*: the giant decorated cart of Palermo's festino [X1-116]
 - *virgineddi*: "little virgins", the guests of honor at a St Joseph table, usually poor children dressed as the Holy
   Family [X1-205]
 - *vampata*: the St Joseph's eve bonfire [X1-206]

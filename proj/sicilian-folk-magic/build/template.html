@@ -75,6 +75,15 @@ a { color:var(--blue); }
   padding:10px 12px; font-size:15px; line-height:1.45; box-shadow:0 8px 20px rgba(0,0,0,.45); border-radius:3px; }
 .artpop { position:fixed; z-index:30; pointer-events:none; }
 .glosspop b { color:var(--blue); font-style:italic; font-weight:600; }
+.gloss.callout { font-style:normal; text-decoration-style:dotted; }
+.gloss.callout strong { color:var(--blue); }
+.glosspop.co { max-width:min(420px, calc(100vw - 24px)); font-size:14.5px; }
+.glosspop.co::after { content:""; display:block; clear:both; }
+.glosspop.co .ct { font-style:normal; font-size:16px; }
+.glosspop.co .cs { color:var(--ink-soft); }
+.glosspop.co .cx { display:block; margin-top:4px; }
+.glosspop .por { float:left; width:84px; height:auto; margin:2px 12px 6px 0; border:2px solid var(--ink); filter:sepia(.25); }
+.glosspop .cc { display:block; clear:both; padding-top:6px; font-size:12px; color:var(--ink-soft); }
 
 .myth { display:grid; grid-template-columns:auto minmax(0,1fr); gap:14px; align-items:center; margin:16px 0; padding:12px; background:#f6ecdc; border-radius:2px; }
 .night .myth { background:#33202a; }
@@ -84,11 +93,6 @@ a { color:var(--blue); }
 .stampbox { display:inline-block; border:3px solid var(--red); color:var(--red); padding:6px 10px 5px; font:400 15px/1.25 var(--display);
   letter-spacing:.06em; text-transform:uppercase; transform:rotate(-3deg); background:rgba(255,255,255,.55); white-space:nowrap; }
 .night .stampbox { color:#ff9a8a; border-color:#ff9a8a; background:rgba(0,0,0,.2); }
-.duo { display:grid; gap:8px; margin:18px 0 4px; }
-.say { font-style:italic; padding:8px 12px; background:#fff; border-radius:16px; width:fit-content; max-width:92%; box-shadow:0 2px 0 rgba(42,29,22,.15); font-size:15px; margin:0; }
-.say b { font-style:normal; font-weight:600; font-size:11px; letter-spacing:.1em; text-transform:uppercase; margin-right:6px; color:var(--ink-soft); }
-.say.mulder { color:#24406e; } .say.scully { color:#7a2a1c; margin-left:auto; }
-.night .say { background:#3a2730; } .night .say.mulder { color:#bcd3f5; } .night .say.scully { color:#f5c2b4; } .night .say b { color:var(--night-soft); }
 
 figure.chart { margin:18px 0; }
 figcaption { font-size:14px; line-height:1.45; color:var(--ink-soft); margin-top:8px; }
@@ -149,7 +153,7 @@ ul.src li { margin-bottom:5px; overflow-wrap:anywhere; }
   .show { display:block; }
   .sec, .sec.night { background:#fff; color:#000; padding:8pt 0; break-inside:auto; }
   .card, .night .card { box-shadow:none; background:#fff; color:#000; max-width:none; }
-  .night .say, .night .myth { background:#fff; color:#000; }
+  .night .myth { background:#fff; color:#000; }
   .night .unit .k, .night figcaption { fill:#000; color:#000; }
   .cone.magic { fill:#b07a00; }
   .stake.open { --so:#a3171f; }
@@ -432,7 +436,14 @@ document.addEventListener('click', (e) => {
   if (!g) { if (!e.target.closest('.glosspop')) closeG(); if (!e.target.closest('#cabbtn, #cabpop')) { cabpop.hidden = true; cabbtn.setAttribute('aria-expanded', 'false'); } return; }
   if (openG === g) { closeG(); return; }
   closeG(); openG = g; g.setAttribute('aria-expanded', 'true');
-  pop.innerHTML = '<b>' + g.textContent + '</b> · ' + g.dataset.gloss; pop.hidden = false;
+  const co = g.dataset.callout && DATA.callouts[g.dataset.callout];
+  pop.classList.toggle('co', !!co);
+  pop.innerHTML = co
+    ? (co.img ? '<img class="por" alt="Portrait of ' + co.title + '" src="' + co.img + '">' : '') +
+      '<b class="ct">' + co.title + '</b>' + (co.sub ? ' <span class="cs">' + co.sub + '</span>' : '') +
+      '<span class="cx">' + co.text + '</span>' + (co.credit ? '<small class="cc">' + co.credit + '</small>' : '')
+    : '<b>' + g.textContent + '</b> · ' + g.dataset.gloss;
+  pop.hidden = false;
   const r = g.getBoundingClientRect(), pw = pop.offsetWidth;
   pop.style.left = Math.max(12, Math.min(innerWidth - pw - 12, r.left + scrollX)) + 'px'; pop.style.top = (r.bottom + scrollY + 8) + 'px';
   g.setAttribute('aria-describedby', 'glosspop');
