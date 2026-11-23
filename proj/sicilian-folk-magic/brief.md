@@ -144,6 +144,22 @@ and tablet widths.
 ## 17. Approval and success
 Bryan signs off. Success: readers leave "edified, amused and edutained".
 
+## Build plan
+Toolbox opened Nov 23 after layout approval. Mostly **build new**; the toolbox has little yet.
+- **Page shell, sticky stage, text cards, glosses:** build new (HTML/CSS; stage is a canvas on the left on desktop,
+  top 40% on phone).
+- **Puppets on sticks:** build new (canvas cut-paper renderer with visible sticks and hand rods). Faces and robes
+  come from the public-domain artworks in `research/F-images.md` once the files are in hand; drawn stand-ins until
+  then.
+- **Myth-check stamp, relic cabinet tally, candle wall:** build new (from the concept sketches in
+  `choices-hero.html` and `stills/stills.html`).
+- **Timeline, 1624–25 strip, unit chart, relic drawers, route map:** build new (SVG/canvas, no libraries).
+- **Fonts:** reuse `tools/embed_fonts.py` (Gloock, Literata, both SIL OFL).
+- **Offline check and view counter:** reuse `tools/check_offline.py` and `tools/add_view_counter.py`.
+- **Publish:** reuse the repo steps (copy to `pieces/`, card in `index.html`, README kept true).
+- **Copy:** Claude drafts it in `copy.md` from `figures.md` only, every fact tagged with its row ID; Bryan reads it
+  before the build.
+
 ## 18. Open questions
 None at approval. Research may raise disputed figures for Bryan to settle.
 
@@ -171,3 +187,4 @@ None at approval. Research may raise disputed figures for Bryan to settle.
   stick, try to incorporate that into A too." · Concept A (festa stage) with B's myth-check stamp and C's candle
   wall; puppets ride visible sticks. T12 settled: light tile ground, night only for the dead and healers acts.
   Stage: layout.
+- Nov 23 · layout and stills: "Lock it in" · `layout.md` APPROVED; toolbox opened; build plan written.

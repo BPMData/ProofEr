@@ -1,6 +1,6 @@
 # Layout plan: Sicilian folk magic (working title "Saints & Spells")
 
-Stage: layout · DRAFT (waiting on Bryan)
+Stage: layout · APPROVED Nov 23, 2026 by Bryan ("Lock it in")
 
 _Written from `brief.md` and `figures.md` only; nothing on the restricted list is open yet. Concept chosen Nov 23:
 A, the festa stage, with B's myth-check stamp and C's candle wall, and puppets on visible sticks (Decisions log)._
