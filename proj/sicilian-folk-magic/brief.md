@@ -244,3 +244,4 @@ None at approval. Research may raise disputed figures for Bryan to settle.
   relic, no empty slots, and no fill glitch; "Who the hell is Lucy?"; don't lead with the no-duplicate-finger line;
   explain why European churches collected body parts, Calvin's translator, relic classes, and whether cutting up saints
   was allowed before 2017. "focus on re-building the infographic up through act 7 before we move on."
+- Nov 23 · tone benchmark: "For the tone I'm going for, think 'A Distant Mirror' by Barbara Tuchman as like the best history book I've ever read, I think. Maybe a little less technical and intimidating than her prose, but definitely not in a dumbed-down way." · guides the narrative/voice refinement pass alongside the Sicilian friend-and-folklorist stance.

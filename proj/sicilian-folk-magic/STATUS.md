@@ -44,3 +44,17 @@ _Last updated: Nov 23, 2026 (evening)._
   Letter manuscript (no photo of the hair exists), Lucy in Venice (her feet show) and Louis IX's tomb, which gets a
   fifth drawer (copy `_cabinet louis_`). Page now 3.2 MB. Research reports behind today's revisions saved as
   `research/H-revision-reads.md`. Rosalia's urn photo (Effems, CC BY-SA 4.0) added after Bryan sent the author. **Next:** Act 8.
+- **Nov 23 bugfix & refinement-plan pass (`fix/sicilian-bugfixes-and-cabinet`):**
+  - Fixed `#cabpop` off-screen positioning on mobile (`position:fixed`, scrollable, close button), added `64×64` clickable
+    relic photo thumbnails, made the drawn stage cabinet clickable (`ui:cabinet`) and hid it on compact mobile stages so
+    `.cabbtn` doesn't cover it; made Act 7's opened cabinet drawers clickable (`data-z`) and moved the grid after Louis IX.
+  - Fixed puppet `setCast`/`drawCast` popping & duplicate Overture pop-down/pop-up (kept matching props in place across
+    consecutive scenes, skipped `leaving` for un-entered props, disabled hitboxes on leaving props, clipped stage cast
+    to proscenium/floor slot, shortened `boat` stick, clamped `stampOn` width and cleared stale stamps on scene change).
+  - Fixed mobile `pickScene` trigger line, `cabKey` sync, empty `#oncap` stray box (`.oncap:empty`), `#glosspop` scroll
+    dismissal & flip, `Escape` modal priority (`zoom` → `cabpop` → `glosspop`), and Act 8 `route_svg()` geography.
+  - Added offline font fallback in `build_piece.py`; rebuilt `pieces/sicilian-folk-magic.html` (3.60 MB), ran
+    `add_view_counter.py` and `check_offline.py` (0 problems), and verified in headless Chromium at 1440×900 and 390×844
+    (`proj/sicilian-folk-magic/qa/`).
+  - Logged Bryan's *A Distant Mirror* tone benchmark in `brief.md` and wrote the 4-wave Hydrogen sub-agent refinement
+    plan at `proj/sicilian-folk-magic/REFINEMENT-PLAN.md`. **Next:** Bryan's answers on the 5 open questions, then run Wave 1–4.

@@ -425,44 +425,51 @@ have been executed as a witch.</figcaption>
 
 def cabinet_html():
     groups = [
-        ('Lucy’s whole body', [('Venice', 'claim', ''), ('Metz', 'claim', ''), ('Syracuse', 'empty', 'the original tomb, empty')], 'Our count: two claims, Venice and Metz.'),
-        ('Lucy’s head', [('Venice', 'synth', ''), ('Bourges', 'synth', '')], 'Our own comparison of two separate reports.'),
-        ('Agatha', [('Catania', 'claim', 'the body'), ('Palermo', 'claim', 'her arm'), ('31 places', 'synth', 'outside Catania, per one tourism list')], 'Spread, not doubled.'),
-        ('Louis IX', [('Monreale', 'claim', 'entrails'), ('Monreale?', 'synth', 'heart, by one medieval account'), ('Saint-Denis?', 'synth', 'heart, says Le Goff')], 'The heart is disputed.'),
-        ('Rosalia', [('Palermo', 'claim', 'the bones, in a silver urn')], ''),
-        ('Mary’s hair', [('Messina', 'claim', 'with the Letter')], ''),
+        ('Lucy’s whole body', [('Venice', 'claim', '', 'lucybody'), ('Metz', 'claim', '', ''), ('Syracuse', 'empty', 'the original tomb, empty', '')], 'Our count: two claims, Venice and Metz.'),
+        ('Lucy’s head', [('Venice', 'synth', '', ''), ('Bourges', 'synth', '', '')], 'Our own comparison of two separate reports.'),
+        ('Agatha', [('Catania', 'claim', 'the body', 'bust'), ('Palermo', 'claim', 'her arm', ''), ('31 places', 'synth', 'outside Catania, per one tourism list', '')], 'Spread, not doubled.'),
+        ('Louis IX', [('Monreale', 'claim', 'entrails', 'louis'), ('Monreale?', 'synth', 'heart, by one medieval account', ''), ('Saint-Denis?', 'synth', 'heart, says Le Goff', '')], 'The heart is disputed.'),
+        ('Rosalia', [('Palermo', 'claim', 'the bones, in a silver urn', 'urn')], ''),
+        ('Mary’s hair', [('Messina', 'claim', 'with the Letter', 'capello')], ''),
     ]
     out = ['<figure class="chart cabinet" aria-labelledby="cab-cap"><div class="drawers">']
     for name, ds, note in groups:
         out.append(f'<div class="dgroup"><h3>{name}</h3><div class="drow">')
-        for place, kind, sub in ds:
-            out.append(f'<div class="drawer {kind}"><b>{place}</b>{f"<small>{sub}</small>" if sub else ""}</div>')
+        for place, kind, sub, z in ds:
+            head = f'<button type="button" class="zbtn" data-z="{z}" aria-label="See {place} relic up close">{place}</button>' if z else place
+            out.append(f'<div class="drawer {kind}"><b>{head}</b>{f"<small>{sub}</small>" if sub else ""}</div>')
         out.append(f'</div>{f"<p>{note}</p>" if note else ""}</div>')
     out.append('</div><figcaption id="cab-cap">The relic cabinet, opened: one drawer for each place that claims a relic '
                'met in this show, side by side when two places claim the same part. Plain drawers are claims the sources '
                'report; striped drawers rest on one source or on our own comparison; the dashed drawer is an empty tomb. '
-               'Counts only, not an inventory.</figcaption></figure>')
+               'Counts only, not an inventory. Click underlined places to inspect the relic photo.</figcaption></figure>')
     return ''.join(out)
 
 def route_svg():
     return '''<figure class="chart route" aria-labelledby="route-cap">
 <svg viewBox="0 0 360 300" role="img" aria-labelledby="route-t"><title id="route-t">Routes from Sicily, not to scale</title>
 <path class="sea" d="M0 0h360v300H0z"/>
-<path class="land" d="M250 40 l40 -6 l46 8 l10 30 l-30 22 l-26 -10 l-40 4 z"/>
-<path class="land" d="M206 70 l18 -10 l14 6 l-6 24 l-20 4 z"/>
-<path class="land" d="M40 150 l30 -10 l26 20 l-6 40 l-30 20 l-24 -16 z"/>
-<path class="land" d="M10 60 l50 -10 l30 20 l-20 30 l-40 0 z"/>
-<path class="island" d="M292 104 l22 -4 l14 3 l-10 14 l-16 3 z"/>
-<path class="r1" d="M300 108 C 260 110, 240 80, 222 74"/>
-<path class="r1" d="M222 74 C 170 110, 110 140, 74 170"/>
-<path class="r1" d="M74 170 C 60 150, 50 120, 46 92"/>
-<path class="r2" d="M300 112 C 240 200, 120 250, 40 236"/>
-<circle class="cp" cx="304" cy="106" r="5"/><text x="300" y="132" class="ml">Sicily</text>
-<circle class="cp" cx="222" cy="74" r="4"/><text x="200" y="58" class="ml">Lisbon, by 1609</text>
-<circle class="cp" cx="74" cy="170" r="4"/><text x="80" y="192" class="ml">Brazil, early 1600s</text>
-<circle class="cp" cx="46" cy="92" r="4"/><text x="14" y="44" class="ml">Venezuela: the drums</text>
-<circle class="cp" cx="40" cy="236" r="4"/><text x="12" y="262" class="ml">New Spain: Rosalia;</text><text x="12" y="278" class="ml">Joseph patron, 1555</text>
-<text x="350" y="292" class="nts" text-anchor="end">not to scale</text>
+<!-- Western Europe & Iberian Peninsula -->
+<path class="land" d="M242 28 l48 -6 l52 10 l10 34 l-28 24 l-32 -8 l-44 6 z"/>
+<path class="land" d="M214 88 l24 -12 l20 8 l-6 30 l-26 4 z"/>
+<!-- New Spain (Mexico, upper left) -->
+<path class="land" d="M18 80 l56 -8 l28 22 l-16 32 l-42 6 l-26 -20 z"/>
+<!-- Northern South America & Brazil (lower left) -->
+<path class="land" d="M62 154 l44 -10 l36 22 l8 46 l-26 32 l-32 -14 l-24 -36 z"/>
+<!-- Sicily -->
+<path class="island" d="M294 114 l22 -4 l14 3 l-10 14 l-16 3 z"/>
+<!-- Solid route: Sicily -> Lisbon -> Brazil -> Venezuela -->
+<path class="r1" d="M306 118 C 276 118, 254 112, 230 108"/>
+<path class="r1" d="M230 108 C 194 152, 158 190, 124 224"/>
+<path class="r1" d="M124 224 C 110 206, 102 186, 98 166"/>
+<!-- Dashed route: Sicily -> New Spain -->
+<path class="r2" d="M306 118 C 238 42, 136 44, 54 104"/>
+<circle class="cp" cx="306" cy="118" r="5"/><text x="304" y="146" class="ml">Sicily</text>
+<circle class="cp" cx="230" cy="108" r="4"/><text x="166" y="96" class="ml">Lisbon, by 1609</text>
+<circle class="cp" cx="54" cy="104" r="4"/><text x="14" y="42" class="ml">New Spain: Rosalia;</text><text x="14" y="58" class="ml">Joseph patron, 1555</text>
+<circle class="cp" cx="98" cy="166" r="4"/><text x="14" y="150" class="ml">Venezuela: the drums</text>
+<circle class="cp" cx="124" cy="224" r="4"/><text x="134" y="246" class="ml">Brazil, early 1600s</text>
+<text x="350" y="290" class="nts" text-anchor="end">not to scale</text>
 </svg>
 <figcaption id="route-cap">Not to scale. Solid line: Benedict the Moor’s cult, carried by Black Catholic brotherhoods
 through Lisbon (a confraternity by 1609) to Brazil and the Spanish and Portuguese New World from the early 1600s,
@@ -490,7 +497,7 @@ for s in SECS:
     if s['num'] == 9:
         s['blocks'] = [unit_html() if b == '{{UNIT}}' else b for b in s['blocks']]
     if s['num'] == 10:
-        i = next(k for k, b in enumerate(s['blocks']) if b.startswith('<p><strong>Agatha adds up'))
+        i = next(k for k, b in enumerate(s['blocks']) if b.startswith('<p>Palermo Cathedral says its Chapel of the Relics'))
         s['blocks'].insert(i + 1, cabinet_html())
     if s['num'] == 11:
         i = next(k for k, b in enumerate(s['blocks']) if '<strong>Rosalia</strong>' in b)
@@ -499,19 +506,19 @@ for s in SECS:
 # ---------- stage scenes ----------
 # each puppet: [kind, key, x% (centre), height% of stage, extra]
 SCENES = {
-    0: dict(lights=True, cast=[['teller', '', 30, 66], ['tarot', '', 68, 36, 'down']]),
-    1: dict(lights=True, cast=[['teller', '', 30, 66], ['tarot', '', 68, 36, 'read']]),
-    14: dict(lights=True, cast=[['teller', '', 30, 66, 'unmask'], ['card', 'Milan, 1440s', 72, 46, 'a card game']]),
+    0: dict(lights=True, cast=[['teller', '', 27, 62], ['tarot', '', 62, 31, 'down']]),
+    1: dict(lights=True, cast=[['teller', '', 27, 62], ['tarot', '', 62, 31, 'read']]),
+    14: dict(lights=True, cast=[['teller', '', 27, 62, 'unmask'], ['card', 'Milan, 1440s', 70, 44, 'a card game']]),
     15: dict(lights=True, cast=[['img', 'isis', 18, 56], ['img', 'goddess', 44, 50], ['img', 'agatha', 74, 62]]),
     2: dict(cast=[['card', 'Pitrè', 23, 36, 'Palermo · 1910'], ['card', 'Gramsci', 50, 40, 'prison notebooks'], ['card', 'de Martino', 77, 36, 'Sud e magia · 1959']]),
     3: dict(cast=[['card', '535', 23, 36, 'Byzantium'], ['card', '831', 50, 42, 'Arabs take Palermo'], ['card', '1071–72', 77, 36, 'Normans']]),
-    4: dict(sea=True, cast=[['boat', 'bust', 58, 62], ['img', 'agatha', 22, 50]]),
+    4: dict(sea=True, cast=[['boat', 'bust', 62, 54], ['img', 'agatha', 25, 46]]),
     5: dict(back='float', cast=[['img', 'rosalia', 50, 64]]),
     6: dict(cast=[['letter', 'Messina · “AD 42”', 50, 56]]),
     7: dict(cast=[['img', 'joseph', 24, 70], ['table', '', 64, 40]]),
     8: dict(night=True, cast=[['print', 'exvoto', 50, 58]]),
     9: dict(night=True, cast=[['img', 'albarello', 22, 58], ['eye', '', 56, 40], ['horn', '', 82, 36]]),
-    10: dict(cast=[['img', 'lucy', 26, 64], ['img', 'bust', 72, 56]], cabinet=True),
+    10: dict(cast=[['img', 'lucy', 33, 60], ['img', 'bust', 67, 54]], cabinet=True),
     11: dict(sea=True, cast=[['ship', '', 50, 56]]),
     12: dict(lights=True, bow=True, cast=[['img', 'angel1', 12, 50], ['img', 'agatha', 28, 50], ['img', 'rosalia', 50, 58],
                                          ['img', 'lucy', 70, 56], ['img', 'joseph', 81, 58], ['img', 'angel1m', 90, 50]]),
@@ -646,5 +653,16 @@ if EMBED_FONTS:
     import importlib
     ef = importlib.import_module('embed_fonts')
     ef.HTML_IN, ef.HTML_OUT = out, out
-    ef.main()
-    print('fonts embedded', f'{os.path.getsize(out) / 1e6:.2f} MB')
+    try:
+        ef.main()
+        print('fonts embedded', f'{os.path.getsize(out) / 1e6:.2f} MB')
+    except Exception as exc:
+        existing = os.path.join(ROOT, 'pieces', 'sicilian-folk-magic.html')
+        m = re.search(r'<style>\s*/\* Fonts from Google Fonts.*?</style>', open(existing, encoding='utf-8').read(), re.S) if os.path.exists(existing) else None
+        if not m:
+            raise RuntimeError(f'Font embedding failed ({exc}) and no cached font block found in {existing}') from exc
+        txt = open(out, encoding='utf-8').read()
+        txt = ef.CSS_LINK.sub(lambda _: m.group(0), txt)
+        txt = ef.PRECONNECT.sub('', txt)
+        open(out, 'w', encoding='utf-8').write(txt)
+        print('reused embedded fonts from existing pieces/sicilian-folk-magic.html (offline fallback):', f'{os.path.getsize(out) / 1e6:.2f} MB')

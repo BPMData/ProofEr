@@ -31,15 +31,34 @@ body { margin:0; background:var(--tile); color:var(--ink); font:18px/1.6 var(--b
 .stagebar { position:absolute; left:0; right:0; bottom:0; display:flex; justify-content:space-between; align-items:end; gap:8px;
   padding:0 max(10px, env(safe-area-inset-right, 0px)) 4px max(10px, env(safe-area-inset-left, 0px)); pointer-events:none; }
 .oncap { font:600 11px/1.3 var(--body); letter-spacing:.04em; color:var(--plaster); background:rgba(42,29,22,.82); padding:3px 7px; border-radius:2px; max-width:70%; pointer-events:auto; }
-.cabbtn { pointer-events:auto; min-width:44px; min-height:44px; font:600 12px/1.2 var(--body); background:#d8b45a; color:var(--ink);
-  border:3px solid #f7f0e0; border-radius:22px 22px 4px 4px; padding:6px 10px; box-shadow:3px 4px 0 rgba(30,12,0,.3); cursor:pointer; }
-.cabbtn:focus-visible, .gloss:focus-visible, a:focus-visible, summary:focus-visible { outline:3px solid var(--blue); outline-offset:2px; }
-.cabpop { position:absolute; right:10px; bottom:56px; width:min(300px, calc(100% - 20px)); background:var(--plaster); color:var(--ink);
-  border:2px solid var(--ink); border-radius:3px; padding:10px 12px; font-size:14px; line-height:1.45; box-shadow:0 8px 20px rgba(0,0,0,.35); z-index:6; }
-.cabpop .cabh { font:400 18px/1.2 var(--display); margin:0 0 6px; }
-.cabpop ol { margin:0; padding-left:20px; }
-.cabpop li { margin:0 0 8px; } .cabpop .cabi { margin:0 0 8px; }
-.cabpop p { margin:6px 0 0; color:var(--ink-soft); }
+.oncap:empty { display:none; }
+.cabbtn { pointer-events:auto; margin-left:auto; min-width:44px; min-height:44px; font:600 12px/1.2 var(--body); background:#d8b45a; color:var(--ink);
+  border:3px solid #f7f0e0; border-radius:22px 22px 4px 4px; padding:6px 10px; box-shadow:3px 4px 0 rgba(30,12,0,.3); cursor:pointer;
+  transition:transform .25s ease, background-color .25s ease; }
+.cabbtn.bump { transform:scale(1.08); background:var(--gold); }
+.cabbtn:focus-visible, .cabclose:focus-visible, .cabthumb:focus-visible, .gloss:focus-visible, a:focus-visible, summary:focus-visible { outline:3px solid var(--blue); outline-offset:2px; }
+.cabpop { position:fixed; left:12px; right:12px; bottom:12px; max-height:min(74svh, 580px); overflow-y:auto;
+  background:var(--plaster); color:var(--ink); border:2px solid var(--ink); border-radius:4px;
+  padding:12px 14px; font-size:14px; line-height:1.45; box-shadow:0 12px 32px rgba(0,0,0,.45); z-index:45; }
+.cabpop-head { display:flex; align-items:center; justify-content:space-between; gap:8px; margin:0 0 6px; }
+.cabpop .cabh { font:400 19px/1.2 var(--display); margin:0; }
+.cabclose { width:34px; height:34px; border:1.5px solid var(--ink); border-radius:50%; background:var(--plaster);
+  color:var(--ink); font:22px/1 Georgia, serif; cursor:pointer; flex:0 0 auto; }
+.cabclose:hover { background:var(--gold); }
+.cabpop ol { margin:0; padding:0; list-style:none; display:grid; gap:10px; }
+.cabpop li.cabitem { display:grid; grid-template-columns:64px minmax(0,1fr); gap:10px; align-items:start;
+  padding:8px; background:#f6ecdc; border:1px solid rgba(42,29,22,.2); border-radius:3px; }
+.cabpop li.cabempty { padding:8px 0; color:var(--ink-soft); }
+.cabthumb { display:block; width:64px; height:64px; padding:0; border:2px solid #d8b45a; border-radius:3px;
+  overflow:hidden; background:#2a1d16; cursor:zoom-in; flex:0 0 auto; }
+.cabthumb img { display:block; width:100%; height:100%; object-fit:cover; }
+.cabpop .cabtxt b { display:block; margin-bottom:2px; }
+.cabpop .cabzoomhint { display:block; margin-top:4px; font-size:12px; color:var(--blue); }
+.cabpop .cabi { margin:0 0 10px; font-size:13.5px; color:var(--ink-soft); }
+.cabpop p#cabnote { margin:10px 0 0; font-size:13px; color:var(--ink-soft); }
+@media (min-width: 900px) {
+  .cabpop { left:auto; right:calc(50vw + 14px); bottom:58px; width:min(410px, calc(50vw - 28px)); max-height:min(76vh, 620px); }
+}
 
 main.text { padding-bottom:40px; min-width:0; }
 .sec { padding:22px max(14px, env(safe-area-inset-right, 0px)) 26px max(14px, env(safe-area-inset-left, 0px)); }
@@ -189,11 +208,19 @@ ul.src li { margin-bottom:5px; overflow-wrap:anywhere; }
       <span class="oncap" id="oncap"></span>
       <button type="button" class="cabbtn" id="cabbtn" aria-expanded="false" aria-controls="cabpop">Relic cabinet · <span id="cabn">0</span> of <span id="cabt">0</span></button>
     </div>
-    <div class="cabpop" id="cabpop" hidden><p class="cabh">The relic cabinet</p><p class="cabi">A drawer for each saint’s body this show visits. Tap a name to see it.</p><ol id="cablist"></ol><p id="cabnote"></p></div>
   </div>
   <main class="text" id="text">
 {{BODY}}
   </main>
+</div>
+<div class="cabpop" id="cabpop" role="dialog" aria-label="The relic cabinet" hidden>
+  <div class="cabpop-head">
+    <p class="cabh">The relic cabinet</p>
+    <button type="button" class="cabclose" id="cabclose" aria-label="Close the relic cabinet">×</button>
+  </div>
+  <p class="cabi">Each act with a saint’s relic adds a drawer here. Click any photo or name to zoom in and see the full source.</p>
+  <ol id="cablist"></ol>
+  <p id="cabnote"></p>
 </div>
 <div class="glosspop" id="glosspop" role="tooltip" hidden></div>
 <div class="glosspop artpop" id="artpop" aria-hidden="true" hidden></div>
@@ -247,8 +274,9 @@ function ribbon(c, x, y, sc, txt) {
   c.restore();
 }
 function stampOn(c, x, y, sc, line1, line2) {
-  c.save(); c.translate(x, y); c.rotate(-0.14); c.scale(sc, sc);
-  c.font = '600 17px Literata, Georgia, serif'; const w = Math.max(340, c.measureText(line2).width + 60);
+  c.save(); c.font = '600 17px Literata, Georgia, serif'; const w = Math.max(340, c.measureText(line2).width + 60);
+  const eff = Math.min(sc, (W * 0.78) / w);
+  c.translate(W * 0.5, y); c.rotate(-0.14); c.scale(eff, eff);
   c.fillStyle = 'rgba(247,240,224,.94)'; c.fillRect(-w / 2, -56, w, 112);
   c.strokeStyle = '#a3171f'; c.lineWidth = 6; c.strokeRect(-w / 2 + 10, -46, w - 20, 92); c.lineWidth = 2; c.strokeRect(-w / 2 + 20, -36, w - 40, 72);
   c.fillStyle = '#a3171f'; c.textAlign = 'center'; c.textBaseline = 'middle';
@@ -264,6 +292,7 @@ function cabinet(c, x, y, sc, filled, total) {      // one drawer per relic the 
     cut(c, P((c) => c.rect(x0, y0, w, dh)), on ? '#7d1a1f' : '#6b4a2b', 3, 1, 2);
     if (on) { c.fillStyle = '#f3ead6'; c.beginPath(); c.ellipse(x0 + w / 2, y0 + dh / 2, 6 * dh / 40, 13 * dh / 40, 0.5, 0, 7); c.fill(); }
     else { c.fillStyle = '#d8b45a'; c.beginPath(); c.arc(x0 + w / 2, y0 + dh / 2, 3, 0, 7); c.fill(); } }
+  hit(c, 'ui:cabinet', -70, -95, 70, 70);
   c.restore();
 }
 
@@ -272,9 +301,9 @@ let STICK = 60;
 function stick(c, s, len, x = 0) { cut(c, P((c) => c.rect(x - 4 * s, 0, 8 * s, len)), '#7a5432', 4 * s, 2 * s, 3 * s); }
 function rod(c, s, x0, y0, len) { c.strokeStyle = '#7a5432'; c.lineWidth = 4 * s; c.lineCap = 'round'; c.beginPath(); c.moveTo(x0, y0); c.lineTo(x0 + 30 * s, y0 + len); c.stroke(); }
 function shadowed(c, s, fn) { c.save(); c.shadowColor = 'rgba(30,12,0,.32)'; c.shadowOffsetX = 6 * s; c.shadowOffsetY = 9 * s; c.shadowBlur = 2 * s; fn(); c.restore(); }
-let HITS = [];
+let HITS = [], HIT_EN = true;
 function hit(c, k, x0, y0, x1, y1) {           // remember a box (canvas CSS px) for the credit tooltip
-  if (!c.getTransform) return; const m = c.getTransform(), xs = [], ys = [];
+  if (!HIT_EN || !c.getTransform) return; const m = c.getTransform(), xs = [], ys = [];
   for (const [x, y] of [[x0, y0], [x1, y0], [x0, y1], [x1, y1]]) { xs.push((m.a * x + m.c * y + m.e) / DPR); ys.push((m.b * x + m.d * y + m.f) / DPR); }
   HITS.push({ k, x0: Math.min(...xs), x1: Math.max(...xs), y0: Math.min(...ys), y1: Math.max(...ys) });
 }
@@ -338,7 +367,7 @@ const PROPS = {
     c.save(); c.translate(0, -h * 0.12);
     cut(c, P((c) => c.rect(-2 * s, -h * 1.15, 6 * s, h * 1.1)), '#6b4a2b', 3 * s, 2 * s, 3 * s);
     cut(c, P((c) => { c.moveTo(6 * s, -h * 1.1); c.quadraticCurveTo(bw * 0.38, -h * 0.75, 6 * s, -h * 0.2); }), '#f6efe2', 4 * s, 3 * s, 4 * s);
-    c.save(); c.translate(-bw * 0.2, -h * 0.05); stick(c, s, h); drawImg(c, p[1], h * 0.85, s); c.restore();
+    c.save(); c.translate(-bw * 0.2, -h * 0.05); stick(c, s, h * 0.16); drawImg(c, p[1], h * 0.85, s); c.restore();
     cut(c, P((c) => { c.moveTo(-bw / 2, -h * 0.12); c.lineTo(bw / 2, -h * 0.12); c.lineTo(bw * 0.37, h * 0.12); c.lineTo(-bw * 0.37, h * 0.12); }), '#8a5a33', 6 * s, 4 * s, 6 * s);
     c.restore(); },
   letter(c, p, h, s) { stick(c, s, STICK); const w = h * 0.8;
@@ -371,7 +400,7 @@ const PROPS = {
     c.restore(); },
   teller(c, p, h, s) {
     stick(c, s, STICK);
-    const un = p[4] === 'unmask', k = un ? ease((PT - 500) / 1100) : 0;
+    const un = p[4] === 'unmask', k = un ? ease((PT - 250) / 1000) : 0;
     if (un) { occultist(c, h, s); hit(c, 'drawn:occultist', -h * 0.32, -h, h * 0.35, 0); }
     if (k < 1) { c.save(); c.translate(-k * h * 0.5, -k * h * 1.4); c.rotate(-k * 0.6); c.globalAlpha = 1 - k * k;
       costumeBoard(c, h, s); if (k < 0.2) hit(c, 'drawn:teller', -h * 0.31, -h, h * 0.31, 0); c.restore(); }
@@ -383,7 +412,7 @@ const PROPS = {
     c.fillStyle = '#e3a82f'; for (let x = -w * 0.46; x < w * 0.46; x += 12 * s) { c.beginPath(); c.moveTo(x, -h * 0.3); c.lineTo(x + 6 * s, -h * 0.22); c.lineTo(x + 12 * s, -h * 0.3); c.fill(); }
     const cw = h * 0.42, ch = h * 0.68;
     for (let i = 0; i < 3; i++) {
-      const f = p[4] === 'read' ? clamp01((PT - 900 - i * 900) / 500) : 0, sx = Math.max(0.04, Math.abs(Math.cos(f * Math.PI)));
+      const f = p[4] === 'read' ? clamp01((PT - 350 - i * 750) / 450) : 0, sx = Math.max(0.04, Math.abs(Math.cos(f * Math.PI)));
       c.save(); c.translate((i - 1) * w * 0.3, -h * 0.58); c.scale(sx, 1); tarotCard(c, cw, ch, s, f >= 0.5, i); c.restore();
     }
   },
@@ -422,13 +451,34 @@ function candles(c, W, y, s) {
 const cv = document.getElementById('stage'), ctx = cv.getContext('2d');
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 let T = 2, W = 0, H = 0, DPR = 1;
-let scene = 0, cast = [], leaving = [], stamp = null, cabN = 0, cabSeen = [];
+let scene = 0, cast = [], leaving = [], stamp = null, cabN = 0, cabSeen = [], cabKey = '';
 const SCN = DATA.scenes;
+const sameProp = (a, b) => a[0] === b[0] && a[1] === b[1] && a[2] === b[2];
 function setCast(n) {
   const now = performance.now();
-  leaving = cast.map((p) => ({ ...p, t0: now }));
-  cast = (SCN[n].cast || []).map((p, i) => ({ p, t0: now + 250 + i * 120 }));
-  if (reduced) { leaving = []; cast.forEach((c) => (c.t0 = 0)); }
+  leaving = leaving.filter((it) => now - it.t0 < 450);
+  const nextList = SCN[n].cast || [];
+  const used = new Set(), nextCast = [];
+  let enterIdx = 0;
+  for (const np of nextList) {
+    const idx = cast.findIndex((old, i) => !used.has(i) && sameProp(old.p, np));
+    if (idx >= 0) {
+      used.add(idx);
+      const old = cast[idx];
+      nextCast.push({ p: np, t0: old.t0, actT0: old.p[4] !== np[4] ? now : (old.actT0 ?? old.t0) });
+    } else {
+      const t = now + 220 + enterIdx * 110;
+      nextCast.push({ p: np, t0: t, actT0: t });
+      enterIdx++;
+    }
+  }
+  cast.forEach((old, i) => {
+    if (used.has(i)) return;
+    const kNow = reduced ? 0 : ease((now - old.t0) / 700);
+    if (kNow > 0.02) leaving.push({ p: old.p, t0: now, k0: kNow });
+  });
+  cast = nextCast;
+  if (reduced) { leaving = []; cast.forEach((it) => { it.t0 = 0; it.actT0 = 0; }); }
 }
 function resize() {
   const r = cv.getBoundingClientRect(); DPR = Math.min(2, devicePixelRatio || 1);
@@ -444,18 +494,20 @@ function drawCast(c, L, R, floorY, s, now, bow, top) {
     const p = it.p, kind = p[0], x = L + (R - L) * p[2] / 100;
     // never taller than the space under the valance (or the hanging ex-votos at night)
     const h = Math.min(stageH * p[3] / 100, GROUNDED[kind] ? 1e9 : floorY - lift0 - top);
-    const k = dir > 0 ? ease((now - it.t0) / 700) : 1 - ease((now - it.t0) / 450);
+    const k = dir > 0 ? ease((now - it.t0) / 700) : (it.k0 ?? 1) * (1 - ease((now - it.t0) / 450));
     if (k <= 0) return;
     const lift = (1 - k) * (h + 60 * s);
     let rot = reduced ? 0 : Math.sin(T * 1.9 + p[2]) * 0.025;
     if (bow) rot += 0.12 * Math.max(0, Math.sin(T * 1.2 + p[2] / 30));
     const base = GROUNDED[kind] ? floorY - 4 * s : floorY - lift0;
     c.save(); c.translate(x, base + lift); c.rotate(rot);
+    HIT_EN = dir > 0;
     if (DRAWN_W[kind] && /^(eye|horn|tarot)$/.test(kind)) hit(c, 'drawn:' + kind, -h * DRAWN_W[kind], -h * 1.05, h * DRAWN_W[kind], 0);
-    PT = now - it.t0; (PROPS[kind] || PROPS.img)(c, p, h, s);
+    PT = now - (it.actT0 ?? it.t0); (PROPS[kind] || PROPS.img)(c, p, h, s);
     c.restore();
   };
   leaving.forEach((it) => one(it, -1)); cast.forEach((it) => one(it, 1));
+  HIT_EN = true;
 }
 function draw() {
   if (!W) return;
@@ -465,7 +517,9 @@ function draw() {
   const L = W * 0.1, R = W * 0.9, Tp = H * 0.22, floorY = H * 0.84;
   if (sc.night) {
     nightBack(c, W, H, s);
+    c.save(); c.beginPath(); c.rect(0, 0, W, floorY + 2 * s); c.clip();
     drawCast(c, L, R, floorY + 6 * s, s, now, false, H * 0.3);
+    c.restore();
     candles(c, W, floorY - 6 * s, s);
   } else {
     tiles(c, W, H, Math.max(36, 64 * s));
@@ -479,11 +533,13 @@ function draw() {
     }
     if (sc.curtain) curtains(c, L, Tp, R, floorY + 10 * s, s * 0.9, 0);
     floor(c, L, R, floorY, H, s);
+    c.save(); c.beginPath(); c.rect(L - 6 * s, Tp - 10 * s, (R - L) + 12 * s, (floorY + 12 * s) - (Tp - 10 * s)); c.clip();
     drawCast(c, L, R, floorY, s, now, !!sc.bow, Tp + 70 * s);
+    c.restore();
     if (!sc.curtain) curtains(c, L, Tp, R, floorY + 10 * s, s * 0.9, 1);
     ribbon(c, W / 2, H * 0.1, Math.min(0.55, s * 0.5), sc.title || '');
   }
-  cabinet(c, W - 34 * s - 20, H - 70 * s, 0.32 * s, cabN, DATA.cab.length);
+  if (H >= 380) cabinet(c, W - 44 * s - 16, H - 72 - 36 * s, 0.32 * s, cabN, DATA.cab.length);
   if (stamp && now - stamp.t0 < 3200) stampOn(c, W * 0.62, H * 0.42, Math.min(0.62, s * 0.55), 'MYTH-CHECK', stamp.txt);
 }
 function loop() { T = (performance.now() - T0) / 1000; draw(); if (!reduced) requestAnimationFrame(loop); }
@@ -491,6 +547,14 @@ const T0 = performance.now();
 
 // ---------- scroll: scenes, stamps, cabinet ----------
 const oncap = document.getElementById('oncap');
+const stageWrap = document.querySelector('.stagewrap');
+function triggerY() {
+  if (innerWidth < 900 && stageWrap) {
+    const sb = stageWrap.getBoundingClientRect().bottom;
+    return sb + (innerHeight - sb) * 0.28;
+  }
+  return innerHeight * 0.42;
+}
 function caption(n) {
   const ks = (SCN[n].cast || []).filter((p) => p[0] === 'img' || p[0] === 'print' || p[0] === 'boat').map((p) => p[1].replace(/m$/, ''));
   if (SCN[n].back) ks.unshift('float');
@@ -499,46 +563,80 @@ function caption(n) {
   oncap.innerHTML = names.length ? 'On stage: ' + names.join(', ') : '';
 }
 function go(n) {
-  if (n === scene) return; scene = n; setCast(n); caption(n);
+  if (n === scene) return; scene = n; stamp = null; setCast(n); caption(n);
   if (reduced) draw();
 }
 const SCENE_EL = [...document.querySelectorAll('[data-scene]')];   // document order: a beat comes after its section
+const CAB_EL = SCENE_EL.filter((el) => el.dataset.cabinet);
+const cabbtn = document.getElementById('cabbtn'), cabpop = document.getElementById('cabpop'), cabclose = document.getElementById('cabclose');
 function pickScene() {
-  const y = innerHeight * 0.42; let best = null;
+  const y = triggerY(); let best = null;
   for (const el of SCENE_EL) { const r = el.getBoundingClientRect(); if (r.top <= y && r.bottom > y) best = el; }
   if (best) go(+best.dataset.scene);
+  else if (scrollY <= 0) go(0);
   // The cabinet holds every relic whose act you have reached, so a fast scroll or a jump back can't skip or double one.
   const seen = CAB_EL.filter((el) => el.getBoundingClientRect().top <= y).map((el) => el.dataset.cabinet);
-  if (seen.length !== cabN) { cabSeen = seen; cabN = seen.length; renderCab(); if (reduced) draw(); }
+  const key = seen.join('|');
+  if (key !== cabKey) {
+    const prevN = cabN;
+    cabKey = key; cabSeen = seen; cabN = seen.length; renderCab();
+    if (cabN > prevN && !reduced) {
+      cabbtn.classList.remove('bump'); void cabbtn.offsetWidth; cabbtn.classList.add('bump');
+      setTimeout(() => cabbtn.classList.remove('bump'), 350);
+    }
+    if (reduced) draw();
+  }
 }
-const CAB_EL = SCENE_EL.filter((el) => el.dataset.cabinet);
 let pickQ = false;
 addEventListener('scroll', () => { if (!pickQ) { pickQ = true; requestAnimationFrame(() => { pickQ = false; pickScene(); }); } }, { passive: true });
 addEventListener('resize', pickScene);
-const so = new IntersectionObserver((es) => { es.forEach((e) => { if (e.isIntersecting) { stamp = { txt: e.target.dataset.stamp, t0: performance.now() }; if (reduced) draw(); } }); },
-  { rootMargin: '-45% 0px -45% 0px' });
+const so = new IntersectionObserver((es) => { es.forEach((e) => {
+  if (e.isIntersecting) {
+    const sec = e.target.closest('[data-scene]');
+    if (sec && +sec.dataset.scene === scene) { stamp = { txt: e.target.dataset.stamp, t0: performance.now() }; if (reduced) draw(); }
+  }
+}); }, { rootMargin: '-45% 0px -45% 0px' });
 document.querySelectorAll('.myth[data-stamp]').forEach((el) => so.observe(el));
 
-const cabbtn = document.getElementById('cabbtn'), cabpop = document.getElementById('cabpop');
 function renderCab() {
   document.getElementById('cabn').textContent = cabN; document.getElementById('cabt').textContent = DATA.cab.length;
   const info = (x) => DATA.cab.find((d) => d.label === x) || { label: x, note: '' };
-  document.getElementById('cablist').innerHTML = cabSeen.map((x) => { const d = info(x);
-    return '<li><b>' + (d.z ? '<button type="button" class="zbtn" data-z="' + d.z + '" aria-label="See ' + d.label + ' up close">' + d.label + '</button>' : d.label) + '</b><br>' + d.note + '</li>'; }).join('')
-    || '<li>Nothing yet. Each act with a relic adds a drawer.</li>';
+  document.getElementById('cablist').innerHTML = cabSeen.map((x) => {
+    const d = info(x);
+    const thumb = d.z && DATA.zoom[d.z]
+      ? '<button type="button" class="cabthumb" data-z="' + d.z + '" aria-label="See ' + d.label + ' up close"><img src="' + DATA.zoom[d.z] + '" alt="' + d.label + '"></button>'
+      : '<span></span>';
+    const title = d.z
+      ? '<button type="button" class="zbtn" data-z="' + d.z + '" aria-label="See ' + d.label + ' up close">' + d.label + '</button>'
+      : d.label;
+    const hint = d.z ? '<span class="cabzoomhint">Click to inspect up close</span>' : '';
+    return '<li class="cabitem">' + thumb + '<div class="cabtxt"><b>' + title + '</b>' + d.note + hint + '</div></li>';
+  }).join('') || '<li class="cabempty">Nothing in the cabinet yet. Keep scrolling — Act 1 adds Agatha’s silver bust, and four more follow through Act 7.</li>';
   document.getElementById('cabnote').textContent = cabN < DATA.cab.length ? (DATA.cab.length - cabN) + ' more to find. It opens in full in Act 7.' : 'All ' + cabN + ' found. Act 7 opens the cabinet.';
 }
-cabbtn.addEventListener('click', () => { const open = cabpop.hidden; cabpop.hidden = !open; cabbtn.setAttribute('aria-expanded', open); });
+function openCab() { closeG(); hideArt(); cabpop.hidden = false; cabbtn.setAttribute('aria-expanded', 'true'); }
+function closeCab() { cabpop.hidden = true; cabbtn.setAttribute('aria-expanded', 'false'); }
+function toggleCab() { if (cabpop.hidden) openCab(); else closeCab(); }
+cabbtn.addEventListener('click', toggleCab);
+cabclose.addEventListener('click', closeCab);
 renderCab();
 
 // ---------- glosses ----------
-const pop = document.getElementById('glosspop'); let openG = null;
-function closeG() { if (openG) openG.setAttribute('aria-expanded', 'false'); pop.hidden = true; openG = null; }
+const pop = document.getElementById('glosspop'); let openG = null, openGY = 0;
+function closeG() {
+  if (openG) { openG.setAttribute('aria-expanded', 'false'); openG.removeAttribute('aria-describedby'); }
+  pop.hidden = true; openG = null;
+}
 document.addEventListener('click', (e) => {
   const g = e.target.closest('.gloss');
-  if (!g) { if (!e.target.closest('.glosspop')) closeG(); if (!e.target.closest('#cabbtn, #cabpop')) { cabpop.hidden = true; cabbtn.setAttribute('aria-expanded', 'false'); } return; }
+  if (!g) {
+    if (!e.target.closest('.glosspop')) closeG();
+    if (!e.target.closest('#cabbtn, #cabpop, #zoom')) closeCab();
+    return;
+  }
   if (openG === g) { closeG(); return; }
-  closeG(); openG = g; g.setAttribute('aria-expanded', 'true');
+  closeG(); closeCab(); hideArt();
+  openG = g; openGY = scrollY; g.setAttribute('aria-expanded', 'true');
   const co = g.dataset.callout && DATA.callouts[g.dataset.callout];
   pop.classList.toggle('co', !!co);
   pop.innerHTML = co
@@ -547,11 +645,17 @@ document.addEventListener('click', (e) => {
       '<span class="cx">' + co.text + '</span>' + (co.credit ? '<small class="cc">' + co.credit + '</small>' : '')
     : '<b>' + g.textContent + '</b> · ' + g.dataset.gloss;
   pop.hidden = false;
-  const r = g.getBoundingClientRect(), pw = pop.offsetWidth;
-  pop.style.left = Math.max(12, Math.min(innerWidth - pw - 12, r.left + scrollX)) + 'px'; pop.style.top = (r.bottom + scrollY + 8) + 'px';
+  const r = g.getBoundingClientRect(), pw = pop.offsetWidth, ph = pop.offsetHeight;
+  const minTop = innerWidth < 900 && stageWrap ? stageWrap.getBoundingClientRect().bottom + 6 : 12;
+  const topY = (r.bottom + 8 + ph > innerHeight - 8 && r.top - 8 - ph >= minTop) ? r.top + scrollY - ph - 8 : r.bottom + scrollY + 8;
+  pop.style.left = Math.max(12, Math.min(innerWidth - pw - 12, r.left + scrollX)) + 'px';
+  pop.style.top = topY + 'px';
   g.setAttribute('aria-describedby', 'glosspop');
 });
-document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { closeG(); cabpop.hidden = true; cabbtn.setAttribute('aria-expanded', 'false'); } });
+addEventListener('scroll', () => {
+  if (!openG) return;
+  if (Math.abs(scrollY - openGY) > 48 || (innerWidth < 900 && stageWrap && openG.getBoundingClientRect().top < stageWrap.getBoundingClientRect().bottom)) closeG();
+}, { passive: true });
 addEventListener('beforeprint', () => document.querySelectorAll('details').forEach((d) => (d.open = true)));
 
 // ---------- picture credits on the stage ----------
@@ -563,8 +667,12 @@ function hitAt(x, y) { for (let i = HITS.length - 1; i >= 0; i--) { const h = HI
 function showArt(h, cx, cy) {
   if (artK !== h.k) {
     artK = h.k;
-    art.innerHTML = h.k.startsWith('drawn:') ? '<b>' + DRAWN[h.k.slice(6)] + '</b> · Drawn for this page.'
-      : '<b>' + (DATA.names[h.k] || '') + '</b> · ' + (DATA.credits[h.k] || '') + (DATA.zoom[h.k] ? ' <i>Click to see it up close.</i>' : '');
+    if (h.k === 'ui:cabinet') {
+      art.innerHTML = '<b>The relic cabinet (' + cabN + ' of ' + DATA.cab.length + ')</b> · Click to open drawers and inspect relic photos.';
+    } else {
+      art.innerHTML = h.k.startsWith('drawn:') ? '<b>' + DRAWN[h.k.slice(6)] + '</b> · Drawn for this page.'
+        : '<b>' + (DATA.names[h.k] || '') + '</b> · ' + (DATA.credits[h.k] || '') + (DATA.zoom[h.k] ? ' <i>Click to see it up close.</i>' : '');
+    }
   }
   art.hidden = false;
   const pw = art.offsetWidth, ph = art.offsetHeight;
@@ -575,30 +683,38 @@ function hideArt() { art.hidden = true; artK = null; cv.style.cursor = ''; }
 const zoom = document.getElementById('zoom'), zimg = document.getElementById('zimg'), zcap = document.getElementById('zcap'), zclose = document.getElementById('zclose');
 let zBack = null;
 function openZoom(k) {
-  if (!DATA.zoom[k]) return; hideArt(); zBack = document.activeElement;
+  if (!DATA.zoom[k]) return; closeG(); hideArt(); zBack = document.activeElement;
   zimg.src = DATA.zoom[k]; zimg.alt = DATA.names[k] || ''; zcap.innerHTML = '<b>' + (DATA.names[k] || '') + '</b> · ' + (DATA.credits[k] || '');
   zoom.classList.remove('big'); zoom.hidden = false; zclose.focus();
 }
 function closeZoom() { zoom.hidden = true; zoom.classList.remove('big'); zimg.removeAttribute('src'); if (zBack && zBack.focus) zBack.focus(); }
 zclose.addEventListener('click', closeZoom);
 zoom.addEventListener('click', (e) => { if (e.target === zimg) zoom.classList.toggle('big'); else if (e.target === zoom) closeZoom(); });
-zoom.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeZoom(); if (e.key === 'Tab') { e.preventDefault(); zclose.focus(); } });
+zoom.addEventListener('keydown', (e) => { if (e.key === 'Tab') { e.preventDefault(); zclose.focus(); } });
 document.addEventListener('click', (e) => { const b = e.target.closest('[data-z]'); if (b) openZoom(b.dataset.z); });
-document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !zoom.hidden) closeZoom(); });   // Escape works wherever focus is
+document.addEventListener('keydown', (e) => {
+  if (e.key !== 'Escape') return;
+  if (!zoom.hidden) { closeZoom(); return; }
+  if (!cabpop.hidden) { closeCab(); return; }
+  closeG(); hideArt();
+});
 cv.addEventListener('pointermove', (e) => {
   if (e.pointerType !== 'mouse') return;
-  const h = hitAt(e.offsetX, e.offsetY); cv.style.cursor = h ? (DATA.zoom[h.k] ? 'zoom-in' : 'help') : '';
+  const h = hitAt(e.offsetX, e.offsetY);
+  cv.style.cursor = h ? (h.k === 'ui:cabinet' ? 'pointer' : (DATA.zoom[h.k] ? 'zoom-in' : 'help')) : '';
   if (h) showArt(h, e.clientX, e.clientY); else hideArt();
 });
 cv.addEventListener('pointerleave', (e) => { if (e.pointerType === 'mouse') hideArt(); });
 cv.addEventListener('click', (e) => {
   const h = hitAt(e.offsetX, e.offsetY);
+  closeG();
+  if (h && h.k === 'ui:cabinet') { toggleCab(); e.stopPropagation(); return; }
+  closeCab();
   if (h && DATA.zoom[h.k]) { openZoom(h.k); e.stopPropagation(); return; }
   if (h && (art.hidden || artK !== h.k)) { showArt(h, e.clientX, e.clientY); e.stopPropagation(); } else hideArt();
 });
 document.addEventListener('click', (e) => { if (e.target !== cv) hideArt(); });
 addEventListener('scroll', () => { if (!art.hidden) hideArt(); }, { passive: true });
-addEventListener('keydown', (e) => { if (e.key === 'Escape') hideArt(); });
 
 addEventListener('resize', resize); resize(); setCast(0); caption(0); pickScene();
 if (document.fonts) document.fonts.ready.then(draw);
