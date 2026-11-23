@@ -1,6 +1,6 @@
 # STATUS: Sicilian folk magic
 
-_Last updated: Nov 23, 2026._
+_Last updated: Nov 23, 2026 (night)._
 
 - **Stage:** build done, on branch `claude/project-thread-gi5ppk` (not merged, not published). Brief approved Nov 22
   (Bryan, with amendments); layout approved Nov 23 ("Lock it in").
@@ -27,3 +27,10 @@ _Last updated: Nov 23, 2026._
 - **Repo note for Bryan:** `.agents/hooks/stage_gate.py` checks figures.md for `| F01 |` rows; this piece's rows are
   `X1-01` style, so the design gate's row check doesn't match them. The repo-wide `build/` ignore rule also catches
   piece build scripts.
+- **Nov 23 night:** body rewritten in the friend-and-folklorist voice with far fewer stamps; new tarot opening on the
+  stage (the costume comes off to show a Paris occultist of 1781); "why it's in acts" and "Why Sicily gets the spooky
+  treatment" (Southern Question, race science, New Orleans 1891); Act 5 (intercession, decollati, frusteri); Act 6
+  (archive fire, who was executed, the ladies from outside, Gratteri's healers, three captioned pictures); click any
+  painting or statue to zoom (embedded, about +0.8 MB; page now 2.5 MB). Scenes are picked by scroll position so beats
+  inside a section work. **Next:** Bryan's Act 7 notes (real Agatha bust, clickable relic cabinet, Lucy, relic history,
+  relic classes, Calvin) through Act 7 before Act 8.

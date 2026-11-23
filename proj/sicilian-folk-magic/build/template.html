@@ -74,6 +74,23 @@ a { color:var(--blue); }
 .glosspop { position:absolute; z-index:20; max-width:min(340px, calc(100vw - 24px)); background:var(--plaster); color:var(--ink); border:2px solid var(--blue);
   padding:10px 12px; font-size:15px; line-height:1.45; box-shadow:0 8px 20px rgba(0,0,0,.45); border-radius:3px; }
 .artpop { position:fixed; z-index:30; pointer-events:none; }
+.infig { margin:1.4em 0; }
+.figbtn { display:block; padding:0; border:0; background:none; cursor:zoom-in; width:100%; }
+.infig img { display:block; width:100%; height:auto; border:6px solid #fbf6ea; box-shadow:0 2px 0 rgba(42,29,22,.25), 0 6px 18px rgba(42,29,22,.18); }
+.figbtn:focus-visible { outline:3px solid currentColor; outline-offset:3px; }
+.infig figcaption { font-size:.9em; line-height:1.45; margin-top:.6em; }
+.infig .credit { display:block; opacity:.8; font-size:.92em; margin-top:.25em; }
+@media print { .infig img { max-width:60%; } }
+.zbtn { font:inherit; color:inherit; background:none; border:0; padding:0; text-decoration:underline dotted; text-underline-offset:2px; cursor:zoom-in; }
+.zoom { position:fixed; inset:0; z-index:60; background:rgba(22,10,8,.9); display:flex; align-items:center; justify-content:center;
+  padding:max(16px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) max(16px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
+.zoom figure { margin:0; max-width:min(100%, 1200px); max-height:100%; overflow:auto; display:flex; flex-direction:column; gap:10px; }
+.zoom img { display:block; max-width:100%; max-height:78vh; object-fit:contain; margin:0 auto; cursor:zoom-in; background:#fff; }
+.zoom.big img { max-height:none; max-width:none; width:min(1400px, 220vw); cursor:zoom-out; }
+.zoom figcaption { color:#f3ead6; font:14px/1.45 var(--body); max-width:70ch; }
+.zoom figcaption a { color:#f6c66b; }
+.zclose { position:fixed; top:max(10px, env(safe-area-inset-top, 0px)); right:max(12px, env(safe-area-inset-right, 0px)); z-index:61; font:28px/1 Georgia, serif;
+  width:44px; height:44px; border-radius:50%; border:2px solid #f3ead6; background:#2a1d16; color:#f3ead6; cursor:pointer; }
 .glosspop b { color:var(--blue); font-style:italic; font-weight:600; }
 .gloss.callout { font-style:normal; text-decoration-style:dotted; }
 .gloss.callout strong { color:var(--blue); }
@@ -148,7 +165,7 @@ ul.src li { margin-bottom:5px; overflow-wrap:anywhere; }
   .oncap { font-size:12px; }
 }
 @media print {
-  .stagewrap, .skip, .glosspop, .cabpop { display:none !important; }
+  .stagewrap, .skip, .glosspop, .cabpop, .zoom { display:none !important; }
   body { background:#fff; font-size:11pt; }
   .show { display:block; }
   .sec, .sec.night { background:#fff; color:#000; padding:8pt 0; break-inside:auto; }
@@ -178,6 +195,10 @@ ul.src li { margin-bottom:5px; overflow-wrap:anywhere; }
 </div>
 <div class="glosspop" id="glosspop" role="tooltip" hidden></div>
 <div class="glosspop artpop" id="artpop" aria-hidden="true" hidden></div>
+<div class="zoom" id="zoom" role="dialog" aria-modal="true" aria-label="Picture, up close" hidden>
+  <button type="button" class="zclose" id="zclose" aria-label="Close the picture">×</button>
+  <figure><img id="zimg" alt=""><figcaption id="zcap"></figcaption></figure>
+</div>
 <script>
 const DATA = {{DATA}};
 // ---------- images ----------
@@ -252,7 +273,52 @@ function hit(c, k, x0, y0, x1, y1) {           // remember a box (canvas CSS px)
 }
 function drawImg(c, k, h, s) { const im = IM[k]; if (!im || !im.complete || !im.naturalWidth) return 0; const w = im.naturalWidth * h / im.naturalHeight;
   shadowed(c, s, () => c.drawImage(im, -w / 2, -h, w, h)); hit(c, k.replace(/m$/, ''), -w / 2, -h, w / 2, 0); return w; }
-const DRAWN_W = { card: 0.6, letter: 0.45, eye: 0.55, horn: 0.3, table: 1.1, boat: 0.75, ship: 0.85 };
+const DRAWN_W = { card: 0.6, letter: 0.45, eye: 0.55, horn: 0.3, table: 1.1, boat: 0.75, ship: 0.85, tarot: 1.0 };
+let PT = 1e9;                                   // ms since the prop being drawn came on stage
+const clamp01 = (x) => Math.min(1, Math.max(0, x));
+function tarotCard(c, w, h, s, face, i) {        // one card, centred on x=0, standing on y=0
+  cut(c, P((c) => c.rect(-w / 2, -h, w, h)), face ? '#f6e7c3' : '#7d1a1f', 4 * s, 2 * s, 3 * s);
+  if (!face) {
+    c.strokeStyle = '#e3a82f'; c.lineWidth = 1.5 * s; c.strokeRect(-w / 2 + 5 * s, -h + 5 * s, w - 10 * s, h - 10 * s);
+    c.fillStyle = '#e3a82f'; c.beginPath(); c.moveTo(0, -h * 0.72); c.lineTo(w * 0.22, -h / 2); c.lineTo(0, -h * 0.28); c.lineTo(-w * 0.22, -h / 2); c.fill();
+    return;
+  }
+  c.strokeStyle = '#7d1a1f'; c.lineWidth = 1.5 * s; c.strokeRect(-w / 2 + 4 * s, -h + 4 * s, w - 8 * s, h - 8 * s);
+  c.fillStyle = '#2a1d16'; c.textAlign = 'center'; c.textBaseline = 'middle';
+  c.font = `${Math.round(h * 0.1)}px Gloock, Didot, Georgia, serif`; c.fillText(['XIX', 'XVIII', 'XVII'][i], 0, -h * 0.87);
+  c.font = `600 ${Math.max(6, Math.round(h * 0.075))}px Literata, Georgia, serif`; c.fillText(['THE SUN', 'THE MOON', 'THE STAR'][i], 0, -h * 0.12, w * 0.9);
+  const cy = -h * 0.5, r = w * 0.24;
+  if (i === 0) { c.fillStyle = '#e3a82f'; for (let k = 0; k < 12; k++) { const a = k * Math.PI / 6; c.beginPath(); c.moveTo(Math.cos(a - 0.12) * r, cy + Math.sin(a - 0.12) * r); c.lineTo(Math.cos(a) * r * 1.6, cy + Math.sin(a) * r * 1.6); c.lineTo(Math.cos(a + 0.12) * r, cy + Math.sin(a + 0.12) * r); c.fill(); }
+    c.fillStyle = '#c0322b'; c.beginPath(); c.arc(0, cy, r, 0, 7); c.fill(); }
+  else if (i === 1) { c.fillStyle = '#1d4f8a'; c.beginPath(); c.arc(0, cy, r * 1.3, 0, 7); c.fill(); c.fillStyle = '#f6e7c3'; c.beginPath(); c.arc(r * 0.55, cy - r * 0.3, r * 1.1, 0, 7); c.fill(); }
+  else { c.fillStyle = '#1d4f8a'; c.beginPath(); for (let k = 0; k < 16; k++) { const a = k * Math.PI / 8 - Math.PI / 2, rr = k % 2 ? r * 0.5 : r * 1.4; c.lineTo(Math.cos(a) * rr, cy + Math.sin(a) * rr); } c.fill(); }
+}
+function costumeBoard(c, h, s) {                 // the stage fortune-teller: a painted board, not a person
+  const w = h * 0.62;
+  cut(c, P((c) => { c.moveTo(-w / 2, 0); c.lineTo(-w / 2, -h * 0.55); c.quadraticCurveTo(-w * 0.42, -h * 0.98, 0, -h); c.quadraticCurveTo(w * 0.42, -h * 0.98, w / 2, -h * 0.55); c.lineTo(w / 2, 0); }), '#5b2a6e', 6 * s, 4 * s, 6 * s);
+  c.fillStyle = '#e3a82f'; for (let k = 0; k < 14; k++) { const a = Math.PI * (0.15 + 0.7 * k / 13); c.beginPath(); c.arc(-Math.cos(a) * w * 0.36, -h * 0.74 + Math.sin(a) * h * 0.2, 3.2 * s, 0, 7); c.fill(); }
+  c.fillStyle = '#f3e3c8'; c.beginPath(); c.ellipse(0, -h * 0.68, w * 0.2, h * 0.13, 0, 0, 7); c.fill();
+  c.strokeStyle = '#2a1d16'; c.lineWidth = 2 * s; c.beginPath(); c.arc(-w * 0.07, -h * 0.7, w * 0.035, 0.2, Math.PI - 0.2); c.moveTo(w * 0.105, -h * 0.7); c.arc(w * 0.07, -h * 0.7, w * 0.035, 0.2, Math.PI - 0.2); c.stroke();
+  c.beginPath(); c.arc(0, -h * 0.63, w * 0.06, 0.3, Math.PI - 0.3); c.stroke();
+  c.strokeStyle = '#e3a82f'; c.lineWidth = 3 * s; for (const sx of [-1, 1]) { c.beginPath(); c.arc(sx * w * 0.21, -h * 0.6, w * 0.06, 0, 7); c.stroke(); }
+  cut(c, P((c) => { c.moveTo(-w * 0.44, -h * 0.05); c.quadraticCurveTo(-w * 0.4, -h * 0.5, 0, -h * 0.55); c.quadraticCurveTo(w * 0.4, -h * 0.5, w * 0.44, -h * 0.05); }), '#a3171f', 3 * s, 1 * s, 2 * s);
+  c.fillStyle = '#e3a82f'; for (let k = 0; k < 7; k++) { const x = (-0.3 + k * 0.1) * w, y = -h * (0.18 + 0.2 * ((k * 37) % 5) / 5); c.beginPath(); for (let j = 0; j < 10; j++) { const a = j * Math.PI / 5 - Math.PI / 2, rr = j % 2 ? 2 * s : 5 * s; c.lineTo(x + Math.cos(a) * rr, y + Math.sin(a) * rr); } c.fill(); }
+  const g = c.createRadialGradient(-w * 0.05, -h * 0.33, 2, 0, -h * 0.3, w * 0.14); g.addColorStop(0, '#ffffff'); g.addColorStop(1, '#9fc6e0'); c.fillStyle = g; c.beginPath(); c.arc(0, -h * 0.3, w * 0.13, 0, 7); c.fill();
+}
+function occultist(c, h, s) {                    // an 18th-century Paris gentleman: tricorn, powdered wig, blue coat
+  const w = h * 0.56;
+  cut(c, P((c) => { c.moveTo(-w * 0.45, 0); c.lineTo(-w * 0.34, -h * 0.55); c.quadraticCurveTo(0, -h * 0.63, w * 0.34, -h * 0.55); c.lineTo(w * 0.45, 0); }), '#1d4f8a', 6 * s, 4 * s, 6 * s);
+  c.fillStyle = '#e3a82f'; for (let k = 0; k < 5; k++) { c.beginPath(); c.arc(w * 0.06, -h * (0.12 + k * 0.08), 2.6 * s, 0, 7); c.fill(); }
+  cut(c, P((c) => { c.moveTo(-w * 0.09, -h * 0.58); c.lineTo(w * 0.09, -h * 0.58); c.lineTo(w * 0.05, -h * 0.36); c.lineTo(-w * 0.05, -h * 0.36); }), '#fbfaf5', 2 * s, 1 * s, 2 * s);
+  cut(c, P((c) => c.ellipse(0, -h * 0.71, w * 0.27, h * 0.12, 0, 0, 7)), '#f1efe8', 3 * s, 1 * s, 2 * s);
+  for (const sx of [-1, 1]) cut(c, circ(sx * w * 0.24, -h * 0.66, h * 0.04), '#f1efe8', 2 * s, 1 * s, 1 * s);
+  c.fillStyle = '#f3e3c8'; c.beginPath(); c.ellipse(0, -h * 0.7, w * 0.17, h * 0.1, 0, 0, 7); c.fill();
+  c.fillStyle = '#2a1d16'; c.beginPath(); c.arc(-w * 0.06, -h * 0.72, 2.2 * s, 0, 7); c.arc(w * 0.06, -h * 0.72, 2.2 * s, 0, 7); c.fill();
+  c.strokeStyle = '#2a1d16'; c.lineWidth = 2 * s; c.beginPath(); c.moveTo(-w * 0.05, -h * 0.65); c.quadraticCurveTo(0, -h * 0.63, w * 0.05, -h * 0.66); c.stroke();
+  cut(c, P((c) => { c.moveTo(-w * 0.36, -h * 0.8); c.quadraticCurveTo(0, -h * 0.74, w * 0.36, -h * 0.8); c.lineTo(w * 0.22, -h * 0.9); c.lineTo(0, -h * 0.98); c.lineTo(-w * 0.22, -h * 0.9); }), '#1b1410', 4 * s, 2 * s, 3 * s);
+  cut(c, P((c) => c.rect(w * 0.36, -h * 0.5, w * 0.24, h * 0.34)), '#7d1a1f', 3 * s, 1 * s, 2 * s);   // the book he wrote
+  c.fillStyle = '#e3a82f'; c.font = `${Math.round(h * 0.05)}px Gloock, Didot, Georgia, serif`; c.textAlign = 'center'; c.fillText('1781', w * 0.48, -h * 0.32);
+}
 const PROPS = {
   img(c, p, h, s) { stick(c, s, STICK); const w = drawImg(c, p[1], h, s); rod(c, s, w * 0.28, -h * 0.55, h * 0.55 + STICK); },
   card(c, p, h, s) { stick(c, s, STICK); const w = Math.min(h * 1.1, CARDW);
@@ -296,6 +362,24 @@ const PROPS = {
       c.bezierCurveTo(h * 0.08, -h * 0.45, h * 0.28, -h * 0.25, h * 0.04, 0); c.bezierCurveTo(h * 0.1, -h * 0.3, -h * 0.12, -h * 0.5, -h * 0.12, -h * 0.95); }), '#c0322b', 5 * s, 3 * s, 4 * s);
     cut(c, P((c) => c.rect(-h * 0.1, -h * 1.05, h * 0.2, h * 0.1)), '#e3a82f', 3 * s, 1 * s, 2 * s);
     c.restore(); },
+  teller(c, p, h, s) {
+    stick(c, s, STICK);
+    const un = p[4] === 'unmask', k = un ? ease((PT - 500) / 1100) : 0;
+    if (un) { occultist(c, h, s); hit(c, 'drawn:occultist', -h * 0.32, -h, h * 0.35, 0); }
+    if (k < 1) { c.save(); c.translate(-k * h * 0.5, -k * h * 1.4); c.rotate(-k * 0.6); c.globalAlpha = 1 - k * k;
+      costumeBoard(c, h, s); if (k < 0.2) hit(c, 'drawn:teller', -h * 0.31, -h, h * 0.31, 0); c.restore(); }
+  },
+  tarot(c, p, h, s) { const w = h * 2;
+    cut(c, P((c) => c.rect(-w * 0.4, -h * 0.5, 9 * s, h * 0.5)), '#6b4a2b', 3 * s, 2 * s, 3 * s);
+    cut(c, P((c) => c.rect(w * 0.4 - 9 * s, -h * 0.5, 9 * s, h * 0.5)), '#6b4a2b', 3 * s, 2 * s, 3 * s);
+    cut(c, P((c) => { c.moveTo(-w / 2, -h * 0.58); c.lineTo(w / 2, -h * 0.58); c.lineTo(w * 0.47, -h * 0.3); c.lineTo(-w * 0.47, -h * 0.3); }), '#5b2a6e', 5 * s, 3 * s, 4 * s);
+    c.fillStyle = '#e3a82f'; for (let x = -w * 0.46; x < w * 0.46; x += 12 * s) { c.beginPath(); c.moveTo(x, -h * 0.3); c.lineTo(x + 6 * s, -h * 0.22); c.lineTo(x + 12 * s, -h * 0.3); c.fill(); }
+    const cw = h * 0.42, ch = h * 0.68;
+    for (let i = 0; i < 3; i++) {
+      const f = p[4] === 'read' ? clamp01((PT - 900 - i * 900) / 500) : 0, sx = Math.max(0.04, Math.abs(Math.cos(f * Math.PI)));
+      c.save(); c.translate((i - 1) * w * 0.3, -h * 0.58); c.scale(sx, 1); tarotCard(c, cw, ch, s, f >= 0.5, i); c.restore();
+    }
+  },
   ship(c, p, h, s) { const w = h * 1.7;
     cut(c, P((c) => c.rect(-3 * s, -h * 1.0, 7 * s, h * 0.95)), '#6b4a2b', 3 * s, 2 * s, 3 * s);
     cut(c, P((c) => c.rect(w * 0.25, -h * 0.75, 6 * s, h * 0.7)), '#6b4a2b', 3 * s, 2 * s, 3 * s);
@@ -344,7 +428,7 @@ function resize() {
   W = r.width; H = r.height; cv.width = Math.round(W * DPR); cv.height = Math.round(H * DPR); draw();
 }
 const ease = (x) => 1 - Math.pow(1 - Math.min(1, Math.max(0, x)), 3);
-const GROUNDED = { table: 1, boat: 1, ship: 1 };
+const GROUNDED = { table: 1, boat: 1, ship: 1, tarot: 1 };
 let CARDW = 200;
 function drawCast(c, L, R, floorY, s, now, bow, top) {
   const stageH = floorY - (H * 0.2), lift0 = stageH * 0.15;
@@ -361,7 +445,7 @@ function drawCast(c, L, R, floorY, s, now, bow, top) {
     const base = GROUNDED[kind] ? floorY - 4 * s : floorY - lift0;
     c.save(); c.translate(x, base + lift); c.rotate(rot);
     if (DRAWN_W[kind]) hit(c, 'drawn:' + kind, -h * DRAWN_W[kind], -h * 1.05, h * DRAWN_W[kind], 0);
-    (PROPS[kind] || PROPS.img)(c, p, h, s);
+    PT = now - it.t0; (PROPS[kind] || PROPS.img)(c, p, h, s);
     c.restore();
   };
   leaving.forEach((it) => one(it, -1)); cast.forEach((it) => one(it, 1));
@@ -389,7 +473,6 @@ function draw() {
     if (sc.curtain) curtains(c, L, Tp, R, floorY + 10 * s, s * 0.9, 0);
     floor(c, L, R, floorY, H, s);
     drawCast(c, L, R, floorY, s, now, !!sc.bow, Tp + 70 * s);
-    if (scene === 0 && !reduced) for (let i = 0; i < 9; i++) { const px = L + ((i * 83) % 280) / 280 * (R - L), py = Tp + ((T * 30 + i * 61) % (floorY - Tp)), a = T + i; c.fillStyle = i % 2 ? '#e25c7a' : '#f39bb0'; c.beginPath(); c.ellipse(px + Math.sin(a) * 10, py, 5 * s, 3 * s, a, 0, 7); c.fill(); }
     if (!sc.curtain) curtains(c, L, Tp, R, floorY + 10 * s, s * 0.9, 1);
     ribbon(c, W / 2, H * 0.1, Math.min(0.55, s * 0.5), sc.title || '');
   }
@@ -404,8 +487,9 @@ const oncap = document.getElementById('oncap');
 function caption(n) {
   const ks = (SCN[n].cast || []).filter((p) => p[0] === 'img' || p[0] === 'print' || p[0] === 'boat').map((p) => p[1].replace(/m$/, ''));
   if (SCN[n].back) ks.unshift('float');
-  const names = [...new Set(ks)].map((k) => DATA.names[k]).filter(Boolean);
-  oncap.textContent = names.length ? 'On stage: ' + names.join(', ') : '';
+  const names = [...new Set(ks)].filter((k) => DATA.names[k])
+    .map((k) => DATA.zoom[k] ? '<button type="button" class="zbtn" data-z="' + k + '" aria-label="See ' + DATA.names[k] + ' up close">' + DATA.names[k] + '</button>' : DATA.names[k]);
+  oncap.innerHTML = names.length ? 'On stage: ' + names.join(', ') : '';
 }
 function go(n) {
   if (n === scene) return; scene = n; setCast(n); caption(n);
@@ -413,9 +497,15 @@ function go(n) {
   if (sec && sec.dataset.cabinet && !cabSeen.includes(sec.dataset.cabinet)) { cabSeen.push(sec.dataset.cabinet); cabN = cabSeen.length; renderCab(); }
   if (reduced) draw();
 }
-const io = new IntersectionObserver((es) => { es.forEach((e) => { if (e.isIntersecting) go(+e.target.dataset.scene); }); },
-  { rootMargin: '-40% 0px -55% 0px' });
-document.querySelectorAll('[data-scene]').forEach((el) => io.observe(el));
+const SCENE_EL = [...document.querySelectorAll('[data-scene]')];   // document order: a beat comes after its section
+function pickScene() {
+  const y = innerHeight * 0.42; let best = null;
+  for (const el of SCENE_EL) { const r = el.getBoundingClientRect(); if (r.top <= y && r.bottom > y) best = el; }
+  if (best) go(+best.dataset.scene);
+}
+let pickQ = false;
+addEventListener('scroll', () => { if (!pickQ) { pickQ = true; requestAnimationFrame(() => { pickQ = false; pickScene(); }); } }, { passive: true });
+addEventListener('resize', pickScene);
 const so = new IntersectionObserver((es) => { es.forEach((e) => { if (e.isIntersecting) { stamp = { txt: e.target.dataset.stamp, t0: performance.now() }; if (reduced) draw(); } }); },
   { rootMargin: '-45% 0px -45% 0px' });
 document.querySelectorAll('.myth[data-stamp]').forEach((el) => so.observe(el));
@@ -454,13 +544,14 @@ addEventListener('beforeprint', () => document.querySelectorAll('details').forEa
 // ---------- picture credits on the stage ----------
 const art = document.getElementById('artpop'); let artK = null;
 const DRAWN = { card: 'A placard', letter: 'The letter', table: 'St Joseph’s table', boat: 'The boat', ship: 'The ship',
-  eye: 'A blue glass eye charm', horn: 'A coral horn charm' };
+  eye: 'A blue glass eye charm', horn: 'A coral horn charm', teller: 'A stage fortune-teller costume',
+  occultist: 'A Paris occultist of the 1780s', tarot: 'Three tarot cards: the Sun, the Moon and the Star' };
 function hitAt(x, y) { for (let i = HITS.length - 1; i >= 0; i--) { const h = HITS[i]; if (x >= h.x0 && x <= h.x1 && y >= h.y0 && y <= h.y1) return h; } return null; }
 function showArt(h, cx, cy) {
   if (artK !== h.k) {
     artK = h.k;
     art.innerHTML = h.k.startsWith('drawn:') ? '<b>' + DRAWN[h.k.slice(6)] + '</b> · Drawn for this page.'
-      : '<b>' + (DATA.names[h.k] || '') + '</b> · ' + (DATA.credits[h.k] || '');
+      : '<b>' + (DATA.names[h.k] || '') + '</b> · ' + (DATA.credits[h.k] || '') + (DATA.zoom[h.k] ? ' <i>Click to see it up close.</i>' : '');
   }
   art.hidden = false;
   const pw = art.offsetWidth, ph = art.offsetHeight;
@@ -468,21 +559,34 @@ function showArt(h, cx, cy) {
   art.style.top = (cy + 18 + ph > innerHeight - 8 ? Math.max(8, cy - ph - 12) : cy + 18) + 'px';
 }
 function hideArt() { art.hidden = true; artK = null; cv.style.cursor = ''; }
+const zoom = document.getElementById('zoom'), zimg = document.getElementById('zimg'), zcap = document.getElementById('zcap'), zclose = document.getElementById('zclose');
+let zBack = null;
+function openZoom(k) {
+  if (!DATA.zoom[k]) return; hideArt(); zBack = document.activeElement;
+  zimg.src = DATA.zoom[k]; zimg.alt = DATA.names[k] || ''; zcap.innerHTML = '<b>' + (DATA.names[k] || '') + '</b> · ' + (DATA.credits[k] || '');
+  zoom.classList.remove('big'); zoom.hidden = false; zclose.focus();
+}
+function closeZoom() { if (zoom.hidden) return; zoom.hidden = true; zimg.removeAttribute('src'); if (zBack && zBack.focus) zBack.focus(); }
+zclose.addEventListener('click', closeZoom);
+zoom.addEventListener('click', (e) => { if (e.target === zimg) zoom.classList.toggle('big'); else if (e.target === zoom) closeZoom(); });
+zoom.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeZoom(); if (e.key === 'Tab') { e.preventDefault(); zclose.focus(); } });
+document.addEventListener('click', (e) => { const b = e.target.closest('[data-z]'); if (b) openZoom(b.dataset.z); });
 cv.addEventListener('pointermove', (e) => {
   if (e.pointerType !== 'mouse') return;
-  const h = hitAt(e.offsetX, e.offsetY); cv.style.cursor = h ? 'help' : '';
+  const h = hitAt(e.offsetX, e.offsetY); cv.style.cursor = h ? (DATA.zoom[h.k] ? 'zoom-in' : 'help') : '';
   if (h) showArt(h, e.clientX, e.clientY); else hideArt();
 });
 cv.addEventListener('pointerleave', (e) => { if (e.pointerType === 'mouse') hideArt(); });
 cv.addEventListener('click', (e) => {
   const h = hitAt(e.offsetX, e.offsetY);
+  if (h && DATA.zoom[h.k]) { openZoom(h.k); e.stopPropagation(); return; }
   if (h && (art.hidden || artK !== h.k)) { showArt(h, e.clientX, e.clientY); e.stopPropagation(); } else hideArt();
 });
 document.addEventListener('click', (e) => { if (e.target !== cv) hideArt(); });
 addEventListener('scroll', () => { if (!art.hidden) hideArt(); }, { passive: true });
 addEventListener('keydown', (e) => { if (e.key === 'Escape') hideArt(); });
 
-addEventListener('resize', resize); resize(); setCast(0); caption(0);
+addEventListener('resize', resize); resize(); setCast(0); caption(0); pickScene();
 if (document.fonts) document.fonts.ready.then(draw);
 if (reduced) { draw(); setInterval(draw, 400); } else requestAnimationFrame(loop);
 </script>

@@ -45,6 +45,54 @@ IMGS['float'] = webp('float', 520)
 IMGS['exvoto'] = webp('exvoto', 520)
 IMGS['angel1m'] = webp('angel1', mirror=True)
 FRAME = webp('frame', 640)
+
+# ---------- zoom (Bryan, Nov 23: click a painting or statue to see it up close) ----------
+# Embedded, not hotlinked: ProofEr pieces load nothing from the internet (CLAUDE.md; check_offline.py and CI).
+ZOOM_SRC = {'rosalia': ('01-rosalia-vandyck', 1400), 'float': ('02-houel-car-rosalia', 1400), 'agatha': ('03-agatha-bronze', 1000),
+            'bust': ('04-bust-front', 1000), 'lucy': ('05-lucy-zurbaran', 1400), 'joseph': ('06-joseph', 1000),
+            'goddess': ('07-goddesses-front', 1000), 'isis': ('08-isis-front', 1000), 'albarello': ('09-albarello-front', 1000),
+            'exvoto': ('11-exvoto', 1400), 'angel1': ('12-angel-1', 1000)}
+ZOOM_QUALITY = 62
+def zoomimg(name, side):
+    im = Image.open(P('art', 'originals', name + '.jpg')).convert('RGB')
+    im.thumbnail((side, side), Image.LANCZOS)
+    b = io.BytesIO(); im.save(b, 'WEBP', quality=ZOOM_QUALITY, method=6)
+    return 'data:image/webp;base64,' + base64.b64encode(b.getvalue()).decode()
+ZOOM = {k: zoomimg(*v) for k, v in ZOOM_SRC.items()}
+
+# ---------- pictures in the text (Bryan, Nov 23: Act 6) ----------
+# key: (original file, name, caption (our words), credit, alt text)
+FIGS = {
+    'bosch': ('14-bosch-fish', 'Riders on a fish',
+              'Flying, as a Netherlandish painter imagined it around 1500: a man and a woman ride a huge fish through the sky. '
+              'Bosch left no key to who they are.',
+              'Hieronymus Bosch, <i>The Temptation of Saint Anthony</i>, right wing (detail), about 1500–10. Museu Nacional de '
+              'Arte Antiga, Lisbon, inv. 1498 Pint. Public domain.',
+              'Detail of a Bosch painting: a man with a lantern on a pole and a woman in a white headdress sit astride a large flying fish.'),
+    'guidobono': ('15-guidobono-sorceress', 'The Sorceress',
+                  'A painter’s sorceress, among animals, an open book and a fire. Nothing ties her to Sicily’s ladies from '
+                  'outside, whose trials describe night visits and healing, not books of spells.',
+                  'Bartolomeo Guidobono, <i>The Sorceress</i>, about 1690. Cantor Arts Center, Stanford University. Public domain.',
+                  'A painting of a young woman in a white blouse and blue skirt bending toward a dog and a gazelle, with a fire and an open book at her feet.'),
+    'gratteri': ('13-gratteri-portrait', 'A studio portrait',
+                 'A woman in an old studio portrait, from the visitgratteri.com site. Her name, and the photographer’s, '
+                 'aren’t recorded.',
+                 'Photographer unknown, 19th century, via visitgratteri.com.',
+                 'An old sepia photograph of a woman in a dark dress with a lace collar, standing with one hand on a chair.'),
+}
+def figthumb(name, side=760):
+    im = Image.open(P('art', 'originals', name + '.jpg')).convert('RGB')
+    im.thumbnail((side, side), Image.LANCZOS)
+    b = io.BytesIO(); im.save(b, 'WEBP', quality=IMG_QUALITY, method=6)
+    return 'data:image/webp;base64,' + base64.b64encode(b.getvalue()).decode()
+for k, v in FIGS.items():
+    ZOOM[k] = zoomimg(v[0], 1600 if k == 'bosch' else 1200)
+FIG_CREDITS = {k: (v[1], v[3]) for k, v in FIGS.items()}
+def figure_html(k):
+    f = FIGS[k]
+    return (f'<figure class="infig"><button type="button" class="figbtn" data-z="{k}" aria-label="See {html.escape(f[1])} up close">'
+            f'<img src="{figthumb(f[0])}" alt="{html.escape(f[4])}" loading="lazy"></button>'
+            f'<figcaption>{f[2]} <span class="credit">{f[3]}</span></figcaption></figure>')
 TILE = webp('tile', None)
 
 # ---------- figures: sources by ID ----------
@@ -95,6 +143,10 @@ PORTRAITS = {
               'Copy supplied by Bryan from Sicilian Post.'),
     'gramsci': ('Antonio Gramsci', 'Photograph by an unknown photographer, about 1922. Public domain by age. Copy supplied by '
                 'Bryan from Wikimedia Commons (File:Gramsci.png).'),
+    'demartino': ('Ernesto de Martino', 'Photograph by F.DelDongo, about 1956, from Wikimedia Commons '
+                  '(File:Album_mix_005_Muzi_Epifani_Ernesto_de_Martino.jpg), '
+                  '<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>. '
+                  'Cropped to de Martino alone; this crop is shared under the same licence.'),
 }
 def portrait(k):
     b = open(P('art', 'portraits', k + '.jpg'), 'rb').read()
@@ -178,6 +230,10 @@ for sec in sections:
         lines = p.split('\n')
         if p.startswith('>'):
             continue  # margin voices cut (Bryan, Nov 23)
+        elif re.match(r'_scene \d+_$', p.strip()):
+            blocks.append(f'{{{{BEAT:{p.strip()[7:-1]}}}}}')   # stage switches partway through the section
+        elif re.match(r'_figure \w+_$', p.strip()):
+            blocks.append(figure_html(p.strip()[8:-1]))
         elif p.startswith('_[Unit chart'):
             blocks.append('{{UNIT}}')
         elif p.startswith('_'):
@@ -408,8 +464,10 @@ for s in SECS:
 # ---------- stage scenes ----------
 # each puppet: [kind, key, x% (centre), height% of stage, extra]
 SCENES = {
-    0: dict(back='float', lights=True, cast=[['img', 'agatha', 22, 52], ['img', 'rosalia', 52, 60], ['img', 'lucy', 80, 60]]),
-    1: dict(lights=True, cast=[['img', 'isis', 18, 56], ['img', 'goddess', 44, 50], ['img', 'agatha', 74, 62]], stamp='Myth-check: claim by claim'),
+    0: dict(lights=True, cast=[['teller', '', 30, 66], ['tarot', '', 68, 36, 'down']]),
+    1: dict(lights=True, cast=[['teller', '', 30, 66], ['tarot', '', 68, 36, 'read']]),
+    14: dict(lights=True, cast=[['teller', '', 30, 66, 'unmask'], ['card', 'Milan, 1440s', 72, 46, 'a card game']]),
+    15: dict(lights=True, cast=[['img', 'isis', 18, 56], ['img', 'goddess', 44, 50], ['img', 'agatha', 74, 62]]),
     2: dict(cast=[['card', 'Pitrè', 23, 36, 'Palermo · 1910'], ['card', 'Gramsci', 50, 40, 'prison notebooks'], ['card', 'de Martino', 77, 36, 'Sud e magia · 1959']]),
     3: dict(cast=[['card', '535', 23, 36, 'Byzantium'], ['card', '831', 50, 42, 'Arabs take Palermo'], ['card', '1071–72', 77, 36, 'Normans']]),
     4: dict(sea=True, cast=[['boat', 'bust', 58, 62], ['img', 'agatha', 22, 50]]),
@@ -436,10 +494,10 @@ def section_html(s):
             for k, v in sorted(ACT_NAMES.items()) if v.startswith('Act ')) + '<li><a href="#s13">Sources</a></li></ul></nav>'
         return f'''<header class="sec hero" id="s0" data-scene="0">
 <div class="ribbon"><h1>Saints <span class="amp">&amp;</span> Spells</h1></div>
-<div class="card"><p class="dek">Under every saint in Sicily, the story goes, there’s a goddess wearing a disguise. We
-put that story on stage and checked it, claim by claim: who said it first, and what the record shows.</p>
+<div class="card"><p class="dek">A friendly guide to Sicily’s saints, spells and the stories outsiders tell about them,
+checked claim by claim.</p>
 <p class="byline"><i>A show in eight acts</i><br>By Bryan Murphy · November 22, 2026</p>
-{ACTS}<p class="howto">Scroll, and the stage changes with each act. Underlined words and names open a short note. Point at or tap a puppet to see where it comes from. Red stamps are
+{ACTS}<p class="howto">Scroll, and the stage changes with each act. Underlined words and names open a short note. Point at or tap a puppet to see where it comes from, and click a painting or statue to see it up close. Red stamps are
 myth-checks.</p></div></header>'''
     if n == 13:
         return ''
@@ -449,8 +507,19 @@ myth-checks.</p></div></header>'''
     else:
         h = f'<h2>{inline(t)}</h2>'
     cab = f' data-cabinet="{html.escape(CAB[n])}"' if n in CAB else ''
+    inner, open_beat = [], False
+    for b in s['blocks']:
+        m = re.match(r'\{\{BEAT:(\d+)\}\}$', b)
+        if m:
+            if open_beat:
+                inner.append('</div>')
+            inner.append(f'<div class="beat" data-scene="{m.group(1)}">'); open_beat = True
+        else:
+            inner.append(b)
+    if open_beat:
+        inner.append('</div>')
     return (f'<section class="sec{night}" id="s{n}" data-scene="{n}"{cab}><div class="card">{h}'
-            + '\n'.join(s['blocks']) + '</div></section>')
+            + '\n'.join(inner) + '</div></section>')
 
 ACT_NAMES = {s['num']: s['title'] for s in SECS}
 
@@ -489,12 +558,11 @@ how many Sicilians hold it today. Beliefs are written as beliefs.</p>
         if items:
             out.append(f'<h3>{inline(s["title"])}</h3><ul class="src">' +
                        ''.join(f'<li>{clean_src(x)}</li>' for x in items) + '</ul>')
-    out.append('<h3>Pictures</h3><ul class="src">' + ''.join(f'<li><b>{a}:</b> {b}</li>' for a, b in CREDITS.values()) +
+    out.append('<h3>Pictures</h3><ul class="src">' + ''.join(f'<li><b>{a}:</b> {b}</li>' for a, b in list(CREDITS.values()) + list(FIG_CREDITS.values())) +
                '<li><b>Drawn for this page:</b> the scholars’ and rulers’ placards, the boat, the letter, the table, the ship '
-               'the blue glass eye charm and the coral horn charm. No open-licensed picture of Benedict the Moor or Antonio of Noto turned up, so '
+               'the blue glass eye charm, the coral horn charm, the fortune-teller costume, the Paris occultist and the tarot cards. No open-licensed picture of Benedict the Moor or Antonio of Noto turned up, so '
                'they are not shown.</li>' + ''.join(f'<li><b>Portrait of {a}:</b> {b}</li>' for a, b in PORTRAITS.values()) +
-               '<li><b>Ernesto de Martino:</b> no portrait. The photo we had came from a personal site with no photographer, '
-               'date or licence, so we could not clear it.</li></ul>')
+               '</ul>')
     out.append('<h3>Type</h3><p class="small">Gloock (display) and Literata (text), both under the SIL Open Font License.</p>')
     out.append('<p class="small">Made with ProofEr. Research and drafting by Claude for Bryan Murphy, November 2026.</p></div></section>')
     return ''.join(out)
@@ -506,10 +574,10 @@ for n, sc in SCENES.items():
     t = ACT_NAMES.get(n, '')
     m2 = re.match(r'(Act \d+)(?: \(night\))? · ([^:]+)', t)
     sc['title'] = (f'{m2.group(1)} · {m2.group(2)}' if m2 else
-                   {0: 'Saints & Spells', 1: 'Overture', 2: 'Primer', 3: 'Who ruled Sicily', 12: 'Curtain call', 13: 'Sources'}.get(n, ''))
+                   {0: 'Saints & Spells', 1: 'Overture', 14: 'Overture', 15: 'Overture', 2: 'The goddess story', 3: 'Sicily 101', 12: 'Curtain call', 13: 'Sources'}.get(n, ''))
     sc['title'] = {7: 'Act 4 · St Joseph', 10: 'Act 7 · Relics', 11: 'Act 8 · Americas'}.get(n, sc['title'])
 CALL_DATA = {k: dict(v, text=inline(v['text']), sub=inline(v['sub'])) for k, v in CALLOUT.items()}
-data = dict(callouts=CALL_DATA, imgs=IMGS, names={k: v[0] for k, v in CREDITS.items()}, credits={k: v[1] for k, v in CREDITS.items()}, scenes=SCENES)
+data = dict(callouts=CALL_DATA, imgs=IMGS, zoom=ZOOM, names={k: v[0] for k, v in {**CREDITS, **FIG_CREDITS}.items()}, credits={k: v[1] for k, v in {**CREDITS, **FIG_CREDITS}.items()}, scenes=SCENES)
 page = (tpl.replace('{{BODY}}', body)
            .replace('{{FRAME}}', FRAME).replace('{{TILE}}', TILE)
            .replace('{{DATA}}', json.dumps(data, ensure_ascii=False)))

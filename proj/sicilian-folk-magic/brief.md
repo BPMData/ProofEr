@@ -230,3 +230,17 @@ None at approval. Research may raise disputed figures for Bryan to settle.
   interesting information in a meaningful way. There's no real thesis statement… Assume no actual familiarity with
   Sicily or its religious traditions". A thesis, act-by-act line and new opening sent for his approval; the body
   rewrite waits on it.
+- Nov 23 · Act 5 and voice: wants a "wry, deeply knowledgeable Sicilian friend and folklorist" debunking "the faintly
+  Orientalist exoticisms", "not like getting fact checked by Snopes on cocaine". Opening: the tarot reading becomes the
+  first myth busted; the exotic costume comes off. Images zoom on click (embedded, since pieces stay offline). De Martino
+  portrait: "fine, use this image… You can cut his wife out of the picture".
+- Nov 23 · Thesis approved: "I like this". Asked WHY Sicilians "are constantly getting tarred with a pagan and occultism
+  brush"; the archive fire ("Intentionally? By who?"); "What is an Inquisition executing people for if not for
+  witchcraft?"; glosses that "get no new interesting information"; the ladies from outside "need a lot more
+  introduction"; "The reason we have the acts needs to be clearly introduced". Offered the Gratteri source and photo,
+  Guidobono's Sorceress and the Bosch fish riders.
+- Nov 23 · Act 7 and cabinet: "Why aren't we using the actual reliquary of agatha?"; "emphasize how… insane
+  reliquaries are"; cut "The boat: drawn for this page."; the relic cabinet must be clickable, with a photo and note per
+  relic, no empty slots, and no fill glitch; "Who the hell is Lucy?"; don't lead with the no-duplicate-finger line;
+  explain why European churches collected body parts, Calvin's translator, relic classes, and whether cutting up saints
+  was allowed before 2017. "focus on re-building the infographic up through act 7 before we move on."
