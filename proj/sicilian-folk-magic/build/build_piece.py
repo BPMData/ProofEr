@@ -378,19 +378,19 @@ for s in SECS:
 # ---------- stage scenes ----------
 # each puppet: [kind, key, x% (centre), height% of stage, extra]
 SCENES = {
-    0: dict(back='float', lights=True, cast=[['img', 'agatha', 22, 52], ['img', 'rosalia', 52, 74], ['img', 'lucy', 80, 60]]),
+    0: dict(back='float', lights=True, cast=[['img', 'agatha', 22, 52], ['img', 'rosalia', 52, 60], ['img', 'lucy', 80, 60]]),
     1: dict(lights=True, cast=[['img', 'isis', 18, 56], ['img', 'goddess', 44, 50], ['img', 'agatha', 74, 62]], stamp='Myth-check: claim by claim'),
     2: dict(cast=[['card', 'Pitrè', 23, 36, 'Palermo · 1910'], ['card', 'Gramsci', 50, 40, 'prison notebooks'], ['card', 'de Martino', 77, 36, 'Sud e magia · 1959']]),
     3: dict(cast=[['card', '535', 23, 36, 'Byzantium'], ['card', '831', 50, 42, 'Arabs take Palermo'], ['card', '1071–72', 77, 36, 'Normans']]),
     4: dict(sea=True, cast=[['boat', 'bust', 58, 62], ['img', 'agatha', 22, 50]]),
-    5: dict(back='float', cast=[['img', 'rosalia', 50, 78]]),
+    5: dict(back='float', cast=[['img', 'rosalia', 50, 64]]),
     6: dict(cast=[['letter', 'Messina · “AD 42”', 50, 56]]),
     7: dict(cast=[['img', 'joseph', 24, 70], ['table', '', 64, 40]]),
     8: dict(night=True, cast=[['print', 'exvoto', 50, 58]]),
     9: dict(night=True, cast=[['img', 'albarello', 22, 58], ['eye', '', 56, 40], ['horn', '', 82, 36]]),
     10: dict(cast=[['img', 'lucy', 26, 64], ['img', 'bust', 72, 56]], cabinet=True),
     11: dict(sea=True, cast=[['ship', '', 50, 56]]),
-    12: dict(lights=True, bow=True, cast=[['img', 'angel1', 12, 50], ['img', 'agatha', 28, 50], ['img', 'rosalia', 50, 70],
+    12: dict(lights=True, bow=True, cast=[['img', 'angel1', 12, 50], ['img', 'agatha', 28, 50], ['img', 'rosalia', 50, 58],
                                          ['img', 'lucy', 70, 56], ['img', 'joseph', 86, 58], ['img', 'angel1m', 90, 50]]),
     13: dict(curtain=True, cast=[]),
 }

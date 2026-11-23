@@ -332,11 +332,13 @@ function resize() {
 const ease = (x) => 1 - Math.pow(1 - Math.min(1, Math.max(0, x)), 3);
 const GROUNDED = { table: 1, boat: 1, ship: 1 };
 let CARDW = 200;
-function drawCast(c, L, R, floorY, s, now, bow) {
+function drawCast(c, L, R, floorY, s, now, bow, top) {
   const stageH = floorY - (H * 0.2), lift0 = stageH * 0.15;
   CARDW = (R - L) * 0.25; STICK = lift0 + 14 * s;
   const one = (it, dir) => {
-    const p = it.p, kind = p[0], x = L + (R - L) * p[2] / 100, h = stageH * p[3] / 100;
+    const p = it.p, kind = p[0], x = L + (R - L) * p[2] / 100;
+    // never taller than the space under the valance (or the hanging ex-votos at night)
+    const h = Math.min(stageH * p[3] / 100, GROUNDED[kind] ? 1e9 : floorY - lift0 - top);
     const k = dir > 0 ? ease((now - it.t0) / 700) : 1 - ease((now - it.t0) / 450);
     if (k <= 0) return;
     const lift = (1 - k) * (h + 60 * s);
@@ -357,7 +359,7 @@ function draw() {
   const L = W * 0.1, R = W * 0.9, Tp = H * 0.22, floorY = H * 0.84;
   if (sc.night) {
     nightBack(c, W, H, s);
-    drawCast(c, L, R, floorY + 6 * s, s, now, false);
+    drawCast(c, L, R, floorY + 6 * s, s, now, false, H * 0.3);
     candles(c, W, floorY - 6 * s, s);
   } else {
     tiles(c, W, H, Math.max(36, 64 * s));
@@ -371,7 +373,7 @@ function draw() {
     }
     if (sc.curtain) curtains(c, L, Tp, R, floorY + 10 * s, s * 0.9, 0);
     floor(c, L, R, floorY, H, s);
-    drawCast(c, L, R, floorY, s, now, !!sc.bow);
+    drawCast(c, L, R, floorY, s, now, !!sc.bow, Tp + 70 * s);
     if (scene === 0 && !reduced) for (let i = 0; i < 9; i++) { const px = L + ((i * 83) % 280) / 280 * (R - L), py = Tp + ((T * 30 + i * 61) % (floorY - Tp)), a = T + i; c.fillStyle = i % 2 ? '#e25c7a' : '#f39bb0'; c.beginPath(); c.ellipse(px + Math.sin(a) * 10, py, 5 * s, 3 * s, a, 0, 7); c.fill(); }
     if (!sc.curtain) curtains(c, L, Tp, R, floorY + 10 * s, s * 0.9, 1);
     ribbon(c, W / 2, H * 0.1, Math.min(0.55, s * 0.5), sc.title || '');

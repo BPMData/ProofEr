@@ -203,3 +203,6 @@ None at approval. Research may raise disputed figures for Bryan to settle.
   burning stakes or something lol" … "you can leave it as cubes for now and maybe we can think of something more fun
   later. okay, the penitent hat works too." Built with penitent's hats (the coroza) for people tried, one hat = 10
   people, and stakes only for the 25 to 52 executed, one stake = one person, any charge. Stage: build.
+- Nov 23 · stage fix: "Saint Rosalia's head is being cut off by the top of the curtain, so move her down and make her
+  little puppet smaller slightly generally". Rosalia made smaller in every scene, and no puppet can now be taller than
+  the space under the valance.
