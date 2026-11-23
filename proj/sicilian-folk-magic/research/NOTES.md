@@ -54,3 +54,12 @@
   Metz 970s rival; Syracuse visits 2004/2014/2024. Monreale: Louis IX entrails 1270, heart disputed. Vatican 2017:
   insigni/non insigni only (no "first/second/third class"); Art. 24 no division without consent, Art. 25 no sale.
   "At least two churches claim Lucy's whole body" = synthesis, needs label. Still no reliquary count anywhere.
+- B-pass2 done: big city feasts "creations of the baroque" (Benigno, Teramo); Rosalia cult built by Jesuits + Senate
+  after 1624 (Petrarca 1986/2008), festino civic show c.1649, weak Christian medieval cult (Palazzotto 2018). Goddess
+  claims trace to named authors: Agatha=Ceres Blunt 1823 (admits no proof), Agatha=Isis Ciaceri 1905; white robe 18th
+  c. (Benigno); Tanit at Rosalia's cave = architecture only; Enna as Ceres's seat solid (Cicero Verr. II.4.106) but
+  Marian descent unsourced. St Joseph: ICCD 2015 record (rites Jan–Sep centred 19 Mar), Giacomarra virgineddi.
+  REI: 177 items by Sep 2013, ~86 feasts incl. 11 St Joseph (tool tally, recount). 391 comuni from aggregator only.
+- ALL 11 BACK. Gap-fill targets: evil eye/charms/ciarmavermi/surveys; decollati & Purgatory souls; Festa dei Morti;
+  ex-votos; reliquary counts; patron-saint counts + ISTAT comuni; disputed figures (donne di fuora, executions,
+  Agatha 1039/1040, Joseph patron New Spain 1555, Benedict Brazil dates, Inquisition start).
