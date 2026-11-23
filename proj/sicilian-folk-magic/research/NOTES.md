@@ -40,3 +40,10 @@
   193/77 → show as range unless Henningsen 1990 opened. "456 magic cases" blog-only: don't use. D3 evil eye/charms and
   D4 surveys: nothing opened by either pass → main gap-fill target (Pitrè Medicina popolare p.181+, Migliore 1997).
   Side leads: Van Dyck sketch of Palermo auto de fe 1624 (image); Casimiro Piccolo fairy paintings (aside).
+- A-pass1 done: survival critique (Hutton 2023, Filotas 2005 via review, Magliocco 2002 on Aradia, Carroll 1992/1996,
+  de Martino via Lepage 2017); Pitrè 1881 "resti di antiche mitologie" (Treccani) = survival idea starts with
+  Sicily's own founding folklorist; Geremia 2024 still argues continuity as hypothesis. Timeline Thucydides–1861.
+  Inquisition authorised 24 Mar 1486 (agrees with D). Disputed dates: Palermo 831 vs 820/835; Normans 1071/1072;
+  Two Sicilies 1815/1816; Pitrè journal 1880/1882; autonomy 1946/1947. Earliest records: Agatha cult in 5th–6th c.
+  calendars; Trapani Misteri notary deed 20 Apr 1612. Key works unopened: Shaw & Stewart 1994, Primiano 1995,
+  Christian 1981, Brown 1981.
