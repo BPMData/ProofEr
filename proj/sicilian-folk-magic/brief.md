@@ -1,114 +1,143 @@
 # Brief: Sicilian folk magic (working title)
 
-Status: DRAFT · Stage: interview · Mode: from scratch · Budget: standard to deep · Client: Bryan Murphy · Sign-off: Bryan
-Usage: Opus 5.5 (Claude Duet thread) · interview: not yet measured
+Status: DRAFT · Stage: brief · Mode: from scratch · Budget: standard to deep · Client: Bryan Murphy · Sign-off: Bryan
+Usage: Opus 5.5 (Claude Duet thread) · interview: not measured (the Duet app shows no per-stage share)
 
-_Made from `brief/TEMPLATE.md` once round 1 was answered. **ASK** = missing, **DRAFT** = Claude's draft,
-**Claude's call** = delegated by the client._
+_Made from `brief/TEMPLATE.md`. **ASK** = missing, **DRAFT** = Claude's draft, **Claude's call** = delegated by the
+client. Quotes are Bryan's own words, Nov 22, 2026._
 
 ## 1. The ask
-- **Topic (Bryan, Nov 22):** "An upbeat, dynamic, ecletic, erudite but fun and occultist piece about the
-  intersection and syncretism of sicilian catholicism with pagan and folk magical traditions."
-- **Format:** "medium to long scrolling interactive essay".
-- **Audience:** "bored history nerds on mobile or pc"; "educated, clever, witty adults". Published on the ProofEr
-  site (**ASK**: confirm).
-- **By when:** **ASK**.
+- **Topic:** "An upbeat, dynamic, ecletic, erudite but fun and occultist piece about the intersection and syncretism
+  of sicilian catholicism with pagan and folk magical traditions."
+- **Format:** "medium to long scrolling interactive essay", published on the ProofEr site (`pieces/`, linked from
+  `index.html`).
+- **Audience:** "bored history nerds on mobile or pc"; "educated, clever, witty adults".
+- **By when:** no deadline given (**ASK**: confirm). Byline date: Nov 22, 2026 ("todays date").
 
 ## 2. Purpose and tone
-- Tone words from the request: upbeat, dynamic, eclectic, erudite, fun, occultist.
-- **Stance (Bryan, Nov 22):** "Both. No need to be disrespectful but no need to pretend this shit is 100% real. More
-  like a cultural anthropologist analyzing the mechanism of transfer and syncretism respectfully but without
-  ascribing to it. Just a hint of Barnes and noble white girl tarot card self help mysticism energy."
-  So: the wink and the field manual at once; the piece explains how practices moved and merged, respectfully, and
-  never claims the magic works. The tarot-shop mysticism is a hint of flavor, not the voice.
-- Know / feel / do afterwards: **ASK**.
+- **Know:** "how italian catholicism absorbed local pre extant indigenous traditions, and what sicilian catholics
+  practice that the rest of catholicism does not."
+- **Feel:** "edified, amused and edutained."
+- **Do:** nothing asked for (**DRAFT**: a sources and further-reading list is the next step for the curious).
+- **Stance:** "No need to be disrespectful but no need to pretend this shit is 100% real. More like a cultural
+  anthropologist analyzing the mechanism of transfer and syncretism respectfully but without ascribing to it. Just a
+  hint of Barnes and noble white girl tarot card self help mysticism energy." The wink and the field manual at once;
+  the piece explains how practices moved and merged and never claims the magic works. The tarot-shop mysticism is a
+  hint of flavor, not the voice.
+- **Tone words:** upbeat, dynamic, eclectic, erudite, fun, occultist. **Must not feel like:** homework, a sneer at
+  believers, or a sincere spellbook.
 
 ## 3. How it's read
 - Phone, PC and tablet: "Should also work on tablet." "Probably not gonna be projected."
-- Read alone, scrolling, for as long as the reader likes (long read; T15 drill-downs apply).
+- Read alone, scrolling, for as long as the reader likes. Long read: drill-downs carry the depth (T15).
 
 ## 4. The subject
-- Client's starting idea (not yet a fact): Sicilian Catholicism and pagan/folk magical traditions intersect and
-  blend. Research may support, complicate or overturn parts of it; say so in one line when the reports come back.
-- Misconceptions: **ASK** (optional).
-- **Landmines.** Bryan (Nov 22): "yeah neither of those examples. Tbh i trust your judgement on this one be normal
-  about it." His two confirmed: never "Sicilians are superstitious peasants"; never treat living practitioners as a
-  museum exhibit. The rest is **DRAFT** for his approval (landmines can't be delegated, so he signs off on this list):
+- **Client's starting idea, not yet a fact:** Sicilian (and Italian) Catholicism absorbed older local traditions,
+  and Sicily keeps practices the rest of Catholicism doesn't. Research tests each claim; when the reports come back,
+  say in one line where they support, complicate or overturn it, and ask before building on a flipped version.
+- **Primer needed:** readers need the mechanism (what syncretism, folk Catholicism and "pagan survival" mean, and
+  why scholars argue about them) before the examples make sense. Its questions are in the first research pass (Q5).
+- **Landmines.** Bryan: "yeah neither of those examples. Tbh i trust your judgement on this one be normal about it."
+  His two: never "Sicilians are superstitious peasants"; never treat living practitioners as a museum exhibit. The
+  rest is **DRAFT** for his approval:
   - **DRAFT** No mafia, *Godfather* or crime framing; organized crime appears only if research ties it to a specific
     practice, and then as a sourced fact, not flavor.
-  - **DRAFT** No claim that a practice "survived unbroken from pagan antiquity" unless the sources trace it; "pagan
-    survival" stories that the research can't back get a myth-check label (T10).
-  - **DRAFT** No mocking the faith of living Catholics or practitioners; the jokes aim at relic markets, institutions,
-    marketing and myths (`clients/bryan.md`), never at believers.
-  - **DRAFT** No instructions presented as working magic (no "how to cure the evil eye" that implies it works); charms
-    are quoted as recorded texts, with their source.
-  - **DRAFT** No North/South Italy ranking or "backward South" comparisons.
-  - **DRAFT** Witch-trial and Inquisition victims are people, not punchlines (`CRAFT.md` dignity rule).
-  - **DRAFT** No photos of identifiable living people at rituals without a license that allows it.
+  - **DRAFT** No claim that a practice "survived unbroken from pagan antiquity" unless the sources trace it; legends
+    the research can't back get a myth-check label (T10).
+  - **DRAFT** Jokes aim at relic markets, institutions, marketing and myths (`clients/bryan.md`), never at the faith
+    of living Catholics or practitioners.
+  - **DRAFT** No instructions presented as working magic; charms are quoted as recorded texts, with their source.
+  - **DRAFT** No "backward South" or North/South Italy ranking.
+  - **DRAFT** Inquisition and witch-trial defendants are people, not punchlines.
+  - **DRAFT** No photos of identifiable living people at rituals unless the license allows it.
 
 ## 5. The questions the numbers must answer
-Bryan (Nov 22): "we can downplay the numbers and strict figures for this one. Dates in history, counts of saints and
-feast days, number of churches with reliquaries, number of churches claiming to all have the same relic (how many
-fingerbones can one dead saint have?) are all fair game." Numbers are supporting cast here; dates and counts carry
-the essay, and the stories carry the reader.
+Bryan: "we can downplay the numbers and strict figures for this one. Dates in history, counts of saints and feast
+days, number of churches with reliquaries, number of churches claiming to all have the same relic (how many
+fingerbones can one dead saint have?) are all fair game." Numbers are supporting cast; dates and counts carry the
+essay, and the stories carry the reader. Every date, name, count and quoted charm still needs two sources.
 
 | # | Question | Weight | Why it matters to the reader |
 |---|---|---|---|
-| Q1 | When does each practice or belief first show up in the record, and how do those dates line up against Sicily's rulers (Greek, Roman, Byzantine, Arab, Norman, Spanish ...)? | main | The timeline is the spine: it shows what could have blended with what. |
-| Q2 | How many saints, feast days and processions does Sicily keep, and which ones are said to sit on older cults? | main | Shows the scale of the saint calendar and where the syncretism claims cluster. |
-| Q3 | How many churches hold reliquaries, and how many claim the same relic ("how many fingerbones can one dead saint have?") | main | The relic count is the essay's best running joke and a real story about relic markets. |
-| Q4 | **DRAFT** What does the record (Inquisition trials, ethnography) say about folk healers and the "donne di fuora", and how many cases? | main (**ASK**) | The clearest documented meeting point of Church and folk magic. |
-| Q5 | **DRAFT** Primer: what do "syncretism", "folk Catholicism" and "pagan survival" mean, and why do scholars argue about them? | main (primer) | Readers need the mechanism before the examples make sense. |
+| Q1 | When does each practice or belief first show up in the record, and how do those dates line up with Sicily's successive rulers and peoples? | main | The timeline is the spine: it shows what could have blended with what. |
+| Q2 | Which practices are distinctly Sicilian, kept there and not in Catholicism at large (saint cults, feasts, healers, charms, votive customs), and what does each one involve? | main | Bryan's "know" line: "what sicilian catholics practice that the rest of catholicism does not." |
+| Q3 | How many saints, feast days and processions does Sicily keep, and which are said to sit on older cults, with what evidence? | main | Shows the scale of the saint calendar and where the syncretism claims cluster. |
+| Q4 | How many churches hold reliquaries, and how many claim the same relic? ("how many fingerbones can one dead saint have?") | main | The essay's best running joke, and a real story about relic markets. |
+| Q5 | Primer: what do "syncretism", "folk Catholicism" and "pagan survival" mean, and where do scholars disagree? | main (primer) | Readers need the mechanism before the examples. |
+| Q6 | **DRAFT** What do Inquisition records and ethnography say about folk healers, the evil eye and the *donne di fuora*, and how many cases are recorded? | **ASK** (main or side) | The best-documented meeting point of Church and folk magic. |
+| Q7 | Is there a real connection between Sicilian and Latin American Catholicism ("They both love hella candles and gaudy shit")? Shared Spanish rule, baroque, saints? | side (**ASK**) | Bryan asked in passing; a side note until he says main (T13). |
 
 ## 6. Research plan
-- **Changed from the repo default (Bryan, Nov 22):** "You run the research tasks yourself via yourself or subagents,
-  I want to see how Duet handles this." Claude runs several independent research passes (subagents with web search),
-  then a gap-fill / fact-check pass, saved to `proj/sicilian-folk-magic/research/`, and cross-checks them into
-  `figures.md`. Disagreements and single-source figures go to Bryan to settle. "we have api usage to burn."
+- **Changed from the repo default (Bryan):** "You run the research tasks yourself via yourself or subagents, I want to
+  see how Duet handles this." Claude runs at least two independent research passes per question group (separate
+  subagents with web search, so they don't share mistakes), then a gap-fill and fact-check pass, all saved to
+  `proj/sicilian-folk-magic/research/`; then cross-checks them into `figures.md`. Disagreements and single-source
+  figures go to Bryan to settle. "we have api usage to burn." T05 (two or more tools) is met by independent passes,
+  not separate products; noted as an override in §12.
 - **Sourcing rules (Bryan's standing rules):** never cite Holocaust deniers or revisionist sites, or wikis and
   aggregators like Fandom or Kiddle; Medium and Reddit are leads only, never the citation for a figure; trace every
   figure to the original institution, book or journal. For this topic, favor academic folklore, anthropology and
-  religious-history sources and primary ethnography.
+  religious-history sources, primary ethnography, published Inquisition records and diocesan or church records.
+- **Images** are research too: public-domain or open-licensed artworks (baroque and classical paintings, saints'
+  images, ex-votos) with their license and source, for the cutout look in §8.
 
 ## 7. Structure and reading order
-**ASK** (later round).
+Decided at concepts and layout. **DRAFT** idea to show then: the primer first, then a tour of practices in timeline
+order, with a running relic tally visible the whole way (T20).
 
 ## 8. Brand and contrast
-**ASK**.
+- **Look:** "let's go baroque sicilian x the video game franchise "rock of ages" (i.e. papercraft cutouts of classical
+  artworks staged or animated as puppets. Google rock of ages)". So: baroque Sicilian color and ornament (painted
+  tiles, gold, votive candles) with cut-paper puppets made from public-domain paintings, staged and moved on scroll.
+- **Original look only:** the game is a style cue; no game assets, characters, names or branding appear. Every
+  cutout comes from a public-domain or open-licensed artwork, license noted.
+- Colors and fonts: **Claude's call**, shown as a choice panel at concepts (T03). Open-licensed fonts only.
+  Contrast: WCAG AA, reported honestly; dark text on gold and other light brights (T07).
 
 ## 9. Language
-**ASK** (English adults online; Sicilian/Italian terms as a flourish?).
+"English only, sicilian where appropriate but each term is defined inline or with a clickable drilldown, etc."
 
 ## 10. Call to action and credit
-**ASK**.
+- **Credit:** "bryan murphy", dated Nov 22, 2026.
+- **Next step:** **DRAFT** sources and further reading.
 
 ## 11. Hard limits
-**ASK**.
+- Images: public-domain or open-licensed only; nothing from the game; no identifiable living people without a
+  license that allows it.
+- Claims: nothing about magic presented as working; no "pagan survival" stated as fact without sources.
 
 ## 12. Taste
-`Taste: house. Applies: T01–T08, T10, T13–T17, T19–T21 (screen, read alone). Overrides: none yet.`
-Bryan's named loves and hates (`brief/clients/bryan.md`): loves NYT "The Untold Story of Sushi in America"
-scrollytelling and DK-style illustrated reference books; hates the homogeneous default AI web look, rounded cards
-everywhere, anything that reads like homework. **ASK**: still true for this one?
+`Taste: house. Applies: T01–T08, T10, T13–T21 (screen, read alone). Overrides: T05 (research runs as independent
+Claude passes, at Bryan's ask); T12 (light paper ground) to be decided at concepts, since the baroque candlelit look
+may want darker grounds.`
+Bryan's named loves and hates (`brief/clients/bryan.md`) carry over: loves the NYT "The Untold Story of Sushi in
+America" scrollytelling and DK-style illustrated reference books; hates the homogeneous default AI web look, rounded
+cards everywhere, anything that reads like homework.
 
 ## 13. Craft bar
-Default (`CRAFT.md`).
+Default (`CRAFT.md`); this piece adds:
+- The cutout puppets move because the story moves (a saint slides over an older goddess, a relic multiplies), never
+  as decoration (T02, T18); reduced motion still respected (repo rule).
+- Every Sicilian term has a plain-English gloss at first use (T15, T17).
 
 ## 14. Technical
-Repo defaults.
+Repo defaults. Images inlined, compressed for phone.
 
 ## 15. Deliverables
-Web page in `pieces/`, linked from `index.html`. **ASK**: anything else (social image, print)?
+One web page, `pieces/sicilian-folk-magic.html` (final slug can follow the title), linked from `index.html`.
 
 ## 16. QA
-Defaults. Tested in Chromium on desktop, phone and tablet widths.
+Defaults, plus: every image has its license and source in the sources section; tested in Chromium at desktop, phone
+and tablet widths.
 
 ## 17. Approval and success
-Bryan signs off. **ASK**: what makes him say "that's it".
+Bryan signs off. Success: readers leave "edified, amused and edutained".
 
 ## 18. Open questions
-Deadline; know/feel/do; approve DRAFT landmines and Q4–Q5; colors and fonts; languages;
-credit; hard limits; taste check; extra deliverables; success.
+1. No deadline, right?
+2. Approve the DRAFT landmines in §4.
+3. Q6 (trial records and healers): main or side?
+4. Q7 (Sicilian and Latino Catholicism): side note, or main?
 
 ## Decisions log
 - Nov 22 · "medium to long scrolling interactive essay"; "bored history nerds on mobile or pc ... Should also work on
@@ -116,5 +145,7 @@ credit; hard limits; taste check; extra deliverables; success.
   yourself via yourself or subagents" · format, audience and budget set; research moves from the client to Claude.
 - Nov 22 · tone: "Both ... a cultural anthropologist analyzing the mechanism of transfer and syncretism respectfully
   but without ascribing to it"; numbers: "we can downplay the numbers and strict figures for this one"; landmines:
-  "i trust your judgement on this one be normal about it" · stance set; Q1–Q3 from his list; landmines drafted for
+  "i trust your judgement on this one be normal about it" · stance set; Q1–Q4 from his list; landmines drafted for
   his approval.
+- Nov 22 · know/feel, look ("baroque sicilian x ... rock of ages"), credit ("bryan murphy, todays date"), language
+  ("English only, sicilian where appropriate but each term is defined") · brief drafted, Stage: brief.
