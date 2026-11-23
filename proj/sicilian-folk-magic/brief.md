@@ -188,3 +188,10 @@ None at approval. Research may raise disputed figures for Bryan to settle.
   wall; puppets ride visible sticks. T12 settled: light tile ground, night only for the dead and healers acts.
   Stage: layout.
 - Nov 23 · layout and stills: "Lock it in" · `layout.md` APPROVED; toolbox opened; build plan written.
+- Nov 23 · seven calls on the draft copy: "1. A. 2. A. 3. A. 4. B. 5. A. 6. A. 7. B, you can include
+  the suicide theme, this is for adults they can handle it. I'll get you those 12 files in as econd". So: Agatha "about
+  1040, during Maniakes's campaign of 1038–40"; Louis IX's entrails "and by one medieval account his heart"; Geronima
+  La Gattuta named; Michael IV and Theodora both named as a disagreement; Benedict's parents "had been enslaved";
+  one-document facts shown with the document named; the Bonelli vision told, including that he climbed the mountain
+  meaning to kill himself, plainly and without sensationalizing. Applied in `copy.md`; D3–D5, D7 marked decided in
+  `figures.md`. He is sending the 12 painting files; the build waits for them.

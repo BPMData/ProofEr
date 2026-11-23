@@ -1,9 +1,9 @@
 # Copy: Saints & Spells (working title)
 
-Status: DRAFT by Claude, Nov 23, 2026 · for Bryan to read before the build
+Status: DRAFT by Claude, Nov 23, 2026 · Bryan's seven calls applied Nov 23 · for Bryan to read before the build
 
-_Written from `figures.md` only. Every fact carries its row ID in brackets; the IDs come out at build. **[OPEN Dn]**
-marks a line that waits on one of the open decisions in `figures.md`. Stamps are the red myth-check stamps; "Mulder"
+_Written from `figures.md` only. Every fact carries its row ID in brackets; the IDs come out at build. Lines that rest on
+one document name that document in the sentence (Bryan's call, D3). Stamps are the red myth-check stamps; "Mulder"
 and "Scully" are the two margin voices. Sicilian terms in italics get a tap-to-open gloss (listed at the end)._
 
 ---
@@ -84,8 +84,11 @@ And in 1487 the Spanish Inquisition sent its first inquisitor to Sicily. Hold th
 
 ## 4 · Act 1 · Catania: Agatha goes away, and comes back
 
-Agatha is Catania's own saint. Around 1040, the Byzantine general George Maniakes took her body to Constantinople.
-[X1-84, X2-02; **OPEN D4**: "about 1040, during Maniakes's campaign of 1038–40"]
+Agatha is Catania's own saint. About 1040, during his campaign of 1038–40, the Byzantine general George Maniakes
+took her body to Constantinople. No source from the time gives the year. [X1-84, X2-02, X1-85, X2-03]
+
+Who received her there, the sources don't agree: some say Emperor Michael IV, others Empress Theodora, who in the
+scholar Constantine Lascaris's account, written some 400 years later, put the relics in a convent of virgins. [X2-07]
 
 On 17 August 1126 two soldiers, Gislebertus and Goselinus, brought it home. The clergy met it "nudis pedibus et in
 albis vestibus": barefoot, in white. That makes 2026 the 900th year. [X1-86, X2-08, X2-10, X2-12, X1-97]
@@ -125,8 +128,8 @@ In May 1624 the plague reached Palermo. [X1-98]
 Rosalia was a local hermit of the 12th century, as tradition tells it, with a small cult and not much else.
 [X1-106, X1-107]
 
-Then, on 15 July 1624, bones were found in a cave on Monte Pellegrino, after a sick woman's visions led the search.
-[X1-99, X2-67, X1-100; **OPEN D7**: name Geronima La Gattuta, or keep her nameless]
+Then, on 15 July 1624, bones were found in a cave on Monte Pellegrino. Tradition says the visions of a sick woman,
+Geronima La Gattuta of Ciminna, led the search. [X1-99, X2-67, X1-100, X2-68]
 
 Here is the timeline, and it is the punchline:
 - **15 July 1624:** bones found. [X1-99]
@@ -136,14 +139,18 @@ Here is the timeline, and it is the punchline:
 - **9 June 1625:** the relics' first procession. [X1-104, X2-78]
 - **15 July 1625:** the plague is declared over, one year to the day after the finding. [X1-105, X2-80]
 
+The cathedral's own account adds one more vision. On 4 February 1625 a soap-maker, Vincenzo Bonelli (some spell it
+Bonello), climbed Monte Pellegrino meaning to kill himself. He said Rosalia appeared to him there and asked for a
+procession of her relics. [X2-75]
+
 Palermo made her its patron seven months before anyone confirmed whose bones they were. Palermitans credit her with
 ending the plague; that is their belief, and they have kept it for four centuries. [X2-70, X1-104]
 
 A *Life* of Rosalia came out in 1627, and her name entered the Roman Martyrology about 1630. Her relics have lain in
 a silver urn in the cathedral since 1631. [X1-108, X1-109, X1-113, X2-85]
 
-[**CARE NOTE X2-75**: the Bonelli vision of 4 February 1625 is left out here; its cathedral version has a suicide
-theme.]
+Even so, she never took over the island. Around 1900 the folklorist Pitrè surveyed about 150 towns: Mary was the
+main patron of 45, the Crucifix of 13, and Rosalia of 7. [X1-183, X1-184, X1-186 (Pitrè 1900, named)]
 
 Today the *festino* runs 10 to 15 July, with the great cart on the evening of the 14th and the urn procession on the
 15th. The 400th festino was in 2024. On the night of 3 to 4 September comes the *acchianata*, the climb up the
@@ -192,6 +199,9 @@ The night before, bonfires: the *vampata*. [X1-147, X1-206]
 Pitrè recorded these meals for the poor by 1900 at the latest. Nobody knows exactly when they began. The folklorist
 Del Giudice found nothing like them in Spain or its colonies. [X1-142, X1-141, X1-148 (single source, named)]
 
+In the Sicilian Region's register of living traditions, as it stood in 2013, St Joseph had 11 of its 86
+celebrations, more than any other saint. [X1-192, X1-193, X1-194 (the Region's 2013 register, named)]
+
 **Stamp:** MYTH-CHECK · a medieval famine ended by fava beans · told mostly by emigrants, with no source [X1-149]
 **Stamp:** MYTH-CHECK · a Christianized Demeter rite · parallels, not descent [X1-150]
 
@@ -206,7 +216,8 @@ _The stage goes dark; the candle wall lights._
 
 In Palermo, by the Oreto river, a church honors the *decollati*: the beheaded, executed criminals whom devotees
 believe can intercede for the living. The church was rebuilt in 1785 and again later; executed people were buried
-there. [X1-154]
+there. In Pitrè's day its walls held about a hundred painted tablets of thanks, by his own count. [X1-154,
+X1-157 (Pitrè 1889, named)]
 
 In 1817 a man named Francesco Frusteri was beheaded at Paceco, and people made him a popular saint. [X1-159]
 
@@ -255,8 +266,13 @@ witchcraft were men [X3-114]
 **The evil eye.** Sicilians call it *ittatura* or *malocchiu*. It isn't only Sicilian: belief in it runs across
 southern Europe. [X1-210, X1-179]
 
-[**OPEN D3**, single-source rows X1-172 to X1-176: worm-charmers (*ciarmavermi*), who also lift the evil eye; the
-amulets (coral, the raised-finger gesture, the *cimaruta*). Shown only with the source named, if Bryan accepts that.]
+Healers still lift it. Between 2002 and 2006 the researcher Napoli met about 25 *ciarmavermi*, worm-charmers, in
+five provinces. They make three crosses on the stomach while reciting charms that run through Holy Week, day by day,
+"cutting" the worms. They also lift the evil eye, with a little plate, *u piattinu*. [X1-172, X1-173, X1-174
+(Napoli 2008, named)]
+
+Against it, English collectors in the early 1900s recorded coral, silver-bell rattles, the *cimaruta* charm and the
+raised thumb and little finger, as a 2025 Palermo University Press study reports. [X1-176 (Intorre 2025, named)]
 
 [**Left out until sourced:** a Sicilian evil-eye charm text and the oil-in-water test (Pitrè 1896, pp. 176–184).]
 
@@ -276,11 +292,11 @@ What we did find:
 - **Lucy's head:** Venice and Bourges each have a claim, by our own comparison of the sources. [tally T2]
 - **Agatha:** spread, not doubled. One tourism list names 31 places outside Catania with a piece of her, and where
   parts can be counted, the numbers add up. Palermo Cathedral holds her arm. [tally T4–T9, X2-41]
-- **Louis IX of France,** who died on crusade at Tunis in 1270: his entrails were buried at Monreale. His heart may
-  be there too, by one medieval account. [X2-115, **OPEN D5**: X2-116]
+- **Louis IX of France,** who died on crusade at Tunis in 1270: his entrails, and by one medieval account his heart,
+  were buried at Monreale. [X2-115, X2-116]
 
-Palermo Cathedral's Chapel of the Relics holds 17 reliquaries. No one has counted them for the island. [X2-97, single
-source named]
+Palermo Cathedral says its Chapel of the Relics holds 17 reliquaries. No one has counted them for the island.
+[X2-97 (the cathedral, named)]
 
 **The critics.** In 1543 John Calvin wrote a *Treatise on Relics*. Collect every piece of the True Cross, he joked, and
 you'd fill a good big boat. Every apostle had more than four bodies, and each saint at least two or three.
@@ -304,7 +320,7 @@ Sicily and Latin America both love candles and baroque gold. Is there a real con
 
 **Benedict the Moor.** Born at San Fratello to African parents who had been enslaved, he died at a convent
 in Palermo on 4 April 1589. He was beatified in 1743 and made a saint in 1807. [X3-122, X3-123, X3-124, X3-126,
-X3-127, X3-128; **OPEN D7**: born free or freed at 18]
+X3-127, X3-128]
 
 His cult traveled with Black Catholic brotherhoods: a confraternity in Lisbon by 1609, and across Brazil and the
 Spanish and Portuguese New World from the early 1600s. In Venezuela his feast is danced to the *chimbangueles* drums.
@@ -358,3 +374,6 @@ At build, from `figures.md` (sources by act; image credits; the notes listed in 
   with them [X3-53]
 - *ittatura* / *malocchiu*: evil-casting / the evil eye [X1-210]
 - *scantu*: fright, held to cause worms and other ills [X1-209]
+- *ciarmavermi*: worm-charmers, healers who also lift the evil eye [X1-172, X1-174]
+- *u piattinu*: "the little plate" a healer uses against the evil eye [X1-174]
+- *cimaruta*: a charm worn against the evil eye [X1-176]

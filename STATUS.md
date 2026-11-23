@@ -14,7 +14,7 @@ counter on all published pieces)._
 - **clay-cookware** (Glazed vs. unglazed clay in cookware & multi-cooker inserts; interactive data essay for food-science/cookware enthusiasts): **published** to `pieces/clay-cookware.html` (`index.html` updated; `0` restricted reads before gate; `check_offline.py` passed; desktop/phone Chromium QA verified; usage on \$20/mo plan all on Gemini 4 Hydrogen High incl. 11 workers + 3 PRs: ~36% of 5-hr window, ~8% weekly—indicating Antigravity has comfortable headroom before needing aggressive Medium/light throttling). `proj/clay-cookware/STATUS.md`. **v2 remake** ("It's All in the Wall": scannable, pot picker, interactive plates) at `pieces/clay-cookware-v2.html`, live but **not on the hub** until Bryan picks a version.
 
 - **sicilian-folk-magic** (Sicilian Catholicism and folk magic; long scrolling essay for witty history nerds;
-  baroque x cut-paper puppets): layout **approved**; draft copy and images waiting on
+  baroque x cut-paper puppets): layout **approved**; copy calls decided; images and a stills screenshot waiting on
   Bryan before the build. `proj/sicilian-folk-magic/STATUS.md`.
 
 ## Across the repo

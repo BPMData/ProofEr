@@ -41,8 +41,7 @@ catholics practice that the rest of catholicism does not."
 - **Decided (Bryan, Nov 22):** "go for it. Follow where the data leads, we want honesty not sparkly fiction."
 
 ## Decisions for Bryan
-Only disputes that change what the page shows. Claude's suggested display in brackets; nothing is decided until he
-answers.
+Only disputes that change what the page shows. All answered by Nov 23, 2026.
 
 - **D0 · The premise. DECIDED: build on the research (Bryan: "go for it").** Research backs "the Church took over the buildings and wrapped local life in its own
   calendar" and shows most "pagan survival" stories as later inventions. Build on that (the survival myths become a
@@ -52,23 +51,22 @@ answers.
   with what each counts; a scan of Henningsen 1990 would settle it.]
 - **D2 · DECIDED: "25 to 52" (Bryan).** Executions, all crimes, 1540–1700 (X3-30): 25 in person in the surviving reports vs 52 in Monter's fuller
   count. Neither was for witchcraft. ["25 to 52".]
-- **D3 · One-document counts** (X1): REI 2013 register (177 entries, 86 feasts, 11 St Joseph), Pitrè's 1899 sample
-  (Mary 45, St Joseph 13, Crucifix 13, Rosalia 7 of about 150 towns), the ~100 decollati tablets. [Accept with a
-  visible note naming the document.]
-- **D4 · Agatha's removal year** (X1-85, X2-03): no primary source gives one. ["About 1040, during Maniakes's campaign
-  of 1038–40".]
-- **D5 · Louis IX's heart at Monreale** (X2-116): one medieval account says yes, Le Goff says Saint-Denis. ["His
-  entrails (and, by one medieval account, his heart)".]
+- **D3 · DECIDED: yes, with the document named in the sentence (Bryan, Nov 23: "6. A").** One-document counts
+  (X1): REI 2013 register (177 entries, 86 celebrations, 11 St Joseph), Pitrè's 1900 sample (Mary 45, Crucifix 13,
+  Rosalia 7 of about 150 towns), the ~100 decollati tablets, Napoli's worm-charmers (X1-172–174), Intorre's amulets
+  (X1-176), the 17 reliquaries (X2-97).
+- **D4 · DECIDED: "about 1040, during Maniakes's campaign of 1038–40" (Bryan, Nov 23: "1. A").** (X1-85, X2-03)
+- **D5 · DECIDED: "his entrails, and by one medieval account his heart" (Bryan, Nov 23: "2. A").** (X2-116)
 - **D6 · DECIDED: show a range (Bryan: "a range").** Small dates: Normans take Palermo 1071/1072 ["1071–72"]; Two Sicilies 1815/1816 [1816, the founding law];
   Rosalia in the Roman Martyrology 1630/1631 and declared hers 11/18/22 Feb 1625 ["about 1630", "February 1625"];
   Lucy in Venice 1204/1206 ["after 1204"]; Benedict born 1524/1526 ["1524 (some lives say 1526)"]; Messina Letter
   first recorded 1518/1522/1556 ["the 1520s"]; decollati church 1785/1799/1857–65 [both sources named]; candelore 11
   (2007) vs 16 (wiki) ["11 in 2007"].
-- **D7 · Names:** name Geronima La Gattuta as the guide to Rosalia's bones, or keep it nameless? Name Michael IV or
-  Theodora as receiving Agatha's relics, or leave it out? Benedict born free or freed at 18 [give that his parents had
-  been enslaved].
-- **Care note:** the cathedral's version of the Bonelli vision (Rosalia's bones; X2-75) has a suicide theme: tell it
-  gently or leave that part out.
+- **D7 · DECIDED (Bryan, Nov 23: "3. A", "4. B", "5. A").** Name Geronima La Gattuta as tradition gives her (X2-68);
+  name both Michael IV and Theodora as a disagreement (X2-07); Benedict: say only that his parents had been enslaved.
+- **Care note · DECIDED: tell the Bonelli vision with the suicide theme (Bryan, Nov 23: "7. B, you can include the
+  suicide theme, this is for adults they can handle it").** Told plainly, as the cathedral tells it, without
+  sensationalizing (X2-75).
 
 ## Still unsourced (the page says nothing about these until a source is opened)
 - A Sicilian evil-eye charm text and the oil-drops-in-water test (Pitrè 1896 pp. 176–184 would settle it).
