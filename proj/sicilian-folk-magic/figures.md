@@ -38,13 +38,13 @@ catholics practice that the rest of catholicism does not."
   baroque" (Benigno). Pitrè himself started the survival story ("resti di antiche mitologie", 1881).
 - **"Only in Sicily" is hard to show:** the evil eye and the cults of executed souls are found across southern Italy
   and Europe; what is Sicilian is the local form, names and calendar.
-- **Open for Bryan:** build on the flipped version? (See D0 below.)
+- **Decided (Bryan, Nov 22):** "go for it. Follow where the data leads, we want honesty not sparkly fiction."
 
 ## Decisions for Bryan
 Only disputes that change what the page shows. Claude's suggested display in brackets; nothing is decided until he
 answers.
 
-- **D0 · The premise.** Research backs "the Church took over the buildings and wrapped local life in its own
+- **D0 · The premise. DECIDED: build on the research (Bryan: "go for it").** Research backs "the Church took over the buildings and wrapped local life in its own
   calendar" and shows most "pagan survival" stories as later inventions. Build on that (the survival myths become a
   running myth-check), or keep hunting for continuity?
 - **D1 · Donne di fuora count** (X3-46): 65 (people tried in the surviving reports, 1579–1651, 8 men) / 77 (one

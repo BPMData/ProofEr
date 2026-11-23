@@ -36,7 +36,12 @@ client. Quotes are Bryan's own words, Nov 22, 2026._
 - Read alone, scrolling, for as long as the reader likes. Long read: drill-downs carry the depth (T15).
 
 ## 4. The subject
-- **Client's starting idea, not yet a fact:** Sicilian (and Italian) Catholicism absorbed older local traditions,
+- **Premise after research (Bryan, Nov 22, answering D0):** "go for it. Follow where the data leads, we want honesty
+  not sparkly fiction." The piece builds on what the sources show: the Church took over the buildings and wrapped
+  local life in its own calendar; most "goddess under the saint" stories are 1823–1905 inventions (Pitrè's included)
+  that today's scholars reject, so they run as a myth-check (Mulder hopes, Scully checks). See `figures.md`, Premise
+  check.
+- **Client's starting idea (superseded above):** Sicilian (and Italian) Catholicism absorbed older local traditions,
   and Sicily keeps practices the rest of Catholicism doesn't. Research tests each claim; when the reports come back,
   say in one line where they support, complicate or overturn it, and ask before building on a flipped version.
 - **Primer needed:** readers need the mechanism (what syncretism, folk Catholicism and "pagan survival" mean, and
@@ -156,3 +161,5 @@ None at approval. Research may raise disputed figures for Bryan to settle.
   optics of it but secretly DL "i want to believe""; "some sicilians think the charms work magic so the belief
   should be clearly defined"; "no deadline"; trials and healers "main point, how could they not be?"; Latino link
   "maybe a main point towards the end of the piece, if there's substance there" · Status APPROVED, Stage: research.
+- Nov 22 · research flips the premise; Bryan: "go for it. Follow where the data leads, we want honesty not sparkly
+  fiction." · §4 premise rebuilt on the research; survival stories become a running myth-check (T10).
