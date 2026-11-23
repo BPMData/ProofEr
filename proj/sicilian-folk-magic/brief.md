@@ -206,3 +206,9 @@ None at approval. Research may raise disputed figures for Bryan to settle.
 - Nov 23 · stage fix: "Saint Rosalia's head is being cut off by the top of the curtain, so move her down and make her
   little puppet smaller slightly generally". Rosalia made smaller in every scene, and no puppet can now be taller than
   the space under the valance.
+- Nov 23 · merged to main on Bryan's "Merge it".
+- Nov 23 · "is it possible to add on-hover tooltips to all the artworks giving the attributions?" Added: pointing at
+  (or tapping) any puppet or the backdrop print shows its credit; drawn props say "Drawn for this page."
+- Nov 23 · "the black crosses/stakes for people actually killed are hard to see, either outline them in white or make
+  them red or something". Stakes now the page's red with a light outline (the earlier colors never reached the
+  stakes, so they drew black).

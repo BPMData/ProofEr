@@ -268,8 +268,8 @@ def unit_html():
     cw, ch, cols = 14, 19, 25
     out = ['<svg viewBox="0 0 350 {H}" aria-hidden="true" focusable="false">',
            '<defs><symbol id="cone" viewBox="0 0 14 19"><path d="M7 1 L11.6 15.2 L2.4 15.2 Z"/><rect x="1" y="15.2" width="12" height="2.6" rx="1"/></symbol>',
-           '<symbol id="stk" viewBox="0 0 26 34"><rect class="post" x="11" y="2" width="4" height="30"/><rect class="post" x="6" y="9" width="14" height="3"/>',
-           '<path class="fl" d="M3 32 C 2 26, 7 25, 6 20 C 10 23, 11 27, 13 24 C 15 27, 17 22, 20 20 C 19 25, 24 26, 23 32 Z"/></symbol></defs>']
+           '<symbol id="stk" viewBox="0 0 26 34"><g style="fill:var(--sp);stroke:var(--so);stroke-width:var(--sw)"><rect x="11" y="2" width="4" height="30"/><rect x="6" y="9" width="14" height="3"/></g>',
+           '<path style="fill:var(--sf);stroke:var(--so);stroke-width:var(--sw)" d="M3 32 C 2 26, 7 25, 6 20 C 10 23, 11 27, 13 24 C 15 27, 17 22, 20 20 C 19 25, 24 26, 23 32 Z"/></symbol></defs>']
     out.append('<text x="0" y="13" class="k">One hat = 10 people tried, 1487–1782</text>')
     y = 22
     groups = [('about 1,000 charged with magic or witchcraft', 100, 'cone magic'),
@@ -391,7 +391,7 @@ SCENES = {
     10: dict(cast=[['img', 'lucy', 26, 64], ['img', 'bust', 72, 56]], cabinet=True),
     11: dict(sea=True, cast=[['ship', '', 50, 56]]),
     12: dict(lights=True, bow=True, cast=[['img', 'angel1', 12, 50], ['img', 'agatha', 28, 50], ['img', 'rosalia', 50, 58],
-                                         ['img', 'lucy', 70, 56], ['img', 'joseph', 86, 58], ['img', 'angel1m', 90, 50]]),
+                                         ['img', 'lucy', 70, 56], ['img', 'joseph', 81, 58], ['img', 'angel1m', 90, 50]]),
     13: dict(curtain=True, cast=[]),
 }
 CAB = {4: 'Agatha’s body · Catania', 5: 'Rosalia’s bones · Palermo', 6: 'Mary’s hair · Messina'}
@@ -409,7 +409,7 @@ def section_html(s):
 <div class="card"><p class="dek">Under every saint in Sicily, the story goes, there’s a goddess wearing a disguise. We
 put that story on stage and checked it, claim by claim: who said it first, and what the record shows.</p>
 <p class="byline"><i>A show in eight acts</i><br>By Bryan Murphy · November 22, 2026</p>
-{ACTS}<p class="howto">Scroll, and the stage changes with each act. Underlined words open a short gloss. Red stamps are
+{ACTS}<p class="howto">Scroll, and the stage changes with each act. Underlined words open a short gloss. Point at or tap a puppet to see where it comes from. Red stamps are
 myth-checks.</p></div></header>'''
     if n == 13:
         return ''
@@ -476,7 +476,7 @@ for n, sc in SCENES.items():
     sc['title'] = (f'{m2.group(1)} · {m2.group(2)}' if m2 else
                    {0: 'Saints & Spells', 1: 'Overture', 2: 'Primer', 3: 'Who ruled Sicily', 12: 'Curtain call', 13: 'Sources'}.get(n, ''))
     sc['title'] = {7: 'Act 4 · St Joseph', 10: 'Act 7 · Relics', 11: 'Act 8 · Americas'}.get(n, sc['title'])
-data = dict(imgs=IMGS, names={k: v[0] for k, v in CREDITS.items()}, scenes=SCENES)
+data = dict(imgs=IMGS, names={k: v[0] for k, v in CREDITS.items()}, credits={k: v[1] for k, v in CREDITS.items()}, scenes=SCENES)
 page = (tpl.replace('{{BODY}}', body)
            .replace('{{FRAME}}', FRAME).replace('{{TILE}}', TILE)
            .replace('{{DATA}}', json.dumps(data, ensure_ascii=False)))

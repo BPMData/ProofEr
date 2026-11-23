@@ -18,7 +18,7 @@ _Last updated: Nov 23, 2026._
 - **Pictures:** all 12 used. Stand-ins and caveats in the credits: the bust is Saint Juliana's (Agatha's own is not
   open-licensed); the ex-voto is Roman, 1851; the angel is credited to the Met's crèche angels (64.164) since which
   of the four photos is .16 is unclear. The eye charm and coral horn are drawn; shop photos were reference only.
-- **Next:** Bryan looks at the page on his phone. Then, on his yes: merge to main (publishes the page and the hub card).
+- **Merged** to main Nov 23 (Bryan: "Merge it"). Credit tooltips on the stage and red stakes added after, also on main.
 - **Repo note for Bryan:** `.agents/hooks/stage_gate.py` checks figures.md for `| F01 |` rows; this piece's rows are
   `X1-01` style, so the design gate's row check doesn't match them. The repo-wide `build/` ignore rule also catches
   piece build scripts.

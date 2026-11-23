@@ -73,6 +73,7 @@ a { color:var(--blue); }
 .night .gloss { color:#9cc3f2; }
 .glosspop { position:absolute; z-index:20; max-width:min(340px, calc(100vw - 24px)); background:var(--plaster); color:var(--ink); border:2px solid var(--blue);
   padding:10px 12px; font-size:15px; line-height:1.45; box-shadow:0 8px 20px rgba(0,0,0,.45); border-radius:3px; }
+.artpop { position:fixed; z-index:30; pointer-events:none; }
 .glosspop b { color:var(--blue); font-style:italic; font-weight:600; }
 
 .myth { display:grid; grid-template-columns:auto minmax(0,1fr); gap:14px; align-items:center; margin:16px 0; padding:12px; background:#f6ecdc; border-radius:2px; }
@@ -114,7 +115,7 @@ details.aslist summary { cursor:pointer; color:var(--blue); font-weight:600; min
 .unit .k { font:600 12px/1.3 var(--body); fill:var(--night-soft); }
 .unit .k.gold { fill:var(--candle); }
 .cone { fill:#8f7565; } .cone.magic { fill:var(--candle); } .cone.range { fill:none; stroke:#a88f7d; stroke-width:.9; }
-.stake .post { fill:#c9a77d; } .stake .fl { fill:#f0a03c; } .stake.open .post { fill:none; stroke:#c9a77d; stroke-width:1; } .stake.open .fl { fill:none; stroke:#f0a03c; stroke-width:1; }
+.stake { --sp:#a3171f; --sf:#d8352a; --so:#f7f0e0; --sw:1.3px; } .stake.open { --sp:none; --sf:none; --so:#f08a8a; --sw:1.5px; }
 
 .cabinet .drawers { display:grid; gap:14px; }
 .dgroup p { margin:4px 0 0; font-size:14px; color:var(--ink-soft); }
@@ -151,6 +152,7 @@ ul.src li { margin-bottom:5px; overflow-wrap:anywhere; }
   .night .say, .night .myth { background:#fff; color:#000; }
   .night .unit .k, .night figcaption { fill:#000; color:#000; }
   .cone.magic { fill:#b07a00; }
+  .stake.open { --so:#a3171f; }
 }
 @media (prefers-reduced-motion: reduce) { * { animation:none !important; transition:none !important; } }
 </style>
@@ -171,6 +173,7 @@ ul.src li { margin-bottom:5px; overflow-wrap:anywhere; }
   </main>
 </div>
 <div class="glosspop" id="glosspop" role="tooltip" hidden></div>
+<div class="glosspop artpop" id="artpop" aria-hidden="true" hidden></div>
 <script>
 const DATA = {{DATA}};
 // ---------- images ----------
@@ -237,8 +240,15 @@ let STICK = 60;
 function stick(c, s, len, x = 0) { cut(c, P((c) => c.rect(x - 4 * s, 0, 8 * s, len)), '#7a5432', 4 * s, 2 * s, 3 * s); }
 function rod(c, s, x0, y0, len) { c.strokeStyle = '#7a5432'; c.lineWidth = 4 * s; c.lineCap = 'round'; c.beginPath(); c.moveTo(x0, y0); c.lineTo(x0 + 30 * s, y0 + len); c.stroke(); }
 function shadowed(c, s, fn) { c.save(); c.shadowColor = 'rgba(30,12,0,.32)'; c.shadowOffsetX = 6 * s; c.shadowOffsetY = 9 * s; c.shadowBlur = 2 * s; fn(); c.restore(); }
+let HITS = [];
+function hit(c, k, x0, y0, x1, y1) {           // remember a box (canvas CSS px) for the credit tooltip
+  if (!c.getTransform) return; const m = c.getTransform(), xs = [], ys = [];
+  for (const [x, y] of [[x0, y0], [x1, y0], [x0, y1], [x1, y1]]) { xs.push((m.a * x + m.c * y + m.e) / DPR); ys.push((m.b * x + m.d * y + m.f) / DPR); }
+  HITS.push({ k, x0: Math.min(...xs), x1: Math.max(...xs), y0: Math.min(...ys), y1: Math.max(...ys) });
+}
 function drawImg(c, k, h, s) { const im = IM[k]; if (!im || !im.complete || !im.naturalWidth) return 0; const w = im.naturalWidth * h / im.naturalHeight;
-  shadowed(c, s, () => c.drawImage(im, -w / 2, -h, w, h)); return w; }
+  shadowed(c, s, () => c.drawImage(im, -w / 2, -h, w, h)); hit(c, k.replace(/m$/, ''), -w / 2, -h, w / 2, 0); return w; }
+const DRAWN_W = { card: 0.6, letter: 0.45, eye: 0.55, horn: 0.3, table: 1.1, boat: 0.75, ship: 0.85 };
 const PROPS = {
   img(c, p, h, s) { stick(c, s, STICK); const w = drawImg(c, p[1], h, s); rod(c, s, w * 0.28, -h * 0.55, h * 0.55 + STICK); },
   card(c, p, h, s) { stick(c, s, STICK); const w = Math.min(h * 1.1, CARDW);
@@ -346,6 +356,7 @@ function drawCast(c, L, R, floorY, s, now, bow, top) {
     if (bow) rot += 0.12 * Math.max(0, Math.sin(T * 1.2 + p[2] / 30));
     const base = GROUNDED[kind] ? floorY - 4 * s : floorY - lift0;
     c.save(); c.translate(x, base + lift); c.rotate(rot);
+    if (DRAWN_W[kind]) hit(c, 'drawn:' + kind, -h * DRAWN_W[kind], -h * 1.05, h * DRAWN_W[kind], 0);
     (PROPS[kind] || PROPS.img)(c, p, h, s);
     c.restore();
   };
@@ -354,7 +365,7 @@ function drawCast(c, L, R, floorY, s, now, bow, top) {
 function draw() {
   if (!W) return;
   const now = performance.now(), c = ctx, sc = SCN[scene] || {};
-  c.setTransform(DPR, 0, 0, DPR, 0, 0); c.clearRect(0, 0, W, H);
+  c.setTransform(DPR, 0, 0, DPR, 0, 0); c.clearRect(0, 0, W, H); HITS = [];
   const s = Math.max(0.45, Math.min(W / 720, H / 760) * 1.25);
   const L = W * 0.1, R = W * 0.9, Tp = H * 0.22, floorY = H * 0.84;
   if (sc.night) {
@@ -366,7 +377,7 @@ function draw() {
     proscenium(c, L, Tp, R, floorY + 10 * s, floorY);
     if (sc.back && IM.float && IM.float.complete) {           // Houël's print hangs on the back wall
       const bw = (R - L) * 0.56, bh = bw * IM.float.naturalHeight / IM.float.naturalWidth;
-      c.save(); c.globalAlpha = 0.9; c.drawImage(IM.float, (L + R) / 2 - bw / 2, Tp + 30 * s, bw, bh); c.restore();
+      c.save(); c.globalAlpha = 0.9; c.drawImage(IM.float, (L + R) / 2 - bw / 2, Tp + 30 * s, bw, bh); hit(c, 'float', (L + R) / 2 - bw / 2, Tp + 30 * s, (L + R) / 2 + bw / 2, Tp + 30 * s + bh); c.restore();
     }
     if (sc.sea) {
       c.fillStyle = '#1d4f8a'; for (let k = 0; k < 3; k++) { c.beginPath(); for (let x = L; x <= R; x += 10) c.lineTo(x, floorY - 70 * s + k * 22 * s + Math.sin(x / 30 + T * 2 + k) * 5 * s); c.lineTo(R, floorY); c.lineTo(L, floorY); c.closePath(); c.globalAlpha = .55 + k * .15; c.fill(); } c.globalAlpha = 1;
@@ -428,6 +439,37 @@ document.addEventListener('click', (e) => {
 });
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { closeG(); cabpop.hidden = true; cabbtn.setAttribute('aria-expanded', 'false'); } });
 addEventListener('beforeprint', () => document.querySelectorAll('details').forEach((d) => (d.open = true)));
+
+// ---------- picture credits on the stage ----------
+const art = document.getElementById('artpop'); let artK = null;
+const DRAWN = { card: 'A placard', letter: 'The letter', table: 'St Joseph’s table', boat: 'The boat', ship: 'The ship',
+  eye: 'A blue glass eye charm', horn: 'A coral horn charm' };
+function hitAt(x, y) { for (let i = HITS.length - 1; i >= 0; i--) { const h = HITS[i]; if (x >= h.x0 && x <= h.x1 && y >= h.y0 && y <= h.y1) return h; } return null; }
+function showArt(h, cx, cy) {
+  if (artK !== h.k) {
+    artK = h.k;
+    art.innerHTML = h.k.startsWith('drawn:') ? '<b>' + DRAWN[h.k.slice(6)] + '</b> · Drawn for this page.'
+      : '<b>' + (DATA.names[h.k] || '') + '</b> · ' + (DATA.credits[h.k] || '');
+  }
+  art.hidden = false;
+  const pw = art.offsetWidth, ph = art.offsetHeight;
+  art.style.left = Math.max(8, Math.min(innerWidth - pw - 8, cx + 14)) + 'px';
+  art.style.top = (cy + 18 + ph > innerHeight - 8 ? Math.max(8, cy - ph - 12) : cy + 18) + 'px';
+}
+function hideArt() { art.hidden = true; artK = null; cv.style.cursor = ''; }
+cv.addEventListener('pointermove', (e) => {
+  if (e.pointerType !== 'mouse') return;
+  const h = hitAt(e.offsetX, e.offsetY); cv.style.cursor = h ? 'help' : '';
+  if (h) showArt(h, e.clientX, e.clientY); else hideArt();
+});
+cv.addEventListener('pointerleave', (e) => { if (e.pointerType === 'mouse') hideArt(); });
+cv.addEventListener('click', (e) => {
+  const h = hitAt(e.offsetX, e.offsetY);
+  if (h && (art.hidden || artK !== h.k)) { showArt(h, e.clientX, e.clientY); e.stopPropagation(); } else hideArt();
+});
+document.addEventListener('click', (e) => { if (e.target !== cv) hideArt(); });
+addEventListener('scroll', () => { if (!art.hidden) hideArt(); }, { passive: true });
+addEventListener('keydown', (e) => { if (e.key === 'Escape') hideArt(); });
 
 addEventListener('resize', resize); resize(); setCast(0); caption(0);
 if (document.fonts) document.fonts.ready.then(draw);
