@@ -11,7 +11,7 @@ IMG_QUALITY = 70            # WebP quality
 EMBED_FONTS = True          # also write OUT with the fonts inlined (via tools/embed_fonts.py)
 # ------------------------------------------
 import base64, html, io, json, os, re, sys
-from PIL import Image
+from PIL import Image, ImageOps
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 P = lambda *a: os.path.join(ROOT, PIECE, *a)
@@ -54,10 +54,12 @@ ZOOM_SRC = {'rosalia': ('01-rosalia-vandyck', 1400), 'float': ('02-houel-car-ros
             'goddess': ('07-goddesses-front', 1000), 'isis': ('08-isis-front', 1000), 'albarello': ('09-albarello-front', 1000),
             'exvoto': ('11-exvoto', 1400), 'angel1': ('12-angel-1', 1000)}
 ZOOM_QUALITY = 62
-def zoomimg(name, side, crop=None):
+def zoomimg(name, side, crop=None, lift=False):
     im = Image.open(P('art', 'originals', name if '.' in name else name + '.jpg')).convert('RGB')
     if crop:
         L, T, R, B = crop; im = im.crop((int(L * im.width), int(T * im.height), int(R * im.width), int(B * im.height)))
+    if lift:
+        im = ImageOps.autocontrast(im, cutoff=1)
     im.thumbnail((side, side), Image.LANCZOS)
     b = io.BytesIO(); im.save(b, 'WEBP', quality=ZOOM_QUALITY, method=6)
     return 'data:image/webp;base64,' + base64.b64encode(b.getvalue()).decode()
@@ -84,7 +86,7 @@ FIGS = {
                  'An old sepia photograph of a woman in a dark dress with a lace collar, standing with one hand on a chair.'),
 }
 def figthumb(name, side=760):
-    im = Image.open(P('art', 'originals', name + '.jpg')).convert('RGB')
+    im = Image.open(P('art', 'originals', name if '.' in name else name + '.jpg')).convert('RGB')
     im.thumbnail((side, side), Image.LANCZOS)
     b = io.BytesIO(); im.save(b, 'WEBP', quality=IMG_QUALITY, method=6)
     return 'data:image/webp;base64,' + base64.b64encode(b.getvalue()).decode()
@@ -100,16 +102,25 @@ RELICS = {
     'urn': ('Urna_Santa_Rosalia_PA_14_07_2019_01.jpg', 1600, None, 'Rosalia’s urn',
             'The silver urn of Saint Rosalia, enthroned in the nave of Palermo Cathedral, 14 July 2019. Photo: Effems, '
             'own work, via Wikimedia Commons, ' + cc('by-sa', '4.0') + '. Resized.'),
+    'capello': ('Reliquia_del_Sacro_Capello_di_Palmi_-_002.jpg', 1400, (0.14, 0.14, 0.86, 0.86), 'The hair at Palmi',
+                'Reliquary of the Holy Hair, Palmi, 2014; the label reads “De Capillis” (“of the hair”). Photo: Palminellafede, '
+                'own work, via Wikimedia Commons, ' + cc('by-sa', '4.0') + '. Cropped and contrast raised.'),
     'lettera': ('Virgin-to-Messina-1674-78_Bibliotheca_Fictiva_nr._8699204.png', 1600, None, 'The Letter, copied out',
                 '<i>Lettera di Maria Vergine ai Messinesi</i>, manuscript, Messina(?), about 1674–78. Bibliotheca Fictiva '
-                'Collection, Sheridan Libraries, Johns Hopkins University. Public domain. No photo of the hair relic itself was found.'),
+                'Collection, Sheridan Libraries, Johns Hopkins University. Public domain.'),
     'lucybody': ('The_relics_of_Santa_Lucia,_Chiesa_di_San_Geremia,_Venice_(37060531904).jpg', 1600, None, 'Lucy in Venice',
                  'The relics of Saint Lucy, church of San Geremia, Venice, 2017. Photo: Dimitris Kamaras, ' + cc('by', '2.0') + '. Resized.'),
     'louis': ('Tomb_of_Louis_IX_of_France_-_Cathedral_of_Monreale_-_Italy_2015_(2).jpeg', 1600, None, 'Louis IX at Monreale',
               'Tomb of Louis IX, Monreale Cathedral, 2015. © José Luiz Bernardes Ribeiro / ' + cc('by-sa', '4.0') + '. Resized.'),
 }
-for k, v in RELICS.items(): ZOOM[k] = zoomimg(v[0], v[1], v[2])
+for k, v in RELICS.items(): ZOOM[k] = zoomimg(v[0], v[1], v[2], lift=(k == 'capello'))
 FIG_CREDITS.update({k: (v[3], v[4]) for k, v in RELICS.items()})
+FIGS['lettera'] = (RELICS['lettera'][0], RELICS['lettera'][3],
+                   'The Letter as Messina wanted to see it: a copy made in the 1670s, probably sold to pilgrims who came for the '
+                   'feast. Mary’s name heads it; the harbour of Messina runs along the bottom.',
+                   RELICS['lettera'][4],
+                   'A wide illuminated manuscript page: Latin text in the centre, coats of arms in the corners, a painted '
+                   'scene of Mary at the top and a view of a harbour with ships along the bottom.')
 def figure_html(k):
     f = FIGS[k]
     return (f'<figure class="infig"><button type="button" class="figbtn" data-z="{k}" aria-label="See {html.escape(f[1])} up close">'
@@ -514,8 +525,8 @@ CAB_INFO = {
     4: ('Most of her bones, in a jewelled silver bust of 1376, carried through Catania on her feast days. The jewels are '
         'gifts left over the centuries.', 'bust'),
     5: ('Bones found in a cave in 1624 and credited with ending the plague; they ride in a silver urn.', 'urn'),
-    6: ('A lock of hair said to be Mary’s, kept in a small gold case and carried on the June float. No photo of it turned '
-        'up, so here is a 1670s copy of the Letter it came with.', 'lettera'),
+    6: ('A lock of hair said to be Mary’s, kept in a small gold case and carried on the June float. Messina gave one hair '
+        'to Palmi, across the strait, for its help in a plague; this is Palmi’s case.', 'capello'),
     10: ('Claimed whole by two cities at once. In Venice she lies under glass, face hidden by a silver mask; at the far end '
          'her bare, dried feet show. Syracuse, where she was buried, keeps the empty tomb.', 'lucybody'),
     'louis': ('The French king died on crusade in 1270; his entrails were buried here, his bones went to Paris. Whether the '

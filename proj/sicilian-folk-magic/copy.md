@@ -299,6 +299,12 @@ letter anyway. [X1-126, X2-106]
 
 The lock of hair, kept as a relic, still rides the city's silver *vara* in the June procession. [X1-131]
 
+_figure lettera_
+
+Messina even shared it. To thank the people of Palmi, across the strait in Calabria, for helping during a plague in the
+1570s, the city's Senate gave Palmi a single hair, by local tradition in 1582. It is kept in Palmi's cathedral today:
+a relic split and handed on as a thank-you. [X2-158, X2-159]
+
 _Relic cabinet: drawer 3, Mary's hair, Messina._
 
 ---
