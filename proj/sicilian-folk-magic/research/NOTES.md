@@ -92,3 +92,8 @@
   thin (Campanella 2023); martorana origin story = myth. Ex-votos: Buttitta defs, ICCD Casa-Museo Uccello tin ex-voto
   23 Nov 1890; Altavilla "about 400" local site only.
 - RESEARCH DONE (11 passes + 3 gap-fill). Next: figures.md cross-check.
+- X1 cross-check done (213 rows: 69 checked, 12 disputed, 103 single, 17 unverified, 12 myth). PREMISE CHECK: reports
+  back "absorbed older traditions" for reused buildings (temples→churches), not for cults; every goddess-underneath
+  claim (Isis, Ceres, Tanit, St Joseph bonfires) is myth-labelled; big feasts are baroque. "Only in Sicily": only Del
+  Giudice on St Joseph tables. → Ask Bryan before building on the flipped version. Clashes: Rosalia declared 11 vs
+  18/22 Feb 1625; candelore 11 has a 2007 scholarly source (B1 p.179); Messina 1518 donations vs 1522 engraving.
