@@ -63,3 +63,11 @@
 - ALL 11 BACK. Gap-fill targets: evil eye/charms/ciarmavermi/surveys; decollati & Purgatory souls; Festa dei Morti;
   ex-votos; reliquary counts; patron-saint counts + ISTAT comuni; disputed figures (donne di fuora, executions,
   Agatha 1039/1040, Joseph patron New Spain 1555, Benedict Brazil dates, Inquisition start).
+- G2-gapfill done: comuni 391 since 20 Feb 2021 (ISTAT 2023 + ANCI/IFEL 390 in 2015 + Misiliscemi) → checked;
+  Pitrè 1899: 357 comuni. Pitrè patrons (sample "150"/"160"): Mary 45, Crucifix 13, Joseph 13 (top saint, "almost 9
+  in 100"), Rosalia 7, female saints ≤16; single source (Pitrè) → label as his 1899 sample. Reliquaries: no count;
+  Palermo Cathedral Chapel of Relics 17 (cathedral site). Agatha pieces elsewhere: 31 places (17 Italy, 14 abroad in 6
+  countries), city tourism page = lead only. REI Sep 2013: 177 = feasts 86, saperi 38, espressioni 32, TUV 21; Joseph
+  11 (hand-checked; UNESCO-hosted copy). Agatha removal: no primary year → "about 1040, during Maniakes's 1038–40
+  campaign". Messina Letter: engraving 1522, Maurolico 1556, condemned 1598, vow 1636; Holy Hair reliquary ICCD
+  14636571, procession 1657.
