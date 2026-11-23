@@ -71,3 +71,14 @@
   11 (hand-checked; UNESCO-hosted copy). Agatha removal: no primary year → "about 1040, during Maniakes's 1038–40
   campaign". Messina Letter: engraving 1522, Maurolico 1556, condemned 1598, vow 1636; Holy Hair reliquary ICCD
   14636571, procession 1657.
+- G3-factcheck done: donne di fuora STILL DISPUTED (65 defendants 1579–1651 in surviving relaciones, via
+  Gijswijt-Hofstra et al. 1999 p.140; 77 = Messana "contact with the dead"; 193 = Geremia reading Henningsen, no page;
+  drop 70). Correct chapter title: "'The Ladies from Outside': An Archaic Pattern of the Witches' Sabbath",
+  Ankarloo & Henningsen 1990, pp.191–215 → ASK BRYAN for a scan. Totals = range by period/unit (Renda 7,161 people
+  whole life p.203; Messana ~6,000 from 1500; 3,188 surviving relaciones 1547–1701 confirmed by Sciuti Russi 2004;
+  Henningsen 4,057/est. 6,302 single). Magic ~921 people / 976 causes, 565 acquitted, 2 men relaxed for witchcraft
+  (Profeta 2024 confirms). 427/494 split uncited: don't use. Executions: 25 in person (+25 effigy) vs Monter 52.
+  Dates sequence confirmed: 24 Mar 1486 / 1487 / 1500 / 1516 riot / 16 Mar 1782 / archive burned 1783 (order 27 Jun).
+  St Joseph 1555: council ch. XVIII "patrón general de esta nueva Iglesia" → "patron of New Spain's Church".
+  Benedict: canonized 24 May 1807, beatified May 1743, born 1524 or 1526; Rio 1612 thin; Salvador 1630 disputed.
+  Rosalia in New Spain confirmed (LACMA); Mulegé 1705 confirmed (INAH 1965); naming motive unsupported.
