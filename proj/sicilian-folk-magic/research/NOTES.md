@@ -47,3 +47,10 @@
   Two Sicilies 1815/1816; Pitrè journal 1880/1882; autonomy 1946/1947. Earliest records: Agatha cult in 5th–6th c.
   calendars; Trapani Misteri notary deed 20 Apr 1612. Key works unopened: Shaw & Stewart 1994, Primiano 1995,
   Christian 1981, Brown 1981.
+- C-pass2 done: Rosalia patron 27 Jul 1624, recognised Feb 1625, silver urn 1631 (Smiriglio + 4 silversmiths),
+  rosary beads reunited 2021. Agatha removal 1039 or 1040 (DISPUTED; ties to B-pass1 "no year in Maurice"), return
+  17 Aug 1126; bust 1376 by inscription (Venturi 1371); arm in Palermo Cathedral, Cappella Palatina reliquary, breast
+  at Galatina since 1389 (Inveges 1651). Lucy: Constantinople 1039/40, Venice 1204 or 1206, San Geremia since 1860;
+  Metz 970s rival; Syracuse visits 2004/2014/2024. Monreale: Louis IX entrails 1270, heart disputed. Vatican 2017:
+  insigni/non insigni only (no "first/second/third class"); Art. 24 no division without consent, Art. 25 no sale.
+  "At least two churches claim Lucy's whole body" = synthesis, needs label. Still no reliquary count anywhere.
