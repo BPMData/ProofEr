@@ -19,3 +19,13 @@
   commission "three men", declared hers 11 Feb 1625; Buckland goat-bones anecdote unverified. Canon 1190, Lateran IV
   c.62, Trent s.25, 2017 Instruction (significant/non-significant). Calvin: "dozen heads of John" is a translator's
   footnote. To check: Maurice account date, Dandolo century, Monreale/Louis IX heart. Gap: reliquary counts (BeWeB).
+- D-pass2 done (strong on Inquisition, nothing sourced on evil eye/ciarmavermi/surveys): Inquisition authorised
+  1486, first inquisitor 1487, court from 8 Nov 1500 (Geremia also gives 1516), Steri 1601/1605, abolished
+  16 Mar 1782, archive burned order 27 Jun 1783, Pitrè finds graffiti 1906. Totals: Renda 7,161 tried; Messana 6,393;
+  relaciones 1540–1700 3,188→4,057, est. 6,302. Magic: Renda ~921 (427 m / 494 w) or Messana 976 witchcraft cases,
+  565 acquitted, 2 relaxed, no woman executed as witch (Henningsen 2014). Donne di fuora: Henningsen 65 trials
+  1579–1651 (cited only) vs 193 "ladies" (Geremia reading Henningsen) vs Messana 77 → DISPUTED, for Bryan.
+- A-pass2 done: syncretism word history (Levinskaya 1993); Gramsci→de Martino→Rossi/Lombardi Satriani/Gallini/
+  Guggino; Schmitt 1977 quote against survivals; Pitrè dates (Treccani, Dei 2015); timeline 8th c. BC–1860 from
+  Italian institutions; Pitrè Feste patronali: of 150/160 towns, Mary 45, Joseph 13, Rosalia 7. Gaps: A.3 earliest
+  records for most practices.

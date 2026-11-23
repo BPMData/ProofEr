@@ -239,9 +239,9 @@ Scholarly secondary (journals, university presses, reference works):
 16. Yoder, Don. "Toward a Definition of Folk Religion." *Western Folklore* 33 (1974). (NOT opened)
 17. Brown, Peter. *The Cult of the Saints*. University of Chicago Press, 1981.
     https://www.press.uchicago.edu/ucp/books/book/isbn/9780226175430.html (NOT opened)
-18. Valente, Michaela. "Witch-hunting" (2023), PDF in the Sapienza repository.
+18. Valente [first name not confirmed]. "Witch-hunting" (2023), PDF in the Sapienza University of Rome repository.
     https://iris.uniroma1.it/retrieve/1e975c69-3dc3-4f72-a308-b8f31ae5a345/Valente_Witch-hunting_2023.pdf (opened.
-    The author's first name and the venue come from the file name and repository and are not confirmed.)
+    The title, year and venue come from the file name and repository and are not confirmed.)
 19. Kallestrup, Louise Nyholm. "Maleficium ò »abuso di sacramento«? Konsensus i kardinal Scaglias
     inkvisitionsmanual…" pp. 283–305 (Danish; English summary).
     https://tidsskrift.dk/historisktidsskrift/article/download/56006/76212/122665 (opened)
