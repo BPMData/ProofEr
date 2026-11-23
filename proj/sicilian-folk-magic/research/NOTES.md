@@ -82,3 +82,13 @@
   St Joseph 1555: council ch. XVIII "patrón general de esta nueva Iglesia" → "patron of New Spain's Church".
   Benedict: canonized 24 May 1807, beatified May 1743, born 1524 or 1526; Rio 1612 thin; Salvador 1630 disputed.
   Rosalia in New Spain confirmed (LACMA); Mulegé 1705 confirmed (INAH 1965); naming motive unsupported.
+- G1-gapfill done: decollati from Pitrè 1889 vol. IV ch. I (Bianchi founded 1541 p.5; church "Madonna del Fiume"
+  before 1785, rebuilt 1857–65 p.10; ~100 votive tablets pp.10–11; Mon/Fri p.14; health, love, lottery numbers p.18;
+  read as Christian martyr idea p.24) + Davies & Matteoni 2017. Church dates disputed (1785/1799/1857–65). Ciarmavermi:
+  Napoli 2008 JEE 4:21 (~25 healers, 5 provinces, 2002–06; Belpasso charm p.10; rules pp.5–6: after master dies,
+  cross-sex transmission, seven Fridays or Christmas midnight Mass, paid in kind). Evil eye partial (Migliore 1997 via
+  review; u piattinu; Intorre 2025 amulets); oil test and Sicilian charm text UNSOURCED (Pitrè 1896 pp.176–184 is the
+  target → ASK BRYAN). Surveys: none for Sicily; Pew 2017 W. Europe median 16% (Italy figure unread). Festa dei Morti
+  thin (Campanella 2023); martorana origin story = myth. Ex-votos: Buttitta defs, ICCD Casa-Museo Uccello tin ex-voto
+  23 Nov 1890; Altavilla "about 400" local site only.
+- RESEARCH DONE (11 passes + 3 gap-fill). Next: figures.md cross-check.
