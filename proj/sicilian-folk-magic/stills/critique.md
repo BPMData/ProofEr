@@ -21,3 +21,13 @@ All pass AA, most pass AAA.
 - Risks to watch at build: the phone stage (470 px) takes over half the screen on short phones; shrink to about 40%
   of the viewport. The relic cabinet is tiny on phones; it needs a tap target of 44 px. Gloock is single-weight, so
   the stamp's second line uses Literata.
+
+## Nov 23: hero-phone.png (drawn from the real cutouts)
+Still the HTML stills can't be screenshotted here, so `build/make_mockup.py` draws the phone hero (390 × 844 at 2x)
+with PIL from Bryan's artworks: the Met's gilt ripple frame as the proscenium, Houël's car of Rosalia as a faded
+backdrop flat, the bronze Agatha on a wooden stick with a hand rod, Gloock title ribbon, Literata card. Inspected.
+- **Works:** the frame makes the stage instantly a theatre; the stick and rod read as a puppet; the ribbon and card
+  type are sharp and comfortably sized; the tile wall stays quiet behind the text.
+- **Fix in the build:** at phone width the real frame's border eats ~45% of the stage, so draw it as a CSS
+  border-image at about 40% of its thickness; give the floor a plank texture; let the backdrop flat change per act.
+- **Sensitivity:** the bronze Agatha is bare-breasted (her martyrdom iconography); fine for adult readers, credited.
