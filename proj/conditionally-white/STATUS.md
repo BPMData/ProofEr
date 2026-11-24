@@ -13,5 +13,7 @@ _Last updated: Nov 24, 2026._
   `research/quote-verification.md` (every quote: source, date, status). Only VERIFIED or SECONDARY quotes may ship.
 - **Images:** not searched. `research/image-hunt.md` is the list for Gemini Antigravity (47 rows, updated with the
   research: no Castle Hill flag, Eureka flag added, Mitchel p. 219, Digest identifiers).
-- **Open:** many quote-wall items need a second pass (list at the end of `outline.md`). Claude runs that
+- **Round 2 (Nov 24):** six workers, again cut short by the page-read limit; results in `research/fact-sheets/r2-*.md`
+  and merged into both sheets (Malthus in full, Table 95 is a resettlement plan, T3 is a charity's aims, B20 dropped).
+- **Open:** remaining quote-wall items need a third pass (list at the end of `outline.md`). Claude runs that
   pass once the hourly page-read limit has reset (Bryan prefers Claude to run research itself).

@@ -91,15 +91,23 @@ but as the essay's argument, tested in Ch5, not as settled fact.
   - **(b)** Emigration by year against grain exports, with the death toll as a single total, not a line.
 - **Quotes wall:** builds from VERIFIED and SECONDARY items only (see `quote-verification.md`). Ready now: Russell
   (B10, real wording), Bentinck (B19), Peel (B5, with "But I foresee…" in the caption), Nicholls (B4, 1836), *ILN*
-  1852 (B25), *The Times* "potatophagi" (B3, via Gray), Trevelyan's *Irish Crisis* lines (T1, T3, T4) and the
-  Monteagle "direct stroke" letter (T2, via Haines), Edwards' counter-claim (B28, venue corrected). **Trevelyan's
+  1852 (B25), *The Times* "potatophagi" (B3, via Gray), Trevelyan's *Irish Crisis* lines (T1, T4, p. 53–54) and the
+  Monteagle "direct stroke" letter (T2, via Haines), Malthus to Ricardo **in full and dated 1817** (B1: the pack cut
+  "into large manufacturing and commercial Towns"), Edwards' counter-claim (B28, venue corrected). **Trevelyan's
   "moral evil" (B2) is SECONDARY at best**, with its date and wording unsettled: it can lead the wall only with the
   Woodham-Smith chain shown, or T1 takes its place. "Judgement of God … too much mitigated" is a historian's
-  paraphrase and is evicted. Still open: B1, B6, B8, B9, B11–B18, B20, B21, B23, B26. Jowett/Senior (B22) is not in Jowett's own
-  *Life and Letters*; it rests on Woodham-Smith alone.
+  paraphrase and is evicted. **T3 is not a policy line**: Trevelyan is describing a ladies' relief charity, so it
+  can't stand in for "too much has been done" (B20), which is **dropped** (only IrishCentral, LaRouche sites, blogs).
+  Clarendon's 1849 "policy of extermination" (B21) is probable and must be captioned as Clarendon **attacking** such a
+  policy while pressing for money. Wood's "purgatory" (B12) is probable in two fragments, not one sentence. Still open:
+  B6, B8, B9, B11, B13–B18, B21 (1847), B23, B26. Jowett/Senior (B22) rests on Woodham-Smith alone.
 - **Eyewitness spine:** Nicholson's passages hold (N1–N3), with two fixes: the widow-and-dog scene is **a story she was
-  told**, and the walking-skeleton line is corrected. Mitchel's Table 95 reading holds as Mitchel's (M3), with "eight
-  Irish acres, about 13 statute acres" and "a calculation he called a programme" (F37). O'Connell's butchers line is
+  told**, and the walking-skeleton line is corrected. **Table 95 changes (M3, F37):** Mitchel quotes the
+  *Digest* accurately but stops mid-sentence. The full sentence goes on to resettle the 192,368 families on reclaimed
+  waste land in Ireland, and the *Digest* weighs and rejects shipping them to Canada on cost. So the beat becomes
+  Mitchel's reading against the document: what the commissioners calculated, what Mitchel called it, and what the
+  sentence actually proposed. The essay never states 192,368 as a removal quota in its own voice. Mahony's
+  Skibbereen text is now verified (N5: *ILN* 13 Feb 1847, pp. 100–101, "as printed by the *ILN*"). O'Connell's butchers line is
   "as Mitchel reports" (M4). Recorded starvation deaths 187 (1842) → 516 (1845) → 2,041 (1846) are confirmed in the census's own death tables (F36), with the caveat that recorded deaths undercount. The 1851 Census's "on the whole, so satisfactory" sentence is verified (B24) and anchors the bureaucratic-horror beat; the bailiff's "black potatoes" holds via O'Rourke (B7).
 - **Aphorism:** "The Almighty, indeed, sent the potato blight, but the English created the famine." (M1), first
   published in book form 1861.
@@ -165,21 +173,27 @@ but as the essay's argument, tested in Ch5, not as settled fact.
 - **Mitchel spine:** the plantation quote is real and dated (*The Citizen*, 14 Jan 1854) (M5). Douglass's reply
   (M6). **"Elected MP while in prison" is wrong:** elected twice in 1875, barred twice as an unpardoned felon, died
   20 March 1875 (F66). "Slavery man" not found: don't use. James's lost arm unverified (F67).
-- **Counterweight paragraph (Clan na Gael money for 1916):** unverified (F69).
+- **Counterweight paragraph (Clan na Gael money for 1916):** "about $100,000, 1913–16, by Devoy's own reckoning",
+  secondary (F69).
 - **Reagan side, corrected:** "a moment of joy" is from **Shannon, 1 June**, and "like coming home" from
   **Ballyporeen, 3 June**: two events, not one quote (R1, R2). The Ballyporeen speech never says "famine"; it says
   "left here in a time of stress" and "paupers' graves" (R2), which carries the beat on the primary text itself.
   "Integrity and commitment" is San Pedro Sula; "bum rap" is the Air Force One Q&A (R3, R4). **"32 massacres … 96%
   Ixil … just before the handshake" fails**: use CEH ¶116 (70–90% of Ixil villages razed) and the 1,771 deaths
   charged at the 2013 trial; genocide period "1981 to 1983" (F73, F74). Override vote counts verified (F75); ICJ
-  *Nicaragua* verified (F76). **Protests "kept outside the village": no source yet** (F77). **The genealogical
-  irony is wrong as written**: c.1851 is inside the famine, not after it, and the date is still unanchored (F72).
+  *Nicaragua* verified (F76). Galway protests (2 June 1984) verified; "kept outside the village" survives only as **one villager's memory,
+  attributed** (Boland, *Irish Times* 2024) (F77). **The genealogical irony is wrong as written**: Michael Regan was
+  in London by the 30 March 1851 census, so he left **during** the famine; married in Southwark 1852; America 1858
+  (Debrett's research, one chain) (F72).
   Suggested replacement: Reagan's own euphemisms do the work.
 - **Biden side:** Ballina lines verified (BI1); Blewitt left 1850–51, his famine role is contested, and "sold land to
   the workhouse" is dropped (F70). Records: 1994 crime bill with the Black-caucus split (F78); Gaza arms "more than
   100" sales and Israel's real thresholds of $25m/$100m/$300m (F79); the Rafah pause and Biden's CNN line (F80,
-  BI3); the UN Commission's finding with Israel's rejection (F81); the ICJ schedule updated (F82). Busing and the
-  2019 "mistake" quotes are unverified (F83). O'Toole: cite by headline and date; he does **not** call Biden's
+  BI3); the UN Commission's finding with Israel's rejection (F81); the ICJ schedule updated (F82). Busing: 1975
+  amendments against HEW busing (50–43, 44–34) and the 1977–78 Biden–Roth bill against court-ordered busing (tabled
+  49–47), with critical and defence readings side by side. **"Mistake" needs care:** the 2019 "big mistake" was about
+  the 1986 crack/powder gap; on the 1994 bill itself he said in 2020 "Yes, it was. But here's where the mistake
+  came…", blaming the states. 1994 Act: $9.7bn prisons, 100,000 police (F83). O'Toole: cite by headline and date; he does **not** call Biden's
   Irishness fake; the "last great avatar" line is Hugh Linehan's (F71).
 - **Mechanism beat:** Hobsbawm, p. 1 (third sentence, not the opening line) (H1); parade organisers date the first
   NYC parade to 1762, with Irish soldiers in the British Army (F68).
@@ -213,7 +227,14 @@ prison"; Mitchel sent straight to VDL; Reagan's two speeches spliced; "32 massac
 "after" the famine; Israel's notification threshold; Hobsbawm's "opening line"; the Stolen Generations line; a
 Castle Hill flag; Lambing Flat rioters as Irish; Haafner's 1771 famine and "balconies" passage.
 
-**Still open (needs another research pass):** most Trevelyan, Wood, Clarendon, Malthus and Nangle quotes; the
-Waterford Freeman, Newry Telegraph and 1860 Times items; the Duke of Cambridge, Sligo inquest and Jowett items; Devon Table 95 in the *Digest* itself; Kinealy's own export figures; O'Connell's
-"broad Atlantic"; Douglass's letters; Scotland (MacLeod, Sellar, Betsy Mackay); horse theft's legal status; White
-Australia; Clan na Gael funding; Reagan protests and Michael Regan's dates; Biden's busing record and 2019 remarks.
+**Settled in round 2 (2026-11-24):** Malthus (B1, full sentence), Table 95 in the *Digest* (a resettlement plan),
+Mahony's text (N5), Douglass on Mitchel (M6, dated 19 May 1854, unnamed), T3's context, T4's page, MacLeod's text and
+publication history (F93), Michael Regan in London by 1851 (F72), Galway protests (F77), Biden's busing and
+"mistake" remarks (F83), Clan na Gael's $100,000 (F69, secondary). New for the image list: "Mullins's hut" is
+probably the 20 Feb ILN, not 13 Feb.
+
+**Still open (the page-read limit cut round 2 short too):** Trevelyan B8, B15, B17; Wood B14; Clarendon 1847; Nangle;
+Percival; Duke of Cambridge; Waterford Freeman, Sligo Champion, Newry Telegraph, 1860 Times; Jowett; Kinealy's own
+export figures; O'Connell's "broad Atlantic" (an 1844 lead); Betsy Mackay and Richards on Sellar; transportation
+dates and horse theft's legal status (F58); White Australia (F63); James Mitchel's arm (F67). Leads for each are in
+`research/fact-sheets/r2-*.md`.
