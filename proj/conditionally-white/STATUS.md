@@ -2,8 +2,8 @@
 
 _Last updated: Nov 24, 2026._
 
-- **Stage:** draft outline (`outline.md`), awaiting Bryan's review and his answers to the brief's §10 step-2
-  questions. Brief = Bryan's own uploaded build brief (`brief.md`). This pass is research and outline only; prose comes
+- **Stage:** draft outline (`outline.md`), awaiting Bryan's review; his §10 answers are folded in (Ch7 is now the diaspora beat; the number of greats is his to confirm).
+  Brief = Bryan's own uploaded build brief (`brief.md`). This pass is research and outline only; prose comes
   later via Gemini.
 - **Research:** round 1 ran 21 Claude workers on batches Q1–Q16 plus the Reagan and Biden records; their fact sheets
   are in `research/fact-sheets/`. The workers shared one search and page-read budget (400 page reads an hour), which

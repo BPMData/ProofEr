@@ -18,8 +18,11 @@ but as the essay's argument, tested in Ch5, not as settled fact.
 ---
 
 ## Hero (paper): the horse
-- **As the brief**, with the horse thief framed as family legend from the first sentence.
-- **Stat band, corrected:** `1 stolen horse (legend) · about 1,000,000 dead · about 1,000,000 fled · 3 in 5 → about 1 in 20 acres · 1 conditional offer`.
+- **As the brief, with the record and the legend kept apart (Bryan, 2026-11-24):** the ancestor sent to Australia
+  for theft around 1850 is **family history**, told as such. That he stole **on purpose** to be transported, and that
+  it was a horse, stay **family legend**: no record checked so far confirms either (F55, F56). Kinship: **great-great-
+  great-grandfather** by the generation math (about 138 years ÷ 5 ≈ 28 a generation); Bryan to confirm the count.
+- **Stat band, corrected:** `1 stolen horse (family legend) · about 1,000,000 dead · about 1,000,000 fled · 3 in 5 → about 1 in 20 acres · 1 conditional offer`.
   "~1,000,000 dead" holds as "about a million" (F33). "~1,000,000 fled" holds for 1846–51 (F34). "60% → 5%" becomes
   "about 59% → 3–5%" in the footnote (F01, F04).
 - **Population line** if used: "8.18 million counted in 1841" (F31), not "8.5 million".
@@ -127,7 +130,12 @@ but as the essay's argument, tested in Ch5, not as settled fact.
     1848 (F52), and peers in the Lords blamed "distress" and named sheep and cattle stealing (F52).
   - **Committing a crime to be transported is documented, but the documented cases are women** (the Kelleher sisters,
     Bantry 1848; Margaret Byrne, Carlow 1849) (F55). The government also recorded transportation as dreaded (F56). So
-    the legend is plausible in kind and the essay says exactly that.
+    the deliberate theft is plausible in kind and the essay says exactly that: legend, not record.
+  - **What the record does and doesn't rule out, said plainly in the copy:** a man sentenced for theft around 1850
+    most likely went **Bermuda hulks → Van Diemen's Land**, or straight to Van Diemen's Land from 1848 (F51, F53).
+    Western Australia is unlikely for a famine-era Irish sentence, but its dates are still unchecked (F58). From 1848 the
+    registers confirm the sentence, not the voyage, so "transported" rests on the family's word until a name is
+    checked against the National Archives of Ireland's Ireland–Australia transportation index.
   - **The brief's "NSW closed 1840 / VDL 1853 / WA 1850–68 → most likely bound for the far side of the continent"
     is unverified and probably backwards** for a famine-era Irish sentence: VDL is where the Irish went (F53, F58).
   - Earl Grey orphans: 4,114 girls on 20 ships, probable (F57).
@@ -142,6 +150,18 @@ but as the essay's argument, tested in Ch5, not as settled fact.
 - **Footnotes:** F47–F65; quotes I1.
 
 ## Chapter 7 · The Memory (paper)
+- **Thesis, rewritten (Bryan, 2026-11-24):** this is not "the Biden beat". It is the diaspora beat: **Irish
+  Americans and other diaspora Irish who back the same kind of oppression their ancestors suffered (dispossession,
+  hunger used as policy, a people ruled as lesser) have walked away from the inheritance they claim.** "The diaspora
+  aren't Irish", argued, not shouted. Biden is the leading example and Reagan his diptych partner; Mitchel is the
+  first case, in 1854. The edge comes from the receipts lined up against the heritage speeches, in the house voice,
+  with no profanity on the page.
+- **Order:** the claim first; Mitchel as the founding case; Reagan and Biden as the two modern presidents who stood in
+  the ancestral village and talked about leaving in hard times; then the records; then the mechanism (Hobsbawm) that
+  explains how a heritage gets kept as costume while its lesson is dropped.
+- **Guardrails:** the charge is about what people backed, in their own words and votes, never about blood or who
+  counts as Irish by birth. Every comparison of a modern policy to the famine runs on named, dated findings (F78–F82),
+  and contested ones (genocide findings, Israel's rejection) are shown as contested.
 - **Mitchel spine:** the plantation quote is real and dated (*The Citizen*, 14 Jan 1854) (M5). Douglass's reply
   (M6). **"Elected MP while in prison" is wrong:** elected twice in 1875, barred twice as an unpardoned felon, died
   20 March 1875 (F66). "Slavery man" not found: don't use. James's lost arm unverified (F67).
@@ -168,8 +188,8 @@ but as the essay's argument, tested in Ch5, not as settled fact.
 ## Final · The Inheritance (red field)
 - **Ledger read-out, corrected:** the land (59 → 22 → 14 → about 5%), the dead (about a million), the fled (about a
   million 1846–51; "2M+ in a decade" needs its own source first, F34), **the exports row changes** from "3M live
-  animals" to a verified figure (grain or butter) or is dropped (F43), the offered (one, conditional), the horse
-  (one, legend).
+  animals" to a verified figure (grain or butter) or is dropped (F43), the offered (one, conditional), the
+  ancestor (one, transported about 1850, family history; the horse and the motive, family legend).
 - Everything else as the brief.
 
 ---
@@ -179,9 +199,12 @@ but as the essay's argument, tested in Ch5, not as settled fact.
 **Plot and verdicts**
 1. Ch5 claim 2 ("exported under guard") moves from CONFIRMED to **BURNISHED**.
 2. The Ch4 dual chart's premise (food leaving "sustained or rising") fails for grain; chart redesigned.
-3. The horse thief's likely destination is **Van Diemen's Land or the Bermuda hulks**, not Western Australia.
+3. The ancestor's likely route is **the Bermuda hulks and/or Van Diemen's Land**, not Western Australia; the
+   transportation is family history, the deliberate theft and the horse are family legend.
 4. The thesis wording moves from "premised on racialized contempt" to doctrine-first, contempt-hardened.
 5. The ledger slip's second face (3 million animals) goes; the land ledger gains a 1688 bar.
+6. Ch7 becomes the diaspora beat, not the Biden beat: diaspora Irish who back the oppression their ancestors
+   suffered forfeit the inheritance; Biden leads, Reagan pairs, Mitchel opens.
 
 **Wrong as written (corrected above):** "80% confiscated in 1652"; Spenser "executed 250 years later" as fact; Spenser
 at Kilcolman in 1586; "one sixth of England"; "most-cited paper in *Science*"; Young "suppressed"; Gonner's line as
