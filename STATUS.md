@@ -3,7 +3,7 @@
 > **Visitors:** this is the project's working log. For what ProofEr is and how to use it, start with
 > [README.md](README.md).
 
-_Last updated: Nov 23, 2026 (sicilian-folk-magic full 4-wave Tuchman-voice refinement, relative same-repo zoom assets, 3-tier myth checks, tarot portraits & Act 8 Benedict artwork on PR branch `feat/sicilian-refinement-tuchman`)._
+_Last updated: Nov 24, 2026 (disaster-artist research and outline)._
 
 ## Pieces
 - **holocaust-by-country**, **nazi-victims-all-groups**: Bryan's pre-ProofEr pages, published in `pieces/`.
@@ -21,6 +21,9 @@ _Last updated: Nov 23, 2026 (sicilian-folk-magic full 4-wave Tuchman-voice refin
   IDs, `0` unverified), 3-tier myth checks (`3` Tier-1 canvas stamps + `2` Tier-2 scroll-lit checks), 6 tarot occultist
   PD portraits, 4 new historical call-outs, Act 6 3-beat stage (with Picart *Auto-da-Fé*), Act 8 St. Benedict the Moor
   stage cutout + rewrite, and full Desktop/Tablet/Phone/Print Chromium QA (`proj/sicilian-folk-magic/qa/`). `proj/sicilian-folk-magic/STATUS.md`.
+
+- **disaster-artist** (Van Gogh data essay): outline approved; Gemini research round 2, then prose.
+  `proj/disaster-artist/STATUS.md`.
 
 ## Across the repo
 - **Scope:** sourced visual pieces—short **infographics** and long-form **interactive data essays**. Recipe cards may come later.

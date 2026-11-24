@@ -1,0 +1,22 @@
+[
+ {
+  "id": "g1-counts",
+  "out": "workers/pass1/g1-counts.md"
+ },
+ {
+  "id": "g2-money",
+  "out": "workers/pass1/g2-money.md"
+ },
+ {
+  "id": "g3-arles",
+  "out": "workers/pass1/g3-arles.md"
+ },
+ {
+  "id": "g4-afterlife",
+  "out": "workers/pass1/g4-afterlife.md"
+ },
+ {
+  "id": "g5-life",
+  "out": "workers/pass1/g5-life.md"
+ }
+]
