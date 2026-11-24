@@ -83,22 +83,33 @@ The last section lists every claim in the brief that the research contradicts or
 ## Chapter 4 · The Roommate (lamplight stage)
 - **Strain gauge, re-ordered to the dates:** the portrait exchange happened **before** Gauguin arrived (Gauguin
   sent "Les Misérables" with letter 692 on 1 Oct; Vincent's bonze portrait, letter 695, 3 Oct), so it becomes the
-  gauge's starting point, not its second event.
+  gauge's starting point, not its second event: a courtship by mail, each man sending the other his best face before
+  they have shared a roof.
   1. ~1 Oct 1888: the portrait exchange (F59–F60).
-  2. 23 Oct: Gauguin arrives; Theo pays him 150 F a month for paintings (F51–F52).
+  2. 23 Oct: Gauguin arrives; Theo pays him 150 F a month for a painting a month (F51–F52). The brief's "Theo paid
+     his debts and fare" goes: two research rounds found no source for it.
   3. Early Nov: Vincent paints *The Red Vineyard*, the one painting that will ever sell (F62).
   4. c. 11–12 Dec: Gauguin writes Theo that he must go back to Paris because of the "incompatibility" of their
-     characters (F53). **The brief's "the work is unsalable" is not in the letter.**
+     characters (F53). **The brief's "the work is unsalable" is in no Gauguin letter found.** The true line is the
+     better one for the marriage metaphor: it is a divorce petition on grounds of incompatibility, filed with the
+     man paying the rent.
   5. 23 Dec (red): the argument; the ear, all or nearly all of it (F55); given to Gabrielle Berlatier, a maid at the
-     brothel the press called "Rachel" (F56). Gauguin's razor story comes from a book he wrote in 1903 (F54).
+     brothel the press called "Rachel" (F56). The razor: Gauguin's January 1889 letter has none; fifteen years later,
+     in *Avant et après* (1903), Vincent "rushed toward me, an open razor in his hand". Flag it as the brief says,
+     with the evidence: his only razor is in the late book, and two scholars (Kaufmann and Wildegans, 2008) argue
+     the opposite, that Gauguin cut the ear with his fencing sword; the Van Gogh Museum says there are "only the
+     words of Gauguin" (F54).
 - **Coda:** Theo arrives on 25 Dec and leaves that evening with Gauguin (F57). The brief's "Studio of the South's
   total sales: zero" becomes a better line: its total sales were exactly one, *The Red Vineyard*, and it sold
   fifteen months later in Brussels (F62, F70). Gauguin's gyre as the brief, stated plainly: Tahiti 1891, the
-  Marquesas 1901, dead at Atuona on 8 May 1903; by his own account he took a 13-year-old "wife" in Tahiti (F63).
+  Marquesas 1901, dead at Atuona on 8 May 1903; in Tahiti he took Teha'amana, 13, as a "wife", and later Pau'ura,
+  14 (F63). State it plainly, once, as the brief's gravity rule says.
 - **Compare plate (monk vs. messiah):** as the brief; the swatch script measures the colours. Vincent's own words
-  for his portrait are an ash-grey head, a reddish-brown jacket and a pale veronese green ground (F59), so the
+  for his portrait are an ash-grey head, malachite green with orange lead, and a pale veronese ground, and he
+  calls himself "a bonze, a simple worshipper of the eternal Buddha" (F59), so the
   caption should come from the measured swatches, not from "orange robe". The third panel (*Christ in the Garden
-  of Olives*, F61) stays, but "red hair as the tell" has no text source; keep it only if the swatches show it.
+  of Olives*, F61) stays: it is a self-portrait as Christ. "Red hair as the tell" has one magazine source; let the
+  swatches show it rather than the text claim it.
 - **Footnotes:** F50–F63.
 
 ## Chapter 5 · Test the Legend (paper; verdict stamps)
@@ -114,9 +125,11 @@ The last section lists every claim in the brief that the research contradicts or
 5. "He shot himself in a wheat field." → **CONTESTED** holds: Naifeh & Smith (2011) vs. Van Tilborgh &
    Meedendorp (2013), Di Maio's forensic comment, the 2019 revolver sale (F95–F99).
 - **Vignettes:** the petition holds (about 30 names, February 1889, asking that he be locked up or sent home;
-  F58). The chicken coop is told as the Pushkin's own telling, a tradition with no named source; Rey himself
-  (1928) said only that it went to the garret and plugged a broken window. It entered the Pushkin in 1948, not 1960
-  (F91–F92; round 2).
+  F58). The chicken coop stays, told as what it is: the Pushkin's own page says the portrait was "first banished to
+  the attic, later covered a hole in the chicken coop", with no source; Rey himself, in 1928, said only that it went
+  to the garret and, he'd heard, plugged a broken windowpane. Both tellings agree on the point the essay needs:
+  nobody in Arles wanted it. Then the turn: it reached the Pushkin in 1948, not 1960 (F91–F92). The lightbox panel
+  carries both tellings.
 - **Footnotes:** F40, F55, F58, F70–F74, F91–F92, F95–F99.
 
 ## Chapter 6 · The Fix (paper)
@@ -131,16 +144,26 @@ The last section lists every claim in the brief that the research contradicts or
   unsupported "1960 Pushkin" point) → 1908 Kröller-Müller's first purchase (F82) → 1914 letters (F85) → 1973 museum
   opens (F87) → 1987 *Sunflowers* £24.75m and *Irises* $53.9m (F88–F89) → 1990 *Gachet* $82.5m, a record until
   2004 (F90). The gold dot from Ch1 recurs at 1890. "Stedelijk acquisitions from 1905" is cut (F79).
-- **Johanna, corrected:** she was 28; her son was almost a year old when Theo died, not newborn; she **did** go home
-  to the Netherlands, to Bussum, where she ran a boarding house, but she kept the work instead of selling it off
-  (F76). **She remarried in 1901** (the painter Johan Cohen Gosschalk, who died in 1912; F77), so "she never
-  remarried" goes. The "widowed him twice" line gets a literal second half: in 1914, the year the letters came out,
-  she had Theo's body moved from Utrecht to Auvers beside Vincent (F86, two sources). **What she cut from the 1914
-  letters isn't documented beyond "errors and omissions" and one cut letter (F85)**, so the brief's "sanded the
-  friction out of the brothers' marriage" can't stand as fact. What can: the 1914 edition printed only Vincent's
-  side, so Theo appears as the man being written to, never as a voice (F05, F85). That carries the brief's
-  caveat (a) and the "buried the husband a second time, in print" line without claiming edits nobody has listed.
-- **Footnotes:** F70, F72, F74–F90.
+- **Johanna, the true version (rewritten after round 2):** the "evil genius (not really evil)" frame stays, but
+  her operation is the one the record shows, not an editing job.
+  - **Who she was in 1891:** 28, with a son almost a year old, not a newborn (F76). She went to Bussum, ran a
+    boarding house, and kept the work instead of selling it off. No source found says her family told her to come
+    home, so that beat goes.
+  - **The operation:** controlled supply and planned exposure: the 1901 Bernheim-Jeune show (F84), the 474-work
+    Stedelijk show she organised in 1905 (F78), 190–250 works sold over her life (F80), and over 100 paintings in
+    German collections by 1914 (F83).
+  - **The letters, honestly:** the 1914 edition printed only Vincent's side. That was mostly the archive, not her
+    pen: only 39 of Theo's letters to Vincent survive, and they were first published in 1932 (F85). Her documented
+    changes are narrow, and Vincent's money complaints are still in the 1914 text, so the brief's "sanded the
+    friction out" is cut. What stays: in her edition Theo is the man being written to, never a voice, which carries
+    the brief's caveat (a) and the "buried the husband a second time, in print" idea without claiming edits nobody
+    has found.
+  - **Widowed twice, for real:** Theo died in January 1891; she married Johan Cohen Gosschalk, a younger writer on
+    art, in 1901, and he died in May 1912 (F77). "She never remarried" goes. This replaces the brief's "she widowed
+    him twice" with a literal fact, and the reburial adds a coda: in 1914, the year the letters came out, she had
+    Theo moved from Utrecht to lie beside Vincent at Auvers (F86).
+  - **The last turn:** 1915–1919 in New York, translating the letters into English (F100, one source: hedge).
+- **Footnotes:** F70, F72, F74–F90, F100.
 
 ## Chapter 7 · The Scoreboard (red field)
 - **Rows:** ~860–900 paintings (F01) · more than 1,100 works on paper (F02) · 820 letters (F04) · about 16,000 F
