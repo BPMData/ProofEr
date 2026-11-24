@@ -15,5 +15,7 @@ _Last updated: Nov 24, 2026._
   research: no Castle Hill flag, Eureka flag added, Mitchel p. 219, Digest identifiers).
 - **Round 2 (Nov 24):** six workers, again cut short by the page-read limit; results in `research/fact-sheets/r2-*.md`
   and merged into both sheets (Malthus in full, Table 95 is a resettlement plan, T3 is a charity's aims, B20 dropped).
-- **Open:** remaining quote-wall items need a third pass (list at the end of `outline.md`). Claude runs that
+- **Round 3 (Nov 24):** five workers, `research/fact-sheets/r3-*.md`, merged (O'Connell 1843 found; Table 95 p. 399;
+  transportation dates settled; O'Malley not Irish).
+- **Open:** remaining items (list at the end of `outline.md`) need a fourth pass (list at the end of `outline.md`). Claude runs that
   pass once the hourly page-read limit has reset (Bryan prefers Claude to run research itself).

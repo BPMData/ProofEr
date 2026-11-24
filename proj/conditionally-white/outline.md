@@ -74,8 +74,10 @@ but as the essay's argument, tested in Ch5, not as settled fact.
   gentry (F25). "Africanoid" is a separate skull type with Ireland as "its present centre", kept apart from the index
   (F26). Punch cartoons: 5–8 dated examples are in `research/image-hunt.md` for Gemini to fetch.
 - **Ladder scene:** as the brief, with the 1829 disfranchisement as "about 216,000 to 37,000–40,000 county voters" (F09).
-- **Counter-quotation beat:** the O'Connell "broad Atlantic" quote is **unverified with no date** (O1). Until it's
-  traced, use the 1841 Address of the People of Ireland (F30) for the abolitionist position.
+- **Counter-quotation beat:** O'Connell's "broad Atlantic" is now traced (O1, secondary): Dublin, **9 May 1843**,
+  and the real line is a threat, not an invitation: "…if you remain, and dare countenance the system of slavery that
+  is supported there, we will recognize you as Irishmen no longer." Use it here with the 1841 Address (F30), and
+  carry it forward to Ch7.
 - **"Inbetween peoples"** is about later southern and eastern Europeans; don't apply it to the famine Irish (F28).
 - **Footnotes:** F09, F24–F30.
 
@@ -141,20 +143,26 @@ but as the essay's argument, tested in Ch5, not as settled fact.
     the deliberate theft is plausible in kind and the essay says exactly that: legend, not record.
   - **What the record does and doesn't rule out, said plainly in the copy:** a man sentenced for theft around 1850
     most likely went **Bermuda hulks → Van Diemen's Land**, or straight to Van Diemen's Land from 1848 (F51, F53).
-    Western Australia is unlikely for a famine-era Irish sentence, but its dates are still unchecked (F58). From 1848 the
+    Western Australia took convicts 1850–68, but only **one** ship ever sailed straight from Ireland to it (the
+    *Phoebe Dunbar*, 1853), so WA is possible only on that ship (F58). Terms ran seven, ten, fourteen years or life.
+    Livestock theft was a transportable felony by then; say "by the 1840s the sentence was transportation" and no more
+    about the gallows until the 1832 Act's reach is read (F58). From 1848 the
     registers confirm the sentence, not the voyage, so "transported" rests on the family's word until a name is
     checked against the National Archives of Ireland's Ireland–Australia transportation index.
-  - **The brief's "NSW closed 1840 / VDL 1853 / WA 1850–68 → most likely bound for the far side of the continent"
-    is unverified and probably backwards** for a famine-era Irish sentence: VDL is where the Irish went (F53, F58).
+  - **The brief's dates are right (NSW closed 1840, VDL to 1853, WA 1850–68) but its conclusion, "most likely bound
+    for the far side of the continent", is backwards** for a famine-era Irish sentence: VDL is where the Irish went
+    (F53, F58). The total sent from Ireland is unsettled: NAI's own page says about 39,000; rework F54 first.
   - Earl Grey orphans: 4,114 girls on 20 ships, probable (F57).
   - **Second generation:** Lambing Flat stays, but **the rioters can't be called Irish**: official sources say
     "European miners"; the documented Irish link is publican James Torpy and the Tipperary Gully meeting (F60).
     Eureka adds the Irish-heavy death list (F61). **The Stolen Generations "staffed by people who had fled caste"
-    line is dropped**: no source (F62). White Australia items are unverified (F63).
+    line is dropped**: no source (F62). **White Australia:** King O'Malley wasn't Irish (probably Kansas-born) and
+    Mannix has no documented stance, so neither carries an Irish-Australian beat; hold the beat until a scholarly
+    source is read (F63).
   - **Castle Hill 1804:** "Death or Liberty" was a slogan; no flag exists (F59).
 - **Mitchel's route:** Dublin → Spike Island → **Bermuda** → the *Neptune* → the Cape → Van Diemen's Land 1850 →
   escape 1853 (F65).
-- **Gauge scene and the O'Connell–Douglass close:** as the brief, with O1 held until verified.
+- **Gauge scene and the O'Connell–Douglass close:** as the brief, with O1 now usable (secondary, 1843).
 - **Footnotes:** F47–F65; quotes I1.
 
 ## Chapter 7 · The Memory (paper)
@@ -163,7 +171,8 @@ but as the essay's argument, tested in Ch5, not as settled fact.
   hunger used as policy, a people ruled as lesser) have walked away from the inheritance they claim.** "The diaspora
   aren't Irish", argued, not shouted. Biden is the leading example and Reagan his diptych partner; Mitchel is the
   first case, in 1854. The edge comes from the receipts lined up against the heritage speeches, in the house voice,
-  with no profanity on the page.
+  with no profanity on the page. **The anchor is O'Connell's own 1843 line** (O1): "we will recognize you as
+  Irishmen no longer", said to Irish Americans who backed slavery. The chapter's charge is his, 180 years older.
 - **Order:** the claim first; Mitchel as the founding case; Reagan and Biden as the two modern presidents who stood in
   the ancestral village and talked about leaving in hard times; then the records; then the mechanism (Hobsbawm) that
   explains how a heritage gets kept as costume while its lesson is dropped.
@@ -238,3 +247,16 @@ Percival; Duke of Cambridge; Waterford Freeman, Sligo Champion, Newry Telegraph,
 export figures; O'Connell's "broad Atlantic" (an 1844 lead); Betsy Mackay and Richards on Sellar; transportation
 dates and horse theft's legal status (F58); White Australia (F63); James Mitchel's arm (F67). Leads for each are in
 `research/fact-sheets/r2-*.md`.
+
+**Settled in round 3 (2026-11-24):** O'Connell's "broad Atlantic" (O1: 9 May 1843, a threat to disown pro-slavery
+Irish Americans); Table 95 pages and digits (F37: p. 399, 192,368 confirmed by the *Digest*'s own sum); the "landlords"
+charge (F38); NSW 1840, WA 1850–68, the one Irish ship to WA, sentence lengths, livestock theft as transportable
+(F58); O'Malley not Irish (F63); no lost arm for James Mitchel (F67); Sellar's 1816 trial as MacLeod tells it (F93);
+Trevelyan's "Cork prices" letter redated to 22 Jan 1847 (B17, probable).
+
+**Still open after round 3:** Trevelyan B8, B15, B17 (letter text), T2's closing page; Wood B12, B14; Clarendon 1847
+and Woodham-Smith p. 381 for 1849; Nangle; Percival; Duke of Cambridge; Waterford Freeman, Sligo Champion, Newry
+Telegraph, 1860 Times (B26: try the president.ie script); Jowett; a checked export figure (F43); the Table 95 grid
+and acre measure; the commissioners' full list; the Irish transport total (F54); when horse theft stopped being
+capital in Ireland; O'Malley's vote on a page image and any Irish-Australian scholarship (F63); Betsy Mackay
+(Prebble, Grimble); the 1843 newspaper report of O'Connell's speech. Leads in `research/fact-sheets/r3-*.md`.
