@@ -22,7 +22,7 @@ _Last updated: Nov 24, 2026 (disaster-artist research and outline)._
   PD portraits, 4 new historical call-outs, Act 6 3-beat stage (with Picart *Auto-da-Fé*), Act 8 St. Benedict the Moor
   stage cutout + rewrite, and full Desktop/Tablet/Phone/Print Chromium QA (`proj/sicilian-folk-magic/qa/`). `proj/sicilian-folk-magic/STATUS.md`.
 
-- **disaster-artist** (Van Gogh data essay): outline awaiting approval; Gemini research round 2.
+- **disaster-artist** (Van Gogh data essay): outline approved; Gemini research round 2, then prose.
   `proj/disaster-artist/STATUS.md`.
 
 ## Across the repo

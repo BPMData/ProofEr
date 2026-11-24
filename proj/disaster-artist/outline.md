@@ -1,6 +1,6 @@
-# Disaster Artist: chapter outline (for Bryan's approval)
+# Disaster Artist: chapter outline
 
-Status: DRAFT for approval; four topics get a second research round (`research/gemini-prompts.md`) · built on `figures.md` (F-IDs below) · prose comes later, via Gemini
+Status: APPROVED 2026-11-24 by Bryan; four topics get a second research round (`research/gemini-prompts.md`) · built on `figures.md` (F-IDs below) · prose comes later, via Gemini
 
 The thesis, plot, tone and visual system stay as the brief sets them. This outline keeps every beat the research
 supports, changes the ones it doesn't, and says why. "Footnotes" lists the figures.md rows each chapter cites.

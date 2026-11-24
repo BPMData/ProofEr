@@ -1,6 +1,6 @@
 # Brief: Disaster Artist (Van Gogh)
 
-Status: APPROVED 2026-11-24 by Bryan (his own build brief, uploaded) · Stage: outline (awaiting Bryan's read) · Mode: from scratch · Budget: standard · Client: Bryan · Sign-off: Bryan
+Status: APPROVED 2026-11-24 by Bryan (his own build brief, uploaded) · Stage: outline approved (Gemini research round 2, then prose) · Mode: from scratch · Budget: standard · Client: Bryan · Sign-off: Bryan
 Usage: Opus coordinator with Sonnet research workers (research + outline only in this pass)
 
 _Bryan supplied the full build brief below, word for word as uploaded on 2026-11-24. It replaces the interview: format
@@ -13,6 +13,7 @@ this pass stops at the outline (brief §9 steps 1–2)._
 - 2026-11-24 · "yeah, let gemini antigravity find the paintings, it's good at that" · Image sourcing moves to Gemini (Antigravity).
 - 2026-11-24 · "Yes. Add prompts for gemini to re-run deep research on a few topics: the gaugin thing, what johanna may have made in terms of editorial decisions while editing the letters and her re-marriage, the chicken coop story needs firmer provenance as it was kind of a load-bearing theme, and confirm that "the January 1890 Boussod & Valadon show, Stedelijk purchases from 1905, and the Rey portrait reaching the Pushkin in 1960" are AI hallucinations or not." · Four Gemini Deep Research prompts in `research/gemini-prompts.md`; figures update from the reports.
 - 2026-11-24 · "Let me read it first" / "Hold it" · Outline approval held until Bryan has read it.
+- 2026-11-24 · "the outline is approved provided those gemini research prompts are in. then you can create a PR" · Outline APPROVED (prompts are in `research/gemini-prompts.md`); PR 33 carries it.
 
 ---
 
