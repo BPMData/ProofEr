@@ -260,3 +260,8 @@ Telegraph, 1860 Times (B26: try the president.ie script); Jowett; a checked expo
 and acre measure; the commissioners' full list; the Irish transport total (F54); when horse theft stopped being
 capital in Ireland; O'Malley's vote on a page image and any Irish-Australian scholarship (F63); Betsy Mackay
 (Prebble, Grimble); the 1843 newspaper report of O'Connell's speech. Leads in `research/fact-sheets/r3-*.md`.
+
+**Added for round 4 (Bryan, 2026-11-24, "could you go from van diemen's land to NSW? because i grew up in manly"):**
+how often freed Van Diemen's Land convicts (ticket of leave, conditional pardon, expired sentence) moved on to New
+South Wales in the 1850s–60s, and what rules limited that. Primary or scholarly sources only. Not started: waits for
+Bryan's go-ahead after the page-read limit resets.
