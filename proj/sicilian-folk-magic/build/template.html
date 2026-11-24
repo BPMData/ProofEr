@@ -548,10 +548,14 @@ function drawCast(c, L, R, floorY, s, now, bow, top) {
     const p = it.p, kind = p[0]; let x = L + (R - L) * p[2] / 100;
     // never taller than the space under the valance (or the hanging ex-votos at night)
     let h = Math.min(stageH * p[3] / 100, GROUNDED[kind] ? 1e9 : floorY - lift0 - top);
-    if (kind === 'img' && p[4]) {                 // a named thinker: keep him and his sign clear of the open curtains
+    if (kind === 'img' && p[4]) {                 // a named thinker: as big as fits, clear of the open curtains
       const im = IM[p[1]], ar = im && im.naturalWidth ? im.naturalWidth / im.naturalHeight : 1;
-      const inL = L + 96 * s, inR = R - 96 * s, maxW = (inR - inL) / 3 * 0.96;
-      if (h * ar > maxW) h = maxW / ar;
+      const Tp = H * 0.22, B = floorY + 10 * s, base = floorY - lift0, cap = h;
+      let inL = L, inR = R;
+      for (let i = 0; i < 4; i++) {               // the curtain's inner edge at the puppet's top (see curtains())
+        const t = clamp01((base - h - Tp) / (B - Tp)), d = ((1 - t) ** 2 * 100 + 2 * t * (1 - t) * 60 + t * t * 14) * 0.9 * s + 6 * s;
+        inL = L + d; inR = R - d; h = Math.min(cap, (inR - inL) / 3 * 1.08 / ar);
+      }
       const hw = h * ar / 2; x = Math.min(inR - hw, Math.max(inL + hw, x));
     }
     const k = dir > 0 ? ease((now - it.t0) / 700) : (it.k0 ?? 1) * (1 - ease((now - it.t0) / 450));
