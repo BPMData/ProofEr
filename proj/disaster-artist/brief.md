@@ -14,6 +14,9 @@ this pass stops at the outline (brief §9 steps 1–2)._
 - 2026-11-24 · "Yes. Add prompts for gemini to re-run deep research on a few topics: the gaugin thing, what johanna may have made in terms of editorial decisions while editing the letters and her re-marriage, the chicken coop story needs firmer provenance as it was kind of a load-bearing theme, and confirm that "the January 1890 Boussod & Valadon show, Stedelijk purchases from 1905, and the Rey portrait reaching the Pushkin in 1960" are AI hallucinations or not." · Four Gemini Deep Research prompts in `research/gemini-prompts.md`; figures update from the reports.
 - 2026-11-24 · "Let me read it first" / "Hold it" · Outline approval held until Bryan has read it.
 - 2026-11-24 · "the outline is approved provided those gemini research prompts are in. then you can create a PR" · Outline APPROVED (prompts are in `research/gemini-prompts.md`); PR 33 carries it.
+- 2026-11-24 · "Actually, can you run the prompts yourself via subagents and save the collected .md reports to the github repo as a single pr?" · Claude ran the four prompts with parallel research workers; reports in `research/round2/`.
+- 2026-11-24 · "at the end if you can also distill from the researchers a list of high-resolution images of paintings to find as a separate .md file I can run myself as a separate task in gemini antigravity that would be good too" · `research/image-hunt.md`, run by Bryan in Gemini Antigravity.
+- 2026-11-24 · "Yes" (to rewriting the Gauguin, Johanna and chicken-coop beats in their true versions after round 2) · Outline Ch4, Ch5 vignette and Ch6 Johanna beat rewritten; figures F77 and F100 updated.
 
 ---
 
