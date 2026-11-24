@@ -1,6 +1,6 @@
 # Disaster Artist: checked figures
 
-Stage: figures (pass 1 + pass 2 gap-fill). Every number, name and date the essay uses must have a row here.
+Stage: figures (pass 1 + pass 2 gap-fill, both done 2026-11-24). Every number, name and date the essay uses must have a row here.
 Worker reports: `research/workers/pass1/g1-counts.md` (counts), `g2-money.md` (money), `g3-arles.md` (Arles),
 `g4-afterlife.md` (afterlife and market), `g5-life.md` (life before Arles); `research/workers/pass2/gap-fill.md`.
 
@@ -19,7 +19,7 @@ those pages in a browser; see "Open questions" at the end.
 | ID | Figure | Value used | Sources | Disagreement | Status |
 |---|---|---|---|---|---|
 | F01 | Paintings, lifetime total | about 860 to "nearly 900" | Metropolitan Museum, Heilbrunn Timeline essay "Vincent van Gogh (1853–1890)" (2004, rev. 2010): "nearly 900 paintings and more than 1,100 works on paper"; catalogue-based lists (F/JH numbering) total about 861 | Gap is attributions and whether oil sketches count; VGM's own total sentence not yet found | checked (as a range) |
-| F02 | Works on paper | more than 1,100 | Met essay (above); catalogue lists | none | single source (Met) until pass 2 |
+| F02 | Works on paper | more than 1,100 | Met essay (above); catalogue lists | Hulsker (1996) doubted 45 paintings and 12 drawings (*The Art Newspaper*, 1997) | single source (Met); hedge "more than 1,100" |
 | F03 | Letters surviving | 903 (the edition numbers 902) | TEI project page on the 2009 edition; Grant, *Reading Vincent van Gogh* (AU Press 2014), App. 1 | 902 vs 903 is a numbering quirk | checked |
 | F04 | Letters by Vincent | 820; 651 to Theo alone (659 incl. Theo and Jo) | Grant 2014; Museo Van Gogh guide quoting vangoghletters.org "Van Gogh as a letter-writer" | none material | checked |
 | F05 | Letters to Vincent that survive | 83, of which 39 from Theo alone (46 with Jo) | Grant 2014; Museo guide | one count says 84 | checked |
@@ -40,10 +40,10 @@ those pages in a browser; see "Open questions" at the end.
 | F20 | Early allowance, 1881–82 | about 100 F a month (Vincent's stated need) | Letters 164 (2 Apr 1881) and 201 (21 Jan 1882), opened | Neither says exactly what Theo sent | checked (as "about 100 F") |
 | F21 | Nuenen allowance, 1884–85 | 150 F a month | Letter 440 and its note (Mar 1884); letter 527 (Aug 1885), opened | none | checked |
 | F22 | Arles allowance, 1888 | about 250 F a month, by Vincent's own reckoning | Letter of c. 18 Aug 1888 (CL 523; 2009 number to find): "if I take it that at present you send me 250 francs a month" | Oct 1888 letter 715 proposes 150 F each for him and Gauguin | single source (Vincent's own figure) |
-| F23 | Paris 1886–88 | no cash allowance; lived in Theo's flat | pass 2 | — | unverified until pass 2 |
+| F23 | Paris 1886–88 | lived in Theo's flat; no cash allowance assumed | Jo's *Memoir* (1914, via webexhibits) | none found | single source |
 | F24 | Theo's income and Vincent's share | 11,000–14,000 F a year; on average 14.5% went to Vincent | VGM, *Contemporaries of Van Gogh 1*, introductory essay (catalogues.vangoghmuseum.com) | — | single source (institutional) |
 | F25 | Decade total | about 13,000–19,000 F (model midpoint about 16,000); the brief's ≈18,000 F sits inside | Model from F20–F22 (see `research/stipend-model.md`); cross-check 14.5% × income × 10 yrs ≈ 16,000–20,000 F | No published total found; Stolwijk & Veenenbos, *The Account Book of Theo van Gogh and Jo van Gogh-Bonger* (2002) is the primary to check | derived estimate; show as a range |
-| F26 | Franc–dollar, 1890 | about 5.18 F per US dollar (gold parity); 400 F ≈ $77 | Gold content arithmetic (franc 0.29032 g fine gold; dollar 23.22 grains) | citation pending (pass 2) | unverified citation |
+| F26 | Franc–dollar, 1890 | about 5.18 F per US dollar (gold parity; a franc ≈ 19.3 US cents); 400 F ≈ $77 | Franc 0.290322 g fine gold (Latin Monetary Union coin standard, 1885 Convention table); dollar 23.22 grains fine gold; a period banking text gives 19.3 cents | the dollar side lacks a strong citation | single source (hedge "about") |
 | F27 | 1890 dollar → today | ×37 (1890 → 2026, US CPI, spliced pre-1913 series); 400 F ≈ $2,900 today | officialdata.org (BLS CPI-U with Sahr pre-1913 series) | Converting French money through US prices is rough; wages (F28) are the better frame | single source; hedge in prose |
 | F28 | A coal miner's pay | about 1,060–1,080 F a year (1880–88) | *Journal de la Société de statistique de Paris* 32 (1891), pp. 20–21 (numdam) | — | single source (primary statistics); "schoolmaster's wages" from the brief is unverified |
 | F29 | Goupil → Boussod, Valadon & Cie | renamed 1884; Theo ran the boulevard Montmartre branch (no. 19) | VGM catalogue essay; letter-edition notes | Theo's title and salary not documented | checked (rename); single source (branch) |
@@ -80,7 +80,7 @@ those pages in a browser; see "Open questions" at the end.
 | F55 | The ear | the whole or nearly the whole left ear: Dr Félix Rey's 1930 sketch for Irving Stone (Bancroft Library, found by Bernadette Murphy) shows it cut off; the VGM's 2016 exhibition said "entire" | UC Berkeley Bancroft Library; *The Art Newspaper* (2016); Smithsonian (2016) | Bailey: "most, not all" | checked as "all or nearly all"; the brief's "part of the left ear" is out of date |
 | F56 | Who received it | Gabrielle Berlatier, a young maid at the brothel; the press called her "Rachel" | Murphy (2016) via Bailey (*The Art Newspaper*, 20 July 2016) and others | her age | checked (name) |
 | F57 | Theo in Arles | arrived 25 Dec 1888, left that evening with Gauguin | three secondary sources | Gauguin left 24 vs 25 Dec | single source quality; say "within two days" |
-| F58 | Petition | about 30 names, February 1889, asking that he be locked up or sent back to his family; the police took statements and he was confined to the hospital | Six secondary accounts; Rev. Salles's letters of 1–2 Mar 1889 | "27 real signatures" (one blog); where held unknown | checked (about 30, Feb 1889); pass 2 for the archive |
+| F58 | Petition | about 30 names, late February 1889 (not March), held in the Arles municipal archives, asking that he be locked up or sent back to his family; the police took statements and he was confined to the hospital | Six secondary accounts; Rev. Salles's letters of 1–2 Mar 1889; Murphy (2016) captions | "27 real signatures" (one blog); Murphy's signatory findings not reached | checked (about 30, late Feb 1889) |
 | F59 | Fogg self-portrait | Sept 1888, Harvard Art Museums 1951.65; Vincent describes himself as a "bonze, a simple worshipper of the eternal Buddha"; ash-grey head, reddish-brown jacket, pale veronese/malachite green ground | Letter 695 (3 Oct 1888); letter 697; Harvard record | wording via summaries | checked (recheck quote) |
 | F60 | Gauguin's "Les Misérables" | 1888, VGM; Gauguin as Jean Valjean, Bernard's portrait behind | Letter 692 (1 Oct 1888); VGM catalogue cat. 57 | — | checked |
 | F61 | *Christ in the Garden of Olives* | 1889, Norton Museum; Gauguin as Christ | Norton/NGA material | "red hair as the tell": no text source (the red-haired Christ in the letters is Bernard's); visible check by swatch | checked (painting); red hair unverified in text |
@@ -101,19 +101,19 @@ those pages in a browser; see "Open questions" at the end.
 | F77 | Johanna remarried | yes: the painter Johan Cohen Gosschalk, 1901 (he died 1912) | Artsy; VGM Journal (1995) | — | checked: the brief's "she never remarried" is wrong |
 | F78 | 1905 Stedelijk show | July–Aug 1905, nearly 500 works, organised by Johanna | Smithsonian; Artnet | 474 vs "nearly 500" | checked |
 | F79 | Stedelijk buying from 1905 | no trace | — | — | `myth`: cut |
-| F80 | Johanna's sales | about 190–250 works sold over her lifetime | Artsy (190 paintings, 55 drawings); Smithsonian (~250) | yes | disputed: show a range |
-| F81 | What the family kept | about 200 paintings and 500+ drawings | VGM factsheet; *The Art Newspaper* (2020) | — | checked |
+| F80 | Johanna's sales | about 190–250 works sold over her lifetime; no published total | Artsy (190 paintings, 55 drawings); Smithsonian (~250) | yes | disputed: show a range |
+| F81 | What the family kept | about 200 paintings and 500+ drawings (VGM holdings today); the state paid 18.47 million guilders for the collection in 1962 | VGM factsheet; *The Art Newspaper* (2020); VGM Journal (2002) | other accounts put the family's holdings at 200–300 or even 400 paintings at various dates | checked (today's holdings); disputed (earlier counts) |
 | F82 | Kröller-Müller | Helene Kröller-Müller's first Van Gogh 1908 (110 guilders); museum now holds 88 paintings, 172 works on paper | Kröller-Müller Museum | *The Conversation* says 91/180 | checked (museum figure) |
 | F83 | Germany by 1914 | over 100 paintings in German collections | *The Conversation*; thehistoryofart | 120 vs 150 | disputed: "over 100" |
-| F84 | Bernheim-Jeune 1901 | 15 Mar 1901, 71 paintings | History.com only | — | single source (pass 2) |
-| F85 | Letters published | *Brieven aan zijn broeder*, 3 vols, 1914, edited by Johanna, with her *Memoir* | NYRB; VGM Journal (2002) | what she cut: pass 2 | checked (existence) |
-| F86 | Theo reburied | moved from Utrecht to Auvers beside Vincent, 1914 | VGM caption; lead | — | single source (pass 2) |
+| F84 | Bernheim-Jeune 1901 | 16–31 Mar 1901, Paris; 71 paintings | VGM library record 8562 (dates); History.com (count) | count has one source | checked (dates); single source (count) |
+| F85 | Letters published | *Brieven aan zijn broeder*, 3 vols, 1914, edited by Johanna, with her *Memoir*; Vincent's letters to Theo only (Theo's side not included); later editors note "various errors and omissions" and at least one letter cut (416 / CL 347) | NYRB; VGM Journal (2002, 1997–98) | no source names money, Sien or Gauguin as the cuts | checked (existence, one-sided); `unverified` that she "sanded the friction out" |
+| F86 | Theo reburied | moved from Utrecht to Auvers beside Vincent, 1914 | *The Art Newspaper* (2021); Artnet; VGM caption | — | checked |
 | F87 | Van Gogh Museum | Vincent van Gogh Foundation 10 July 1960; Dutch state buys the collection 1962; museum opens 2 June 1973 | VGM Journal (1995); *The Art Newspaper* (2020) | brief says 1962 founding | checked |
 | F88 | *Sunflowers*, 1987 | Christie's London, 30 Mar 1987, £24.75m with premium (£22.5m hammer, about $40m), Yasuda Fire & Marine | *The Art Newspaper* (2022); *Christian Science Monitor* (1987) | — | checked |
 | F89 | *Irises*, 1987 | Sotheby's New York, 11 Nov 1987, $53.9m, Alan Bond (bought on loan; Getty bought it 1990) | *The Art Newspaper*; Artnet; *CS Monitor* | — | checked |
 | F90 | *Portrait of Dr Gachet*, 1990 | Christie's New York, 15 May 1990, $82.5m with premium, Ryoei Saito; record until 5 May 2004 (Picasso, *Garçon à la pipe*, $104m); whereabouts unknown, believed private | Artnet; *The Art Newspaper* (2019); CBS | — | checked |
-| F91 | *Dr Félix Rey* to the Pushkin | via Camoin (1901), Vollard, Shchukin (1908); Pushkin year not found, likely 1948 | lead and DailyArt | the brief's "1960" has no support | unverified (pass 2) |
-| F92 | Chicken-coop story | told in the literature, not on the Pushkin's pages; tellers vary (Rey's mother vs family) | leads only | — | `myth` unless pass 2 traces it: attribute to "the story goes" |
+| F91 | *Dr Félix Rey* to the Pushkin | via Camoin (1901), Vollard, Shchukin (1908); Pushkin year not found, likely 1948 when the State Museum of New Western Art was dissolved | Wikipedia (lead) and DailyArt; the Pushkin site gives no provenance | the brief's "1960" has no support | unverified |
+| F92 | Chicken-coop story | told in the literature, not on the Pushkin's pages; tellers vary (Rey's mother vs family); leads to check: Braumann's 1928 interview with Rey, Feilchenfeldt (2013) p. 306 | leads only | — | `myth`: attribute to "the story goes" |
 | F93 | Père Tanguy | arrested as a Communard 1871, held on the prison hulks at Brest, freed 1873 (pardon or sentence served); shop at 14 rue Clauzel; paints for paintings | Émile Bernard, *Mercure de France* (1908); Musée Rodin; fr. lead | pardon vs sentence served | checked; the brief's "deported to New Caledonia, amnestied 1880" is wrong |
 | F94 | Tanguy's stock | died Feb 1894; charity sale at Drouot, 2 June 1894, about 10,000 F for his widow | Bernard (1908); lead | day of death | single source quality |
 

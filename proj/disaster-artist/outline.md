@@ -115,7 +115,7 @@ The last section lists every claim in the brief that the research contradicts or
    Meedendorp (2013), Di Maio's forensic comment, the 2019 revolver sale (F95–F99).
 - **Vignettes:** the petition holds (about 30 names, February 1889, asking that he be locked up or sent home;
   F58). The chicken coop is attributed to "the story goes": the Pushkin's own pages don't tell it, and the brief's
-  "entered the Pushkin in 1960" has no support (F91–F92, pending pass 2).
+  "entered the Pushkin in 1960" has no support (F91–F92).
 - **Footnotes:** F40, F55, F58, F70–F74, F91–F92, F95–F99.
 
 ## Chapter 6 · The Fix (paper)
@@ -125,7 +125,7 @@ The last section lists every claim in the brief that the research contradicts or
 - **Waffle:** ~860–900 squares, about 200 gold for what the family kept (F81); a second shade for the roughly
   190–250 works Johanna sold over her life (F80).
 - **Price curve (log scale, nominal US dollars, converted at the period's gold parity):** 1890 *Red Vineyard*
-  400 F ≈ $77 (F70) → 1901 Bernheim-Jeune (F84, pending) → 1905 Stedelijk show, nearly 500 works (F78) →
+  400 F ≈ $77 (F70) → 1901 Bernheim-Jeune, 16–31 March, 71 paintings by one source (F84) → 1905 Stedelijk show, nearly 500 works (F78) →
   **1907 Morozov buys *The Red Vineyard* for 30,000 F, 75 times its 1890 price** (F75; replaces the brief's
   unsupported "1960 Pushkin" point) → 1908 Kröller-Müller's first purchase (F82) → 1914 letters (F85) → 1973 museum
   opens (F87) → 1987 *Sunflowers* £24.75m and *Irises* $53.9m (F88–F89) → 1990 *Gachet* $82.5m, a record until
@@ -134,9 +134,11 @@ The last section lists every claim in the brief that the research contradicts or
   to the Netherlands, to Bussum, where she ran a boarding house, but she kept the work instead of selling it off
   (F76). **She remarried in 1901** (the painter Johan Cohen Gosschalk, who died in 1912; F77), so "she never
   remarried" goes. The "widowed him twice" line gets a literal second half: in 1914, the year the letters came out,
-  she had Theo's body moved from Utrecht to Auvers beside Vincent (F86, pending a second source). What she cut from
-  the 1914 letters is still being researched (F85); until it's sourced, the "sanded the friction out" claim stays
-  hedged.
+  she had Theo's body moved from Utrecht to Auvers beside Vincent (F86, two sources). **What she cut from the 1914
+  letters isn't documented beyond "errors and omissions" and one cut letter (F85)**, so the brief's "sanded the
+  friction out of the brothers' marriage" can't stand as fact. What can: the 1914 edition printed only Vincent's
+  side, so Theo appears as the man being written to, never as a voice (F05, F85). That carries the brief's
+  caveat (a) and the "buried the husband a second time, in print" line without claiming edits nobody has listed.
 - **Footnotes:** F70, F72, F74–F90.
 
 ## Chapter 7 · The Scoreboard (red field)
@@ -185,7 +187,8 @@ Runs on the stipend model (`research/stipend-model.md`): ends at about 16,000 F,
 20. The Meiji state "catfishing back" (F44).
 21. "Red hair as the tell" on Gauguin's Christ (F61): no text source.
 22. The chicken coop: only "the story goes" (F92).
-23. What Johanna cut from the 1914 letters (F85): pass 2 is looking.
+23. What Johanna cut from the 1914 letters (F85): no source lists the cuts, so "sanded the friction out" is
+    unsupported; the one-sided edition is the sourced version of the point.
 24. "Roughly a schoolmaster's wages": no teacher's pay found; a coal miner's pay is sourced (F28).
 25. The 18,000 F total: inside the model's 13,000–19,000 F range, but no source gives it (F25).
 26. Theo paid Gauguin's fare and debts: not found (F52).

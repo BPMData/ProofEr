@@ -1,6 +1,6 @@
 # Brief: Disaster Artist (Van Gogh)
 
-Status: APPROVED 2026-11-24 by Bryan (his own build brief, uploaded) · Stage: research · Mode: from scratch · Budget: standard · Client: Bryan · Sign-off: Bryan
+Status: APPROVED 2026-11-24 by Bryan (his own build brief, uploaded) · Stage: figures · Mode: from scratch · Budget: standard · Client: Bryan · Sign-off: Bryan
 Usage: Opus coordinator with Sonnet research workers (research + outline only in this pass)
 
 _Bryan supplied the full build brief below, word for word as uploaded on 2026-11-24. It replaces the interview: format
