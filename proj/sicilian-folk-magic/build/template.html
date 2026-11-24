@@ -86,6 +86,7 @@ a { color:var(--blue); }
 .hero .ribbon { text-align:center; max-width:640px; margin:0 auto 14px; }
 .hero .ribbon h1 { display:inline-block; margin:0; background:#f6e7c3; color:#7d1a1f; padding:10px 40px 8px;
   clip-path:polygon(0 50%, 26px 0, calc(100% - 26px) 0, 100% 50%, calc(100% - 26px) 100%, 26px 100%); }
+.herotitle { font:400 38px/1.05 var(--display); color:#7d1a1f; margin:6px 0 12px; }
 .amp { font-style:italic; }
 .howto { font-size:14px; color:var(--ink-soft); margin:10px 0 0; }
 
@@ -131,6 +132,22 @@ a { color:var(--blue); }
 .stampbox { display:inline-block; border:3px solid var(--red); color:var(--red); padding:6px 10px 5px; font:400 15px/1.25 var(--display);
   letter-spacing:.06em; text-transform:uppercase; transform:rotate(-3deg); background:rgba(255,255,255,.55); white-space:nowrap; }
 .night .stampbox { color:#ff9a8a; border-color:#ff9a8a; background:rgba(0,0,0,.2); }
+
+.myth-sm { display:flex; flex-wrap:wrap; gap:6px 10px; align-items:baseline; margin:14px 0; padding:10px 12px; background:#f6ecdc;
+  border-left:3px solid #9d8b74; border-radius:2px; transition:border-color .35s ease, background-color .35s ease; }
+.night .myth-sm { background:#33202a; border-left-color:#8d786a; }
+.myth-sm p { margin:0; font-size:14.5px; line-height:1.45; flex:1 1 240px; }
+.myth-sm .mtag { font:600 11px/1.2 var(--body); letter-spacing:.08em; text-transform:uppercase; padding:2px 6px; border-radius:2px;
+  border:1.5px solid #8a7862; color:var(--ink-soft); background:rgba(255,255,255,.45); white-space:nowrap;
+  transition:color .35s ease, border-color .35s ease, background-color .35s ease; }
+.night .myth-sm .mtag { border-color:#8d786a; color:var(--night-soft); background:rgba(0,0,0,.2); }
+.myth-sm .mclaim { font-style:italic; }
+.myth-sm .mclaim::after { content:" — "; font-style:normal; }
+.myth-sm .mverd { font-weight:600; }
+.myth-sm.lit { border-left-color:var(--red); }
+.myth-sm.lit .mtag { border-color:var(--red); color:var(--red); background:rgba(255,255,255,.75); }
+.night .myth-sm.lit { border-left-color:#ff9a8a; }
+.night .myth-sm.lit .mtag { border-color:#ff9a8a; color:#ff9a8a; background:rgba(0,0,0,.35); }
 
 figure.chart { margin:18px 0; }
 figcaption { font-size:14px; line-height:1.45; color:var(--ink-soft); margin-top:8px; }
@@ -182,7 +199,7 @@ ul.src li { margin-bottom:5px; overflow-wrap:anywhere; }
   .stagewrap { height:100vh; min-height:0; }
   .sec { padding:56px 48px; }
   .card { padding:28px 30px; }
-  h1 { font-size:58px; } h2 { font-size:44px; }
+  h1 { font-size:58px; } h2 { font-size:44px; } .herotitle { font-size:48px; }
   .oncap { font-size:12px; }
 }
 @media print {
@@ -191,7 +208,7 @@ ul.src li { margin-bottom:5px; overflow-wrap:anywhere; }
   .show { display:block; }
   .sec, .sec.night { background:#fff; color:#000; padding:8pt 0; break-inside:auto; }
   .card, .night .card { box-shadow:none; background:#fff; color:#000; max-width:none; }
-  .night .myth { background:#fff; color:#000; }
+  .night .myth, .night .myth-sm { background:#fff; color:#000; }
   .night .unit .k, .night figcaption { fill:#000; color:#000; }
   .cone.magic { fill:#b07a00; }
   .stake.open { --so:#a3171f; }
@@ -597,6 +614,10 @@ const so = new IntersectionObserver((es) => { es.forEach((e) => {
   }
 }); }, { rootMargin: '-45% 0px -45% 0px' });
 document.querySelectorAll('.myth[data-stamp]').forEach((el) => so.observe(el));
+const smObs = new IntersectionObserver((es) => { es.forEach((e) => {
+  if (e.isIntersecting) e.target.classList.add('lit');
+}); }, { rootMargin: '-35% 0px -35% 0px' });
+document.querySelectorAll('.myth-sm').forEach((el) => smObs.observe(el));
 
 function renderCab() {
   document.getElementById('cabn').textContent = cabN; document.getElementById('cabt').textContent = DATA.cab.length;
@@ -604,7 +625,7 @@ function renderCab() {
   document.getElementById('cablist').innerHTML = cabSeen.map((x) => {
     const d = info(x);
     const thumb = d.z && DATA.zoom[d.z]
-      ? '<button type="button" class="cabthumb" data-z="' + d.z + '" aria-label="See ' + d.label + ' up close"><img src="' + DATA.zoom[d.z] + '" alt="' + d.label + '"></button>'
+      ? '<button type="button" class="cabthumb" data-z="' + d.z + '" aria-label="See ' + d.label + ' up close"><img src="' + (DATA.thumbs && DATA.thumbs[d.z] ? DATA.thumbs[d.z] : DATA.zoom[d.z]) + '" alt="' + d.label + '"></button>'
       : '<span></span>';
     const title = d.z
       ? '<button type="button" class="zbtn" data-z="' + d.z + '" aria-label="See ' + d.label + ' up close">' + d.label + '</button>'
@@ -684,10 +705,11 @@ const zoom = document.getElementById('zoom'), zimg = document.getElementById('zi
 let zBack = null;
 function openZoom(k) {
   if (!DATA.zoom[k]) return; closeG(); hideArt(); zBack = document.activeElement;
+  zimg.onerror = () => { const fb = DATA.imgs[k] || (DATA.thumbs && DATA.thumbs[k]); if (fb && zimg.src !== fb) zimg.src = fb; };
   zimg.src = DATA.zoom[k]; zimg.alt = DATA.names[k] || ''; zcap.innerHTML = '<b>' + (DATA.names[k] || '') + '</b> · ' + (DATA.credits[k] || '');
   zoom.classList.remove('big'); zoom.hidden = false; zclose.focus();
 }
-function closeZoom() { zoom.hidden = true; zoom.classList.remove('big'); zimg.removeAttribute('src'); if (zBack && zBack.focus) zBack.focus(); }
+function closeZoom() { zoom.hidden = true; zoom.classList.remove('big'); zimg.onerror = null; zimg.removeAttribute('src'); if (zBack && zBack.focus) zBack.focus(); }
 zclose.addEventListener('click', closeZoom);
 zoom.addEventListener('click', (e) => { if (e.target === zimg) zoom.classList.toggle('big'); else if (e.target === zoom) closeZoom(); });
 zoom.addEventListener('keydown', (e) => { if (e.key === 'Tab') { e.preventDefault(); zclose.focus(); } });
