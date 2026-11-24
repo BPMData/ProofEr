@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import glob
+import hashlib
 import json
 import os
 import re
@@ -163,6 +164,13 @@ def _load_json(path: Path, default):
         return default
 
 
+def _file_sha256(path: Path) -> str:
+    try:
+        return hashlib.sha256(path.read_bytes()).hexdigest()
+    except OSError:
+        return ""
+
+
 def _record_post_tool(root: Path, tool_name: str, args: dict, error) -> None:
     if error:
         return
@@ -206,6 +214,14 @@ def _record_post_tool(root: Path, tool_name: str, args: dict, error) -> None:
             ipath = _inspected_pngs_path(root, piece)
             data = _load_json(ipath, {})
             data[rel] = max(now, abs_png.stat().st_mtime)
+            if not rel.startswith(f"proj/{piece}/stills/"):
+                html = root / "pieces" / f"{piece}.html"
+                sha = _file_sha256(html)
+                if sha:
+                    by_sha = data.setdefault("_sha256_pngs", {})
+                    lst = by_sha.setdefault(sha, [])
+                    if rel not in lst:
+                        lst.append(rel)
             ipath.parent.mkdir(parents=True, exist_ok=True)
             ipath.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
         return
@@ -221,7 +237,10 @@ def _record_post_tool(root: Path, tool_name: str, args: dict, error) -> None:
                 # Stamp only pieces with local work (or no stamp yet): re-stamping every piece on every
                 # check dirtied untouched pieces' receipt files and made them look "touched" at Stop.
                 if html.exists() and (not opath.exists() or _piece_has_local_changes(root, piece)):
-                    opath.write_text(json.dumps({"ts": now, "cmd": cmd[:200]}) + "\n", encoding="utf-8")
+                    opath.write_text(
+                        json.dumps({"ts": now, "sha256": _file_sha256(html), "cmd": cmd[:200]}) + "\n",
+                        encoding="utf-8",
+                    )
 
 
 def _research_reports(root: Path, piece: str) -> list[Path]:
@@ -413,13 +432,28 @@ def _piece_has_local_changes(root: Path, piece: str) -> bool:
     return False
 
 
-def _piece_touched_in_repo(root: Path, piece: str) -> bool:
-    """In a git repo, skip committed pieces with no local work.
+def _piece_html_has_local_changes(root: Path, piece: str) -> bool:
+    """True if pieces/<piece>.html (or its asset dir) differs from git HEAD."""
+    if not (root / ".git").exists():
+        return True
+    try:
+        p = subprocess.run(
+            ["git", "status", "--porcelain", "--", f"pieces/{piece}.html", f"pieces/assets/{piece}"],
+            cwd=str(root),
+            capture_output=True,
+            text=True,
+            timeout=3,
+        )
+    except OSError:
+        return True
+    if p.returncode != 0:
+        return True
+    return bool(p.stdout.strip())
 
-    Receipt files no longer count as work: they are committed, and check_offline.py used to rewrite
-    them for every piece, which made untouched pieces (e.g. a published one) trip the Stop gate.
-    """
-    return _piece_has_local_changes(root, piece)
+
+def _piece_touched_in_repo(root: Path, piece: str) -> bool:
+    """In a git repo, skip committed pieces whose published HTML has no local changes."""
+    return _piece_html_has_local_changes(root, piece)
 
 
 def _check_stop(root: Path, stop_active: bool) -> str | None:
@@ -437,17 +471,29 @@ def _check_stop(root: Path, stop_active: bool) -> str | None:
         if not _piece_touched_in_repo(root, piece):
             continue
         html_mtime = html.stat().st_mtime
+        html_sha = _file_sha256(html)
         off = _load_json(_offline_checked_path(root, piece), {})
-        if not off or float(off.get("ts", 0.0)) < html_mtime:
+        off_ok = bool(off) and (
+            (html_sha and off.get("sha256") == html_sha) or float(off.get("ts", 0.0)) >= html_mtime
+        )
+        if not off_ok:
             return (
                 f"Run `python3 tools/check_offline.py` after the final edit to pieces/{piece}.html before finishing."
             )
         inspected = _load_json(_inspected_pngs_path(root, piece), {})
-        final_pngs = [
+        mtime_pngs = [
             k for k, ts in inspected.items()
-            if not k.startswith(f"proj/{piece}/stills/") and (root / k).exists() and float(ts) >= html_mtime
+            if not k.startswith("_")
+            and not k.startswith(f"proj/{piece}/stills/")
+            and isinstance(ts, (int, float))
+            and (root / k).exists()
+            and float(ts) >= html_mtime
         ]
-        if len(final_pngs) < 2:
+        sha_pngs = [
+            k for k in (inspected.get("_sha256_pngs") or {}).get(html_sha, [])
+            if (root / k).exists()
+        ] if html_sha else []
+        if len(set(mtime_pngs) | set(sha_pngs)) < 2:
             return (
                 f"Capture and inspect final desktop and phone PNG screenshots of pieces/{piece}.html "
                 f"(under proj/{piece}/qa/) via read_file/Read/view_image before finishing."

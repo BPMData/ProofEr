@@ -415,6 +415,52 @@ class StageGateTests(unittest.TestCase):
         })
         self.assertEqual(json.loads(out)["decision"], "allow")
 
+    def test_stop_skips_qa_on_hash_match_or_docs_only_edits(self):
+        git_root = Path(self.tmp.name) / "repo_hash"
+        (git_root / "proj" / "clay" / "qa").mkdir(parents=True)
+        (git_root / "pieces").mkdir(parents=True)
+        (git_root / "proj" / "clay" / "brief.md").write_text("# Brief: Clay\n\nStage: build\n", encoding="utf-8")
+        (git_root / "proj" / "clay" / "STATUS.md").write_text("- Initial\n", encoding="utf-8")
+        html = git_root / "pieces" / "clay.html"
+        html.write_text("<html>v1</html>", encoding="utf-8")
+        for cmd in (["git", "init", "-q"], ["git", "config", "user.email", "t@example.com"],
+                    ["git", "config", "user.name", "T"], ["git", "add", "."], ["git", "commit", "-q", "-m", "init"]):
+            subprocess.run(cmd, cwd=str(git_root), check=True)
+
+        # 1. Docs-only edit (STATUS.md) never triggers Stop QA on unchanged committed HTML
+        (git_root / "proj" / "clay" / "STATUS.md").write_text("- Note added\n", encoding="utf-8")
+        rc, out, _ = _run_gate("antigravity", "Stop", {
+            "cwd": str(git_root), "terminationReason": "NO_TOOL_CALL", "continuationActive": False,
+        })
+        self.assertEqual(rc, 0)
+        self.assertEqual(json.loads(out), {})
+
+        # 2. Record check_offline + 2 QA PNGs for html bytes, then bump html mtime without changing bytes
+        html.write_text("<html>v2</html>", encoding="utf-8")
+        _run_gate("antigravity", "PostToolUse", {
+            "cwd": str(git_root),
+            "toolCall": {"name": "run_command", "args": {"CommandLine": "python3 tools/check_offline.py"}},
+        })
+        for shot in ("desktop.png", "phone.png"):
+            (git_root / "proj" / "clay" / "qa" / shot).write_bytes(b"PNG")
+            _run_gate("antigravity", "PostToolUse", {
+                "cwd": str(git_root),
+                "toolCall": {"name": "read_file", "args": {"Path": f"proj/clay/qa/{shot}"}},
+            })
+        time.sleep(0.02)
+        os.utime(html, None)
+        rc, out, _ = _run_gate("antigravity", "Stop", {
+            "cwd": str(git_root), "terminationReason": "NO_TOOL_CALL", "continuationActive": False,
+        })
+        self.assertEqual(json.loads(out), {}, "mtime bump with identical sha256 must not re-trigger Stop QA")
+
+        # 3. Changing actual HTML bytes still demands fresh offline check + PNG QA
+        html.write_text("<html>v3-changed</html>", encoding="utf-8")
+        rc, out, _ = _run_gate("antigravity", "Stop", {
+            "cwd": str(git_root), "terminationReason": "NO_TOOL_CALL", "continuationActive": False,
+        })
+        self.assertEqual(json.loads(out)["decision"], "continue")
+
 
 if __name__ == "__main__":
     unittest.main()
