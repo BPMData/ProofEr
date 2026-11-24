@@ -163,6 +163,20 @@ FIGS['lettera'] = (RELICS['lettera'][0], RELICS['lettera'][3],
                    RELICS['lettera'][4],
                    'A wide illuminated manuscript page: Latin text in the centre, coats of arms in the corners, a painted '
                    'scene of Mary handing a letter to two kneeling men at the top, and a curved harbour with ships along the bottom.')
+# the 1740 copy of the Letter's oldest picture (Bryan, Nov 24): scan from Franceschini 2019, fig. 2
+FIGS['woodcut'] = ('Messina-Letter-plate_Quingles-Aglioti_1740_pp168-169.png', 'The Letter’s oldest picture, copied',
+                   'The legend’s oldest picture, at second hand: a plate printed in 1740 that says it copies a woodcut pasted inside '
+                   'the front cover of a Franciscan friar’s book in Messina. Historian Giuseppe Campagna dates that woodcut to 1522, '
+                   'the oldest known text of the Letter. Mary kneels in the sky, pleading with Christ (top left) to spare '
+                   'plague-struck Messina, whose harbour spreads out below.',
+                   'Plate in J. F. de Quingles and P. Aglioti, <i>Spiegazioni di due antiche mazze di ferro ritrovate in Messina '
+                   'nell’anno MDCCXXXIII</i>, Venice, 1740, between pp. 168 and 169. Public domain by age. Reproduced from Chiara '
+                   'Franceschini, “Mattia Preti’s <i>Madonna della Lettera</i>”, <i>Mitteilungen des Kunsthistorischen Institutes '
+                   'in Florenz</i> 61:3 (2019), fig. 2.',
+                   'A black-and-white print: blocks of handwritten-style text at the top, a haloed woman kneeling on a cloud with '
+                   'her hands clasped, a walled harbour town with ships below her, and two more text blocks and a long note along the bottom.')
+ZOOM['woodcut'] = zoomimg('woodcut', FIGS['woodcut'][0], 1200)
+FIG_CREDITS['woodcut'] = (FIGS['woodcut'][1], FIGS['woodcut'][3])
 def figure_html(k):
     f = FIGS[k]
     return (f'<figure class="infig"><button type="button" class="figbtn" data-z="{k}" aria-label="See {html.escape(f[1])} up close">'
