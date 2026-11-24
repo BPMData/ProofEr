@@ -13,9 +13,9 @@ _Last updated: Nov 23, 2026 (sicilian-folk-magic full 4-wave Tuchman-voice refin
 - **clay-cookware** (Glazed vs. unglazed clay in cookware & multi-cooker inserts; interactive data essay for food-science/cookware enthusiasts): **published** to `pieces/clay-cookware.html` (`index.html` updated; `0` restricted reads before gate; `check_offline.py` passed; desktop/phone Chromium QA verified; usage on \$20/mo plan all on Gemini 4 Hydrogen High incl. 11 workers + 3 PRs: ~36% of 5-hr window, ~8% weekly—indicating Antigravity has comfortable headroom before needing aggressive Medium/light throttling). `proj/clay-cookware/STATUS.md`. **v2 remake** ("It's All in the Wall": scannable, pot picker, interactive plates) at `pieces/clay-cookware-v2.html`, live but **not on the hub** until Bryan picks a version.
 
 - **sicilian-folk-magic** (Sicilian Catholicism and folk magic; long scrolling essay for witty history nerds;
-  baroque x cut-paper puppets): **refined & QA-verified** unlinked at `pieces/sicilian-folk-magic-rebuild.html`
+  baroque x cut-paper puppets): **refined & QA-verified** at `pieces/sicilian-folk-magic-rebuild.html`, linked from `index.html` since Nov 24
   (1.75 MB with relative zoom WebPs in `pieces/assets/sicilian-folk-magic/`, view counter added, `check_offline.py`
-  passed; `pieces/sicilian-folk-magic.html` kept as `main`'s original for side-by-side comparison, like
+  passed; `pieces/sicilian-folk-magic.html` kept unlinked (direct URL only) as the original for side-by-side comparison, like
   `clay-cookware-v2.html`). On branch `feat/sicilian-refinement-tuchman` (stacked on `fix/sicilian-bugfixes-and-cabinet`):
   full *A Distant Mirror* + wry Sicilian friend narrative rewrite + single-voice continuity pass (`416` unique `[X...]`
   IDs, `0` unverified), 3-tier myth checks (`3` Tier-1 canvas stamps + `2` Tier-2 scroll-lit checks), 6 tarot occultist
