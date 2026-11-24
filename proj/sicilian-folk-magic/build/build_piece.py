@@ -498,29 +498,38 @@ def cabinet_html():
 
 def route_svg():
     return '''<figure class="chart route" aria-labelledby="route-cap">
-<svg viewBox="0 0 360 300" role="img" aria-labelledby="route-t"><title id="route-t">Routes from Sicily, not to scale</title>
-<path class="sea" d="M0 0h360v300H0z"/>
-<!-- Western Europe & Iberian Peninsula -->
-<path class="land" d="M242 28 l48 -6 l52 10 l10 34 l-28 24 l-32 -8 l-44 6 z"/>
-<path class="land" d="M214 88 l24 -12 l20 8 l-6 30 l-26 4 z"/>
-<!-- New Spain (Mexico, upper left) -->
-<path class="land" d="M18 80 l56 -8 l28 22 l-16 32 l-42 6 l-26 -20 z"/>
-<!-- Northern South America & Brazil (lower left) -->
-<path class="land" d="M62 154 l44 -10 l36 22 l8 46 l-26 32 l-32 -14 l-24 -36 z"/>
+<svg viewBox="0 0 420 310" role="img" aria-labelledby="route-t"><title id="route-t">Routes from Sicily, not to scale</title>
+<defs>
+<marker id="arr1" viewBox="0 0 10 10" refX="7.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M1 1.5 L8.5 5 L1 8.5 z" fill="#2a1d16"/></marker>
+<marker id="arr2" viewBox="0 0 10 10" refX="7.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M1 1.5 L8.5 5 L1 8.5 z" fill="#1d4f8a"/></marker>
+</defs>
+<rect width="420" height="310" class="sea"/>
+<!-- Western Europe, Iberia & Italian boot -->
+<path class="land" d="M292 0 L420 0 L420 112 C 402 104, 386 88, 370 72 L352 104 L356 122 L344 130 L338 118 L322 86 L312 64 C 300 66, 290 72, 286 76 L276 74 L254 78 L252 96 L256 112 L272 118 L288 106 L296 74 L276 62 L274 36 L292 0 Z"/>
+<!-- North African rim framing the Mediterranean -->
+<path class="land" d="M254 136 L294 136 C 322 142, 344 150, 368 150 L420 154 L420 198 L250 198 C 248 176, 250 156, 254 136 Z"/>
+<!-- New Spain / Mexico, Central America & Caribbean -->
+<path class="land" d="M0 44 L86 44 L84 62 L66 72 C 62 84, 70 96, 86 96 L94 84 L102 88 L98 104 L108 118 L124 128 L120 134 L102 128 L82 116 L54 114 L24 94 L0 74 Z"/>
+<path class="land" d="M106 72 Q 116 68 128 76 Q 118 82 106 76 Z M132 78 Q 140 76 146 81 Q 138 86 132 82 Z"/>
+<!-- South America: Venezuela coast & Brazil Atlantic bulge -->
+<path class="land" d="M124 130 L144 130 L166 138 L194 160 L212 184 L204 218 L178 258 L156 310 L114 310 L108 242 L94 188 L104 150 Z"/>
 <!-- Sicily -->
-<path class="island" d="M294 114 l22 -4 l14 3 l-10 14 l-16 3 z"/>
-<!-- Solid route: Sicily -> Lisbon -> Brazil -> Venezuela -->
-<path class="r1" d="M306 118 C 276 118, 254 112, 230 108"/>
-<path class="r1" d="M230 108 C 194 152, 158 190, 124 224"/>
-<path class="r1" d="M124 224 C 110 206, 102 186, 98 166"/>
+<path class="island" d="M320 132 L338 128 L334 141 L322 138 Z"/>
+<!-- Solid routes: Sicily -> Lisbon -> Brazil -> Venezuela -->
+<path class="r1" d="M328 134 C 304 132, 280 116, 258 96"/>
+<path class="r1" marker-end="url(#arr1)" d="M258 96 C 232 138, 214 170, 194 196"/>
+<path class="r1" marker-end="url(#arr1)" d="M192 200 C 170 176, 154 156, 140 142"/>
 <!-- Dashed route: Sicily -> New Spain -->
-<path class="r2" d="M306 118 C 238 42, 136 44, 54 104"/>
-<circle class="cp" cx="306" cy="118" r="5"/><text x="304" y="146" class="ml">Sicily</text>
-<circle class="cp" cx="230" cy="108" r="4"/><text x="166" y="96" class="ml">Lisbon, by 1609</text>
-<circle class="cp" cx="54" cy="104" r="4"/><text x="14" y="42" class="ml">New Spain: Rosalia;</text><text x="14" y="58" class="ml">Joseph patron, 1555</text>
-<circle class="cp" cx="98" cy="166" r="4"/><text x="14" y="150" class="ml">Venezuela: the drums</text>
-<circle class="cp" cx="124" cy="224" r="4"/><text x="134" y="246" class="ml">Brazil, early 1600s</text>
-<text x="350" y="290" class="nts" text-anchor="end">not to scale</text>
+<path class="r2" marker-end="url(#arr2)" d="M328 134 C 246 48, 148 48, 72 88"/>
+<circle class="cp" cx="328" cy="134" r="4.5"/><text x="348" y="148" class="ml">Sicily</text>
+<circle class="cp" cx="258" cy="96" r="4"/><text x="246" y="92" class="ml" text-anchor="end">Lisbon, by 1609</text>
+<circle class="cp" cx="66" cy="90" r="4"/><text x="10" y="20" class="ml">New Spain: Rosalia;</text><text x="10" y="36" class="ml">Joseph patron, 1555</text>
+<circle class="cp" cx="136" cy="138" r="4"/><text x="148" y="122" class="ml">Venezuela: the drums</text>
+<circle class="cp" cx="192" cy="200" r="4"/><text x="210" y="216" class="ml">Brazil, early 1600s</text>
+<!-- Compact legend -->
+<line x1="258" y1="256" x2="282" y2="256" class="r1"/><text x="288" y="260" class="leg">Benedict’s cult</text>
+<line x1="258" y1="274" x2="282" y2="274" class="r2"/><text x="288" y="278" class="leg">Rosalia &amp; Joseph</text>
+<text x="408" y="298" class="nts" text-anchor="end">not to scale</text>
 </svg>
 <figcaption id="route-cap">Not to scale. Solid line: Benedict the Moor’s cult, carried by Black Catholic brotherhoods
 through Lisbon (a confraternity by 1609) to Brazil and the Spanish and Portuguese New World from the early 1600s,
@@ -566,7 +575,7 @@ SCENES = {
     4: dict(sea=True, cast=[['boat', 'bust', 62, 54], ['img', 'agatha', 25, 46]]),
     5: dict(back='float', cast=[['img', 'rosalia', 50, 64]]),
     6: dict(cast=[['letter', 'Messina · “AD 42”', 50, 56]]),
-    7: dict(cast=[['img', 'joseph', 24, 70], ['table', '', 64, 40]]),
+    7: dict(cast=[['img', 'joseph', 24, 70], ['table', '', 59, 40]]),
     8: dict(night=True, cast=[['print', 'exvoto', 50, 58]]),
     9: dict(night=True, cast=[['img', 'albarello', 22, 58], ['eye', '', 56, 40], ['horn', '', 82, 36]]),
     16: dict(night=True, cast=[['print', 'steri', 34, 56], ['card', 'Steri · 1601–1782', 73, 42, '2 men for magic']]),
