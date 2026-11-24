@@ -209,9 +209,9 @@ copy = copy.split('## Call-outs')[0]
 # call-outs: '- **Name** | dates | portrait-key: text [ids]'  (Bryan, Nov 23: drill-downs for people and peoples)
 PORTRAITS = {
     'pitre': ('Giuseppe Pitrè', 'Photograph by an unknown photographer, before 1916 (Pitrè died that year). Public domain by age. '
-              'Copy supplied by Bryan from Sicilian Post.'),
-    'gramsci': ('Antonio Gramsci', 'Photograph by an unknown photographer, about 1922. Public domain by age. Copy supplied by '
-                'Bryan from Wikimedia Commons (File:Gramsci.png).'),
+              'From Sicilian Post.'),
+    'gramsci': ('Antonio Gramsci', 'Photograph by an unknown photographer, about 1922. Public domain by age. '
+                'From Wikimedia Commons (File:Gramsci.png).'),
     'demartino': ('Ernesto de Martino', 'Photograph by F.DelDongo, about 1956, from Wikimedia Commons '
                   '(File:Album_mix_005_Muzi_Epifani_Ernesto_de_Martino.jpg), '
                   '<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>. '
@@ -576,8 +576,8 @@ SCENES = {
     14: dict(lights=True, cast=[['teller', '', 27, 62, 'unmask'], ['card', 'Milan, 1440s', 70, 44, 'a card game']]),
     15: dict(lights=True, cast=[['img', 'isis', 18, 56], ['img', 'goddess', 44, 50], ['img', 'agatha', 74, 62]]),
     # the three thinkers as cut-paper puppets (Bryan, Nov 24), each with the name tag the old cards carried
-    2: dict(cast=[['img', 'pitre', 17, 34, 'Pitrè', 'Palermo · 1910'], ['img', 'gramsci', 50, 38, 'Gramsci', 'prison notebooks'],
-                  ['img', 'demartino', 83, 37, 'de Martino', 'Sud e magia · 1959']]),
+    2: dict(cast=[['img', 'pitre', 20, 34, 'Pitrè', 'Palermo · 1910'], ['img', 'gramsci', 50, 38, 'Gramsci', 'prison notebooks'],
+                  ['img', 'demartino', 80, 37, 'de Martino', 'Sud e magia · 1959']]),
     3: dict(cast=[['card', '535', 23, 36, 'Byzantium'], ['card', '831', 50, 42, 'Arabs take Palermo'], ['card', '1071–72', 77, 36, 'Normans']]),
     4: dict(sea=True, cast=[['boat', 'bust', 62, 54], ['img', 'agatha', 25, 46]]),
     5: dict(back='float', cast=[['img', 'rosalia', 50, 64]]),
