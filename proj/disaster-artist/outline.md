@@ -114,8 +114,9 @@ The last section lists every claim in the brief that the research contradicts or
 5. "He shot himself in a wheat field." → **CONTESTED** holds: Naifeh & Smith (2011) vs. Van Tilborgh &
    Meedendorp (2013), Di Maio's forensic comment, the 2019 revolver sale (F95–F99).
 - **Vignettes:** the petition holds (about 30 names, February 1889, asking that he be locked up or sent home;
-  F58). The chicken coop is attributed to "the story goes": the Pushkin's own pages don't tell it, and the brief's
-  "entered the Pushkin in 1960" has no support (F91–F92).
+  F58). The chicken coop is told as the Pushkin's own telling, a tradition with no named source; Rey himself
+  (1928) said only that it went to the garret and plugged a broken window. It entered the Pushkin in 1948, not 1960
+  (F91–F92; round 2).
 - **Footnotes:** F40, F55, F58, F70–F74, F91–F92, F95–F99.
 
 ## Chapter 6 · The Fix (paper)
@@ -175,7 +176,7 @@ Runs on the stipend model (`research/stipend-model.md`): ends at about 16,000 F,
 12. "Studio of the South total sales: zero": one, *The Red Vineyard* (F62).
 13. "Boussod & Valadon show, January 1890, ~20 works": no trace (F73).
 14. "Stedelijk acquisitions from 1905 onward": no trace; 1905 was Johanna's exhibition there (F78–F79).
-15. "Dr Rey portrait ... entered the Pushkin in 1960": unsupported; likely 1948 (F91).
+15. "Dr Rey portrait ... entered the Pushkin in 1960": wrong; it entered in 1948 (F91).
 16. Johanna "never remarried": she married Johan Cohen Gosschalk in 1901 (F77).
 17. Johanna "with a newborn" and "declined to come home": the son was nearly one; she moved back to the
    Netherlands (F76).
@@ -185,12 +186,12 @@ Runs on the stipend model (`research/stipend-model.md`): ends at about 16,000 F,
 
 **Can't support yet (hedge, attribute, or wait for pass 2):**
 20. The Meiji state "catfishing back" (F44).
-21. "Red hair as the tell" on Gauguin's Christ (F61): no text source.
-22. The chicken coop: only "the story goes" (F92).
-23. What Johanna cut from the 1914 letters (F85): no source lists the cuts, so "sanded the friction out" is
-    unsupported; the one-sided edition is the sourced version of the point.
+21. "Red hair as the tell" on Gauguin's Christ (F61): one magazine source only; show it in the swatches.
+22. The chicken coop: a tradition the Pushkin repeats without a source; attribute it to the museum (F92).
+23. What Johanna cut from the 1914 letters (F85): documented changes are narrow and the money complaints survive,
+    so "sanded the friction out" is unsupported; the one-sided edition is the sourced version of the point.
 24. "Roughly a schoolmaster's wages": no teacher's pay found; a coal miner's pay is sourced (F28).
 25. The 18,000 F total: inside the model's 13,000–19,000 F range, but no source gives it (F25).
-26. Theo paid Gauguin's fare and debts: not found (F52).
+26. Theo paid Gauguin's fare and debts: not found in two rounds (F52).
 27. Bernheim-Jeune 1901, 71 works: one source (F84).
 28. Mère Tanguy's stacks as "the family fortune": the 1894 sale raised about 10,000 F (F94).
