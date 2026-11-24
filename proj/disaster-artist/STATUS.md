@@ -2,9 +2,10 @@
 
 _Last updated: Nov 24, 2026._
 
-- **Stage:** outline approved by Bryan (Nov 24). Next: he runs the four Gemini Deep Research prompts in
-  `research/gemini-prompts.md` (Gauguin in Arles; Johanna's 1914 editing and remarriage; the chicken-coop
-  provenance; three suspected AI-invented claims), reports go in `research/gemini/`, then figures update and prose. Brief = Bryan's own uploaded
+- **Stage:** outline approved by Bryan (Nov 24). Round-2 research done by Claude at his request: four reports and
+  verdicts in `research/round2/` (Gauguin in Arles; Johanna's 1914 editing and remarriage; the chicken coop; three
+  suspect claims, all false). Next: fold them into `figures.md`, then prose. Bryan runs `research/image-hunt.md` in
+  Gemini Antigravity to fetch the paintings. Brief = Bryan's own uploaded
   build brief (`brief.md`). Prose will be written with Gemini; this pass stops at the outline (Bryan, Nov 24).
 - **Research:** five pass-1 workers (counts, money, Arles, afterlife, early life) and one gap-fill pass, in
   `research/workers/`. vangoghletters.org and most vangoghmuseum.nl pages wouldn't load for the workers, so several
@@ -18,5 +19,5 @@ _Last updated: Nov 24, 2026._
   (src → full/thumb + sizes.json) and `scripts/extract_swatches.py` (measured colour chips for the compare plate)
   are ready for them; both run from Thonny.
 - **Chart data:** `data/chart-data.json`, every number tied to a figures.md row.
-- **Open:** the four Gemini reports; letter quotes to recheck; *The Account Book of Theo van Gogh and Jo van
+- **Open:** folding the round-2 reports into figures; letter quotes to recheck; *The Account Book of Theo van Gogh and Jo van
   Gogh-Bonger* (2002) would replace the stipend model with real numbers.

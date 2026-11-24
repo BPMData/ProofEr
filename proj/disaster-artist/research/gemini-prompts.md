@@ -1,5 +1,7 @@
 # Disaster Artist: Gemini Deep Research prompts (round 2)
 
+_Run by Claude instead, at Bryan's request (2026-11-24): the four reports and their verdicts are in `round2/`._
+
 Bryan asked for these on 2026-11-24, after approving the outline: four topics where the first two research passes
 came back thin, contradicted the brief, or rest on one source. Run each prompt in **Gemini Deep Research** as its own
 session. Save each report as markdown in `proj/disaster-artist/research/gemini/` with the file name given above the
