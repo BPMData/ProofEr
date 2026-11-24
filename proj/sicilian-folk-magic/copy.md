@@ -1,6 +1,6 @@
 # Copy: Saints & Spells (working title)
 
-Status: DRAFT by Claude · rewritten Nov 23, 2026 in the friend-and-folklorist voice (Bryan's Act 5 notes) · far fewer stamps
+Status: DRAFT · rewritten Nov 23, 2026 in the Tuchman ("A Distant Mirror") + wry Sicilian friend voice
 
 _Written from `figures.md` only. Every fact carries its row ID in brackets; the IDs come out at build. Lines that rest on
 one document name that document in the sentence (Bryan's call, D3). Stamps are the red myth-check stamps.
@@ -12,7 +12,7 @@ one document name that document in the sentence (Bryan's call, D3). Stamps are t
 
 **Saints & Spells**
 
-A friendly guide to Sicily's saints, spells and the stories outsiders tell about them, checked claim by claim.
+Sicily's saints, relics, night-fairies, and folk healers—and the exotic myths outsiders pinned to them, weighed against the island's own records.
 
 A show in eight acts. By Bryan Murphy · November 22, 2026
 
@@ -20,142 +20,69 @@ A show in eight acts. By Bryan Murphy · November 22, 2026
 
 ## 1 · Overture: the cards on the table
 
-Sit down. Cut the deck. The fortune-teller turns over three cards: the Sun, the Moon, the Star. She wears a scarf
-fringed with coins, gold hoops and a shawl full of stars, and she looks as if she came from somewhere far away and very
-old.
+Sit down across the felt and cut the deck. The fortune-teller turns over three cards—the Sun, the Moon, the Star—under the weight of a coin-fringed scarf, gold hoops, and a shawl scattered with stars, looking for all the world as though she has stepped out of some ageless, candlelit elsewhere.
 
-That's roughly the picture many people have of Sicily too: an island of omens and charms, of saints with goddesses
-under their robes, where the old gods never quite left. So let's start with the cards, because they're the easiest
-trick to see through.
+That theatrical silhouette is also the portrait outsiders most often paint of Sicily: an island of omens and whispered charms, of Catholic saints wearing pagan goddesses like stolen petticoats, where the ancient gods merely changed their names and waited out the centuries. Before we set foot on the island, though, it pays to linger at the card table for one more minute, because the deck in the fortune-teller's hands is the cleanest demonstration of how an ordinary European pastime gets fitted with a fake ancient pedigree.
 
 _scene 14_
 
-Tarot began as a card game, in the courts of 15th-century northern Italy, probably in Milan or Ferrara. The oldest
-surviving packs, the painted Visconti-Sforza cards, were made for the dukes of Milan between about 1440 and 1480.
-People played tarocchi to win tricks, not to see the future. [X1-214, X1-215]
+Tarot began not in a desert temple, nor beside a campfire, but at the card tables of fifteenth-century northern Italy—almost certainly in Milan or Ferrara, where the earliest written references appear in the 1440s and 1450s [X1-214]. The oldest surviving packs, the sumptuously painted Visconti-Sforza cards, were commissioned for the dukes of Milan between about 1440 and 1480; lords and ladies played *tarocchi* to win tricks, like any courtly card game, rather than to peer into the future [X1-214, X1-215].
 
-The fortune-telling came three centuries later, in Paris. In 1781 the scholar Antoine Court de Gébelin announced that
-the cards were the lost Book of Thoth, the wisdom of ancient Egyptian priests, and that "Gypsies" had carried it into
-Europe. Around the same years a Paris card-reader who signed himself Etteilla (his surname, Alliette, backwards) made
-the first pack meant only for fortune-telling. [X1-216, X1-217, X1-218]
+The prophecy business arrived three centuries later, not in Italy at all, but in the salons of Enlightenment Paris [X1-223]. In 1781 the Swiss-born French Protestant pastor, scholar, and Freemason **Antoine Court de Gébelin** announced in his sprawling *Le Monde primitif* that tarot was no mere Renaissance pastime: it was, he claimed, the lost *Book of Thoth*, an encrypted treasury of ancient Egyptian priestly wisdom carried into Europe by wandering "Gypsies" [X1-216, X1-217, X1-261]. Around the same years a Parisian card-reader named Jean-Baptiste Alliette—who reversed his surname to sign himself **Etteilla**—published divination treatises in the 1780s and produced the first deck designed exclusively for fortune-telling [X1-218, X1-262].
 
-Others piled on. In 1889 the Paris occultist Papus called his book *The Tarot of the Bohemians*. In London the
-Hermetic Order of the Golden Dawn, a society of English occultists founded in 1888, redesigned the pack, and the deck
-most card-readers use today came out of that circle in the early 1900s. [X1-220, X1-221, X1-222, X1-223]
+Once the veil of antiquity had been stitched on, nobody wanted to take it off. A century later, in 1889, the Spanish-born French physician and occultist **Papus** gathered those Parisian theories together under the title *The Tarot of the Bohemians* [X1-220, X1-263]. Meanwhile the cards had crossed the Channel into Britain in 1886, and two years later the Hermetic Order of the Golden Dawn set about redesigning the pack [X1-221]. Out of that London circle in the early 1900s came the Rider-Waite-Smith deck—conceived and directed by **Arthur Edward Waite**, who supplied *The Pictorial Key to the Tarot*, and painted across all seventy-eight cards by **Pamela Colman Smith**, who turned even the numbered pip cards into miniature stories, giving modern card-readers the images they still reach for first [X1-222, X1-223, X1-264, X1-265]. Another Golden Dawn initiate, **Aleister Crowley**, later pushed the esoteric overhaul further still, collaborating between 1938 and 1944 with the artist Lady Frieda Harris on the seventy-eight paintings of the Thoth Tarot and its accompanying *Book of Thoth* [X1-266, X1-267].
 
-No one ever found evidence tying tarot to Egypt, or to the Romani people that "Gypsies" meant. The exotic origin was
-added to make an Italian card game look ancient and mysterious, and the costume came with it. [X1-219]
+Not a shred of historical evidence has ever linked tarot to pharaonic Egypt, or to the Romani people whom eighteenth-century Parisians romanticized as "Gypsies" [X1-219]. The exotic origin was pure parlor theater, invented in Paris in 1781 to make a northern Italian trick-taking game look ancient and mysterious; the star-spangled shawl simply followed the script [X1-219].
 
-**Stamp:** MYTH-CHECK · tarot is ancient Egyptian or "Gypsy" wisdom · an Italian card game of the 1400s; the exotic
-origin was invented in Paris in 1781 [X1-219]
+**Stamp:** MYTH-CHECK · tarot is ancient Egyptian or "Gypsy" wisdom · an Italian card game of the 1400s; the exotic origin was invented in Paris in 1781 [X1-219]
 
-And Sicily? It got tarot in the mid-1600s, probably from Rome, and went on playing it as a game. According to the
-card-games site Pagat, a few people in Mineo, Palagonia and Grammichele, and at Tortorici in the province of Messina,
-still play Sicilian tarocchi, with the island's own small pack of 63 cards. [X1-224, X1-225 (Pagat, named)]
+And what did Sicily make of all this? Tarot reached the island in the mid-1600s, probably from Rome, and Sicilians treated it with refreshing common sense: they went on playing it as a card game [X1-224]. According to the card-games reference Pagat, a few players in Mineo, Palagonia, and Grammichele—as well as at Tortorici in the province of Messina—still play Sicilian *tarocchi* today, using the island's own compact sixty-three-card pack [X1-225 (Pagat, named)].
 
 _scene 15_
 
-The cards are a small case of something that happens to Sicily a lot: outsiders pin an ancient, exotic story on
-something ordinary Sicilians do. Since the 1820s writers have read the island as a place where the old gods hid inside
-the saints. An English writer, J. J. Blunt, set Catania's Saint Agatha beside the goddess Ceres in 1823. Palermo's own
-great folklorist, Giuseppe Pitrè, wrote in 1881 of Sicilian traditions as "remains of ancient mythologies". British
-anthropologists of the same years called customs like these "survivals", fossils of an older religion. [X1-95, X1-18,
-X1-17]
+What Paris and London did to a deck of playing cards, northern writers and folklorists have been doing to Sicily for two hundred years: taking the lively, improvised Catholicism of an ordinary island and draping it in an ancient, uncanny costume. Since the 1820s, travelers and scholars have read Sicilian devotion as a masked survival of pagan antiquity. In 1823 the English clergyman J. J. Blunt looked at Catania's festival of Saint Agatha and thought he saw the Roman harvest goddess Ceres peering out from beneath the martyr's robes [X1-95]; in 1881 Palermo's own indefatigable collector, Giuseppe Pitrè, introduced his island's traditions to readers as "remains of ancient mythologies" [X1-18]; and British anthropologists of the same era grouped such customs together as "survivals," fossils of an earlier faith somehow preserved intact inside Christianity [X1-17]. Modern scholarship, with a few cautious exceptions, has largely dismantled that blanket explanation [X1-19].
 
-There's a reason the story sticks. Sicily is very old, and nearly everyone ruled it at some point: Greeks, Romans,
-Byzantines, Arabs, Normans, Germans, French, Spaniards. Its feasts are loud, its saints are everywhere, and its dead
-are close. But the goddess under every saint is mostly a 19th-century idea, and it hides the better story. [X1-50,
-X1-53, X1-56, X1-58, X1-60, X1-64, X1-66, X1-67, X1-19]
+It is easy enough to see why the mirage lingers. Sicily's history runs deep, and an astonishing roster of empires ruled the island in turn—Greeks, Romans, Byzantines, Arabs, Normans, Hohenstaufen Germans, French Angevins, and the crowns of Aragon and Spain [X1-50, X1-53, X1-56, X1-58, X1-60, X1-64, X1-66, X1-67, X1-71]. Its processions shake the street, its saints crowd every piazza, and its dead remain part of the neighborhood conversation. All the same, the notion that a pagan goddess squats behind every Sicilian altar is largely a nineteenth-century invention, and believing it means missing a far more human story: how the people of an island ruled endlessly from abroad took the saints, relics, and feasts of the Catholic Church and fashioned them into their own practical shields against plague, lava, hunger, and death.
 
-Here's that story. On an island one outside power after another ruled, Sicilians took the Church's saints, relics and
-feasts and made them their own answers to plague, lava, hunger and death.
-
-Why a show in acts? Because the famous claims come in bundles, and it's easier to check one bundle at a time. Acts 1 to
-3 visit three cities and the women saints who guard them: Catania, Palermo and Messina. Act 4 sets Saint Joseph's
-table. Acts 5 and 6 happen at night, with the dead who help the living and the healers the Inquisition put on trial.
-Act 7 opens a cabinet of relics, and Act 8 follows the saints across the ocean. The stage above changes with each act,
-and the red stamps mark the claims that don't hold up.
+Because those famous claims arrive in clusters, this show checks them one bundle at a time across eight acts. Acts 1 through 3 travel to three cities—Catania, Palermo, and Messina—to meet the three women patrons who stand watch over them; Act 4 pulls up a chair to Saint Joseph's table; Acts 5 and 6 wait for nightfall to examine the executed dead who help the living and the folk healers hauled before the Spanish Inquisition; Act 7 opens a cabinet of contested bones and relics; and Act 8 follows Sicily's saints across the Atlantic. The stage shifts with every turn in the story, and the red stamps mark the tall tales that crumble when you open the archive.
 
 ---
 
 ## 2 · Where the goddess story came from
 
-The scholars' word for beliefs from different sources blending into one practice is *syncretism*. It's an old Greek
-word: Plutarch used the verb for Cretans who stopped feuding and joined forces against an outside enemy. [X1-01]
+When historians describe beliefs from different traditions merging into a single practice, they reach for the word *syncretism*, a term with an unexpectedly pragmatic pedigree: Plutarch first used the Greek verb for Cretans who set aside their own quarrels to unite against an outside enemy [X1-01]. An alliance, in other words, long before it meant a religious blend.
 
-In the late 1800s anthropologists such as Edward Tylor, and after him James Frazer in Britain, treated folk customs as
-"survivals": leftovers of an older religion, still twitching. That idea shaped how a generation read Sicily. Most
-scholars now reject it as a general rule, though a few still argue for long continuity in particular beliefs. [X1-17,
-X1-19]
+In the late nineteenth century, evolutionist anthropologists in Britain—Edward Tylor and, after him, James Frazer—cast folk customs in a far more romantic light, treating them as "survivals": archaic relics of pre-Christian worship still twitching beneath a thin Catholic veneer [X1-17]. That lens shaped an entire generation's reading of the Mediterranean. Today most historians and anthropologists reject "survival" as a catch-all explanation, even while a handful still debate whether specific motifs carry distant echoes [X1-19].
 
-Three people shaped how Sicily's folk religion is understood, and you'll meet them again on the way:
+Three Italian thinkers, working across nearly a century, changed how Sicily's folk religion is understood, and their names will return as our story unfolds:
 
-- **Giuseppe Pitrè**, a Palermo doctor, spent decades collecting his island's customs, and also helped start the
-  survival story. [X1-21, X1-26, X1-27, X1-18]
-- **Antonio Gramsci**, writing in a fascist prison, argued that ordinary people's folklore was a worldview of its own,
-  "to be taken seriously". [X1-10]
-- **Ernesto de Martino** studied magic in mainland southern Italy in the 1950s and refused to call it a pre-Christian
-  leftover; he tied it to Catholic practice instead. [X1-12, X1-13, X1-15]
+- **Giuseppe Pitrè**, a Palermo physician who practiced medicine all his life while scarcely leaving his city, spent his spare hours assembling twenty-five volumes of Sicilian songs, cures, legends, and feasts, founded an archive journal in 1882, and received Italy's first university chair in folklore in 1910—though in 1881 he also helped set the survival myth in motion by calling those customs "remains of ancient mythologies" [X1-21, X1-26, X1-27, X1-18].
+- **Antonio Gramsci**, writing from a Fascist prison cell, insisted that ordinary people's folklore was neither quaint amusement nor museum rubble, but a coherent worldview of its own, "to be taken seriously" [X1-10].
+- **Ernesto de Martino**, conducting fieldwork in mainland southern Italy during the 1950s for his landmark *Sud e magia*, refused to treat southern magic as a pagan fossil at all, showing instead how tightly it was bound up with Catholic ritual as a way of steadying human life in the face of crisis [X1-12, X1-13, X1-15].
 
-**Why Sicily gets the spooky treatment.** Part of the answer is plain prejudice. Once Sicily became part of the new
-Italy, many in the North saw the South as a problem to explain, and explained it the way Europe talked about the East:
-exotic, backward, a little mysterious. Historians call that habit Orientalism, and the scholars in Jane Schneider's 1998
-book *Italy's "Southern Question"* call Italy's version "Orientalism in one country". One of its chapters is titled
-"The Magic of the South". [X1-239]
+**Why Sicily gets the spooky treatment.** Scholarship alone does not explain why Sicily in particular keeps getting painted as half-pagan and faintly occult; part of the answer is plain political prejudice. Once Sicily was folded into the newly unified Kingdom of Italy, many northern politicians and intellectuals looked south and saw a problem they needed to explain away, reaching for the same condescending vocabulary Europe used for the East: exotic, fatalistic, backward, uncanny. Historians call that habit Orientalism, and the scholars in Jane Schneider's 1998 collection *Italy's "Southern Question"* aptly name Italy's domestic version "Orientalism in one country"—including a chapter devoted to "The Magic of the South" [X1-239].
 
-The tone was set early. In 1860 the politician Carlo Farini said of the South, "This is Africa: compared to these
-peasants the Bedouins are the pinnacle of civilization," as the journalist Frank Viviano recounts. Then came race
-science. In 1876 the criminologist Cesare Lombroso claimed to find "African and Oriental elements" in the people of
-Calabria, Sicily and Sardinia, and later social scientists, Sergi and Niceforo among them, ranked Italians on a
-ladder of races with northerners at the top and Africa as the bottom rung. Sicily's Arab centuries were held against it, as if a medieval past could
-explain a modern crime rate. [X1-240 (Viviano, named), X1-241, X1-242]
+The tone was set within months of unification. In 1860 the northern statesman Carlo Farini wrote back from the South, as the journalist Frank Viviano recounts, "This is Africa: compared to these peasants the Bedouins are the pinnacle of civilization" [X1-240 (Viviano, named)]. Soon race science dressed that contempt in calipers and footnotes. In 1876 the criminologist Cesare Lombroso claimed to detect "African and Oriental elements" in the inhabitants of Calabria, Sicily, and Sardinia, and a school of Italian sociologists—Giuseppe Sergi and Alfredo Niceforo among them—ranked Italians on a ladder of races with northerners at the top and Africa at the bottom, holding Sicily's medieval Arab centuries against its living citizens as though a ninth-century conquest explained a nineteenth-century crime rate [X1-241, X1-242].
 
-The prejudice crossed the ocean with the emigrants. In the United States Sicilians were often treated as something
-less than fully white; an 1899 writer in *Harper's Weekly* said they could "hardly be classed as 'white men.'" In New
-Orleans, whose Italian community was mostly Sicilian, a mob killed eleven Italian prisoners in 1891, the worst mass
-lynching in American history, and a *New York Times* editorial called Sicilians "the descendants of bandits and
-assassins". [X1-243, X1-244, X1-245 (the *Times*, named), X1-246]
+That stigma boarded the steamships with Sicilian emigrants. In the United States, Sicilians were routinely slotted into a suspect, "dark white" in-between category; an 1899 writer in *Harper's Weekly* declared they could "hardly be classed as 'white men'" [X1-243]. Eight years earlier, on 14 March 1891 in New Orleans—whose Italian colony was overwhelmingly Sicilian—a mob killed eleven Italian prisoners in the worst mass lynching in American history, an atrocity a *New York Times* editorial excused by calling Sicilians "the descendants of bandits and assassins" [X1-244, X1-245 (the *Times*, named), X1-246].
 
-None of this made Sicilians more magical than anyone else. It made them easy to cast as the mysterious ones, and a
-story about goddesses hiding under the saints fit the part. It's the fortune-teller's costume again, this time on a
-whole island.
+None of that cruelty made Sicilians any more magical than anyone else. What it did was make the island irresistibly easy to cast as the mysterious, enchanted other—and a bedtime story about ancient goddesses hiding under Catholic vestments suited the part to perfection. It is the Parisian fortune-teller's shawl all over again, draped this time across an entire island.
 
 ---
 
 ## 3 · Sicily 101: saints, relics and rulers
 
-If you didn't grow up Catholic, a few words first, because the whole show runs on them.
+If you did not grow up Catholic, half of what happens on a Sicilian piazza can look baffling without a handful of working terms, because the entire drama ahead runs on them.
 
-A *saint*, in Catholic belief, is a holy person who has died and is now with God. Catholics don't worship saints as
-gods. They ask them to pray for them, the way you might ask a well-connected friend to put in a word. That asking is
-called *intercession*; the Church's Catechism says the saints "do not cease to intercede with the Father for us".
-[X1-227 (the Catechism, named)]
+A *saint*, in Catholic teaching, is not a minor deity, but a human being who died in grace and is now with God. Catholics do not worship saints as gods, but ask them to put in a word with heaven, rather as one asks a well-placed friend at court to carry a petition upstairs. That pleading is called *intercession*: as the *Catechism of the Catholic Church* puts it, the saints "do not cease to intercede with the Father for us" [X1-227 (the *Catechism*, named)]. Crucially, the Church keeps a strict gate on who qualifies: under canon law, public veneration is permitted only for those officially enrolled among the saints or the blessed [X2-124]—a rule to tuck into your pocket before we reach Act 5.
 
-The Church decides who counts. Its law allows public veneration only of those it has listed among the saints or the
-blessed. Hold on to that for Act 5. [X2-124]
+A *martyr* is a saint executed for refusing to renounce the faith; Sicily's earliest saints, Catania's Agatha among them, are placed by tradition in the Roman persecutions of the third century [X1-82]. A *patron saint*, by contrast, is a town's own municipal advocate. Around 1900, in a survey of roughly 150 Sicilian towns, Giuseppe Pitrè counted Mary as principal patron in 45, the Crucifix in 13, and 50 distinct saints sharing the remaining 88—an island-wide mosaic of neighborhood loyalties [X1-183, X1-184 (Pitrè 1900, named)].
 
-A *martyr* is a saint who was killed for the faith. Sicily's oldest saints, Agatha among them, were martyrs of the
-Roman persecutions, at least by tradition. [X1-82]
+A *relic* is the physical trace a saint left behind: the whole body, a bone or sliver of flesh, or an object the saint touched. Under the Vatican's 2017 instruction on relics, Church rules divide them into two tiers: significant relics (the body itself or notable parts of it) and non-significant ones (tiny fragments or objects once in direct contact with the saint) [X2-126]. To a medieval or early modern city, the working theology was simpler and far more visceral: holding a saint's relic meant the saint was physically present inside your walls. And a *feast*, or *festa*, is that saint's day, when in Sicily the whole town spills into the street behind a towering float carrying the patron's statue or bones.
 
-A *patron saint* is a town's own protector. Around 1900 Pitrè surveyed about 150 Sicilian towns: Mary was the main
-patron of 45 and the Crucifix of 13, and 50 different saints shared the other 88. [X1-183, X1-184 (Pitrè 1900, named)]
+**Why the floats?** Those towering floats are easy to mistake for timeless pagan pageants; in truth, Sicily's four great urban feasts—for Rosalia in Palermo, Agatha in Catania, the Assumption of Mary in Messina, and the Good Friday *Misteri* in Trapani—all took their recognizable form in the baroque seventeenth and eighteenth centuries [X1-122, X1-122a]. As the historian Francesco Benigno has shown, Jesuits and other Counter-Reformation orders, working alongside trade guilds and city councils, engineered them as deliberate civic theater packed with triumphal carts, giant candles, and stage machinery: "creations of the baroque," roughly four hundred years old rather than two thousand [X1-122, X1-122a].
 
-A *relic* is what a saint left behind: the body, a part of it, or something the saint touched. Church rules today sort
-relics into significant ones (the body or notable parts of it) and small ones. To a city, a relic means its saint is
-physically there. [X2-126]
-
-A *feast*, or *festa*, is the saint's day, and in Sicily it means a procession: the saint's statue or relics carried
-through the streets on a huge float, with the whole town out.
-
-**Why the floats?** Sicily's four great city feasts, for Rosalia in Palermo, Agatha in Catania, the Assumption of Mary
-in Messina and the Good Friday *Misteri* in Trapani, all took their present shape in the baroque age of the 1600s and
-1700s. Jesuits, trade guilds and city governments turned them into shows meant to astonish, with carts, giant candles
-and machines. The historian Francesco Benigno calls them "creations of the baroque". So the floats are about 400 years
-old, not 2,000. [X1-122, X1-122a]
-
-Before the colonists came, the island belonged to [[the Sicani, the Sicels and the Elymians|first peoples]], with
-Phoenicians trading on the coasts. Greeks founded colonies from the 8th century BC, and Rome made Sicily a province in
-the 3rd century BC. [X1-47, X1-50, X1-53]
+Long before any baroque float rolled down a Sicilian avenue, the island belonged to [[the Sicani, the Sicels and the Elymians|first peoples]], with Phoenician traders holding settlements along the coasts; Greek colonists arrived from the eighth century BC, and Rome made Sicily a province in the third century BC [X1-47, X1-50, X1-53]. After Rome, stability became a rare commodity.
 
 Then the island changed hands, again and again:
 - **535:** Byzantium takes the island. [X1-56]
@@ -167,81 +94,43 @@ Then the island changed hands, again and again:
 - **1443:** one king for Naples and Sicily again. [X1-70]
 - **1713:** Savoy. **1720–1734:** Austria. **1816:** the Kingdom of the Two Sicilies. [X1-74, X1-75, X1-77]
 
-The Church didn't need to hide inside the old gods. It moved into their buildings. In the late 6th century the Temple
-of Concord at Agrigento and the Athenaion at Syracuse became churches, and Palermo's cathedral was rebuilt, from about
-1170, on the site of a mosque. Reusing a building isn't the same as keeping its religion. [X1-42, X1-43]
+Read that ledger at a glance and the logic of Sicilian civic devotion snaps into focus. Emperors in Constantinople, emirs in Palermo, Norman knights, German Hohenstaufens, French Angevins, Aragonese kings, Spanish Habsburgs (who governed the island from 1516 to 1713, as the Met's Heilbrunn timeline notes), Savoyards, Austrians, and Neapolitan Bourbons arrived, taxed, quarreled, and departed [X1-71]. Distant capitals came and went; a city's own patron saint stayed put, residing inside the cathedral reliquary and acting—as medieval Christians held, in historian Patrick Geary's summary—for the community that guarded her bones [X2-152]. When kings kept changing overhead, the local saint—backed by town councils and trade guilds, as Benigno traces—was the one civic institution that belonged unmistakably to the people on the ground [X1-122a].
 
-And in 1487 the Spanish Inquisition sent its first inquisitor to Sicily. Hold that thought too. [X3-01]
+Nor did the Church need to disguise old gods under saintly names to claim the landscape; it simply moved into their real estate. In the late sixth century, classical temples such as the Temple of Concord at Agrigento and the Athenaion at Syracuse were converted directly into Christian churches, and from about 1170 Palermo's cathedral was rebuilt atop the site of a mosque [X1-42, X1-43]. Reusing cut limestone and prime hilltop real estate is thrift, not secret polytheism. One more date belongs in the ledger before the curtain rises on Act 1: in 1487, under Spanish rule, the Spanish Inquisition appointed its first inquisitor for Sicily [X3-01]—a shadow that will lengthen as our evening moves toward midnight.
+
+For now, though, the sun is still up, and the road leads east to the city on the Ionian coast at the foot of Mount Etna, where an early Christian martyr's stolen bones—and her veil—open our first act.
 
 ---
 
 ## 4 · Act 1 · Catania: Agatha goes away, and comes back
 
-Catania is a city on Sicily's east coast, at the foot of Mount Etna, the volcano that towers over the island's east.
-Its patron saint is Agatha, a young Christian woman of the city who, by tradition, was put to death there for her faith
-in the 250s, under the Roman emperor Decius. Christians were honoring her by late Roman times. [X1-200a, X1-82, X1-83]
+In an island forever passed from crown to crown, a city learns to anchor itself to a protector who will not pack up and leave when the next fleet arrives. Nowhere is that clearer than in Catania, a port city on Sicily's eastern, Ionian coast sitting directly at the foot of Mount Etna [X1-200a]. Catania's protector is Saint Agatha, whom Catholic tradition remembers as a young Christian woman of the city put to death there for her faith in the 250s, during the reign of the Roman emperor Decius [X1-82, X2-01]. To understand why a provincial woman's refusal mattered to Rome, it helps to know what Decius had just demanded: around January 250, the emperor issued an edict ordering every inhabitant—apart from Jews, who held an established exemption—to sacrifice to the Roman gods and for the imperial well-being, and to obtain a signed papyrus certificate (*libellus*) proving they had complied [X1-254]. Because Christian monotheism forbade offering sacrifice to other gods, refusal meant imprisonment, torture, or execution, unleashing the empire's first systematic, empire-wide persecution [X1-254]. Whatever contemporary court records may once have existed for Agatha are gone, though fifth- and sixth-century church martyrologies and a Roman basilica named by Pope Gelasius show Christians were honoring her by late Roman times [X1-83].
 
-About 1040, during his campaign of 1038–40, the Byzantine general George Maniakes took her body to Constantinople, the
-capital of the Byzantine Empire. No source from the time gives the year. Who received her there, the sources don't
-agree: some say Emperor Michael IV, others Empress Theodora. [X1-84, X2-02, X1-85, X2-03, X2-07]
+Across the medieval Mediterranean, a patron saint was never merely a memory in a prayer book; as Patrick Geary summarizes medieval belief, Christians held their saints to be physically present in, and actively defending, the communities that kept their bodies [X2-152]. About 1040, during his Sicilian campaign of 1038–40, the Byzantine general George Maniakes stripped Catania of that shield and carried Agatha's body off to Constantinople [X1-84, X1-85, X2-02, X2-03]. Even that famous abduction is hazy at the edges: Bishop Maurice's own Latin account gives no year for the theft, the Byzantine chroniclers Skylitzes, Psellos, and Attaleiates pass over it in silence (as historian Mariano Papasidero notes), and later writers cannot agree on whether the relics were presented to Emperor Michael IV or tucked into a convent of virgins by Empress Theodora [X1-85, X2-03, X2-05, X2-07].
 
-On 17 August 1126 two soldiers, Gislebertus and Goselinus, brought her body home to Catania. The clergy met it
-"nudis pedibus et in albis vestibus": barefoot, in white. That makes 2026 the 900th anniversary of her homecoming.
-[X1-86, X2-08, X2-10, X2-12, X1-97]
+For more than eighty years Catania lived without its saint, until 17 August 1126, when two soldiers named in Bishop Maurice's account as Gislebertus and Goselinus smuggled the body back across the sea by way of Taranto and Messina [X1-86, X1-87, X2-08, X2-09, X2-10, X2-11, X2-13]. Catania's clergy walked out to meet the landing *nudis pedibus et in albis vestibus*—barefoot and dressed in white—an arrival whose nine-hundredth anniversary falls in 2026 [X2-12, X1-97, X2-36]. Papasidero notes that Agatha was one of the few female saints whose relics were stolen in the Middle Ages, and Catania's archbishop Luigi Renna still calls that 1126 recovery a *sacro furto*, a "holy theft" [X2-15, X2-16]. Every year Catania keeps both dates on its calendar: the great winter *Festa di Sant'Agata* from 3 to 5 February, and the quieter procession of the return on 17 August [X1-90, X2-35]. During the February feast, trade guilds haul towering candle-structures through the streets—the folklorist Elisabetta Di Giovanni counted eleven of these *candelore* in 2007—while devotees march in a five-piece white robe, cap, cord, gloves, and handkerchief called the *sacco* [X1-91, X1-92, X1-200, X1-201]. A fond local tradition claims the robe commemorates the nightshirts Catanians supposedly ran out in when the relics docked in 1126; historian Francesco Benigno gently dates the *sacco*, cap, and gloves to the eighteenth century, even if Bishop Maurice's chronicle really did put the welcoming clergy in white [X1-93, X2-12, X2-34].
 
-Catania still celebrates her with the Festa di Sant'Agata, from 3 to 5 February, and again on 17 August for the
-return. Devotees wear a white robe, the *sacco*. A lovely story says it recalls the nightshirts people ran out in when
-the relics came home in 1126; the historian Benigno dates the robe to the 1700s. [X1-90, X2-35, X1-201, X1-93]
+**Inside the silver woman.** Here is the detail that tends to stop readers who did not grow up Catholic: Agatha is not buried under a stone slab. Most of her bones sit inside a gilded-silver reliquary bust made by Giovanni di Bartolo of Siena and dated 1376 by its Latin inscription (brought back from the papal court at Avignon in December 1377, according to a Catanese document cited by historian Stefano Riccioni), its metal surface so thick with jewels and gifts hung on it over the centuries that the silver barely shows [X2-18, X2-19, X2-150]. Archbishop Renna notes that a piece of her pelvis is sealed inside the bust, and that on 3 February 1963 her skull was lifted out so the faithful could venerate it directly; Maria Concetta Di Natale records two thighbone reliquaries kept inside a great chest, and because tradition tells that Agatha's torturers cut off her breasts, Archbishop Renna notes that one breast relic is venerated across the water at Galatina in Apulia [X2-23, X2-24, X2-25, X1-250, X2-37]. On her feast days the jewel-crusted bust leaves the cathedral and rides through the city streets—a practice Act 7 will examine across Europe as a whole [X2-151].
 
-**Inside the silver woman.** Here's the part that startles people who didn't grow up Catholic: Agatha isn't buried.
-Most of her bones sit inside a bust of her in gilded silver, made by Giovanni di Bartolo of Siena and dated 1376 by its
-inscription, and so covered in donated jewellery that the silver barely shows. A piece of her pelvis is sealed inside
-it. In 1963 her skull was taken out so the faithful could venerate it. Her two thighbones have reliquaries of their
-own, inside a great relic chest. In her legend her torturers cut off her breasts, and one breast is honoured as a relic
-too, in the town of Galatina in Apulia, on the mainland. On her feast days the bust leaves the cathedral and is carried
-through the streets. [X2-18, X2-150, X2-25, X2-24, X2-23, X1-250, X2-37, X2-151]
+Civic pride has naturally polished a few legends onto the metal. Guides routinely repeat that the crown on Agatha's bust was a gift from Richard the Lionheart in 1191, though Di Natale and earlier art historians place its making in the late fifteenth century, nearly three centuries after Richard sailed past [X2-21]. You will also read almost everywhere that Catania's feast is "the world's third-largest religious festival," a ranking that rests on no documented headcount and that Catania's own daily newspaper, *La Sicilia*, eventually dismissed as a figure "never verified" after thirty years of uncritical repetition [X1-96].
 
-To devotees that isn't morbid. A saint's body keeps the saint present in the town that holds it, close enough to be
-asked for help, and Catania has her. Act 7 opens the cabinet on how Europe came to collect saints this way. Her crown,
-by the way, is often said to be a gift from Richard the Lionheart. It was made in the late 1400s, long after his day.
-[X2-152, X2-21]
+**Is Agatha a goddess in disguise?** The myths that matter most for our story, though, are not the ones Catanians told about royal crowns, but the ones nineteenth- and early-twentieth-century scholars projected onto Agatha herself. Two ancient goddesses usually get drafted as her secret identity: Ceres, the Roman goddess of growing grain whose cult merged early with that of the Greek Demeter, widely worshipped across Sicily [X1-94a]; and Isis, the great Egyptian goddess whose worship spread across the Roman Empire [X1-94b]. In 1823 the English clergyman J. J. Blunt set Agatha beside Ceres and candidly admitted he could not prove the connection [X1-95]; in 1905 the historian Emanuele Ciaceri compared Catania's February procession to an Isis festival described by the Roman writer Apuleius, pointing to crowds, white robes, and lights [X1-94, X1-94c]. A 2025 study by the historian Cristiana Soraci, titled bluntly *"Né Demetra, né Iside"* ("Neither Demeter nor Isis"), lays out why the parallel collapses: in Apuleius's procession every participant wore white, whereas in 1126 only the clergy did (the lay devotees' white *sacco* arrived in the 1700s), and Isis herself is attested in Catania by nothing more than a few statuettes, a lamp, and some coins [X1-94, X1-94c (Soraci 2025, named), X1-93].
 
-You'll also read that this is the world's third-largest religious festival. We found no count behind that ranking,
-and Catania's own daily paper, *La Sicilia*, has called it a figure "never verified", repeated for 30 years. [X1-96]
+**Stamp:** MYTH-CHECK · Agatha is Ceres or Isis in disguise · first claimed in 1823 and 1905, with no evidence of a link [X1-94, X1-95]
 
-**Is Agatha a goddess in disguise?** For Agatha the usual candidates are two goddesses. Ceres was the Roman goddess of
-growing crops; early on her cult merged with that of the Greek Demeter, who was widely worshipped in Sicily. Isis was
-one of the great goddesses of ancient Egypt, and her cult spread across the Roman Empire. [X1-94a, X1-94b]
-
-Why them? Blunt, in 1823, set Agatha beside Ceres, and admitted he couldn't prove it. In 1905 the historian Emanuele
-Ciaceri compared her feast to a procession for Isis described by the Roman writer Apuleius: crowds, white clothes,
-lights. A 2025 study by Cristiana Soraci answers in its title, "Né Demetra, né Iside" (neither Demeter nor Isis). At
-Apuleius's procession everyone wore white; in 1126 only the clergy did. And Isis is known in Catania only from a few
-statuettes, a lamp and some coins. [X1-94, X1-95, X1-94c (Soraci 2025, named)]
-
-**Stamp:** MYTH-CHECK · Agatha is Ceres or Isis in disguise · first claimed in 1823 and 1905, with no evidence of a
-link [X1-94, X1-95]
-
-**The veil.** Devotees believe her veil can hold back Etna's lava. In 1669 Etna erupted for four months, from March to
-July. Through those months the veil and other relics were carried in prayer processions, in the villages in the lava's
-path and in Catania itself, and citizens led by Diego Pappalardo tried to dig the flow aside. On 30 April the lava
-broke through the city walls on the west side and destroyed part of the walls and a number of buildings; it had
-already reached the sea at the harbor. Believers said the veil kept the whole city from being destroyed. The rest of
-Catania did survive the lava. [X2-28, X2-29, X2-29a, X2-29b]
+**The veil.** Alongside Agatha's bones, Catania's cathedral keeps another cherished relic tied directly to the smoking peak above the town: the martyr's veil, which devotees revere as "the instrument of this prodigious intercession" against Mount Etna's lava [X2-28]. That faith faced its supreme test in 1669, when Etna erupted continuously from March to July [X2-29]. Beginning on 13 March, clergy and townsfolk carried the veil and other relics in urgent prayer processions through villages directly in the lava's path and inside Catania itself, while citizens led by Diego Pappalardo went out with iron tools to try diverting the molten channels away from the city [X2-29, X2-29a, X2-29b]. On 23 April, as volcanologist Boris Behncke's *Italy's Volcanoes* records, the flow reached the sea at the harbor, and on 30 April it breached the western walls and destroyed part of the walls and surrounding buildings [X2-29a]. Even so, the rest of Catania survived, and believers credited the veil with sparing the whole city from ruin—a conviction durable enough that in 1886, as a University of Teramo historical study records, Archbishop Dusmet again raised the veil before advancing lava at Nicolosi, where the flow halted short of the town [X2-29b, X2-30].
 
 _Relic cabinet: drawer 1, Agatha's body, Catania._
+
+Catania spent centuries draping silver, jewels, and miracle chronicles around a martyr from Roman antiquity. Cross the island westward to Palermo, and you watch a city do the opposite: elevate a brand-new patron saint in twelve frantic days, with the Senate voting first and the Church's investigators catching up months later.
 
 ---
 
 ## 5 · Act 2 · Palermo: Rosalia and the plague
 
-In May 1624 the plague reached Palermo. [X1-98]
+In May 1624—on 7 May, by the Vatican's account, aboard a ship arriving from Tunis—bubonic plague reached Palermo, though physicians did not formally confirm the outbreak until early August [X1-98]. As Sicily's viceregal capital and seat of Parliament, Palermo had formidable civic pride and an impatient Senate, yet its spiritual defenses felt suddenly thin [X1-255]. Before that summer the city looked to four principal patronesses—Agatha, Cristina, Ninfa, and Oliva—and as the contagion spread, clergy carried the reliquaries of Cristina and Ninfa through the stricken streets [X2-94]. Off in the background hovered Rosalia, remembered in local tradition as a twelfth-century noblewoman turned hermit whose cult, historian Paolo Palazzotto notes, had remained minor and quiet—*seppur debole* [X1-106, X1-107, X2-92].
 
-Rosalia was a local hermit of the 12th century, as tradition tells it, with a small cult and not much else.
-[X1-106, X1-107]
-
-Then, on 15 July 1624, bones were found in a cave on Monte Pellegrino, the mountain above the city. Tradition says the
-visions of a sick woman, Geronima La Gattuta of Ciminna, led the search. [X1-99, X2-67, X1-100, X2-68]
+Then, on Monte Pellegrino, the sheer limestone headland rising above Palermo's harbor, a discovery rewrote the city's devotional hierarchy. Tradition holds that a sick woman from Ciminna named Geronima La Gattuta climbed the mountain in late May 1624 after seeing Rosalia in a vision or dream, and that her visions guided searchers to a cave high on the rock (the municipality's history adds a sailor named Vito Amodeo as the man who actually found the remains, while Franciscans and Jesuits oversaw the digging) [X1-100, X2-68, X2-69]. On 15 July 1624, bones were pulled from the grotto [X1-99, X2-67].
 
 Here is the timeline, and it is the punchline:
 - **15 July 1624:** bones found. [X1-99]
@@ -251,87 +140,55 @@ Here is the timeline, and it is the punchline:
 - **9 June 1625:** the relics' first procession. [X1-104, X2-78]
 - **15 July 1625:** the plague is declared over, one year to the day after the finding. [X1-105, X2-80]
 
-The cathedral's own account adds one more vision. On 4 February 1625 a soap-maker, Vincenzo Bonelli (some spell it
-Bonello), climbed Monte Pellegrino meaning to kill himself. He said Rosalia appeared to him there and asked for a
-procession of her relics. [X2-75]
+That sequence captures the collision between civic desperation and Church caution. Only twelve days after the bones came out of the cave—according to the Comune di Palermo's history and historian Emma Jay—Palermo's Senate elected Rosalia patron of the city and its Public Council ordered a silver reliquary ark [X1-101, X2-70, X2-71]. Nearly four months passed before Cardinal Giannettino Doria convened a formal Church commission on 30 November, chaired by the Jesuit Giordano Cascini—whose credibility, historian Luisa Scalisi notes, some of his fellow Jesuits quietly doubted—to decide whether the bones actually belonged to a medieval hermit [X1-103, X2-72, X2-73]. At first, the examiners were deeply uneasy: Palermo Cathedral's own history acknowledges that the physicians were puzzled because the remains seemed to come from more than one person, which a 2024 *L'Osservatore Romano* account by Anello specifies as "the bones of three different men" [X2-74].
 
-Palermo made her its patron seven months before anyone confirmed whose bones they were. Palermitans credit her with
-ending the plague; that is their belief, and they have kept it for four centuries. [X2-70, X1-104]
+Between those doubts and the eventual approval sits the most human episode in the cathedral's chronicle. On 4 February 1625, a Palermitan soap-maker named Vincenzo Bonelli—some accounts spell his surname Bonello—climbed Monte Pellegrino meaning to kill himself [X2-75]. On the mountain, he later told authorities, Rosalia appeared to him and asked for a procession of her relics through the city [X2-75]. Whatever broke the deadlock inside the commission, the doctors and theologians reversed course and recognized the bones as Rosalia's in February 1625—seven months after Palermo's Senate had already placed her on its civic throne [X1-102, X2-70, X2-76]. On 9 June 1625 her relics were carried through the streets in their first procession, and on 15 July 1625—one year to the day after the cave discovery—the city declared the plague over, crediting Rosalia with its deliverance in a conviction Palermitans have honored for four centuries [X1-104, X1-105, X2-78, X2-80].
 
-In 1627 Giordano Cascini published a biography of her (a saint's life story is traditionally called a *Life*, in
-Latin a *vita*). About 1630 her name went into the Roman Martyrology, the Church's official list of saints in the order
-of their feast days. Her relics have lain in a silver urn in the cathedral since 1631. [X1-108, X1-109, X1-109a,
-X1-113, X2-85]
+Once the crisis passed, Palermo and the Counter-Reformation orders turned a hometown hermit into a baroque monument [X1-122a]. In 1627 Cascini published her formal biography—a *vita*, as traditional saints' *Lives* are called—and about 1630 her name entered the Roman Martyrology, the Church's official calendar-catalogue of saints and martyrs newly revised under Pope Urban VIII, to whom Scalisi notes Palermo sent relics in 1626 (with the pope reportedly wearing one of Rosalia's teeth on his chest) [X1-108, X1-109, X1-109a, X1-110, X2-91]. Since 1631 her remains have lain inside Palermo Cathedral in a silver urn designed by Mariano Smiriglio, while Anthony van Dyck painted her interceding for the plague-stricken city (the Metropolitan Museum of Art holds his 1624 canvas) [X1-113, X2-85, X1-112, X1-111]. Even so, Rosalia remained largely Palermo's own miracle: in Giuseppe Pitrè's survey of about 150 Sicilian towns around 1900, she served as principal patron of just seven [X1-183, X1-186 (Pitrè 1900, named)]. Today Palermo celebrates her *festino* every 10 to 15 July—pulling a towering triumphal cart, the *carro*, first built by architect Paolo Amato in 1686 and paraded annually from 1693 as historian Margiotta traces, on the evening of the 14th, processing her silver urn on the 15th, and making the night climb, the *acchianata*, up Monte Pellegrino on 3–4 September [X1-115, X1-116, X1-117, X1-202, X1-203].
 
-Even so, she never took over the island. In Pitrè's survey around 1900 she was the main patron of just 7 towns.
-[X1-186 (Pitrè 1900, named)]
-
-Today the *festino* runs 10 to 15 July. On the evening of the 14th a huge decorated cart, the *carro*, carries her
-image through the city; on the 15th her urn of relics goes in procession. In September comes the *acchianata*.
-[X1-116, X1-117, X1-118, X1-202, X1-203]
-
-You'll read that her cave was once a shrine to Tanit, the great goddess of Carthage, the Phoenician city across the
-sea. Even the scholar who suggested it wrote "probably", and no inscription or find from the cave backs it up.
-[X1-121]
-
-**Stamp:** MYTH-CHECK · Rosalia's cave was Tanit's shrine · no finds, no inscription [X1-121]
-
-There's also a tale that the English geologist William Buckland declared the bones a goat's. It comes from a memoir
-published in 1900, 75 years later, and no source says he ever handled them. [X2-93]
+Like Agatha's feast, Rosalia's cave attracted its share of later speculation, though none of it holds up to inspection. Some writers suggested her Monte Pellegrino grotto had once been a Punic shrine to Tanit, the great goddess of Carthage; even the scholar Valerio Petrarca, who floated the idea, hedged it with "probably," no inscription or find from the cave backs it up, and the *festino* itself is unmistakably a baroque civic spectacle [X1-121, X1-122]. At the opposite extreme of skepticism sits a famous dinner-table yarn claiming the English geologist William Buckland inspected the cathedral relics in 1825 and pronounced them the bones of a goat—an anecdote that surfaced only in a memoir published in 1900, seventy-five years after the supposed visit, with zero evidence that Buckland ever handled the remains inside the silver urn [X2-93].
 
 _Relic cabinet: drawer 2, Rosalia's bones, Palermo._
+
+Palermo had met a crisis by raising a hometown hermit onto a civic throne in the middle of a plague. Far to the northeast on the Strait of Messina, however, its great maritime rival had already spent decades wielding an even more audacious credential—one backed not by newly found bones, but by a personal letter from the mother of Jesus.
 
 ---
 
 ## 6 · Act 3 · Messina: a letter from Mary
 
-Messina has a feast on 3 June for a letter. The legend
-says Mary, the mother of Jesus, wrote to the people of Messina in the year 42, from Jerusalem, blessed their city, and
-tied the letter with a lock of her own hair. [X1-123, X2-98, X1-130, X2-99, X2-113]
+To understand why Messina needed a miracle of that caliber, you have to picture the long, bitter rivalry between Sicily's two great ports. Throughout the late Middle Ages and the sixteenth and seventeenth centuries, wealthy, silk-trading Messina fiercely contested Palermo's claim to be *Caput Regni*—the kingdom's true capital—forcing the Spanish viceroy to divide his official residence between the two cities while Messina guarded extraordinary privileges: minting its own coin, holding exclusive court jurisdiction in its province, and claiming ambassadorial rank for its Senate's envoys [X1-255]. That dualism ended brutally when Spain crushed Messina's 1674–78 revolt, dissolved its Senate, shuttered its university, and stripped its ancient privileges [X1-255].
 
-It's a wonderful story, and a young one. The legend arose in the 16th century; the oldest text is on an engraving of
-1522, and the oldest manuscript copy is from 1599. Its supporters later said the letter had been found in Greek in the
-1400s and translated, but no one has shown that Greek original. [X1-124, X2-100, X2-103, X1-127, X1-128]
+Long before that collapse, Messina answered Palermo's prestige with an apostolic trump card: every 3 June, the city celebrates the *Madonna della Lettera*, honoring a letter that legend says the Virgin Mary wrote to the people of Messina from Jerusalem in the year 42 CE, promising perpetual protection (*"Vos et ipsam civitatem benedicimus"*—"We bless you and your city itself") and binding the parchment with a lock of her own hair [X1-123, X2-98, X2-99, X2-113]. Messina's elites and expatriate merchants wielded the *Madonna della Lettera* across the Mediterranean as a spiritual charter of civic independence and preeminence—citing it to King Philip II in 1575 (as Campagna documents), and commissioning grand altarpieces in Rome in 1642 and in Valletta, Malta, in 1664 by Mattia Preti, moves that promptly triggered local resistance and Inquisition inquiries [X2-104, X1-269].
 
-Rome wasn't sure either. In 1629 a scholar named Inchofer published a defense of the letter, and the Congregation of
-the Index, the Vatican office that censored books, objected; a corrected edition came out in 1632. The city kept its
-letter anyway. [X1-126, X2-106]
+It is a magnificent civic legend, and a surprisingly young one. Whatever supporters later claimed about veneration stretching back to the Middle Ages [X1-128, X2-108], historians Chiara Franceschini and Carmelo Campagna show the story was almost certainly invented in the first half of the sixteenth century [X1-124, X2-100]: Campagna notes donations to a "Holy Licterio" chapel in 1518 and an engraving dated 1522 carrying the oldest surviving text, while Franceschini traces the first printed Latin text to Francesco Maurolico in 1556, and both confirm the oldest manuscript copy dates only to 1599, entered into Messina's register of privileges [X1-124, X2-101, X2-102, X2-103, X2-104]. When critics pointed out the absence of older paperwork, the letter's champions answered that the Greek original had been discovered in the 1400s and translated by the Byzantine humanist Constantine Lascaris, who reached Messina in 1467—though no scholar has ever produced that Greek text [X1-127, X2-107].
 
-The lock of hair, kept as a relic, still rides the city's silver *vara* in the June procession. [X1-131]
+Even Rome refused to play along without a fight. Franceschini notes that the Holy Office condemned the letter as apocryphal in 1598 [X1-125, X2-105]; and when the Jesuit scholar Melchior Inchofer published an elaborate defense of it in 1629, the Vatican's Congregation of the Index—the office that censored books—objected, forcing a corrected edition in 1632 [X1-126, X2-106]. Messina shrugged and kept its letter anyway: as historian Francesco Ciaramitaro records, when a famine broke on 3 June 1636 "by a miracle of Our Lady of the Holy Letter," the Senate vowed an even grander celebration, and by 1657 the Virgin's hair was riding at the head of an eight-day festival with Archbishop Simone Carafa walking before it [X1-129, X2-109, X2-110].
+
+Messina stages that devotion on two distinct processional floats, each called a *vara* [X1-204]. On 3 June, the hair relic—sealed in a tiny gold, enamel, and crystal capsule that Italy's cultural heritage catalogue (ICCD) dates by style to the late sixteenth or early seventeenth century—rides out on the **silver *vara***, an enthronement still scheduled in the Archdiocese of Messina's 2026 festival programme [X1-131, X2-111, X2-112]. Two months later, on 15 August, comes the Feast of the Assumption and Messina's monumental **Vara**, a baroque votive tower whose mechanical lineage Francesco Benigno traces to Emperor Charles V's 1535 entry into the port [X1-133, X1-256]. Standing roughly fourteen meters tall and weighing about eight tons, the Assumption *Vara* rises in cosmological tiers from the Virgin's bier and the Twelve Apostles through revolving sun, moon, stars, and angels—in earlier centuries played by strapped-in live children, today by statues—to Christ cradling Mary's soul at the summit [X1-256]. Mounted on iron sleds with neither wheels nor brakes, it is hauled roughly three kilometers along continuously wetted asphalt by about a thousand devotees, many barefoot, pulling two hemp ropes over a hundred meters long to cries of *"Viva Maria!"* while steering crews guide its sharp turn into Piazza Duomo [X1-257].
 
 _figure lettera_
 
-Messina even shared it. To thank the people of Palmi, across the strait in Calabria, for helping during a plague in the
-1570s, the city's Senate gave Palmi a single hair, by local tradition in 1582. It is kept in Palmi's cathedral today:
-a relic split and handed on as a thank-you. [X2-158, X2-159]
+For all its fierce municipal pride, Messina did share its treasure once, in a gesture that turned a relic into an enduring cross-strait bond. During a devastating plague in the 1570s (accounts vary between 1571, 1572, and 1575), the Calabrian town of Palmi just across the water sent aid to the stricken port; in gratitude, Messina's Senate gave Palmi a single hair from the Virgin's lock—by local tradition in 1582—and Calabria's regional legislative record confirms that single strand remains in Palmi's cathedral today, a relic split and handed over as a thank-you note [X2-158, X2-159].
 
 _Relic cabinet: drawer 3, Mary's hair, Messina._
+
+Agatha's silver bust, Rosalia's mountain cave, and Messina's eight-ton *Vara* were urban monuments forged by senates, guilds, and cathedrals. Step off the main piazza and into an ordinary Sicilian kitchen on 19 March, and you find a ritual theater just as intricate—built not out of silver and hemp rope, but out of braided bread, toasted breadcrumbs, and neighbors' vows.
 
 ---
 
 ## 7 · Act 4 · St Joseph's tables
 
-Joseph, in the Gospels, is Mary's husband and the man who raised Jesus as his own. His feast is 19 March, and in
-Sicily it is a feast for the poor. Families build great tables of bread and food and feed three of the poorest people
-they can find, often children, dressed as Mary, Joseph and Jesus: the *virgineddi*. The night before, bonfires: the
-*vampata*. [X1-237, X1-138, X1-144, X1-205, X1-147, X1-206]
+In the Gospels, Joseph is Mary's husband and the quiet carpenter who raised Jesus as his own [X1-237]. His feast falls on 19 March—fixed on the Church calendar by the sixteenth century, as folklorists Karen Canning and Christine Zinni note, after his liturgical cult took shape in the fourteenth and fifteenth centuries, as Luisa Del Giudice traces—and across much of Sicily, especially in the western provinces of Palermo, Trapani, Enna, and Agrigento as well as towns in Ragusa, Catania, and Syracuse, it becomes a feast for the poor [X1-138, X1-139, X1-140, X1-145]. As Italy's ICCD heritage catalogue records, families fulfill personal vows by building tiered domestic banquets—*tavolate* or *altari di San Giuseppe*—lit the night before by neighborhood *vampata* bonfires on 18 March [X1-143, X1-147, X1-206]. On the feast day itself, households invite three of the poorest people they can find, often orphans or local children (though in the Madonie mountains unmarried young people take the seats), dress them as Jesus, Mary, and Joseph, and serve these *virgineddi* at the head of the table before everyone else eats [X1-143, X1-144, X1-205].
 
-Pitrè recorded these meals for the poor by 1900 at the latest. Nobody knows exactly when they began. The folklorist
-Del Giudice found nothing like them in Spain or its colonies. The story you'll hear most, of a medieval famine
-ended when Joseph sent rain and fava beans, turns up almost only in emigrant communities, with no source behind it.
-[X1-142, X1-141, X1-148, X1-149 (single source, named)]
+Because 19 March falls squarely inside Lent, the feast laid across those white tablecloths is strictly meatless, turning pious restriction into culinary theater [X1-259]. Around towering, braided ceremonial loaves called *cucciddati*—which Del Giudice notes often weigh three to seven kilograms—bakers sculpt ritual breads into St Joseph's flowering staff, crosses, monstrances, ladders, carpentry tools, fish, birds, and flowers [X1-146, X1-258]. Alongside them sit whole fish, fried artichokes, vegetable *frittate*, fava-bean soup (*maccu*), *pasta con le sarde*, and *pasta con la mollica*, scattered with toasted breadcrumbs to represent carpenter's sawdust, followed by ricotta-filled *sfince di San Giuseppe*, fig cookies (*cuccidati*), and honeyed *pignolata*, while guests pocket dried fava beans at the door to carry home as "lucky beans" [X1-258, X1-259].
 
-Sicily's regional government keeps an official register of living traditions, the
-[REIS](https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/assessorato-beni-culturali-identita-siciliana/dipartimento-beni-culturali-identita-siciliana/altri-contenuti/reis)
-(Registro delle Eredità Immateriali), begun in 2005. In its list as published in September 2013, the latest full list
-we could find, St Joseph had 11 of the 86 feasts and rituals, more than any other saint. [X1-190, X1-192, X1-193,
-X1-194 (the Region's 2013 register, named)]
+Nobody knows when the custom began, as Del Giudice observes [X1-141]; Giuseppe Pitrè documented these charity banquets by 1900 at the latest, and Del Giudice found "no counterpart in Spain or its colonies," making St Joseph's tables one of the clearest signatures of a distinctly Sicilian Catholicism [X1-142, X1-148]. Even in modern bureaucracy the carpenter outstrips every rival: on Sicily's official intangible heritage register, the [REIS](https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/assessorato-beni-culturali-identita-siciliana/dipartimento-beni-culturali-identita-siciliana/altri-contenuti/reis) (*Registro delle Eredità Immateriali*, created in 2005), the September 2013 list—the latest full tally available—devotes 11 of the 86 entries in its celebrations book to St Joseph, more than to any other saint [X1-190, X1-192, X1-193, X1-194 (the Region's 2013 register, named)].
 
-Some writers, Pitrè among them, called the eve bonfires "certainly pagan", and the tables a spring rite for Demeter,
-the Greek goddess of grain, in Christian dress. Del Giudice finds the parallels real and the descent unproven.
-[X1-150]
+Ask at a Sicilian-American St Joseph's altar in Los Angeles, New Orleans, or western New York how the feast started, and you will almost certainly hear a moving origin story: a medieval Sicilian drought and famine broken when St Joseph answered the island's prayers with rain and a harvest of fava beans [X1-149, X1-260]. When Del Giudice went hunting for that legend in the archives, though, she found it "almost exclusively in diaspora" sources, with scarcely a trace in homeland Italian literature [X1-149]. Why, then, do emigrant families tell it with such conviction? Scholars interpret the overflowing table and the famine tale together as a "cultural exorcism of hunger": a way for communities shaped by generations of rural scarcity and emigration to invert remembered poverty into public abundance, neighborly *caritas*, and a story that explains why a humble animal-fodder legume sits as a lucky token at the center of a sacred table [X1-260].
 
-**Stamp:** MYTH-CHECK · the tables are a Christianized Demeter rite · parallels, not descent [X1-150]
+The tables fare no better as a disguised pagan relic. Pitrè declared the eve bonfires "certainly pagan," and later writers cast the whole March banquet as a Christianized spring rite for Demeter, the Greek goddess of grain [X1-150]. Del Giudice grants the seasonal parallels—springtime renewal, greenery, bread—while noting that proving direct descent from antiquity is far harder than spotting a resemblance, and Sicily's own ICCD heritage records frame the feast cleanly by what happens in the room: vows kept, the hungry fed, and a neighborhood gathered around the bread [X1-150, X1-143].
+
+Through four acts, our tour has stayed in the daylight of cathedrals, harbor squares, and crowded family kitchens—places where Sicily's towns bargained openly with heaven through silver busts, disputed letters, and seven-kilogram loaves of bread. As dusk settles over Palermo and the bonfires burn down to embers, the city's prayers turn toward darker crossroads and stranger partners: the executed criminals buried beside the Oreto river, and the cunning healers who soon found themselves answering to the Spanish Inquisition.
 
 ---
 
@@ -339,260 +196,131 @@ the Greek goddess of grain, in Christian dress. Del Giudice finds the parallels 
 
 _The stage goes dark; the candle wall lights._
 
-Catholics pray *for* the dead as well as *to* the saints. Most people who die at peace with God, the Church teaches,
-aren't ready for heaven at once; first they pass through a "final purification", called purgatory, and the living can
-help them through it with prayer. Help runs the other way too. In the Catechism's words, "our prayer for them is
-capable not only of helping them, but also of making their intercession for us effective." [X1-229, X1-228 (the
-Catechism, named)]
+Once night falls over Palermo, devotion slips away from the grand saints of the cathedral calendar and seeks out far humbler allies: the unquiet, ordinary dead.
 
-In Palermo that two-way traffic found its most surprising partners: the *decollati*, "the beheaded".
+Catholics pray *for* the dead as well as *to* the saints. Most people who die at peace with God, the Church teaches in the *Catechism*, are not ready for heaven at once; first they must pass through a "final purification" called purgatory, and the prayers of the living help shorten their wait [X1-229]. What makes that traffic truly two-way, in the words of the *Catechism*, is that "our prayer for them is capable not only of helping them, but also of making their intercession for us effective" [X1-228 (the Catechism, named)]. In Palermo, that reciprocal bargain found its strangest and most loyal brokers: the *decollati*, "the beheaded"—known locally as the *armi di li corpi decullati* ("souls of the beheaded bodies"), just as Acireale called its own executed dead the *beati* ("the blessed") and Trapani called them the *armiceddi* ("little souls") [X1-207 (Pitrè 1889, named)].
 
-From 1541 a brotherhood in white, the Compagnia dei Bianchi, comforted everyone condemned to death in Palermo. Its
-members stayed with the condemned for their last three days and nights, took them in as brothers, walked with them to
-the scaffold, buried them and begged alms for prayers for their souls. [X1-151, X1-153, X1-230]
+At first glance, asking a convicted murderer for favors seems perverse, yet within early modern Sicilian Catholicism it followed an austere, compassionate logic. From 1541 onward, as Giuseppe Pitrè records, a white-robed confraternity in Palermo, the [[Compagnia dei Bianchi|Compagnia dei Bianchi]], existed specifically to comfort those condemned to death [X1-151 (Pitrè 1889, named), X1-230]. For a prisoner's final three days and nights, the brothers stayed at his side, received him into their brotherhood, walked with him to the scaffold, saw to his burial, and afterward begged alms to buy prayers for his soul [X1-153, X1-230]. Under the Church's own theology, a condemned man who confessed and repented before the blade fell died reconciled with God, like the *good thief* crucified beside Jesus in Luke's Gospel, who admitted his guilt and was promised paradise that very day [X1-231, X1-236 (Luke 23:39–43, named)]. His execution settled his debt to earthly justice; purgatory would finish what the scaffold began [X1-231]. When Pitrè studied the cult in the 1880s, he emphasized that ordinary Palermitans treated the repentant executed as martyrs—a thoroughly Christian logic rather than a pagan survival, echoing late-medieval confraternities that had taken root across Europe between 1350 and 1550 [X1-231, X1-160].
 
-Why pray to an executed criminal? Because of how he died. A condemned man who confessed and repented before the end
-died forgiven in the Church's eyes, like the *good thief* crucified beside Jesus. His execution paid for his crime
-here; purgatory would see to the rest. Pitrè, who studied the cult in the 1880s, said the people saw the repentant
-executed as martyrs, a Christian idea, not a pagan one. [X1-231, X1-236, X1-160]
+The executed were buried together beside the Oreto river, at a small church once called the Madonna del Fiume and rebuilt—according to Fatta and Pitrè—in 1785 and again in 1857–65 [X1-154 (Fatta 2016 and Pitrè 1889, named)]. Along those dark river roads, where the city's grim architecture of punishment once stood—a head-pyramid inscribed in 1604 near the execution ground before the Senate ordered it moved in 1779, and corpses displayed at the Sperone until a viceregal ban in 1788, as Fatta (2016) documents [X1-155, X1-156 (Fatta 2016, named)]—devotees believed the souls of the *decollati* walked at night in white robes to advise, warn, and defend the living [X1-232]. If robbers ambushed a traveler after dark, people held that you had only to call on the beheaded souls and they would come to your aid [X1-232].
 
-They were buried together by the Oreto river, at a church that was rebuilt in 1785 and again later. People said their
-souls walked at night along the river, dressed in white, to warn and help the living, and that if robbers attacked you
-on a dark road you could call on them and they would come. [X1-154, X1-232]
+Their help was practical and unpretentious. In the 1880s, Pitrè recorded devotees praying to the *decollati* for help in business, for three lucky numbers in the lottery, and for a mother's children to return home safely; later historians Davies and Matteoni add health, protection, and sons spared an awful death [X1-233]. Faithful visitors walked out to the Oreto church on Mondays and Fridays, often barefoot, to say a rosary for the souls, while those who could not make the journey kept a nine-day novena by candlelight at home [X1-158 (Pitrè 1889, named)]. And when a soul—or a saint—answered a prayer, gratitude had to be posted where the whole neighborhood could read it. In Pitrè's day, the walls of the *decollati* church were hung with about a hundred painted votive tablets of thanks [X1-157 (Pitrè 1889, named)]. Called a *miraculu* in Sicilian dialect—like the painted-tin panel for a miracle of 23 November 1890 catalogued by Italy's ICCD heritage archive in the Casa-Museo Antonino Uccello [X1-169, X1-211]—an ex-voto makes a private rescue public: painted panels depict the peril, the survivor, and the heavenly helper, while offerings of wax, metal, or terracotta reproduce the healed limb or organ [X1-168]. As Palermo scholar I. E. Buttitta puts it, a painted ex-voto serves as a "standing declaration of debt" to the saint [X1-168 (Buttitta, named)]. Some writers have looked at silver body parts hanging beside ancient terracotta limbs in Sicilian churches and seen unbroken pagan continuity, though the dated painted tablets collected in Sicily belong to the nineteenth and twentieth centuries; visual resemblance is not a genealogical tree [X1-171].
 
-What do people ask them for? Pitrè heard prayers for help in business, for three numbers to play in the lottery, for a
-mother's children to come home safe; later historians add health, and sons spared a bad death. Devotees came on Mondays
-and Fridays, often barefoot, to say a rosary to the souls, and those who couldn't make the trip kept a novena, nine
-days of prayer, by candlelight at home. In Pitrè's day the church walls held about a hundred painted tablets of
-thanks. [X1-233, X1-158, X1-157 (Pitrè 1889, named)]
+By the Church's own rulebook, of course, none of these executed men could be saints: their names never appeared on the official rolls of the blessed or canonized, and canon law forbids public veneration of anyone outside them [X2-124, X1-234]. On Palermo's streets, official lists were beside the point; what mattered was a reputation for holiness won in the final hour. As historians Davies and Matteoni observe, these were saints of the street, "popular, though not officially recognised," and other Sicilian towns cultivated their own [X1-234, X1-235]. In Paceco, near Trapani, one of the most vivid was Francesco Frusteri, a farmer who murdered his own mother and was beheaded on 5 November 1817 [X1-159]. An inscription in the church of San Francesco di Paola noted sparingly that he died "resigned and contrite"—and seventy years later, Pitrè found Frusteri spoken of "in fame of sanctity," with miracles credited to his name across Trapani, Paceco, and the Isola Grande [X1-159].
 
-Are they saints? Not to the Church: they were never listed among its saints or blessed. They were saints of the
-street, "popular, though not officially recognised", as the historians Davies and Matteoni put it, and
-other towns had their own. [X2-124, X1-234, X1-235]
+Nor did Sicily's dead return only along lonely riverbanks for desperate adults; once a year, on 2 November, the Day of the Dead, they came gently through the front door carrying sweets for the children [X1-162]. On that morning, families set out a basket (*canistru*) heaped with fruit, nuts, and *pupi di zùccaru*—painted sugar dolls, traditionally a *pupa* for a girl and a knight (*cavaliere*) for a boy, as Campanella's oral testimonies note—and told the young ones that their departed relatives had slipped in during the night to leave them [X1-162, X1-212, X1-163 (Campanella 2023, named)]. Outsiders routinely trace those sugar-filled baskets straight back to ancient Roman offerings at family tombs, though when you go looking for an unbroken documentary chain linking classical grave meals to Palermo's sugar-casters, the paper trail simply isn't there [X1-167].
 
-Francesco Frusteri of Paceco, near Trapani, is one. He was a farmer who killed his own mother and was beheaded at
-Paceco on 5 November 1817. An inscription in the town's church of San Francesco di Paola says he died "resigned and
-contrite". Seventy years later Pitrè found him "in fame of sanctity" and heard of miracles credited to him in Trapani,
-Paceco and on the Isola Grande. [X1-159]
-
-The dead visit children too. On 2 November, the Day of the Dead, many Sicilian families tell children that their dead
-relatives come back in the night and leave presents: *pupi di zùccaru*, sugar dolls, with fruit and nuts in a basket.
-You'll read that the custom carries on Roman offerings to the dead, but nobody we found names a document for that.
-[X1-162, X1-212, X1-163, X1-167]
-
-And when a saint or a soul comes through, you say thank you where everyone can see it. That's an ex-voto, a
-*miraculu* in dialect. Painted ones show the danger, the person saved and the holy helper; wax, metal or terracotta
-ones show the healed body part. The Palermo scholar I. E. Buttitta calls a painted ex-voto a "standing declaration of
-debt" to the saint. Some writers see ancient votive terracottas in the silver limbs; the dated Sicilian painted tablets
-are from the 1800s and 1900s, and a resemblance isn't a family tree. [X1-168, X1-211, X1-171 (Buttitta, named)]
+Night in Sicily did not belong solely to the dead, though. While ordinary families waited for November gifts and prayed to the *decollati* by candlelight, another kind of nocturnal traffic—of fairy-led healers, muttered charms, and suspicious neighbors—was steadily filling the trial dossiers of Palermo's Spanish Inquisition.
 
 ---
 
 ## 9 · Act 6 (night) · Witches, healers and the evil eye
 
-Remember the inquisitor of 1487? The Inquisition was the Church's court for heresy, beliefs and practices the Church
-judged false, and Spain ran its own version under its king. From 1487 to 1782 Sicily had a branch of it, answering to
-Madrid, not Rome. From 1601 it sat in the Steri palace in Palermo. [X3-01, X3-09, X3-115, X3-13]
+_scene 16_
 
-When the court was shut down in 1782, the viceroy, Domenico Caracciolo, had its archive seized. On 27 June 1783 the
-papers were burned. The historian Vittorio Sciuti Russi calls it "a political bonfire" for reasons of state: people at
-the time said the inquisitor general, Salvatore Ventimiglia, asked for it, and the island's nobles and senior clergy
-were glad to see it go, because the files showed which families had served the court. What historians use now are the
-yearly reports the court sent to Madrid. [X3-09, X3-10, X3-116, X3-27]
+Remember that first Spanish inquisitor appointed for Sicily in 1487 [X3-01]? The Inquisition was the Church's court for rooting out heresy—beliefs and practices judged false—and from 1487 until 1782 (operating steadily as a tribunal from 1500 onward) Sicily hosted a branch of the Spanish Inquisition that answered to Madrid rather than to Rome [X3-01, X3-04, X3-09, X3-115]. From 1601 it sat inside Palermo's [[Palazzo Chiaramonte-Steri|Steri palace]], a crenellated fortress in the Kalsa quarter whose stones already held three centuries of Sicilian power: built by the Chiaramonte family in the early 1300s (with its famous painted Sala Magna ceiling added in 1377–80), confiscated in 1392 when Andrea Chiaramonte was beheaded for treason, and used successively as a royal residence, the seat of the Spanish viceroys from 1468 to 1517, and the Royal Customs before the Holy Office moved in [X3-13, X3-214]. Centuries later, in 1906, Giuseppe Pitrè spent six months scraping whitewash off the Steri's prison walls to reveal drawings left by what he called "a whole vanished generation," as historian Giovanna Fiume recounts—though contrary to popular tour-guide lore, those cells held prisoners on every sort of charge, and Fiume notes that only a single graffito can be securely attributed to a woman [X3-18, X3-113 (Fiume 2017, named)].
 
-You'll still read that thousands of witches burned in Sicily. The court's own records say otherwise. It tried about
-6,000 to 7,000 people, about 1,000 of them for magic or witchcraft. The Inquisition didn't carry out executions
-itself: it handed the condemned to the king's officials, "the secular arm". For witchcraft it handed over two people
-in nearly three centuries, both men. No woman is known to have been executed as a witch. [X3-24, X3-33, X3-35, X3-36,
-X3-114]
+When the Sicilian tribunal was finally abolished on 16 March 1782 (as Geremia notes) at the request of the reformist viceroy Domenico Caracciolo, its archive was seized—and a year later, on 27 June 1783, more than 5,000 trial files went up in smoke [X3-09, X3-10, X3-11, X3-116]. Historian Vittorio Sciuti Russi calls the destruction "a political bonfire," dictated by reasons of state [X3-116]. Contemporaries such as Villabianca and Münter reported that the inquisitor general, Salvatore Ventimiglia, had requested it himself, and the island's aristocracy and senior clergy were only too glad to watch the pages burn, since those registers named every noble family that had served the court for privilege and blood-purity status [X3-116]. What historians rely on today, as Contreras and Henningsen established, are largely the annual summary reports (*relaciones de causas*) that Palermo dispatched to Madrid [X3-27].
 
-**Stamp:** MYTH-CHECK · "thousands of witches burned in Sicily" · two men handed over in nearly three centuries
-[X3-109]
+For all the gothic reputation of the Steri dungeons, the tribunal's surviving tallies upend one of the most durable clichés about early modern Sicily. Over nearly three centuries, the court tried roughly 6,000 to 7,000 people, around 900 to 1,000 of them on charges of magic or witchcraft [X3-24, X3-33]. The Inquisition did not carry out executions itself; it "relaxed" the condemned to the king's officials, "the secular arm" [X3-35]. Yet for witchcraft, in nearly three hundred years, historian Maria Sofia Messana's count finds only two people handed over for execution—both of them men—while no woman is known to have been executed as a witch by the Sicilian tribunal [X3-35, X3-36].
 
-So who was put to death? In the early years, mostly people accused of secretly keeping the Jewish faith after converting
-to Christianity: before about 1540 the court handed over somewhere between 200 and 440 of them for burning, depending
-on the count and the years. After that the numbers fell to 25 to 52 people burned in person between 1540 and
-1700, for every charge together. Many of them were Protestants, whom the court called "Lutherans": the historian Abbate
-counts 36 burned alive in the 1500s, out of 253 tried. Most of the court's everyday business was smaller. In a letter
-of 1652 the inquisitors said the people paraded at their public ceremonies were there "mostly" for blasphemy, bigamy
-and sorcery. [X3-31, X3-30, X3-117 (Abbate 2022, named), X3-40 (the inquisitors' letter, named)]
+**Stamp:** MYTH-CHECK · "thousands of witches burned in Sicily" · two men handed over in nearly three centuries [X3-109]
+
+Who, then, actually died at the stake? In its brutal early decades before about 1540, the tribunal hunted *conversos*—people accused of secretly keeping Jewish practices after converting to Christianity—handing over somewhere between 200 and 440 of them to be burned in person, depending on the years and count [X3-31]. Between 1540 and 1700, executions in person dropped sharply to between 25 and 52 people across all charges combined [X3-30]. Many of those victims were Protestants, whom the inquisitors called "Lutherans": historian Abbate counts 36 burned alive during the 1500s out of 253 tried [X3-117 (Abbate 2022, named)]. The great bulk of the court's everyday business was far less dramatic and rarely fatal: in a letter of 26 April 1652, the Palermo inquisitors noted that the 207 culprits paraded in their public *autos de fe* were there "mostly blasphemy, bigamy and sorcery" [X3-40 (the inquisitors' letter, named)].
 
 _[Unit chart: one square = 10 people tried; one dot = one person executed.]_
 
-**The ladies from outside.** The strangest things in the trial records are the *donne di fuora*, "the ladies from
-outside". Sicilians described them as fairy women who went about at night in small companies. They slipped into houses
-"like a breath of air", played with the children, opened the chests, ate and drank, and left a tidy house blessed.
-Three centuries later Pitrè called them "something of a fairy and something of a witch", and admitted he couldn't tell
-which was which. People also called them *patroneddri di casa*, the little masters of the house. As early as about 1450
-a Sicilian handbook for confessors told priests to ask whether penitents believed in them. [X3-56, X3-49, X3-52,
-X3-48]
+_scene 17_
 
-Some people, mostly poor women, said they rode with a company themselves. According to the historian Gustav
-Henningsen, who studied their trials, they were above all healers: if a child fell ill because the fairies had been
-offended, you went to someone who travelled with them, and she put it right. The companies went out on Tuesdays,
-Thursdays and Saturdays, never Fridays or Sundays, and the fairies have names in the records: Doña Inguanta, King
-Cuco, Doña Zabela. [X3-53, X3-55, X3-57 (Henningsen 2020, named)]
+**The ladies from outside.** The strangest dossiers in those Madrid summaries concern the *donne di fuora*—"the ladies from outside"—whom Sicilians also called *patroneddri di casa* ("little masters of the house") or *donni di locu* ("ladies of the place"), as Marco Geremia documents [X3-52]. Islanders described them as fairy women who roamed at night in small companies, slipping through closed doors invisibly "like a breath of air" to play with the children, open household chests, eat and drink, and leave a tidy home blessed [X3-56]. Three centuries later, Pitrè described them as "something of a fairy and something of a witch although, one cannot really distinguish which is which"—"odd and very capricious spirits, but not wicked by nature" [X3-49, X3-50]. They were no late invention, either: as early as about 1450, a Sicilian manual for confessors instructed priests to ask penitents whether they believed in them [X3-48].
 
-To the inquisitors it sounded like witchcraft. In 1587 Lauria de Pavia, the elderly wife of a poor fisherman, told
-them she had flown, about six palms above the ground, to Benevento on the mainland, where a red-haired young man and a
-beautiful woman were called King and Queen. The Palermo inquisitors wrote, "If what this woman says is true … a new
-sect of witches has arisen." [X3-59, X3-60 (Henningsen 2020, named)]
+What brought ordinary Sicilians—mostly poor women, though men stood trial alongside them—into the tribunal's orbit was not malice, but neighborhood medicine [X3-46, X3-53]. According to historians Gustav Henningsen and Maria Sofia Messana, the people who claimed to ride with the companies were above all local healers: when a child fell ill because the fairies had taken offense, families sought out someone who traveled with them to set things right [X3-53 (Henningsen 2020 and Messana 2007, named)]. Testimony said the companies rode out on Tuesdays, Thursdays, and Saturdays—never Fridays or Sundays—with a great seasonal gathering on St John's Eve (23–24 June), and in the Spanish clerks' spelling their spirit rulers carried courtly names: Doña Inguanta, Doña Zabela, and King Cuco [X3-54, X3-55, X3-57 (Henningsen 2020, named)].
+
+When those village narratives met the courtroom, two worlds talked past each other in tragic slow motion. In 1587, Lauria de Pavia, the elderly wife of a poor fisherman, stood before Palermo's inquisitors and described flying about six *palmos* above the ground all the way to Benevento on the mainland, where a red-haired young man and a beautiful woman reigned as King and Queen [X3-59, X3-60 (Henningsen 2020, named)]. To Lauria, she was recounting a nocturnal company of healing spirits; to inquisitors steeped in continental demonology, it sounded like an alarming conspiracy: "If what this woman says is true," they wrote to Madrid, "a new sect of witches has arisen" [X3-59 (Henningsen 2020, named)].
 
 _figure bosch_
 
-Dozens stood trial, men among them. Catarina Calandrino, a 40-year-old member of the Franciscan lay order, was
-denounced by 18 witnesses in 1624; her company had 26 or 27 members, and she was sentenced to be shut up for life in
-Palermo's great hospital. Before a bishop's court in 1619, Gracia la Chiaczisa of Sciacca described the ladies in one
-unforgettable line: "They look like people in front and empty on the back like the tiles of the roofs." [X3-46,
-X3-114, X3-61, X3-68 (Geremia 2024, named)]
+Dozens stood trial, men among them [X3-46, X3-114]. In 1624—the very plague summer in which Palermo's Senate was crowning Saint Rosalia—forty-year-old Catarina Calandrino, a lay member of the Franciscan third order, was denounced by eighteen witnesses; her company reportedly numbered twenty-six or twenty-seven people, and after the 1628 *auto de fe* she was sentenced by the tribunal, as Henningsen recounts, to perpetual reclusion inside Palermo's great hospital [X3-61 (Henningsen 2020, named)]. Five years earlier, in 1619, summoned before a bishop's court in Sciacca after neighbors complained, Gracia la Chiaczisa left one unforgettable image of the ladies who haunted Sicilian sleep, preserved in Geremia's study: "They look like people in front and empty on the back like the tiles of the roofs" [X3-68 (Geremia 2024, named)].
 
-Henningsen reads all this as a Sicilian fairy cult with a "white" sabbath, a shared set of cultural dreams. He argues
-that the inquisitors turned the fairy into a witch: before the Inquisition, Sicily had no idea of the devil-worshipping
-witch. Was it shamanism? Henningsen says no, because no trance technique is described; others still compare it to
-shamanic cults. Either way the records show a cult of the 1500s and 1600s, not an unbroken line from antiquity.
-[X3-72, X3-73, X3-78, X3-110]
+Henningsen reads the *donne di fuora* trials as evidence of a Sicilian fairy cult—a "white" sabbath, a shared body of cultural dreams that inquisitors forcibly translated into witchcraft, since before the Spanish tribunal Sicily had no native concept of the devil-worshipping witch [X3-72, X3-73]. Was it a form of shamanism? Henningsen argues no, because no trance technique is discernible in the records, though Carlo Ginzburg and other historians compare the night-riders to the *dominae nocturnae* who followed Herodias or Diana and to Friuli's *benandanti* [X3-72, X3-75, X3-78]. Either way, the trial files document a lived belief system of the sixteenth and seventeenth centuries—not an unbroken cult surviving intact from classical antiquity [X3-110].
 
 _figure guidobono_
 
-**The evil eye.** Sicilians call it *ittatura* or *malocchiu*; in the mountain town of Gratteri it's *l'ucchiatura*.
-It isn't only Sicilian: belief in it runs across southern Europe. [X1-210, X1-179, X1-248]
+_scene 9_
 
-**Healing with prayers.** Gratteri, in the Madonie mountains of the province of Palermo, kept its charms well into the
-last century. The historian Marco Fragale collected them from women born between 1869 and 1923. The *ciarmavermi*,
-worm-charmers, were in his words "empirical doctors". For a child with worms (pinworm, in medical terms) the healer drew
-crosses on the belly, spat three times and prayed, "San Pantaleu, San Pantaliuni, / Vui siti lu medicu di nostru
-Signuri": Saint Pantaleon, you are the doctor of Our Lord. The charm then runs through Holy Week, day by day, to Easter
-Sunday. A necklace of seven garlic cloves helped, because *l'agliu ammazza i viermi*: garlic kills worms. [X1-247,
-X1-248 (Fragale 2021, named), X1-172, X1-173]
+**The evil eye.** If the fairy companies faded from courtroom dockets after the Inquisition's abolition, the quieter anxieties that fed them—envy, sudden fright, and a child's inexplicable fever—never needed a court record to survive. Sicilians call the evil eye *ittatura* ("evil-casting") or *malocchiu*, and in the Madonie mountain town of Gratteri it is *l'ucchiatura* [X1-210, X1-247, X1-248]. Nothing about the fear itself is uniquely Sicilian: a 2017 Pew Research Center survey across fifteen Western European countries found a median of 16 percent believing in the evil eye (ranging from 9 percent in Denmark and Sweden to 33 percent in Spain and 48 percent in Portugal) [X1-179, X3-106]. What belongs to Sicily is the local dialect, the parish saints drafted into the remedy, and the endurance of the healers who knew the words.
+
+To turn aside an envious gaze, early twentieth-century English collectors in Sicily documented coral amulets, silver-bell rattles for children, a mother's raised thumb and little finger when a stranger stared at her child, and the *cimaruta*, as a 2025 Palermo University Press study by Intorre reports [X1-176, X3-93 (Intorre 2025, named)]—a traditional southern Italian silver compound charm shaped like a branching sprig of rue (*ruta*), hung with miniature emblems such as a crescent moon, key, fish, serpent, flower, hand, rooster, or dagger [X1-268]. (Collectors around 1900 eagerly linked the *cimaruta* to the Roman goddess Diana, a survivals-era leap that modern scholarship treats with skepticism [X1-176, X3-93].)
+
+**Healing with prayers.** Far more intimate than any silver charm were the prayers whispered in kitchen doorways. In Gratteri, perched in the Madonie mountains about seventy kilometers from Palermo, historian Marco Fragale collected healing formulas from women born between 1869 and 1923 [X1-247, X1-248 (Fragale 2021, named)]. The *ciarmavermi*—worm-charmers, whom Fragale describes as "empirical doctors"—treated children afflicted with intestinal worms [X1-248 (Fragale 2021, named), X1-172]. Tracing crosses on the child's belly and spitting three times, the healer recited in Sicilian: *"San Pantaleu, San Pantaliuni, / Vui siti lu medicu di nostru Signuri"* ("Saint Pantaleon, you are the doctor of Our Lord"), walking the prayer day by day through Holy Week to Easter Sunday, often paired with a necklace of seven garlic cloves because, as the folk maxim explained, *l'agliu ammazza i viermi*—garlic kills worms [X1-248 (Fragale 2021, named), X1-173].
 
 _figure gratteri_
 
-For *scantu*, a fright, which was thought to throw the whole body off balance, the healer laid a hand on the chest, at
-"the mouth of the soul", and seemed to fall into a trance while praying, three evenings running or once on a Friday,
-sometimes over a photograph of the patient. The words were secret, passed only to a trusted person of the opposite
-sex. Against the evil eye, women drew crosses on the forehead with the tongue, chanting "Quattru uocchi e quattru
-pisci, / 'st'ucchiatura sinni sprisci" (four eyes and four fish, may this evil eye vanish), or dripped oil into a dish
-of water: if the stain spread, there was evil. [X1-248 (Fragale 2021, named)]
+Healers also treated *scantu*, a sudden fright thought to throw the entire body out of balance [X1-209, X1-248]. Laying a hand on the patient's chest at *"a vucca di l'arma"* ("the mouth of the soul"), the healer appeared to slip into a trance while praying for three evenings in a row or once on a Friday, sometimes over a photograph of the patient; that formula was kept secret, passed on only to a trusted heir of the opposite sex [X1-248 (Fragale 2021, named)]. To diagnose *l'ucchiatura* or *malocchio*—a rite recorded across Sicily from Giuseppe Pitrè's 1896 *Medicina popolare siciliana* and Elsa Guggino's fieldwork to Fragale's Gratteri testimonies and Maffei's Aeolian ethnography—healers dropped olive oil into a shallow plate of water (*u piattinu*) while praying: if the drops held their round shape, the person was clear; if they spread or broke apart, the evil eye was confirmed [X3-215, X1-248]. In Gratteri, women then traced crosses on the forehead with the tongue, chanting *"Quattru uocchi e quattru pisci, / 'st'ucchiatura sinni sprisci"* ("Four eyes and four fish, may this evil eye vanish") [X1-248 (Fragale 2021, named)].
 
-The rites aren't gone. Between 2002 and 2006 the researcher Napoli still met about 25
-worm-charmers in five provinces. It is healing done with prayers. [X1-172, X1-174 (Napoli 2008, named)]
+These practices did not vanish with the nineteenth century, either. Between 2002 and 2006, researcher Maria Concetta Napoli interviewed about twenty-five active *ciarmavermi* across five Sicilian provinces—mostly women over sixty alongside a handful of men in their seventies and eighties and one healer nearly a hundred—who held that they could not accept money for fear of losing their power, taking at most a gift in kind [X1-172, X3-99, X3-100, X3-104 (Napoli 2008, named)]. As practitioners themselves frame it, it is healing done with prayers [X1-172].
 
-Against the evil eye, English collectors in the early 1900s also recorded coral, silver-bell rattles, the *cimaruta*
-charm and the raised thumb and little finger, as a 2025 Palermo University Press study reports. [X1-176 (Intorre 2025,
-named)]
+With morning breaking over the Madonie and Palermo's rooftops, the candles burn down, the whispered charms fall silent, and the stage lights come back up on the cathedral treasuries—where Sicily's devotion takes physical, gilded, and surprisingly portable form.
 
 ---
 
 ## 10 · Act 7 · The relic cabinet opens
 
-Time to open the cabinet. A relic is a saint's body, a piece of it, or something that touched it, kept and honoured in
-a church. For most of Christian history a saint's bones were no museum piece: they kept the saint present, and on the
-side of the town that held them. So towns wanted them, traded for them, and now and then stole them. [X2-126, X2-152]
+Back inside the cathedral vaults, it is time to open the cabinet we have been filling all evening. Across three great city feasts we slid away drawer after drawer—Agatha's bones in Catania, Rosalia's in Palermo, Mary's lock of hair in Messina—without stopping to ask why Catholic cities went to such fierce lengths to keep pieces of their saints inside their walls. For most of Christian history, a relic was never a morbid curiosity or a museum souvenir: a relic is a saint's body, a fragment of it, or an object that touched the saint [X2-126], and as the historian Patrick Geary summarized medieval conviction, towns believed their saints quite literally lived on inside their bones and acted on behalf of the communities that possessed them [X2-152]. Keeping the saint present meant keeping the saint's protection on your side of the city wall; consequently, cities treasured relics, bargained for them, and now and then stole them outright [X2-152, X2-156].
 
-**Meet Lucy.** Sicily's other great virgin martyr is Lucy of Syracuse. By tradition she was killed in her home city
-in 304, under the emperor Diocletian, and her feast is 13 December. She is the patron of Syracuse and of sight, and
-medieval painters showed her carrying her eyes on a dish. Her life story is legend; even the *Catholic Encyclopedia* admitted in 1910
-that it "cannot unfortunately be accepted without criticism". [X2-44, X2-45, X1-251]
+**Meet Lucy.** Before opening the full cabinet, one last Sicilian martyr needs her own drawer: Lucy of Syracuse, Catania's rival and sister in antiquity. By Christian tradition she was put to death in her native city in 304 (the 1910 *Catholic Encyclopedia* notes 303 as an alternative) during the persecutions under the emperor Diocletian, and her feast falls on 13 December [X1-251]. Honored as patron of Syracuse and of eyesight—medieval painters regularly depicted her carrying her own eyes upon a dish—she rests on an early legend whose fifth-century *Acts* even the *Catholic Encyclopedia* admitted in 1910 "cannot unfortunately be accepted without criticism" [X1-251, X2-45].
 
-**One saint, two bodies.** Here the cabinet gets crowded, because Lucy's whole body is claimed by two cities. Venice
-says it came from Constantinople after the crusaders sacked that city in 1204; it lies today in the church of San
-Geremia, in a glass case, its face under a silver mask; at the far end her dried feet show. Metz, in France, says a duke of Spoleto carried it off from Sicily and that it
-reached the abbey of St Vincent in 972. Syracuse, where she was buried, has the empty tomb, and borrows the Venetian body
-about once every ten years. Her head is claimed twice too. Thieves who stole the body in Venice in 1981 left the head
-behind; Bourges Cathedral, in France, says the Venetians gave it Lucy's head in 1513. Both doubles are our own count,
-from sources that never compare notes. [X2-47, X2-52, X2-55, X2-59, X2-60, X2-56, X2-51, X2-65, X2-157]
+**One saint, two bodies.** Whatever historians make of her fifth-century biography, Lucy's afterlife turns the relic cabinet into a comedy of geography, because by our own side-by-side count of church traditions, two European cities claim her entire body at once [X2-65]. Venice maintains that crusaders brought Lucy's body from Constantinople after sacking the Byzantine capital in 1204 (officially translating the relics in 1206, some Venetian accounts add); today she lies in the Venetian church of San Geremia inside a glass case, her face covered by a silver mask while her bare, dried feet remain visible at the far end of her robe [X2-47, X2-48, X2-55, X2-157]. Across the Alps in France, the abbey of St Vincent in Metz preserves a rival western tradition set down by the eleventh-century monk Sigebert of Gembloux: by that account (recorded in the 1910 *Catholic Encyclopedia*), a Duke Faroald of Spoleto carried Lucy's body north from Sicily to Corfinium, from which it reached Metz in 972 under Emperor Otto I [X2-59, X2-60]. Syracuse itself, where she was supposedly martyred and laid to rest, keeps only the empty tomb—though under an agreement with the Venetian patriarchate, as *Avvenire* reported in 2024, Venice lends the body back to Syracuse roughly once every ten years, as it did in 2004, 2014, and December 2024, when Syracuse's city council politely asked to keep her permanently and the archdiocese politely declined [X2-56, X2-58, X2-66]. Even her head is claimed twice when separate records are laid next to each other: the Comune di Venezia notes that thieves who stole Lucy's body from San Geremia on 7 November 1981 left the head and its silver mask behind (before the body was recovered on 13 December, her feast day), while the 1910 *Catholic Encyclopedia* records that Bourges Cathedral in France claimed Venice had given Lucy's head to King Louis XII in 1513, alongside another account tracing it from Rome [X2-55, X2-51]. Both doubles are our own comparison from records that rarely compare notes [X2-65, X2-51, X2-55].
 
-**Agatha adds up.** One tourism list counts 31 places outside Catania with a piece of her, yet where the parts can be
-counted, nothing is doubled: two thighbones in Catania, one breast in Catania and one in Galatina. Palermo Cathedral
-holds her arm. [X2-43, X2-41, X2-23, X2-37]
+**Agatha adds up.** Compared with Lucy's bi-located corpse, Catania's Agatha looks remarkably well-accounted-for—at least at the level of major bones. When you check the large parts against human anatomy, the arithmetic holds rather than multiplies: Catania's 1376 gilded silver bust encloses her skull and a piece of her pelvis, while Maria Concetta Di Natale notes two femur reliquaries resting inside a large chest in Catania [X2-18, X2-23, X2-24, X2-25]; Palermo Cathedral holds what the scholar Paolo Palazzotto identifies as her arm [X2-41]; and while Agatha's legend holds that her torturers cut off her breasts, Archbishop Luigi Renna of Catania confirmed in 2026 that a breast relic is venerated in Galatina in Apulia [X1-250, X2-37]. Spread across multiple reliquaries, yes; anatomically doubled, not on the verified record [X2-23, X2-37, X2-41].
 
 _cabinet louis_
 
-**A king, boiled.** Royalty was divided too. When King Louis IX of France died on crusade at Tunis in 1270, his body was
-dissected and boiled. His bones went to Saint-Denis, near Paris, and his entrails were buried at Monreale, near Palermo.
-Whether his heart is at Monreale as well is still argued. [X2-115, X2-117, X2-118, X2-116]
+**A king, boiled.** Division was not reserved for early martyrs: medieval royalty underwent the same surgical piety. When King Louis IX of France died on crusade at Tunis in 1270, Charles of Anjou—then ruler of Sicily—ordered the royal corpse dissected and boiled so that the clean bones could be carried back to the French royal abbey of Saint-Denis near Paris [X1-66, X2-115, X2-117, X2-118]. What remained behind was laid to rest in Sicily's great Norman cathedral of Monreale above Palermo: certainly his entrails, and according to his confessor Geoffroy de Beaulieu his heart as well, though the modern historian Jacques Le Goff argued it was more likely the heart traveled north to Saint-Denis with the bones [X2-115, X2-116].
 
-Palermo Cathedral says its Chapel of the Relics holds 17 reliquaries. No one has counted them for the whole island.
-[X2-97 (the cathedral, named)]
+Palermo Cathedral says its Chapel of the Relics alone holds 17 reliquaries—six silver-topped urns, the urn of Saint Cosmas, and ten carved wooden cases—though no census has ever counted the reliquaries across the whole island, leaving each local treasury a small world unto itself [X2-97 (Palermo Cathedral, named)].
 
-**Why Europe wanted bones.** It wasn't always so. Roman law banned selling martyrs' bodies in 386. In 594 Pope Gregory
-the Great turned down an empress who wanted the head of St Paul: it is "not the custom of the Romans", he wrote, "to
-presume to touch any part of the body". He sent cloths that had lain near the saint's tomb instead, with filings from
-St Peter's chains, and said he could "scarcely believe" the Greeks dug up saints' bones. Historians still argue how
-strict that Roman custom really was. [X2-135, X2-153, X2-154 (Gregory's letter, named)]
+**Why Europe wanted bones.** It had not always been normal to slice up the dead and trade them across seas. In 386 a Roman imperial decree, later preserved in the Theodosian Code, flatly forbade the sale of martyrs' bodies [X2-135, X2-153]. Two centuries later, in 594, Pope Gregory the Great wrote to the Byzantine empress Constantina politely refusing her request for the head of Saint Paul: "it is not the custom of the Romans, when giving relics, to presume to touch any part of the body," he insisted, sending instead a cloth (*brandeum*) that had lain near the tomb and filings from Saint Peter's chains, while adding that he could "scarcely believe" Greek churchmen actually dug up saints' bones—though recent historians such as Freeman (2025) note that this neat East–West divide did not always hold everywhere in practice [X2-154]. Hunger for physical presence eventually won. In 787 the Second Council of Nicaea ruled in its seventh canon that every church altar must contain relics, threatening any bishop who consecrated a church without them with deposition [X2-155]. Once every altar required bone, relics became urgent civic property, bought, traded, and lifted across medieval Europe. In his classic 1978 study *Furta Sacra*, the historian Patrick Geary explained why medieval Christians so often applauded **furta sacra**—"holy theft": if a saint allowed herself to be carried away, she had chosen her new home, which helps explain why Papasidero notes Catania's 1126 recovery of Agatha as rare among thefts of female saints, and why Catania's own archbishop Luigi Renna could still refer to it in 2026 as a *"sacro furto"* [X2-156 (Geary 1978, named), X2-15, X2-16].
 
-Demand won. In 787 a Church council ruled that churches must have relics, and that a bishop who consecrated one
-without them should be deposed. Bones became precious, and in the Middle Ages they were bought, swapped and stolen. The
-historian Patrick Geary wrote a whole book, *Furta Sacra* (1978), on relic thefts and why medieval Christians so often
-approved of them. Catania's homecoming of 1126 was one: its archbishop still calls it a "sacro furto", a holy theft.
-[X2-155, X2-156 (Geary, named), X2-15, X2-16]
+Far from halting dismemberment, medieval and early modern popes mostly tried to regulate the traffic. Even after Rosalia's bones surfaced in 1624, the historian Ilaria Scalisi notes, Palermo sent fragments to other Sicilian towns, European courts, Antwerp, and Pope Urban VIII himself, who reportedly wore one of her teeth on his chest [X2-91 (Scalisi 2023, named)]. Earlier, the Fourth Lateran Council of 1215 had forbidden exhibiting old relics outside their vessels or putting them up for sale, and required papal approval for newly discovered ones [X2-133]. In Session 25 in December 1563, the **Council of Trent** reaffirmed that saints' bodies "are to be venerated," while commanding bishops to strip away "every superstition," abolish "all filthy lucre," and inspect any newly claimed relic before admitting it [X2-134 (Council of Trent, Session 25, named)].
 
-So cutting up saints was common long before anyone wrote rules about it. When Rosalia's bones turned up in 1624,
-Palermo sent pieces to other cities, to royal courts and to Pope Urban VIII, who reportedly wore one of her teeth on
-his chest. The Church mostly regulated the trade rather than stopping it. In 1215 a council forbade showing old relics
-outside their cases or selling them, and new relics needed the pope's approval. In 1563 the Council of Trent told
-bishops to abolish "all filthy lucre". [X2-91 (Scalisi, named), X2-133, X2-134]
+**The critics.** To Protestant reformers of the sixteenth century, regulation merely polished a lucrative racket. In 1543 John Calvin published his *Treatise on Relics* in Geneva, a crisp little octavo whose full French title argued that Christendom would profit handsomely from an honest inventory of every saint's body and relic [X2-137, X2-138, X2-139]. Gather every splinter of the True Cross across Europe, Calvin scoffed, and you would have enough timber for *"la charge d'un bon grand bateau"*—a whole ship's cargo; every apostle possessed more than four bodies, each saint at least two or three, and Calvin himself tallied fourteen nails from the Crucifixion [X2-140, X2-141, X2-142]. Modern writers routinely credit Calvin with counting "about a dozen" heads of John the Baptist as well, though checking his text shows that count actually comes from a wry footnote added by his nineteenth-century English translator, Valerian Krasinski [X2-145].
 
-**The critics.** Protestants thought the whole business a racket. In 1543 the reformer John Calvin published a
-*Treatise on Relics*; its full French title argues that Christendom would profit greatly from an inventory of every
-saint's body and relic. Gather all the pieces of the True Cross, the cross Jesus died on, he joked, and you'd fill a
-good big boat. Every apostle had more than four bodies, each saint at least two or three, and he counted 14 nails from
-the Cross. You'll often see him credited with a dozen heads of John the Baptist too. That count isn't Calvin's: it
-comes from a footnote by his 19th-century English translator, Valerian Krasinski. [X2-137, X2-139, X2-140, X2-141,
-X2-142, X2-145]
+**The rules today.** Modern Catholic law is far stricter than the medieval marketplace. The 1983 *Code of Canon Law* declares without qualification, "It is absolutely forbidden to sell sacred relics," and bars giving away or permanently transferring major relics without the Apostolic See's consent [X2-121, X2-122]. The Vatican's 2017 instruction, *Relics in the Church: Authenticity and Conservation*, likewise outlaws both barter and sale, forbids displaying relics without certificates of authenticity, and prohibits dividing a saint's body unless Rome gives explicit permission [X2-125, X2-127, X2-128, X2-129]. Tellingly, the 2017 instruction recognizes only two legal tiers: "significant" relics (*insigni*—the body, notable parts of it, or the entirety of the ashes) and "non-significant" ones (*non insigni*—small fragments or objects that touched the saint) [X2-126]. The popular three-tier ladder of first-, second-, and third-class relics that readers often meet in parish pamphlets is a widespread devotional convention, not the Church's own current law [X2-132].
 
-**The rules today.** Canon law now says: "It is absolutely forbidden to sell sacred relics." The Vatican's 2017
-instruction bans trading them too, and says a saint's body may not be cut up unless the bishop has Rome's consent. It
-sorts relics into just two kinds: "significant" ones (the body, large parts of it, or all the ashes) and
-"non-significant" ones (small fragments, or objects that touched the saint). [X2-121, X2-125, X2-127, X2-128, X2-126]
-
-You may have met a three-tier ranking instead, from first-class relics (the body itself) down to third-class ones
-(cloths touched to a relic). It's a popular devotional scheme, but the Church's own rules don't use it. [X2-132]
-
-**Stamp:** MYTH-CHECK · first-, second- and third-class relics are Church law · the Vatican's 2017 rules use only
-"significant" and "non-significant" [X2-132]
+**Check:** First-, second-, and third-class relics are Church law · the Vatican's 2017 rules recognize only "significant" and "non-significant" relics [X2-132]
 
 _Relic cabinet opens: every drawer met so far, side by side._
+
+All those drawers—bones, veils, teeth, and gilded urns—did not stay penned inside Sicily's harbors; they moved along the sea lanes of empire, and when Spain ruled both Sicily and half the Americas, Sicilian saints boarded the same ships.
 
 ---
 
 ## 11 · Act 8 · To the Americas
 
-Sicily and Latin America both love candles and baroque gold. Is there a real connection? Some, through one empire:
-from 1516 to 1713 Sicily belonged to the Spanish crown. [brief Q7, X1-71]
+Walk into a church in Salvador da Bahia, Lima, Puebla, or Cabimas, and the kinship with Sicily hits you before a word is spoken: walls blazing with gilt woodwork, banks of flickering votive candles, painted miracle tablets, and processions that pull an entire neighborhood into the street. It is tempting to credit all that shared baroque theater to nineteenth-century Sicilian emigrants arriving with their hometown saints packed in steerage. Yet the truth is older, stranger, and rooted in imperial politics: from 1516 to 1713 Sicily belonged to the Spanish crown [X1-71]. For two centuries the same Madrid administration that governed Sicily's viceroys and ran Sicily's branch of the Spanish Inquisition also governed Mexico, Peru, and New Granada, as Henry Charles Lea documented in 1908 [X3-115, X3-116]. Officials literally rotated between the two worlds—Francisco Fernández de la Cueva, 8th Duke of Alburquerque, served as Viceroy of New Spain from 1653 to 1660 before arriving in Palermo as Viceroy of Sicily from 1667 to 1670, as the *Gran Enciclopèdia Catalana* records [X3-120]—and Sicilian saints crossed the Atlantic along those imperial corridors long before steamships existed [X3-211].
 
-**Benedict the Moor.** Born at San Fratello to African parents who had been enslaved, he died at a convent in Palermo
-on 4 April 1589. He was beatified in 1743 and made a saint in 1807. [X3-122, X3-123, X3-124, X3-126, X3-127, X3-128]
+**Benedict of San Fratello.** The most extraordinary traveler of all never set foot on a ship in his lifetime. Born in 1524 (some older lives say 1526) in the mountain town of San Fratello to African parents who had been enslaved—biographies differ on whether he was born free or emancipated at eighteen—Benedict spent his youth herding sheep before joining a band of Franciscan-affiliated lay hermits led by Girolamo Lanza near San Fratello and later on Monte Pellegrino above Palermo [X3-122, X3-123, X3-124, X3-125, X3-216]. When Pope Pius IV disbanded independent hermit groups in the early 1560s, Benedict entered the Observant Franciscan friary of Santa Maria di Gesù in Palermo as an illiterate lay brother and went to work in the kitchen [X3-216, X3-217]. Such was the quiet authority of this friary cook, though, that in 1578 his fellow Franciscans elected him guardian—the superior of the entire convent—and master of novices, an office he discharged with reluctant wisdom before returning joyfully to his pots [X3-217]. By the time he died at Santa Maria di Gesù on 4 April 1589, all of Palermo knew his door: the poor came for alms, while nobles and Spanish viceroys alike sought his healing prayers and counsel [X3-126, X3-218].
 
-His cult traveled with Black Catholic brotherhoods: a confraternity in Lisbon by 1609, and across Brazil and the
-Spanish and Portuguese New World from the early 1600s. In Venezuela his feast is danced to the *chimbangueles* drums.
-[X3-134, X3-136, X3-158]
+Rome moved at its own deliberate pace: although Sicily's viceroy, the Duke of Escalona, petitioned King Philip III and an inquisitorial inquiry opened in 1594 (as historian Bernard Vincent notes), Benedict was not beatified until May 1743 or canonized by Pope Pius VII until 24 May 1807 [X3-121, X3-127, X3-128]. Devotion on the ground refused to wait two centuries for parchment. By 1606 relics of Benedict had already been sent to Spain, where Lope de Vega dramatized his life onstage in *El Santo negro Rosambuco de la ciudad de Palermo* by 1607 [X3-130, X3-131]; in 1652 Palermo's own Senate proclaimed him patron of the city [X3-218]. More remarkably, Benedict became the adopted champion of Black Catholics across the Iberian Atlantic. By 1609 a confraternity of São Benedito was established at the Mosteiro de Santa Joana in Lisbon, and in 1619 visiting senators from Palermo watched enslaved Africans in Lisbon march behind the banner of a Black Sicilian friar [X3-134, X3-135]. From the early 1600s, Franciscan convents and Black Catholic brotherhoods carried his cult across Brazil—to Salvador da Bahia, Recife, Rio de Janeiro (where the São Benedito confraternity formally united with the Rosary brotherhood in 1668–69), and south to Colônia do Sacramento in modern Uruguay by 1680—as well as back across the ocean to Angola [X3-136, X3-140, X3-141, X3-142, X3-143]. In eighteenth- and nineteenth-century Brazil, as the historian Lucilene Reginaldo writes, devotion to São Benedito "broke free of the friars and became hugely popular among Black people," while Giovanna Fiume calls him "the champion of the religion of enslaved Black Africans throughout the Spanish Empire" [X3-142, X3-145]. In western Venezuela—across Zulia, Trujillo, and Mérida, where Spaniards introduced his devotion in the late colonial period, as the historian Casanova notes—his festive cycle runs from October to 2 February to the thunder of flags, maracas, flutes, and the seven or eight *chimbangueles* drums whose very name scholars trace to the Bantu *Imbangala* [X3-155, X3-156, X3-158, X3-159, X3-160].
 
-**Antonio of Noto,** another Sicilian holy man honored by the same brotherhoods, died at Noto in 1549 or 1550. In
-Brazil he is still venerated as Santo Antônio de Categeró. [X3-148, X3-150]
+**Antonio of Noto.** Benedict was not even Sicily's first African-descended Franciscan to make that crossing. Born around 1490 to a Muslim family in the Barca mountains of Cyrenaica in modern Libya, Antonio was captured by Sicilian galleys and enslaved on the island [X3-147, X3-219]. Put to work as a shepherd near Avola and Noto, he converted to Christianity, won his freedom for his integrity, and spent his remaining years as a Franciscan tertiary and hermit in the countryside near Noto, caring for the sick, the poor, and prisoners until his death in March 1549 or 1550 [X3-148, X3-219]. Thirty-eight witnesses testified to his sanctity in April 1549, and in 1599 the Sicilian Inquisition granted leave for his image to be painted [X3-149, X3-154]. While Antonio's cult gradually faded in Noto itself, as Fiume notes, Black brotherhoods from the seventeenth century onward carried him across the Atlantic—and today in Brazil, inside churches of Our Lady of the Rosary of Black Men from Salvador to Ouro Preto and Tiradentes, he is still venerated as *Santo Antônio de Categeró* [X3-146, X3-150, X3-151]. Popular Brazilian accounts often state flatly that *Categeró* means the Sicilian hill town of Caltagirone, though the scholar Zarattini offers that link only as a cautious guess—a possible garbling of Caltagirone or a confusion with a friar Antônio Caltanisseta [X3-152, X3-153].
 
-**Rosalia** crossed to New Spain with the Jesuits and the Spanish crown's networks. And in 1555 the first Mexican
-Church council made **Saint Joseph** patron of "this new Church". [X3-166, X3-181]
+**Rosalia** crossed to New Spain along those same imperial and Jesuit channels, though her Atlantic passage began later in the seventeenth century [X3-166]. After Jaime de Palafox y Cardona moved from the archbishopric of Palermo (from 1677) to Seville (1684–1701) and planted her feast there, painters in New Spain such as Juan Tinoco in Puebla and Juan Correa (around 1695) were already painting Palermo's plague-saint [X3-169, X3-171]. As a Los Angeles County Museum of Art catalogue notes, "Sicilian missionaries introduced her cult to the viceroyalty," where floods, earthquakes, and epidemics drove wide devotion by the mid-eighteenth century—reaching as far north as New Mexico and outliving the 1767 expulsion of the Jesuits [X3-167, X3-168]. Even so, it is easy to overread every New World place-name: Baja California's Mission Santa Rosalía de Mulegé was founded in 1705 by Father Basaldúa rather than the Sicilian Jesuit Francisco María Píccolo (who wrote from Santa Rosalía in 1717), and no surviving document proves Sicilian Jesuits chose the name for their home saint [X3-174, X3-177, X3-178, X3-180]. Meanwhile, traffic around Saint Joseph ran largely from the Spanish center outward: in 1555 the First Mexican Provincial Council named **Saint Joseph** general patron of "this new Church" in New Spain, and images of Joseph surged after the **Council of Trent** around 1600 [X3-181, X3-182]. As the folklorist Luisa Del Giudice notes, Joseph's prominence in Sicily was itself "considered to be largely the product of Spain"—though the elaborate Sicilian St Joseph's tables have "no counterpart in Spain or its colonies" [X3-183, X1-148].
 
-You'll often read that Sicilian emigrants carried these saints to Argentina, Brazil and Venezuela. They got there
-centuries earlier, through Spain and Portugal. [X3-211]
+Why, then, do people so often credit nineteenth-century Sicilian emigrants with carrying these saints to Argentina, Brazil, and Venezuela? Because the dates get telescoped in memory. As Anna Maria Ratti's 1931 migration study documents, when mass emigration left Sicily between 1876 and 1926, Sicilians went overwhelmingly to the United States and Canada, while Argentina and Brazil drew heavy shares from northern Italy; and the transplanted southern Italian village cults that did arrive with later migrants in Argentina and Uruguay—such as San Cono of Teggiano—came from Campania or Calabria rather than Sicily [X3-205, X3-210, X3-211]. Sicily's saints had already crossed the Atlantic two to three centuries earlier, inside Spanish and Portuguese imperial networks [X3-211].
 
-**Stamp:** MYTH-CHECK · Sicilian emigrants carried these saints to the Americas · they went earlier, through Spain and
-Portugal [X3-211]
+**Check:** Sicilian emigrants carried these saints to the Americas · they crossed centuries earlier through Spanish and Portuguese networks [X3-211]
 
-The shared look, the candles and the gold? No scholar we found traces it to one source. Votive candles are a habit of
-Catholics everywhere, and the baroque turned up the volume in both places. Nor did we find any sign that Mexico's Day
-of the Dead came from Sicily, or Sicily's from Mexico, or that St Joseph's tables took root in Latin America.
-[X3-203, X3-199, X3-189]
+What about the uncanny visual echo between Sicily and Latin America—the forests of votive candles, the baroque gold, the painted miracle plaques, the sugar treats of 2 November? Here, too, resemblance is not the same as export [X3-203]. No scholar traces that shared look to a Sicilian blueprint: votive candles and painted ex-votos—*retablos* in Spanish America, *miraculi* in Sicily—belonged to a pan-Catholic European habit brought to the colonies in the sixteenth century and turned up to full volume by post-Trent baroque piety [X3-201, X3-203]. Nor did Sicily invent Mexico's Day of the Dead or borrow its *pupi di zùccaru* from Mexico: historians such as Stanley Brandes argue that Mexico's 2 November celebrations grew largely out of the colonial European All Souls' feast combined with Indigenous traditions and Spanish sugar-paste (*alfeñique*) craft, with no recorded transfer in either direction between Sicily and Mexico [X3-192, X3-195, X3-199, X1-162]. St Joseph's tables never took root in Latin America at all [X3-189], though in the United States Sicilian women did build them in a largely Latino parish in East Los Angeles, and Black Catholics in New Orleans were building St Joseph altars in Tremé by 1945 [X3-186, X3-187, X3-188]. Across two hemispheres, an empire-wide Church gave different peoples the same liturgy, saints, and baroque stagecraft—and each place turned them to its own necessities [X3-203].
 
 ---
 
 ## 12 · Curtain call
 
-So, no goddesses under the robes, and no ancient Egyptian cards. What Sicily has is better and stranger: a city that
-carried a veil against lava, a hermit elected patron before her bones were checked, a letter from Mary written 1,500
-years late, tables for the poor, executed men prayed to as protectors, and healers the Inquisition couldn't quite bring
-itself to burn. Not leftovers of someone else's religion. Sicilians' own.
+Put away the Egyptian tarot cards and the Victorian goddesses, then, because the island left behind in the archives is far richer—and far more human—than the exotic mirage outsiders invented for it [X1-219, X1-94, X1-95]. Across an unbroken succession of foreign crowns, from Byzantines and Arabs to Normans and Spaniards [X1-56, X1-58, X1-60, X1-71], ordinary Sicilians did not quietly preserve someone else's paganism under Catholic robes [X1-19]; they took the liturgy, relics, canon law, and feast calendar of a universal Church and bent them to the immediate urgencies of their own streets—lifting a martyr's veil against Mount Etna's lava [X2-28, X2-29b], voting an unverified hermit onto Palermo's civic throne seven months before her bones were certified [X2-70, X2-76], claiming a forged letter from Mary in the teeth of Vatican censors [X1-123, X1-125, X1-126], turning repentant convicts on the scaffold into protective watchmen by the Oreto [X1-230, X1-231, X1-232], and bargaining with night fairies and saints alike when a child fell ill [X3-53, X1-248].
+
+What looks from a distance like timeless superstition turns out, up close, to be something much nearer to craft: the patient, inventive work of an island making an empire-spanning religion answer in its own dialect. Whether inside a gilded silver bust in Catania [X2-18], a crowded kitchen at Santa Maria di Gesù in Palermo [X3-217], or the thunder of *chimbangueles* drums across the Atlantic in Venezuela [X3-158], the story of Sicily's saints and spells is not a museum of dead gods—it is the record of living people refusing to face plague, hunger, fear, and power empty-handed.
 
 ---
 
@@ -602,9 +330,9 @@ At build, from `figures.md` (sources by act; image credits; the notes listed in 
 ## Call-outs (tap to open; portraits only where cleared)
 - **Giuseppe Pitrè** | 1841–1916 | pitre: Palermo's great collector of Sicilian folk life. Italy's national biography
   (Treccani) says he worked as a doctor all his life, hardly ever leaving Palermo. In his spare hours he gathered
-  tales, songs, feasts, cures and beliefs into 25 volumes, founded a journal for them in 1882, and in 1910 got the
+  tales, songs, feasts, cures and beliefs into 25 volumes, founded a journal for them in 1882, and in 1910 received the
   first university chair in the subject. He also wrote that these traditions were "remains of ancient mythologies",
-  the idea this show keeps testing. [X1-20, X1-20a, X1-21, X1-26, X1-27, X1-18]
+  the idea this show puts to the test. [X1-20, X1-20a, X1-21, X1-26, X1-27, X1-18]
 - **Antonio Gramsci** | 1891–1937 | gramsci: A Marxist thinker from Sardinia and a leader of Italy's Communist
   Party. Mussolini's government arrested him in 1926, and he filled notebook after notebook in prison; the complete
   *Prison Notebooks* came out in 1975. In them he argued that the folklore of ordinary people was a worldview of its
@@ -618,36 +346,33 @@ At build, from `figures.md` (sources by act; image credits; the notes listed in 
   Greek historian Thucydides says the Sicani called themselves the island's first inhabitants, though he thought they
   came from Iberia; the Elymians, around Eryx and Segesta in the west, were said to descend from refugees of Troy;
   and the Sicels crossed over from mainland Italy. Phoenician traders held points along the coast. [X1-47]
+- **Antoine Court de Gébelin** | 1725–1784 | gebelin: Swiss-born French Protestant pastor, scholar, and Freemason. In 1781, in volume 8 of his *Le Monde primitif*, he announced that tarot was an ancient Egyptian *Book of Thoth* brought to Europe by "Gypsies," launching the cards' occult career without historical evidence. [X1-216, X1-217, X1-219, X1-261]
+- **Etteilla** | 1738–1791 | etteilla: Jean-Baptiste Alliette, the Parisian occultist and cartomancer who reversed his surname for his stage name. Publishing tarot divination manuals in the 1780s, he became the first to assign fixed fortune-telling meanings to the cards and produced the first deck created specifically for divination. [X1-218, X1-262]
+- **Papus** | 1865–1916 | papus: Gérard Encausse, Spanish-born French physician, occultist, and co-founder of the Martinist Order. His 1889 book *Le Tarot des Bohémiens* (*The Tarot of the Bohemians*) synthesized a century of French occult tarot claims into one influential manual. [X1-220, X1-263]
+- **Arthur Edward Waite** | 1857–1942 | waite: American-born British occultist, mystic, and member of the Hermetic Order of the Golden Dawn. He conceived the design, directed Pamela Colman Smith, and wrote *The Pictorial Key to the Tarot* for the early-1900s Rider-Waite-Smith deck (1909–10). [X1-222, X1-264]
+- **Pamela Colman Smith** | 1878–1951 | smith: British-American artist, illustrator, and Golden Dawn member known as "Pixie." Working under Waite's direction, she painted all seventy-eight cards of the Rider-Waite-Smith deck (1909–10), putting full dramatic scenes on every Minor Arcana pip card. [X1-222, X1-265]
+- **Aleister Crowley** | 1875–1947 | crowley: British occultist, writer, mountaineer, and founder of Thelema, initiated into the Golden Dawn in 1898. Between 1938 and 1944 he directed the artist Lady Frieda Harris in painting the seventy-eight cards of the Thoth Tarot, published alongside his *The Book of Thoth* in 1944. [X1-266, X1-267]
+- **Compagnia dei Bianchi** | Palermo, founded 1541 | : A white-robed confraternity founded in Palermo in 1541 "to comfort the condemned to die well," as Giuseppe Pitrè records (*Usi e costumi* IV, 1889). As Pitrè and the historians Owen Davies and Francesca Matteoni document, its brothers stayed with prisoners for their last three days and nights, accepted them as brothers, walked with them to the scaffold, buried them, and begged alms for prayers for their souls—helping shape the street cult of the *decollati*. [X1-151, X1-153, X1-230]
+- **Steri palace** | Palazzo Chiaramonte-Steri, Palermo | : Built in Palermo's Kalsa quarter by the Chiaramonte family in the early 1300s (its painted Sala Magna ceiling dates to 1377–80 under Manfredi III Chiaramonte) and confiscated in 1392 when Andrea Chiaramonte was beheaded for treason. It served as a royal residence, the seat of the Spanish viceroys (1468–1517), and the Royal Customs (*Regia Dogana*) before becoming the seat of the Spanish Inquisition in Sicily from 1601 until its abolition in 1782—where Pitrè uncovered prisoners' wall drawings in 1906. [X3-214, X3-13, X3-18]
+- **Council of Trent** | Session 25, December 1563 | : In Session 25 in December 1563, the Catholic reform council affirmed that saints' bodies and relics "are to be venerated," while ordering bishops to remove "every superstition," abolish "all filthy lucre," and inspect any newly claimed relic before admitting it—a Counter-Reformation turning point that also spurred devotional imagery such as the cult of Saint Joseph. [X2-134, X3-182]
+- **furta sacra** | Furta sacra ("holy theft") | : The historian Patrick Geary's term, from his 1978 book *Furta Sacra: Thefts of Relics in the Central Middle Ages*, for medieval relic thefts that communities celebrated rather than condemned. Because medieval Christians believed a saint acted through her bones, a successful theft proved the saint had consented to move—which helps explain why Catania's 1126 recovery of Agatha from Constantinople was rare as a theft of a female saint's relics, yet still called a *"sacro furto"* by Catania's archbishop in 2026. [X2-156, X2-152, X2-15, X2-16]
 
 ## Glosses (tap to open; each adds something the sentence doesn't say)
-- *syncretism*: from the Greek *synkretizein*; Plutarch's Cretans "syncretized" against a common enemy, so the word
-  first meant an alliance, not a blend [X1-01]
-- *intercession*: the Catechism adds that the saints offer God the merits they earned on earth "through the one
-  mediator", Christ: they ask on your behalf, they don't grant anything themselves [X1-227]
-- *sacco*: five pieces, tunic, cap, cord, gloves and handkerchief; worn by Agatha's devotees in Catania [X1-92, X1-201]
-- *festino*: Palermo's July feast of Rosalia, held every year since 1625; the 400th was in 2024 [X1-118, X1-202]
-- *carro*: Rosalia's triumphal cart; Paolo Amato's cart was first used in 1686 and shown every year from 1693.
-  Jean Houël's print on the stage shows one from the 1780s [X1-115, X1-116]
-- *acchianata*: the night pilgrimage on foot up Monte Pellegrino to Rosalia's cave, 3–4 September, the eve of the day
-  she is said to have died [X1-116, X1-117, X1-203]
-- *vara*: a processional float. Messina has two: the silver vara of the June Letter feast, and the great Vara of the
-  Assumption on 15 August, which goes out with the giants Mata and Grifone [X1-131, X1-133, X1-204]
-- *virgineddi*: "little virgins". Usually poor children dressed as the Holy Family and served first; in the Madonie
-  mountains, unmarried young people [X1-205]
-- *vampata*: the bonfire on St Joseph's eve, 18 March; Palermo's is on the Region's heritage register [X1-147, X1-206]
-- *decollati*: in Palermo dialect the *armi di li corpi decullati*, "souls of the beheaded bodies"; in Acireale they
-  were the *beati*, "the blessed", and in Trapani the *armiceddi*, "little souls" [X1-207]
-- *good thief*: one of the two criminals crucified with Jesus; in Luke's Gospel he admits his guilt and asks to be
-  remembered, and Jesus promises him paradise that same day [X1-236]
-- *pupi di zùccaru*: a sugar doll (*pupa*) for a girl, a sugar knight (*cavaliere*) for a boy [X1-163, X1-212]
-- *miraculu*: Sicilian for "miracle"; a painted-tin one of 1890 is in the Casa-Museo Antonino Uccello, which the
-  Region bought in 1983 [X1-169, X1-211]
-- *donne di fuora*: their great yearly gathering was on St John's Eve, 23 June. In 1656 the bishop of Agrigento
-  barred unmarried girls from leaving home that night, fined their fathers four ounces and had church doors locked at
-  2 a.m. [X3-54, X3-70]
-- *ittatura* / *malocchiu*: evil-casting, the evil eye. Emigrants from Racalmuto in Canada told the anthropologist
-  Migliore it can be cast by witches, or by ordinary envious people [X1-175, X1-210]
-- *ciarmavermi*: Napoli found them in the provinces of Messina, Enna, Ragusa, Catania and Palermo; fright, *scantu*,
-  is held to bring on the worms [X1-172, X1-209]
-- *cimaruta*: collectors around 1900 tied this charm to the goddess Diana; that link is a reading of the survivals
-  school, not a record [X1-176]
+- *syncretism*: From the Greek *synkretizein* ("to act like Cretans"): Erasmus revived the word in a 1519 letter to Melanchthon to mean Christian scholars uniting across differences; in the 17th century Protestant theological quarrels turned it into an insult, and only in the 19th century did it take on its modern sense of a religious mixture [X1-01, X1-02, X1-03, X1-04 (Levinskaya 1993, named)].
+- *intercession*: In Catholic theology, saints are petitioners rather than independent miracle-workers: the Catechism (§956) specifies that they offer God the merits they earned on earth "through the one mediator… Christ Jesus," so praying to a saint means asking an advocate to plead your case, not bypassing God [X1-227 (the Catechism, named)].
+- *sacco*: The full outfit worn by Agatha's devotees in Catania consists of five pieces—a white tunic, black velvet cap, cord, white gloves, and handkerchief (Di Giovanni 2007). While Maurice's medieval account puts Catania's clergy in white robes (*"in albis vestibus"*) in 1126, the historian Francesco Benigno dates the lay *sacco*, cap, and gloves to the 18th century [X1-92, X2-12, X1-93, X2-34].
+- *festino*: Palermo's numbered *festino* counts from the first procession of 1625 (making 2024 its 400th edition), though historians note the civic-political festival took shape around 1649 and stretched to four days in 1693. It also bends with civic grief and migration: in 1992, after the murders of Falcone and Borsellino, Palermo replaced fireworks with a torchlight procession, and today Tamil Hindu devotees join the feast, honoring Rosalia as a "Great Mother" [X1-114, X1-115, X1-118, X1-119, X1-120].
+- *carro*: Palermo's towering triumphal float for Saint Rosalia: the architect Paolo Amato's design was first rolled out in 1686 and rebuilt annually from 1693 (Jean Houël's 1780s print shows one version on the stage). In 2023, the city of Palermo gifted a *carro* that landed at New York's Pier 85 for the diaspora feast [X1-115, X1-116, X3-212 (Salerno 2024, named)].
+- *acchianata*: Literally "the climb" in Sicilian: the night pilgrimage on foot up Monte Pellegrino to Rosalia's hilltop cave on 3–4 September, the eve of her traditional death day—marking the older hermitage site where a modest local cult already existed before the 1624 plague [X1-106, X1-107, X1-116, X1-117, X1-203].
+- *vara*: A processional float. Alongside the silver *vara* that carries the Holy Hair on 3 June, Messina's monumental Assumption *Vara* on 15 August—escorted by the giant figures Mata and Grifone—is a pyramidal machine roughly 14 meters tall and 8 tons heavy, mounted on iron sleds (*cippu*) with no wheels or brakes and hauled about 3 km over wetted asphalt by roughly 1,000 devotees pulling two long hemp ropes [X1-131, X1-133, X1-204, X1-256, X1-257].
+- *virgineddi*: "Little virgins": the honored guests at a St Joseph's table, traditionally poor children or orphans dressed as Jesus, Mary, and Joseph—or unmarried young people in the Madonie mountains, and family children in western New York's diaspora altars. Because 19 March falls in Lent, the banquet they are served first is strictly meatless, featuring sculpted breads, *pasta con le sarde* or *con la mollica* (toasted breadcrumbs as "sawdust"), whole fish, and fried artichokes [X1-144, X1-205, X1-258, X1-259].
+- *vampata*: Literally a "blaze": the St Joseph's Eve bonfire lit on 18 March across Sicilian neighborhoods (Palermo's *Vampata di San Giuseppe* is entry no. 96 on Sicily's heritage register). Folklorists from Pitrè in 1900 onward declared the fires "certainly pagan," though modern scholars such as Luisa Del Giudice and Dorothy Noyes argue that pre-Christian descent cannot be proven from seasonal bonfires alone [X1-147, X1-150, X1-206].
+- *decollati*: In Palermo dialect, *armi di li corpi decullati* ("souls of the beheaded bodies"); in Acireale they were called the *beati* ("the blessed"), and in Trapani the *armiceddi* ("little souls"). For centuries Palermo displayed executed bodies at the Sperone outside the city until a 1788 viceregal ban, and a head-pyramid stood at the execution ground from at least 1604 until the Senate moved it in 1779, near the Oreto river church where the dead were buried [X1-207, X1-154, X1-155, X1-156 (Fatta 2016, named)].
+- *good thief*: In Luke's Gospel (23:39–43), one of two criminals crucified alongside Jesus rebukes the other, accepts his own sentence as just, and asks Jesus to remember him—receiving the promise of paradise "today." In Sicilian street theology, that single scene turned a repentant felon on the scaffold into a potential intercessor whose execution began his purgatorial purification [X1-236, X1-231].
+- *pupi di zùccaru*: Cast and painted sugar figurines set inside a *canistru* (gift basket) with fruit and nuts on 2 November—traditionally a sugar doll (*pupa*) for a girl and a mounted knight (*cavaliere*) for a boy, as oral testimonies collected by Campanella (2023) record. Alongside them often sit almond-paste *frutta martorana*, which Palermitans like to say were invented by Martorana nuns to fake out-of-season fruit for a visiting dignitary, though no historical document backs the tale [X1-162, X1-163, X1-212, X1-166].
+- *miraculu*: Sicilian for "miracle," used as the dialect word for a votive offering of thanks. As the Palermo scholar Ignazio E. Buttitta notes, painted tablets depict the crisis, the person spared, and the heavenly protector in a "standing declaration of debt" to the saint; one surviving painted-tin *miraculu* for an escape on 23 November 1890 is catalogued in the Casa-Museo Antonino Uccello, acquired by Sicily's regional government in 1983 [X1-168, X1-169, X1-211].
+- *donne di fuora*: Also called *donni di locu* ("ladies of the place") or *patroneddri di casa* ("little masters of the house"). Their grand yearly assembly fell on St John's Eve (23–24 June), summoned by the "Great Fairy of Messina," while in Palermo their meeting place was known as the *Cortile delle sette fate* (Courtyard of the Seven Fairies); in 1656 the bishop of Agrigento barred unmarried girls from leaving home that night, fined their fathers four ounces, and ordered church doors locked at 2 a.m. [X3-52, X3-54, X3-70 (Geremia 2024, named)].
+- *ittatura* / *malocchiu*: "Evil-casting" and "evil eye." In Sam Migliore's 1997 study of some 25,000 Sicilian-Canadians in Hamilton, Ontario—mostly tracing ancestry to Racalmuto—informants explained *ittatura* as sitting between *disgrazia* (misfortune) and *sortilegio* (power to disrupt events), cast not only by witches but by ordinary neighbors whose envy turns sharp. Far from uniquely Sicilian, a 2017 Pew survey of 24,599 adults across 15 Western European countries found a 16% median belief in the evil eye, reaching 48% in Portugal and 33% in Spain [X3-90, X3-91, X1-175, X1-179, X3-106].
+- *ciarmavermi*: Healers who charm away childhood intestinal worms, which Sicilian belief often links to sudden fright (*scantu*). In 2002–2006 fieldwork across five Sicilian provinces, Maria Concetta Napoli interviewed around 25 practitioners—mostly women over 60 alongside men in their 70s and 80s and one healer nearly 100—who said their prayers could be taught only on specific ritual days (such as seven consecutive Fridays or Christmas midnight Mass), passed to a disciple who could use them only after the master died, and never paid in cash lest the gift be lost [X1-172, X3-99, X3-100, X3-102, X3-103, X3-104 (Napoli 2008, named)].
+- *cimaruta*: Literally "sprig of rue": a compound silver amulet shaped like a branching sprig of the herb *ruta*, hung with miniature protective charms—crescent moon, key, fish, serpent, flower or vervain, hand, rooster, or dagger—pinned especially to infants' clothes against *malocchio*. Primarily Neapolitan and southern Italian, it was recorded in early-20th-century Sicily by English collectors who tied it to "Diana Triformis," a classic survivalist leap rather than a documented lineage [X1-268, X3-93, X1-176 (Intorre 2025, named)].
+- *chimbangueles*: The ensemble of seven or eight drums—accompanied by flags, maracas, flutes, songs, and dances—that leads San Benito's processions in Venezuela's Zulia, Trujillo, and Mérida from October through 2 February; scholars trace the name to the Bantu *Imbangala* [X3-158, X3-159, X3-160].

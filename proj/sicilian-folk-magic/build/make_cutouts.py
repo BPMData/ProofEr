@@ -25,6 +25,8 @@ ITEMS = {
     'exvoto':    ('11-exvoto.jpg',           (0.0, 0.0, 1.0, 1.0), 'print'),
     'angel1':    ('12-angel-1.jpg',          (0.0, 0.0, 1.0, 1.0), 'cut'),
     'agathabust': ("Busto_di_Sant'Agata.jpg", (0.0, 0.07, 0.92, 1.0), 'cut'),   # the real bust, Catania (Bryan's photo, Nov 23)
+    'benedict':  ('16-benedict-moor.jpg',     (0.20, 0.16, 0.80, 0.72), 'cut'),
+    'steri':     ('17-steri-inquisition.jpg', (0.04, 0.05, 0.96, 0.923), 'print'),
 }
 ONLY = []                # e.g. ['agathabust'] to redo one
 # 'disc' items: (centre x, centre y, radius) in source pixels, plus the hanging string as a box
@@ -71,6 +73,8 @@ def finish(img, alpha, mode):
         pad = RIM * 2
         a[pad:h - pad, pad:w - pad] = 255
     a = np.where(a > 127, 255, 0).astype(np.uint8)
+    if mode == 'cut':
+        a = cv2.erode(a, np.ones((3, 3), np.uint8), iterations=1)
     # scissor-cut paper: grow the shape, simplify to a polygon with straight snips
     rim = cv2.dilate(a, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (RIM * 2 + 1, RIM * 2 + 1)))
     if mode == 'hollow':

@@ -26,6 +26,9 @@ def webp(name, h=IMG_HEIGHT, mirror=False):
     b = io.BytesIO(); im.save(b, 'WEBP', quality=IMG_QUALITY, method=6)
     return 'data:image/webp;base64,' + base64.b64encode(b.getvalue()).decode()
 
+def cc(code, ver):
+    return f'<a href="https://creativecommons.org/licenses/{code}/{ver}/">CC {code.upper()} {ver}</a>'
+
 CREDITS = {
     'rosalia': ('Saint Rosalia', 'Anthony van Dyck, <i>Saint Rosalie Interceding for the Plague-stricken of Palermo</i>, 1624 (detail). The Met, 71.41. CC0.'),
     'float': ('Rosalia’s car', 'Jean Houël, <i>The car of Saint Rosalia</i>, aquatint, 1780s. Wellcome Collection, 7145i. Public Domain Mark.'),
@@ -39,22 +42,32 @@ CREDITS = {
     'frame': ('The proscenium', 'Gilt ripple frame, Sicilian(?), late 17th c. The Met, 1975.1.2326. CC0.'),
     'exvoto': ('An ex-voto', 'Ex-voto: a man falls in a Roman street while his wife prays to Sansovino’s Virgin and Child, 27 May 1851. Rome, not Sicily. Wellcome Collection, 44879i. Public Domain Mark.'),
     'angel1': ('An angel', '<i>Angel</i>, crèche figure, Naples, 2nd half 18th c. The Met (crèche angels, 64.164). CC0.'),
+    'benedict': ('Saint Benedict the Moor', 'Polychrome and gilt wood sculpture of <i>Saint Benedict of Palermo</i>, c. 1734, attributed to José Montes de Oca (Minneapolis Institute of Art, 2010.27.2). Photo: 19h00s at the National Gallery of Art, 2022, via Wikimedia Commons, ' + cc('by-sa', '4.0') + '. Cut out for the stage.'),
+    'steri': ('An auto-da-fé', 'Bernard Picart (with C. Du Bosc), <i>An auto-da-fé of the Spanish Inquisition held in a church</i>, 18th-century engraving. Wellcome Collection, V0041640, ' + cc('by', '4.0') + '.'),
 }
-IMGS = {k: webp(k) for k in CREDITS if k not in ('frame', 'float', 'exvoto', 'bust')}
+IMGS = {k: webp(k) for k in CREDITS if k not in ('frame', 'float', 'exvoto', 'bust', 'steri')}
 IMGS['bust'] = webp('agathabust')   # the real bust (Bryan's photo, Nov 23); bust.png is the old Juliana stand-in
 IMGS['float'] = webp('float', 520)
 IMGS['exvoto'] = webp('exvoto', 520)
+IMGS['steri'] = webp('steri', 520)
 IMGS['angel1m'] = webp('angel1', mirror=True)
 FRAME = webp('frame', 640)
 
 # ---------- zoom (Bryan, Nov 23: click a painting or statue to see it up close) ----------
-# Embedded, not hotlinked: ProofEr pieces load nothing from the internet (CLAUDE.md; check_offline.py and CI).
+# Same-repo relative WebP assets (no external network loads; check_offline.py passes).
 ZOOM_SRC = {'rosalia': ('01-rosalia-vandyck', 1400), 'float': ('02-houel-car-rosalia', 1400), 'agatha': ('03-agatha-bronze', 1000),
             'bust': ("Busto_di_Sant'Agata.jpg", 1400), 'lucy': ('05-lucy-zurbaran', 1400), 'joseph': ('06-joseph', 1000),
             'goddess': ('07-goddesses-front', 1000), 'isis': ('08-isis-front', 1000), 'albarello': ('09-albarello-front', 1000),
-            'exvoto': ('11-exvoto', 1400), 'angel1': ('12-angel-1', 1000)}
+            'exvoto': ('11-exvoto', 1400), 'angel1': ('12-angel-1', 1000),
+            'benedict': ('16-benedict-moor.jpg', 1200), 'steri': ('17-steri-inquisition.jpg', 1400)}
 ZOOM_QUALITY = 62
-def zoomimg(name, side, crop=None, lift=False):
+ASSET_DIRS = [
+    os.path.join(ROOT, 'pieces', 'assets', 'sicilian-folk-magic'),
+    os.path.join(ROOT, 'proj', 'sicilian-folk-magic', 'build', 'out', 'assets', 'sicilian-folk-magic'),
+]
+for _d in ASSET_DIRS:
+    os.makedirs(_d, exist_ok=True)
+def zoomimg(key, name, side, crop=None, lift=False):
     im = Image.open(P('art', 'originals', name if '.' in name else name + '.jpg')).convert('RGB')
     if crop:
         L, T, R, B = crop; im = im.crop((int(L * im.width), int(T * im.height), int(R * im.width), int(B * im.height)))
@@ -62,8 +75,12 @@ def zoomimg(name, side, crop=None, lift=False):
         im = ImageOps.autocontrast(im, cutoff=1)
     im.thumbnail((side, side), Image.LANCZOS)
     b = io.BytesIO(); im.save(b, 'WEBP', quality=ZOOM_QUALITY, method=6)
-    return 'data:image/webp;base64,' + base64.b64encode(b.getvalue()).decode()
-ZOOM = {k: zoomimg(*v) for k, v in ZOOM_SRC.items()}
+    raw = b.getvalue()
+    for _d in ASSET_DIRS:
+        with open(os.path.join(_d, f'{key}.webp'), 'wb') as fh:
+            fh.write(raw)
+    return f'assets/sicilian-folk-magic/{key}.webp'
+ZOOM = {k: zoomimg(k, *v) for k, v in ZOOM_SRC.items()}
 
 # ---------- pictures in the text (Bryan, Nov 23: Act 6) ----------
 # key: (original file, name, caption (our words), credit, alt text)
@@ -91,13 +108,11 @@ def figthumb(name, side=760):
     b = io.BytesIO(); im.save(b, 'WEBP', quality=IMG_QUALITY, method=6)
     return 'data:image/webp;base64,' + base64.b64encode(b.getvalue()).decode()
 for k, v in FIGS.items():
-    ZOOM[k] = zoomimg(v[0], 1600 if k == 'bosch' else 1200)
+    ZOOM[k] = zoomimg(k, v[0], 1600 if k == 'bosch' else 1200)
 FIG_CREDITS = {k: (v[1], v[3]) for k, v in FIGS.items()}
 
 # ---------- relic photos for the cabinet (Bryan's files and licences, Nov 23) ----------
 # key: (original file, zoom side, crop or None, name, credit). CC licences need the author, the licence link and a note of changes.
-def cc(code, ver):
-    return f'<a href="https://creativecommons.org/licenses/{code}/{ver}/">CC {code.upper()} {ver}</a>'
 RELICS = {
     'urn': ('Urna_Santa_Rosalia_PA_14_07_2019_01.jpg', 1600, None, 'Rosalia’s urn',
             'The silver urn of Saint Rosalia, enthroned in the nave of Palermo Cathedral, 14 July 2019. Photo: Effems, '
@@ -113,7 +128,23 @@ RELICS = {
     'louis': ('Tomb_of_Louis_IX_of_France_-_Cathedral_of_Monreale_-_Italy_2015_(2).jpeg', 1600, None, 'Louis IX at Monreale',
               'Tomb of Louis IX, Monreale Cathedral, 2015. © José Luiz Bernardes Ribeiro / ' + cc('by-sa', '4.0') + '. Resized.'),
 }
-for k, v in RELICS.items(): ZOOM[k] = zoomimg(v[0], v[1], v[2], lift=(k == 'capello'))
+for k, v in RELICS.items(): ZOOM[k] = zoomimg(k, v[0], v[1], v[2], lift=(k == 'capello'))
+def relic_thumb(name, crop=None, lift=False):
+    im = Image.open(P('art', 'originals', name if '.' in name else name + '.jpg')).convert('RGB')
+    if crop:
+        L, T, R, B = crop; im = im.crop((int(L * im.width), int(T * im.height), int(R * im.width), int(B * im.height)))
+    if lift:
+        im = ImageOps.autocontrast(im, cutoff=1)
+    im = ImageOps.fit(im, (128, 128), Image.LANCZOS)
+    b = io.BytesIO(); im.save(b, 'WEBP', quality=ZOOM_QUALITY, method=6)
+    return 'data:image/webp;base64,' + base64.b64encode(b.getvalue()).decode()
+THUMBS = {
+    'bust': relic_thumb(ZOOM_SRC['bust'][0]),
+    'urn': relic_thumb(RELICS['urn'][0]),
+    'capello': relic_thumb(RELICS['capello'][0], RELICS['capello'][2], lift=True),
+    'lucybody': relic_thumb(RELICS['lucybody'][0]),
+    'louis': relic_thumb(RELICS['louis'][0]),
+}
 FIG_CREDITS.update({k: (v[3], v[4]) for k, v in RELICS.items()})
 FIGS['lettera'] = (RELICS['lettera'][0], RELICS['lettera'][3],
                    'The Letter as Messina wanted to see it: a copy made in the 1670s, probably sold to pilgrims who came for the '
@@ -180,6 +211,18 @@ PORTRAITS = {
                   '(File:Album_mix_005_Muzi_Epifani_Ernesto_de_Martino.jpg), '
                   '<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>. '
                   'Cropped to de Martino alone; this crop is shared under the same licence.'),
+    'gebelin': ('Antoine Court de Gébelin', 'Engraving by François Huot after André Pujos, 1784, via Wikimedia Commons '
+                '(File:Antoine-court-de-gebelin-pujos-huot-1784.jpg). Public domain.'),
+    'etteilla': ('Etteilla (Jean-Baptiste Alliette)', 'Engraving by an unknown artist, 1790, from <i>Cours théorique et pratique du livre de Thot</i>, '
+                 'via Wikimedia Commons (File:ALLIETTE.jpg). Public domain.'),
+    'papus': ('Papus (Gérard Encausse)', 'Photograph by Eugène Pirou, 1893, BnF Gallica, via Wikimedia Commons '
+              '(File:Gerard Encausse.jpeg). Public domain.'),
+    'waite': ('Arthur Edward Waite', 'Photograph by an unknown photographer, early 1880s, via Wikimedia Commons '
+              '(File:ArthurEdwardWaite~1880.JPG). Public domain.'),
+    'smith': ('Pamela Colman Smith', 'Photograph by an unknown photographer, published in <i>The Craftsman</i>, October 1912, '
+              'via Wikimedia Commons (File:Pamela Colman Smith circa 1912.jpg). Public domain in the US (PD-1923).'),
+    'crowley': ('Aleister Crowley', 'Photograph by an unknown photographer, 1910 (Golden Dawn regalia, publicity for <i>The Rites of Eleusis</i>), '
+                'via Wikimedia Commons (File:Aleister Crowley, Golden Dawn.jpg). Public domain.'),
 }
 def portrait(k):
     b = open(P('art', 'portraits', k + '.jpg'), 'rb').read()
@@ -245,6 +288,12 @@ def stamp_html(txt):
             f'<p><span class="vh">Myth-check. Claim: </span><span class="claim">{claim}</span>'
             f'<span class="verdict"><span class="vh">What the record shows: </span>{verdict}</span></p></div>')
 
+def check_html(txt):
+    parts = [x.strip() for x in txt.split('·', 1)]
+    claim = parts[0] if parts else ''
+    verdict = parts[1] if len(parts) > 1 else ''
+    return f'<div class="myth-sm"><span class="mtag">Record check</span><p><span class="mclaim">{inline(claim)}</span><span class="mverd">{inline(verdict)}</span></p></div>'
+
 sections = re.split(r'\n(?=## )', copy.strip())
 SECS = []
 for sec in sections:
@@ -293,6 +342,8 @@ for sec in sections:
                     blocks.append(f'<p>{inline(mm.group(2))}</p>')
                 else:
                     blocks.append(stamp_html(ch))
+        elif p.startswith('**Check:**'):
+            blocks.append(check_html(' '.join(p[len('**Check:**'):].split())))
         elif all(ln.startswith(('- ', '  ')) for ln in lines) or (lines[0].endswith(':') and len(lines) > 1 and lines[1].startswith('- ')):
             lead = ''
             if not lines[0].startswith('- '):
@@ -447,29 +498,38 @@ def cabinet_html():
 
 def route_svg():
     return '''<figure class="chart route" aria-labelledby="route-cap">
-<svg viewBox="0 0 360 300" role="img" aria-labelledby="route-t"><title id="route-t">Routes from Sicily, not to scale</title>
-<path class="sea" d="M0 0h360v300H0z"/>
-<!-- Western Europe & Iberian Peninsula -->
-<path class="land" d="M242 28 l48 -6 l52 10 l10 34 l-28 24 l-32 -8 l-44 6 z"/>
-<path class="land" d="M214 88 l24 -12 l20 8 l-6 30 l-26 4 z"/>
-<!-- New Spain (Mexico, upper left) -->
-<path class="land" d="M18 80 l56 -8 l28 22 l-16 32 l-42 6 l-26 -20 z"/>
-<!-- Northern South America & Brazil (lower left) -->
-<path class="land" d="M62 154 l44 -10 l36 22 l8 46 l-26 32 l-32 -14 l-24 -36 z"/>
+<svg viewBox="0 0 420 310" role="img" aria-labelledby="route-t"><title id="route-t">Routes from Sicily, not to scale</title>
+<defs>
+<marker id="arr1" viewBox="0 0 10 10" refX="7.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M1 1.5 L8.5 5 L1 8.5 z" fill="#2a1d16"/></marker>
+<marker id="arr2" viewBox="0 0 10 10" refX="7.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M1 1.5 L8.5 5 L1 8.5 z" fill="#1d4f8a"/></marker>
+</defs>
+<rect width="420" height="310" class="sea"/>
+<!-- Western Europe, Iberia & Italian boot -->
+<path class="land" d="M292 0 L420 0 L420 112 C 402 104, 386 88, 370 72 L352 104 L356 122 L344 130 L338 118 L322 86 L312 64 C 300 66, 290 72, 286 76 L276 74 L254 78 L252 96 L256 112 L272 118 L288 106 L296 74 L276 62 L274 36 L292 0 Z"/>
+<!-- North African rim framing the Mediterranean -->
+<path class="land" d="M254 136 L294 136 C 322 142, 344 150, 368 150 L420 154 L420 198 L250 198 C 248 176, 250 156, 254 136 Z"/>
+<!-- New Spain / Mexico, Central America & Caribbean -->
+<path class="land" d="M0 44 L86 44 L84 62 L66 72 C 62 84, 70 96, 86 96 L94 84 L102 88 L98 104 L108 118 L124 128 L120 134 L102 128 L82 116 L54 114 L24 94 L0 74 Z"/>
+<path class="land" d="M106 72 Q 116 68 128 76 Q 118 82 106 76 Z M132 78 Q 140 76 146 81 Q 138 86 132 82 Z"/>
+<!-- South America: Venezuela coast & Brazil Atlantic bulge -->
+<path class="land" d="M124 130 L144 130 L166 138 L194 160 L212 184 L204 218 L178 258 L156 310 L114 310 L108 242 L94 188 L104 150 Z"/>
 <!-- Sicily -->
-<path class="island" d="M294 114 l22 -4 l14 3 l-10 14 l-16 3 z"/>
-<!-- Solid route: Sicily -> Lisbon -> Brazil -> Venezuela -->
-<path class="r1" d="M306 118 C 276 118, 254 112, 230 108"/>
-<path class="r1" d="M230 108 C 194 152, 158 190, 124 224"/>
-<path class="r1" d="M124 224 C 110 206, 102 186, 98 166"/>
+<path class="island" d="M320 132 L338 128 L334 141 L322 138 Z"/>
+<!-- Solid routes: Sicily -> Lisbon -> Brazil -> Venezuela -->
+<path class="r1" d="M328 134 C 304 132, 280 116, 258 96"/>
+<path class="r1" marker-end="url(#arr1)" d="M258 96 C 232 138, 214 170, 194 196"/>
+<path class="r1" marker-end="url(#arr1)" d="M192 200 C 170 176, 154 156, 140 142"/>
 <!-- Dashed route: Sicily -> New Spain -->
-<path class="r2" d="M306 118 C 238 42, 136 44, 54 104"/>
-<circle class="cp" cx="306" cy="118" r="5"/><text x="304" y="146" class="ml">Sicily</text>
-<circle class="cp" cx="230" cy="108" r="4"/><text x="166" y="96" class="ml">Lisbon, by 1609</text>
-<circle class="cp" cx="54" cy="104" r="4"/><text x="14" y="42" class="ml">New Spain: Rosalia;</text><text x="14" y="58" class="ml">Joseph patron, 1555</text>
-<circle class="cp" cx="98" cy="166" r="4"/><text x="14" y="150" class="ml">Venezuela: the drums</text>
-<circle class="cp" cx="124" cy="224" r="4"/><text x="134" y="246" class="ml">Brazil, early 1600s</text>
-<text x="350" y="290" class="nts" text-anchor="end">not to scale</text>
+<path class="r2" marker-end="url(#arr2)" d="M328 134 C 246 48, 148 48, 72 88"/>
+<circle class="cp" cx="328" cy="134" r="4.5"/><text x="348" y="148" class="ml">Sicily</text>
+<circle class="cp" cx="258" cy="96" r="4"/><text x="246" y="92" class="ml" text-anchor="end">Lisbon, by 1609</text>
+<circle class="cp" cx="66" cy="90" r="4"/><text x="10" y="20" class="ml">New Spain: Rosalia;</text><text x="10" y="36" class="ml">Joseph patron, 1555</text>
+<circle class="cp" cx="136" cy="138" r="4"/><text x="148" y="122" class="ml">Venezuela: the drums</text>
+<circle class="cp" cx="192" cy="200" r="4"/><text x="210" y="216" class="ml">Brazil, early 1600s</text>
+<!-- Compact legend -->
+<line x1="258" y1="256" x2="282" y2="256" class="r1"/><text x="288" y="260" class="leg">Benedict’s cult</text>
+<line x1="258" y1="274" x2="282" y2="274" class="r2"/><text x="288" y="278" class="leg">Rosalia &amp; Joseph</text>
+<text x="408" y="298" class="nts" text-anchor="end">not to scale</text>
 </svg>
 <figcaption id="route-cap">Not to scale. Solid line: Benedict the Moor’s cult, carried by Black Catholic brotherhoods
 through Lisbon (a confraternity by 1609) to Brazil and the Spanish and Portuguese New World from the early 1600s,
@@ -515,11 +575,13 @@ SCENES = {
     4: dict(sea=True, cast=[['boat', 'bust', 62, 54], ['img', 'agatha', 25, 46]]),
     5: dict(back='float', cast=[['img', 'rosalia', 50, 64]]),
     6: dict(cast=[['letter', 'Messina · “AD 42”', 50, 56]]),
-    7: dict(cast=[['img', 'joseph', 24, 70], ['table', '', 64, 40]]),
+    7: dict(cast=[['img', 'joseph', 24, 70], ['table', '', 59, 40]]),
     8: dict(night=True, cast=[['print', 'exvoto', 50, 58]]),
     9: dict(night=True, cast=[['img', 'albarello', 22, 58], ['eye', '', 56, 40], ['horn', '', 82, 36]]),
+    16: dict(night=True, cast=[['print', 'steri', 34, 56], ['card', 'Steri · 1601–1782', 73, 42, '2 men for magic']]),
+    17: dict(night=True, cast=[['card', 'Donne di fuora', 50, 44, 'Tues · Thu · Sat']]),
     10: dict(cast=[['img', 'lucy', 33, 60], ['img', 'bust', 67, 54]], cabinet=True),
-    11: dict(sea=True, cast=[['ship', '', 50, 56]]),
+    11: dict(sea=True, cast=[['img', 'benedict', 28, 60], ['ship', '', 64, 52]]),
     12: dict(lights=True, bow=True, cast=[['img', 'angel1', 12, 50], ['img', 'agatha', 28, 50], ['img', 'rosalia', 50, 58],
                                          ['img', 'lucy', 70, 56], ['img', 'joseph', 81, 58], ['img', 'angel1m', 90, 50]]),
     13: dict(curtain=True, cast=[]),
@@ -549,10 +611,9 @@ def section_html(s):
             f'<li><a href="#s{k}">{v.split(" · ")[0].replace(" (night)", "")}</a></li>'
             for k, v in sorted(ACT_NAMES.items()) if v.startswith('Act ')) + '<li><a href="#s13">Sources</a></li></ul></nav>'
         return f'''<header class="sec hero" id="s0" data-scene="0">
-<div class="ribbon"><h1>Saints <span class="amp">&amp;</span> Spells</h1></div>
-<div class="card"><p class="dek">A friendly guide to Sicily’s saints, spells and the stories outsiders tell about them,
+<div class="card"><p class="kicker">A show in eight acts</p><h1 class="herotitle">Saints <span class="amp">&amp;</span> Spells</h1><p class="dek">A friendly guide to Sicily’s saints, spells and the stories outsiders tell about them,
 checked claim by claim.</p>
-<p class="byline"><i>A show in eight acts</i><br>By Bryan Murphy · November 22, 2026</p>
+<p class="byline">By Bryan Murphy · November 22, 2026</p>
 {ACTS}<p class="howto">Scroll, and the stage changes with each act. Underlined words and names open a short note. Point at or tap a puppet to see where it comes from, and click a painting or statue to see it up close. Red stamps are
 myth-checks.</p></div></header>'''
     if n == 13:
@@ -620,9 +681,8 @@ how many Sicilians hold it today. Beliefs are written as beliefs.</p>
             out.append(f'<h3>{inline(s["title"])}</h3><ul class="src">' +
                        ''.join(f'<li>{clean_src(x)}</li>' for x in items) + '</ul>')
     out.append('<h3>Pictures</h3><ul class="src">' + ''.join(f'<li><b>{a}:</b> {b}</li>' for a, b in list(CREDITS.values()) + list(FIG_CREDITS.values())) +
-               '<li><b>Drawn for this page:</b> the scholars’ and rulers’ placards, the boat, the letter, the table, the ship '
-               'the blue glass eye charm, the coral horn charm, the fortune-teller costume, the Paris occultist and the tarot cards. No open-licensed picture of Benedict the Moor or Antonio of Noto turned up, so '
-               'they are not shown.</li>' + ''.join(f'<li><b>Portrait of {a}:</b> {b}</li>' for a, b in PORTRAITS.values()) +
+               '<li><b>Drawn for this page:</b> the scholars’ and rulers’ placards, the boat, the letter, the table, the ship, '
+               'the blue glass eye charm, the coral horn charm, the fortune-teller costume, the Paris occultist and the tarot cards. No open-licensed picture of Antonio of Noto is shown.</li>' + ''.join(f'<li><b>Portrait of {a}:</b> {b}</li>' for a, b in PORTRAITS.values()) +
                '</ul>')
     out.append('<h3>Type</h3><p class="small">Gloock (display) and Literata (text), both under the SIL Open Font License.</p>')
     out.append('<p class="small">Made with ProofEr. Research and drafting by Claude for Bryan Murphy, November 2026.</p></div></section>')
@@ -635,11 +695,11 @@ for n, sc in SCENES.items():
     t = ACT_NAMES.get(n, '')
     m2 = re.match(r'(Act \d+)(?: \(night\))? · ([^:]+)', t)
     sc['title'] = (f'{m2.group(1)} · {m2.group(2)}' if m2 else
-                   {0: 'Saints & Spells', 1: 'Overture', 14: 'Overture', 15: 'Overture', 2: 'The goddess story', 3: 'Sicily 101', 12: 'Curtain call', 13: 'Sources'}.get(n, ''))
+                   {0: 'Saints & Spells', 1: 'Overture', 14: 'Overture', 15: 'Overture', 16: 'Act 6 · Witches & healers', 17: 'Act 6 · Witches & healers', 2: 'The goddess story', 3: 'Sicily 101', 12: 'Curtain call', 13: 'Sources'}.get(n, ''))
     sc['title'] = {7: 'Act 4 · St Joseph', 10: 'Act 7 · Relics', 11: 'Act 8 · Americas'}.get(n, sc['title'])
 CALL_DATA = {k: dict(v, text=inline(v['text']), sub=inline(v['sub'])) for k, v in CALLOUT.items()}
 CAB_DATA = [dict(label=CAB[k], note=CAB_INFO[k][0], z=CAB_INFO[k][1]) for k in CAB_ORDER]
-data = dict(cab=CAB_DATA, callouts=CALL_DATA, imgs=IMGS, zoom=ZOOM, names={k: v[0] for k, v in {**CREDITS, **FIG_CREDITS}.items()}, credits={k: v[1] for k, v in {**CREDITS, **FIG_CREDITS}.items()}, scenes=SCENES)
+data = dict(cab=CAB_DATA, callouts=CALL_DATA, imgs=IMGS, zoom=ZOOM, thumbs=THUMBS, names={k: v[0] for k, v in {**CREDITS, **FIG_CREDITS}.items()}, credits={k: v[1] for k, v in {**CREDITS, **FIG_CREDITS}.items()}, scenes=SCENES)
 page = (tpl.replace('{{BODY}}', body)
            .replace('{{FRAME}}', FRAME).replace('{{TILE}}', TILE)
            .replace('{{DATA}}', json.dumps(data, ensure_ascii=False)))

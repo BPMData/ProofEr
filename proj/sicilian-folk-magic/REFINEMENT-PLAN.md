@@ -4,15 +4,16 @@
 
 ---
 
-## 0. Open Decisions for Bryan (Settle Before Wave 1/2 Starts)
+## 0. Decisions Settled by Bryan (Nov 23)
 
-1. **Relic cabinet behavior when scrolling back up:** Right now the cabinet is strictly synced to your current scroll position (scroll down through Act 7 → `5 of 5`; jump back to Overture → `0 of 5` so it can never desync). Would you prefer it to stay **strictly synced to scroll position**, or **sticky/cumulative once discovered** (stays `5 of 5` once you've scrolled past Act 7, with a subtle reset only at top)?
-2. **File size vs. offline rule:** Currently `pieces/sicilian-folk-magic.html` is ~3.6 MB because ProofEr's `check_offline.py` and CI strictly forbid hotlinking external images (everything—fonts, WebP cutouts, zoom photos, relic photos—is base64-inlined). Are you happy keeping it single-file offline around 3.5–4.0 MB, or should we cap zoom/cutout resolution slightly to trim closer to ~2.5 MB?
-3. **Missing/unattributed images:**
-   - **Act 8 (*To the Americas*):** Currently has only a drawn ship because no open-licensed image of Benedict the Moor or Antonio of Noto turned up in Pass F. Should a Hydrogen art-scout worker hunt Wikimedia Commons / Met / Europeana for a public-domain painting or statue of St. Benedict the Moor?
-   - **Act 6 (`13-gratteri-portrait.jpg`):** Sourced from `visitgratteri.com` with unknown photographer/sitter/date (`19th century` by look). Keep it as-is, or swap/remove if provenance feels thin?
-4. **Targeted context research:** Acts 3 (*Messina*), 4 (*St Joseph's tables*), and 8 (*To the Americas*) are thin partly because earlier drafts trimmed them down and partly because a few connecting facts (e.g., why Messina and Palermo rivaled each other, why emigrants told the fava-bean famine legend, what a *vara* or *cimaruta* physically looks like) aren't in `figures.md` yet. Should we run one quick Hydrogen research pass (`Wave 1`) for those specific context hooks, or stay strictly inside existing `figures.md`?
-5. **Myth-check stamps & stage slam:** Should we trim the remaining mid-prose Myth-Check boxes down to only the big load-bearing myths (tarot, Agatha/goddess, Inquisition witches, Americas migration) and drop the giant tilted red stamp from the puppet canvas (or keep the canvas slam)?
+1. **Relic cabinet on scroll-up — DECIDED:** Keep it **strictly synced to scroll position** (`0` at top, `5` at Act 7/8).
+2. **File size & same-repo relative assets — DECIDED:** Store full-res zoom WebPs as same-repo relative assets (`pieces/assets/sicilian-folk-magic/*.webp`) so `tools/check_offline.py` passes with 0 external HTTP loads while dropping the HTML from ~3.6 MB to ~1.4–1.6 MB.
+3. **Missing / thin-provenance images — DECIDED:** Hunt Wikimedia Commons for **St. Benedict the Moor** (Act 8) AND small PD portraits (no click-to-zoom) of the **tarot occultists** (Court de Gébelin, Etteilla, Papus, Arthur Edward Waite, Pamela Colman Smith, Aleister Crowley). Keep `13-gratteri-portrait.jpg` as-is in Act 6.
+4. **Targeted context research — DECIDED:** Run Wave 1 (`Worker 1A`) for the missing connective historical context.
+5. **3-Tier Myth-Check System — DECIDED:**
+   - **Tier 1 (Big canvas stamp + box, max 3):** Tarot (Overture), Agatha = Ceres/Isis (Act 1), "thousands of witches burned" (Act 6).
+   - **Tier 2 (Compact inline scroll-lit red check, NO stage slam, max 2):** Relic classes (Act 7), Sicilian emigrants carried saints to the Americas (Act 8).
+   - **Tier 3 (Obscure myths folded wryly into prose, 0 stamps):** Tanit's cave, Demeter/St Joseph's tables, Buckland's goat bones, Richard the Lionheart's crown, "third-largest festival".
 
 ---
 
