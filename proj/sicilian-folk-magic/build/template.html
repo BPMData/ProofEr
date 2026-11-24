@@ -382,7 +382,7 @@ function occultist(c, h, s) {                    // an 18th-century Paris gentle
   c.fillStyle = '#e3a82f'; c.font = `${Math.round(h * 0.05)}px Gloock, Didot, Georgia, serif`; c.textAlign = 'center'; c.fillText('1781', w * 0.48, -h * 0.32);
 }
 const PROPS = {
-  img(c, p, h, s) { stick(c, s, STICK); const w = drawImg(c, p[1], h, s); rod(c, s, w * 0.28, -h * 0.55, h * 0.55 + STICK); if (p[4]) nameTag(c, p[4], p[5] || '', h, w, s); },
+  img(c, p, h, s) { stick(c, s, STICK); const w = drawImg(c, p[1], h, s); if (p[4]) nameTag(c, p[4], p[5] || '', h, w, s); else rod(c, s, w * 0.28, -h * 0.55, h * 0.55 + STICK); },
   card(c, p, h, s) { stick(c, s, STICK); const w = Math.min(h * 1.1, CARDW);
     cut(c, P((c) => c.rect(-w / 2, -h, w, h * 0.78)), '#f6e7c3', 6 * s, 4 * s, 6 * s);
     c.fillStyle = '#7d1a1f'; c.textAlign = 'center'; c.textBaseline = 'middle';
@@ -545,9 +545,15 @@ function drawCast(c, L, R, floorY, s, now, bow, top) {
   const stageH = floorY - (H * 0.2), lift0 = stageH * 0.15;
   CARDW = (R - L) * 0.25; STICK = lift0 + 14 * s;
   const one = (it, dir) => {
-    const p = it.p, kind = p[0], x = L + (R - L) * p[2] / 100;
+    const p = it.p, kind = p[0]; let x = L + (R - L) * p[2] / 100;
     // never taller than the space under the valance (or the hanging ex-votos at night)
-    const h = Math.min(stageH * p[3] / 100, GROUNDED[kind] ? 1e9 : floorY - lift0 - top);
+    let h = Math.min(stageH * p[3] / 100, GROUNDED[kind] ? 1e9 : floorY - lift0 - top);
+    if (kind === 'img' && p[4]) {                 // a named thinker: keep him and his sign clear of the open curtains
+      const im = IM[p[1]], ar = im && im.naturalWidth ? im.naturalWidth / im.naturalHeight : 1;
+      const inL = L + 96 * s, inR = R - 96 * s, maxW = (inR - inL) / 3 * 0.96;
+      if (h * ar > maxW) h = maxW / ar;
+      const hw = h * ar / 2; x = Math.min(inR - hw, Math.max(inL + hw, x));
+    }
     const k = dir > 0 ? ease((now - it.t0) / 700) : (it.k0 ?? 1) * (1 - ease((now - it.t0) / 450));
     if (k <= 0) return;
     const lift = (1 - k) * (h + 60 * s);
