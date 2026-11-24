@@ -51,6 +51,11 @@ IMGS['float'] = webp('float', 520)
 IMGS['exvoto'] = webp('exvoto', 520)
 IMGS['steri'] = webp('steri', 520)
 IMGS['angel1m'] = webp('angel1', mirror=True)
+# Pitrè, Gramsci and de Martino on the stage (Bryan, Nov 24): cut from the same photos as the call-out portraits
+# (art/originals/18-20; make_cutouts.py 'matte'). Their credits reuse PORTRAITS below.
+STAGE_PEOPLE = ('pitre', 'gramsci', 'demartino')
+for _k in STAGE_PEOPLE:
+    IMGS[_k] = webp(_k)
 FRAME = webp('frame', 640)
 
 # ---------- zoom (Bryan, Nov 23: click a painting or statue to see it up close) ----------
@@ -570,7 +575,9 @@ SCENES = {
     1: dict(lights=True, cast=[['teller', '', 27, 62], ['tarot', '', 62, 31, 'read']]),
     14: dict(lights=True, cast=[['teller', '', 27, 62, 'unmask'], ['card', 'Milan, 1440s', 70, 44, 'a card game']]),
     15: dict(lights=True, cast=[['img', 'isis', 18, 56], ['img', 'goddess', 44, 50], ['img', 'agatha', 74, 62]]),
-    2: dict(cast=[['card', 'Pitrè', 23, 36, 'Palermo · 1910'], ['card', 'Gramsci', 50, 40, 'prison notebooks'], ['card', 'de Martino', 77, 36, 'Sud e magia · 1959']]),
+    # the three thinkers as cut-paper puppets (Bryan, Nov 24), each with the name tag the old cards carried
+    2: dict(cast=[['img', 'pitre', 17, 34, 'Pitrè', 'Palermo · 1910'], ['img', 'gramsci', 50, 38, 'Gramsci', 'prison notebooks'],
+                  ['img', 'demartino', 83, 37, 'de Martino', 'Sud e magia · 1959']]),
     3: dict(cast=[['card', '535', 23, 36, 'Byzantium'], ['card', '831', 50, 42, 'Arabs take Palermo'], ['card', '1071–72', 77, 36, 'Normans']]),
     4: dict(sea=True, cast=[['boat', 'bust', 62, 54], ['img', 'agatha', 25, 46]]),
     5: dict(back='float', cast=[['img', 'rosalia', 50, 64]]),
@@ -699,7 +706,9 @@ for n, sc in SCENES.items():
     sc['title'] = {7: 'Act 4 · St Joseph', 10: 'Act 7 · Relics', 11: 'Act 8 · Americas'}.get(n, sc['title'])
 CALL_DATA = {k: dict(v, text=inline(v['text']), sub=inline(v['sub'])) for k, v in CALLOUT.items()}
 CAB_DATA = [dict(label=CAB[k], note=CAB_INFO[k][0], z=CAB_INFO[k][1]) for k in CAB_ORDER]
-data = dict(cab=CAB_DATA, callouts=CALL_DATA, imgs=IMGS, zoom=ZOOM, thumbs=THUMBS, names={k: v[0] for k, v in {**CREDITS, **FIG_CREDITS}.items()}, credits={k: v[1] for k, v in {**CREDITS, **FIG_CREDITS}.items()}, scenes=SCENES)
+STAGE_CREDITS = {k: (PORTRAITS[k][0], PORTRAITS[k][1] + ' Cut out for the stage.') for k in STAGE_PEOPLE}
+ALL_CREDITS = {**CREDITS, **FIG_CREDITS, **STAGE_CREDITS}
+data = dict(cab=CAB_DATA, callouts=CALL_DATA, imgs=IMGS, zoom=ZOOM, thumbs=THUMBS, names={k: v[0] for k, v in ALL_CREDITS.items()}, credits={k: v[1] for k, v in ALL_CREDITS.items()}, scenes=SCENES)
 page = (tpl.replace('{{BODY}}', body)
            .replace('{{FRAME}}', FRAME).replace('{{TILE}}', TILE)
            .replace('{{DATA}}', json.dumps(data, ensure_ascii=False)))

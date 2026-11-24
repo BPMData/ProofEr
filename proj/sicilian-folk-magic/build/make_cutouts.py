@@ -10,7 +10,8 @@ WORK_SIZE = 900          # long side used for GrabCut (speed)
 OUT_HEIGHT = 720         # height of each finished cutout, px
 RIM = 7                  # white paper rim width at OUT_HEIGHT, px
 # name: (source file, crop box as fractions (left, top, right, bottom), mode)
-#   mode 'cut' = GrabCut the object off its background; 'print' = keep the rectangle, deckled paper edge
+#   mode 'cut' = GrabCut the object off its background; 'print' = keep the rectangle, deckled paper edge;
+#   'matte' = a person in a photo: cut with rembg's isnet model (pip install "rembg[cpu]"; GrabCut can't hold a face)
 ITEMS = {
     'rosalia':   ('01-rosalia-vandyck.jpg',  (0.10, 0.02, 0.80, 0.62), 'cut'),
     'float':     ('02-houel-car-rosalia.jpg', (0.0, 0.0, 1.0, 1.0), 'print'),
@@ -27,8 +28,12 @@ ITEMS = {
     'agathabust': ("Busto_di_Sant'Agata.jpg", (0.0, 0.07, 0.92, 1.0), 'cut'),   # the real bust, Catania (Bryan's photo, Nov 23)
     'benedict':  ('16-benedict-moor.jpg',     (0.20, 0.16, 0.80, 0.72), 'cut'),
     'steri':     ('17-steri-inquisition.jpg', (0.04, 0.05, 0.96, 0.923), 'print'),
+    # the goddess-story thinkers (Bryan's portrait files, Nov 23; same sources as the call-out portraits)
+    'pitre':     ('18-pitre.png',      (0.0, 0.0, 1.0, 1.0), 'matte'),
+    'gramsci':   ('19-gramsci.png',    (0.05, 0.0, 0.95, 0.86), 'matte'),   # Bryan's HD copy, Nov 24
+    'demartino': ('20-demartino.png',  (0.0, 0.0, 1.0, 0.66), 'matte'),
 }
-ONLY = []                # e.g. ['agathabust'] to redo one
+ONLY = ['pitre', 'gramsci', 'demartino']                # e.g. ['agathabust'] to redo one
 # 'disc' items: (centre x, centre y, radius) in source pixels, plus the hanging string as a box
 DISCS = {}
 HOLLOW = ['frame']      # cut the bright mirror out of the middle (the frame becomes a window)                # e.g. ['rosalia'] to redo one
@@ -59,6 +64,27 @@ def grabcut(rgb):
     a = np.zeros_like(a); cv2.drawContours(a, cnts, -1, 255, -1)
     a = cv2.morphologyEx(a, cv2.MORPH_OPEN, np.ones((5, 5), np.uint8))
     return cv2.resize(a, (w, h), interpolation=cv2.INTER_LINEAR)
+
+_REMBG = []
+def matte(im):
+    if not _REMBG:
+        from rembg import new_session
+        _REMBG.append(new_session('isnet-general-use'))
+    from rembg import remove
+    if im.height < 600:                      # small scans: upscale first so the cut edge isn't stair-stepped
+        im = im.resize((im.width * 600 // im.height, 600), Image.LANCZOS)
+    a = np.array(remove(im, session=_REMBG[0], only_mask=True))
+    a = np.where(a > 140, 255, 0).astype(np.uint8)
+    n, lab, stats, _ = cv2.connectedComponentsWithStats(a)
+    if n > 1:
+        big = 1 + int(np.argmax(stats[1:, cv2.CC_STAT_AREA]))
+        a = np.where(lab == big, 255, 0).astype(np.uint8)
+    k = max(5, a.shape[0] // 40) | 1                                            # close notches along the coat edge
+    a = cv2.morphologyEx(cv2.copyMakeBorder(a, k, k, k, k, cv2.BORDER_REPLICATE), cv2.MORPH_CLOSE,
+                         cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (k, k)))[k:-k, k:-k]
+    cnts, _ = cv2.findContours(a, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)   # fill pinholes in the figure
+    a = np.zeros_like(a); cv2.drawContours(a, cnts, -1, 255, -1)
+    return im, Image.fromarray(a)
 
 def finish(img, alpha, mode):
     # scale to OUT_HEIGHT
@@ -112,6 +138,10 @@ def main():
             cv2.circle(a, (cx, cy), r, 255, -1)
             a[sy0:sy1, sx0:sx1] = np.where(np.array(im.convert('L'))[sy0:sy1, sx0:sx1] > 150, 255, 0)
             alpha = Image.fromarray(a); bb = alpha.getbbox()
+            im, alpha, mode = im.crop(bb), alpha.crop(bb), 'cut'
+        elif mode == 'matte':
+            im, alpha = matte(im)
+            bb = alpha.getbbox()
             im, alpha, mode = im.crop(bb), alpha.crop(bb), 'cut'
         elif mode == 'cut':
             alpha = Image.fromarray(grabcut(np.array(im)))

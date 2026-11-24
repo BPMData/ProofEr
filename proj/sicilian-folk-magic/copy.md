@@ -60,7 +60,7 @@ Three Italian thinkers, working across nearly a century, changed how Sicily's fo
 - **Antonio Gramsci**, writing from a Fascist prison cell, insisted that ordinary people's folklore was neither quaint amusement nor museum rubble, but a coherent worldview of its own, "to be taken seriously" [X1-10].
 - **Ernesto de Martino**, conducting fieldwork in mainland southern Italy during the 1950s for his landmark *Sud e magia*, refused to treat southern magic as a pagan fossil at all, showing instead how tightly it was bound up with Catholic ritual as a way of steadying human life in the face of crisis [X1-12, X1-13, X1-15].
 
-**Why Sicily gets the spooky treatment.** Scholarship alone does not explain why Sicily in particular keeps getting painted as half-pagan and faintly occult; part of the answer is plain political prejudice. Once Sicily was folded into the newly unified Kingdom of Italy, many northern politicians and intellectuals looked south and saw a problem they needed to explain away, reaching for the same condescending vocabulary Europe used for the East: exotic, fatalistic, backward, uncanny. Historians call that habit Orientalism, and the scholars in Jane Schneider's 1998 collection *Italy's "Southern Question"* aptly name Italy's domestic version "Orientalism in one country"—including a chapter devoted to "The Magic of the South" [X1-239].
+**Why Sicily gets the spooky treatment.** Scholarship alone does not explain why Sicily in particular keeps getting painted as half-pagan and faintly occult; part of the answer is plain political prejudice. Once Sicily was folded into the newly unified Kingdom of Italy, many northern politicians and intellectuals looked south and saw a problem they needed to explain away, reaching for the same condescending vocabulary Europe used for the East: exotic, fatalistic, backward, uncanny. That habit has a name, and the name has a history. Until the late 1970s, "Orientalism" meant two other things: the European scholarly study of Asian and Near Eastern languages and texts, and a nineteenth-century school of painting, from Ingres's *Grande Odalisque* (1814) and Delacroix's *Women of Algiers* (1834) to Gérôme's mosques and dervishes, that filled canvases with harems, bazaars and reclining odalisques; Ingres painted his without ever traveling east [X1-271]. In 1978 the Palestinian-American critic Edward Said, born in Jerusalem under British rule and a professor at Columbia University in New York, turned the word into an accusation. His book *Orientalism* argued that Western writing about the Arab and Muslim Near East had built "a Western style for dominating, restructuring, and having authority over the Orient"; a year later, in *The Question of Palestine*, he turned the same eye on his own homeland [X1-272, X1-273]. The scholars in Jane Schneider's 1998 collection *Italy's "Southern Question"* aptly name Italy's domestic version "Orientalism in one country"—including a chapter devoted to "The Magic of the South" [X1-239].
 
 The tone was set within months of unification. In 1860 the northern statesman Carlo Farini wrote back from the South, as the journalist Frank Viviano recounts, "This is Africa: compared to these peasants the Bedouins are the pinnacle of civilization" [X1-240 (Viviano, named)]. Soon race science dressed that contempt in calipers and footnotes. In 1876 the criminologist Cesare Lombroso claimed to detect "African and Oriental elements" in the inhabitants of Calabria, Sicily, and Sardinia, and a school of Italian sociologists—Giuseppe Sergi and Alfredo Niceforo among them—ranked Italians on a ladder of races with northerners at the top and Africa at the bottom, holding Sicily's medieval Arab centuries against its living citizens as though a ninth-century conquest explained a nineteenth-century crime rate [X1-241, X1-242].
 
@@ -328,20 +328,29 @@ What looks from a distance like timeless superstition turns out, up close, to be
 At build, from `figures.md` (sources by act; image credits; the notes listed in `layout.md`).
 
 ## Call-outs (tap to open; portraits only where cleared)
-- **Giuseppe Pitrè** | 1841–1916 | pitre: Palermo's great collector of Sicilian folk life. Italy's national biography
-  (Treccani) says he worked as a doctor all his life, hardly ever leaving Palermo. In his spare hours he gathered
-  tales, songs, feasts, cures and beliefs into 25 volumes, founded a journal for them in 1882, and in 1910 received the
-  first university chair in the subject. He also wrote that these traditions were "remains of ancient mythologies",
-  the idea this show puts to the test. [X1-20, X1-20a, X1-21, X1-26, X1-27, X1-18]
+- **Giuseppe Pitrè** | 1841–1916 | pitre: His father, a sailor, died of fever on a voyage to America while
+  Giuseppe was a boy, and his mother scraped together the fees for a Jesuit school. In 1860, still a teenager, he
+  volunteered in Garibaldi's navy. As a doctor he turned his patients into his informants, collecting from their
+  families and noting down a name, a cure or a saying every single day. His 1882 journal was a joint venture with his
+  friend Salvatore Salomone-Marino, another doctor-folklorist. In 1909 he opened the Sicilian Ethnographic Museum,
+  which still carries his name in Palermo's Favorita park; a few months earlier his daughter Rosina had died in the
+  Messina earthquake of December 1908. At the end of 1914 he was made a senator of the Kingdom of Italy, a
+  year and a half before he died. [X1-274, X1-275, X1-276, X1-277, X1-278, X1-279, X1-280]
 - **Antonio Gramsci** | 1891–1937 | gramsci: A Marxist thinker from Sardinia and a leader of Italy's Communist
   Party. Mussolini's government arrested him in 1926, and he filled notebook after notebook in prison; the complete
   *Prison Notebooks* came out in 1975. In them he argued that the folklore of ordinary people was a worldview of its
   own, "to be taken seriously". [X1-10, X1-10a]
-- **Ernesto de Martino** | 1908–1965 | demartino: An Italian historian of religions, from Naples, says Italy's
-  national biography (Treccani). In the 1950s he did fieldwork on magic in Lucania, in mainland southern Italy. In
-  *Sud e magia* (1959; in English *Magic: A Theory from the South*) he argued that southern magic was not a pagan
-  leftover but a way of weathering what he called a "crisis of presence", bound up with Catholic practice. [X1-12,
-  X1-13, X1-14a, X1-15, X1-16]
+- **Ernesto de Martino** | 1908–1965 | demartino: As a student in Naples he was drawn to Fascism, then turned
+  against it and joined the anti-fascist underground; after the war he organized for the Socialists around Bari
+  before joining the Communist Party. His first mentor, the archaeologist Vittorio Macchioro, became his
+  father-in-law. With the novelist Cesare Pavese he launched the publisher Einaudi's "purple series" of books on
+  religion and ethnology, which opened with his own *Il mondo magico* (*The Magic World*, 1948). His trips south were
+  team expeditions, with the photographer Franco Pinna and the ethnomusicologist Diego Carpitella; in 1959 the team
+  went to Salento, in Apulia, to study *tarantismo*, the "spider bite" healed with music and dancing, which became
+  *La terra del rimorso* (*The Land of Remorse*, 1961). That year he also took up the chair in the history of
+  religions at Cagliari, in Sardinia. He died in Rome in May 1965, leaving a book about "the end of the world"
+  unfinished; the anthropologist Clara Gallini edited it from his notes. [X1-281, X1-282, X1-283, X1-284, X1-285, X1-286,
+  X1-287, X1-288]
 - **first peoples** | The Sicani, the Sicels and the Elymians | : Sicily's peoples before the Greek colonies. The
   Greek historian Thucydides says the Sicani called themselves the island's first inhabitants, though he thought they
   came from Iberia; the Elymians, around Eryx and Segesta in the west, were said to descend from refugees of Troy;

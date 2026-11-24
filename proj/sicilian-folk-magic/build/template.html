@@ -327,6 +327,14 @@ function hit(c, k, x0, y0, x1, y1) {           // remember a box (canvas CSS px)
 }
 function drawImg(c, k, h, s) { const im = IM[k]; if (!im || !im.complete || !im.naturalWidth) return 0; const w = im.naturalWidth * h / im.naturalHeight;
   shadowed(c, s, () => c.drawImage(im, -w / 2, -h, w, h)); hit(c, k.replace(/m$/, ''), -w / 2, -h, w / 2, 0); return w; }
+function nameTag(c, name, sub, h, w, s) {        // a paper label pinned across the bottom of a puppet (the thinkers)
+  const tw = Math.min(w * 0.78, Math.max(w * 0.6, h * 0.8)), th = h * (sub ? 0.24 : 0.15), y0 = -th - 4 * s;
+  cut(c, P((c) => c.rect(-tw / 2, y0, tw, th)), '#f6e7c3', 4 * s, 2 * s, 3 * s);
+  const fit = (txt, max, k) => Math.round(Math.min(max, (tw * 0.88) / Math.max(1, txt.length * k)));
+  c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillStyle = '#7d1a1f';
+  c.font = `${fit(name, th * (sub ? 0.5 : 0.7), 0.55)}px Gloock, Didot, Georgia, serif`; c.fillText(name, 0, y0 + th * (sub ? 0.36 : 0.52));
+  if (sub) { c.fillStyle = '#2a1d16'; c.font = `italic ${fit(sub, th * 0.3, 0.5)}px Literata, Georgia, serif`; c.fillText(sub, 0, y0 + th * 0.74); }
+}
 const DRAWN_W = { card: 0.6, letter: 0.45, eye: 0.55, horn: 0.3, table: 1.1, boat: 0.75, ship: 0.85, tarot: 1.0 };
 let PT = 1e9;                                   // ms since the prop being drawn came on stage
 const clamp01 = (x) => Math.min(1, Math.max(0, x));
@@ -374,7 +382,7 @@ function occultist(c, h, s) {                    // an 18th-century Paris gentle
   c.fillStyle = '#e3a82f'; c.font = `${Math.round(h * 0.05)}px Gloock, Didot, Georgia, serif`; c.textAlign = 'center'; c.fillText('1781', w * 0.48, -h * 0.32);
 }
 const PROPS = {
-  img(c, p, h, s) { stick(c, s, STICK); const w = drawImg(c, p[1], h, s); rod(c, s, w * 0.28, -h * 0.55, h * 0.55 + STICK); },
+  img(c, p, h, s) { stick(c, s, STICK); const w = drawImg(c, p[1], h, s); rod(c, s, w * 0.28, -h * 0.55, h * 0.55 + STICK); if (p[4]) nameTag(c, p[4], p[5] || '', h, w, s); },
   card(c, p, h, s) { stick(c, s, STICK); const w = Math.min(h * 1.1, CARDW);
     cut(c, P((c) => c.rect(-w / 2, -h, w, h * 0.78)), '#f6e7c3', 6 * s, 4 * s, 6 * s);
     c.fillStyle = '#7d1a1f'; c.textAlign = 'center'; c.textBaseline = 'middle';
