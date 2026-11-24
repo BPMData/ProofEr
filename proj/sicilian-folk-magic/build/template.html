@@ -335,6 +335,7 @@ function nameTag(c, name, sub, h, w, s) {        // a paper label pinned across 
   c.font = `${fit(name, th * (sub ? 0.5 : 0.7), 0.55)}px Gloock, Didot, Georgia, serif`; c.fillText(name, 0, y0 + th * (sub ? 0.36 : 0.52));
   if (sub) { c.fillStyle = '#2a1d16'; c.font = `italic ${fit(sub, th * 0.3, 0.5)}px Literata, Georgia, serif`; c.fillText(sub, 0, y0 + th * 0.74); }
 }
+const FIT_W = { lettera: 0.82 };                // share of the open stage a wide picture may fill
 const DRAWN_W = { card: 0.6, letter: 0.45, eye: 0.55, horn: 0.3, table: 1.1, boat: 0.75, ship: 0.85, tarot: 1.0 };
 let PT = 1e9;                                   // ms since the prop being drawn came on stage
 const clamp01 = (x) => Math.min(1, Math.max(0, x));
@@ -548,13 +549,13 @@ function drawCast(c, L, R, floorY, s, now, bow, top) {
     const p = it.p, kind = p[0]; let x = L + (R - L) * p[2] / 100;
     // never taller than the space under the valance (or the hanging ex-votos at night)
     let h = Math.min(stageH * p[3] / 100, GROUNDED[kind] ? 1e9 : floorY - lift0 - top);
-    if (kind === 'img' && p[4]) {                 // a named thinker: as big as fits, clear of the open curtains
+    if (kind === 'img' && (p[4] || FIT_W[p[1]])) { // a named thinker or a wide picture: as big as fits, clear of the curtains
       const im = IM[p[1]], ar = im && im.naturalWidth ? im.naturalWidth / im.naturalHeight : 1;
       const Tp = H * 0.22, B = floorY + 10 * s, base = floorY - lift0, cap = h;
       let inL = L, inR = R;
       for (let i = 0; i < 4; i++) {               // the curtain's inner edge at the puppet's top (see curtains())
         const t = clamp01((base - h - Tp) / (B - Tp)), d = ((1 - t) ** 2 * 100 + 2 * t * (1 - t) * 60 + t * t * 14) * 0.9 * s + 6 * s;
-        inL = L + d; inR = R - d; h = Math.min(cap, (inR - inL) / 3 * 1.08 / ar);
+        inL = L + d; inR = R - d; h = Math.min(cap, (inR - inL) * (FIT_W[p[1]] || 1.08 / 3) / ar);
       }
       const hw = h * ar / 2; x = Math.min(inR - hw, Math.max(inL + hw, x));
     }

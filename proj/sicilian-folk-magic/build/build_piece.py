@@ -51,6 +51,8 @@ IMGS['float'] = webp('float', 520)
 IMGS['exvoto'] = webp('exvoto', 520)
 IMGS['steri'] = webp('steri', 520)
 IMGS['angel1m'] = webp('angel1', mirror=True)
+# Messina's letter on the stage is the real 1670s copy, downscaled (Bryan, Nov 24); its credit is FIG_CREDITS['lettera']
+IMGS['lettera'] = webp('lettera', 420)
 # Pitrè, Gramsci and de Martino on the stage (Bryan, Nov 24): cut from the same photos as the call-out portraits
 # (art/originals/18-20; make_cutouts.py 'matte'). Their credits reuse PORTRAITS below.
 STAGE_PEOPLE = ('pitre', 'gramsci', 'demartino')
@@ -126,8 +128,10 @@ RELICS = {
                 'Reliquary of the Holy Hair, Palmi, 2014; the label reads “De Capillis” (“of the hair”). Photo: Palminellafede, '
                 'own work, via Wikimedia Commons, ' + cc('by-sa', '4.0') + '. Cropped and contrast raised.'),
     'lettera': ('Virgin-to-Messina-1674-78_Bibliotheca_Fictiva_nr._8699204.png', 1600, None, 'The Letter, copied out',
-                '<i>Lettera di Maria Vergine ai Messinesi</i>, manuscript, Messina(?), about 1674–78. Bibliotheca Fictiva '
-                'Collection, Sheridan Libraries, Johns Hopkins University. Public domain.'),
+                '<i>Lettera di Maria Vergine ai Messinesi</i>, illuminated manuscript, Messina(?), ca. 1674–78. Bibliotheca Fictiva '
+                'Collection, Sheridan Libraries, Johns Hopkins University. Public domain. Described in Kelsey Champagne and Earle Havens, '
+                '<a href="https://sterncenter.library.jhu.edu/early-book-collections/virgin-marys-fake-sicilian-letter/">“The Virgin Mary’s '
+                'Fake Sicilian Letter, c. 1674–78”</a>, Virginia Fox Stern Center, Johns Hopkins, 2024.'),
     'lucybody': ('The_relics_of_Santa_Lucia,_Chiesa_di_San_Geremia,_Venice_(37060531904).jpg', 1600, None, 'Lucy in Venice',
                  'The relics of Saint Lucy, church of San Geremia, Venice, 2017. Photo: Dimitris Kamaras, ' + cc('by', '2.0') + '. Resized.'),
     'louis': ('Tomb_of_Louis_IX_of_France_-_Cathedral_of_Monreale_-_Italy_2015_(2).jpeg', 1600, None, 'Louis IX at Monreale',
@@ -152,11 +156,13 @@ THUMBS = {
 }
 FIG_CREDITS.update({k: (v[3], v[4]) for k, v in RELICS.items()})
 FIGS['lettera'] = (RELICS['lettera'][0], RELICS['lettera'][3],
-                   'The Letter as Messina wanted to see it: a copy made in the 1670s, probably sold to pilgrims who came for the '
-                   'feast. Mary’s name heads it; the harbour of Messina runs along the bottom.',
+                   'The Letter as Messina wanted to see it: a hand-painted copy made ca. 1674–78, some 1,600 years after the date it '
+                   'claims, and most likely a keepsake a scribe sold to the faithful who came to see the relics at the 3 June feast. '
+                   'At the top Mary hands her letter to Messina’s envoys; along the bottom runs the harbour, lined by the Palazzata, '
+                   'the curved wall of palaces finished in 1622 and wrecked by the earthquake of 1783.',
                    RELICS['lettera'][4],
                    'A wide illuminated manuscript page: Latin text in the centre, coats of arms in the corners, a painted '
-                   'scene of Mary at the top and a view of a harbour with ships along the bottom.')
+                   'scene of Mary handing a letter to two kneeling men at the top, and a curved harbour with ships along the bottom.')
 def figure_html(k):
     f = FIGS[k]
     return (f'<figure class="infig"><button type="button" class="figbtn" data-z="{k}" aria-label="See {html.escape(f[1])} up close">'
@@ -581,7 +587,7 @@ SCENES = {
     3: dict(cast=[['card', '535', 23, 36, 'Byzantium'], ['card', '831', 50, 42, 'Arabs take Palermo'], ['card', '1071–72', 77, 36, 'Normans']]),
     4: dict(sea=True, cast=[['boat', 'bust', 62, 54], ['img', 'agatha', 25, 46]]),
     5: dict(back='float', cast=[['img', 'rosalia', 50, 64]]),
-    6: dict(cast=[['letter', 'Messina · “AD 42”', 50, 56]]),
+    6: dict(cast=[['img', 'lettera', 50, 56]]),
     7: dict(cast=[['img', 'joseph', 24, 70], ['table', '', 59, 40]]),
     8: dict(night=True, cast=[['print', 'exvoto', 50, 58]]),
     9: dict(night=True, cast=[['img', 'albarello', 22, 58], ['eye', '', 56, 40], ['horn', '', 82, 36]]),
@@ -688,7 +694,7 @@ how many Sicilians hold it today. Beliefs are written as beliefs.</p>
             out.append(f'<h3>{inline(s["title"])}</h3><ul class="src">' +
                        ''.join(f'<li>{clean_src(x)}</li>' for x in items) + '</ul>')
     out.append('<h3>Pictures</h3><ul class="src">' + ''.join(f'<li><b>{a}:</b> {b}</li>' for a, b in list(CREDITS.values()) + list(FIG_CREDITS.values())) +
-               '<li><b>Drawn for this page:</b> the scholars’ and rulers’ placards, the boat, the letter, the table, the ship, '
+               '<li><b>Drawn for this page:</b> the scholars’ and rulers’ placards, the boat, the table, the ship, '
                'the blue glass eye charm, the coral horn charm, the fortune-teller costume, the Paris occultist and the tarot cards. No open-licensed picture of Antonio of Noto is shown.</li>' + ''.join(f'<li><b>Portrait of {a}:</b> {b}</li>' for a, b in PORTRAITS.values()) +
                '</ul>')
     out.append('<h3>Type</h3><p class="small">Gloock (display) and Literata (text), both under the SIL Open Font License.</p>')
