@@ -209,9 +209,9 @@ copy = copy.split('## Call-outs')[0]
 # call-outs: '- **Name** | dates | portrait-key: text [ids]'  (Bryan, Nov 23: drill-downs for people and peoples)
 PORTRAITS = {
     'pitre': ('Giuseppe Pitrè', 'Photograph by an unknown photographer, before 1916 (Pitrè died that year). Public domain by age. '
-              'Copy supplied by Bryan from Sicilian Post.'),
-    'gramsci': ('Antonio Gramsci', 'Photograph by an unknown photographer, about 1922. Public domain by age. Copy supplied by '
-                'Bryan from Wikimedia Commons (File:Gramsci.png).'),
+              'From Sicilian Post.'),
+    'gramsci': ('Antonio Gramsci', 'Photograph by an unknown photographer, about 1922. Public domain by age. '
+                'From Wikimedia Commons (File:Gramsci.png).'),
     'demartino': ('Ernesto de Martino', 'Photograph by F.DelDongo, about 1956, from Wikimedia Commons '
                   '(File:Album_mix_005_Muzi_Epifani_Ernesto_de_Martino.jpg), '
                   '<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>. '
