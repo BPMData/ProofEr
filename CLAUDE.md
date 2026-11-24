@@ -6,7 +6,8 @@ repo is maintained by Bryan Murphy; a client can be anyone, and is usually not t
 [EOMD](https://github.com/BPMData/EOMD): context follows the stage, design comes before tools (`notes/architecture.md`).
 
 Read the root `STATUS.md` index at the start of every session; read a piece's own `STATUS.md` (in `proj/<name>/`)
-when working on that piece. Update both at the end of a working session.
+when working on that piece. Update them after substantive research, design, copy, or build changes; skip for
+file moves, trivial fixes, or pure Q&A.
 
 ## Rules for every piece
 - **Never invent facts:** no number, name, date, place or quote that isn't in the piece's checked figures table
