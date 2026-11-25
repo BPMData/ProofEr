@@ -1,0 +1,161 @@
+# Conditionally White: master fact sheet
+
+Stage: research (round 1, 2026-11-24, 21 workers; gap-fill round 2 the same day, results folded in where marked R2).
+Every number, name and date the essay uses must have a row here (F-IDs) or in `quote-verification.md` (quotes).
+The pack IDs (PS-xx, DQ-x, B-x) are from `../sources/primary-source-pack.md`; the Q-IDs point to the worker fact
+sheet that holds the sources, in `fact-sheets/`.
+
+**Status key.** `verified` = read in a primary or institutional source, with a second independent source where the
+figure is a number. `probable` = good sources, but not yet two independent ones or the primary page not opened.
+`secondary` = known only through a named chain (who quotes whom). `contested` = good sources disagree; show the
+range or both sides. `unverified` = not traced; stays off the page. `wrong` = the brief's version is contradicted by
+the sources; the corrected version is in the row. `myth` = usable only as a myth-check.
+
+**Access limits this pass.** The workers shared one search and page-read budget, and it ran out around 17:45 UTC, so
+round 1 is partial. Internet Archive full texts, Gutenberg and several newspaper archives refused direct downloads.
+Nothing here was taken from Fandom, Kiddle, IrishCentral (lead only), Reddit, Medium or any denier site.
+
+---
+
+## Land and law (Hero stat band, Ch1, Ch2, ledger toy)
+
+| ID | Pack | Figure | Value to use | Sources (sheet) | Status |
+|---|---|---|---|---|---|
+| F01 | ledger | Catholic share of Irish land, 1641 | "roughly three-fifths" (59%); range about 42% (modern measure, Down Survey map) to "almost 70%" (Down Survey history page) | Simms via Barnard, *Encyclopedia of Irish History and Culture*; Lenihan 2016; TCD Down Survey (Q07-0a) | contested: show 59% with the range in a footnote |
+| F02 | ledger | 1688 (or 1685) | about 22% | Simms, *IHS* 7 (1951); review (Q07-0c) | probable |
+| F03 | ledger | 1703 | about 14% ("less than 15%", Britannica) | Simms via Barnard; Britannica (Q07-0d) | verified (consensus figure) |
+| F04 | ledger | 1770s | about 5% (estimates 3–5%); **not tied to 1778 by any source** | Power (3%, 1776); Down Survey site (3%, mid-18th c.); reference works "about 5%" (Q07-0e) | contested: label "about 5% (3–5%) by the 1770s" |
+| F05 | ledger | Converts caveat | 1,878 registered converts 1702–1752; Power calls the fall "misleading" (converts, Catholic leaseholders) | Ulster Historical Foundation; Power; Cullen 1986; Whelan 1995 (Q07-0e) | probable; must sit beside the 5% bar |
+| F06 | Ch1 | "~80% confiscated in one statute, 1652" | **wrong as stated.** About 80% of land "changed hands in the seventeenth century" (Power), over the whole century; the 1652 Act named who would lose land; transfers came via 1653 Act of Satisfaction, Down Survey 1656–58, later acts | Power; Simms 1951 (Q07-1a) | wrong → use the century framing |
+| F07 | Ch1 | "To hell or to Connacht" | no contemporary attribution found; not Cromwell's words in any source read | Q07-1b | unverified origin: present as a later popular phrase |
+| F08 | Ch1 | Penal statutes | 1695: 7 Will. III c.4 (education), c.5 (arms); 1704: 2 Anne c.6 (Popery Act, session 1703–04); 1709: 8 Anne c.3; relief acts 17&18 Geo III c.49, 21&22 Geo III c.24 | U. Minnesota Law Library Irish penal-laws collection (Q07-2) | verified (statute abstracts) |
+| F09 | Ch3 | 1829 disfranchisement | about 216,000 county voters → 37,000–40,000 (10 Geo IV c.8) | Foster, *Modern Ireland* pp. 301–2 (secondary chain); other reference ~215k → ~40k (Q07-3) | secondary: show as a range |
+| F10 | Ch1 | 1556 Laois–Offaly; 1586 Munster plantation; 1609 Ulster plantation; 1609 Statutes of Iona | dates standard, sources not opened this pass | Q07-4 to Q07-6 | unverified (low risk; one more pass) |
+| F11 | Ch1 | Spenser's *View* (written c.1596, printed 1633 by Ware) | starvation proposal spoken by **Irenius**, aimed at rebels in arms; cites the Munster famine as proof; Spenser secretary 1580, fled Kilcolman 1598, died 1599 | Morris 1895 text; Renwick 1970 pp. 104–5 via Canny 2018 p. 505 (Q15-1, Q15-2) | verified |
+| F12 | Ch1 | "the famine was a policy proposal, finally executed 250 years later" | no scholarly 1596→1846 link found; Canny/Amos trace influence to Mountjoy, Ulster, Cromwell; Cusack (1868) invoked Spenser after the famine | Q15-4 | the essay's own juxtaposition: must be signalled, and "executed" overstates it |
+| F13 | Ch1 | Spenser at Kilcolman | usually c.1588–89; 1586 is the Munster scheme | Q15-6 | unverified: tie 1586 to the plantation |
+
+## Enclosure (Ch2)
+
+| ID | Pack | Figure | Value to use | Sources | Status |
+|---|---|---|---|---|---|
+| F14 | DQ-3 | Parliamentary enclosure | 6.8–7 million acres, **about a fifth (≈21%)** of England, 5,200+ bills (UK Parliament) / 5,383 acts (Tate–Turner) | UK Parliament Living Heritage; Overton 1996 p. 62 via Whyte 2003; Tate–Turner *Domesday* (Q16a-1) | probable. **"One sixth" is wrong** (7M of ~32M acres) |
+| F15 | DQ-4 | "0.6% owned 98.5%" (Britain) | traces to Cahill, *Who Owns Britain* (2001) p. 30 via Fairlie 2009 p. 27; Cahill's basis unchecked | Q16a-2 | secondary |
+| F16 | DQ-4 | Ireland, 1876 Return of Owners | 32,614 owners of more than one acre of 5,409,435 people ≈ 0.6%; all owners 68,758 ≈ 1.3% | *Spectator* review, 1 July 1876, of the Return (C.1492 tables not yet opened) (Q16a-2) | secondary. Brief's "~20,000 owners / ~3%" doesn't match |
+| F17 | DQ-3 | Arthur Young, 1801 | the Board's committee sat on his paper a month and told him he could not print it "as a work for the Board"; he published it under his own name | Young, *Autobiography* (1898) via Fairlie (Q16a-4) | secondary. "Suppressed" overstates it |
+| F18 | DQ-3 | "The rich crowded their beasts on, and literally eat out the poor" | E.C.K. Gonner, *Common Land and Inclosure* (1912), via Fairlie p. 30; not Neeson | Q16a-5 | secondary |
+| F19 | DQ-3 | Tate, "almost monotonous in their reiteration" | about the Board of Agriculture's "ninety odd volumes" of county reports; Tate 1967 | Fairlie p. 25 (Q16a-3) | secondary |
+| F20 | DQ-3 | Neeson's cow ≈ half a labourer's wage; Otmoor geese ≈ a year's income | Neeson via Fairlie (cow); Hammonds via Fairlie (geese) | Q16a-5 | secondary (pages to confirm) |
+| F21 | DQ-3 | Hardin's retraction | "The title of my 1968 paper should have been 'The Tragedy of the Unmanaged Commons'": Hardin in Andelson (ed.), *Commons Without Tragedy* (1991); also *TREE* 9(5) 1994 | Fairlie (Q16a-6) | secondary. "Most cited paper in *Science*" is **unverified**: drop |
+| F22 | DQ-3 | Ricardo, Burke, Bentham, Malthus as cover | not checked | Q16a-7 | unverified |
+| F23 | — | "Nineteen out of twenty" inclosure bills | the line found is **Lord Lincoln, Commons, 1 May 1845** (Hansard vol 80 c25), about Committees neglecting the poor; not Young | Q16a | verified for Lincoln; do not credit Young |
+
+## Whiteness and racial science (Ch3, Ch5)
+
+| ID | Pack | Figure | Value to use | Sources | Status |
+|---|---|---|---|---|---|
+| F24 | Ch3 | Beddoe's index of nigrescence | `D + 2N − R − F` (hair only; eyes classed separately), *The Races of Britain* (1885) p. 5 | Beddoe 1885 (Q9-4) | verified |
+| F25 | Ch3 | What Beddoe's data said of the Irish | "considerably lighter in eye, but yet more considerably darker in hair, than the English"; Dublin/Cork upper class 14 / 21.4 vs lower class 33 / 34.2; highest index on the page is Devon (Dartmouth, over 50) | Beddoe 1885 (Q9-4) | verified. **The Irish were not scored "darkest"** |
+| F26 | Ch3 | "Africanoid" type | a separate skull/face type, "provisionally" named, Ireland "apparently its present centre" (Ch. II) | Beddoe 1885 (Q9-4) | verified; keep apart from the hair index |
+| F27 | Ch5 | Legal whiteness | no court ever ruled the Irish non-white under the 1790 "free white person" clause; the 1798 14-year residence rule was political (aimed partly at Irish radicals) | scholarly consensus (Q9-6) | probable |
+| F28 | Ch3 | "Inbetween peoples" | Barrett & Roediger, *JAEH* 1997, about c.1890–1945 southern/eastern Europeans, not the famine Irish | Q9-2 | probable: don't apply to the 1840s Irish |
+| F29 | Ch3 | Allen, Ignatiev theses and critics | both CONTESTED; bibliographic details from memory | Q9-1, Q9-2 | probable (needs a re-read pass) |
+| F30 | Ch3/6/7 | O'Connell and the 1841 Irish Address (60,000 signatures, Faneuil Hall Jan 1842); the "broad Atlantic" speech | Address facts probable; "broad Atlantic" is **9 May 1843, Corn Exchange, Dublin** (Loyal National Repeal Association), not 1845 | Q9-7; AASS tract 1860 p. 29 (R3) | Address probable; speech secondary (see O1) |
+
+## The famine (Hero, Ch4, Ch5, Final)
+
+| ID | Pack | Figure | Value to use | Sources | Status |
+|---|---|---|---|---|---|
+| F31 | Hero | Population, 1841 census | **8,175,124 counted**; about 8.4M (1841) and 8.7M (1846) are modern undercount corrections | 1841 census; O'Keeffe, RTÉ 2020 (Q08) | verified (count) / probable (corrections) |
+| F32 | Ch4 | Population, 1851 census | 6,552,385 | 1851 *General Report* (census night 30 Mar 1851); Woodham-Smith p. 411 (Q04, Q08) | verified (a preliminary count of 6,515,794 goes in a footnote) |
+| F33 | Hero | Excess deaths | "about a million" (Boyle & Ó Gráda 1986, excludes emigrant deaths); Mokyr 1.1–1.5M for 1846–51 (upper bound counts averted births); Cousens 800,000 (now thought low) | Q08 | verified as a consensus range: "about a million (estimates below 1M to ~1.1M)" |
+| F34 | Hero | Emigration | about 1 million 1846–51, plus 200,000+ to Britain | Q08 | probable (second source to confirm). The brief's "~2M+ in a decade" needs its own row before the Final uses it |
+| F35 | Ch4 | Connacht population loss | 40.4% (deaths and emigration, as reported) | Q08 | probable |
+| F36 | Ch4 | Registered starvation deaths before the blight, 187 (1842) → 516 (1845) | recorded starvation deaths 187 (1842), 211 (1843), 268 (1844), 516 (1845), 2,041 (1846): recorded deaths only, a heavy undercount | Census of Ireland 1851, Part V, *Tables of Deaths* (1856); Mitchel p. 68 (Q04, Q05) | verified. Mitchel's "one-tenth" is his own guess |
+| F37 | Ch4 | Devon Commission Table 95 | the *Digest* **p. 399**: consolidating holdings up to eight acres "would require the removal of about 192,368 families, and that the first class of improvable waste land in Ireland would furnish to those removed families locations of about eight acres each"; table "Appendix No. 95 (2)" p. 564, conclusion p. 565 ("above a million of souls" could be "permanently provided for" on reclaimed land); Upper Canada weighed and rejected on cost (~p. 568, probable) | Kennedy's *Digest* Part I (Thom, 1847; IA digestevidencet01kenngoog), printed page numbers from the page headers (R3); 192,368 confirmed by the *Digest*'s own sum (£5,771,040 ÷ 192,368 = £30 a family; "192,868" is an OCR misread); Mitchel p. 72 | verified. **A resettlement plan, not a removal quota.** Table columns and Irish vs statute acres still unread: print no acre measure from the *Digest* |
+| F38 | Ch4 | Devon commissioners | announced 1843: Earl of Devon (chair), G. A. Hamilton MP, Wynne of Hazlewood, William Tighe, More O'Ferrall MP (who declined); Ferguson and Redington unconfirmed. Commons, 6 Feb 1844: Wakley "entirely composed of Irish landlords"; Sharman Crawford "wholly composed of landlords"; Peel had first approached More O'Ferrall and Sir Patrick Bellew | *Spectator* 4 Nov 1843 quoting *Dublin Monitor*; Hansard 6 Feb 1844 (R3) | Devon verified; Hamilton, Wynne probable; the "landlords" charge verified as MPs' charge. Name only Devon until the 1845 Report title page is read |
+| F39 | DQ-1 | Grain exports vs imports (thousands of quarters) | exports 3,252 (1845) → 970 (1847); imports 147 → 4,519; **net importer every year 1847–51** | series as printed by Wikipedia (no source line; its one match is a figure credited to Ó Gráda, so one chain, not two) (Q06, R2); Kinealy via a 2012 profile: "by 1847 more food was coming into Ireland than going out" | probable as a direction, single chain for the numbers: needs Bourke, *IHS* 20 (1976) or Ó Gráda's table |
+| F40 | DQ-1 | Butter, first nine months of 1847 | 56,557 firkins to Bristol **and** 34,852 to Liverpool; a firkin is a cask sold by weight (never chart in gallons) | secondary chain (Q06) | secondary |
+| F41 | DQ-1 | "Almost 4,000 vessels" | carried food to Bristol, Glasgow, Liverpool and London in 1847; **no source says "under military escort"** | Q06 | secondary; drop "escort" |
+| F42 | DQ-1 | 9,992 calves; 6,624 barrels of Clare oats | calves only in the Fogarty chain; oats not found | Q06 | unverified |
+| F43 | DQ-1 | "Over 3 million live animals 1846–50" | traces to Christopher Fogarty's polemic, not to Kinealy; Kinealy's own export figures not reached (History Ireland "Food Exports from Ireland 1846-47" is paywalled) | Q06, R2 | **unverified: off the ledger slip** |
+| F44 | Ch4 | Annual excess-mortality series | none exists; only whole-famine totals, under-recorded census death tables, and Mokyr's annualized averages | Q06 | the Ch4 chart can't plot "people dying" by year |
+
+## America (Ch5, Ch6)
+
+| ID | Pack | Figure | Value to use | Sources | Status |
+|---|---|---|---|---|---|
+| F45 | Ch5 | Jensen's NINA count | not "eleven": 2002 text says two *NYT* ads for men; in 2015 he summarized it as "12 NINA newspaper ads and no evidence of a window sign"; conceded women's domestic-service ads | Jensen 2002 (rev. web text 2004), Jensen 2015 HNN (Q10) | verified (as "a dozen or so", attributed) |
+| F46 | Ch5 | Fried's rebuttal | 69 examples (Irish Examiner; Jensen's own tally); New York *Sun* 15 (1842) or 20 (1842–43) | Q10 | probable; show "15–20" |
+| F47 | Ch6 | Draft Riots deaths | about 119 documented; Bernstein "at least 105 … possibly many more"; 1,000–2,000 figures unsourced | Bernstein 2002; standard histories (Q10) | verified as "at least 105, about 119 documented" |
+| F48 | Ch6 | Colored Orphan Asylum | 233 children; none died | Adelman, *Commonplace* 2017 (institutional records) (Q10) | verified |
+| F49 | Ch6 | Irish share of rioters | no arrest-record percentage found; Bernstein: "Irish Americans dominated the crowds, but many Irish New Yorkers stayed aloof from or fought against the mobs" | Q10 | verified (quote); no number |
+| F50 | Ch6 | Police, machine, Union army as instruments | not checked | Q10 | unverified |
+
+## Transportation and Australia (Ch6, the horse thief)
+
+| ID | Pack | Figure | Value to use | Sources | Status |
+|---|---|---|---|---|---|
+| F51 | Ch6 | Irish male transportation to Australia suspended 1846 for about two years | men sentenced 1846–48 often went to the **Bermuda hulks** (e.g. *Medway*, Nov 1847); from 1848 register entries "cannot be cited as proof of transportation" | National Archives of Ireland finding aid (Q11) | verified |
+| F52 | Ch6 | Sentences surge | average under 545 a year to 1845 → 1,870 (1847) → nearly 1,900 (1848) | Earl Grey, HL Deb 6 Mar 1849 col. 247 (Q11) | verified (single primary; Monteagle's "sheep stealing and cattle stealing" in the same debate) |
+| F53 | Ch6 | Irish arrivals in VDL 1840–53 | 7,248 men, 4,068 women (20% of convicts there); transportation from Ireland ended 1853 | Davis, *Companion to Tasmanian History*; NAI (Q11) | verified |
+| F54 | Ch6 | Total transported from Ireland | NAI's own transportation page: "some 30,000 men and 9,000 women" over 62 years (≈39,000); earlier "about 26,500 (NAI)" and "about 30,000 (Butler 2005)" | Q11; NAI (R3) | **contested and unexplained** (tried in Ireland only vs including Irish tried in Britain?): rework before it ships |
+| F55 | Ch6 | Crime committed to be transported | documented cases are **women**: Mary and Johanna Kelleher, Bantry 1848; Margaret Byrne, Carlow 1849 (mostly arson); no horse-theft case found | Lohan, NAI guide (Q11) | verified (women's cases); the legend stays legend |
+| F56 | Ch6 | Counter-evidence | the Irish government wrote that transportation was "viewed with the greatest terror by the Irish" | NAI famine article (Q11) | verified |
+| F57 | Ch6 | Earl Grey orphan scheme | 4,114 girls on 20 ships (1848–50) | Perry McIntyre, *Breac* 2018 (Q11) | probable (his per-colony figures sum to 4,093; needs a second source) |
+| F58 | Ch6 | Transportation dates and horse theft's legal status | NSW closed by Order in Council 22 May 1840 (from 1 Aug 1840; VDL, Norfolk Island, Bermuda named instead). WA took convicts 1850–68: *Scindian* 1 June 1850, 43 ships. **Only one ship sailed straight from Ireland to WA**: *Phoebe Dunbar*, Kingstown → Fremantle 30 Aug 1853 (295 convicts, secondary); the *Hougoumont* (1867–68, Fenians) sailed from Portland, England. Terms: seven years (most common), ten, fourteen or life, not "15". Sheep-stealing: seven years' transportation, and "Only the other day sheepstealing was a capital felony" (Attorney General, Hansard 2 May 1849); Ireland's own larceny law 9 Geo. IV c. 55 | Order in Council 1840; SRO WA; NMA; NAI; Hansard (R3) | verified except: horse theft as transportable in 1846–52 probable (index entries 1838–42 only); when it stopped being capital in Ireland unverified (1832 Act's extent clause unread). Say only "by the 1840s the sentence was transportation" |
+| F59 | Ch6 | Castle Hill, 4–5 March 1804 | 200–300 rebels (watercolour: 266); 12–21 killed in the fight; at least 30–39 dead in all; **9 executed**; "Death or Liberty" a slogan, **no flag known** | NMA; Dictionary of Sydney; O'Donnell, *History Ireland*; NSW State Archives (Q12-1) | verified (dates, executions); contested (counts) |
+| F60 | Ch6 | Lambing Flat 1860–61 | official sources say "European miners"; documented Irish link is publican James Torpy (arrested, acquitted) and the Tipperary Gully meeting, 30 June 1861; "Roll Up, No Chinese" banner first recorded 18 June 1861, held by Young Historical Society | NSW State Heritage Register; NSW Migration Heritage (Q12-2) | verified (events); **don't call the rioters Irish** |
+| F61 | Ch6 | Eureka, 3 Dec 1854 | 22+ dead; Irish origin for 10 of the 18 dead whose origin is stated (Lalor's list via Eurekapedia); Molony: early Reform League leaders not Irish | Q12-5 | secondary |
+| F62 | Ch6 | Stolen Generations "staffed by people who had fled caste" | no source | Q12-4 | **unsupported: drop** |
+| F63 | Ch6 | White Australia and Irish-Australians | King O'Malley: "by his own account" born Quebec, "more probably" Valley Falls, Kansas (ADB): **not Irish**. On 26 Sept 1901 he appears to have voted with Watson/Labor for an explicit ban on "any aboriginal native of Asia, Africa, or of the islands thereof" (lost 31–36), from a garbled PDF: probable. No O'Malley speech found. Mannix appointed coadjutor archbishop of Melbourne 1913 (NAA); no stance on White Australia found. Irish-Australian Labor support: no scholarly source read | ADB; Commonwealth division list; NAA (R3) | O'Malley's birthplace secondary, vote probable; **drop Mannix and the "Irish-Australian" framing** until a scholarly source is read |
+
+## John Mitchel (Ch4, Ch6, Ch7)
+
+| ID | Pack | Figure | Value to use | Sources | Status |
+|---|---|---|---|---|---|
+| F64 | PS-01a | *The Last Conquest of Ireland (Perhaps)* | serialized 1858–59 (to verify); first book publication Glasgow, Cameron & Ferguson, 1861 (per the 2005 UCD Press ed., Maume); text read = undated Author's Edition (IA scan) | Q05, Q13 | probable |
+| F65 | Ch6 | Mitchel's route | Dublin → Spike Island → Bermuda hulks (1848–49) → *Neptune* via Pernambuco to the Cape (refused landing) → Van Diemen's Land 1850 → escape 1853 | *Jail Journal* chapter heads and title page (Q13) | verified. Ship is *Neptune*, not *Nautilus* |
+| F66 | Ch7 | 1875 | elected unopposed for Tipperary 17 Feb 1875, disqualified as an unpardoned felon, won the March by-election, died 20 March 1875 at Newry. **Not "elected while in prison"** | Q13 (DIB not opened) | probable |
+| F67 | Ch7 | Sons | Willie killed at Gettysburg July 1863; John at Fort Sumter July 1864; James "very severely wounded" at Second Bull Run 1862 and back in the field by Gettysburg | Dillon, *Life of John Mitchel* vol. 2 (1888) p. 196 (R3) | probable; **no lost arm anywhere: drop it** |
+
+## Memory, presidents and politics (Ch7)
+
+| ID | Pack | Figure | Value to use | Sources | Status |
+|---|---|---|---|---|---|
+| F68 | Ch7 | NYC St Patrick's parade | organisers date it to 1762, Irish soldiers in the British Army; 1766 variant unchecked | organisers (Q14-2) | probable |
+| F69 | Ch7 | Clan na Gael money for 1916 | about $100,000, 1913–16, by John Devoy's own estimate | NLI exhibition; Century Ireland citing Devoy, *Recollections* p. 393 (page not read) (R2) | secondary: "about $100,000, by Devoy's own reckoning" |
+| F70 | Ch7 | Edward Blewitt | Biden at Ballina: son Patrick returned "in 1850 … to gather the entire Blewitt clan", *Excelsior*; Dáil: "relocating in 1851"; Irish Times dates the crossing June 1851. Blewitt's famine role contested (relief works per Reilly, or workhouse overseer per Fitzsimons & Moss); "sold land to the workhouse" found nowhere | Biden texts; McGreevy, *Irish Times* 8 Apr 2023; Reilly; IFHC (Q14-5) | verified (texts) / contested (role); drop the land sale |
+| F71 | Ch7 | O'Toole columns | *Irish Times* 11 Apr 2023 ("JFK embodied an idea of what Ireland aspired to be, Biden embodies an idea of what we used to be"), 15 Apr 2023, 20 Mar 2018, 28 Mar 2006; he calls Biden's Irishness "very real and profoundly felt"; "last great avatar" line is Hugh Linehan's (8 Apr 2023) | Q14-6 | verified |
+| F72 | Ch7 | Michael Regan's emigration | in London by the English census of 30 Mar 1851, age 21; married Catherine Mulcahy, Southwark, Oct 1852; to America 1858 | Debrett's research (Hugh Peskett), via Condon's 1981 Ballyporeen booklet and Moher, in a Reagan Library genealogy folder (R2); not Burke's | secondary (one research chain): **he left during the famine, not after it** |
+| F73 | Ch7 | Guatemala | CEH ¶116: "between 70% and 90% of villages were razed" in the Ixil region; genocide period "between 1981 and 1983" (CEH, not 1981–82); 1,771 Ixil deaths charged at the 2013 trial; Sanford's "32 massacres" is for Ixil and Ixcán, Mar 1982–Mar 1983 (spanning the handshake). **"96% Maya Ixil" not found** | CEH Conclusions; Sanford (Yale GSP); trial record (Q14r) | verified (CEH lines); pack's figure wrong |
+| F74 | Ch7 | Ríos Montt trial | convicted May 2013; annulled ten days later by the Constitutional Court; retrial; died 2018 | Q14r | verified |
+| F75 | Ch7 | 1986 anti-apartheid override | veto 26 Sept; House override 29 Sept (313–83); Senate 2 Oct (78–21) | Q14r | verified |
+| F76 | Ch7 | ICJ *Nicaragua v. United States* (27 June 1986) | US violated international law incl. mining of harbours | Q14r | verified |
+| F77 | Ch7 | Protests at the 1984 visit | Galway protests 2 June 1984 verified (RTÉ News; *Irish Times* 2004); Ballyporeen "They were kept outside the village. We never saw them." is one villager's 2024 memory (Rosita Boland, *Irish Times*); "10,000 outside Dublin Castle" one source only (*Irish Examiner* 2014) | R2 | Galway verified; Ballyporeen as attributed memory only; Dublin number unverified |
+| F78 | Ch7 | 1994 crime bill, Black House Democrats | 23 of 37 voted yea, 12 nay, 2 not voting (conference report, roll call 416, 21 Aug 1994, 235–195) | Clerk's roll; worker's own count; CBC roster from memory (Q14b) | probable |
+| F79 | Ch7 | Gaza arms sales | "more than 100 separate foreign military sales" (classified briefing), WaPo, John Hudson, 6 Mar 2024; Israel's notification thresholds are **$25m / $100m / $300m** (not $14m/$50m) | WaPo; CRS RL31675; Guardian 6 Mar 2024 (Q14b) | verified |
+| F80 | Ch7 | Rafah pause, May 2024 | 1,800 2,000-lb and 1,700 500-lb bombs paused; Biden on CNN: "Civilians have been killed in Gaza as a consequence of those bombs" | NPR 8 May 2024 (Q14b) | verified |
+| F81 | Ch7 | UN Commission of Inquiry | 16 Sep 2025: "The Commission finds that Israel is responsible for the commission of genocide in Gaza" (Pillay); Israel "categorically rejects" it | OHCHR; Israeli MFA (Q14b) | verified |
+| F82 | Ch7 | ICJ *South Africa v. Israel* | Israel's Counter-Memorial deadline extended twice (12 Jan 2026, then 12 Mar 2026), filed 12 Mar 2026 with jurisdiction objections; Order of 21 May 2026: South Africa's Reply 22 Nov 2027, Israel's Rejoinder 22 May 2029; no merits ruling possible before then | ICJ orders (Q14b) | verified |
+| F83 | Ch7 | Busing; "mistake" remarks; 1994 Act money | Busing: amendments 17 Sept 1975 (50–43) and 25 Sept 1975 (44–34) aimed at HEW, dropped in conference; Biden–Roth 1977–78 bill on court-ordered busing tabled 49–47 (1978). "It was a big mistake when it was made" (21 Jan 2019, NAN MLK breakfast) is about the **1986** crack/powder gap; on the 1994 bill: "Yes, it was. But here's where the mistake came…" (ABC town hall, 15 Oct 2020). 1994 Act: $9.7bn prisons, 100,000 police (DOJ, 24 Oct 1994); prevention $6.1–7.1bn (sources differ); authorized, not spent | Jenkins & Peck 2022 (Cong. Record pages); Axios, CNN; ABC; DOJ fact sheet; Council on Criminal Justice (R2) | verified (2019, 2020 quotes, DOJ figures); secondary (busing votes); prevention money as a range |
+
+## Genocide debate (Ch5)
+
+| ID | Pack | Figure | Value to use | Sources | Status |
+|---|---|---|---|---|---|
+| F84 | Ch5 | The historian is **Cormac** Ó Gráda (UCD), not "Ciarán" | | Q08 | verified |
+| F85 | Ch5 | Ó Gráda's position | deaths "largely the by-product of a dogmatic version of political economy, not the deliberate outcome of anti-Irish racism" (*Black '47 and Beyond*, 1999, p. 10) | via Margaret Collins (Q08), R2 pending | secondary |
+| F86 | Ch5 | Peter Gray | review of Coogan, "Polemic without plausibility", *Irish Times* 19 Jan 2013: moral culpability for policy from late 1847, no genocidal intent | Q08 | verified |
+| F87 | Ch5 | Liam Kennedy | "Cry Holocaust", *Unhappy the Land* (2016) pp. 81–104 | IHR review (Q08) | probable |
+| F88 | Ch5 | Francis Boyle opinion | invokes Genocide Convention Art. II(b) and II(c); letter to NJ Commission on Holocaust Education; 1996 date unconfirmed | HNN text posted 18 Mar 2010 (Q08) | probable |
+| F89 | B28 | Ruth Dudley Edwards | *Sunday Independent*, 4 Oct 2015 (via a reply letter, 11 Oct 2015), not *The Faithful Tribe* | Q08, R2 pending | secondary |
+
+## India and Scotland (Ch1, Ch2 asides)
+
+| ID | Pack | Figure | Value to use | Sources | Status |
+|---|---|---|---|---|---|
+| F90 | DQ-2 | Sullivan & Hickel, *World Development* 161 (2023) | about 50M excess deaths 1891–1920 against the 1880s death-rate baseline; 165M (1880–1920) against an English 16th–17th c. baseline; "100M" is from their Al Jazeera op-ed (2 Dec 2022) | paper p. 12; op-ed (Q16b) | verified; contested by Tirthankar Roy (cause, not scale) |
+| F91 | DQ-2 | Davis, *Late Victorian Holocausts* (2001) Table P1 | India 12.2–29.3M (1876–79 and 1896–1902); India+China+Brazil 31.7–61.3M | Q16b | verified |
+| F92 | PS-10 | Haafner | famine of **1782**, not 1771; *Lotgevallen op eene reize van Madras…* (Haarlem 1806); the "balconies … whores" passage not in the text | DBNL text (Q16d) | verified (date, book); pack's English wording **unusable** |
+| F93 | PS-08 | Sutherland clearances, Sellar, MacLeod | publication: *Edinburgh Weekly Chronicle* letters 1840–41 → 1st ed. Edinburgh 1841 → 2nd Greenock c.1856 → 3rd Toronto 1857 → Glasgow 1892 (1892 preface). Letter IV, 1892 ed. p. 9: "Damn her, the old witch, she has lived too long; let her burn." and the John M'Kay's wife (Ravigill) passage. Trial (p. 10; reprinted in Mackenzie, *History of the Highland Clearances* 1883 p. 37: "At the spring assizes of Inverness, in 1816…"): "before Lord Pitmilly", "culpable homicide, fire-raising, &c.", acquitted | IA donaldmcleodsglo00mcleuoft, cihm_46278 (R2) | verified (MacLeod's text; pages ±1); trial probable; Betsy Mackay unverified. **The old woman was carried to a shed and died five days later, not in the fire**; frame Sellar's line as MacLeod's allegation against an acquitted man; "M'Kay" not "Mackay"; the "faggots" passage (p. 16) is a later clearance, not 1814 |
