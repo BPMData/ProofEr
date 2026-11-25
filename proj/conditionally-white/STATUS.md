@@ -20,4 +20,7 @@ _Last updated: Nov 25, 2026._
 - **Round 4 (Nov 25):** six workers, `research/fact-sheets/r4-*.md`, merged (O'Connell's line in an 1843 paper;
   Perceval, "Cork prices" and the *Irish Crisis* sentence verified; "unheard of" is reported speech; Devon
   commissioners named; about 40,000 shipped from Ireland; the VDL-to-mainland beat for Ch6; Betsy MacKay's 1883 text).
+- **Round 5 (Nov 25):** four workers, `research/fact-sheets/r5-*.md`, merged (Clarendon's "mud" letter found; the
+  1860 *Times* leader dated; the livestock returns read, so "3 million animals" holds with caveats; Victoria's 1852 Act
+  and its disallowance).
 - **Open:** the short list at the end of `outline.md`; most items now need print copies or subscription archives.
