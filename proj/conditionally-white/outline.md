@@ -74,8 +74,8 @@ but as the essay's argument, tested in Ch5, not as settled fact.
   gentry (F25). "Africanoid" is a separate skull type with Ireland as "its present centre", kept apart from the index
   (F26). Punch cartoons: 5–8 dated examples are in `research/image-hunt.md` for Gemini to fetch.
 - **Ladder scene:** as the brief, with the 1829 disfranchisement as "about 216,000 to 37,000–40,000 county voters" (F09).
-- **Counter-quotation beat:** O'Connell's "broad Atlantic" is now traced (O1, secondary): Dublin, **9 May 1843**,
-  and the real line is a threat, not an invitation: "…if you remain, and dare countenance the system of slavery that
+- **Counter-quotation beat:** O'Connell's "broad Atlantic" is now verified in an 1843 newspaper (O1: the *Signal of
+  Liberty*, 17 July 1843, reporting the Dublin meeting of **9 May 1843**), and the real line is a threat, not an invitation: "…if you remain, and dare countenance the system of slavery that
   is supported there, we will recognize you as Irishmen no longer." Use it here with the 1841 Address (F30), and
   carry it forward to Ch7.
 - **"Inbetween peoples"** is about later southern and eastern Europeans; don't apply it to the famine Irish (F28).
@@ -87,7 +87,12 @@ but as the essay's argument, tested in Ch5, not as settled fact.
   (1845) to under 1 million (1847) while imports rose to about 4.5 million, and Ireland was a net grain importer every
   year 1847–51; Kinealy herself says so (F39). No yearly death series exists to plot either (F44). Two honest options:
   - **(a) Proposed: "food in, food out", 1845–50.** Grain exports and imports as two bars per year, starting at zero,
-    with butter (F40) and livestock as annotations. Caption makes the real point: the food that left in 1846–47 left
+    with livestock as an annotation (butter has no official series: F40 is off). Grain in tons, from Bourke: 1845
+    513,000 out / about 28,000 in; 1846 284,000 / about 190,000; 1847 about 145,000 / 840,000–890,000; 1848 314,000 /
+    439,000 (F39). **Livestock, from the official returns (F43):** about 3.1 million cattle, sheep and pigs went to
+    Britain in 1846–50, but the yearly total halved (933,000 → 475,000) and pigs collapsed from 481,000 to 106,000 in a
+    year, as people killed or ate what they had. Cattle exports rose slightly. Say the figures come from port and
+    market reports, not Customs. Caption makes the real point: the food that left in 1846–47 left
     *before* the imports arrived, and the market, not the state, decided both. "The market cleared what it was built
     to clear" survives.
   - **(b)** Emigration by year against grain exports, with the death toll as a single total, not a line.
@@ -100,9 +105,24 @@ but as the essay's argument, tested in Ch5, not as settled fact.
   Woodham-Smith chain shown, or T1 takes its place. "Judgement of God … too much mitigated" is a historian's
   paraphrase and is evicted. **T3 is not a policy line**: Trevelyan is describing a ladies' relief charity, so it
   can't stand in for "too much has been done" (B20), which is **dropped** (only IrishCentral, LaRouche sites, blogs).
-  Clarendon's 1849 "policy of extermination" (B21) is probable and must be captioned as Clarendon **attacking** such a
-  policy while pressing for money. Wood's "purgatory" (B12) is probable in two fragments, not one sentence. Still open:
-  B6, B8, B9, B11, B13–B18, B21 (1847), B23, B26. Jowett/Senior (B22) rests on Woodham-Smith alone.
+  Clarendon's 1849 "policy of extermination" (B21) is now secondary (Woodham-Smith p. 381, "April 1849": her text and
+  note disagree on the 26th or 28th) and must be captioned as Clarendon **attacking** such a policy while pressing for
+  money. Perceval's "where is the rent to come from?" (B9) is **verified** in the Commissariat papers (14 Aug 1846,
+  p. 9; "Perceval", and the letter names Clanmorris, not Westport). Jowett (B22) reads "scarcely be enough to do **much**
+  good" and rests on Lord Arthur Russell's unpublished notes via Woodham-Smith: caption it "as recalled by Jowett",
+  and Senior's name as Woodham-Smith's. Nangle's "Surely God is angry with this land" (B18) is secondary (Ó Cathaoir, Moffitt), "February
+  1847". *The Times*'s "hundred million" leader (B26) is now dated **4 May 1860** and read whole in an 1890 reprint:
+  quote that text, which opens "Ireland will become very English and the United States very Irish". The *Herald*'s
+  "idolatrous" line (B11) is secondary but unsigned: caption it to the paper, not to Nangle. **Clarendon's "always in
+  the mud" is real** (B21b, verified: to Henry Reeve, 18 Sept 1847), and it must carry its context: he blames London
+  ("Charles Wood is unable") and the landlords in the same letter. The Duke of Cambridge (B6) survives only as O'Connell's charge ("a mixture of potatoes and grass"). **Trevelyan
+  and Wood, newly ready:** the "Cork prices" letter in full (B17, verified, 22 Jan 1847, with the softening clause the
+  pack cut); the *Irish Crisis* "direct stroke of an all-wise and all-merciful Providence" as one whole sentence (T5,
+  verified, p. 201, the book's closing paragraph); "habitually dependent on the Government for food" from the
+  **printed** 17 July **1846** letter (B8, verified, p. 208: "I quite agree with you", so Routh proposed the close too);
+  Wood's "purgatory of misery and starvation" and "a calamity sent by Providence" as **two separate** quotes (B12,
+  secondary). **"A thing unheard of" (B15) is not Trevelyan's verdict**: he is reporting northern gentlemen; his pledge
+  sentence (18 Dec 1846, p. 382) can stand instead. Still off the wall: B13, B14, B16, B23.
 - **Eyewitness spine:** Nicholson's passages hold (N1–N3), with two fixes: the widow-and-dog scene is **a story she was
   told**, and the walking-skeleton line is corrected. **Table 95 changes (M3, F37):** Mitchel quotes the
   *Digest* accurately but stops mid-sentence. The full sentence goes on to resettle the 192,368 families on reclaimed
@@ -110,7 +130,10 @@ but as the essay's argument, tested in Ch5, not as settled fact.
   Mitchel's reading against the document: what the commissioners calculated, what Mitchel called it, and what the
   sentence actually proposed. The essay never states 192,368 as a removal quota in its own voice. Mahony's
   Skibbereen text is now verified (N5: *ILN* 13 Feb 1847, pp. 100–101, "as printed by the *ILN*"). O'Connell's butchers line is
-  "as Mitchel reports" (M4). Recorded starvation deaths 187 (1842) → 516 (1845) → 2,041 (1846) are confirmed in the census's own death tables (F36), with the caveat that recorded deaths undercount. The 1851 Census's "on the whole, so satisfactory" sentence is verified (B24) and anchors the bureaucratic-horror beat; the bailiff's "black potatoes" holds via O'Rourke (B7).
+  "as Mitchel reports" (M4). Recorded starvation deaths 187 (1842) → 516 (1845) → 2,041 (1846) are confirmed in the census's own death tables (F36), with the caveat that recorded deaths undercount. The 1851 Census's "on the whole, so satisfactory" sentence is verified (B24) and anchors the bureaucratic-horror beat; the bailiff's "black potatoes" holds via O'Rourke (B7), and
+  its setting sharpens it: the notices were for the November rent, served just after "a certain noble proprietor"
+  visited. The "landlords' commission" (F38) is now named from its own letters patent: Devon, Ferguson, Hamilton,
+  Redington and Wynne, reporting 14 Feb 1845.
 - **Aphorism:** "The Almighty, indeed, sent the potato blight, but the English created the famine." (M1), first
   published in book form 1861.
 - **Footnotes:** F31–F44; quotes B3–B5, B10, B19, B25, B27, B28, T1–T4, M1–M4, N1–N4.
@@ -121,8 +144,9 @@ but as the essay's argument, tested in Ch5, not as settled fact.
    (F86); Kennedy's "Cry Holocaust" chapter (F87); Boyle's legal opinion for the other side, Art. II(b) and II(c) (F88).
 2. **"Ireland was starved while food was exported under guard."** → **verdict flips from CONFIRMED to BURNISHED.**
    Food did leave during the famine's first two years, and that is documented (F39, F40). But "under guard" has no
-   source (F41), the 3 million animals trace to a polemic (F43), and from 1847 more grain came in than went out (F39).
-   True in spirit for 1846–47; wrong in the tidy version.
+   source (F41) and from 1847 more grain came in than went out (F39). The "3 million animals" turns out to hold on the
+   official returns for 1846–50, but the yearly flow halved and pigs collapsed (F43). True in spirit for 1846–47;
+   wrong in the tidy version.
 3. **"The Irish were considered non-white."** → **BURNISHED**, as the brief, using F24–F27.
 4. **"No Irish Need Apply."** → **BURNISHED**, as the brief, but **"eleven ads" is wrong**: Jensen's count is two to
    twelve depending on which of his texts you read, and Fried found 69 (F45, F46).
@@ -141,6 +165,18 @@ but as the essay's argument, tested in Ch5, not as settled fact.
   - **Committing a crime to be transported is documented, but the documented cases are women** (the Kelleher sisters,
     Bantry 1848; Margaret Byrne, Carlow 1849) (F55). The government also recorded transportation as dreaded (F56). So
     the deliberate theft is plausible in kind and the essay says exactly that: legend, not record.
+  - **What came after the sentence: Van Diemen's Land → the mainland (Bryan, 2026-11-24: "could you go from van
+    diemen's land to NSW? because i grew up in manly").** Yes, and very many did, though the main flow was to
+    **Victoria**, not New South Wales. Historians put the share of VDL convicts who eventually left at 50–70% (Libraries
+    Tasmania); McCalman counts tens of thousands settling or spending time in Victoria (her reviewers give 30,000 and 40,000;
+    F94). The law decided who could
+    go: a ticket-of-leave man "could not leave the colony", a freed man was "free to travel anywhere", and a
+    conditional pardon from 1847 was good everywhere but Britain and Ireland (F95). Victoria answered with its
+    1852 Act against "offenders illegally at large": three years' hard labour in irons for convict men landing from VDL.
+    London struck it down in 1853 as an interference with the Queen's pardon, and Victoria kept passing new versions
+    to 1856 (F96). No NSW law like it has been found. So the copy can say: once his time was served, the road to Sydney was legally open, and the
+    gold rush pulled thousands across Bass Strait. The essay's Manly link stays the essay's own: **no reference to
+    Bryan beyond the byline and credits**, so the beat is told as the ancestor's possible road, not the author's.
   - **What the record does and doesn't rule out, said plainly in the copy:** a man sentenced for theft around 1850
     most likely went **Bermuda hulks → Van Diemen's Land**, or straight to Van Diemen's Land from 1848 (F51, F53).
     Western Australia took convicts 1850–68, but only **one** ship ever sailed straight from Ireland to it (the
@@ -151,19 +187,23 @@ but as the essay's argument, tested in Ch5, not as settled fact.
     checked against the National Archives of Ireland's Ireland–Australia transportation index.
   - **The brief's dates are right (NSW closed 1840, VDL to 1853, WA 1850–68) but its conclusion, "most likely bound
     for the far side of the continent", is backwards** for a famine-era Irish sentence: VDL is where the Irish went
-    (F53, F58). The total sent from Ireland is unsettled: NAI's own page says about 39,000; rework F54 first.
+    (F53, F58). The total sent from Ireland is now **"about 40,000, 1791–1853"** (NAI's "some 30,000 men and 9,000
+    women", matched by an independent sum; F54). Drop "26,500".
   - Earl Grey orphans: 4,114 girls on 20 ships, probable (F57).
   - **Second generation:** Lambing Flat stays, but **the rioters can't be called Irish**: official sources say
     "European miners"; the documented Irish link is publican James Torpy and the Tipperary Gully meeting (F60).
     Eureka adds the Irish-heavy death list (F61). **The Stolen Generations "staffed by people who had fled caste"
     line is dropped**: no source (F62). **White Australia:** King O'Malley wasn't Irish (probably Kansas-born) and
-    Mannix has no documented stance, so neither carries an Irish-Australian beat; hold the beat until a scholarly
-    source is read (F63).
+    Mannix has no documented stance, so neither carries the beat. A scholarly anchor now exists: Malcolm and Hall
+    (2018) find Irish-born politicians "supporting legislation that restricted the intake of Chinese and other
+    immigrants of colour" (via Marley's review, F63). The beat can return once ch. 3 is read for a page. John Dillon telling a New Zealand
+    audience the Irish deserved self-government "because we are white men" is now secondary (Nelson 2012, citing
+    Lyons): a strong line for Ch3 or Ch6, quoted as those four words only.
   - **Castle Hill 1804:** "Death or Liberty" was a slogan; no flag exists (F59).
 - **Mitchel's route:** Dublin → Spike Island → **Bermuda** → the *Neptune* → the Cape → Van Diemen's Land 1850 →
   escape 1853 (F65).
-- **Gauge scene and the O'Connell–Douglass close:** as the brief, with O1 now usable (secondary, 1843).
-- **Footnotes:** F47–F65; quotes I1.
+- **Gauge scene and the O'Connell–Douglass close:** as the brief, with O1 now verified (1843).
+- **Footnotes:** F47–F65, F94–F96; quotes I1.
 
 ## Chapter 7 · The Memory (paper)
 - **Thesis, rewritten (Bryan, 2026-11-24):** this is not "the Biden beat". It is the diaspora beat: **Irish
@@ -210,8 +250,9 @@ but as the essay's argument, tested in Ch5, not as settled fact.
 
 ## Final · The Inheritance (red field)
 - **Ledger read-out, corrected:** the land (59 → 22 → 14 → about 5%), the dead (about a million), the fled (about a
-  million 1846–51; "2M+ in a decade" needs its own source first, F34), **the exports row changes** from "3M live
-  animals" to a verified figure (grain or butter) or is dropped (F43), the offered (one, conditional), the
+  million 1846–51; "2M+ in a decade" needs its own source first, F34), **the exports row** can keep "about 3.1 million animals shipped
+  to Britain, 1846–50" (official returns, F43), paired with "1847: about 145,000 tons of grain out, about 840,000–
+  890,000 in" (F39), so the slip tells both halves, the offered (one, conditional), the
   ancestor (one, transported about 1850, family history; the horse and the motive, family legend).
 - Everything else as the brief.
 
@@ -225,7 +266,8 @@ but as the essay's argument, tested in Ch5, not as settled fact.
 3. The ancestor's likely route is **the Bermuda hulks and/or Van Diemen's Land**, not Western Australia; the
    transportation is family history, the deliberate theft and the horse are family legend.
 4. The thesis wording moves from "premised on racialized contempt" to doctrine-first, contempt-hardened.
-5. The ledger slip's second face (3 million animals) goes; the land ledger gains a 1688 bar.
+5. The ledger slip's second face (3 million animals) holds on the official returns but needs its grain twin and its
+   caveat; the land ledger gains a 1688 bar.
 6. Ch7 becomes the diaspora beat, not the Biden beat: diaspora Irish who back the oppression their ancestors
    suffered forfeit the inheritance; Biden leads, Reagan pairs, Mitchel opens.
 
@@ -254,14 +296,25 @@ charge (F38); NSW 1840, WA 1850–68, the one Irish ship to WA, sentence lengths
 (F58); O'Malley not Irish (F63); no lost arm for James Mitchel (F67); Sellar's 1816 trial as MacLeod tells it (F93);
 Trevelyan's "Cork prices" letter redated to 22 Jan 1847 (B17, probable).
 
-**Still open after round 3:** Trevelyan B8, B15, B17 (letter text), T2's closing page; Wood B12, B14; Clarendon 1847
-and Woodham-Smith p. 381 for 1849; Nangle; Percival; Duke of Cambridge; Waterford Freeman, Sligo Champion, Newry
-Telegraph, 1860 Times (B26: try the president.ie script); Jowett; a checked export figure (F43); the Table 95 grid
-and acre measure; the commissioners' full list; the Irish transport total (F54); when horse theft stopped being
-capital in Ireland; O'Malley's vote on a page image and any Irish-Australian scholarship (F63); Betsy Mackay
-(Prebble, Grimble); the 1843 newspaper report of O'Connell's speech. Leads in `research/fact-sheets/r3-*.md`.
+**Settled in round 4 (2026-11-25):** O'Connell's line in an 1843 newspaper (O1); Perceval (B9, verified);
+Clarendon 1849 (B21, secondary, "April 1849"); Jowett's "much good" and his source (B22); Trevelyan's "Cork prices"
+letter (B17) and the *Irish Crisis* sentence (T5); "habitually dependent" redated to 1846 (B8); Wood's "purgatory"
+(B12); "unheard of" is reported speech (B15); Higgins's full wording for the 1860 *Times* line (B26); the Devon
+commissioners from their letters patent (F38); Table 95's grid, with no acre unit printed (F37); Kinealy's 1847 grain
+tonnage (F39, F43); about 40,000 shipped from Ireland (F54); the VDL exodus, who could leave, and Victoria's 1852 Act
+(F94–F96); a scholarly anchor for Irish-Australian support for Chinese exclusion (F63); Betsy MacKay's 1883 statement
+and Sellar's trial record (F93).
 
-**Added for round 4 (Bryan, 2026-11-24, "could you go from van diemen's land to NSW? because i grew up in manly"):**
-how often freed Van Diemen's Land convicts (ticket of leave, conditional pardon, expired sentence) moved on to New
-South Wales in the 1850s–60s, and what rules limited that. Primary or scholarly sources only. Not started: waits for
-Bryan's go-ahead after the page-read limit resets.
+**Settled in round 5 (2026-11-25):** Clarendon's "always in the mud" (B21b, to Reeve, 18 Sept 1847); B15 as one
+letter (18 Dec 1846, pp. 380–382); the printed "habitually dependent" letter (B8, p. 208); pages for B17 (p. 38) and
+T5 (p. 201); Wood's two fragments (B12); Nangle (B18) and the *Herald* (B11); *The Times*, 4 May 1860 (B26); O'Connell's
+venue in an 1843 paper (O1); the livestock returns (F43) and the grain series (F39); butter's missing source (F40);
+Victoria's 1852 Act and its disallowance (F96); Dillon's "white men" (F63).
+
+**Still open after round 5:** the Dublin report giving 9 May 1843 (O1); the Duke of Cambridge's own words (B6, likely
+retire); *Waterford Freeman*, *Sligo Champion*, *Newry Telegraph* (B13, B16, B23: Killen in print); B14 (retire);
+Woodham-Smith's private-letter source for B8; Nangle's tract vs the *Herald* (Mayo County Library scan, open in an
+ordinary browser); *The Times* 1860 issue itself; BPP 1852 LI for grain 1847–51; McCalman's own page (F94); the 1852
+Act's printed text (F96); when horse theft stopped being capital in Ireland (F58); Malcolm & Hall ch. 3's page and
+O'Malley's vote on a page image (F63). Most need print copies or subscription archives. Leads in
+`research/fact-sheets/r5-*.md`.
