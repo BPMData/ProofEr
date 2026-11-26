@@ -78,6 +78,10 @@ but as the essay's argument, tested in Ch5, not as settled fact.
   Liberty*, 17 July 1843, reporting the Dublin meeting of **9 May 1843**), and the real line is a threat, not an invitation: "…if you remain, and dare countenance the system of slavery that
   is supported there, we will recognize you as Irishmen no longer." Use it here with the 1841 Address (F30), and
   carry it forward to Ch7.
+- **Allen in his own words (R6, AL1–AL3, F29):** "Irish history presents a case of racial oppression without
+  reference to alleged skin color" (vol. 1 p. 22), his "hallmark" definition (p. 32) and racial vs national
+  oppression (p. 273 n. 11). Framed as Allen's argument ("Allen calls this…"), never as fact, with the critics beside
+  it and AL2 set against the religion-not-race objection.
 - **"Inbetween peoples"** is about later southern and eastern Europeans; don't apply it to the famine Irish (F28).
 - **Footnotes:** F09, F24–F30.
 
@@ -101,8 +105,10 @@ but as the essay's argument, tested in Ch5, not as settled fact.
   1852 (B25), *The Times* "potatophagi" (B3, via Gray), Trevelyan's *Irish Crisis* lines (T1, T4, p. 53–54) and the
   Monteagle "direct stroke" letter (T2, via Haines), Malthus to Ricardo **in full and dated 1817** (B1: the pack cut
   "into large manufacturing and commercial Towns"), Edwards' counter-claim (B28, venue corrected). **Trevelyan's
-  "moral evil" (B2) is SECONDARY at best**, with its date and wording unsettled: it can lead the wall only with the
-  Woodham-Smith chain shown, or T1 takes its place. "Judgement of God … too much mitigated" is a historian's
+  "moral evil" (B2) is SECONDARY**, now settled in R6: "The great evil with which we have to contend" … "not the
+  physical evil of the famine, but the moral evil of the selfish, perverse and turbulent character of the people", to
+  Colonel Harry Jones, 2 December (1846), via Woodham-Smith p. 151. It can lead the wall with that chain shown; her
+  endnote's primary is still unread. "Judgement of God … too much mitigated" is a historian's
   paraphrase and is evicted. **T3 is not a policy line**: Trevelyan is describing a ladies' relief charity, so it
   can't stand in for "too much has been done" (B20), which is **dropped** (only IrishCentral, LaRouche sites, blogs).
   Clarendon's 1849 "policy of extermination" (B21) is now secondary (Woodham-Smith p. 381, "April 1849": her text and
@@ -311,7 +317,7 @@ T5 (p. 201); Wood's two fragments (B12); Nangle (B18) and the *Herald* (B11); *T
 venue in an 1843 paper (O1); the livestock returns (F43) and the grain series (F39); butter's missing source (F40);
 Victoria's 1852 Act and its disallowance (F96); Dillon's "white men" (F63).
 
-**Still open after round 5:** the Dublin report giving 9 May 1843 (O1); R6 settled B16 (verified, Killen p. 99) and retired B13, B23 and B6's wording (not in Killen or the other five books); B14 (retire);
+**Still open after round 5:** the Dublin report giving 9 May 1843 (O1); R6 settled B16 (verified, Killen p. 99), B2's date, recipient and wording (secondary, Woodham-Smith p. 151; her endnote's primary still unread) and Allen's wording (AL1–AL3), and retired B13, B23 and B6's wording (not in Killen or the other five books); B14 (retire);
 Woodham-Smith's private-letter source for B8; Nangle's tract vs the *Herald* (Mayo County Library scan, open in an
 ordinary browser); *The Times* 1860 issue itself; BPP 1852 LI for grain 1847–51; McCalman's own page (F94); the 1852
 Act's printed text (F96); when horse theft stopped being capital in Ireland (F58); Malcolm & Hall ch. 3's page and
