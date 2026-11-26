@@ -326,8 +326,22 @@ but as the essay's argument, tested in Ch5, not as settled fact.
   where Europe tried them on Europeans first, then the Irish bought the right to be on the other side (CS2's
   "boomerang", CS3's "no one colonizes innocently"). Fanon's "you are rich because you are white, you are white
   because you are rich" (FN1) is the one-line version of the bargain, for Ch6 or here; his "monster" (FN2) and
-  Sartre's "racist humanism" (SA1) are spares. Use one or two, not all. Fanon's Algerian case notes stay out (Algeria,
-  not Ireland), and the "children's one wish" story is not in the books.
+  Sartre's "racist humanism" (SA1) are spares. Use one or two, not all. The "children's one wish" story is not in the
+  books.
+- **The children, just before Césaire's boomerang (Bryan, 2026-11-26: "Add it to the close"; FN3–FN4, F102):**
+  Fanon's point, in his own cases: colonial violence shapes the colonized, even the children, and the settler then
+  paints the colonized as the "quintessence of evil" (p. 41). Two cases, told only as Fanon records them:
+  - **Two schoolboys, 13 and 14 (Series B Case 1, pp. 270–272),** who killed a European playmate. The younger: "We
+    can't kill big people. But we could kill ones like him, because he was the same age as us." The elder, two of whose
+    family died at Rivet in 1956 (forty men dragged from their beds by the militia and murdered, per Fanon's footnote):
+    "And did they arrest a single Frenchman for all those Algerians who were killed?"
+  - **Refugee children under ten (Series B Case 4, pp. 277–278),** "the children of fighting men or of civilians killed
+    by the French": a "noise phobia", sleeplessness and sleepwalking, chewed pencils, and a game of stretching a sheet
+    of paper and feverishly poking holes in it; also "a great thirst for peace and for affection".
+  - **Limits:** no "warped dreams", wishes or drawings (not in the book). Name Algeria and France plainly, and leave any
+    present-day parallel unstated: the reader makes it. Where blame is named, it is the soldiers, settlers and militia
+    Fanon names, never a whole people. One killed child is in this case: say so with care, not as a hook.
+  - Then Césaire: the methods come home (CS2, CS1).
 - Everything else as the brief.
 
 ---

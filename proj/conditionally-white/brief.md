@@ -18,6 +18,7 @@ stops at the outline (brief §10 steps 1–2). Images are found by Bryan in Gemi
 - 2026-11-26 · "there was that rebellion in the u.s. in which poor white indentured servants and black slaves fought together against their mutual oppressors … the essay covers that?" then "it absolutely needs to be in this essay" · Bacon's Rebellion goes in Ch3 beside the Penal Laws/Virginia parallel, as Allen's argument with two caveats; one-line callback in Ch6.
 - 2026-11-26 · Asked whether Ch5 should say "under guard" flatly for 1846 with a one-line caveat about later years: "Yes." · Ch5 claim 2 says food was exported under armed guard in 1846 (Clonmel convoy), with the caveat that from 1847 Ireland imported more grain than it exported.
 - 2026-11-26 · On Césaire's Hitler passage (*Discourse on Colonialism* p. 36): "I absolutely love that line" … "I quote that constantly and refuse to censor it" · If the essay uses it (candidate for the close, F102), it is quoted whole and uncensored, slur included in Césaire's own quotation marks.
+- 2026-11-26 · Asked whether to add Fanon's cases of Algerian children (Series B Cases 1 and 4) to the essay: "Add it to the close" · They go in the close just before Césaire's boomerang, only as Fanon records them; any present-day parallel is left unstated.
 
 ---
 

@@ -522,5 +522,6 @@ Douglass inviting the "white slavery" crowd to apply for his old job on the plan
 - **Not found, don't use:** the Algerian children's "one wish" or "superpower" story, a drawings-and-careers version
   of Series B Case 4, and the film *J'ai huit ans* (none is in the eight books). The quote "the French had sworn to
   kill us all, one after the other" is from Series B Case 1 (p. 272), the 14-year-old, not from the refugee camps.
-- **Fit to the thesis:** the bargain (Ch6) and the close. Fanon's Algerian case notes on torture and rape are real
-  and harrowing, but they are about Algeria, so they stay out of this essay unless Bryan wants a pointer.
+- **Fit to the thesis:** the bargain (Ch6) and the close. Fanon's torture and rape case notes stay out. **The two
+  children's cases go in the close (Bryan, 2026-11-26: "Add it to the close"):** Series B Case 1 (pp. 270–272) and
+  Case 4 (pp. 277–278), as FN3–FN4, just before Césaire's boomerang, told only as Fanon records them.
