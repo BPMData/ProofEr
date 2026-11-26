@@ -153,7 +153,7 @@ but as the essay's argument, tested in Ch5, not as settled fact.
   quote that text, which opens "Ireland will become very English and the United States very Irish". The *Herald*'s
   "idolatrous" line (B11) is secondary but unsigned: caption it to the paper, not to Nangle. **Clarendon's "always in
   the mud" is real** (B21b, verified: to Henry Reeve, 18 Sept 1847), and it must carry its context: he blames London
-  ("Charles Wood is unable") and the landlords in the same letter. The Duke of Cambridge (B6) survives only as O'Connell's charge ("a mixture of potatoes and grass"). **Trevelyan
+  ("Charles Wood is unable") and the landlords in the same letter. The Duke of Cambridge (B6) survives only as O'Connell's charge ("a mixture of potatoes and grass"). **The curry line goes on the wall (Bryan: "it's a great line"):** the Duke of Norfolk at Arundel, late 1845, telling his own Sussex labourers that a pinch of curry powder in hot water would send a man to bed "much warmer and more comfortably" (NF1, F99). Caption it as the *Northern Star*'s translation of a French report, and frame it as said to his own labourers as the potato failed, a byword for upper-class cluelessness, **not** as advice to Ireland (Woodham-Smith's framing, which the report doesn't support). Undated beyond late 1845 until the English original is found. **Trevelyan
   and Wood, newly ready:** the "Cork prices" letter in full (B17, verified, 22 Jan 1847, with the softening clause the
   pack cut); the *Irish Crisis* "direct stroke of an all-wise and all-merciful Providence" as one whole sentence (T5,
   verified, p. 201, the book's closing paragraph); "habitually dependent on the Government for food" from the

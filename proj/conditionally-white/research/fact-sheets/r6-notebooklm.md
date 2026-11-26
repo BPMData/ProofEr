@@ -386,7 +386,7 @@ any of them.
 with no date and nothing quoted from the Duke; the paragraph before is Lord Clare's warning of 5 Nov 1845, so the
 context is late 1845. The same paragraph has the plan to cut the 12,000 police and army horses' corn from ten to five
 pounds a day ("an extra 60,000 pounds a day"). Use only as "Woodham-Smith records a suggestion by the Duke of
-Norfolk…", undated.
+Norfolk…", undated. **Superseded:** see "Curry powder follow-up" below, which finds a contemporary report and corrects her framing.
 
 **16. The Draft Riots (F47, F48): not found.** No total death toll, no Cook or Bernstein figure, and no Colored
 Orphan Asylum in any loaded book; Allen's "eleven African-Americans were lynched" (vol. 1 p. 320 n. 77) is the only
@@ -451,3 +451,21 @@ men are shot dead. Two cautions:
   incidents), but don't let the essay say there was no unrest.
 - **Kanturk** is an Examiner report with an edge (the "troublesome mob" buying powder). Quote it as the paper's view,
   not as fact about the crowd.
+
+## Curry powder follow-up (NF1, F99), at Bryan's ask
+
+Bryan: "we definitely need to include the curry line though... it's a great line". A search found a contemporary
+report: the *Northern Star*, 3 Jan 1846, p. 5, reprinting the Paris *Journal des Débats* ("At an agricultural
+meeting held within his vast domain of Arundel"). Because it is a translation of a translation, the English is
+the *Northern Star*'s, not the Duke's: "It is curry powder!"; "you are not accustomed to it ... For myself I am very
+fond of it"; and, of a labourer who comes home wet and exhausted with nothing better than hot water, "by putting a
+pinch of this powder into it, he will go to bed much warmer and more comfortably".
+
+- **Correction to Woodham-Smith:** he was speaking to his own Sussex tenants and labourers. The report never
+  mentions Ireland; Woodham-Smith p. 43 makes it advice for the Irish. The essay follows the report.
+- **Lead only:** a 2011 blog (Victorian Calendar) gives fuller English ("I mean to try it among my laborers"), a
+  Steyning fat-stock dinner, and ridicule in the *Times*, *Examiner*, *Punch* and *Spectator*. None of it is quoted
+  until the papers themselves are found.
+- **Open for the Antigravity pass:** the original English report (the *Times* or Sussex papers, Nov–Dec 1845),
+  *Punch*, the date (late 1845; blogs say about 8 Nov or 8 Dec), and the Duke's identity (likely Henry Charles
+  Howard, 13th Duke, 1842–56).
