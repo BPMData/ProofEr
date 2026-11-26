@@ -2,6 +2,7 @@
 
 _Last updated: Nov 25, 2026._
 
+- **Round 6 (Nov 25, Bryan's NotebookLM pass over six print books, in progress):** B16 verified (Killen p. 99, *ILN* reprint of the *Sligo Champion*: Burrows, M'Manus); B13 retired (not in Killen). Sheet: `research/fact-sheets/r6-notebooklm.md`.
 - **Stage:** draft outline (`outline.md`), awaiting Bryan's review; his §10 answers are folded in (Ch7 is now the diaspora beat; the number of greats is his to confirm).
   Brief = Bryan's own uploaded build brief (`brief.md`). This pass is research and outline only; prose comes
   later via Gemini.

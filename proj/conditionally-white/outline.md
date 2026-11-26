@@ -122,7 +122,7 @@ but as the essay's argument, tested in Ch5, not as settled fact.
   **printed** 17 July **1846** letter (B8, verified, p. 208: "I quite agree with you", so Routh proposed the close too);
   Wood's "purgatory of misery and starvation" and "a calamity sent by Providence" as **two separate** quotes (B12,
   secondary). **"A thing unheard of" (B15) is not Trevelyan's verdict**: he is reporting northern gentlemen; his pledge
-  sentence (18 Dec 1846, p. 382) can stand instead. Still off the wall: B13, B14, B16, B23.
+  sentence (18 Dec 1846, p. 382) can stand instead. Still off the wall: B13 (retired, R6), B14, B23. **B16 now verified (R6):** the *Sligo Champion*'s M'Manus inquest, via the *ILN* reprint in Killen p. 99; it ends "Let Lord John Russell read the above", so it sits beside Russell (B10).
 - **Eyewitness spine:** Nicholson's passages hold (N1–N3), with two fixes: the widow-and-dog scene is **a story she was
   told**, and the walking-skeleton line is corrected. **Table 95 changes (M3, F37):** Mitchel quotes the
   *Digest* accurately but stops mid-sentence. The full sentence goes on to resettle the 192,368 families on reclaimed
@@ -312,7 +312,7 @@ venue in an 1843 paper (O1); the livestock returns (F43) and the grain series (F
 Victoria's 1852 Act and its disallowance (F96); Dillon's "white men" (F63).
 
 **Still open after round 5:** the Dublin report giving 9 May 1843 (O1); the Duke of Cambridge's own words (B6, likely
-retire); *Waterford Freeman*, *Sligo Champion*, *Newry Telegraph* (B13, B16, B23: Killen in print); B14 (retire);
+retire); *Newry Telegraph* (B23: Killen in print; R6 pending). R6 settled B16 (verified, Killen p. 99) and retired B13 (not in Killen); B14 (retire);
 Woodham-Smith's private-letter source for B8; Nangle's tract vs the *Herald* (Mayo County Library scan, open in an
 ordinary browser); *The Times* 1860 issue itself; BPP 1852 LI for grain 1847–51; McCalman's own page (F94); the 1852
 Act's printed text (F96); when horse theft stopped being capital in Ireland (F58); Malcolm & Hall ch. 3's page and
