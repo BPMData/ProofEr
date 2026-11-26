@@ -169,7 +169,7 @@ As NotebookLM returned it (curly quotes shown straight):
   but for every Euro-American, the "white" identity that "set them at a distance," to use Sir Francis's phrase, from
   the laboring-class African-Americans, and enlisted them as active, or at least passive, supporters of lifetime
   bondage of African-Americans." Full passage, including the "counterfeit of social mobility" sentence, in Bryan's
-  pasted answer; "Sir Francis" is unnamed in the answer (likely Gov. Francis Nicholson; unchecked).
+  pasted answer; "Sir Francis" is not identified in the answer; check the page before naming him.
 
 **Notes.** This replaces Q9-1's "from memory" chronology: 1676 → 1691 (first official "white") → 1705 Act →
 "beginning of the eighteenth century". Still Allen's argument; the origins-debate critics (Jordan, Vaughan) date
