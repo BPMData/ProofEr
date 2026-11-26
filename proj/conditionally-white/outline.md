@@ -74,10 +74,50 @@ but as the essay's argument, tested in Ch5, not as settled fact.
   gentry (F25). "Africanoid" is a separate skull type with Ireland as "its present centre", kept apart from the index
   (F26). Punch cartoons: 5–8 dated examples are in `research/image-hunt.md` for Gemini to fetch.
 - **Ladder scene:** as the brief, with the 1829 disfranchisement as "about 216,000 to 37,000–40,000 county voters" (F09).
+  **R6 follow-up gives the ladder its paired dates** (Allen vol. 1 pp. 81–90; table in `research/fact-sheets/r6-notebooklm.md`):
+  land (Ireland's Catholic land ban vs Virginia 1670), vote (Ireland 1727 vs Virginia 1723), schooling (Ireland 1695
+  vs Virginia 1832), marriage (Ireland 1697 vs Virginia 1691), and the 1705 Virginia court law barring "popish recusants
+  convict, negroes, mulattoes and Indian servants" as witnesses in one clause (AL7). The 1705 "Act concerning Servants
+  and Slaves" shows what "white" bought (AL8: no naked whipping without a JP, freedom dues with a gun, thirty lashes
+  for a free Black person who raised a hand). **This is Allen's framing, not a neutral table**; keep the
+  religion-not-race objection beside it. Statute wording is via Allen; Hening vol. 3 would verify it.
+- **The American mirror: Bacon's Rebellion, 1676 (Bryan's ask, R6; F98).** A short beat set right after the Penal
+  Laws and Virginia parallel. Bryan's own take (2026-11-26): it was the moment the rich realised that a lasting race
+  war would keep poor people from seeing who was really fleecing them. The essay puts that as Allen's argument, in
+  three moves:
+  1. **Together:** in Virginia in 1676, poor European bond-labourers and enslaved Africans fought on the same side
+     against Governor Berkeley's planter elite. Allen calls the last holdouts "the supreme proof that the white race
+     did not then exist" (vol. 2 p. 214, Grantham's testament; secondary for the event, via Allen).
+  2. **The answer, 1705:** the "Act concerning Servants and Slaves" bought the poor European's loyalty with
+     privileges (AL8: no naked whipping without a JP, freedom dues with a gun; thirty lashes for a free Black person
+     who raised a hand), and the court law's one clause lumped "popish recusants convict, negroes, mulattoes and
+     Indian servants" together as unfit witnesses (AL7). Allen's motive line: a "white" identity that "set them at a
+     distance" from Black labourers (vol. 2 pp. 239–240) and "the participation of the laboring classes" (AL6).
+  3. **Two caveats, a sentence each (F98, now sourced):** the rebellion began as a 1675 settler war on Native
+     peoples (Bacon "demanded a commission to fight the Indians"; Encyclopedia Virginia, Historic Jamestowne), not
+     as a fight for equality, though its last holdouts included "servants and slaves who did not wish to return to
+     servitude"; and the "divide and rule" reading is Allen's, while Encyclopedia Virginia dates the planters'
+     choice of "more easily controlled enslaved Africans" decades earlier, waiting on supply ("By 1700 the slave
+     population had soared, British immigration had slowed"). Name Edmund Morgan only after reading him.
+- **Page flags:** "Thus was the "white race" invented…" is vol. 2 p. 240 in one answer and p. 250 in another
+  (AL6: unsettled). p. 83's "headlight system" is an OCR slip for **headright**; print it as "[headright]".
+- **Faneuil Hall opens the arc (R6, F100):** Boston, 28 January 1842, the Address read aloud by Garrison to a hall the
+  *Liberator* put at four thousand, "including a large number of Irish"; the crowd shouts "No, no, no!" against
+  returning fugitives (FH1). Garrison writes the next day that there was "No opposition from any quarter" (GA1); a
+  month later the Address is "spurned and denounced by the Irish papers" (GA2). That swing is the beat's shape.
 - **Counter-quotation beat:** O'Connell's "broad Atlantic" is now verified in an 1843 newspaper (O1: the *Signal of
   Liberty*, 17 July 1843, reporting the Dublin meeting of **9 May 1843**), and the real line is a threat, not an invitation: "…if you remain, and dare countenance the system of slavery that
   is supported there, we will recognize you as Irishmen no longer." Use it here with the 1841 Address (F30), and
-  carry it forward to Ch7.
+  carry it forward to Ch7. **R6 fills the arc (via Ignatiev ch. 1, secondary):** the Address's own words, "*Treat the
+  colored people as your equals, as brethren*" (IA1, 60,000 signers, O'Connell first); Bishop Hughes's "I am no
+  friend of slavery, but I am still less friendly to any attempt of foreign origin to abolish" (IA2); the *Pilot* and
+  the Pottsville miners (IA3, IA4); Garrison's "not a single Irishman has come forward" (IA5); then O'Connell's
+  threat (O1) and his 11 Oct 1843 Cincinnati rebuke, "a darkness blacker than the negro's skin" (O2, new). The same
+  arc is the Ch6 hand-off from Ireland to America.
+- **Allen in his own words (R6, AL1–AL3, F29):** "Irish history presents a case of racial oppression without
+  reference to alleged skin color" (vol. 1 p. 22), his "hallmark" definition (p. 32) and racial vs national
+  oppression (p. 273 n. 11). Framed as Allen's argument ("Allen calls this…"), never as fact, with the critics beside
+  it and AL2 set against the religion-not-race objection.
 - **"Inbetween peoples"** is about later southern and eastern Europeans; don't apply it to the famine Irish (F28).
 - **Footnotes:** F09, F24–F30.
 
@@ -101,8 +141,10 @@ but as the essay's argument, tested in Ch5, not as settled fact.
   1852 (B25), *The Times* "potatophagi" (B3, via Gray), Trevelyan's *Irish Crisis* lines (T1, T4, p. 53–54) and the
   Monteagle "direct stroke" letter (T2, via Haines), Malthus to Ricardo **in full and dated 1817** (B1: the pack cut
   "into large manufacturing and commercial Towns"), Edwards' counter-claim (B28, venue corrected). **Trevelyan's
-  "moral evil" (B2) is SECONDARY at best**, with its date and wording unsettled: it can lead the wall only with the
-  Woodham-Smith chain shown, or T1 takes its place. "Judgement of God … too much mitigated" is a historian's
+  "moral evil" (B2) is SECONDARY**, now settled in R6: "The great evil with which we have to contend" … "not the
+  physical evil of the famine, but the moral evil of the selfish, perverse and turbulent character of the people", to
+  Colonel Harry Jones, 2 December (1846), via Woodham-Smith p. 151. It can lead the wall with that chain shown; her
+  endnote's primary is still unread. "Judgement of God … too much mitigated" is a historian's
   paraphrase and is evicted. **T3 is not a policy line**: Trevelyan is describing a ladies' relief charity, so it
   can't stand in for "too much has been done" (B20), which is **dropped** (only IrishCentral, LaRouche sites, blogs).
   Clarendon's 1849 "policy of extermination" (B21) is now secondary (Woodham-Smith p. 381, "April 1849": her text and
@@ -115,14 +157,14 @@ but as the essay's argument, tested in Ch5, not as settled fact.
   quote that text, which opens "Ireland will become very English and the United States very Irish". The *Herald*'s
   "idolatrous" line (B11) is secondary but unsigned: caption it to the paper, not to Nangle. **Clarendon's "always in
   the mud" is real** (B21b, verified: to Henry Reeve, 18 Sept 1847), and it must carry its context: he blames London
-  ("Charles Wood is unable") and the landlords in the same letter. The Duke of Cambridge (B6) survives only as O'Connell's charge ("a mixture of potatoes and grass"). **Trevelyan
+  ("Charles Wood is unable") and the landlords in the same letter. The Duke of Cambridge (B6) survives only as O'Connell's charge ("a mixture of potatoes and grass"). **The curry line goes on the wall (Bryan: "it's a great line"):** the Duke of Norfolk at Arundel, late 1845, telling his own Sussex labourers that a pinch of curry powder in hot water would send a man to bed "much warmer and more comfortably" (NF1, F99). Caption it as the *Northern Star*'s translation of a French report, and frame it as said to his own labourers as the potato failed, a byword for upper-class cluelessness, **not** as advice to Ireland (Woodham-Smith's framing, which the report doesn't support). Undated beyond late 1845 until the English original is found. **Trevelyan
   and Wood, newly ready:** the "Cork prices" letter in full (B17, verified, 22 Jan 1847, with the softening clause the
   pack cut); the *Irish Crisis* "direct stroke of an all-wise and all-merciful Providence" as one whole sentence (T5,
   verified, p. 201, the book's closing paragraph); "habitually dependent on the Government for food" from the
   **printed** 17 July **1846** letter (B8, verified, p. 208: "I quite agree with you", so Routh proposed the close too);
   Wood's "purgatory of misery and starvation" and "a calamity sent by Providence" as **two separate** quotes (B12,
   secondary). **"A thing unheard of" (B15) is not Trevelyan's verdict**: he is reporting northern gentlemen; his pledge
-  sentence (18 Dec 1846, p. 382) can stand instead. Still off the wall: B13, B14, B16, B23.
+  sentence (18 Dec 1846, p. 382) can stand instead. Still off the wall: B13, B23 and the Duke of Cambridge's words B6 (all retired, R6: not in Killen), B14. **B16 now verified (R6):** the *Sligo Champion*'s M'Manus inquest, via the *ILN* reprint in Killen p. 99; it ends "Let Lord John Russell read the above", so it sits beside Russell (B10).
 - **Eyewitness spine:** Nicholson's passages hold (N1–N3), with two fixes: the widow-and-dog scene is **a story she was
   told**, and the walking-skeleton line is corrected. **Table 95 changes (M3, F37):** Mitchel quotes the
   *Digest* accurately but stops mid-sentence. The full sentence goes on to resettle the 192,368 families on reclaimed
@@ -142,19 +184,40 @@ but as the essay's argument, tested in Ch5, not as settled fact.
 1. **"The famine was a genocide."** → **CONTESTED**, as the brief. Fixes: the historian is **Cormac** Ó Gráda (F84);
    his position is "doctrine, not deliberate racism" (G1); Gray: moral culpability from late 1847, no genocidal intent
    (F86); Kennedy's "Cry Holocaust" chapter (F87); Boyle's legal opinion for the other side, Art. II(b) and II(c) (F88).
-2. **"Ireland was starved while food was exported under guard."** → **verdict flips from CONFIRMED to BURNISHED.**
-   Food did leave during the famine's first two years, and that is documented (F39, F40). But "under guard" has no
-   source (F41) and from 1847 more grain came in than went out (F39). The "3 million animals" turns out to hold on the
-   official returns for 1846–50, but the yearly flow halved and pigs collapsed (F43). True in spirit for 1846–47;
-   wrong in the tidy version.
+2. **"Ireland was starved while food was exported under guard."** → **CONFIRMED for 1846**, with a one-line
+   caveat for 1847 on (Bryan, R6; earlier rounds had flipped it to BURNISHED).
+   Food did leave during the famine's first two years, and that is documented (F39, F40). **R6 changes half of
+   this:** "under guard" now has a source for 1846 (F41, WS1): export barges from Clonmel went "under convoy" of "2
+   guns, 50 cavalry and 80 infantry" (24 April 1846), and that autumn Trevelyan put 2,000 troops in mobile columns
+   and gave grain boats on the Fergus a naval escort (Woodham-Smith pp. 75, 120–121, secondary). The other half
+   holds: from 1847 more grain came in than went out (F39). **Bryan's call (2026-11-26):** the essay says it
+   flatly for 1846, **CONFIRMED for 1846**, and adds one line: from 1847 Ireland imported more grain than it
+   exported. The crowd's side goes beside it: the Clonmel mills attacked and
+   the army called (*Freeman* via *ILN*, 4 Apr 1846, K1), and at Dungarvan, 29 Sept 1846, dragoons fired twenty-six
+   shots into a crowd that had ordered merchants "not to export grain", killing two (WS3, secondary). The "3 million animals" turns out to hold on the
+   official returns for 1846–50, but the yearly flow halved and pigs collapsed (F43). True as stated for 1846;
+   the caveat covers the years after.
 3. **"The Irish were considered non-white."** → **BURNISHED**, as the brief, using F24–F27.
 4. **"No Irish Need Apply."** → **BURNISHED**, as the brief, but **"eleven ads" is wrong**: Jensen's count is two to
    twelve depending on which of his texts you read, and Fried found 69 (F45, F46).
-5. **"The Irish became white by joining the oppression of others."** → **CONTESTED**, as the brief.
+5. **"The Irish became white by joining the oppression of others."** → **CONTESTED**, as the brief. Make the
+   case at full strength first, in their own words (R6): Ignatiev's "how the Catholic Irish, an oppressed race in
+   Ireland, became part of an oppressing race in America" and "they had to earn it" (IG1, IG3), Allen's 1676 → 1691
+   → 1705 chronology (AL4–AL6); then the pushback (Q9-2).
 - **Footnotes:** F24–F27, F39–F46, F84–F88.
 
 ## Chapter 6 · The Bargain (paper, gold)
-- **America side:** Draft Riots as "at least 105 dead, about 119 documented" (F47); the Colored Orphan Asylum's 233
+- **Garrison names the bargain (R6, GA3):** "the bargain obviously is...that the South shall go for Repeal, and the
+  Irish, as a body, shall go for Southern slavery!" (March 1842). It is his suspicion of a deal, not a proven one, so
+  caption it that way; the chapter can take its title from his word.
+- **Callback (one line, R6):** the Irish in America were offered the deal Virginia drew up in 1705 for its poor
+  Europeans after Bacon's Rebellion: privileges for standing on the right side of the colour line (Ch3, F98).
+- **America side:** the "union card" mechanism credits the wage correctly (R6, F97): Du Bois's "a sort of public
+  and psychological wage" (DB1, via Roediger), which Roediger applies to "a desperate rural and often preindustrial
+  Irish population" (RG1, p. 137), "a two-sided process": accepted as white by others, and insisting on it themselves,
+  "much to the chagrin of Frederick Douglass and Daniel O'Connell" (RG2). **"Wages of whiteness" is Roediger's phrase; never credit it to Du Bois.** Then
+  the Draft Riots as "at least 105 dead, about 119 documented" (F47), with "eleven African-Americans were lynched"
+  over five days (Allen, secondary); the Colored Orphan Asylum's 233
   children all got out (F48); no percentage of Irish rioters exists, so use Bernstein's sentence (I1, F49). Police,
   machine and Union-army instruments are unverified (F50): keep the gauge's tick labels general until checked.
 - **Australia side, the horse thief, rebuilt on what the records say:**
@@ -202,8 +265,12 @@ but as the essay's argument, tested in Ch5, not as settled fact.
   - **Castle Hill 1804:** "Death or Liberty" was a slogan; no flag exists (F59).
 - **Mitchel's route:** Dublin → Spike Island → **Bermuda** → the *Neptune* → the Cape → Van Diemen's Land 1850 →
   escape 1853 (F65).
-- **Gauge scene and the O'Connell–Douglass close:** as the brief, with O1 now verified (1843).
-- **Footnotes:** F47–F65, F94–F96; quotes I1.
+- **Gauge scene and the O'Connell–Douglass close:** as the brief, with O1 now verified (1843). **Douglass in Ireland
+  (R6, F101):** O'Connell introduced him as "the Black O'Connell of the United States" (DG3, Douglass's recollection);
+  from Belfast, 1 January 1846, he wrote of "the entire absence of every thing that looked like prejudice against me,
+  on account of the color of my skin" (DG2). Set against Garrison's "not a single Irishman" (IA5) and Roediger's
+  "chagrin" (RG2), it shows the welcome in Ireland and the refusal in America side by side.
+- **Footnotes:** F47–F65, F94–F97, F100–F102; quotes I1, GA3, RG1–RG2, DG2–DG3, FN1.
 
 ## Chapter 7 · The Memory (paper)
 - **Thesis, rewritten (Bryan, 2026-11-24):** this is not "the Biden beat". It is the diaspora beat: **Irish
@@ -254,6 +321,27 @@ but as the essay's argument, tested in Ch5, not as settled fact.
   to Britain, 1846–50" (official returns, F43), paired with "1847: about 145,000 tons of grain out, about 840,000–
   890,000 in" (F39), so the slip tells both halves, the offered (one, conditional), the
   ancestor (one, transported about 1850, family history; the horse and the motive, family legend).
+- **Candidate frame for the close (R6, F102; Bryan picks):** Césaire's Hitler passage, uncensored at Bryan's word
+  (CS1): Europe forgave colonial methods until they were "applied to Europe". The essay's own turn on it: Ireland is
+  where Europe tried them on Europeans first, then the Irish bought the right to be on the other side (CS2's
+  "boomerang", CS3's "no one colonizes innocently"). Fanon's "you are rich because you are white, you are white
+  because you are rich" (FN1) is the one-line version of the bargain, for Ch6 or here; his "monster" (FN2) and
+  Sartre's "racist humanism" (SA1) are spares. Use one or two, not all. The "children's one wish" story is not in the
+  books.
+- **The children, just before Césaire's boomerang (Bryan, 2026-11-26: "Add it to the close"; FN3–FN4, F102):**
+  Fanon's point, in his own cases: colonial violence shapes the colonized, even the children, and the settler then
+  paints the colonized as the "quintessence of evil" (p. 41). Two cases, told only as Fanon records them:
+  - **Two schoolboys, 13 and 14 (Series B Case 1, pp. 270–272),** who killed a European playmate. The younger: "We
+    can't kill big people. But we could kill ones like him, because he was the same age as us." The elder, two of whose
+    family died at Rivet in 1956 (forty men dragged from their beds by the militia and murdered, per Fanon's footnote):
+    "And did they arrest a single Frenchman for all those Algerians who were killed?"
+  - **Refugee children under ten (Series B Case 4, pp. 277–278),** "the children of fighting men or of civilians killed
+    by the French": a "noise phobia", sleeplessness and sleepwalking, chewed pencils, and a game of stretching a sheet
+    of paper and feverishly poking holes in it; also "a great thirst for peace and for affection".
+  - **Limits:** no "warped dreams", wishes or drawings (not in the book). Name Algeria and France plainly, and leave any
+    present-day parallel unstated: the reader makes it. Where blame is named, it is the soldiers, settlers and militia
+    Fanon names, never a whole people. One killed child is in this case: say so with care, not as a hook.
+  - Then Césaire: the methods come home (CS2, CS1).
 - Everything else as the brief.
 
 ---
@@ -261,7 +349,7 @@ but as the essay's argument, tested in Ch5, not as settled fact.
 ## What the research changes in the brief (summary)
 
 **Plot and verdicts**
-1. Ch5 claim 2 ("exported under guard") moves from CONFIRMED to **BURNISHED**.
+1. Ch5 claim 2 ("exported under guard"): **CONFIRMED for 1846**, with a caveat that from 1847 imports of grain exceeded exports (R6 found the armed escorts; Bryan's call).
 2. The Ch4 dual chart's premise (food leaving "sustained or rising") fails for grain; chart redesigned.
 3. The ancestor's likely route is **the Bermuda hulks and/or Van Diemen's Land**, not Western Australia; the
    transportation is family history, the deliberate theft and the horse are family legend.
@@ -311,8 +399,7 @@ T5 (p. 201); Wood's two fragments (B12); Nangle (B18) and the *Herald* (B11); *T
 venue in an 1843 paper (O1); the livestock returns (F43) and the grain series (F39); butter's missing source (F40);
 Victoria's 1852 Act and its disallowance (F96); Dillon's "white men" (F63).
 
-**Still open after round 5:** the Dublin report giving 9 May 1843 (O1); the Duke of Cambridge's own words (B6, likely
-retire); *Waterford Freeman*, *Sligo Champion*, *Newry Telegraph* (B13, B16, B23: Killen in print); B14 (retire);
+**Still open after round 5:** the Dublin report giving 9 May 1843 (O1); R6 settled B16 (verified, Killen p. 99), B2's date, recipient and wording (secondary, Woodham-Smith p. 151; her endnote's primary still unread) Allen's and Ignatiev's wording (AL1–AL6, IG1–IG4), Du Bois's wage vs Roediger's phrase (F97), the Draft Riots' eleven lynchings (F47, secondary; no total in the six books), armed export escorts in 1846 (F41, WS1), Norfolk's curry powder (NF1, F99: a translated 1846 report, said to his own labourers), the 1841 Address and its replies via Ignatiev (IA1–IA5, O2), Faneuil Hall and Garrison's 1842 letters (F100, GA1–GA4), Douglass in Ireland (F101, DG1–DG4), Roediger's "two-sided process" (RG2), Fanon and Césaire for the close (F102), and retired B13, B23 and B6's wording (not in Killen or the other five books); B14 (retire);
 Woodham-Smith's private-letter source for B8; Nangle's tract vs the *Herald* (Mayo County Library scan, open in an
 ordinary browser); *The Times* 1860 issue itself; BPP 1852 LI for grain 1847–51; McCalman's own page (F94); the 1852
 Act's printed text (F96); when horse theft stopped being capital in Ireland (F58); Malcolm & Hall ch. 3's page and
