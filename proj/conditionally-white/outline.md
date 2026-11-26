@@ -180,17 +180,19 @@ but as the essay's argument, tested in Ch5, not as settled fact.
 1. **"The famine was a genocide."** → **CONTESTED**, as the brief. Fixes: the historian is **Cormac** Ó Gráda (F84);
    his position is "doctrine, not deliberate racism" (G1); Gray: moral culpability from late 1847, no genocidal intent
    (F86); Kennedy's "Cry Holocaust" chapter (F87); Boyle's legal opinion for the other side, Art. II(b) and II(c) (F88).
-2. **"Ireland was starved while food was exported under guard."** → **verdict flips from CONFIRMED to BURNISHED.**
+2. **"Ireland was starved while food was exported under guard."** → **CONFIRMED for 1846**, with a one-line
+   caveat for 1847 on (Bryan, R6; earlier rounds had flipped it to BURNISHED).
    Food did leave during the famine's first two years, and that is documented (F39, F40). **R6 changes half of
    this:** "under guard" now has a source for 1846 (F41, WS1): export barges from Clonmel went "under convoy" of "2
    guns, 50 cavalry and 80 infantry" (24 April 1846), and that autumn Trevelyan put 2,000 troops in mobile columns
    and gave grain boats on the Fergus a naval escort (Woodham-Smith pp. 75, 120–121, secondary). The other half
-   holds: from 1847 more grain came in than went out (F39). **Verdict to decide (Bryan):** keep BURNISHED, or
-   CONFIRMED for 1846 with the 1847 net-import caveat. The crowd's side goes beside it: the Clonmel mills attacked and
+   holds: from 1847 more grain came in than went out (F39). **Bryan's call (2026-11-26):** the essay says it
+   flatly for 1846, **CONFIRMED for 1846**, and adds one line: from 1847 Ireland imported more grain than it
+   exported. The crowd's side goes beside it: the Clonmel mills attacked and
    the army called (*Freeman* via *ILN*, 4 Apr 1846, K1), and at Dungarvan, 29 Sept 1846, dragoons fired twenty-six
    shots into a crowd that had ordered merchants "not to export grain", killing two (WS3, secondary). The "3 million animals" turns out to hold on the
-   official returns for 1846–50, but the yearly flow halved and pigs collapsed (F43). True in spirit for 1846–47;
-   wrong in the tidy version.
+   official returns for 1846–50, but the yearly flow halved and pigs collapsed (F43). True as stated for 1846;
+   the caveat covers the years after.
 3. **"The Irish were considered non-white."** → **BURNISHED**, as the brief, using F24–F27.
 4. **"No Irish Need Apply."** → **BURNISHED**, as the brief, but **"eleven ads" is wrong**: Jensen's count is two to
    twelve depending on which of his texts you read, and Fried found 69 (F45, F46).
@@ -314,7 +316,7 @@ but as the essay's argument, tested in Ch5, not as settled fact.
 ## What the research changes in the brief (summary)
 
 **Plot and verdicts**
-1. Ch5 claim 2 ("exported under guard") moves from CONFIRMED to **BURNISHED** (R6 found the armed escorts for 1846, so the verdict is open again: see Ch5).
+1. Ch5 claim 2 ("exported under guard"): **CONFIRMED for 1846**, with a caveat that from 1847 imports of grain exceeded exports (R6 found the armed escorts; Bryan's call).
 2. The Ch4 dual chart's premise (food leaving "sustained or rising") fails for grain; chart redesigned.
 3. The ancestor's likely route is **the Bermuda hulks and/or Van Diemen's Land**, not Western Australia; the
    transportation is family history, the deliberate theft and the horse are family legend.

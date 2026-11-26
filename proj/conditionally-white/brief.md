@@ -15,6 +15,8 @@ stops at the outline (brief §10 steps 1–2). Images are found by Bryan in Gemi
 - 2026-11-24 · "Is the horse thief thing guaranteed? because my great great great grandfather literally did get sent to australia for some kind of thievery so it is possible." · The transportation for theft is family history in the piece; the deliberate theft and the horse stay family legend; route framed as Bermuda hulks and/or Van Diemen's Land.
 - 2026-11-24 · "I am not sure, I'll get back to you lol. I'm 38 and this would've been the 1850 so you do the math." · Great-great-great-grandfather by the math, flagged for Bryan to confirm.
 - 2026-11-24 · "The beat should really just be "Irish diaspora who support the same oppression their ancestors suffered can go fuck themselves," it's not biden specifically, he's just a wonderful example of it. so it's more the "irish diaspora aren't irish" than "the biden beat"" · Ch7 becomes the diaspora beat; Biden is the leading example, Reagan the pair, Mitchel the first case; house voice, edge from the receipts.
+- 2026-11-26 · "there was that rebellion in the u.s. in which poor white indentured servants and black slaves fought together against their mutual oppressors … the essay covers that?" then "it absolutely needs to be in this essay" · Bacon's Rebellion goes in Ch3 beside the Penal Laws/Virginia parallel, as Allen's argument with two caveats; one-line callback in Ch6.
+- 2026-11-26 · Asked whether Ch5 should say "under guard" flatly for 1846 with a one-line caveat about later years: "Yes." · Ch5 claim 2 says food was exported under armed guard in 1846 (Clonmel convoy), with the caveat that from 1847 Ireland imported more grain than it exported.
 
 ---
 
