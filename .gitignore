@@ -27,3 +27,6 @@ Thumbs.db
 *.mp4
 *.mov
 *.wav
+
+# Local data
+/local_books/
