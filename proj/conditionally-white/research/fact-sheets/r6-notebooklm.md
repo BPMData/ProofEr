@@ -160,7 +160,7 @@ As NotebookLM returned it (curly quotes shown straight):
   system of privileges for European-Americans, of even the lowest social status, vis-à-vis any person of any degree
   of African ancestry, not only bond-laborers but free Negroes as well, however possessed of property they might
   be..." (the "..." are NotebookLM's; the passage reads like a chapter summary, so check the page.)
-- **Vol. 2, ch. 13, p. 240 (AL6):** "Thus was the "white race" invented as the social control formation whose
+- **Vol. 2, ch. 13, p. 240 (AL6; the follow-up gives the same passage as p. 250, so the page is unsettled):** "Thus was the "white race" invented as the social control formation whose
   distinguishing characteristic was not the participation of the slaveholding class, nor even of other elements of
   the propertied classes; that alone would have been merely a form of the "beautiful gradation" of class
   differentiation prescribed by Edmund Burke. What distinguished this system of social control, what made it "the
@@ -281,3 +281,73 @@ Not found as a total in any of the six books. Allen, vol. 1, notes to ch. 8, p. 
 **Notes.** F47's "at least 105 … about 119 documented" stands on its earlier sources (Q10), not on these books.
 "Eleven lynched" is usable as SECONDARY via Allen; for a total, Cook (1974) is the standard count. Ignatiev (pp. 84,
 88, 121) and Roediger (p. 172: "working class racism to new depths") give no figures.
+
+## Follow-up A: Allen's Penal Laws / Virginia parallel (vol. 1, ch. 3, "Penal Laws and 'Race' Laws", pp. 81–90)
+
+Asked because NotebookLM offered it after answer 7. Not a printed table: Allen runs the comparison in prose under
+four heads he calls the defining characteristics of racial oppression (pp. 82–83): "(1) declassing legislation,
+directed at property-holding members of the oppressed group; (2) deprivation of civil rights; (3) illegalization of
+literacy; and (4) displacement of family rights and authorities."
+
+Paired measures as Allen gives them (dates and statute references are his, unchecked against the statutes):
+
+| Head | Ireland (Penal Laws) | Virginia / Anglo-America | Allen, page |
+|---|---|---|---|
+| Property | Catholics "by law forbidden to acquire land (except as short-term tenants)" | 1670: Black colonists barred from acquiring "any bond-laborers except those of African ancestry"; after 1691 the newly freed may not stay without leave | 83–84 |
+| Legal existence | "the law does not suppose any such person to exist as an Irish Roman Catholic" (Chancellor and Chief Justice) | Taney, *Dred Scott* (1857): "there are no rights which negroes have that white men are bound to respect" | 83–85 |
+| Witnesses | — | 1705 court law: "popish recusants convict, negroes, mulattoes and Indian servants" incapable as witnesses (AL7) | 85 |
+| Juries | juries "could be limited to Protestants only" when the defendant was Catholic | 1705: Black bond-laborers lose jury trial; 1832: free Black people too, except capital cases | 85–86 |
+| Vote | 1727: "[n]o papist, though not convict, shall be entitled or admitted to vote" | 1723: Black freeholders lose the vote for the first time | 86 |
+| Literacy | 1692 (4 W & M c. 2): crime to go abroad for schooling; 1695 (7 Will. III c. 4): crime to teach "Papists"; 8 Anne c. 3 raises it to perpetual imprisonment and forfeiture | 1832, after Nat Turner: crime to teach a free Black person to read and write | 86–87 |
+| Marriage | 1697 re-enactment of the bar on English–Irish intermarriage; "corruption and perversion", "dishonour to Almighty God" | 1691: first penalties on marriage between Europeans and Black or Indian people; "abominable mixture" | 87–88 |
+
+Key passages as returned:
+
+- p. 81: "At the threshold of the eighteenth century, it was Virginia that led the way among Anglo-American
+  continental colonies in codifying the concept that, "race, not class … [is] the great distinction in society." It
+  was then, too, that the Protestant Ascendancy instituted its system of Penal Laws, designed to "put an end to all
+  other distinctions in Ireland, but that of Protestant and Papist.""
+- p. 85: "The kinship of spirit between the Protestant Ascendancy and white supremacy was put on record at the outset
+  of the "white race" era in a 1705 Virginia law reconstituting the Virginia Court system: "popish recusants convict,
+  negroes, mulattoes and Indian servants, and others not being christians, shall be deemed and taken to be persons
+  incapable in law, to be witnesses in any case whatsoever.""
+- pp. 86–87: "…the first of the Penal Laws (7 Will. III c. 4, Irish Statutes), passed in 1695, made it a criminal
+  offense for any person (except within one's immediate family) to teach "Papists" to read or write, or otherwise
+  school them. "No person whatsoever of the popish religion," it said, "shall publickly or in private houses teach
+  school or instruct youth in learning within this realm.""
+
+**Checks.**
+- p. 83 as returned reads "by virtue of the headlight system": almost certainly an OCR error for **headright** (the
+  land grant per imported laborer). Quote it as "[headright]" or avoid the sentence.
+- Allen cites 7 Will. III c. 4 for both the 1695 teaching ban and the ban on going abroad for schooling (p. 87),
+  having given the latter as 4 W & M c. 2 (1692) a page earlier. Check before printing a chapter number.
+- Allen quotes Sigerson, Scully and the Irish judges; credit those lines "as quoted by Allen".
+
+**Use in the essay.** This is the source spine for Ch3's ladder annotations ("what whiteness excluded"): each rung can
+carry an Irish and a Virginian date. It is **Allen's framing**, not a neutral table: the pairing is his argument (F29),
+and the religion-not-race objection (Q9-1 (c)) still applies, since a Catholic who conformed escaped every Irish
+column.
+
+## Follow-up B: the 1705 "Act concerning Servants and Slaves" (vol. 2, ch. 13, pp. 248–250; App. II-F, p. 261)
+
+Allen's five areas of "white-skin privilege" in the act (3 Hening 447–462), as returned:
+
+- **pp. 248–249:** "the revised Virginia code of 1705 took pains to specify unprecedented guarantees for the European
+  "christian white" limited-term bond-laborers. … The new code forbade the master to "whip a christian white servant
+  naked, without an order from the justice of the peace," the offending master to be fined forty shillings payable
+  to the servant."
+- **p. 249, freedom dues:** "to every male servant, ten bushels of corn, thirty shillings in money (or the equivalent
+  in goods), a gun worth at least twenty shillings; and to every woman servant, fifteen bushels of corn, forty
+  shillings in money (or the equivalent in goods)." Livestock raised by Black bond-laborers "in 1692, and again in
+  1705 with greater emphasis … were ordered to be confiscated."
+- **p. 249, against free Black people:** no office of public trust; no witness "against a "white" person"; "thirty
+  lashes at the public whipping post for "lift[ing] his or her hand" against any European-American"; no militia; no
+  "gun, powder, shot, or any club, or any other weapon whatsoever, offensive or defensive."
+- **pp. 249–250, read aloud:** parish clerks or churchwardens, "once each spring and fall at the close of Sunday
+  service, should read ("publish") these laws in full to the congregants"; sheriffs at the courthouse door. Allen:
+  "the general public was regularly and systematically subjected to officiai [official] white-supremacist agitation."
+- **p. 250:** the "Thus was the "white race" invented…" passage, also given as p. 240 in answer 8. Page unsettled.
+
+**Use in the essay.** A concrete list for Ch3 or Ch5 claim 5 of what "white" bought a poor European in 1705: a whip
+needing a magistrate, a gun at the end of service, a law that let him strike a free Black neighbour who couldn't
+strike back. The statute wording is via Allen (SECONDARY); Hening vol. 3 is online and would make it VERIFIED.

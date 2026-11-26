@@ -74,6 +74,13 @@ but as the essay's argument, tested in Ch5, not as settled fact.
   gentry (F25). "Africanoid" is a separate skull type with Ireland as "its present centre", kept apart from the index
   (F26). Punch cartoons: 5–8 dated examples are in `research/image-hunt.md` for Gemini to fetch.
 - **Ladder scene:** as the brief, with the 1829 disfranchisement as "about 216,000 to 37,000–40,000 county voters" (F09).
+  **R6 follow-up gives the ladder its paired dates** (Allen vol. 1 pp. 81–90; table in `research/fact-sheets/r6-notebooklm.md`):
+  land (Ireland's Catholic land ban vs Virginia 1670), vote (Ireland 1727 vs Virginia 1723), schooling (Ireland 1695
+  vs Virginia 1832), marriage (Ireland 1697 vs Virginia 1691), and the 1705 Virginia court law barring "popish recusants
+  convict, negroes, mulattoes and Indian servants" as witnesses in one clause (AL7). The 1705 "Act concerning Servants
+  and Slaves" shows what "white" bought (AL8: no naked whipping without a JP, freedom dues with a gun, thirty lashes
+  for a free Black person who raised a hand). **This is Allen's framing, not a neutral table**; keep the
+  religion-not-race objection beside it. Statute wording is via Allen; Hening vol. 3 would verify it.
 - **Counter-quotation beat:** O'Connell's "broad Atlantic" is now verified in an 1843 newspaper (O1: the *Signal of
   Liberty*, 17 July 1843, reporting the Dublin meeting of **9 May 1843**), and the real line is a threat, not an invitation: "…if you remain, and dare countenance the system of slavery that
   is supported there, we will recognize you as Irishmen no longer." Use it here with the 1841 Address (F30), and
