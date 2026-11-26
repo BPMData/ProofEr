@@ -161,8 +161,14 @@ but as the essay's argument, tested in Ch5, not as settled fact.
    his position is "doctrine, not deliberate racism" (G1); Gray: moral culpability from late 1847, no genocidal intent
    (F86); Kennedy's "Cry Holocaust" chapter (F87); Boyle's legal opinion for the other side, Art. II(b) and II(c) (F88).
 2. **"Ireland was starved while food was exported under guard."** → **verdict flips from CONFIRMED to BURNISHED.**
-   Food did leave during the famine's first two years, and that is documented (F39, F40). But "under guard" has no
-   source (F41) and from 1847 more grain came in than went out (F39). The "3 million animals" turns out to hold on the
+   Food did leave during the famine's first two years, and that is documented (F39, F40). **R6 changes half of
+   this:** "under guard" now has a source for 1846 (F41, WS1): export barges from Clonmel went "under convoy" of "2
+   guns, 50 cavalry and 80 infantry" (24 April 1846), and that autumn Trevelyan put 2,000 troops in mobile columns
+   and gave grain boats on the Fergus a naval escort (Woodham-Smith pp. 75, 120–121, secondary). The other half
+   holds: from 1847 more grain came in than went out (F39). **Verdict to decide (Bryan):** keep BURNISHED, or
+   CONFIRMED for 1846 with the 1847 net-import caveat. The crowd's side goes beside it: the Clonmel mills attacked and
+   the army called (*Freeman* via *ILN*, 4 Apr 1846, K1), and at Dungarvan, 29 Sept 1846, dragoons fired twenty-six
+   shots into a crowd that had ordered merchants "not to export grain", killing two (WS3, secondary). The "3 million animals" turns out to hold on the
    official returns for 1846–50, but the yearly flow halved and pigs collapsed (F43). True in spirit for 1846–47;
    wrong in the tidy version.
 3. **"The Irish were considered non-white."** → **BURNISHED**, as the brief, using F24–F27.
@@ -286,7 +292,7 @@ but as the essay's argument, tested in Ch5, not as settled fact.
 ## What the research changes in the brief (summary)
 
 **Plot and verdicts**
-1. Ch5 claim 2 ("exported under guard") moves from CONFIRMED to **BURNISHED**.
+1. Ch5 claim 2 ("exported under guard") moves from CONFIRMED to **BURNISHED** (R6 found the armed escorts for 1846, so the verdict is open again: see Ch5).
 2. The Ch4 dual chart's premise (food leaving "sustained or rising") fails for grain; chart redesigned.
 3. The ancestor's likely route is **the Bermuda hulks and/or Van Diemen's Land**, not Western Australia; the
    transportation is family history, the deliberate theft and the horse are family legend.
@@ -336,7 +342,7 @@ T5 (p. 201); Wood's two fragments (B12); Nangle (B18) and the *Herald* (B11); *T
 venue in an 1843 paper (O1); the livestock returns (F43) and the grain series (F39); butter's missing source (F40);
 Victoria's 1852 Act and its disallowance (F96); Dillon's "white men" (F63).
 
-**Still open after round 5:** the Dublin report giving 9 May 1843 (O1); R6 settled B16 (verified, Killen p. 99), B2's date, recipient and wording (secondary, Woodham-Smith p. 151; her endnote's primary still unread) Allen's and Ignatiev's wording (AL1–AL6, IG1–IG4), Du Bois's wage vs Roediger's phrase (F97), the Draft Riots' eleven lynchings (F47, secondary; no total in the six books), the 1841 Address and its replies via Ignatiev (IA1–IA5, O2), and retired B13, B23 and B6's wording (not in Killen or the other five books); B14 (retire);
+**Still open after round 5:** the Dublin report giving 9 May 1843 (O1); R6 settled B16 (verified, Killen p. 99), B2's date, recipient and wording (secondary, Woodham-Smith p. 151; her endnote's primary still unread) Allen's and Ignatiev's wording (AL1–AL6, IG1–IG4), Du Bois's wage vs Roediger's phrase (F97), the Draft Riots' eleven lynchings (F47, secondary; no total in the six books), armed export escorts in 1846 (F41, WS1), Norfolk's curry powder as Woodham-Smith's paraphrase only (NF1), the 1841 Address and its replies via Ignatiev (IA1–IA5, O2), and retired B13, B23 and B6's wording (not in Killen or the other five books); B14 (retire);
 Woodham-Smith's private-letter source for B8; Nangle's tract vs the *Herald* (Mayo County Library scan, open in an
 ordinary browser); *The Times* 1860 issue itself; BPP 1852 LI for grain 1847–51; McCalman's own page (F94); the 1852
 Act's printed text (F96); when horse theft stopped being capital in Ireland (F58); Malcolm & Hall ch. 3's page and

@@ -351,3 +351,103 @@ Allen's five areas of "white-skin privilege" in the act (3 Hening 447–462), as
 **Use in the essay.** A concrete list for Ch3 or Ch5 claim 5 of what "white" bought a poor European in 1705: a whip
 needing a magistrate, a gun at the end of service, a law that let him strike a free Black neighbour who couldn't
 strike back. The statute wording is via Allen (SECONDARY); Hening vol. 3 is online and would make it VERIFIED.
+
+## Follow-ups 13, 14, 16 (asked from the list sent 2026-11-26)
+
+**13. Food exported under armed guard (F41, WS1, WS2): found.** Woodham-Smith, *The Great Hunger*:
+
+- **p. 75:** "…Forced by economic necessity to sell his produce he was furiously resentful when food left the market
+  towns under the eyes of the hungry populace, protected by a military escort of overwhelming strength. From
+  Waterford, the Commissariat officer wrote to Trevelyan, on April 24, 1846, "The barges leave Clonmel once a week for
+  this place, with the[-]export supplies under convoy which, last Tuesday, consisted of 2 guns, 50 cavalry and 80
+  infantry escorting them on the banks of the Suir as far as Carrick.""
+- **p. 71:** "Coffin wrote to Routh from Limerick pointing out "the inconsistency of importing supplies into[.]a
+  country which is at the same time exporting its own resources." Limerick was an export centre, and no doubt Coffin
+  had seen ship after ship laden with wheat, oats, cattle, pigs, eggs and butter, sailing away down the Shannon…"
+- **pp. 120–121 (autumn 1846):** four companies of the 47th Foot sent to Dungarvan; on 1 October grain ships there
+  couldn't be loaded because the hired labourers feared the crowds. "…Trevelyan arranged for the provisioning, with
+  beef, pork and biscuit, of 2,000 troops, formed into mobile columns "to be directed on particular points at very
+  short notice."" Trevelyan: "food riots are quite different from [a] rebellion and are not likely to be of long
+  duration" (NotebookLM: "ease rebellion", a scan error). "…all vessels loaded with grain or meal passing up the
+  river Fergus were to have a naval escort", Admiral Pigot at Cork proposed a "vessel of war" with marines off Bantry
+  and Berehaven, depots were guarded by police and troops, and Hewetson reported from Limerick on 10 October that
+  troops went out daily to guard the corn harvest.
+- **Killen p. 115 (*ILN*, 13 Feb 1847):** a Government steamship guarding a sloop's 50-ton cargo being sold "at
+  'famine prices'" to a population of 27,000. This is **food arriving for relief sale**, not food leaving; don't use
+  it as export evidence.
+
+**Notes.** This reverses F41's "no source says under military escort" for 1846, at SECONDARY strength: the
+Commissariat letter is quoted by Woodham-Smith, not read. It's one dated convoy plus an autumn policy of escorts,
+not proof that every shipment was guarded. Ch5 claim 2's verdict is reopened for Bryan (see the outline). Scan
+artefacts ("the-export", "into.a", "ease rebellion") are corrected in brackets above; check the page before quoting
+any of them.
+
+**14. The Duke of Norfolk's curry powder (NF1): partly found.** Woodham-Smith p. 43 gives it only in her own words,
+with no date and nothing quoted from the Duke; the paragraph before is Lord Clare's warning of 5 Nov 1845, so the
+context is late 1845. The same paragraph has the plan to cut the 12,000 police and army horses' corn from ten to five
+pounds a day ("an extra 60,000 pounds a day"). Use only as "Woodham-Smith records a suggestion by the Duke of
+Norfolk…", undated.
+
+**16. The Draft Riots (F47, F48): not found.** No total death toll, no Cook or Bernstein figure, and no Colored
+Orphan Asylum in any loaded book; Allen's "eleven African-Americans were lynched" (vol. 1 p. 320 n. 77) is the only
+number. This changes nothing: F47's range and F48's asylum facts rest on other sources (Bernstein; Adelman,
+*Commonplace*, 2017). Related: Philadelphia mobs attacked Black orphan asylums earlier: Ignatiev p. 133 (1838: "a mob
+attacked the still-unoccupied, Quaker-sponsored Shelter for Colored Orphans"), Ignatiev p. 124 (Lippard's 1844 novel
+*The Quaker City*: a rioter who "helped to burn a nigger church, two orphans' asylums and a school-house"; fiction,
+and the slur is the novel's), and Roediger p. 108 (Grimsted: "the tendency to riot against asylums for Black orphans
+carried the singling out of the defenseless for attack to a chilling extreme"). These could set up the 1863 asylum
+as part of a pattern.
+
+NotebookLM's answer to 16 lists Fanon, *The Wretched of the Earth*, among the loaded books, so the notebook holds a
+seventh title.
+
+Still out with Bryan (as of answer 16): follow-ups 15 (the year of Trevelyan's "December 2"), 17 (Garrison's date and paper; the
+Pottsville meeting), 18 (Faneuil Hall, Jan 1842), 19 (Roediger p. 137's exact sentence).
+
+## Follow-up: the autumn 1846 food riots (asked from NotebookLM's own offer)
+
+Killen has **no** Youghal or Dungarvan account; the 1846 riots are in Woodham-Smith pp. 120–121. Killen has three
+other crowd scenes.
+
+**Woodham-Smith, pp. 120–121 (SECONDARY, her narrative):**
+- **Youghal, 25 Sept 1846:** "To people desperate with hunger the sight of food streaming out of the country was once
+  more unbearable, and serious riots took place—more serious than any riots of the previous years. At Youghal, near
+  Cork, a small port much used for export, an outbreak took place on September 25. A large crowd of country people,
+  described by the police as "enraged," attempted to hold up a boat laden with export oats—the police sent for
+  troops, and the crowd was checked, with difficulty, at Youghal bridge." Under-Secretary T. N. Redington was sent to
+  London "by the next boat to explain to the Government."
+- **Dungarvan, 29 Sept 1846 (WS3):** "A crowd of starving unemployed entered the town, threatened merchants and
+  shopkeepers, ordering them not to export grain, and plundered shops." After arrests, police failure and the Riot
+  Act, "the officer commanding the Dragoons, Captain Sibthorp, gave the order to fire, and twenty-six shots were fired
+  into the crowd, which then retreated. Several men were wounded and two were left lying on the ground, dead." The
+  regiment is the 1st Royal Dragoons (the paste reads "Ist").
+- **1 Oct 1846:** grain ships at Dungarvan couldn't be loaded because the hired labourers "were afraid of the
+  crowds"; then Trevelyan's 2,000 troops in mobile columns (see follow-up 13).
+
+(Scan dots and slips in the paste, "was. once", "police-as", "woul", "stcne-throwing", "men were. wounded", are
+normalised above.)
+
+**Killen, contemporary reprints (VERIFIED as reprints):**
+- **Clonmel flour mills, *ILN* 4 Apr 1846 quoting the *Freeman* (pp. 59–60; K1):** headed "THE FAMINE WAR COMMENCED /
+  INCREASE OF DISTRESS—OUTBREAK AT CLONMEL". Several hundred people, "whose bones protruded through the skin which
+  covered them—staring through hollow eyes as if they had just risen from their shrouds", attacked the mills of
+  "several Quaker gentlemen named Grubb, Malcomson, and Hughes"; "the army, consisting of artillery and dragoons"
+  dispersed them "without loss of property, and happily without loss of life".
+- **Dublin bread carts, *Downpatrick Recorder* 9 Jan 1847 (p. 93):** forty or fifty countrymen "surrounded a bread
+  cart belonging to Mr. Walsh, baker, of No. 3, Dorset-street" and took "twenty loaves of bread and about a dozen
+  rolls, value about ten or eleven shillings… some devouring the bread with evident voracity." Elsewhere bakers gave
+  bread when asked, and "Several bread-carts were stopped in the outlets of the city, and their contents taken."
+- **Kanturk workhouse, *Cork Examiner* via Killen, Oct 1847 (pp. 161–162):** about two thousand people from
+  Kilbolane and Shandum at the workhouse gate demanding out-door relief; the military at first "refused to act";
+  bayonets, a threat of the Riot Act; and "A strange fact—more powder was purchased by these out-door relief folks on
+  that day than was sold for the previous year in the town of Kanturk." The 2l. the magistrates gave them for bread
+  went mostly on "powder and ball".
+
+**Use in the essay.** The crowd's side of the export story, beside the convoy (WS1): April 1846 at Clonmel the
+army guards the mills and the barges; September 1846 at Youghal and Dungarvan crowds try to stop export grain and two
+men are shot dead. Two cautions:
+- **Nicholson's N2** ("so little plundering was never known in any famine as this; scarcely ever was a bread shop
+  disturbed") sits uneasily beside the Dublin bread carts. Both can stand (hers is a general impression, these are
+  incidents), but don't let the essay say there was no unrest.
+- **Kanturk** is an Examiner report with an edge (the "troublesome mob" buying powder). Quote it as the paper's view,
+  not as fact about the crowd.
