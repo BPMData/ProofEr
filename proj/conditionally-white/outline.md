@@ -77,7 +77,12 @@ but as the essay's argument, tested in Ch5, not as settled fact.
 - **Counter-quotation beat:** O'Connell's "broad Atlantic" is now verified in an 1843 newspaper (O1: the *Signal of
   Liberty*, 17 July 1843, reporting the Dublin meeting of **9 May 1843**), and the real line is a threat, not an invitation: "…if you remain, and dare countenance the system of slavery that
   is supported there, we will recognize you as Irishmen no longer." Use it here with the 1841 Address (F30), and
-  carry it forward to Ch7.
+  carry it forward to Ch7. **R6 fills the arc (via Ignatiev ch. 1, secondary):** the Address's own words, "*Treat the
+  colored people as your equals, as brethren*" (IA1, 60,000 signers, O'Connell first); Bishop Hughes's "I am no
+  friend of slavery, but I am still less friendly to any attempt of foreign origin to abolish" (IA2); the *Pilot* and
+  the Pottsville miners (IA3, IA4); Garrison's "not a single Irishman has come forward" (IA5); then O'Connell's
+  threat (O1) and his 11 Oct 1843 Cincinnati rebuke, "a darkness blacker than the negro's skin" (O2, new). The same
+  arc is the Ch6 hand-off from Ireland to America.
 - **Allen in his own words (R6, AL1–AL3, F29):** "Irish history presents a case of racial oppression without
   reference to alleged skin color" (vol. 1 p. 22), his "hallmark" definition (p. 32) and racial vs national
   oppression (p. 273 n. 11). Framed as Allen's argument ("Allen calls this…"), never as fact, with the critics beside
@@ -156,7 +161,10 @@ but as the essay's argument, tested in Ch5, not as settled fact.
 3. **"The Irish were considered non-white."** → **BURNISHED**, as the brief, using F24–F27.
 4. **"No Irish Need Apply."** → **BURNISHED**, as the brief, but **"eleven ads" is wrong**: Jensen's count is two to
    twelve depending on which of his texts you read, and Fried found 69 (F45, F46).
-5. **"The Irish became white by joining the oppression of others."** → **CONTESTED**, as the brief.
+5. **"The Irish became white by joining the oppression of others."** → **CONTESTED**, as the brief. Make the
+   case at full strength first, in their own words (R6): Ignatiev's "how the Catholic Irish, an oppressed race in
+   Ireland, became part of an oppressing race in America" and "they had to earn it" (IG1, IG3), Allen's 1676 → 1691
+   → 1705 chronology (AL4–AL6); then the pushback (Q9-2).
 - **Footnotes:** F24–F27, F39–F46, F84–F88.
 
 ## Chapter 6 · The Bargain (paper, gold)
@@ -317,7 +325,7 @@ T5 (p. 201); Wood's two fragments (B12); Nangle (B18) and the *Herald* (B11); *T
 venue in an 1843 paper (O1); the livestock returns (F43) and the grain series (F39); butter's missing source (F40);
 Victoria's 1852 Act and its disallowance (F96); Dillon's "white men" (F63).
 
-**Still open after round 5:** the Dublin report giving 9 May 1843 (O1); R6 settled B16 (verified, Killen p. 99), B2's date, recipient and wording (secondary, Woodham-Smith p. 151; her endnote's primary still unread) and Allen's wording (AL1–AL3), and retired B13, B23 and B6's wording (not in Killen or the other five books); B14 (retire);
+**Still open after round 5:** the Dublin report giving 9 May 1843 (O1); R6 settled B16 (verified, Killen p. 99), B2's date, recipient and wording (secondary, Woodham-Smith p. 151; her endnote's primary still unread) Allen's and Ignatiev's wording (AL1–AL6, IG1–IG4), the 1841 Address and its replies via Ignatiev (IA1–IA5, O2), and retired B13, B23 and B6's wording (not in Killen or the other five books); B14 (retire);
 Woodham-Smith's private-letter source for B8; Nangle's tract vs the *Herald* (Mayo County Library scan, open in an
 ordinary browser); *The Times* 1860 issue itself; BPP 1852 LI for grain 1847–51; McCalman's own page (F94); the 1852
 Act's printed text (F96); when horse theft stopped being capital in Ireland (F58); Malcolm & Hall ch. 3's page and

@@ -77,7 +77,8 @@ CONTESTED 2 (items 1, 2 as theses) · UNVERIFIED 3 (items 3, 5-quotes, 7-quote) 
   **R6 update:** Allen's wording is now read via Bryan's NotebookLM pass: the hallmark definition (vol. 1 ch. 1
   p. 32; vol. 2 p. 239), racial vs national oppression (vol. 1 p. 273 n. 11) and "Irish history presents a case of
   racial oppression without reference to alleged skin color" (vol. 1 p. 22). See AL1–AL3 in
-  `../quote-verification.md` and `r6-notebooklm.md`.
+  `../quote-verification.md` and `r6-notebooklm.md`. The chronology above is now in Allen's own words too
+  (AL4–AL6: 1691, 1676, 1705, "beginning of the eighteenth century"), and Ignatiev's thesis is quoted (IG1–IG4).
 - NOTES FOR THE ESSAY: Present Allen's Irish analogy as an *argument* ("Allen calls this racial oppression"), not as
   settled fact. Pair it with the religion-not-race objection.
 
