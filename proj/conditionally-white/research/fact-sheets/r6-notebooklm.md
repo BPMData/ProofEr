@@ -21,6 +21,8 @@ Books in the notebook: Killen (ed.), *The Famine Decade: Contemporary Accounts 1
 | F29 | Allen's chronology and motive | **Found.** No official "white" status before a 1691 Virginia law (vol. 1 p. 195 n. 15); Bacon's Rebellion 1676 and the 1705 Act as the pivot (vol. 1 pp. 24–25); "beginning of the eighteenth century" (vol. 2 p. 115); why (vol. 2 pp. 239–240). | **VERIFIED (via NotebookLM)** → AL4–AL6; replaces the "from memory" note in Q9-1 |
 | F29 | Ignatiev's thesis | **Found.** Pp. 1, 2–3, 59, 69. | **VERIFIED (via NotebookLM)** → IG1–IG4 |
 | F30 | 1841 Address and the Irish-American response | **Found** in Ignatiev ch. 1: Address pp. 6, 9–10; Hughes p. 12; *Pilot* 5 Feb 1842 p. 13; Pottsville pp. 13–14; Garrison pp. 22–23; O'Connell 9 May 1843 p. 23, 11 Oct 1843 p. 29. | **SECONDARY (via Ignatiev)** → IA1–IA5, O2; O1 unchanged |
+| F97 | Du Bois's "public and psychological wage" vs "wages of whiteness" | **Found.** Roediger pp. 12–13 (quoting *Black Reconstruction*), 60, 137; "wages of whiteness" is Roediger's own phrase (title, p. 13). | Du Bois **SECONDARY (via Roediger)** → DB1; Roediger **VERIFIED** → RG1 |
+| F47 | Draft Riots death toll | Total **not found** in any of the six books. Allen vol. 1 p. 320 n. 77: five days, "eleven African-Americans were lynched" (cites Cook 1974, Bernstein 1990). Ignatiev and Roediger give no figures. | total unchanged (from Q10, not R6); lynching count **SECONDARY (via Allen)** |
 
 ## B16 text (Killen, p. 99, under "DEATHS FROM STARVATION / AWFUL STATE OF SLIGO")
 
@@ -243,3 +245,39 @@ All via Ignatiev, *How the Irish Became White*, ch. 1 ("Something in the Air"), 
 **Notes.** The Ch3 counter-quotation beat now has its full arc: the Address (IA1), the refusal (IA2–IA4), Garrison's
 verdict (IA5), O'Connell's threat (O1) and his Cincinnati rebuke (O2). It also carries the Ch6 hand-off from
 Ireland to America. Faneuil Hall (Jan 1842) isn't in the answer; it stays on Q9-7 alone.
+
+## Answer 11: Du Bois's wage and Roediger's phrase (F97, DB1, RG1)
+
+Roediger, *The Wages of Whiteness*, as NotebookLM returned it:
+
+- **Ch. 1, pp. 12–13:** "…But vital for the white workers Du Bois studied most closely was, as he puts it in a
+  brilliant, indispensable formulation, that even when they 'received a low wage [they were] compensated in part by
+  a ... public and psychological wage.' … the idea that the pleasures of whiteness could function as a 'wage' for
+  white workers. That is, status and privileges conferred by race could be used to make up for alienating and
+  exploitative class relationships, North and South. White workers could, and did, define and accept their class
+  positions by fashioning identities as 'not slaves' and as 'not Blacks'. When they did so, Du Bois argued, the wages
+  of whiteness often turned out to be spurious…" (NotebookLM elided Roediger's long Du Bois block quote.)
+- **Ch. 3, p. 60:** "Avoidance of connections to dependency and to blackness paid, in Du Bois's language, 'public and
+  psychological' wages. But there were costs as well, not only in terms of race relations but also the wedding of
+  labor to a debased republicanism."
+- **Ch. 7, p. 137 (RG1):** "The imperative to define themselves as white came but from the particular 'public and
+  psychological wages' whiteness offered to a desperate rural and often preindustrial Irish population coming to
+  labor in industrializing American cities."
+
+**Notes.** Settles the brief's "whiteness as wages ✱ cite carefully": credit Du Bois with "a sort of public and
+psychological wage" (*Black Reconstruction*, 1935) and Roediger with "the wages of whiteness" (1991). p. 137's "came
+but from" reads oddly; check the page before quoting.
+
+## Answer 12: the Draft Riots death toll (F47)
+
+Not found as a total in any of the six books. Allen, vol. 1, notes to ch. 8, p. 320, n. 77:
+
+> "That blow took the form of the Draft Riot (sometimes described as a succession of riots) which lasted five days,
+> during which eleven African-Americans were lynched in an atmosphere of bloodthirsty white-supremacism. The rioting
+> was finally ended by Federal troops. (See: Adrian Cook, The Armies of the Street; the New York City Draft Riots of
+> 1863 [Lexington, Kentucky, 1974]; Iver Bernstein, The New York City Draft Riots: Their Significance for American
+> Society and Politics in the Age of the Civil War [New York, 1990].)"
+
+**Notes.** F47's "at least 105 … about 119 documented" stands on its earlier sources (Q10), not on these books.
+"Eleven lynched" is usable as SECONDARY via Allen; for a total, Cook (1974) is the standard count. Ignatiev (pp. 84,
+88, 121) and Roediger (p. 172: "working class racism to new depths") give no figures.

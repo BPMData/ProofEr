@@ -168,7 +168,11 @@ but as the essay's argument, tested in Ch5, not as settled fact.
 - **Footnotes:** F24–F27, F39–F46, F84–F88.
 
 ## Chapter 6 · The Bargain (paper, gold)
-- **America side:** Draft Riots as "at least 105 dead, about 119 documented" (F47); the Colored Orphan Asylum's 233
+- **America side:** the "union card" mechanism credits the wage correctly (R6, F97): Du Bois's "a sort of public
+  and psychological wage" (DB1, via Roediger), which Roediger applies to "a desperate rural and often preindustrial
+  Irish population" (RG1, p. 137). **"Wages of whiteness" is Roediger's phrase; never credit it to Du Bois.** Then
+  the Draft Riots as "at least 105 dead, about 119 documented" (F47), with "eleven African-Americans were lynched"
+  over five days (Allen, secondary); the Colored Orphan Asylum's 233
   children all got out (F48); no percentage of Irish rioters exists, so use Bernstein's sentence (I1, F49). Police,
   machine and Union-army instruments are unverified (F50): keep the gauge's tick labels general until checked.
 - **Australia side, the horse thief, rebuilt on what the records say:**
@@ -325,7 +329,7 @@ T5 (p. 201); Wood's two fragments (B12); Nangle (B18) and the *Herald* (B11); *T
 venue in an 1843 paper (O1); the livestock returns (F43) and the grain series (F39); butter's missing source (F40);
 Victoria's 1852 Act and its disallowance (F96); Dillon's "white men" (F63).
 
-**Still open after round 5:** the Dublin report giving 9 May 1843 (O1); R6 settled B16 (verified, Killen p. 99), B2's date, recipient and wording (secondary, Woodham-Smith p. 151; her endnote's primary still unread) Allen's and Ignatiev's wording (AL1–AL6, IG1–IG4), the 1841 Address and its replies via Ignatiev (IA1–IA5, O2), and retired B13, B23 and B6's wording (not in Killen or the other five books); B14 (retire);
+**Still open after round 5:** the Dublin report giving 9 May 1843 (O1); R6 settled B16 (verified, Killen p. 99), B2's date, recipient and wording (secondary, Woodham-Smith p. 151; her endnote's primary still unread) Allen's and Ignatiev's wording (AL1–AL6, IG1–IG4), Du Bois's wage vs Roediger's phrase (F97), the Draft Riots' eleven lynchings (F47, secondary; no total in the six books), the 1841 Address and its replies via Ignatiev (IA1–IA5, O2), and retired B13, B23 and B6's wording (not in Killen or the other five books); B14 (retire);
 Woodham-Smith's private-letter source for B8; Nangle's tract vs the *Herald* (Mayo County Library scan, open in an
 ordinary browser); *The Times* 1860 issue itself; BPP 1852 LI for grain 1847–51; McCalman's own page (F94); the 1852
 Act's printed text (F96); when horse theft stopped being capital in Ireland (F58); Malcolm & Hall ch. 3's page and
