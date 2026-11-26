@@ -13,6 +13,8 @@ Books in the notebook: Killen (ed.), *The Famine Decade: Contemporary Accounts 1
 |---|---|---|---|
 | B13 | *Waterford Freeman*, Aug 1846, "men in trade" | Not found in any of the six books. Woodham-Smith has the Aug 1846 decision to leave grain to private trade and Fr Mathew/Routh on "capitalists in the corn and flour trade" (pp. 86, 113–114), but no *Waterford Freeman*. | UNVERIFIED → **retire** (Killen, the best lead, doesn't have it) |
 | B16 | *Sligo Champion*, Jan 1847, McManus inquest, pig | **Found.** Killen p. 99 (and editor's intro p. 6) reprints the *Illustrated London News*, 16 Jan 1847, which copies the *Sligo Champion* (credited "—Champion."). Inquest 12 Jan 1847. Names as printed: **Thomas M'Manus, of Kilmactranny**; **Thomas Burrows, Esq., M.D.** (not "Burroughs"). | **VERIFIED (contemporary reprint, via Killen)** |
+| B23 | *Newry Telegraph*, Mar 1849, "failed in Connaught and Munster" / "painstaking, industrious, laborious people" | Not found in any of the six books. Killen's only *Newry Telegraph* item is an Armagh blight report via the *ILN*, 18 Aug 1849 (p. 227). Killen p. 221 has a Mar 1849 "EMIGRATION FROM DOWN" piece on the rate-in-aid (credited by NotebookLM to the *Dublin University Magazine*; unchecked). | UNVERIFIED → **retire** |
+| B6 | Duke of Cambridge, 1846, potatoes/seaweed/grass | Not found. No Cambridge diet remark in any book (only Prince George at Carton, Aug 1849, Killen p. 226). | UNVERIFIED → **retire** the Duke's words; O'Connell's charge (*Northern Star*, 24 Jan 1846) stays PROBABLE if wanted |
 
 ## B16 text (Killen, p. 99, under "DEATHS FROM STARVATION / AWFUL STATE OF SLIGO")
 
@@ -40,3 +42,18 @@ Books in the notebook: Killen (ed.), *The Famine Decade: Contemporary Accounts 1
 - High-gravity item: the card states the evidence and stops. No garnish.
 - "Those who saw the body were of opinion … he was alive" is the paper's report of bystanders' opinion, not the
   doctor's finding. Keep that attribution if the line is used.
+
+## Answers 3–4: substitutes the books did turn up
+
+- **Duke of Norfolk's curry powder (new, SECONDARY):** Woodham-Smith, p. 43: "More far-reaching was a suggestion
+  made by the Duke of Norfolk, that in place of the potato the Irish should learn to consume curry powder, on which,
+  mixed with water, he appeared to believe the population of India was nourished." Her wording, not the Duke's; date
+  and primary not given in the answer. A candidate to replace B6's "aristocrat's diet tip" slot if its primary can be
+  found.
+- ***Dublin Evening Post*, 9 Sept 1845 (Killen p. 35):** "The Irish peasantry rely almost exclusively upon potatoes
+  for their subsistence; and when the crop fails, they have nothing to fall back upon but grass, nettles, and
+  seaweed." Contemporary reprint; usable for Ch4's opening.
+- **1851 Census (Killen p. 249):** "…principally on the herbs of the field, nettle tops, wild mustard, and
+  watercresses, and even in some places dead bodies were found with grass in their mouths… but along the coast every
+  description of sea-weed was greedily devoured, often with fatal consequences…" Ellipses as NotebookLM returned
+  them; read the full passage before quoting.
