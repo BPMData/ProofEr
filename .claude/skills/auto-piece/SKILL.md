@@ -1,8 +1,8 @@
 ---
 name: auto-piece
 description: >-
-  Run ProofEr's automated multi-pass Deep Research, fact-checking, visual self-critique, and build pipeline after
-  the client interview locks in audience, tone, aesthetic, and detail level (or fully headless if explicitly asked).
+  Run ProofEr's automated multi-pass Deep Research, fact-checking, isolated fresh-eyes visual review, and build pipeline
+  after the client interview locks in audience, tone, aesthetic, and detail level (or fully headless if explicitly asked).
 ---
 
 # Guided-Brief + Autonomous Research & Build Pipeline (`auto-piece`)
@@ -19,12 +19,12 @@ Once tone, aesthetic, audience, budget (`Budget: light | standard | deep`), and 
 3. **Evaluate & Gap-Fill (Pass 2+):** Inspect Pass 1 outputs for missing metrics, single-source claims, or contradictions; launch follow-up `Agent` workers (`gap_fill`) when budget permits to fact-check primary sources.
 4. Synthesize into `proj/<name>/figures.md` (`>= 2` independent sources per `checked` figure, disagreements recorded as honest ranges/notes, myths tagged per `T10`). Set `Stage: concepts`.
 
-## Stage 3 — Visual Self-Critique -> Quick Outline/Mockup for User Review (`Stage: concepts -> layout`)
+## Stage 3 — Fresh-Eyes Subagent Review -> Quick Outline/Mockup for User Review (`Stage: concepts -> layout`)
 Still staying out of `pieces/`, `examples/`, and `tools/`:
 1. Draft `proj/<name>/layout.md` and build visual mockup/stills in `proj/<name>/stills/`.
-2. Capture `.png` screenshots, inspect them via `Read`, and write `proj/<name>/stills/critique.md`.
+2. Capture `.png` screenshots, inspect them via `Read`, and launch an **isolated fresh-eyes reviewer subagent** (`subagent_type: "fresh-eyes-reviewer"`, `.claude/agents/fresh-eyes-reviewer.md`) seeing ONLY `brief.md`, `figures.md`, and `stills/*.png` to write `proj/<name>/stills/review.md`. Fix clear defects before showing the user.
 3. **Present the concise outline + visual mockup** to the user for refinement. Once approved, mark `proj/<name>/layout.md` `APPROVED` and advance to `Stage: build`.
 
-## Stage 4 — Interactive Data Essay Build & Final Visual/Offline QA (`Stage: build`)
+## Stage 4 — Interactive Data Essay Build & Final Fresh-Eyes/Offline QA (`Stage: build`)
 1. Read `tools/CLAUDE.md`, generate `pieces/<name>.html`, run `tools/embed_fonts.py` and `tools/add_view_counter.py`, and update `index.html` + `STATUS.md`.
-2. Capture final desktop + phone PNGs into `proj/<name>/qa/` (`desktop.png`, `phone.png`), inspect both via `Read`, fix any defect, and run `python3 tools/check_offline.py` + `python3 tools/check_stage_reads.py`.
+2. Capture final desktop + phone PNGs into `proj/<name>/qa/` (`desktop.png`, `phone.png`), inspect both via `Read`, run an **isolated fresh-eyes reviewer subagent** (`proj/<name>/qa/review.md`), fix any defect, and run `python3 tools/check_offline.py` + `python3 tools/check_stage_reads.py`.

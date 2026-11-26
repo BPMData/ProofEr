@@ -9,9 +9,12 @@ the lines the piece must never cross.
 ## How to run it
 - **Small rounds.** 2–3 questions per message, most important first. The client may answer in shorthand.
 - **Ask round 1 first;** open nothing else before it. Once round 1 is answered, copy `TEMPLATE.md` to
-  `proj/<name>/brief.md` with `Stage: interview` and fill it in as answers come. Once you know who the client is,
-  read their file in `clients/` if there is one.
+  `proj/<name>/brief.md` with `Stage: interview` and fill it in as answers come.
+- **Look before you ask.** Once round 1 names the piece or client, read what the repo already holds (`proj/<name>/`,
+  `brief/clients/<client>.md`, or files the client supplied—never other pieces' `proj/` folders or `pieces/`), and
+  ask the client to confirm it rather than re-typing it.
 - **Confirm instead of asking** whatever earlier answers already imply: one line of assumptions and "right?".
+- **Ask why, and keep the reason.** A rule with a reason lets the designer handle cases the brief didn't foresee.
 - **Ask about the problem, not the solution:** who reads it, where, what they should understand afterwards. Not
   "which chart do you want?"
 - **Talk to a non-technical client.** Short sentences, no jargon ("waffle chart", "WCAG", "primary source" stay in
@@ -44,6 +47,8 @@ the lines the piece must never cross.
 - **Delegation must be explicit.** "You decide" is fine for design. It is never an answer for the facts, the
   message, the audience or the landmines.
 - **Closed questions as buttons** where the tool allows (Claude Code: `AskUserQuestion`); open questions in text.
+- **"Just make something."** Explain once that ten minutes of questions cost less than a rebuild. Then ask only the ★
+  questions; whatever is still unanswered goes into the brief as a flagged assumption, shown at approval.
 
 ## Questions
 ★ = every piece. Numbers = sections of `TEMPLATE.md`.
@@ -129,9 +134,11 @@ stage commit.
    - **Quicker mode: the gate opens here.** Run `/toolbox` now.
 6. **Concepts** (`Stage: concepts`): read `CRAFT.md` first. 2–3 directions, shown as a choice panel.
 7. **Layout and stills** (`Stage: layout`): copy `LAYOUT.md` to `proj/<name>/layout.md`: sections in reading order,
-   each with its figures (by ID), and 2–3 mockups.
+   each with its figures (by ID), and 2–3 mockups. Run an isolated fresh-eyes review (`CRAFT.md` §12) on the stills
+   before showing them to the user.
    - **From-scratch mode: the gate opens here,** once layout and stills are approved. Run `/toolbox`.
-8. **Build** (`Stage: build`): the build plan from `/toolbox`, then build, then QA (`TEMPLATE.md` §16).
+8. **Build** (`Stage: build`): the build plan from `/toolbox`, then build, then QA (`TEMPLATE.md` §16) and final
+   fresh-eyes review (`CRAFT.md` §12).
 
 ## Usage estimates
 No piece has had its usage recorded yet. Every brief logs it (the status line's `Usage:` line). Research run in

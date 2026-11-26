@@ -39,18 +39,14 @@ file moves, trivial fixes, or pure Q&A.
   one.
 
 ## New pieces: interview first
-Before any NEW piece, run `/new-piece`: interview the client (including format—short infographic vs. interactive data
-essay—audience, tone, aesthetic, and depth), then write `proj/<name>/brief.md` and get it approved.
-A one-line request ("a somber infographic about the Holocaust") is the start of the interview, not the brief.
-Once the brief is approved, follow `auto-piece` (`.claude/skills/auto-piece/SKILL.md`) to run multi-pass parallel deep
-research and self-critiqued mockup generation automatically before asking the user to approve the outline/mockup; `.agents/hooks/stage_gate.py` enforces stage gates across harnesses.
-- **Gates:** interview → brief approved → research (the client runs the prompts) → figures checked → concepts →
-  layout and stills approved → build → QA. The brief's status line carries `Stage:`.
-- **Research is the client's step.** Claude writes the prompts (`brief/RESEARCH.md`); the client runs them in two or
-  more deep-research tools and saves the reports in `proj/<name>/research/`. Different tools give differing
-  opinions, and running research outside Claude saves the client's Claude usage.
+Before any NEW piece, run `/new-piece`: interview the client (format, audience, tone, aesthetic, depth), then
+write `proj/<name>/brief.md` and get it approved. Once approved, follow `auto-piece` (`.claude/skills/auto-piece/SKILL.md`)
+to run parallel deep research, isolated fresh-eyes mockup review (`brief/CRAFT.md` §12), and final visual/offline QA;
+`.agents/hooks/stage_gate.py` enforces stage and review receipts across harnesses.
+- **Gates:** interview → brief approved → research → figures checked → concepts & stills (fresh-eyes reviewed) →
+  layout approved → build → final fresh-eyes/offline QA. The brief's status line carries `Stage:`.
 - **Design comes before tools.** Until the layout is approved, stay out of `pieces/`, `examples/`, `tools/` and other
-  pieces' `proj/` folders (`notes/architecture.md`, "The restricted list"). They open with `/toolbox` at the gate.
+  pieces' `proj/` folders (`notes/architecture.md`). They open with `/toolbox` at the gate.
 - **Earlier pieces are examples, not a menu.** Take mechanisms from them, never their look.
 - **The client reads no jargon.** Everyday words in every question and everything they see.
 

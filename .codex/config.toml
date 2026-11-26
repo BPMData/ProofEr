@@ -5,3 +5,7 @@ hooks = true
 [agents.research_worker]
 description = "Isolated ProofEr research worker for Pass 1 gathering"
 model_reasoning_effort = "medium"
+
+[agents.fresh_eyes_reviewer]
+description = "Isolated ProofEr fresh-eyes reviewer for stills and final QA PNGs (CRAFT.md §12)"
+model_reasoning_effort = "medium"

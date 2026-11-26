@@ -13,26 +13,25 @@ It uses the same working method as its sister repo, [EOMD](https://github.com/BP
 design from the brief first, open the toolbox later.
 
 ## How a piece gets made
-1. **Interview.** You describe what you want in a sentence. The assistant asks short rounds of plain-English
-   questions: who it's for, where it'll be seen (phone, projector, print), the tone, what it must never say.
-2. **Brief.** It writes down what you agreed. Nothing gets designed until you approve it.
-3. **Research (you run this step).** The assistant writes deep-research prompts for the facts the piece needs. You
-   run them in two or more deep-research tools and save the reports into the piece's `research/` folder:
-   - Claude (the Research mode in the Claude app),
-   - Google Gemini (Deep Research),
-   - ChatGPT (deep research),
-   - Kimi (Moonshot AI).
-
-   Running the same prompt in two or three of them is the point:
-   - **Differing opinions.** Different tools find different sources and make different mistakes. Where they
-     disagree, that's exactly the number that needs a closer look.
-   - **Saving your Claude usage.** Deep research is long and expensive. Running it in tools you already have leaves
-     your Claude usage for the design and build.
-4. **Cross-check.** The assistant compares the reports, lists every figure with its sources, flags the ones that
-   disagree or rest on a single weak source, and asks you to settle them. Only checked figures go on the page.
-5. **Concepts.** Two or three directions, shown as a picker page: you answer with a letter ("B, but calmer").
-6. **Layout and stills.** The page in reading order, with mockups, before any building tools are opened.
-7. **Build.** A single offline HTML file, with a sources section and an "About these numbers" note.
+1. **Interview (`/new-piece`).** You describe what you want in a sentence. After Round 1, the assistant checks what the
+   repo already has for your piece or client profile (so you confirm instead of re-typing), asks short rounds of
+   plain-English questions (format, audience, viewing context, your writing voice, landmines, and usage budget
+   `light | standard | deep`), and keeps offhand jokes/asides as side notes until you call them main. No deadlines
+   are asked or set.
+2. **Brief.** It writes down what you agreed (`proj/<name>/brief.md`). Nothing gets designed until you approve it.
+3. **Research (`auto-piece` or external tools).** By default, the assistant runs automated multi-pass parallel deep
+   research + gap-fill passes into `proj/<name>/research/`. If you want to save session usage (e.g., `Budget: light`)
+   or cross-check further, you can also run the prompts in two or more tools and save the reports there:
+   - Claude (Research), Google Gemini (Deep Research), ChatGPT (deep research), or Kimi (Moonshot AI).
+4. **Cross-check.** The assistant compares the reports into `proj/<name>/figures.md` (≥ 2 independent sources per
+   checked figure), flags disagreements or weak single sources, and asks you to settle them. Only checked figures go
+   on the page.
+5. **Concepts, layout, and fresh-eyes review.** Two or three directions (or a picker page), followed by a section-by-section
+   layout and rendered mockup stills—inspected cold by an **isolated fresh-eyes reviewer subagent** (`brief/CRAFT.md` §12,
+   `stills/review.md`) before reaching you for refinement and approval.
+6. **Build and QA.** Once `layout.md` is `APPROVED`, `/toolbox` opens to build a single offline HTML file (embedded fonts,
+   sources section, "About these numbers" note, view counter), verified via `tools/check_offline.py`, desktop + phone
+   screenshots, and a final isolated fresh-eyes QA review (`qa/review.md`), enforced by `.agents/hooks/stage_gate.py`.
 
 ## What ProofEr won't make
 Pieces that dehumanize people, race-crime or race-IQ propaganda (13/52 and the like), genocide or Nakba
