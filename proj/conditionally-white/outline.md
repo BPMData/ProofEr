@@ -81,6 +81,24 @@ but as the essay's argument, tested in Ch5, not as settled fact.
   and Slaves" shows what "white" bought (AL8: no naked whipping without a JP, freedom dues with a gun, thirty lashes
   for a free Black person who raised a hand). **This is Allen's framing, not a neutral table**; keep the
   religion-not-race objection beside it. Statute wording is via Allen; Hening vol. 3 would verify it.
+- **The American mirror: Bacon's Rebellion, 1676 (Bryan's ask, R6; F98).** A short beat set right after the Penal
+  Laws and Virginia parallel. Bryan's own take (2026-11-26): it was the moment the rich realised that a lasting race
+  war would keep poor people from seeing who was really fleecing them. The essay puts that as Allen's argument, in
+  three moves:
+  1. **Together:** in Virginia in 1676, poor European bond-labourers and enslaved Africans fought on the same side
+     against Governor Berkeley's planter elite. Allen calls the last holdouts "the supreme proof that the white race
+     did not then exist" (vol. 2 p. 214, Grantham's testament; secondary for the event, via Allen).
+  2. **The answer, 1705:** the "Act concerning Servants and Slaves" bought the poor European's loyalty with
+     privileges (AL8: no naked whipping without a JP, freedom dues with a gun; thirty lashes for a free Black person
+     who raised a hand), and the court law's one clause lumped "popish recusants convict, negroes, mulattoes and
+     Indian servants" together as unfit witnesses (AL7). Allen's motive line: a "white" identity that "set them at a
+     distance" from Black labourers (vol. 2 pp. 239–240) and "the participation of the laboring classes" (AL6).
+  3. **Two caveats, a sentence each:** the rebellion began as a fight over Native land and war on Native peoples,
+     not as a fight for equality; and the "divide and rule" reading is Allen's (and Edmund Morgan's), while other
+     historians weigh labour supply and the falling price of enslaved Africans as heavily. **Both caveats are from
+     memory and need sources before the prose is written (F98).**
+- **Page flags:** "Thus was the "white race" invented…" is vol. 2 p. 240 in one answer and p. 250 in another
+  (AL6: unsettled). p. 83's "headlight system" is an OCR slip for **headright**; print it as "[headright]".
 - **Counter-quotation beat:** O'Connell's "broad Atlantic" is now verified in an 1843 newspaper (O1: the *Signal of
   Liberty*, 17 July 1843, reporting the Dublin meeting of **9 May 1843**), and the real line is a threat, not an invitation: "…if you remain, and dare countenance the system of slavery that
   is supported there, we will recognize you as Irishmen no longer." Use it here with the 1841 Address (F30), and
@@ -181,6 +199,8 @@ but as the essay's argument, tested in Ch5, not as settled fact.
 - **Footnotes:** F24–F27, F39–F46, F84–F88.
 
 ## Chapter 6 · The Bargain (paper, gold)
+- **Callback (one line, R6):** the Irish in America were offered the deal Virginia drew up in 1705 for its poor
+  Europeans after Bacon's Rebellion: privileges for standing on the right side of the colour line (Ch3, F98).
 - **America side:** the "union card" mechanism credits the wage correctly (R6, F97): Du Bois's "a sort of public
   and psychological wage" (DB1, via Roediger), which Roediger applies to "a desperate rural and often preindustrial
   Irish population" (RG1, p. 137). **"Wages of whiteness" is Roediger's phrase; never credit it to Du Bois.** Then
