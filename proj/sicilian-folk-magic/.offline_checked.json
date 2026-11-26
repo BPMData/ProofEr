@@ -1,0 +1,1 @@
+{"ts": 1795485322.70119, "cmd": "python3 proj/sicilian-folk-magic/build/build_piece.py && cp proj/sicilian-folk-magic/build/out/sicilian-folk-magic.html pieces/sicilian-folk-magic-rebuild.html && python3 tools/add_view_counter.py && "}
