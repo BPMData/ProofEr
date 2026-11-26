@@ -146,6 +146,10 @@ def _subagent_receipts_path(root: Path, piece: str) -> Path:
     return root / "proj" / piece / "research" / ".subagent_receipts.jsonl"
 
 
+def _review_receipts_path(root: Path, piece: str) -> Path:
+    return root / "proj" / piece / ".review_receipts.jsonl"
+
+
 def _inspected_pngs_path(root: Path, piece: str) -> Path:
     return root / "proj" / piece / ".inspected_pngs.json"
 
@@ -171,6 +175,45 @@ def _file_sha256(path: Path) -> str:
         return ""
 
 
+def _is_fresh_eyes_subagent(args: dict) -> bool:
+    sub_type = str(args.get("subagent_type") or args.get("TypeName") or args.get("agent_type") or "").lower()
+    role = str(args.get("Role") or args.get("role") or args.get("name") or "").lower()
+    prompt = str(args.get("Prompt") or args.get("prompt") or "").lower()
+    if "fresh-eyes" in sub_type or "fresh_eyes" in sub_type or "reviewer" in sub_type:
+        return True
+    if "fresh" in role or "review" in role:
+        return True
+    return any(tok in prompt for tok in ("fresh-eyes", "fresh eyes", "stills/review.md", "qa/review.md", "craft.md §12"))
+
+
+def _extract_piece_from_subagent(root: Path, args: dict) -> list[str]:
+    blob = " ".join(str(args.get(k) or "") for k in ("Prompt", "prompt", "Role", "role"))
+    found: list[str] = []
+    for m in re.finditer(r"proj/([a-zA-Z0-9_-]+)/", blob):
+        name = m.group(1)
+        if (root / "proj" / name / "brief.md").exists() and name not in found:
+            found.append(name)
+    return found
+
+
+def _has_review_receipt(root: Path, piece: str, html_sha: str = "", min_ts: float = 0.0) -> bool:
+    rpath = _review_receipts_path(root, piece)
+    for ln in _read_text(rpath).splitlines():
+        ln = ln.strip()
+        if not ln:
+            continue
+        try:
+            rec = json.loads(ln)
+        except ValueError:
+            continue
+        if html_sha:
+            if rec.get("html_sha256") == html_sha or float(rec.get("ts", 0.0)) >= min_ts:
+                return True
+        else:
+            return True
+    return False
+
+
 def _record_post_tool(root: Path, tool_name: str, args: dict, error) -> None:
     if error:
         return
@@ -179,22 +222,36 @@ def _record_post_tool(root: Path, tool_name: str, args: dict, error) -> None:
 
     # 1. Subagent / workflow execution receipt
     if low in ("run_workflow", "invoke_subagent", "agent", "task", "spawn_agent"):
-        # Attribute to any active piece in early/research stages (or newest active piece)
-        targets = []
-        for brief in glob.glob(str(root / "proj" / "*" / "brief.md")):
-            piece = Path(brief).parent.name
-            stage, _, _ = _parse_brief_meta(root, piece)
-            if not stage or stage in DESIGN_RESEARCH_STAGES:
-                targets.append(piece)
+        is_review = low != "run_workflow" and _is_fresh_eyes_subagent(args)
+        targets = _extract_piece_from_subagent(root, args) if is_review else []
+        if not targets:
+            for brief in glob.glob(str(root / "proj" / "*" / "brief.md")):
+                piece = Path(brief).parent.name
+                stage, _, _ = _parse_brief_meta(root, piece)
+                if not stage or stage in DESIGN_RESEARCH_STAGES:
+                    targets.append(piece)
         if not targets:
             newest = _newest_active_piece(root)
             if newest:
                 targets = [newest]
         for piece in targets:
+            stage, _, _ = _parse_brief_meta(root, piece)
             rpath = _subagent_receipts_path(root, piece)
             rpath.parent.mkdir(parents=True, exist_ok=True)
             with rpath.open("a", encoding="utf-8") as fh:
-                fh.write(json.dumps({"ts": now, "tool": tool_name}) + "\n")
+                fh.write(json.dumps({"ts": now, "tool": tool_name, "review": is_review}) + "\n")
+            if is_review:
+                html = root / "pieces" / f"{piece}.html"
+                rec = {
+                    "ts": now,
+                    "tool": tool_name,
+                    "stage": stage,
+                    "html_sha256": _file_sha256(html) if html.exists() else "",
+                }
+                rev_path = _review_receipts_path(root, piece)
+                rev_path.parent.mkdir(parents=True, exist_ok=True)
+                with rev_path.open("a", encoding="utf-8") as fh:
+                    fh.write(json.dumps(rec) + "\n")
         return
 
     # 2. Image read receipt (read_file / Read / view_file / view_image on a .png under proj/<name>/)
@@ -395,18 +452,23 @@ def _check_pre_write(root: Path, harness: str, rel_path: str) -> str | None:
                     f"Visual gate: render and inspect at least 1 mockup PNG in proj/{piece}/stills/ via "
                     f"read_file/Read/view_image before building pieces/{piece}.html."
                 )
+            review_md = stills_dir / "review.md"
             critique = stills_dir / "critique.md"
-            if not critique.exists() or len(_read_text(critique).strip()) < 80:
+            has_review_notes = (
+                len(_read_text(review_md).strip()) >= 80
+                or len(_read_text(critique).strip()) >= 80
+            )
+            if not _has_review_receipt(root, piece) or not has_review_notes:
                 return (
-                    f"Visual gate: write proj/{piece}/stills/critique.md noting visual self-checks before "
-                    f"building pieces/{piece}.html."
+                    f"Fresh-eyes gate: run an isolated fresh-eyes reviewer subagent on proj/{piece}/stills/ "
+                    f"writing proj/{piece}/stills/review.md before building pieces/{piece}.html."
                 )
         return None
 
     return None
 
 
-RECEIPT_NAMES = (".offline_checked.json", ".inspected_pngs.json", ".subagent_receipts.jsonl")
+RECEIPT_NAMES = (".offline_checked.json", ".inspected_pngs.json", ".subagent_receipts.jsonl", ".review_receipts.jsonl")
 
 
 def _piece_has_local_changes(root: Path, piece: str) -> bool:
@@ -497,6 +559,12 @@ def _check_stop(root: Path, stop_active: bool) -> str | None:
             return (
                 f"Capture and inspect final desktop and phone PNG screenshots of pieces/{piece}.html "
                 f"(under proj/{piece}/qa/) via read_file/Read/view_image before finishing."
+            )
+        qa_review = root / "proj" / piece / "qa" / "review.md"
+        if not _has_review_receipt(root, piece, html_sha=html_sha, min_ts=html_mtime) or len(_read_text(qa_review).strip()) < 80:
+            return (
+                f"Run an isolated fresh-eyes reviewer subagent on proj/{piece}/qa/ writing proj/{piece}/qa/review.md "
+                f"for the current pieces/{piece}.html before finishing."
             )
     return None
 

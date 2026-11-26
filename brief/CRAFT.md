@@ -99,3 +99,22 @@ palette with its roles, the visual idea at its strongest, one dense section. At 
 - Is the headline readable at 25% scale and at the brief's distance? Does every pair pass contrast?
 - Does it work in grayscale, in print and with scripts off?
 - Is it free of the subject's clichés and of anything the landmines in brief §4 rule out?
+
+## 12. Fresh-eyes review before mockups or the final piece
+Whoever made a chart or page sees what they meant to make. So before mockup stills or choice panels reach the client
+(`Stage: layout`), and again after building `pieces/<name>.html` (`Stage: build`, using `proj/<name>/qa/desktop.png`
+and `phone.png`), an isolated reviewer subagent looks at the work cold. Skip only for trivial non-visual fixes to an
+existing piece; the self-check (§11) is enough there.
+- **What it sees:** ONLY `proj/<name>/brief.md`, `proj/<name>/figures.md` (plus `layout.md` at final QA), and the
+  rendered PNGs (`stills/*.png` or `qa/*.png`), never the HTML/CSS/JS source code, pitch prose, or builder's reasoning.
+- **What it checks (mistakes, not taste):**
+  - **Layout & type:** clipped, overlapping, truncated, or off-edge text on desktop or phone; headline illegible at 25%
+    scale or at the brief's viewing distance; text/background pairs below WCAG AA; color-only encodings.
+  - **Facts & charts:** any number, date, name, or quote on screen missing from `figures.md` as `checked`; fixed copy
+    altered; unlabeled units or scales; truncated bar/area baselines; missing myth-check tags (`T10`), sources section,
+    or "About these numbers" note.
+  - **Landmines & galleries:** anything brief §4 or §11 forbids; gallery options that are really the same idea in
+    different colors.
+- **What it never does:** rank options, cut a bold direction, judge taste, or log verdicts in the Decisions log.
+- **After it:** write findings to `proj/<name>/stills/review.md` (pre-build) or `proj/<name>/qa/review.md` (final build),
+  fix clear mistakes, and note anything still flagged when showing the client.

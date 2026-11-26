@@ -112,14 +112,30 @@ class StageGateTests(unittest.TestCase):
             "cwd": str(self.root),
             "toolCall": {"name": "read_file", "args": {"Path": "proj/clay/stills/concept-a.png"}},
         })
-        (self.root / "proj" / "clay" / "stills" / "critique.md").write_text("Notes: " + "ok " * 35, encoding="utf-8")
+        # Self-critique alone (without an isolated fresh-eyes reviewer subagent receipt) is blocked
+        (self.root / "proj" / "clay" / "stills" / "review.md").write_text("Notes: " + "ok " * 35, encoding="utf-8")
+        rc, out, _ = _run_gate("antigravity", "PreToolUse", {
+            "cwd": str(self.root),
+            "toolCall": {"name": "write_file", "args": {"Path": "pieces/clay.html"}},
+        })
+        self.assertEqual(json.loads(out)["decision"], "deny")
+        self.assertIn("Fresh-eyes", json.loads(out)["reason"])
+
+        # Recording an isolated fresh-eyes reviewer subagent unlocks building pieces/clay.html
+        _run_gate("antigravity", "PostToolUse", {
+            "cwd": str(self.root),
+            "toolCall": {
+                "name": "invoke_subagent",
+                "args": {"Role": "Fresh-eyes Reviewer", "Prompt": "Review proj/clay/stills/ per CRAFT.md §12"},
+            },
+        })
         rc, out, _ = _run_gate("antigravity", "PreToolUse", {
             "cwd": str(self.root),
             "toolCall": {"name": "write_file", "args": {"Path": "pieces/clay.html"}},
         })
         self.assertEqual(json.loads(out)["decision"], "allow")
 
-        # 6. Once pieces/clay.html exists, Stop blocked until check_offline.py + desktop & phone PNGs inspected
+        # 6. Once pieces/clay.html exists, Stop blocked until check_offline.py + desktop & phone PNGs + fresh-eyes qa/review.md
         piece_html = self.root / "pieces" / "clay.html"
         piece_html.write_text("<html>final</html>", encoding="utf-8")
         rc, out, _ = _run_gate("antigravity", "Stop", {
@@ -141,6 +157,23 @@ class StageGateTests(unittest.TestCase):
                 "cwd": str(self.root),
                 "toolCall": {"name": "read_file", "args": {"Path": f"proj/clay/qa/{shot}"}},
             })
+        # Still blocked until fresh-eyes QA reviewer runs for the current HTML
+        rc, out, _ = _run_gate("antigravity", "Stop", {
+            "cwd": str(self.root),
+            "terminationReason": "NO_TOOL_CALL",
+            "continuationActive": False,
+        })
+        self.assertEqual(json.loads(out)["decision"], "continue")
+        self.assertIn("qa/review.md", json.loads(out)["reason"])
+
+        _run_gate("antigravity", "PostToolUse", {
+            "cwd": str(self.root),
+            "toolCall": {
+                "name": "invoke_subagent",
+                "args": {"Role": "Fresh-eyes QA Reviewer", "Prompt": "Review proj/clay/qa/"},
+            },
+        })
+        (self.root / "proj" / "clay" / "qa" / "review.md").write_text("QA review: " + "ok " * 35, encoding="utf-8")
 
         rc, out, _ = _run_gate("antigravity", "Stop", {
             "cwd": str(self.root),
@@ -435,7 +468,7 @@ class StageGateTests(unittest.TestCase):
         self.assertEqual(rc, 0)
         self.assertEqual(json.loads(out), {})
 
-        # 2. Record check_offline + 2 QA PNGs for html bytes, then bump html mtime without changing bytes
+        # 2. Record check_offline + 2 QA PNGs + fresh-eyes QA review for html bytes, then bump html mtime without changing bytes
         html.write_text("<html>v2</html>", encoding="utf-8")
         _run_gate("antigravity", "PostToolUse", {
             "cwd": str(git_root),
@@ -447,6 +480,14 @@ class StageGateTests(unittest.TestCase):
                 "cwd": str(git_root),
                 "toolCall": {"name": "read_file", "args": {"Path": f"proj/clay/qa/{shot}"}},
             })
+        _run_gate("antigravity", "PostToolUse", {
+            "cwd": str(git_root),
+            "toolCall": {
+                "name": "invoke_subagent",
+                "args": {"Role": "Fresh-eyes QA Reviewer", "Prompt": "Review proj/clay/qa/"},
+            },
+        })
+        (git_root / "proj" / "clay" / "qa" / "review.md").write_text("QA review: " + "ok " * 35, encoding="utf-8")
         time.sleep(0.02)
         os.utime(html, None)
         rc, out, _ = _run_gate("antigravity", "Stop", {

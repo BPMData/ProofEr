@@ -2,7 +2,7 @@
   "proofer-stage-gate": {
     "PreToolUse": [
       {
-        "matcher": "write_file|edit_file|run_command",
+        "matcher": "write_file|edit_file|run_command|invoke_subagent|run_workflow",
         "hooks": [
           {
             "type": "command",
