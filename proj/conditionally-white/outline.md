@@ -101,6 +101,10 @@ but as the essay's argument, tested in Ch5, not as settled fact.
      population had soared, British immigration had slowed"). Name Edmund Morgan only after reading him.
 - **Page flags:** "Thus was the "white race" invented…" is vol. 2 p. 240 in one answer and p. 250 in another
   (AL6: unsettled). p. 83's "headlight system" is an OCR slip for **headright**; print it as "[headright]".
+- **Faneuil Hall opens the arc (R6, F100):** Boston, 28 January 1842, the Address read aloud by Garrison to a hall the
+  *Liberator* put at four thousand, "including a large number of Irish"; the crowd shouts "No, no, no!" against
+  returning fugitives (FH1). Garrison writes the next day that there was "No opposition from any quarter" (GA1); a
+  month later the Address is "spurned and denounced by the Irish papers" (GA2). That swing is the beat's shape.
 - **Counter-quotation beat:** O'Connell's "broad Atlantic" is now verified in an 1843 newspaper (O1: the *Signal of
   Liberty*, 17 July 1843, reporting the Dublin meeting of **9 May 1843**), and the real line is a threat, not an invitation: "…if you remain, and dare countenance the system of slavery that
   is supported there, we will recognize you as Irishmen no longer." Use it here with the 1841 Address (F30), and
@@ -203,11 +207,15 @@ but as the essay's argument, tested in Ch5, not as settled fact.
 - **Footnotes:** F24–F27, F39–F46, F84–F88.
 
 ## Chapter 6 · The Bargain (paper, gold)
+- **Garrison names the bargain (R6, GA3):** "the bargain obviously is...that the South shall go for Repeal, and the
+  Irish, as a body, shall go for Southern slavery!" (March 1842). It is his suspicion of a deal, not a proven one, so
+  caption it that way; the chapter can take its title from his word.
 - **Callback (one line, R6):** the Irish in America were offered the deal Virginia drew up in 1705 for its poor
   Europeans after Bacon's Rebellion: privileges for standing on the right side of the colour line (Ch3, F98).
 - **America side:** the "union card" mechanism credits the wage correctly (R6, F97): Du Bois's "a sort of public
   and psychological wage" (DB1, via Roediger), which Roediger applies to "a desperate rural and often preindustrial
-  Irish population" (RG1, p. 137). **"Wages of whiteness" is Roediger's phrase; never credit it to Du Bois.** Then
+  Irish population" (RG1, p. 137), "a two-sided process": accepted as white by others, and insisting on it themselves,
+  "much to the chagrin of Frederick Douglass and Daniel O'Connell" (RG2). **"Wages of whiteness" is Roediger's phrase; never credit it to Du Bois.** Then
   the Draft Riots as "at least 105 dead, about 119 documented" (F47), with "eleven African-Americans were lynched"
   over five days (Allen, secondary); the Colored Orphan Asylum's 233
   children all got out (F48); no percentage of Irish rioters exists, so use Bernstein's sentence (I1, F49). Police,
@@ -257,8 +265,12 @@ but as the essay's argument, tested in Ch5, not as settled fact.
   - **Castle Hill 1804:** "Death or Liberty" was a slogan; no flag exists (F59).
 - **Mitchel's route:** Dublin → Spike Island → **Bermuda** → the *Neptune* → the Cape → Van Diemen's Land 1850 →
   escape 1853 (F65).
-- **Gauge scene and the O'Connell–Douglass close:** as the brief, with O1 now verified (1843).
-- **Footnotes:** F47–F65, F94–F96; quotes I1.
+- **Gauge scene and the O'Connell–Douglass close:** as the brief, with O1 now verified (1843). **Douglass in Ireland
+  (R6, F101):** O'Connell introduced him as "the Black O'Connell of the United States" (DG3, Douglass's recollection);
+  from Belfast, 1 January 1846, he wrote of "the entire absence of every thing that looked like prejudice against me,
+  on account of the color of my skin" (DG2). Set against Garrison's "not a single Irishman" (IA5) and Roediger's
+  "chagrin" (RG2), it shows the welcome in Ireland and the refusal in America side by side.
+- **Footnotes:** F47–F65, F94–F97, F100–F102; quotes I1, GA3, RG1–RG2, DG2–DG3, FN1.
 
 ## Chapter 7 · The Memory (paper)
 - **Thesis, rewritten (Bryan, 2026-11-24):** this is not "the Biden beat". It is the diaspora beat: **Irish
@@ -309,6 +321,13 @@ but as the essay's argument, tested in Ch5, not as settled fact.
   to Britain, 1846–50" (official returns, F43), paired with "1847: about 145,000 tons of grain out, about 840,000–
   890,000 in" (F39), so the slip tells both halves, the offered (one, conditional), the
   ancestor (one, transported about 1850, family history; the horse and the motive, family legend).
+- **Candidate frame for the close (R6, F102; Bryan picks):** Césaire's Hitler passage, uncensored at Bryan's word
+  (CS1): Europe forgave colonial methods until they were "applied to Europe". The essay's own turn on it: Ireland is
+  where Europe tried them on Europeans first, then the Irish bought the right to be on the other side (CS2's
+  "boomerang", CS3's "no one colonizes innocently"). Fanon's "you are rich because you are white, you are white
+  because you are rich" (FN1) is the one-line version of the bargain, for Ch6 or here; his "monster" (FN2) and
+  Sartre's "racist humanism" (SA1) are spares. Use one or two, not all. Fanon's Algerian case notes stay out (Algeria,
+  not Ireland), and the "children's one wish" story is not in the books.
 - Everything else as the brief.
 
 ---
@@ -366,7 +385,7 @@ T5 (p. 201); Wood's two fragments (B12); Nangle (B18) and the *Herald* (B11); *T
 venue in an 1843 paper (O1); the livestock returns (F43) and the grain series (F39); butter's missing source (F40);
 Victoria's 1852 Act and its disallowance (F96); Dillon's "white men" (F63).
 
-**Still open after round 5:** the Dublin report giving 9 May 1843 (O1); R6 settled B16 (verified, Killen p. 99), B2's date, recipient and wording (secondary, Woodham-Smith p. 151; her endnote's primary still unread) Allen's and Ignatiev's wording (AL1–AL6, IG1–IG4), Du Bois's wage vs Roediger's phrase (F97), the Draft Riots' eleven lynchings (F47, secondary; no total in the six books), armed export escorts in 1846 (F41, WS1), Norfolk's curry powder as Woodham-Smith's paraphrase only (NF1), the 1841 Address and its replies via Ignatiev (IA1–IA5, O2), and retired B13, B23 and B6's wording (not in Killen or the other five books); B14 (retire);
+**Still open after round 5:** the Dublin report giving 9 May 1843 (O1); R6 settled B16 (verified, Killen p. 99), B2's date, recipient and wording (secondary, Woodham-Smith p. 151; her endnote's primary still unread) Allen's and Ignatiev's wording (AL1–AL6, IG1–IG4), Du Bois's wage vs Roediger's phrase (F97), the Draft Riots' eleven lynchings (F47, secondary; no total in the six books), armed export escorts in 1846 (F41, WS1), Norfolk's curry powder (NF1, F99: a translated 1846 report, said to his own labourers), the 1841 Address and its replies via Ignatiev (IA1–IA5, O2), Faneuil Hall and Garrison's 1842 letters (F100, GA1–GA4), Douglass in Ireland (F101, DG1–DG4), Roediger's "two-sided process" (RG2), Fanon and Césaire for the close (F102), and retired B13, B23 and B6's wording (not in Killen or the other five books); B14 (retire);
 Woodham-Smith's private-letter source for B8; Nangle's tract vs the *Herald* (Mayo County Library scan, open in an
 ordinary browser); *The Times* 1860 issue itself; BPP 1852 LI for grain 1847–51; McCalman's own page (F94); the 1852
 Act's printed text (F96); when horse theft stopped being capital in Ireland (F58); Malcolm & Hall ch. 3's page and

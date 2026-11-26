@@ -244,7 +244,7 @@ All via Ignatiev, *How the Irish Became White*, ch. 1 ("Something in the Air"), 
 
 **Notes.** The Ch3 counter-quotation beat now has its full arc: the Address (IA1), the refusal (IA2–IA4), Garrison's
 verdict (IA5), O'Connell's threat (O1) and his Cincinnati rebuke (O2). It also carries the Ch6 hand-off from
-Ireland to America. Faneuil Hall (Jan 1842) isn't in the answer; it stays on Q9-7 alone.
+Ireland to America. Faneuil Hall (Jan 1842) isn't in this answer; follow-up 18 below finds it (Ignatiev pp. 10–11).
 
 ## Answer 11: Du Bois's wage and Roediger's phrase (F97, DB1, RG1)
 
@@ -401,8 +401,7 @@ as part of a pattern.
 NotebookLM's answer to 16 lists Fanon, *The Wretched of the Earth*, among the loaded books, so the notebook holds a
 seventh title.
 
-Still out with Bryan (as of answer 16): follow-ups 15 (the year of Trevelyan's "December 2"), 17 (Garrison's date and paper; the
-Pottsville meeting), 18 (Faneuil Hall, Jan 1842), 19 (Roediger p. 137's exact sentence).
+Follow-ups 15, 17, 18 and 19 came back later (see "Last batch" at the end). All 19 questions are answered.
 
 ## Follow-up: the autumn 1846 food riots (asked from NotebookLM's own offer)
 
@@ -469,3 +468,59 @@ pinch of this powder into it, he will go to bed much warmer and more comfortably
 - **Open for the Antigravity pass:** the original English report (the *Times* or Sussex papers, Nov–Dec 1845),
   *Punch*, the date (late 1845; blogs say about 8 Nov or 8 Dec), and the Duke's identity (likely Henry Charles
   Howard, 13th Duke, 1842–56).
+
+## Last batch: follow-ups 15, 17, 18, 19, Douglass in Ireland, Fanon and Césaire
+
+Bryan's message of 2026-11-26 (follow-ups 15–19 and a Douglass extract), plus a pasted file of his NotebookLM
+exchange on Fanon and Césaire (*Discourse on Colonialism* was added to the notebook for it, an eighth title). All read
+via NotebookLM.
+
+**15. Trevelyan's "December 2" (B2): settled as far as the book goes.** Woodham-Smith p. 151, ch. VIII: "on December
+2", no year in the sentence; the chapter's winter of 1846–47 puts it in 1846. Endnote 16 is missing from the scan.
+Give it as 2 December [1846].
+
+**17. Garrison and Pottsville (IA4, IA5, GA1–GA4): dated where Ignatiev dates them.**
+- 29 Jan 1842, to his wife's father: "great and glorious meeting… No opposition from any quarter" (p. 11, GA1).
+- 27 Feb 1842, to Richard Allen and to Webb in Dublin: the Address "spurned and denounced by the Irish papers in
+  America"; "I fear they will keep the great mass of your countrymen here from uniting with us" (p. 14, GA2).
+- March 1842, to an unnamed friend: "a stupendous conspiracy"; "the bargain obviously is...that the South shall go
+  for Repeal, and the Irish, as a body, shall go for Southern slavery!" (p. 16, GA3). A few days later, again: the aim
+  was "if possible, by sending over donations to Ireland, to stop O'Connell's mouth".
+- *Liberator*, 6 May 1842: the Constitution "a covenant with death and an agreement with hell"; from 13 May the
+  "repeal of the union between northern liberty and southern slavery" banner (p. 17, GA4).
+- "Not a single Irishman has come forward" (pp. 22–23, IA5): no date or venue printed; "summer 1842" is NotebookLM's
+  label.
+- Pottsville (pp. 13–14): the meeting is undated in Ignatiev. P. 137: 1,500 Pottsville miners struck three weeks
+  before the August 1842 Philadelphia riot, and many took part in it (Ignatiev's account).
+
+**18. Faneuil Hall (F100, FH1): found.** Ignatiev pp. 10–11: 28 Jan 1842; advertised in the Boston *Pilot* itself;
+Garrison chaired and read the Address; Phillips's resolutions, including support for Ireland against "the
+fraudulent act of Union"; Quincy, Miller, Bradburn ("Slavery strikes at the interest of every laboring man"),
+Douglass, Fuller, Remond last. The crowd's "No, no, no!" to Phillips. *The Liberator* estimated "no less than four
+thousand", "including a large number of Irish", and called it the most "united and enthusiastic meeting" ever held
+in "the Old Cradle of Liberty".
+
+**19. Roediger p. 137 (RG1, RG2): verified, no endnote.** The paragraph opens "The making of the Irish worker into a
+white worker was thus a two-sided process" and names O'Connell and Douglass. "Came but from" appears again, so it
+may be the book's own wording; quote around it if unsure.
+
+**Douglass in Ireland (F101, DG1–DG4).** Roediger p. 134 (n. 7): the "wailing notes" of Irish songs and the "wild
+notes" of slave songs. Allen vol. 1 p. 187 (nn. 7–8, p. 315): the Belfast letter of 1 Jan 1846 (*Liberator*, 30 Jan
+1846) and O'Connell's "the Black O'Connell of the United States" (from Douglass's *Life and Times*). Ignatiev p. 107:
+Douglass inviting the "white slavery" crowd to apply for his old job on the plantation (Ignatiev's paraphrase).
+
+**Fanon and Césaire (F102, FN1–FN2, SA1, CS1–CS3).**
+- Fanon never says "wages of whiteness" (not found). Closest: "you are rich because you are white, you are white
+  because you are rich" (p. 40). Conclusion: the United States "became a monster" (p. 313). Also returned: the
+  Manichean, "zoological" settler (pp. 41–43), the "racism of contempt" (p. 163), no Frenchman indicted for an
+  Algerian's murder (p. 92), and his case notes on torturers (Series A Cases 4–5, pp. 264–270). Sartre's preface:
+  "racist humanism" (p. 26), "the strip tease of our humanism" (pp. 24–25).
+- Césaire: colonization "decivilize[s] the colonizer" and the "boomerang effect" (pp. 35–36, 41); the Hitler
+  passage (p. 36, CS1, Bryan: "I quote that constantly and refuse to censor it"); "no one colonizes innocently"
+  (p. 39); "colonization = 'thingification'" (pp. 42–43). Kelley's introduction notes Fanon was Césaire's student
+  (pp. 19–20).
+- **Not found, don't use:** the Algerian children's "one wish" or "superpower" story, a drawings-and-careers version
+  of Series B Case 4, and the film *J'ai huit ans* (none is in the eight books). The quote "the French had sworn to
+  kill us all, one after the other" is from Series B Case 1 (p. 272), the 14-year-old, not from the refugee camps.
+- **Fit to the thesis:** the bargain (Ch6) and the close. Fanon's Algerian case notes on torture and rape are real
+  and harrowing, but they are about Algeria, so they stay out of this essay unless Bryan wants a pointer.
