@@ -93,10 +93,12 @@ but as the essay's argument, tested in Ch5, not as settled fact.
      who raised a hand), and the court law's one clause lumped "popish recusants convict, negroes, mulattoes and
      Indian servants" together as unfit witnesses (AL7). Allen's motive line: a "white" identity that "set them at a
      distance" from Black labourers (vol. 2 pp. 239–240) and "the participation of the laboring classes" (AL6).
-  3. **Two caveats, a sentence each:** the rebellion began as a fight over Native land and war on Native peoples,
-     not as a fight for equality; and the "divide and rule" reading is Allen's (and Edmund Morgan's), while other
-     historians weigh labour supply and the falling price of enslaved Africans as heavily. **Both caveats are from
-     memory and need sources before the prose is written (F98).**
+  3. **Two caveats, a sentence each (F98, now sourced):** the rebellion began as a 1675 settler war on Native
+     peoples (Bacon "demanded a commission to fight the Indians"; Encyclopedia Virginia, Historic Jamestowne), not
+     as a fight for equality, though its last holdouts included "servants and slaves who did not wish to return to
+     servitude"; and the "divide and rule" reading is Allen's, while Encyclopedia Virginia dates the planters'
+     choice of "more easily controlled enslaved Africans" decades earlier, waiting on supply ("By 1700 the slave
+     population had soared, British immigration had slowed"). Name Edmund Morgan only after reading him.
 - **Page flags:** "Thus was the "white race" invented…" is vol. 2 p. 240 in one answer and p. 250 in another
   (AL6: unsettled). p. 83's "headlight system" is an OCR slip for **headright**; print it as "[headright]".
 - **Counter-quotation beat:** O'Connell's "broad Atlantic" is now verified in an 1843 newspaper (O1: the *Signal of
