@@ -1,343 +1,319 @@
 {
- "_note": "Numbers for the essay's charts, each tied to a figures.md row (fig). Status mirrors figures.md; anything 'single source' or 'model' needs its hedge in the prose. Generated 2026-11-24 for the outline stage.",
- "ch1_periods": {
-  "_chart": "bar width = months, bar height = paintings per month, so bar area = paintings",
-  "rows": [
-   {
-    "place": "Nuenen",
-    "from": "1883-12",
-    "to": "1885-11",
-    "months": 24,
-    "paintings": 200,
-    "label": "nearly 200",
-    "fig": "F09",
-    "status": "single source"
-   },
-   {
-    "place": "Paris",
-    "from": "1886-03",
-    "to": "1888-02",
-    "months": 23,
-    "paintings": 200,
-    "label": "more than 200",
-    "fig": "F10",
-    "status": "single source"
-   },
-   {
-    "place": "Arles",
-    "from": "1888-02",
-    "to": "1889-05",
-    "months": 15,
-    "paintings": 190,
-    "label": "184 to 200",
-    "fig": "F11",
-    "status": "disputed"
-   },
-   {
-    "place": "Saint-Rémy",
-    "from": "1889-05",
-    "to": "1890-05",
-    "months": 12,
-    "paintings": 150,
-    "label": "about 150",
-    "fig": "F12",
-    "status": "checked"
-   },
-   {
-    "place": "Auvers",
-    "from": "1890-05-20",
-    "to": "1890-07-27",
-    "months": 2.3,
-    "paintings": 70,
-    "label": "about 70 in about 70 days",
-    "fig": "F13",
-    "status": "checked"
-   }
-  ],
-  "_omitted": "Etten/The Hague/Drenthe 1881-83 (about 36 on catalogue lists only, F14) and Antwerp (a handful); add only if Bryan accepts a list-based count",
-  "sales_dot": {
-   "year": 1890,
-   "painting": "The Red Vineyard",
-   "francs": 400,
-   "buyer": "Anna Boch",
-   "fig": "F70"
-  }
- },
- "ch2_stipend_model": {
-  "fig": "F25",
-  "status": "model (see research/stipend-model.md)",
-  "francs_by_year": [
-   {
-    "year": 1880,
-    "low": 100,
-    "mid": 300,
-    "high": 500
-   },
-   {
-    "year": 1881,
-    "low": 600,
-    "mid": 900,
-    "high": 1200
-   },
-   {
-    "year": 1882,
-    "low": 1200,
-    "mid": 1500,
-    "high": 1800
-   },
-   {
-    "year": 1883,
-    "low": 1500,
-    "mid": 1800,
-    "high": 2100
-   },
-   {
-    "year": 1884,
-    "low": 1800,
-    "mid": 2100,
-    "high": 2400
-   },
-   {
-    "year": 1885,
-    "low": 1500,
-    "mid": 1750,
-    "high": 2000
-   },
-   {
-    "year": 1886,
-    "low": 300,
-    "mid": 375,
-    "high": 450
-   },
-   {
-    "year": 1887,
-    "low": 0,
-    "mid": 150,
-    "high": 300
-   },
-   {
-    "year": 1888,
-    "low": 2500,
-    "mid": 2900,
-    "high": 3300
-   },
-   {
-    "year": 1889,
-    "low": 2400,
-    "mid": 2850,
-    "high": 3300
-   },
-   {
-    "year": 1890,
-    "low": 1200,
-    "mid": 1475,
-    "high": 1750
-   }
-  ],
-  "documented_monthly": [
-   {
-    "period": "1881-82",
-    "francs": 100,
-    "fig": "F20"
-   },
-   {
-    "period": "Nuenen 1884-85",
-    "francs": 150,
-    "fig": "F21"
-   },
-   {
-    "period": "Arles 1888",
-    "francs": 250,
-    "fig": "F22",
-    "note": "Vincent's own reckoning"
-   }
-  ],
-  "theo_income_francs_per_year": [
-   11000,
-   14000
-  ],
-  "share_to_vincent": 0.145,
-  "share_fig": "F24",
-  "coal_miner_francs_per_year": 1070,
-  "miner_fig": "F28",
-  "francs_per_usd_1890": 5.18,
-  "parity_fig": "F26",
-  "usd_1890_to_2026": 37.1,
-  "cpi_fig": "F27"
- },
- "ch5_verdicts": [
-  {
-   "claim": "He sold only one painting in his life.",
-   "verdict": "BURNISHED",
-   "figs": [
-    "F70",
-    "F71"
-   ]
+  "_note": "Numbers for the essay's charts, each tied to a figures.md row (fig). Status mirrors figures.md; anything 'single source' or 'model' needs its hedge in the prose. Generated 2026-11-24 for the outline stage.",
+  "ch1_periods": {
+    "_chart": "bar width = months, bar height = paintings per month, so bar area = paintings",
+    "rows": [
+      {
+        "place": "Nuenen",
+        "from": "1883-12",
+        "to": "1885-11",
+        "months": 24,
+        "paintings": 200,
+        "label": "nearly 200",
+        "fig": "F09",
+        "status": "single source"
+      },
+      {
+        "place": "Paris",
+        "from": "1886-03",
+        "to": "1888-02",
+        "months": 23,
+        "paintings": 200,
+        "label": "more than 200",
+        "fig": "F10",
+        "status": "single source"
+      },
+      {
+        "place": "Arles",
+        "from": "1888-02",
+        "to": "1889-05",
+        "months": 15,
+        "paintings": 190,
+        "label": "184 to 200",
+        "fig": "F11",
+        "status": "disputed"
+      },
+      {
+        "place": "Saint-Rémy",
+        "from": "1889-05",
+        "to": "1890-05",
+        "months": 12,
+        "paintings": 150,
+        "label": "about 150",
+        "fig": "F12",
+        "status": "checked"
+      },
+      {
+        "place": "Auvers",
+        "from": "1890-05-20",
+        "to": "1890-07-27",
+        "months": 2.3,
+        "paintings": 70,
+        "label": "about 70 in about 70 days",
+        "fig": "F13",
+        "status": "checked"
+      }
+    ],
+    "_omitted": "Etten/The Hague/Drenthe 1881-83 (about 36 on catalogue lists only, F14) and Antwerp (a handful); add only if Bryan accepts a list-based count",
+    "sales_dot": {
+      "year": 1890,
+      "painting": "The Red Vineyard",
+      "francs": 400,
+      "buyer": "Anna Boch",
+      "fig": "F70"
+    }
   },
-  {
-   "claim": "He cut off his ear.",
-   "verdict": "CONFIRMED",
-   "figs": [
-    "F55"
-   ],
-   "note": "changed from the brief's BURNISHED"
+  "ch2_stipend_model": {
+    "fig": "F25",
+    "status": "model (see research/stipend-model.md)",
+    "francs_by_year": [
+      {
+        "year": 1880,
+        "low": 100,
+        "mid": 300,
+        "high": 500
+      },
+      {
+        "year": 1881,
+        "low": 600,
+        "mid": 900,
+        "high": 1200
+      },
+      {
+        "year": 1882,
+        "low": 1200,
+        "mid": 1500,
+        "high": 1800
+      },
+      {
+        "year": 1883,
+        "low": 1500,
+        "mid": 1800,
+        "high": 2100
+      },
+      {
+        "year": 1884,
+        "low": 1800,
+        "mid": 2100,
+        "high": 2400
+      },
+      {
+        "year": 1885,
+        "low": 1500,
+        "mid": 1750,
+        "high": 2000
+      },
+      {
+        "year": 1886,
+        "low": 300,
+        "mid": 375,
+        "high": 450
+      },
+      {
+        "year": 1887,
+        "low": 0,
+        "mid": 150,
+        "high": 300
+      },
+      {
+        "year": 1888,
+        "low": 2500,
+        "mid": 2900,
+        "high": 3300
+      },
+      {
+        "year": 1889,
+        "low": 2400,
+        "mid": 2850,
+        "high": 3300
+      },
+      {
+        "year": 1890,
+        "low": 1200,
+        "mid": 1475,
+        "high": 1750
+      }
+    ],
+    "documented_monthly": [
+      {
+        "period": "1881-82",
+        "francs": 100,
+        "fig": "F20"
+      },
+      {
+        "period": "Nuenen 1884-85",
+        "francs": 150,
+        "fig": "F21"
+      },
+      {
+        "period": "Arles 1888",
+        "francs": 250,
+        "fig": "F22",
+        "note": "Vincent's own reckoning"
+      }
+    ],
+    "theo_income_francs_per_year": [11000, 14000],
+    "share_to_vincent": 0.145,
+    "share_fig": "F24",
+    "coal_miner_francs_per_year": 1070,
+    "miner_fig": "F28",
+    "francs_per_usd_1890": 5.18,
+    "parity_fig": "F26",
+    "usd_1890_to_2026": 37.1,
+    "cpi_fig": "F27"
   },
-  {
-   "claim": "Nobody noticed him until after he died.",
-   "verdict": "BURNISHED",
-   "figs": [
-    "F72",
-    "F74"
-   ]
+  "ch5_verdicts": [
+    {
+      "claim": "He sold only one painting in his life.",
+      "verdict": "BURNISHED",
+      "figs": ["F70", "F71"]
+    },
+    {
+      "claim": "He cut off his ear.",
+      "verdict": "CONFIRMED",
+      "figs": ["F55"],
+      "note": "changed from the brief's BURNISHED"
+    },
+    {
+      "claim": "Nobody noticed him until after he died.",
+      "verdict": "BURNISHED",
+      "figs": ["F72", "F74"]
+    },
+    {
+      "claim": "He was self-taught.",
+      "verdict": "BURNISHED",
+      "figs": ["F40"]
+    },
+    {
+      "claim": "He shot himself in a wheat field.",
+      "verdict": "CONTESTED",
+      "figs": ["F95", "F96", "F97", "F98"]
+    }
+  ],
+  "ch6_waffle": {
+    "total_squares": [860, 900],
+    "kept_by_family": 200,
+    "kept_fig": "F81",
+    "sold_by_johanna": [190, 250],
+    "sold_fig": "F80",
+    "status": "kept checked; sold disputed"
   },
-  {
-   "claim": "He was self-taught.",
-   "verdict": "BURNISHED",
-   "figs": [
-    "F40"
-   ]
+  "ch6_price_curve": {
+    "_chart": "log scale, nominal US dollars; francs at 5.18 per dollar, guilders at about 2.5 per dollar (pre-1914 gold parity; add to figures.md before use)",
+    "points": [
+      {
+        "date": "1890",
+        "what": "The Red Vineyard to Anna Boch",
+        "original": "400 F",
+        "usd": 77,
+        "fig": "F70"
+      },
+      {
+        "date": "1907",
+        "what": "The Red Vineyard to Ivan Morozov",
+        "original": "30,000 F",
+        "usd": 5790,
+        "fig": "F75",
+        "status": "single source"
+      },
+      {
+        "date": "1908",
+        "what": "Helene Kröller-Müller's first Van Gogh",
+        "original": "110 guilders",
+        "usd": 44,
+        "fig": "F82",
+        "status": "guilder rate to add"
+      },
+      {
+        "date": "1987-03-30",
+        "what": "Sunflowers, Christie's London",
+        "original": "£24.75m",
+        "usd": 40000000,
+        "fig": "F88"
+      },
+      {
+        "date": "1987-11-11",
+        "what": "Irises, Sotheby's New York",
+        "original": "$53.9m",
+        "usd": 53900000,
+        "fig": "F89"
+      },
+      {
+        "date": "1990-05-15",
+        "what": "Portrait of Dr Gachet, Christie's New York",
+        "original": "$82.5m",
+        "usd": 82500000,
+        "fig": "F90"
+      }
+    ],
+    "annotations": [
+      {
+        "date": "1901-03",
+        "what": "Bernheim-Jeune retrospective, Paris",
+        "fig": "F84"
+      },
+      {
+        "date": "1905-07",
+        "what": "Stedelijk exhibition, nearly 500 works",
+        "fig": "F78"
+      },
+      {
+        "date": "1914",
+        "what": "Letters published; Theo reburied at Auvers",
+        "fig": "F85,F86"
+      },
+      {
+        "date": "1973-06-02",
+        "what": "Van Gogh Museum opens",
+        "fig": "F87"
+      },
+      {
+        "date": "2004-05-05",
+        "what": "Gachet's record falls to Picasso, $104m",
+        "fig": "F90"
+      }
+    ]
   },
-  {
-   "claim": "He shot himself in a wheat field.",
-   "verdict": "CONTESTED",
-   "figs": [
-    "F95",
-    "F96",
-    "F97",
-    "F98"
-   ]
-  }
- ],
- "ch6_waffle": {
-  "total_squares": [
-   860,
-   900
-  ],
-  "kept_by_family": 200,
-  "kept_fig": "F81",
-  "sold_by_johanna": [
-   190,
-   250
-  ],
-  "sold_fig": "F80",
-  "status": "kept checked; sold disputed"
- },
- "ch6_price_curve": {
-  "_chart": "log scale, nominal US dollars; francs at 5.18 per dollar, guilders at about 2.5 per dollar (pre-1914 gold parity; add to figures.md before use)",
-  "points": [
-   {
-    "date": "1890",
-    "what": "The Red Vineyard to Anna Boch",
-    "original": "400 F",
-    "usd": 77,
-    "fig": "F70"
-   },
-   {
-    "date": "1907",
-    "what": "The Red Vineyard to Ivan Morozov",
-    "original": "30,000 F",
-    "usd": 5790,
-    "fig": "F75",
-    "status": "single source"
-   },
-   {
-    "date": "1908",
-    "what": "Helene Kröller-Müller's first Van Gogh",
-    "original": "110 guilders",
-    "usd": 44,
-    "fig": "F82",
-    "status": "guilder rate to add"
-   },
-   {
-    "date": "1987-03-30",
-    "what": "Sunflowers, Christie's London",
-    "original": "£24.75m",
-    "usd": 40000000,
-    "fig": "F88"
-   },
-   {
-    "date": "1987-11-11",
-    "what": "Irises, Sotheby's New York",
-    "original": "$53.9m",
-    "usd": 53900000,
-    "fig": "F89"
-   },
-   {
-    "date": "1990-05-15",
-    "what": "Portrait of Dr Gachet, Christie's New York",
-    "original": "$82.5m",
-    "usd": 82500000,
-    "fig": "F90"
-   }
-  ],
-  "annotations": [
-   {
-    "date": "1901-03",
-    "what": "Bernheim-Jeune retrospective, Paris",
-    "fig": "F84"
-   },
-   {
-    "date": "1905-07",
-    "what": "Stedelijk exhibition, nearly 500 works",
-    "fig": "F78"
-   },
-   {
-    "date": "1914",
-    "what": "Letters published; Theo reburied at Auvers",
-    "fig": "F85,F86"
-   },
-   {
-    "date": "1973-06-02",
-    "what": "Van Gogh Museum opens",
-    "fig": "F87"
-   },
-   {
-    "date": "2004-05-05",
-    "what": "Gachet's record falls to Picasso, $104m",
-    "fig": "F90"
-   }
+  "ch7_scoreboard": [
+    {
+      "label": "paintings",
+      "value": "about 860 to 900",
+      "fig": "F01"
+    },
+    {
+      "label": "works on paper",
+      "value": "more than 1,100",
+      "fig": "F02"
+    },
+    {
+      "label": "letters he wrote that survive",
+      "value": "820",
+      "fig": "F04"
+    },
+    {
+      "label": "francs from Theo",
+      "value": "about 16,000 (13,000 to 19,000)",
+      "fig": "F25"
+    },
+    {
+      "label": "documented sales",
+      "value": "1",
+      "fig": "F71"
+    },
+    {
+      "label": "names on the petition",
+      "value": "about 30",
+      "fig": "F58"
+    },
+    {
+      "label": "years lived",
+      "value": "37",
+      "fig": "F95"
+    },
+    {
+      "label": "years from his death to the auction record",
+      "value": "100 (July 1890 to May 1990)",
+      "fig": "F90"
+    }
   ]
- },
- "ch7_scoreboard": [
-  {
-   "label": "paintings",
-   "value": "about 860 to 900",
-   "fig": "F01"
-  },
-  {
-   "label": "works on paper",
-   "value": "more than 1,100",
-   "fig": "F02"
-  },
-  {
-   "label": "letters he wrote that survive",
-   "value": "820",
-   "fig": "F04"
-  },
-  {
-   "label": "francs from Theo",
-   "value": "about 16,000 (13,000 to 19,000)",
-   "fig": "F25"
-  },
-  {
-   "label": "documented sales",
-   "value": "1",
-   "fig": "F71"
-  },
-  {
-   "label": "names on the petition",
-   "value": "about 30",
-   "fig": "F58"
-  },
-  {
-   "label": "years lived",
-   "value": "37",
-   "fig": "F95"
-  },
-  {
-   "label": "years from his death to the auction record",
-   "value": "100 (July 1890 to May 1990)",
-   "fig": "F90"
-  }
- ]
 }

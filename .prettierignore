@@ -1,0 +1,23 @@
+# Build output and caches
+dist/
+build/
+font_cache/
+node_modules/
+
+# Lockfiles
+package-lock.json
+
+# Markdown / docs: not reformatted (briefs, interview questions, research prompts and outputs live here)
+*.md
+*.mdx
+
+# Published and built pieces are single offline HTML files with inlined fonts/images/code: not reformatted
+*.html
+
+# Research prompts and outputs (deep-research worker output, not hand-edited source)
+proj/*/research/
+
+# Generated state/receipt files written by tools
+proj/*/.inspected_pngs.json
+proj/*/.offline_checked.json
+*.jsonl
