@@ -1,5 +1,6 @@
 # CI for ProofEr: runs on every push and pull request.
 #   offline      tools/check_offline.py: every published piece in pieces/ must load nothing from the internet.
+#   prettier     npx prettier --check . (config in .prettierrc / .prettierignore).
 #   stage-reads  tools/check_stage_reads.py: reads of restricted paths made by a new piece's session before its
 #                toolbox gate (from proj/*/access.jsonl). Warnings only, never a failure.
 name: CI
@@ -21,6 +22,17 @@ jobs:
         with:
           python-version: '3.12'
       - run: python tools/check_offline.py
+
+  prettier:
+    name: prettier check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci
+      - run: npx prettier --check .
 
   stage-reads:
     name: stage-read audit (warnings only)

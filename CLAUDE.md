@@ -67,3 +67,4 @@ to run parallel deep research, isolated fresh-eyes mockup review (`brief/CRAFT.m
 - **Edit in place, commit per stage**, with a message that says what changed.
 - **Verdicts are kept:** every client verdict goes into the brief's Decisions log, in the client's words. A verdict
   that would hold for other pieces becomes or adjusts an item in `brief/taste/house.md`.
+- **Formatting:** run `npx prettier --write` on changed files before committing (JS, CSS, JSON, YAML; Markdown, HTML pieces and research output are ignored via `.prettierignore`). CI runs `prettier --check .`.

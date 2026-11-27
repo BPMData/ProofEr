@@ -11,3 +11,4 @@ restricted-path stage order).
   4. **Autonomous build & QA:** generate `pieces/<name>.html`, embed fonts, run `tools/add_view_counter.py`, verify `tools/check_offline.py` + final desktop/phone PNGs + isolated fresh-eyes QA review.
 - **Programmatic gates:** `.agents/hooks/stage_gate.py` (wired in `.agents/hooks.json`, `.claude/settings.json`, and `.codex/hooks.json`) enforces stage order and QA receipts.
 - **Fast ops & bookkeeping:** For file moves, URL switches, or non-visual tweaks (unless the user asks), skip Playwright screenshots, `STATUS.md` updates, and PR-body rewrites. Batch `git` write/push commands into minimal turns rather than running each step sequentially.
+- **Formatting:** run `npx prettier --write` on changed files before committing (JS, CSS, JSON, YAML; Markdown, HTML pieces and research output are ignored via `.prettierignore`). CI runs `prettier --check .`.
