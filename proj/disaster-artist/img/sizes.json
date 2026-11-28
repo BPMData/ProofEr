@@ -1,0 +1,342 @@
+{
+  "arles-petition": {
+    "full": {
+      "h": 2000,
+      "kb": 305,
+      "w": 1345
+    },
+    "src": {
+      "file": "arles-petition.jpg",
+      "h": 2303,
+      "w": 1549
+    },
+    "thumb": {
+      "h": 640,
+      "kb": 54,
+      "w": 430
+    }
+  },
+  "dr-felix-rey": {
+    "full": {
+      "h": 2000,
+      "kb": 1115,
+      "w": 1655
+    },
+    "src": {
+      "file": "dr-felix-rey.jpg",
+      "h": 10004,
+      "w": 8279
+    },
+    "thumb": {
+      "h": 640,
+      "kb": 79,
+      "w": 530
+    }
+  },
+  "gauguin-christ-garden-of-olives": {
+    "full": {
+      "h": 1581,
+      "kb": 583,
+      "w": 2000
+    },
+    "src": {
+      "file": "gauguin-christ-garden-of-olives.jpg",
+      "h": 1817,
+      "w": 2299
+    },
+    "thumb": {
+      "h": 506,
+      "kb": 56,
+      "w": 640
+    }
+  },
+  "gauguin-les-miserables": {
+    "full": {
+      "h": 1604,
+      "kb": 835,
+      "w": 2000
+    },
+    "src": {
+      "file": "gauguin-les-miserables.jpg",
+      "h": 3207,
+      "w": 4000
+    },
+    "thumb": {
+      "h": 513,
+      "kb": 42,
+      "w": 640
+    }
+  },
+  "gauguins-chair": {
+    "full": {
+      "h": 2000,
+      "kb": 879,
+      "w": 1599
+    },
+    "src": {
+      "file": "gauguins-chair.jpg",
+      "h": 5004,
+      "w": 4000
+    },
+    "thumb": {
+      "h": 640,
+      "kb": 54,
+      "w": 512
+    }
+  },
+  "hiroshige-plum-park-kameido": {
+    "full": {
+      "h": 2000,
+      "kb": 562,
+      "w": 1373
+    },
+    "src": {
+      "file": "hiroshige-plum-park-kameido.jpg",
+      "h": 5826,
+      "w": 4000
+    },
+    "thumb": {
+      "h": 640,
+      "kb": 45,
+      "w": 439
+    }
+  },
+  "irises": {
+    "full": {
+      "h": 1544,
+      "kb": 843,
+      "w": 2000
+    },
+    "src": {
+      "file": "irises.jpg",
+      "h": 7413,
+      "w": 9600
+    },
+    "thumb": {
+      "h": 494,
+      "kb": 79,
+      "w": 640
+    }
+  },
+  "japonaiserie-flowering-plum-tree": {
+    "full": {
+      "h": 2000,
+      "kb": 744,
+      "w": 1679
+    },
+    "src": {
+      "file": "japonaiserie-flowering-plum-tree.jpg",
+      "h": 4766,
+      "w": 4000
+    },
+    "thumb": {
+      "h": 640,
+      "kb": 61,
+      "w": 537
+    }
+  },
+  "johanna-and-vincent-willem": {
+    "full": {
+      "h": 1913,
+      "kb": 196,
+      "w": 1200
+    },
+    "src": {
+      "file": "johanna-and-vincent-willem.jpg",
+      "h": 1913,
+      "w": 1200
+    },
+    "thumb": {
+      "h": 640,
+      "kb": 25,
+      "w": 401
+    }
+  },
+  "pere-tanguy": {
+    "full": {
+      "h": 2000,
+      "kb": 810,
+      "w": 1523
+    },
+    "src": {
+      "file": "pere-tanguy.jpg",
+      "h": 5082,
+      "w": 3870
+    },
+    "thumb": {
+      "h": 640,
+      "kb": 74,
+      "w": 487
+    }
+  },
+  "portrait-dr-gachet-orsay": {
+    "full": {
+      "h": 2000,
+      "kb": 845,
+      "w": 1663
+    },
+    "src": {
+      "file": "portrait-dr-gachet-orsay.jpg",
+      "h": 6748,
+      "w": 5611
+    },
+    "thumb": {
+      "h": 640,
+      "kb": 61,
+      "w": 532
+    }
+  },
+  "potato-eaters": {
+    "full": {
+      "h": 1410,
+      "kb": 338,
+      "w": 2000
+    },
+    "src": {
+      "file": "potato-eaters.jpg",
+      "h": 2820,
+      "w": 4000
+    },
+    "thumb": {
+      "h": 451,
+      "kb": 25,
+      "w": 640
+    }
+  },
+  "red-vineyard": {
+    "full": {
+      "h": 1594,
+      "kb": 985,
+      "w": 2000
+    },
+    "src": {
+      "file": "red-vineyard.jpg",
+      "h": 9092,
+      "w": 11406
+    },
+    "thumb": {
+      "h": 510,
+      "kb": 81,
+      "w": 640
+    }
+  },
+  "rey-ear-sketch": {
+    "full": {
+      "h": 2000,
+      "kb": 339,
+      "w": 1491
+    },
+    "src": {
+      "file": "rey-ear-sketch.jpg",
+      "h": 2683,
+      "w": 2000
+    },
+    "thumb": {
+      "h": 640,
+      "kb": 28,
+      "w": 477
+    }
+  },
+  "self-portrait-bandaged-ear": {
+    "full": {
+      "h": 2000,
+      "kb": 753,
+      "w": 1646
+    },
+    "src": {
+      "file": "self-portrait-bandaged-ear.jpg",
+      "h": 9704,
+      "w": 7987
+    },
+    "thumb": {
+      "h": 640,
+      "kb": 60,
+      "w": 527
+    }
+  },
+  "self-portrait-dedicated-to-gauguin": {
+    "full": {
+      "h": 2000,
+      "kb": 679,
+      "w": 1636
+    },
+    "src": {
+      "file": "self-portrait-dedicated-to-gauguin.jpg",
+      "h": 5000,
+      "w": 4089
+    },
+    "thumb": {
+      "h": 640,
+      "kb": 43,
+      "w": 523
+    }
+  },
+  "starry-night": {
+    "full": {
+      "h": 1584,
+      "kb": 1046,
+      "w": 2000
+    },
+    "src": {
+      "file": "starry-night.jpg",
+      "h": 3041,
+      "w": 3840
+    },
+    "thumb": {
+      "h": 507,
+      "kb": 74,
+      "w": 640
+    }
+  },
+  "sunflowers-national-gallery": {
+    "full": {
+      "h": 2000,
+      "kb": 732,
+      "w": 1573
+    },
+    "src": {
+      "file": "sunflowers-national-gallery.jpg",
+      "h": 6000,
+      "w": 4719
+    },
+    "thumb": {
+      "h": 640,
+      "kb": 50,
+      "w": 503
+    }
+  },
+  "van-goghs-chair": {
+    "full": {
+      "h": 2000,
+      "kb": 606,
+      "w": 1559
+    },
+    "src": {
+      "file": "van-goghs-chair.jpg",
+      "h": 6000,
+      "w": 4678
+    },
+    "thumb": {
+      "h": 640,
+      "kb": 50,
+      "w": 499
+    }
+  },
+  "yellow-house": {
+    "full": {
+      "h": 1567,
+      "kb": 631,
+      "w": 2000
+    },
+    "src": {
+      "file": "yellow-house.jpg",
+      "h": 3133,
+      "w": 4000
+    },
+    "thumb": {
+      "h": 501,
+      "kb": 46,
+      "w": 640
+    }
+  }
+}
