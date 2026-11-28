@@ -1,6 +1,6 @@
 # Conditionally White: chapter outline
 
-Status: DRAFT for Bryan's review, 2026-11-24 · built on `research/master-fact-sheet.md` (F-IDs) and
+Status: APPROVED by Bryan (2026-11-25, updated through research round 8) · built on `research/master-fact-sheet.md` (F-IDs) and
 `research/quote-verification.md` (quote IDs) · prose comes later, via Gemini
 
 The thesis, plot, tone and visual system stay as the brief sets them, with one calibration the research forces
@@ -20,8 +20,9 @@ but as the essay's argument, tested in Ch5, not as settled fact.
 ## Hero (paper): the horse
 - **As the brief, with the record and the legend kept apart (Bryan, 2026-11-24):** the ancestor sent to Australia
   for theft around 1850 is **family history**, told as such. That he stole **on purpose** to be transported, and that
-  it was a horse, stay **family legend**: no record checked so far confirms either (F55, F56). Kinship: **great-great-
-  great-grandfather** by the generation math (about 138 years ÷ 5 ≈ 28 a generation); Bryan to confirm the count.
+  it was a horse, stay **family legend**: no record checked so far confirms either (F55, F56). Kinship: **unconfirmed
+  number of greats** (Bryan, 2026-11-25: keep it unconfirmed—peasant fishing families weren't keeping careful 1700s
+  genealogies; frame that gap directly rather than guessing a generation count).
 - **Stat band, corrected:** `1 stolen horse (family legend) · about 1,000,000 dead · about 1,000,000 fled · 3 in 5 → about 1 in 20 acres · 1 conditional offer`.
   "~1,000,000 dead" holds as "about a million" (F33). "~1,000,000 fled" holds for 1846–51 (F34). "60% → 5%" becomes
   "about 59% → 3–5%" in the footnote (F01, F04).
@@ -92,15 +93,16 @@ but as the essay's argument, tested in Ch5, not as settled fact.
      privileges (AL8: no naked whipping without a JP, freedom dues with a gun; thirty lashes for a free Black person
      who raised a hand), and the court law's one clause lumped "popish recusants convict, negroes, mulattoes and
      Indian servants" together as unfit witnesses (AL7). Allen's motive line: a "white" identity that "set them at a
-     distance" from Black labourers (vol. 2 pp. 239–240) and "the participation of the laboring classes" (AL6).
+     distance" from Black labourers (vol. 2 pp. 239–240, AL9) and "the participation of the laboring classes" (AL6).
   3. **Two caveats, a sentence each (F98, now sourced):** the rebellion began as a 1675 settler war on Native
      peoples (Bacon "demanded a commission to fight the Indians"; Encyclopedia Virginia, Historic Jamestowne), not
      as a fight for equality, though its last holdouts included "servants and slaves who did not wish to return to
      servitude"; and the "divide and rule" reading is Allen's, while Encyclopedia Virginia dates the planters'
      choice of "more easily controlled enslaved Africans" decades earlier, waiting on supply ("By 1700 the slave
      population had soared, British immigration had slowed"). Name Edmund Morgan only after reading him.
-- **Page flags:** "Thus was the "white race" invented…" is vol. 2 p. 240 in one answer and p. 250 in another
-  (AL6: unsettled). p. 83's "headlight system" is an OCR slip for **headright**; print it as "[headright]".
+- **Page flags:** "Thus was the "white race" invented…" (AL6) is vol. 2 **p. 250** (settled R7); the motive sentence
+  ("set them at a distance…", AL9) is **pp. 239–240**. p. 83's "headlight system" is an OCR slip for **headright**;
+  print it as "[headright]".
 - **Faneuil Hall opens the arc (R6, F100):** Boston, 28 January 1842, the Address read aloud by Garrison to a hall the
   *Liberator* put at four thousand, "including a large number of Irish"; the crowd shouts "No, no, no!" against
   returning fugitives (FH1). Garrison writes the next day that there was "No opposition from any quarter" (GA1); a
@@ -219,7 +221,11 @@ but as the essay's argument, tested in Ch5, not as settled fact.
   the Draft Riots as "at least 105 dead, about 119 documented" (F47), with "eleven African-Americans were lynched"
   over five days (Allen, secondary); the Colored Orphan Asylum's 233
   children all got out (F48); no percentage of Irish rioters exists, so use Bernstein's sentence (I1, F49). Police,
-  machine and Union-army instruments are unverified (F50): keep the gauge's tick labels general until checked.
+  machine, volunteer fire-company, dock-exclusion and Union-vs.-riot mechanisms are now documented as **secondary**
+  (R8, F50, IG5: Philadelphia 1856 Moyamensing Hose police appointments; NY Tammany ward patronage, $250 Black
+  property test & 1863 dock exclusion; Ignatiev p. 88 Draft Riots vs. Union ranks comparison), while NYPD/Boston
+  police % shares and exact Union Irish regimental counts remain open—keep gauge tick labels qualitative rather than
+  inventing percentages.
 - **Australia side, the horse thief, rebuilt on what the records say:**
   - The menu had **three doors, not two**: Irish male transportation to Australia was **suspended from 1846 for about
     two years**, and men sentenced then often went to the **Bermuda hulks** instead (F51). From 1848, Van Diemen's Land
@@ -399,9 +405,39 @@ T5 (p. 201); Wood's two fragments (B12); Nangle (B18) and the *Herald* (B11); *T
 venue in an 1843 paper (O1); the livestock returns (F43) and the grain series (F39); butter's missing source (F40);
 Victoria's 1852 Act and its disallowance (F96); Dillon's "white men" (F63).
 
-**Still open after round 5:** the Dublin report giving 9 May 1843 (O1); R6 settled B16 (verified, Killen p. 99), B2's date, recipient and wording (secondary, Woodham-Smith p. 151; her endnote's primary still unread) Allen's and Ignatiev's wording (AL1–AL6, IG1–IG4), Du Bois's wage vs Roediger's phrase (F97), the Draft Riots' eleven lynchings (F47, secondary; no total in the six books), armed export escorts in 1846 (F41, WS1), Norfolk's curry powder (NF1, F99: a translated 1846 report, said to his own labourers), the 1841 Address and its replies via Ignatiev (IA1–IA5, O2), Faneuil Hall and Garrison's 1842 letters (F100, GA1–GA4), Douglass in Ireland (F101, DG1–DG4), Roediger's "two-sided process" (RG2), Fanon and Césaire for the close (F102), and retired B13, B23 and B6's wording (not in Killen or the other five books); B14 (retire);
-Woodham-Smith's private-letter source for B8; Nangle's tract vs the *Herald* (Mayo County Library scan, open in an
-ordinary browser); *The Times* 1860 issue itself; BPP 1852 LI for grain 1847–51; McCalman's own page (F94); the 1852
-Act's printed text (F96); when horse theft stopped being capital in Ireland (F58); Malcolm & Hall ch. 3's page and
-O'Malley's vote on a page image (F63). Most need print copies or subscription archives. Leads in
-`research/fact-sheets/r5-*.md`.
+**Settled in round 6 (2026-11-25, Bryan's NotebookLM pass over six print books, later eight with Fanon and Césaire):**
+B16 verified (Killen p. 99); B2's date, recipient and wording (secondary, Woodham-Smith p. 151; her endnote's
+primary still unread); Allen's and Ignatiev's wording (AL1–AL8, IG1–IG4); Du Bois's wage vs Roediger's phrase (F97);
+the Draft Riots' eleven lynchings (F47, secondary); armed export escorts in 1846 (F41, WS1); Norfolk's curry
+powder (NF1, F99); the 1841 Address and its replies (IA1–IA5, O2); Faneuil Hall and Garrison's 1842 letters (F100,
+GA1–GA4); Douglass in Ireland (F101, DG1–DG4); Roediger's "two-sided process" (RG2); Fanon and Césaire for the
+close (F102, FN1–FN4, CS1–CS3); Bacon's Rebellion (F98). Retired: B13, B23, B6's wording (not in the books) and B14
+(never found). Sheet: `research/fact-sheets/r6-notebooklm.md`.
+
+**Settled in round 7 (2026-11-25, Bryan's NotebookLM pass, questions 20–36):** AL6 settled to vol. 2 p. 250 and the
+pp. 239–240 motive sentence logged as AL9; Edward Pine Coffin named (WS2, W-S p. 101; p. 71 letter undated); Feb 1846
+Commons export figures (F43, W-S p. 71) and policy summary (WS4, p. 86; p. 158 folded into B15); Cummins's Skibbereen
+letter gets a second carrier (N4, W-S pp. 156–157); Richard Davis Webb named (GA2); IA5 venue/date ("the summer of
+1842", private letter to Dublin abolitionists); Mitchel's "plantation" source dated via Allen (*Citizen*, 14 Jan 1854,
+M5); Killen p. 175 added to T1 and Woodham-Smith dropped from T2; new candidates logged (T6, T7, Hanley KH1, Protestant
+Watchman KW1, O'Connell 1835 "Black O'Connell" O3). Sheet: `research/fact-sheets/r7-notebooklm.md`.
+
+**Settled in round 8 (2026-11-27, Bryan's NotebookLM pass + NCSE Norfolk verification):** *Northern Star* 3 Jan 1846
+col. 1 `"MORE CURRY FOR THE DUKE OF NORFOLK"` primary print verified via NCSE facsimile (NF1, F99, with *Punch*
+vol. 10 p. 9 companion); **F34** upgraded to `checked` via Killen pp. 248–250 & 1851 Census / Emigration Commissioners
+(`1,180,409` overseas 1846–51, shipboard pestilence `K7`); **F35** corrected from unverified `40.4%` to official
+1851 Census **`-28.8%`** (Killen p. 254; W-S p. 409 `-28.6%`; Connacht 1 in 119 p. 252); **F50** Ch6 police/Tammany/fire/dock/Union
+mechanisms documented as `secondary` (**IG5** Philadelphia `"Irish cop"`, Allen NY ward police & dock exclusion,
+Ignatiev p. 88 Draft Riots vs. Union ranks); **O2** verified to Ignatiev pp. 28–29 (noting Ignatiev's own ellipses and
+shifted endnote `79`); **M4** confirmed absent from Killen; new Killen primaries logged (`K2`–`K7` Skibbereen/Kilmoe
+coffins, Kilglass dogs, Mahon/Ormsby/Tipperary/Kilrush clearances, 1851 Census exodus; `PN1` *Punch* 1848). Sheet:
+`research/fact-sheets/r8-notebooklm.md`.
+
+**Still open after round 8:** the Dublin report giving 9 May 1843 (O1) and 1843 newspaper / 1860 AASS verification for O2's
+rest; Woodham-Smith's private-letter source for B8; Nangle's tract vs the *Herald* (Mayo County Library scan); *The
+Times* 1860 issue itself; BPP 1852 LI for grain 1847–51; McCalman's own page (F94); the 1852 Act's printed text (F96);
+when horse theft stopped being a capital crime in Ireland (F58); Malcolm & Hall ch. 3's page and O'Malley's vote on a
+page image (F63); W-S endnotes (including note 16 for B2 and note 46, omitted from the notebook scan); exact Arundel
+speech date (NF1); IA4's Pottsville meeting date; RG1 page-image check ("came but from"); NYPD/Boston police % shares
+and exact Union Irish regimental counts (F50). Most need print copies or subscription archives. Leads in
+`research/fact-sheets/r5-*.md`, `r6-notebooklm.md`, `r7-notebooklm.md` and `r8-notebooklm.md`.
