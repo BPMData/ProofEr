@@ -1,7 +1,7 @@
 # CLAUDE.md
 
-ProofEr makes sourced visual pieces—short **infographics** and long-form **interactive data essays**—built as
-single offline HTML pages that explain something with numbers, where every number traces back to checked sources. The
+ProofEr makes sourced visual pieces, including short **infographics**, scrolling **interactive data essays** and
+planned **motion essays**. Each piece is a single offline HTML page where every number traces back to checked sources. The
 repo is maintained by Bryan Murphy; a client can be anyone, and is usually not technical. The method is the one from
 [EOMD](https://github.com/BPMData/EOMD): context follows the stage, design comes before tools (`notes/architecture.md`).
 
@@ -51,6 +51,12 @@ to run parallel deep research, isolated fresh-eyes mockup review (`brief/CRAFT.m
 - **The client reads no jargon.** Everyday words in every question and everything they see.
 
 ## Where to go
+**EOMD** makes motion pieces for screens and maintains the motion-and-sound engine and its kit.
+**ProofEr** makes infographics, scrolling data essays and motion essays. If a piece's claims need sources,
+it's ProofEr, however much it moves.
+
+Motion essays will use the EOMD kit once it exists. Start the first one after the kit is available.
+
 | Task | Go to |
 |---|---|
 | A new piece | `/new-piece`; `/toolbox` at its gate |
@@ -60,6 +66,7 @@ to run parallel deep research, isolated fresh-eyes mockup review (`brief/CRAFT.m
 | Tools | `tools/` (its `CLAUDE.md` loads when you open it) |
 | CI | `.github/workflows/` (stage-read audit, offline check, first-question eval); the stage-read hook is in `.claude/settings.json` |
 | Why it's built this way | `notes/architecture.md` |
+| What the sister repos share | `notes/merge-map.md` |
 
 ## Maintainer rules
 - **Scripts Bryan runs are Thonny-friendly:** the Run button, no command-line arguments, every setting in a

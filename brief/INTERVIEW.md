@@ -2,9 +2,9 @@
 
 Every new piece starts with an interview and doesn't leave it without an approved brief
 (`proj/<name>/brief.md`, made from `TEMPLATE.md`). First requests are a feeling and a topic ("a somber infographic
-about the Holocaust"). The interview pins down whether it should be a tight **infographic** (short, scannable) or a
-deep **interactive data essay**, turns that into a message, an audience, the questions the numbers must answer, and
-the lines the piece must never cross.
+about the Holocaust"). The interview pins down whether it should be a tight **infographic**, a deep **interactive
+data essay**, or a **motion essay** that plays like a film. It turns that into a message, an audience, the questions
+the numbers must answer, and the lines the piece must never cross.
 
 ## How to run it
 - **Small rounds.** 2–3 questions per message, most important first. The client may answer in shorthand.
@@ -54,11 +54,11 @@ the lines the piece must never cross.
 ★ = every piece. Numbers = sections of `TEMPLATE.md`.
 
 **1. The ask**
-- ★ Confirm it's a ProofEr piece before anything else: a sourced visual piece (either a short **infographic** or a deeper
-  **interactive data essay**), published on the ProofEr site. (Knife Country, Nov 2026, was built start to finish in the
-  sister repo EOMD by mistake.) Motion pieces, players and screensavers belong in EOMD.
-- ★ Ask what format depth fits: quick, breezy **infographic** (1–2 screens / printable poster) or long-form **interactive
-  data essay** (scrolling, deep mechanics, detailed sources)?
+- ★ Confirm it's a ProofEr piece before anything else. If its claims need sources, it's ProofEr, however much it
+  moves. EOMD makes motion pieces for screens and maintains the engine kit.
+- ★ Ask what format and depth fit: quick, breezy **infographic** (1–2 screens / printable poster) or long-form **interactive
+  data essay** (scrolling, deep mechanics, detailed sources)? Once the EOMD kit is available, also offer a sourced
+  **motion essay** (plays like a film or follows a presenter). The format is design-only until then.
 - ★ What is it about, who is it for, and where will they see it? *"A poster about school lunch waste for the
   cafeteria wall."* Don't ask about deadlines or set one (T22).
 - ★ Usage budget (`Budget: light | standard | deep`): ask in everyday words how much session usage they want to spend:
@@ -91,12 +91,18 @@ the lines the piece must never cross.
 
 **7. Structure and reading order**
 - One big number, or several sections? What should the eye hit first?
+- For a motion essay, how long should it run? Should it play by itself, follow a presenter, or support both?
+- Does the presenter need speaker notes? What sound should people hear (narration, music, effects, silence)?
+  Where will it play and how loud should the mix be? Record the loudness target in the brief.
+- How many scenes fit each chapter? Give each scene a time budget, including reading holds, and record any
+  limits on what that scene can do on the target screen.
 
 **8. Brand and contrast**
 - ★ Colors, fonts, logos, any style rules (a logo file or a website to match is enough).
 
 **9. Language**
 - ★ Who reads it? Other languages for key lines, and who checks the translations?
+- For a motion essay, which languages are needed for on-screen text, captions, narration and speaker notes?
 
 **10. Call to action and credit**
 - ★ Is there a next step for the reader? Whose name goes on it as author or publisher?

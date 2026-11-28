@@ -3,7 +3,7 @@
 > **Visitors:** this is the project's working log. For what ProofEr is and how to use it, start with
 > [README.md](README.md).
 
-_Last updated: Nov 24, 2026._
+_Last updated: Nov 28, 2026._
 
 ## Pieces
 - **holocaust-by-country**, **nazi-victims-all-groups**: Bryan's pre-ProofEr pages, published in `pieces/`.
@@ -12,15 +12,9 @@ _Last updated: Nov 24, 2026._
 - **knife-country** (Yangjiang and the "City of Knives" title; a long scrolling piece for knife nerds online): **published** to `pieces/knife-country.html`; live once merged. Built in EOMD by mistake, then moved here; Bryan accepted its single-source figures as shown. `proj/knife-country/STATUS.md`.
 - **clay-cookware** (Glazed vs. unglazed clay in cookware & multi-cooker inserts; interactive data essay for food-science/cookware enthusiasts): **published** to `pieces/clay-cookware.html` (`index.html` updated; `0` restricted reads before gate; `check_offline.py` passed; desktop/phone Chromium QA verified; usage on \$20/mo plan all on Gemini 4 Hydrogen High incl. 11 workers + 3 PRs: ~36% of 5-hr window, ~8% weekly—indicating Antigravity has comfortable headroom before needing aggressive Medium/light throttling). `proj/clay-cookware/STATUS.md`. **v2 remake** ("It's All in the Wall": scannable, pot picker, interactive plates) at `pieces/clay-cookware-v2.html`, live but **not on the hub** until Bryan picks a version.
 
-- **sicilian-folk-magic** (Sicilian Catholicism and folk magic; long scrolling essay for witty history nerds;
-  baroque x cut-paper puppets): **refined & QA-verified** at `pieces/sicilian-folk-magic-rebuild.html`, linked from `index.html` since Nov 24
-  (1.75 MB with relative zoom WebPs in `pieces/assets/sicilian-folk-magic/`, view counter added, `check_offline.py`
-  passed; `pieces/sicilian-folk-magic.html` kept unlinked (direct URL only) as the original for side-by-side comparison, like
-  `clay-cookware-v2.html`). On branch `feat/sicilian-refinement-tuchman` (stacked on `fix/sicilian-bugfixes-and-cabinet`):
-  full *A Distant Mirror* + wry Sicilian friend narrative rewrite + single-voice continuity pass (`416` unique `[X...]`
-  IDs, `0` unverified), 3-tier myth checks (`3` Tier-1 canvas stamps + `2` Tier-2 scroll-lit checks), 6 tarot occultist
-  PD portraits, 4 new historical call-outs, Act 6 3-beat stage (with Picart *Auto-da-Fé*), Act 8 St. Benedict the Moor
-  stage cutout + rewrite, and full Desktop/Tablet/Phone/Print Chromium QA (`proj/sicilian-folk-magic/qa/`). `proj/sicilian-folk-magic/STATUS.md`.
+- **sicilian-folk-magic** (Sicilian Catholicism and folk magic): **refined & QA-verified** at
+  `pieces/sicilian-folk-magic-rebuild.html`, linked since Nov 24. The original remains available by direct URL.
+  Research, revision and QA details are in `proj/sicilian-folk-magic/STATUS.md`.
 
 - **disaster-artist** (Van Gogh essay): outline approved; prose next. `proj/disaster-artist/STATUS.md`.
 
@@ -28,13 +22,17 @@ _Last updated: Nov 24, 2026._
   `proj/conditionally-white/STATUS.md`.
 
 ## Across the repo
-- **Scope:** sourced visual pieces—short **infographics** and long-form **interactive data essays**. Recipe cards may come later.
+- **Sister repos:** EOMD makes motion pieces for screens and maintains the motion-and-sound engine and its kit.
+  ProofEr makes infographics, scrolling data essays and motion essays. If a piece's claims need sources, it's
+  ProofEr, however much it moves. The repos stay separate for now. See [the merge map](notes/merge-map.md).
+- **Motion essays:** will use the EOMD kit once it exists. The format is documented and the sync and integrity
+  checks are ready. The kit and the first essay are pending.
 - **License:** AGPLv3 (Oct 26); pieces people make are theirs.
 - **Toolbox:** small: `tools/embed_fonts.py` (tested on two of Bryan's example pages: the same fonts load with the
   network blocked), `tools/check_offline.py`, the choice panel. Until it holds earlier work, every piece is made from
   scratch and the interview skips the mode question.
-- **CI:** offline check on `pieces/` (fails on a remote load) and the stage-read audit (warnings only). The
-  first-question eval runs by hand (Bryan: no API key secret for now).
+- **CI:** offline check on `pieces/` (fails on a remote load), EOMD kit integrity check, and the stage-read audit
+  (warnings only). The first-question eval runs by hand (Bryan: no API key secret for now).
 - **Multi-harness gates:** `.agents/hooks/stage_gate.py` enforces research/figures/stills/QA gates across
   Antigravity (`.agents/hooks.json`), Claude Code (`.claude/settings.json`), and Codex (`.codex/hooks.json`), with
   the `auto-piece` skill and `.agents/workflows/research_piece.py` for explicit autonomous end-to-end runs.

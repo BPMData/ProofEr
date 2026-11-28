@@ -68,6 +68,16 @@ Two or three chart forms per piece at most; ten read as a demo.
 - Motion builds a number in reading order or shows change over time; never decoration. Respect reduced motion.
 - Nothing flashes more than three times a second. It must print and read with scripts off.
 
+### Motion essays
+
+- Let the story decide how scenes join. Use a transition when it conveys a relationship between scenes. A cut is
+  enough when it keeps the argument clear.
+- Pace each scene by the time people need to read the text and understand the chart or image. Check the holds
+  in each language at the intended viewing distance.
+- Check type in the picture for size, contrast and legibility across the frames where it appears, including
+  during transitions and against the brightest and darkest backgrounds.
+- Nothing flashes more than three times in any one-second window. Check scenes and transitions in playback.
+
 ## 8. Human subjects
 - People are never decoration: no icons of victims as cute figures, no gamified counters, no "fun" transitions.
 - Name groups the way the groups and recognized scholarly and memorial institutions name them.

@@ -8,7 +8,8 @@ each gate. Write it in the client's words and keep the reasons. **ASK** = missin
 **Claude's call** = delegated by the client._
 
 ## 1. The ask
-_Topic, format (infographic vs. interactive data essay), audience, where it's seen. No deadline (`taste/house.md` T22)._
+_Topic, format (infographic, interactive data essay, or motion essay), audience, where it's seen. No deadline
+(`taste/house.md` T22). Motion essays can start when the EOMD kit is available._
 
 ## 2. Purpose and tone
 _What readers should know, feel and do afterwards; three tone words; what it must not feel like._
@@ -36,11 +37,24 @@ client trusts or distrusts. Checked figures live in `proj/<name>/figures.md`, ne
 ## 7. Structure and reading order
 _Sections, what the eye hits first, what's hero and what's support._
 
+### Motion essay only
+
+Use the same research and figures gates as every ProofEr piece.
+
+- Total running time and playback mode (plays by itself, presenter-driven, or both).
+- Speaker notes (whether they're needed, and for which scenes).
+- Sound plan (narration, music, effects or silence), playback setting, and target loudness in LUFS and true peak in dBTP.
+
+| Chapter | Planned scene count | Scene | Time budget (including reading holds) | Performance limits on the target screen |
+|---|---|---|---|---|
+| | | | | |
+
 ## 8. Brand and contrast
 _Colors (hex and role), fonts, logos; contrast rules._
 
 ## 9. Language
-_Languages, which lines, who checks translations._
+_Languages, which lines, who checks translations. For a motion essay, record languages for on-screen text,
+captions, narration and speaker notes._
 
 ## 10. Call to action and credit
 _The reader's next step; author and publisher credit. Nothing invented._

@@ -4,6 +4,9 @@ build/
 font_cache/
 node_modules/
 
+# Vendored EOMD kit files retain their upstream bytes
+vendor/eomd-kit/
+
 # Lockfiles
 package-lock.json
 
