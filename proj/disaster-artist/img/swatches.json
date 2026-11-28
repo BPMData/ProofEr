@@ -1,0 +1,93 @@
+{
+  "self-portrait-dedicated-to-gauguin": [
+    {
+      "hex": "#5EAD83",
+      "share": 0.539,
+      "name": "green"
+    },
+    {
+      "hex": "#3A3A22",
+      "share": 0.141,
+      "name": "dark yellow-green"
+    },
+    {
+      "hex": "#848652",
+      "share": 0.1,
+      "name": "yellow-green"
+    },
+    {
+      "hex": "#5C4C1E",
+      "share": 0.086,
+      "name": "dark yellow"
+    },
+    {
+      "hex": "#B7AF73",
+      "share": 0.079,
+      "name": "yellow"
+    },
+    {
+      "hex": "#28343A",
+      "share": 0.055,
+      "name": "soot black"
+    }
+  ],
+  "gauguin-les-miserables": [
+    {
+      "hex": "#CA9734",
+      "share": 0.399,
+      "name": "ochre"
+    },
+    {
+      "hex": "#6A7466",
+      "share": 0.186,
+      "name": "grey"
+    },
+    {
+      "hex": "#415453",
+      "share": 0.145,
+      "name": "grey"
+    },
+    {
+      "hex": "#A3795B",
+      "share": 0.095,
+      "name": "orange"
+    },
+    {
+      "hex": "#7C9469",
+      "share": 0.089,
+      "name": "yellow-green"
+    },
+    {
+      "hex": "#BAAC97",
+      "share": 0.086,
+      "name": "ochre"
+    }
+  ],
+  "gauguin-christ-garden-of-olives": [
+    {
+      "hex": "#2A1E2B",
+      "share": 0.43,
+      "name": "dark violet"
+    },
+    {
+      "hex": "#5C515E",
+      "share": 0.177,
+      "name": "grey"
+    },
+    {
+      "hex": "#62362A",
+      "share": 0.153,
+      "name": "dark orange"
+    },
+    {
+      "hex": "#506291",
+      "share": 0.126,
+      "name": "blue"
+    },
+    {
+      "hex": "#BD927D",
+      "share": 0.087,
+      "name": "orange"
+    }
+  ]
+}
