@@ -1,0 +1,2 @@
+# EOMD's manifest hashes exact bytes, including line endings.
+/vendor/eomd-kit/** -text

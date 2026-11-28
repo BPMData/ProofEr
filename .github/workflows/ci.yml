@@ -1,6 +1,7 @@
 # CI for ProofEr: runs on every push and pull request.
 #   offline      tools/check_offline.py: every published piece in pieces/ must load nothing from the internet.
 #   prettier     npx prettier --check . (config in .prettierrc / .prettierignore).
+#   vendor       tools/check_vendor.py: verify the vendored EOMD kit against KIT.json.
 #   stage-reads  tools/check_stage_reads.py: reads of restricted paths made by a new piece's session before its
 #                toolbox gate (from proj/*/access.jsonl). Warnings only, never a failure.
 name: CI
@@ -33,6 +34,16 @@ jobs:
           node-version: '22'
       - run: npm ci
       - run: npx prettier --check .
+
+  vendor:
+    name: EOMD kit integrity
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python tools/check_vendor.py
 
   stage-reads:
     name: stage-read audit (warnings only)

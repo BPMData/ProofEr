@@ -62,5 +62,8 @@ Copyright (C) 2026 Bryan Patrick Murphy. The code is licensed under the
 [GNU Affero General Public License v3.0](LICENSE) (AGPLv3): you may use, change and share it, but if you share a
 changed version, or run one as a website or online service, you must share its source code under AGPLv3 too.
 
-Pieces you make with this (their words, data, pictures and music) are yours to license however you like; the code
-inside stays AGPLv3.
+Pieces you make with this (their words, data, pictures and music) are yours to license however you like.
+The ProofEr code inside stays AGPLv3.
+
+When the EOMD kit ships, `vendor/eomd-kit/` will contain MIT-licensed code from EOMD included in this AGPLv3
+project. The kit keeps its upstream copyright and license notices. Code moves one way, from EOMD into ProofEr.
