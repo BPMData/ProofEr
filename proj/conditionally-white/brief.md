@@ -19,6 +19,7 @@ stops at the outline (brief §10 steps 1–2). Images are found by Bryan in Gemi
 - 2026-11-26 · Asked whether Ch5 should say "under guard" flatly for 1846 with a one-line caveat about later years: "Yes." · Ch5 claim 2 says food was exported under armed guard in 1846 (Clonmel convoy), with the caveat that from 1847 Ireland imported more grain than it exported.
 - 2026-11-26 · On Césaire's Hitler passage (*Discourse on Colonialism* p. 36): "I absolutely love that line" … "I quote that constantly and refuse to censor it" · If the essay uses it (candidate for the close, F102), it is quoted whole and uncensored, slur included in Césaire's own quotation marks.
 - 2026-11-26 · Asked whether to add Fanon's cases of Algerian children (Series B Cases 1 and 4) to the essay: "Add it to the close" · They go in the close just before Césaire's boomerang, only as Fanon records them; any present-day parallel is left unstated.
+- 2026-11-26 · On the 3 Jan 1846 *Northern Star* curry-powder scan (`northern-star-1846-01-03`): "Make sure there's the ability to like click that image and get a full text transcript side by side with it if we do use it, or something lol. We did our best but the readability is still going to be difficult for the average person." · Dense/tiny-print archival facsimiles open on click/tap into a side-by-side Facsimile + Clean Transcript lightbox (scan left, legible transcript right; close button / backdrop click / `Esc`).
 
 ---
 

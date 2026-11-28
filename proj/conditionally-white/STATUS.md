@@ -2,18 +2,18 @@
 
 _Last updated: Nov 25, 2026._
 
-- **Round 6 (Nov 25, Bryan's NotebookLM pass over six print books, in progress):** B16 verified (Killen p. 99, *ILN* reprint of the *Sligo Champion*: Burrows, M'Manus); B13, B23 and the Duke of Cambridge's words (B6) retired (not in Killen or the others); new candidate: the Duke of Norfolk's curry powder (Woodham-Smith p. 43). Trevelyan's "great evil" (B2) settled as secondary: to Col. Harry Jones, 2 Dec (1846), Woodham-Smith p. 151. Allen's own wording read for Ch3 (AL1–AL6, incl. the 1676/1691/1705 chronology) and Ignatiev's thesis (IG1–IG4), F29; the 1841 Address and the Irish-American replies via Ignatiev (IA1–IA5), plus O'Connell's 11 Oct 1843 Cincinnati reply (O2, new). "Wages of whiteness" is Roediger's phrase, Du Bois's is "public and psychological wage" (F97); no Draft Riots total in the six books, Allen gives eleven lynched (F47). All 12 questions answered. Follow-ups: Allen's Penal Laws/Virginia parallel (vol. 1 pp. 81–90) and the 1705 Virginia act (vol. 2 pp. 248–250), quotes AL7–AL8, for the Ch3 ladder. Follow-ups 13, 14, 16: armed export escorts in 1846 documented via Woodham-Smith pp. 75, 120–121 (F41, WS1), so Ch5 claim 2 is now CONFIRMED for 1846 with a 1847 net-import caveat (Bryan, 2026-11-26); Norfolk's curry powder is her paraphrase, undated (NF1); no Draft Riots total or asylum in the books. Food riots (Youghal, Dungarvan, Clonmel mills; WS3, K1) added as the crowd's side. Bacon's Rebellion beat added to Ch3 at Bryan's ask, with a Ch6 callback (F98; both caveats sourced to Encyclopedia Virginia and Historic Jamestowne). The Duke of Norfolk's curry line goes on the Ch4 wall at Bryan's ask (NF1, F99): *Northern Star*, 3 Jan 1846, a translated reprint, said to his own Sussex labourers, not to Ireland; the English original, the date and Punch are open for the Antigravity pass. Last batch (all 19 answered): Trevelyan "2 December [1846]" (B2); Garrison's 1842 letters dated, with his "the bargain obviously is…" for Ch6 (GA1–GA4); Faneuil Hall, 28 Jan 1842, about 4,000 by the *Liberator*'s count (F100); Roediger's "two-sided process" (RG2); Douglass in Ireland (F101, DG1–DG4); Fanon and Césaire as a candidate frame for the close (F102), Césaire uncensored at Bryan's word; Fanon's two children's cases (FN3–FN4) added to the close before Césaire at Bryan's ask; the "children's one wish" story and *J'ai huit ans* not in the books. Sheet: `research/fact-sheets/r6-notebooklm.md`.
-- **Stage:** draft outline (`outline.md`), awaiting Bryan's review; his §10 answers are folded in (Ch7 is now the diaspora beat; the number of greats is his to confirm).
+- **Stage:** outline (`outline.md`, updated through research rounds 4–7) **APPROVED** by Bryan (Nov 25); his §10 answers are folded in (Ch7 is the diaspora beat; number of greats kept explicitly unconfirmed).
   Brief = Bryan's own uploaded build brief (`brief.md`). This pass is research and outline only; prose comes
   later via Gemini.
 - **Research:** round 1 ran 21 Claude workers on batches Q1–Q16 plus the Reagan and Biden records; their fact sheets
   are in `research/fact-sheets/`. The workers shared one search and page-read budget (400 page reads an hour), which
   ran out partway through, so round 1 is partial. A gap-fill round (`gap-*.md`) started after the limit was hit and
   verified almost nothing; its sheets list the exact leads to open next.
-- **Merged sheets:** `research/master-fact-sheet.md` (F01–F96, keyed to the pack's PS/DQ/B IDs) and
+- **Merged sheets:** `research/master-fact-sheet.md` (F01–F102, keyed to the pack's PS/DQ/B IDs) and
   `research/quote-verification.md` (every quote: source, date, status). Only VERIFIED or SECONDARY quotes may ship.
-- **Images:** not searched. `research/image-hunt.md` is the list for Gemini Antigravity (47 rows, updated with the
-  research: no Castle Hill flag, Eureka flag added, Mitchel p. 219, Digest identifiers).
+- **Images:** not searched. `research/image-hunt.md` is the list for Gemini Antigravity (60 rows, numbered through 58,
+  updated with the research and round-6 subjects: no Castle Hill flag, Eureka flag added, Mitchel p. 219, Digest
+  identifiers, plus Ch3/Ch4/Ch6/close additions).
 - **Round 2 (Nov 24):** six workers, again cut short by the page-read limit; results in `research/fact-sheets/r2-*.md`
   and merged into both sheets (Malthus in full, Table 95 is a resettlement plan, T3 is a charity's aims, B20 dropped).
 - **Round 3 (Nov 24):** five workers, `research/fact-sheets/r3-*.md`, merged (O'Connell 1843 found; Table 95 p. 399;
@@ -24,4 +24,12 @@ _Last updated: Nov 25, 2026._
 - **Round 5 (Nov 25):** four workers, `research/fact-sheets/r5-*.md`, merged (Clarendon's "mud" letter found; the
   1860 *Times* leader dated; the livestock returns read, so "3 million animals" holds with caveats; Victoria's 1852 Act
   and its disallowance).
-- **Open:** the short list at the end of `outline.md`; most items now need print copies or subscription archives.
+- **Round 6 (Nov 25):** Bryan's NotebookLM pass over eight print books (Killen, Woodham-Smith, Allen vols 1–2, Ignatiev,
+  Roediger, Fanon, Césaire), `research/fact-sheets/r6-notebooklm.md`, merged (B16 verified; B2 dated; Allen, Ignatiev,
+  Roediger and Du Bois wording for Ch3 and Ch6; armed export escorts in 1846 so Ch5 claim 2 is confirmed for 1846 with
+  the 1847 caveat; Bacon's Rebellion, Norfolk's curry line, Faneuil Hall and Garrison, Douglass in Ireland; Fanon's two
+  children's cases and Césaire for the close; B6, B13, B14, B23 retired).
+- **Round 7 (Nov 25):** NotebookLM follow-up answers 20–36, `research/fact-sheets/r7-notebooklm.md`, merged (AL6 settled
+  at p. 250 and AL9 added; Edward Pine Coffin named; Feb 1846 Commons export figures; Cummins second carrier; Richard
+  Davis Webb named; Mitchel source dated; new candidates T6, T7, KH1, KW1, WS4, O3; B21 consistent with R4).
+- **Open:** see "Still open after round 7" at the end of `outline.md`; most remaining items need print copies or subscription archives.

@@ -1,0 +1,1106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Disaster Artist — Provisional Mockup (ProofEr)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62.5..100,600..900&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F2EDE3;
+  --paper2:#E9E1CF;
+  --ink:#1B1A17;
+  --mute:#5C564C;
+  --rule:#C9C0AE;
+  --red:#8E1C15;
+  --red-ink:#B3261E;
+  --gold:#E2B44B;
+  --iron:#33383D;
+  --indigo:#1E2A57;
+  --ochre:#B57708;
+  --ochre-deep:#5A3903;
+  --lamplight:#F3E6C4;
+  --onfield:#F4EFE6;
+  --onfield-mute:#D9D2C4;
+  --serif:'Newsreader', Georgia, 'Times New Roman', serif;
+  --disp:'Archivo', 'Arial Narrow', 'Helvetica Neue', sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;background:var(--paper);color:var(--ink)}
+body{margin:0;font-family:var(--serif);font-size:19px;line-height:1.62;color:var(--ink);background:var(--paper);-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
+a{color:var(--red);text-underline-offset:3px}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+
+.draft-ribbon{position:sticky;top:0;z-index:50;background:var(--iron);color:var(--onfield);font-family:var(--disp);font-size:12px;letter-spacing:.08em;text-transform:uppercase;padding:6px 18px;border-bottom:2px solid var(--gold);display:flex;align-items:center;justify-content:space-between;gap:12px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.prose{max-width:38rem}
+.prose p{margin:0 0 1.15em}
+.kicker{font-family:var(--disp);font-variation-settings:"wdth" 82;font-weight:800;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--red);margin:0 0 10px}
+h1,h2,h3{font-family:var(--disp);font-variation-settings:"wdth" 76;font-weight:900;letter-spacing:-.01em;line-height:.98;margin:0}
+h1{font-size:clamp(3.1rem,9vw,6.2rem);text-transform:uppercase;word-spacing:.14em}
+h2{font-size:clamp(2rem,5.4vw,3.5rem);text-transform:uppercase;margin-bottom:16px}
+h3{font-size:1.35rem;font-variation-settings:"wdth" 85;margin-bottom:8px}
+.standfirst{font-size:1.25rem;line-height:1.5;color:var(--ink);max-width:44rem;margin:18px 0 22px}
+.byline{font-family:var(--disp);font-size:.82rem;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin-bottom:24px}
+.fn{font-family:var(--disp);font-size:.72em;font-weight:700;margin-left:1px}
+.fn a{text-decoration:none}
+
+/* Sections & Fields */
+section{padding:72px 0;border-top:1px solid var(--rule)}
+section.hero{border-top:none;padding:56px 0 64px}
+.field-ochre{background:linear-gradient(180deg,#5C3B04 0%,#492E03 100%);color:var(--onfield);border-top:none}
+.field-ochre .kicker{color:var(--gold)}
+.field-ochre .mute{color:var(--onfield-mute)}
+.field-indigo{background:radial-gradient(circle at 18% 20%,rgba(226,180,75,.16) 0 1.5px,transparent 2px),radial-gradient(circle at 72% 14%,rgba(244,239,230,.22) 0 1px,transparent 2px),radial-gradient(circle at 86% 42%,rgba(226,180,75,.18) 0 1.5px,transparent 2px),radial-gradient(circle at 34% 68%,rgba(244,239,230,.15) 0 1px,transparent 2px),var(--indigo);color:var(--onfield);border-top:none}
+.field-indigo .kicker{color:var(--gold)}
+.field-lamplight{background:var(--lamplight);color:var(--ink);border-top:2px solid var(--ochre)}
+.field-red{background:var(--red);color:var(--onfield);border-top:none}
+.field-red .kicker{color:var(--gold)}
+
+/* Stat band */
+.stat-band{display:grid;grid-template-columns:repeat(6,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule);margin:28px 0 32px}
+.stat-cell{background:var(--paper2);padding:16px 14px}
+.stat-num{font-family:var(--disp);font-variation-settings:"wdth" 75;font-weight:900;font-size:1.55rem;line-height:1.05;color:var(--ink)}
+.stat-lbl{font-family:var(--disp);font-size:.73rem;letter-spacing:.05em;text-transform:uppercase;color:var(--mute);margin-top:5px}
+
+/* Specimen Plates & Cards */
+.plate{background:var(--paper2);border:1.5px solid var(--ink);padding:24px;margin:28px 0}
+.field-ochre .plate,.field-indigo .plate{background:var(--paper);color:var(--ink);border-color:var(--gold)}
+.plate-head{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:12px;border-bottom:1px solid var(--rule);padding-bottom:12px;margin-bottom:18px}
+.plate-label{font-family:var(--disp);font-size:.76rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--red)}
+.plate-note{font-family:var(--disp);font-size:.82rem;color:var(--mute)}
+.cap{font-family:var(--disp);font-size:.84rem;line-height:1.45;color:var(--mute);margin-top:10px}
+.field-indigo .cap-light,.field-ochre .cap-light{color:var(--onfield-mute)}
+
+/* Prequel strip */
+.gyre{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin:24px 0 34px}
+.gyre-card{background:var(--paper2);border:1px solid var(--rule);padding:14px;position:relative;display:flex;flex-direction:column;justify-content:space-between}
+.gyre-card.pencil{background:var(--ink);color:var(--onfield);border-color:var(--ink)}
+.gyre-yr{font-family:var(--disp);font-weight:900;font-size:1.15rem;color:var(--red)}
+.gyre-card.pencil .gyre-yr{color:var(--gold)}
+.gyre-title{font-family:var(--disp);font-weight:800;font-size:.95rem;margin:4px 0 6px}
+.gyre-desc{font-size:.84rem;line-height:1.4;color:var(--mute);margin:0}
+.gyre-card.pencil .gyre-desc{color:var(--onfield-mute)}
+.stamp-x{position:absolute;top:10px;right:10px;border:2px solid var(--red);color:var(--red);font-family:var(--disp);font-weight:900;font-size:.75rem;padding:1px 6px;transform:rotate(-8deg)}
+
+/* Buttons */
+.btn-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+.btn{font-family:var(--disp);font-weight:800;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;min-height:44px;padding:10px 14px;border:1.5px solid var(--ink);background:var(--paper);color:var(--ink);cursor:pointer;border-radius:0;transition:background .15s,color .15s}
+.btn[aria-pressed="true"],.btn.solid{background:var(--ink);color:var(--onfield)}
+.btn:hover{background:var(--red);color:var(--onfield);border-color:var(--red)}
+
+/* Grids */
+.grid-2{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:start}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.triptych figure{margin:0;background:var(--paper);border:1px solid var(--rule);padding:12px}
+.triptych img{width:100%;height:320px;object-fit:contain;background:var(--paper2);border:1px solid var(--rule)}
+
+/* Swatches */
+.swatch-bar{display:flex;height:20px;margin:10px 0 6px;border:1px solid var(--ink);overflow:hidden}
+.swatch-legend{display:flex;flex-wrap:wrap;gap:6px;font-family:var(--disp);font-size:.7rem;color:var(--mute)}
+.chip{display:inline-flex;align-items:center;gap:4px}
+.chip i{display:inline-block;width:10px;height:10px;border:1px solid rgba(0,0,0,.35)}
+
+/* Museum Plate Triggers & Full-Res Lightbox */
+.vg-zoom{cursor:zoom-in;border:1px solid var(--rule);background:var(--paper2);transition:outline-color .15s}
+.vg-zoom:hover{outline:2px solid var(--red)}
+.thumb-card{margin:0;background:var(--paper);border:1px solid var(--rule);padding:12px;color:var(--ink)}
+.thumb-card img{width:100%;height:220px;object-fit:contain;background:var(--paper2)}
+.vg-backdrop{position:fixed;inset:0;z-index:80;background:rgba(27,26,23,.84);display:none;align-items:center;justify-content:center;padding:20px}
+.vg-backdrop.open{display:flex}
+.vg-dialog{background:var(--paper);color:var(--ink);border:2px solid var(--gold);max-width:1080px;width:100%;max-height:92vh;display:flex;flex-direction:column;box-shadow:0 18px 48px rgba(0,0,0,.45)}
+.vg-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 18px;border-bottom:1px solid var(--rule);background:var(--paper2);flex-wrap:wrap}
+.vg-body{display:grid;grid-template-columns:1.2fr .85fr;gap:20px;padding:18px;overflow:auto}
+.vg-img-wrap{background:var(--paper2);border:1px solid var(--rule);padding:10px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:10px;align-self:start}
+.vg-img-btn{position:relative;display:inline-block;cursor:zoom-in;border:none;padding:0;background:transparent;max-width:100%}
+.vg-img-btn img{max-height:60vh;width:auto;max-width:100%;display:block}
+.vg-zoom-badge{position:absolute;right:10px;bottom:10px;background:rgba(27,26,23,.86);color:var(--onfield);border:1px solid var(--gold);font-family:var(--disp);font-size:.72rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:5px 9px;pointer-events:none}
+.vg-meta{font-size:.95rem;line-height:1.58;color:var(--ink)}
+.vg-meta dl{margin:12px 0;display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:.84rem;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:10px 0}
+.vg-meta dt{font-family:var(--disp);font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--mute);font-size:.74rem}
+.vg-meta dd{margin:0;word-break:break-word}
+
+/* Stage 2: Full-Screen 100% Resolution Loupe & Pan Viewer */
+.vg-fs{position:fixed;inset:0;z-index:100;background:#12110F;color:var(--onfield);display:none;flex-direction:column}
+.vg-fs.open{display:flex}
+.vg-fs-bar{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 14px;background:#1D1B18;border-bottom:2px solid var(--gold);flex-wrap:wrap;flex:0 0 auto}
+.vg-fs-group{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.vg-fs-btn{font-family:var(--disp);font-weight:800;font-size:.76rem;letter-spacing:.06em;text-transform:uppercase;min-height:42px;padding:8px 13px;border:1.5px solid var(--gold);background:#26231F;color:var(--onfield);cursor:pointer;border-radius:0}
+.vg-fs-btn:hover,.vg-fs-btn[aria-pressed="true"]{background:var(--gold);color:var(--ink)}
+.vg-fs-btn.danger{border-color:#D86A60;background:#3A1613}
+.vg-fs-btn.danger:hover{background:var(--red);color:var(--onfield);border-color:var(--onfield)}
+.vg-fs-status{font-family:var(--disp);font-size:.76rem;color:var(--onfield-mute);letter-spacing:.03em}
+.vg-fs-stage{position:relative;flex:1 1 auto;overflow:auto;-webkit-overflow-scrolling:touch;display:grid;place-items:center;padding:16px;cursor:grab;user-select:none}
+.vg-fs-stage.fit img{max-width:100%;max-height:100%;width:auto;height:auto;cursor:zoom-in}
+.vg-fs-stage.native{display:block;padding:24px}
+.vg-fs-stage.native img{max-width:none;max-height:none;display:block;margin:0 auto;cursor:zoom-out}
+.vg-fs-stage.dragging{cursor:grabbing}
+.vg-fs-loader{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(18,17,15,.92);border:1.5px solid var(--gold);padding:14px 20px;font-family:var(--disp);font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;display:none;pointer-events:none;z-index:2}
+.vg-fs-loader.show{display:block}
+@media (max-width:820px){.vg-body{grid-template-columns:1fr}}
+
+/* Testability ladder */
+.ladder{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin:24px 0}
+.rung{background:rgba(244,239,230,.08);border:1px solid rgba(226,180,75,.38);padding:14px}
+.rung-score{font-family:var(--disp);font-weight:900;font-size:1.1rem;color:var(--gold)}
+.rung h4{font-family:var(--disp);font-weight:800;font-size:.95rem;margin:4px 0 6px;color:var(--onfield)}
+.rung p{font-size:.82rem;line-height:1.42;color:var(--onfield-mute);margin:0}
+
+/* Verdict Stamp */
+.verdict-box{background:var(--paper);border:1.5px solid var(--ink);padding:22px;position:relative}
+.verdict-stamp{display:inline-block;font-family:var(--disp);font-variation-settings:"wdth" 78;font-weight:900;font-size:1.35rem;letter-spacing:.12em;padding:4px 12px;border:3px solid var(--red);color:var(--red);transform:rotate(-2.5deg);margin-bottom:12px}
+.verdict-stamp.confirmed{border-color:#265C32;color:#265C32}
+.verdict-stamp.contested{border-color:var(--indigo);color:var(--indigo)}
+
+/* Stipend slider */
+.calc-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:center}
+.calc-num{font-family:var(--disp);font-variation-settings:"wdth" 76;font-weight:900;font-size:2.6rem;line-height:1;color:var(--red)}
+input[type=range]{width:100%;accent-color:var(--red);height:32px}
+
+/* Scoreboard */
+.score-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:28px 0 36px}
+.score-item{border-top:2px solid var(--gold);padding-top:12px}
+.score-val{font-family:var(--disp);font-variation-settings:"wdth" 76;font-weight:900;font-size:2rem;line-height:1.05;color:var(--onfield)}
+.score-lbl{font-family:var(--disp);font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--onfield-mute);margin-top:6px}
+
+/* Persistent Sticky-Bar Ledger Toy (never blocks content) */
+.ledger-tab{background:var(--ink);color:var(--onfield);border:1.5px solid var(--gold);padding:6px 12px;font-family:var(--disp);font-size:.74rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;min-height:36px;white-space:nowrap;flex:0 0 auto}
+.ledger-tab span{color:var(--gold);margin-left:6px;font-size:.86rem}
+.ledger-drawer{position:fixed;right:18px;top:56px;z-index:55;width:min(360px,calc(100vw - 36px));background:var(--paper);color:var(--ink);border:2px solid var(--ink);padding:18px;box-shadow:0 12px 32px rgba(0,0,0,.28);display:none}
+.ledger-drawer.open{display:block}
+
+/* Sources */
+.sources-list{columns:2;column-gap:32px;font-size:.86rem;line-height:1.5;padding-left:20px;color:var(--mute)}
+.sources-list li{margin-bottom:8px;break-inside:avoid}
+
+@media (max-width:900px){
+  .stat-band{grid-template-columns:repeat(3,1fr)}
+  .gyre,.ladder{grid-template-columns:repeat(2,1fr)}
+  .grid-2,.grid-3,.calc-grid{grid-template-columns:1fr}
+  .score-grid{grid-template-columns:repeat(2,1fr)}
+  .sources-list{columns:1}
+}
+@media (max-width:520px){
+  body{font-size:17px}
+  .stat-band{grid-template-columns:repeat(2,1fr)}
+  .gyre,.ladder{grid-template-columns:1fr}
+  .wrap{padding:0 16px}
+  section{padding:48px 0}
+  .ledger-tab{right:10px;bottom:10px;padding:7px 10px;font-size:.68rem;min-height:38px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}
+</style>
+</head>
+<body>
+<div class="draft-ribbon">
+  <span>Provisional Mockup · Layout Draft</span>
+  <button class="ledger-tab" id="ledger-btn" aria-expanded="false" aria-controls="ledger-drawer">Theo's Ledger <span id="ledger-live">0 F</span></button>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="wrap">
+    <p class="kicker">A Data Essay in Seven Chapters</p>
+    <h1>Disaster Artist</h1>
+    <svg viewBox="0 0 680 28" width="680" height="28" role="img" aria-label="Impasto arc rule" style="max-width:100%;margin:12px 0 6px">
+      <path d="M2 18 Q110 2, 220 15 T440 12 T676 17" fill="none" stroke="#B57708" stroke-width="4.5" stroke-linecap="round"/>
+      <path d="M16 23 Q150 9, 290 21 T560 17 T668 22" fill="none" stroke="#8E1C15" stroke-width="2" stroke-linecap="round" opacity=".85"/>
+    </svg>
+    <p class="standfirst">Vincent van Gogh painted nearly two canvases a week for almost a decade and sold one of them on the record; this essay asks how a production line can outrun its market by a century, and why the genius and the wreckage were the same machine.</p>
+    <p class="byline">By Bryan Murphy · Provisional Layout Mockup · Tap <strong>Theo's Ledger</strong> in the top bar at any time to inspect the running subsidy model.</p>
+
+    <div class="stat-band" aria-label="Headline figures">
+      <div class="stat-cell"><div class="stat-num">~860–900</div><div class="stat-lbl">Paintings (F01)</div></div>
+      <div class="stat-cell"><div class="stat-num">1</div><div class="stat-lbl">Documented sale (F71)</div></div>
+      <div class="stat-cell"><div class="stat-num">820</div><div class="stat-lbl">Surviving letters written (F04)</div></div>
+      <div class="stat-cell"><div class="stat-num">~30</div><div class="stat-lbl">Names on Arles petition (F58)</div></div>
+      <div class="stat-cell"><div class="stat-num">37</div><div class="stat-lbl">Years lived (F95)</div></div>
+      <div class="stat-cell"><div class="stat-num">1 brother</div><div class="stat-lbl">Paying the bills (F24–F25)</div></div>
+    </div>
+
+    <div class="prose">
+      <p>The romantic version splits Van Gogh into two halves — the misunderstood saint at the easel and the unlucky madman off it — as though the paint were somehow rescued from the chaos. The paper trail says the opposite: he worked at industrial speed on his brother's payroll, produced between 860 and 900 paintings across fewer than nine painting years,<sup class="fn"><a href="#src-1">1</a></sup> and left a market that answered with exactly one documented lifetime sale.<sup class="fn"><a href="#src-2">2</a></sup></p>
+      <p>What followed his death in July 1890 was not a spontaneous awakening of taste; it was thirty years of inventory control, strategic exhibitions, and book publishing run by a 28-year-old widow from a boarding house in Bussum.<sup class="fn"><a href="#src-3">3</a></sup></p>
+    </div>
+  </div>
+</section>
+
+<!-- CHAPTER 1: THE MACHINE -->
+<section id="ch1">
+  <div class="wrap">
+    <p class="kicker">Chapter 1 · The Machine</p>
+    <h2>Five dead careers, then a factory</h2>
+    <div class="prose">
+      <p>Before he picked up a pencil at twenty-seven, Vincent tried five respectable occupations and washed out of every single one — starting at Europe's premier art dealership, where his uncle got him in at sixteen, and ending in a Belgian coal district where the evangelisation committee declined to renew a six-month trial post.<sup class="fn"><a href="#src-4">4</a></sup></p>
+    </div>
+
+    <div class="gyre" aria-label="Five careers before 1880">
+      <div class="gyre-card"><span class="stamp-x">✗</span><div><div class="gyre-yr">1869–76</div><div class="gyre-title">Goupil &amp; Cie</div><p class="gyre-desc">Hired at 16 via Uncle Cent; London 1873, Paris 1875. Out 1 Apr 1876 after an unauthorised Christmas trip &amp; poor customer work (F30–F32).</p></div></div>
+      <div class="gyre-card"><span class="stamp-x">✗</span><div><div class="gyre-yr">1876</div><div class="gyre-title">Schoolmaster</div><p class="gyre-desc">Assistant teacher at Stokes's school in Ramsgate, then Rev. Jones in Isleworth (F33).</p></div></div>
+      <div class="gyre-card"><span class="stamp-x">✗</span><div><div class="gyre-yr">1877</div><div class="gyre-title">Bookshop Clerk</div><p class="gyre-desc">Blussé &amp; Van Braam in Dordrecht; short stint before pivoting to divinity (F34).</p></div></div>
+      <div class="gyre-card"><span class="stamp-x">✗</span><div><div class="gyre-yr">1877–78</div><div class="gyre-title">Theology Prep</div><p class="gyre-desc">Fourteen months in Amsterdam preparing for university entrance exams; abandoned July 1878 (F35).</p></div></div>
+      <div class="gyre-card"><span class="stamp-x">✗</span><div><div class="gyre-yr">1879</div><div class="gyre-title">Borinage Preacher</div><p class="gyre-desc">Six-month trial post at Wasmes; committee did not renew for excess zeal and self-neglect (F36).</p></div></div>
+      <div class="gyre-card pencil"><div><div class="gyre-yr">1880</div><div class="gyre-title">The Pencil</div><p class="gyre-desc">Decides to become an artist at 27 (F07): the one vocation that couldn't fire him.</p></div></div>
+    </div>
+
+    <div class="plate">
+      <div class="plate-head">
+        <span class="plate-label">Plate 1 · Output by Period vs. Lifetime Sales (Area-Proportional)</span>
+        <span class="plate-note">Bar width = months · Bar height = paintings/month · Bar area = total paintings (zero baseline)</span>
+      </div>
+      <svg id="ch1-chart" viewBox="0 0 960 340" width="960" height="340" role="img" aria-label="Area-proportional chart of Van Gogh paintings per month across five periods, rising from 8.3 per month in Nuenen to 30.4 per month in Auvers, above a flat lifetime sales line with one gold dot in 1890 for The Red Vineyard." style="width:100%;height:auto"></svg>
+      <p class="cap"><strong>Why periods, not years:</strong> per-calendar-year tallies are unsourced in institutional catalogues (F14). Period counts are documented across Nuenen (nearly 200 in 24 mo, F09), Paris (200+ in 23 mo, F10), Arles (184–200 in 15 mo, F11), Saint-Rémy (~150 in 12 mo, F12), and Auvers (~70 in ~70 days, F13). Early Dutch years (1881–83) omitted for lack of institutional split. Gold dot: <em>The Red Vineyard</em>, sold to Anna Boch for 400 F in 1890 (F70).</p>
+    </div>
+
+    <div class="grid-2">
+      <figure class="thumb-card">
+        <img class="vg-zoom" data-vg="potato-eaters" tabindex="0" role="button" src="../img/thumb/potato-eaters.jpg" alt="Vincent van Gogh, The Potato Eaters, April–May 1885, Van Gogh Museum s0005V1962">
+        <figcaption class="cap"><strong>Nuenen endpoint · <em>The Potato Eaters</em> (Apr–May 1885)</strong> — VGM <code>s0005V1962</code> (F0082 / JH0764). Painted during the ~200-canvas Nuenen stretch (~8.3/month); click any plate to open the full museum scan.</figcaption>
+      </figure>
+      <figure class="thumb-card">
+        <img class="vg-zoom" data-vg="red-vineyard" tabindex="0" role="button" src="../img/thumb/red-vineyard.jpg" alt="Vincent van Gogh, The Red Vineyard, November 1888, Pushkin State Museum of Fine Arts">
+        <figcaption class="cap"><strong>The one market dot · <em>The Red Vineyard</em> (Nov 1888)</strong> — Pushkin Museum <code>Ж-3372</code> (F495 / JH1626). Sold at Les XX in Brussels (1890) to Anna Boch for 400 F (F70).</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- CHAPTER 2: THE SUBSIDY -->
+<section class="field-ochre" id="ch2">
+  <div class="wrap">
+    <p class="kicker">Chapter 2 · The Subsidy</p>
+    <h2>The paint was wired monthly</h2>
+    <div class="prose">
+      <p>The thick impasto everyone photographs in museums had an invisible co-author: Theo van Gogh's bank drafts. By Van Gogh Museum research, Theo earned 11,000–14,000 francs a year at Boussod, Valadon &amp; Cie — the renamed firm that had let Vincent go in 1876 — and sent an average of 14.5% of his income straight to his brother.<sup class="fn"><a href="#src-5" style="color:var(--gold)">5</a></sup></p>
+    </div>
+
+    <div class="plate">
+      <div class="plate-head">
+        <span class="plate-label">Plate 2 · Interactive Stipend Calculator (F20–F28)</span>
+        <span class="plate-note">Documented rates: ~100 F (1881–82) · 150 F (Nuenen) · ~250 F (Arles, Vincent's reckoning)</span>
+      </div>
+      <div class="calc-grid">
+        <div>
+          <label for="stipend-slider" style="font-family:var(--disp);font-weight:800;font-size:.86rem;letter-spacing:.06em;text-transform:uppercase;display:block;margin-bottom:8px">Monthly wire from Theo: <span id="slider-val" style="color:var(--red)">150 F / month</span></label>
+          <input id="stipend-slider" type="range" min="100" max="250" step="10" value="150">
+          <div style="position:relative;height:20px;font-family:var(--disp);font-size:.75rem;color:var(--mute)">
+            <span style="position:absolute;left:0">100 F (early)</span>
+            <span style="position:absolute;left:33.3%;transform:translateX(-50%);font-weight:800;color:var(--ink)">150 F (Nuenen)</span>
+            <span style="position:absolute;right:0">250 F (Arles)</span>
+          </div>
+          <p class="cap"><strong>Model caveat (F25):</strong> Because Vincent lived in Theo's Paris flat (1886–88) without a cash stipend, our decade model totals <strong>~16,000 F (range 13,000–19,000 F)</strong> — cross-checked against 14.5% of Theo's 11,000–14,000 F salary (F24).</p>
+        </div>
+        <div style="background:var(--paper2);border:1px solid var(--rule);padding:18px">
+          <div style="font-family:var(--disp);font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--mute)">Implied 8.5 cash-allowance years</div>
+          <div class="calc-num" id="calc-total">15,300 F</div>
+          <div id="calc-miner" style="font-family:var(--disp);font-weight:700;font-size:.95rem;margin-top:10px;color:var(--ink)">≈ 14.3 years of a French coal miner's annual pay (1,070 F/yr, F28)</div>
+          <div id="calc-usd" style="font-family:var(--disp);font-size:.82rem;color:var(--mute);margin-top:6px">1890 gold parity (~5.18 F/$): ~$2,950 · Rough 2026 CPI scale (×37): ~$109,000 (hedged, F26–F27)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INTERLUDE: PERE TANGUY -->
+<section id="interlude">
+  <div class="wrap">
+    <p class="kicker">Interlude · The Shopkeeper</p>
+    <h2>A payment receipt in front of a wall of ukiyo-e</h2>
+    <div class="grid-2">
+      <div class="plate" style="margin:0">
+        <div class="plate-head">
+          <span class="plate-label">Plate 3 · Portrait of Père Tanguy (1887, Musée Rodin)</span>
+          <span class="plate-note">F363 / JH1351 · Public Domain</span>
+        </div>
+        <img class="vg-zoom" data-vg="pere-tanguy" tabindex="0" role="button" src="../img/full/pere-tanguy.jpg" alt="Vincent van Gogh, Portrait of Père Tanguy, 1887, Musée Rodin, seated before Japanese woodblock prints">
+        <p class="cap">Julien Tanguy (14 rue Clauzel, Paris): arrested as a Communard in 1871, held on the prison hulks at Brest, freed 1873 (F93 — not deported to New Caledonia). After his death in Feb 1894, a Drouot charity sale for his widow raised about 10,000 F (F94).</p>
+      </div>
+      <div>
+        <div class="prose">
+          <p>Tanguy was the quiet engine of Paris's broke avant-garde: a colourman who accepted unsalable canvases in settlement for ultramarine and lead white. The Rodin portrait is a ledger entry in oil — the dealer seated serenely before the very Japanese prints he and Bing sold, paid for in portraits of the dealer.</p>
+        </div>
+        <div class="plate">
+          <div class="plate-head"><span class="plate-label">The Closed Barter Loop</span><span class="plate-note">14 rue Clauzel, 1886–88</span></div>
+          <svg viewBox="0 0 420 200" width="420" height="200" role="img" aria-label="Diagram showing Theo's salary paying for paint, Vincent paying Tanguy in canvases, and Tanguy hanging canvases in his shop window" style="width:100%;height:auto">
+            <rect x="16" y="20" width="140" height="54" fill="#F2EDE3" stroke="#1B1A17" stroke-width="1.5"/>
+            <text x="86" y="44" text-anchor="middle" font-family="Archivo,sans-serif" font-weight="800" font-size="12" fill="#1B1A17">PÈRE TANGUY</text>
+            <text x="86" y="61" text-anchor="middle" font-family="Archivo,sans-serif" font-size="10" fill="#5C564C">Paint &amp; canvas on credit</text>
+            <rect x="264" y="20" width="140" height="54" fill="#F2EDE3" stroke="#1B1A17" stroke-width="1.5"/>
+            <text x="334" y="44" text-anchor="middle" font-family="Archivo,sans-serif" font-weight="800" font-size="12" fill="#1B1A17">VINCENT</text>
+            <text x="334" y="61" text-anchor="middle" font-family="Archivo,sans-serif" font-size="10" fill="#5C564C">Paints Tanguy + ukiyo-e</text>
+            <rect x="132" y="128" width="156" height="54" fill="#1B1A17"/>
+            <text x="210" y="152" text-anchor="middle" font-family="Archivo,sans-serif" font-weight="800" font-size="12" fill="#E2B44B">SHOP STACKS</text>
+            <text x="210" y="169" text-anchor="middle" font-family="Archivo,sans-serif" font-size="10" fill="#F4EFE6">Charity sale 1894 (~10,000 F)</text>
+            <path d="M156 42 L258 42" stroke="#8E1C15" stroke-width="2" marker-end="url(#arr)"/>
+            <path d="M334 74 L288 134" stroke="#1B1A17" stroke-width="2" marker-end="url(#arr2)"/>
+            <path d="M132 152 L86 78" stroke="#5C564C" stroke-width="1.8" stroke-dasharray="4 3" marker-end="url(#arr2)"/>
+            <defs>
+              <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#8E1C15"/></marker>
+              <marker id="arr2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#1B1A17"/></marker>
+            </defs>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CHAPTER 3: THE BELOVEDS -->
+<section class="field-indigo" id="ch3">
+  <div class="wrap">
+    <p class="kicker">Chapter 3 · The Beloveds</p>
+    <h2>Loving what cannot say no</h2>
+    <div class="prose">
+      <p>Track his attachments chronologically and a structural pattern emerges: every object of devotion after 1881 is progressively less able to refuse him — culminating in a "Japan" he invented from 660 woodblock prints and a brother bound by blood and payroll.<sup class="fn"><a href="#src-6" style="color:var(--gold)">6</a></sup></p>
+    </div>
+
+    <div class="ladder" aria-label="Testability scale from 100 to 0">
+      <div class="rung"><div class="rung-score">100 · 1873–74</div><h4>Eugénie Loyer</h4><p>London landlady Ursula Loyer's daughter; some scholars doubt any proposal occurred (F37).</p></div>
+      <div class="rung"><div class="rung-score">85 · 1881</div><h4>Kee Vos</h4><p>His widowed cousin gave the clearest documented refusal in the archive: "never, no, never" (F38).</p></div>
+      <div class="rung"><div class="rung-score">65 · 1882–83</div><h4>Sien Hoornik</h4><p>Theo opposed the match; she drowned on 22 Nov 1904 in Rotterdam's Provenierssingel canal (F39).</p></div>
+      <div class="rung"><div class="rung-score">30 · 1888</div><h4>"Japan"</h4><p>~660 prints bought in Paris (F41); Arles imagined as "the equivalent of Japan, the South" (F43).</p></div>
+      <div class="rung"><div class="rung-score">15 · 1888</div><h4>Studio of the South</h4><p>A cooperative funded by Theo's 150 F/mo deal with Gauguin (F52).</p></div>
+      <div class="rung"><div class="rung-score">0 · 1880–90</div><h4>Theo</h4><p>651 surviving letters written to him alone; structurally unable to quit (F04, F24).</p></div>
+    </div>
+
+    <div class="plate">
+      <div class="plate-head">
+        <span class="plate-label">Plate 4 · Invented Japan &amp; The Night Field</span>
+        <span class="plate-note">Print vs. copy (kanji border has no coherent meaning, F42) + MoMA's Saint-Rémy night sky</span>
+      </div>
+      <div class="grid-3 triptych">
+        <figure>
+          <img class="vg-zoom" data-vg="hiroshige-plum-park-kameido" tabindex="0" role="button" src="../img/thumb/hiroshige-plum-park-kameido.jpg" alt="Utagawa Hiroshige, Plum Estate, Kameido, 1857 — Vincent van Gogh's own print at the Van Gogh Museum">
+          <figcaption class="cap"><strong>Left · Hiroshige (1857):</strong> <em>Plum Trees at Kameido</em> — Vincent's own pinhole-marked impression (VGM <code>n0077V1962</code>).</figcaption>
+        </figure>
+        <figure>
+          <img class="vg-zoom" data-vg="japonaiserie-flowering-plum-tree" tabindex="0" role="button" src="../img/thumb/japonaiserie-flowering-plum-tree.jpg" alt="Vincent van Gogh, Flowering Plum Orchard after Hiroshige, 1887, Van Gogh Museum">
+          <figcaption class="cap"><strong>Center · Van Gogh (1887):</strong> <em>Flowering Plum Orchard</em> (VGM <code>s0115V1962</code>, F0371) — squared &amp; bordered with copied characters (F42).</figcaption>
+        </figure>
+        <figure>
+          <img class="vg-zoom" data-vg="starry-night" tabindex="0" role="button" src="../img/thumb/starry-night.jpg" alt="Vincent van Gogh, The Starry Night, June 1889, Museum of Modern Art">
+          <figcaption class="cap"><strong>Right · Saint-Rémy (June 1889):</strong> <em>The Starry Night</em> (MoMA <code>472.1941</code>, F612 / JH1731) — the night sky painted from the asylum window.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CHAPTER 4: THE ROOMMATE -->
+<section class="field-lamplight" id="ch4">
+  <div class="wrap">
+    <p class="kicker">Chapter 4 · The Roommate</p>
+    <h2>Nine weeks under one roof</h2>
+    <div class="prose">
+      <p>The courtship happened by mail before Gauguin even stepped off the train: on 1 October 1888 Gauguin sent <em>Les Misérables</em> (himself as Jean Valjean, with Émile Bernard behind him), and on 3 October Vincent answered with a portrait of himself as "a bonze, a simple worshipper of the eternal Buddha."<sup class="fn"><a href="#src-7">7</a></sup> By 11–12 December Gauguin wrote Theo to leave over "incompatibility" of characters; on 23 December Vincent severed all or nearly all of his left ear and handed it to Gabrielle Berlatier.<sup class="fn"><a href="#src-8">8</a></sup></p>
+    </div>
+
+    <div class="grid-3 triptych" style="margin:24px 0">
+      <figure>
+        <img class="vg-zoom" data-vg="yellow-house" tabindex="0" role="button" src="../img/thumb/yellow-house.jpg" alt="Vincent van Gogh, The Yellow House (The Street), September 1888, Van Gogh Museum s0032V1962">
+        <figcaption class="cap"><strong>The Yellow House (Sept 1888)</strong> — VGM <code>s0032V1962</code> (F0464 / JH1589). Place Lamartine, Arles: the planned headquarters.</figcaption>
+      </figure>
+      <figure>
+        <img class="vg-zoom" data-vg="van-goghs-chair" tabindex="0" role="button" src="../img/thumb/van-goghs-chair.jpg" alt="Vincent van Gogh, Van Gogh's Chair, Late 1888, The National Gallery NG3862">
+        <figcaption class="cap"><strong>Van Gogh's Chair (Late 1888)</strong> — National Gallery <code>NG3862</code> (F498 / JH1635). Simple rush-bottomed chair in daylight.</figcaption>
+      </figure>
+      <figure>
+        <img class="vg-zoom" data-vg="gauguins-chair" tabindex="0" role="button" src="../img/thumb/gauguins-chair.jpg" alt="Vincent van Gogh, Gauguin's Chair, November 1888, Van Gogh Museum s0048V1962">
+        <figcaption class="cap"><strong>Gauguin's Chair (Nov 1888)</strong> — VGM <code>s0048V1962</code> (F0499 / JH1636). Gaslit walnut armchair with novels and candle.</figcaption>
+      </figure>
+    </div>
+
+    <div class="plate" style="background:var(--paper)">
+      <div class="plate-head">
+        <span class="plate-label">Plate 5 · Monk vs. Messiah — With Measured Pigment Chips</span>
+        <span class="plate-note">Dominant hues recomputed directly from the verified RGB museum masters (<code>swatches.json</code>)</span>
+      </div>
+      <div class="grid-3 triptych" id="compare-triptych"></div>
+      <p class="cap"><strong>Record check (F53–F56, F61–F63):</strong> Gauguin's razor-at-him story appears only fifteen years later in <em>Avant et après</em> (1903), not in his Jan 1889 letter; the Van Gogh Museum notes there are "only the words of Gauguin." The Studio of the South's sales were not zero — they were exactly one: <em>The Red Vineyard</em>, painted in Arles in Nov 1888 during Gauguin's stay (F62). Gauguin died in the Marquesas on 8 May 1903; in Tahiti he took Teha'amana at 13 and Pau'ura at 14 as "wives" (F63).</p>
+    </div>
+  </div>
+</section>
+
+<!-- CHAPTER 5: TEST THE LEGEND -->
+<section id="ch5">
+  <div class="wrap">
+    <p class="kicker">Chapter 5 · Test the Legend</p>
+    <h2>Five myths, stamped against the archive</h2>
+    <div class="plate">
+      <div class="plate-head">
+        <span class="plate-label">Plate 6 · Interactive Claims Plate</span>
+        <span class="plate-note">Select a legend to inspect the archival verdict</span>
+      </div>
+      <div class="btn-row" id="claim-btns"></div>
+      <div class="verdict-box" id="claim-out"></div>
+    </div>
+
+    <div class="grid-2" style="margin-top:24px">
+      <div class="plate" style="margin:0">
+        <div class="plate-head"><span class="plate-label">Vignette A · The Arles Petition (Feb–Mar 1889)</span><span class="plate-note">~30 signatures · F58</span></div>
+        <img class="vg-zoom" data-vg="arles-petition" tabindex="0" role="button" src="../img/full/arles-petition.jpg" alt="February–March 1889 petition by Arles neighbours asking that Vincent van Gogh be confined or sent home">
+        <p class="cap">Preserved in the Arles municipal archives (Feb–Mar 1889; Commons mistakenly dates it 1888): roughly 30 neighbours asking authorities to confine him or return him to his family. The one local institution that filed paperwork voted 30–0.</p>
+      </div>
+      <div class="plate" style="margin:0">
+        <div class="plate-head"><span class="plate-label">Vignette B · The Bandaged Ear, Dr. Rey &amp; The 1930 Sketch</span><span class="plate-note">F55, F527, F500, F91–F92</span></div>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px">
+          <img class="vg-zoom" data-vg="self-portrait-bandaged-ear" tabindex="0" role="button" src="../img/thumb/self-portrait-bandaged-ear.jpg" alt="Vincent van Gogh, Self-Portrait with Bandaged Ear (Courtauld F527, no pipe), January 1889">
+          <img class="vg-zoom" data-vg="dr-felix-rey" tabindex="0" role="button" src="../img/thumb/dr-felix-rey.jpg" alt="Vincent van Gogh, Portrait of Doctor Félix Rey, 1889, Pushkin Museum">
+          <img class="vg-zoom" data-vg="rey-ear-sketch" tabindex="0" role="button" src="../img/thumb/rey-ear-sketch.jpg" alt="Dr. Félix Rey's 1930 sketch for Irving Stone showing the entire left ear severed, Bancroft Library">
+        </div>
+        <p class="cap"><strong>Left:</strong> Courtauld <em>Self-Portrait with Bandaged Ear</em> (Jan 1889, F527 — <strong>no pipe</strong>, distinct from F529 with pipe). <strong>Center &amp; Right:</strong> Dr. Rey's portrait (Pushkin, entered <strong>1948</strong>, not 1960; F91–F92) and his 18 Aug 1930 sketch for Irving Stone (Bancroft Library, found by Bernadette Murphy), flipping the ear verdict to <strong>CONFIRMED</strong> (F55).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CHAPTER 6: THE FIX -->
+<section id="ch6">
+  <div class="wrap">
+    <p class="kicker">Chapter 6 · The Fix</p>
+    <h2>The widow with the ledger</h2>
+    <div class="grid-2" style="margin-bottom:24px">
+      <div class="prose">
+        <p>The market did not spontaneously discover Vincent van Gogh; it was administered. When Theo died in January 1891, his 28-year-old widow Johanna van Gogh-Bonger moved to Bussum with their almost-one-year-old son, ran a boarding house, and refused to liquidate the ~200-plus canvases.<sup class="fn"><a href="#src-3">3</a></sup></p>
+        <p>Instead she ran supply like a central bank: controlled sales (~190–250 works over her lifetime, F80), the 1901 Bernheim-Jeune Paris show (F84), the ~500-work Stedelijk retrospective she organised in 1905 (F78), over 100 canvases placed in German collections by 1914 (F83), and the 1914 three-volume letters edition — the same year she had Theo reburied beside Vincent at Auvers (F85–F86). She did remarry (Johan Cohen Gosschalk, 1901; he died 1912, F77 — widowed twice in fact). Counterfactually, Aurier (1890) and the avant-garde meant Vincent would not have vanished — he would likely have landed in the <em>Vuillard tier</em>; Johanna moved him a tier into global myth.</p>
+      </div>
+      <div class="plate" style="margin:0">
+        <div class="plate-head"><span class="plate-label">Johanna van Gogh-Bonger &amp; Vincent Willem</span><span class="plate-note">Raoul Saisset studio, 1890 · PD-old-100-1923</span></div>
+        <img class="vg-zoom" data-vg="johanna-and-vincent-willem" tabindex="0" role="button" src="../img/full/johanna-and-vincent-willem.jpg" alt="Photograph of Johanna van Gogh-Bonger with her son Vincent Willem, 1890">
+        <p class="cap">The archive was structurally asymmetrical: 820 letters by Vincent survive vs. 39 from Theo (first printed 1932, F04–F05, F85).</p>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="plate" style="margin:0">
+        <div class="plate-head"><span class="plate-label">Plate 7 · The 900-Canvas Waffle (F01, F80–F81)</span><span class="plate-note">1 square = 1 painting (900-canvas grid)</span></div>
+        <svg id="waffle-svg" viewBox="0 0 420 420" width="420" height="420" role="img" aria-label="900-square waffle chart: 200 gold squares kept by the family for the Van Gogh Museum, 220 ochre squares representing Johanna's 190-250 controlled sales, and 480 muted squares dispersed elsewhere." style="width:100%;max-width:380px;height:auto;margin:0 auto;display:block"></svg>
+        <p class="cap"><span style="color:#B57708;font-size:1.1em">■</span> <strong>~200 kept by family</strong> → Van Gogh Museum (F81). <span style="color:#8E1C15;font-size:1.1em">■</span> <strong>~190 paintings sold by Johanna</strong> (up to ~250 total works incl. drawings, F80). <span style="color:#9A9182;font-size:1.1em">■</span> <strong>Remainder:</strong> dispersed before/outside her inventory.</p>
+      </div>
+      <div class="plate" style="margin:0">
+        <div class="plate-head"><span class="plate-label">Plate 8 · Nominal USD Price Curve (Log Scale)</span><span class="plate-note">1890 ($77) → 1990 ($82.5M) · F70, F75, F88–F90</span></div>
+        <svg id="price-svg" viewBox="0 0 500 320" width="500" height="320" role="img" aria-label="Log-scale nominal US dollar price curve rising from 77 dollars in 1890 for The Red Vineyard, to 5790 dollars in 1907, to 40 million and 53.9 million in 1987, to 82.5 million in 1990 for Portrait of Dr. Gachet." style="width:100%;height:auto"></svg>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px;border-top:1px solid var(--rule);padding-top:12px">
+          <figure style="margin:0">
+            <img class="vg-zoom" data-vg="sunflowers-national-gallery" tabindex="0" role="button" src="../img/thumb/sunflowers-national-gallery.jpg" alt="Vincent van Gogh, Sunflowers, August 1888, The National Gallery NG3863" style="height:125px;width:100%;object-fit:contain;background:var(--paper)">
+            <figcaption class="cap" style="font-size:.73rem;margin-top:5px"><strong><em>Sunflowers</em> (NG3863, F454)</strong> — London twin of the version sold in 1987 for £24.75M (F88).</figcaption>
+          </figure>
+          <figure style="margin:0">
+            <img class="vg-zoom" data-vg="irises" tabindex="0" role="button" src="../img/thumb/irises.jpg" alt="Vincent van Gogh, Irises, May 1889, J. Paul Getty Museum CC0" style="height:125px;width:100%;object-fit:contain;background:var(--paper)">
+            <figcaption class="cap" style="font-size:.73rem;margin-top:5px"><strong><em>Irises</em> (Getty CC0, F608)</strong> — Sold for $53.9M in Nov 1987 (F89).</figcaption>
+          </figure>
+          <figure style="margin:0">
+            <img class="vg-zoom" data-vg="portrait-dr-gachet-orsay" tabindex="0" role="button" src="../img/thumb/portrait-dr-gachet-orsay.jpg" alt="Vincent van Gogh, Dr Paul Gachet, second version, June 1890, Musée d'Orsay" style="height:125px;width:100%;object-fit:contain;background:var(--paper)">
+            <figcaption class="cap" style="font-size:.73rem;margin-top:5px"><strong><em>Dr. Gachet</em> (Orsay 2nd ver., F754)</strong> — Sibling to the missing $82.5M 1990 record (F90).</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CHAPTER 7: THE SCOREBOARD -->
+<section class="field-red" id="ch7">
+  <div class="wrap">
+    <p class="kicker">Chapter 7 · The Scoreboard</p>
+    <h2>The receipt, not the reward</h2>
+    <div class="score-grid">
+      <div class="score-item"><div class="score-val">~860–900</div><div class="score-lbl">Paintings (F01)</div></div>
+      <div class="score-item"><div class="score-val">&gt;1,100</div><div class="score-lbl">Works on paper (F02)</div></div>
+      <div class="score-item"><div class="score-val">820</div><div class="score-lbl">Letters he wrote (F04)</div></div>
+      <div class="score-item"><div class="score-val">~16,000 F</div><div class="score-lbl">Modelled from Theo (13–19k, F25)</div></div>
+      <div class="score-item"><div class="score-val">1</div><div class="score-lbl">Documented lifetime sale (F71)</div></div>
+      <div class="score-item"><div class="score-val">~30</div><div class="score-lbl">Names on Arles petition (F58)</div></div>
+      <div class="score-item"><div class="score-val">37</div><div class="score-lbl">Years lived (F95)</div></div>
+      <div class="score-item"><div class="score-val">100 yrs</div><div class="score-lbl">Death to $82.5M record (F90)</div></div>
+    </div>
+    <div class="prose">
+      <p>Run the whole cast back once: the fired dealership clerk, the unrenewed Borinage preacher, the man in love with a Japan he assembled out of prints, the ex-Communard paint dealer from the Brest hulks, the self-mythologising stockbroker, and the twice-widowed sister-in-law running a boarding house and an inventory sheet. The canon is not a gallery of well-adjusted men.</p>
+      <p style="font-size:1.2rem;color:var(--gold);font-style:italic">You don't want to be a disaster artist — you want the engine without the disaster, and ideally a sister-in-law with a ledger.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SOURCES & ABOUT THESE NUMBERS -->
+<section id="sources">
+  <div class="wrap">
+    <p class="kicker">Sources &amp; About These Numbers</p>
+    <h2>Receipts and honest hedges</h2>
+    <div class="prose" style="margin-bottom:22px">
+      <p><strong>About these numbers:</strong> Every count on this provisional page traces to <code>proj/disaster-artist/figures.md</code> (F01–F100). Where sources disagree, ranges are shown explicitly: ~860–900 paintings (Met essay vs. F/JH catalogue totals), ~13,000–19,000 F in modeled Theo stipends (pending <em>The Account Book of Theo van Gogh and Jo van Gogh-Bonger</em>, 2002), and ~190–250 paintings sold by Johanna. Single-source figures (e.g., 1907 Morozov 30,000 F resale; 1894 Drouot 10,000 F charity sale; 1901 Bernheim-Jeune 71-work count) are hedged. Older 1958 CL letter translations await direct recheck against the 2009 critical edition.</p>
+    </div>
+    <ol class="sources-list">
+      <li id="src-1"><strong>F01, F07–F13:</strong> Metropolitan Museum Heilbrunn Timeline essay ("Vincent van Gogh, 1853–1890"); Van Gogh Museum chronology &amp; hospitalisation notes; Pickvance (Met, 1984).</li>
+      <li id="src-2"><strong>F70–F71:</strong> Martin Bailey, <em>The Art Newspaper</em> (2022); <em>The Conversation</em> (2023) — Anna Boch's 400 F purchase of <em>The Red Vineyard</em>, 1890.</li>
+      <li id="src-3"><strong>F76–F87:</strong> VGM Journals (1995, 1997–98, 2002); <em>Bussums Historisch Tijdschrift</em> (2019); Univ. of Amsterdam <em>Album Academicum</em>; Smithsonian; Grant (2014).</li>
+      <li id="src-4"><strong>F30–F36:</strong> Letters 065 &amp; 074; Jo van Gogh-Bonger, <em>Memoir</em> (1914); Martin Bailey, <em>The Art Newspaper</em> (2018).</li>
+      <li id="src-5"><strong>F20–F29:</strong> Letters 164, 201, 440, 527, CL 523; VGM <em>Contemporaries of Van Gogh 1</em>; <em>Journal de la Société de statistique de Paris</em> 32 (1891), pp. 20–21.</li>
+      <li id="src-6"><strong>F37–F43:</strong> Bailey, <em>The Art Newspaper</em> (2019); VGM collection page <code>s0115V1962</code>; CL 157, CL 500.</li>
+      <li id="src-7"><strong>F59–F61:</strong> Letters 692, 695 (Oct 1888); VGM catalogue cat. 57; Harvard Art Museums <code>1951.65</code>; Norton Museum.</li>
+      <li id="src-8"><strong>F53–F58, F91–F99:</strong> UC Berkeley Bancroft Library (Dr. Rey 1930 sketch); Bernadette Murphy (2016); VGM 2016 exhibition; Pushkin inv. Ж-3272 &amp; Braumann (1928); Naifeh &amp; Smith (2011) vs. Van Tilborgh &amp; Meedendorp (<em>Burlington Magazine</em>, 2013).</li>
+    </ol>
+  </div>
+</section>
+
+<!-- LEDGER DRAWER -->
+<div class="ledger-drawer" id="ledger-drawer" role="dialog" aria-label="Theo's Ledger subsidy summary">
+  <div style="display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--rule);padding-bottom:8px;margin-bottom:10px">
+    <strong style="font-family:var(--disp);text-transform:uppercase;letter-spacing:.08em;font-size:.82rem">Theo's Ledger · Model (F25)</strong>
+    <button class="btn" id="ledger-close" style="min-height:32px;padding:4px 10px;font-size:.7rem">Close</button>
+  </div>
+  <p style="font-size:.85rem;margin:0 0 8px"><strong>Estimated decade total:</strong> ~16,000 F (range 13,000–19,000 F across 1880–1890).</p>
+  <p style="font-size:.82rem;color:var(--mute);margin:0 0 8px">Documented anchors: ~100 F/mo (1881–82, F20), 150 F/mo (Nuenen, F21), ~250 F/mo (Arles, F22). Cross-check: ~14.5% of Theo's 11,000–14,000 F/yr salary (F24).</p>
+  <p style="font-size:.78rem;color:var(--red);margin:0">Pending check against Stolwijk &amp; Veenenbos, <em>The Account Book</em> (2002).</p>
+</div>
+
+<!-- MUSEUM PLATE LIGHTBOX (20 VERIFIED WORKS) -->
+<div class="vg-backdrop" id="vg-backdrop" role="dialog" aria-modal="true" aria-labelledby="vg-title">
+  <div class="vg-dialog">
+    <div class="vg-head">
+      <div>
+        <div class="plate-label" id="vg-kicker">Verified Museum Plate</div>
+        <strong id="vg-title" style="font-family:var(--disp);font-size:1rem"></strong>
+      </div>
+      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+        <button class="btn" id="vg-prev" style="min-height:38px;padding:6px 12px">← Prev</button>
+        <button class="btn" id="vg-next" style="min-height:38px;padding:6px 12px">Next →</button>
+        <button class="btn" id="vg-close" style="min-height:38px;padding:6px 12px" aria-label="Back to essay (or press Escape / Back button)">← Back · ✕</button>
+      </div>
+    </div>
+    <div class="vg-body">
+      <div class="vg-img-wrap">
+        <button class="vg-img-btn" id="vg-open-fs" type="button" aria-label="Open 100% full-resolution master scan">
+          <img id="vg-img" src="" alt="">
+          <span class="vg-zoom-badge">Zoom 100% ↗</span>
+        </button>
+        <button class="btn solid" id="vg-fs-trigger" type="button" style="width:100%;max-width:440px">Load 100% Full-Res Master</button>
+      </div>
+      <div class="vg-meta" id="vg-meta"></div>
+    </div>
+  </div>
+</div>
+
+<!-- STAGE 2: 100% FULL-RESOLUTION MASTER PAN & ZOOM VIEWER -->
+<div class="vg-fs" id="vg-fs" role="dialog" aria-modal="true" aria-labelledby="vg-fs-title">
+  <div class="vg-fs-bar">
+    <div class="vg-fs-group">
+      <button class="vg-fs-btn" id="vg-fs-back" type="button" aria-label="Back to plate details">← Back to Details</button>
+      <div>
+        <strong id="vg-fs-title" style="font-family:var(--disp);font-size:.9rem;display:block;line-height:1.1"></strong>
+        <span class="vg-fs-status" id="vg-fs-status">Ready</span>
+      </div>
+    </div>
+    <div class="vg-fs-group">
+      <button class="vg-fs-btn" id="vg-fs-fit" type="button" aria-pressed="false">Fit Screen</button>
+      <button class="vg-fs-btn" id="vg-fs-100" type="button" aria-pressed="true">100% (1:1)</button>
+      <button class="vg-fs-btn" id="vg-fs-out" type="button" aria-label="Zoom out">−</button>
+      <button class="vg-fs-btn" id="vg-fs-in" type="button" aria-label="Zoom in">+</button>
+      <button class="vg-fs-btn danger" id="vg-fs-close" type="button" aria-label="Close viewer completely (Esc)">✕ Close</button>
+    </div>
+  </div>
+  <div class="vg-fs-stage native" id="vg-fs-stage" tabindex="0" aria-label="Full-resolution painting canvas; drag or scroll to pan">
+    <div class="vg-fs-loader" id="vg-fs-loader">Loading 100% master scan…</div>
+    <img id="vg-fs-img" src="" alt="">
+  </div>
+</div>
+
+<script>
+const NS = "http://www.w3.org/2000/svg";
+function el(tag, attrs, parent){
+  const n = document.createElementNS(NS, tag);
+  for(const [k,v] of Object.entries(attrs||{})) n.setAttribute(k, v);
+  if(parent) parent.appendChild(n);
+  return n;
+}
+
+// 1. Ch1 Area-Proportional Period Chart (width = months, height = paintings/month)
+(function(){
+  const svg = document.getElementById('ch1-chart');
+  const rows = [
+    {place:'Nuenen', sub:'1883–85 (24 mo)', mo:24, p:200, lbl:'~200'},
+    {place:'Paris', sub:'1886–88 (23 mo)', mo:23, p:200, lbl:'200+'},
+    {place:'Arles', sub:'1888–89 (15 mo)', mo:15, p:190, lbl:'184–200'},
+    {place:'Saint-Rémy', sub:'1889–90 (12 mo)', mo:12, p:150, lbl:'~150'},
+    {place:'Auvers', sub:'70 days (2.3 mo)', mo:2.3, p:70, lbl:'~70'}
+  ];
+  const padL=64, padR=36, padT=34, padB=66, W=960-padL-padR, H=340-padT-padB;
+  const maxRate = 34; // paintings/month (Auvers = 30.4)
+  const totalMo = rows.reduce((s,r)=>s+r.mo,0);
+  const gap = 10;
+  const usableW = W - gap*(rows.length-1);
+
+  // Y gridlines (zero baseline!)
+  [0,10,20,30].forEach(v=>{
+    const y = padT + H - (v/maxRate)*H;
+    el('line',{x1:padL,y1:y,x2:padL+W,y2:y,stroke:v===0?'#1B1A17':'#C9C0AE','stroke-width':v===0?2:1},svg);
+    const t = el('text',{x:padL-10,y:y+4,'text-anchor':'end','font-family':'Archivo,sans-serif','font-size':12,fill:'#5C564C'},svg);
+    t.textContent = v;
+  });
+  const yt = el('text',{x:16,y:padT+H/2,'text-anchor':'middle','font-family':'Archivo,sans-serif','font-size':11,'font-weight':800,fill:'#5C564C',transform:`rotate(-90 16 ${padT+H/2})`},svg);
+  yt.textContent = 'PAINTINGS PER MONTH';
+
+  let x = padL;
+  rows.forEach((r,i)=>{
+    const w = (r.mo/totalMo)*usableW;
+    const rate = r.p / r.mo;
+    const h = (rate/maxRate)*H;
+    const y = padT + H - h;
+    const bw = Math.max(w, 22);
+    const fill = i===4 ? '#8E1C15' : (i===2 ? '#B57708' : '#33383D');
+    el('rect',{x,y,width:bw,height:h,fill,stroke:'#1B1A17','stroke-width':1.2},svg);
+    const cx = x + bw/2;
+    const topX = i===4 ? cx - 10 : cx;
+    const lblTop = el('text',{x:topX,y:y-8,'text-anchor':'middle','font-family':'Archivo,sans-serif','font-weight':800,'font-size':12,fill:'#1B1A17'},svg);
+    lblTop.textContent = `${rate.toFixed(1)}/mo (${r.lbl})`;
+    const botX = i===4 ? cx + 6 : (i===3 ? cx - 8 : cx);
+    const lblBot = el('text',{x:botX,y:padT+H+20,'text-anchor':'middle','font-family':'Archivo,sans-serif','font-weight':800,'font-size':13,fill:'#1B1A17'},svg);
+    lblBot.textContent = r.place;
+    const lblSub = el('text',{x:botX,y:padT+H+37,'text-anchor':'middle','font-family':'Archivo,sans-serif','font-size':10.5,fill:'#5C564C'},svg);
+    lblSub.textContent = i===4 ? 'May–Jul 1890' : r.sub;
+    x += bw + gap;
+  });
+
+  // Zero-baseline lifetime sales line (y = 0 across 1883-1889; single gold dot in 1890)
+  const sy = padT + H;
+  el('line',{x1:padL,y1:sy,x2:padL+W,y2:sy,stroke:'#E2B44B','stroke-width':3,'stroke-dasharray':'7 4'},svg);
+  const dotX = padL + W - 44;
+  el('circle',{cx:dotX,cy:sy,r:7,fill:'#E2B44B',stroke:'#1B1A17','stroke-width':2},svg);
+  // High-contrast callout box cleanly above Arles & Saint-Rémy with leader down to the gold dot
+  const bx = 486, by = 48, bwBox = 326, bhBox = 44;
+  el('line',{x1:dotX,y1:sy-7,x2:bx+bwBox-22,y2:by+bhBox,stroke:'#8E1C15','stroke-width':1.8,'stroke-dasharray':'3 2'},svg);
+  el('rect',{x:bx,y:by,width:bwBox,height:bhBox,fill:'#F2EDE3',stroke:'#8E1C15','stroke-width':1.5},svg);
+  const st1 = el('text',{x:bx+12,y:by+18,'font-family':'Archivo,sans-serif','font-weight':900,'font-size':11.5,fill:'#8E1C15'},svg);
+  st1.textContent = 'LIFETIME SALES: 0/MO (1883–89) → 1 SALE (1890)';
+  const st2 = el('text',{x:bx+12,y:by+35,'font-family':'Archivo,sans-serif','font-size':10.5,fill:'#1B1A17'},svg);
+  st2.textContent = 'The Red Vineyard · 400 F to Anna Boch (F70)';
+})();
+
+// 2. Ch2 Stipend Slider
+(function(){
+  const sl = document.getElementById('stipend-slider');
+  const valEl = document.getElementById('slider-val');
+  const totEl = document.getElementById('calc-total');
+  const minEl = document.getElementById('calc-miner');
+  const usdEl = document.getElementById('calc-usd');
+  function update(){
+    const m = +sl.value;
+    const total = Math.round(m * 102); // ~8.5 cash-allowance years (excluding Paris flat share)
+    const miners = (total / 1070).toFixed(1);
+    const usd1890 = Math.round((total / 5.18) / 50) * 50;
+    const usdNow = Math.round((total / 5.18) * 37.1 / 1000) * 1000;
+    valEl.textContent = `${m} F / month`;
+    totEl.textContent = `${total.toLocaleString()} F`;
+    minEl.textContent = `≈ ${miners} years of a French coal miner's annual pay (1,070 F/yr, F28)`;
+    usdEl.textContent = `1890 gold parity (~5.18 F/$): ~$${usd1890.toLocaleString()} · Rough 2026 CPI scale (×37): ~$${usdNow.toLocaleString()} (hedged, F26–F27)`;
+  }
+  sl.addEventListener('input', update);
+  update();
+})();
+
+// 3. Ch4 Compare Plate with REAL measured swatches from swatches.json (2026-11-28 verified hunt)
+(function(){
+  const items = [
+    {
+      slug:"self-portrait-dedicated-to-gauguin",
+      title:"Van Gogh · Self-Portrait Dedicated to Gauguin",
+      meta:"Sept 1888 · Harvard Art Museums (Fogg, 1951.65 · F476 / JH1581)",
+      img:"../img/full/self-portrait-dedicated-to-gauguin.jpg",
+      note:'"A bonze, a simple worshipper of the eternal Buddha" — >53% pale malachite green (F59).',
+      swatches:[
+        {hex:"#5EAD83",share:0.539,name:"green"},{hex:"#3A3A22",share:0.141,name:"dark yellow-green"},
+        {hex:"#848652",share:0.10,name:"yellow-green"},{hex:"#5C4C1E",share:0.086,name:"dark yellow"},
+        {hex:"#B7AF73",share:0.079,name:"yellow"},{hex:"#28343A",share:0.055,name:"soot black"}
+      ]
+    },
+    {
+      slug:"gauguin-les-miserables",
+      title:'Gauguin · Self-Portrait "Les Misérables"',
+      meta:"1888 (sent 1 Oct) · Van Gogh Museum (s0224V1962 · W239 / W309)",
+      img:"../img/full/gauguin-les-miserables.jpg",
+      note:"Himself as Jean Valjean on ochre-gold ground, with Émile Bernard behind (F60).",
+      swatches:[
+        {hex:"#CA9734",share:0.399,name:"ochre"},{hex:"#6A7466",share:0.186,name:"grey"},
+        {hex:"#415453",share:0.145,name:"grey"},{hex:"#A3795B",share:0.095,name:"orange"},
+        {hex:"#7C9469",share:0.089,name:"yellow-green"},{hex:"#BAAC97",share:0.086,name:"ochre"}
+      ]
+    },
+    {
+      slug:"gauguin-christ-garden-of-olives",
+      title:"Gauguin · Christ in the Garden of Olives",
+      meta:"1889 · Norton Museum of Art (46.5 · W326 / S149)",
+      img:"../img/full/gauguin-christ-garden-of-olives.jpg",
+      note:"A year later: Gauguin paints himself directly as Christ — twilight violet & red-orange hair tones (F61).",
+      swatches:[
+        {hex:"#2A1E2B",share:0.43,name:"dark violet"},{hex:"#5C515E",share:0.177,name:"grey"},
+        {hex:"#62362A",share:0.153,name:"dark orange"},{hex:"#506291",share:0.126,name:"blue"},
+        {hex:"#BD927D",share:0.087,name:"orange"}
+      ]
+    }
+  ];
+  const root = document.getElementById('compare-triptych');
+  items.forEach(it=>{
+    const fig = document.createElement('figure');
+    const bar = it.swatches.map(s=>`<span style="width:${(s.share*100).toFixed(1)}%;background:${s.hex}" title="${s.hex} (${Math.round(s.share*100)}%)"></span>`).join('');
+    const leg = it.swatches.slice(0,4).map(s=>`<span class="chip"><i style="background:${s.hex}"></i>${s.hex} (${Math.round(s.share*100)}%)</span>`).join('');
+    fig.innerHTML = `<img class="vg-zoom" data-vg="${it.slug}" tabindex="0" role="button" src="${it.img}" alt="${it.title}"><div class="swatch-bar">${bar}</div><div class="swatch-legend">${leg}</div><figcaption class="cap"><strong>${it.title}</strong><br>${it.meta} — ${it.note}</figcaption>`;
+    root.appendChild(fig);
+  });
+})();
+
+// 4. Ch5 Interactive Verdict Plate (with Round-2 corrected verdicts!)
+(function(){
+  const claims = [
+    {label:"1. Only one sale", claim:'"He sold only one painting in his life."', verdict:"BURNISHED", cls:"", body:"One documented lifetime painting sale holds — The Red Vineyard to Anna Boch for 400 F in 1890 (F70) — alongside a few trades with dealers like Tanguy, gifts, and an 1882 drawings commission from his Uncle Cor (F71)."},
+    {label:"2. Cut off his ear", claim:'"He cut off his ear."', verdict:"CONFIRMED", cls:"confirmed", body:"Flipped from the old 'just the lobe' myth: Dr. Félix Rey's 1930 sketch for Irving Stone (Bancroft Library, found by Bernadette Murphy) shows the entire left ear severed; the Van Gogh Museum's 2016 exhibition says 'entire', Martin Bailey says 'most, not all' (F55)."},
+    {label:"3. Nobody noticed", claim:'"Nobody noticed him until after he died."', verdict:"BURNISHED", cls:"", body:"Months before his death, Albert Aurier praised him in Mercure de France (Jan 1890, F74), Les XX exhibited 6 paintings in Brussels (Jan–Feb 1890), and the Salon des Indépendants showed 10 in Paris (Mar–Apr 1890, F72)."},
+    {label:"4. Self-taught", claim:'"He was self-taught."', verdict:"BURNISHED", cls:"", body:"Largely self-directed, not untutored: he studied under Anton Mauve in The Hague (1881–82), spent roughly six weeks at the Antwerp Academy (Jan–Feb 1886), and worked for a few months at Fernand Cormon's Paris studio in 1886 (F40)."},
+    {label:"5. Shot himself", claim:'"He shot himself in a wheat field."', verdict:"CONTESTED", cls:"contested", body:"Standard consensus remains suicide (27 July 1890; died 29 July, F95). Steven Naifeh & Gregory White Smith (2011) proposed an accidental shooting by teenager René Secrétan (F96); Van Gogh Museum scholars Louis van Tilborgh & Teio Meedendorp rebutted them in The Burlington Magazine (July 2013, F97)."}
+  ];
+  const btns = document.getElementById('claim-btns');
+  const out = document.getElementById('claim-out');
+  function show(i){
+    const c = claims[i];
+    [...btns.children].forEach((b,idx)=>b.setAttribute('aria-pressed', idx===i ? 'true' : 'false'));
+    out.innerHTML = `<div class="verdict-stamp ${c.cls}">${c.verdict}</div><h3 style="margin-bottom:8px">${c.claim}</h3><p style="margin:0;max-width:44rem">${c.body}</p>`;
+  }
+  claims.forEach((c,i)=>{
+    const b = document.createElement('button');
+    b.className = 'btn';
+    b.textContent = c.label;
+    b.addEventListener('click',()=>show(i));
+    btns.appendChild(b);
+  });
+  show(1);
+})();
+
+// 5. Ch6 900-Square Waffle (30x30: 200 kept by family, 190 paintings sold by Johanna per F80)
+(function(){
+  const svg = document.getElementById('waffle-svg');
+  const cols=30, size=11, gap=2.5, off=10;
+  for(let i=0;i<900;i++){
+    const c = i % cols, r = Math.floor(i / cols);
+    const fill = i < 200 ? '#E2B44B' : (i < 390 ? '#8E1C15' : '#C9C0AE');
+    el('rect',{x:off+c*(size+gap),y:off+r*(size+gap),width:size,height:size,fill,rx:1},svg);
+  }
+})();
+
+// 6. Ch6 Log-Scale Nominal USD Price Curve (zero collisions, leader lines)
+(function(){
+  const svg = document.getElementById('price-svg');
+  const pts = [
+    {yr:1890,usd:77,lbl:'1890: $77 (400 F)',anchor:'start',lx:96,ly:244},
+    {yr:1907,usd:5790,lbl:'1907: ~$5,790 (30k F)',anchor:'start',lx:172,ly:196},
+    {yr:1987,usd:40000000,lbl:'1987 Sunflowers ~$40M (£24.75M)',anchor:'end',lx:402,ly:136},
+    {yr:1987.7,usd:53900000,lbl:'1987 Irises $53.9M',anchor:'end',lx:376,ly:84},
+    {yr:1990.4,usd:82500000,lbl:'1990 Gachet $82.5M',anchor:'end',lx:432,ly:36}
+  ];
+  const padL=64,padR=28,padT=28,padB=46,W=500-padL-padR,H=320-padT-padB;
+  const xOf = yr => padL + ((yr - 1885)/(1998 - 1885))*W;
+  const yOf = usd => padT + H - ((Math.log10(usd) - 1)/(8.8 - 1))*H;
+
+  [100,10000,1000000,100000000].forEach(v=>{
+    const y = yOf(v);
+    el('line',{x1:padL,y1:y,x2:padL+W,y2:y,stroke:'#C9C0AE','stroke-width':1},svg);
+    const t = el('text',{x:padL-8,y:y+4,'text-anchor':'end','font-family':'Archivo,sans-serif','font-size':10.5,fill:'#5C564C'},svg);
+    t.textContent = v>=1e6 ? `$${v/1e6}M` : (v>=1e3 ? `$${v/1e3}k` : `$${v}`);
+  });
+  [1890,1914,1950,1973,1990].forEach(yr=>{
+    const x = xOf(yr);
+    el('line',{x1:x,y1:padT+H,x2:x,y2:padT+H+5,stroke:'#1B1A17'},svg);
+    const t = el('text',{x,y:padT+H+18,'text-anchor':'middle','font-family':'Archivo,sans-serif','font-size':10.5,fill:'#5C564C'},svg);
+    t.textContent = yr;
+  });
+  [{yr:1914,txt:'1914 Letters'},{yr:1973,txt:'1973 VGM'}].forEach(m=>{
+    const x = xOf(m.yr);
+    el('line',{x1:x,y1:padT,x2:x,y2:padT+H,stroke:'#B57708','stroke-dasharray':'3 3'},svg);
+    const t = el('text',{x:x-4,y:padT+H-8,'text-anchor':'end','font-family':'Archivo,sans-serif','font-size':9.5,fill:'#5A3903','font-weight':700},svg);
+    t.textContent = m.txt;
+  });
+  const d = pts.map((p,i)=>`${i?'L':'M'}${xOf(p.yr).toFixed(1)} ${yOf(p.usd).toFixed(1)}`).join(' ');
+  el('path',{d,fill:'none',stroke:'#8E1C15','stroke-width':2.4},svg);
+  pts.forEach((p,i)=>{
+    const cx=xOf(p.yr), cy=yOf(p.usd);
+    el('line',{x1:cx,y1:cy,x2:p.anchor==='end'?p.lx+4:p.lx-4,y2:p.ly-3,stroke:'#5C564C','stroke-width':1,'stroke-dasharray':'2 2'},svg);
+    el('circle',{cx,cy,r:i===0?6:4.5,fill:i===0?'#E2B44B':'#8E1C15',stroke:'#1B1A17','stroke-width':1.5},svg);
+    const t = el('text',{x:p.lx,y:p.ly,'text-anchor':p.anchor,'font-family':'Archivo,sans-serif','font-size':10,'font-weight':700,fill:'#1B1A17',stroke:'#E9E1CF','stroke-width':3,'paint-order':'stroke'},svg);
+    t.textContent = p.lbl;
+  });
+})();
+
+// 7. Sticky-Bar Ledger Toggle + Scroll-Synced Franc Total (0 F -> ~16,000 F)
+(function(){
+  const btn = document.getElementById('ledger-btn');
+  const drw = document.getElementById('ledger-drawer');
+  const cls = document.getElementById('ledger-close');
+  const live = document.getElementById('ledger-live');
+  function toggle(force){
+    const open = force !== undefined ? force : !drw.classList.contains('open');
+    drw.classList.toggle('open', open);
+    btn.setAttribute('aria-expanded', String(open));
+  }
+  function updateScroll(){
+    const max = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
+    const pct = Math.min(1, Math.max(0, window.scrollY / max));
+    const fr = Math.round((pct * 16000) / 100) * 100;
+    live.textContent = pct > 0.92 ? '~16,000 F' : `${fr.toLocaleString()} F`;
+  }
+  btn.addEventListener('click',()=>toggle());
+  cls.addEventListener('click',()=>toggle(false));
+  window.addEventListener('scroll', updateScroll, {passive:true});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape') toggle(false);});
+  updateScroll();
+})();
+
+// 8. Verified 20-Work Museum Plate Lightbox (click or Enter/Space on any .vg-zoom)
+(function(){
+  const WORKS = [
+    {slug:'potato-eaters', w:4000, h:2820, mb:1.5, title:'The Potato Eaters', date:'April–May 1885', cat:'F0082 / JH0764', inst:'Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation, s0005V1962)', rights:'Public domain (d. 1890); VGM non-commercial open download.', note:'Nuenen centerpiece painted during Vincent\'s ~200-canvas Dutch stretch (1883–85, F09).'},
+    {slug:'red-vineyard', w:11406, h:9092, mb:41.2, title:'The Red Vineyard', date:'November 1888', cat:'F495 / JH1626', inst:'Pushkin State Museum of Fine Arts, Moscow (Ж-3372)', rights:'PD-Art / PD-old-100-expired (Commons scan from Pushkin Museum).', note:'Painted in Arles during Gauguin\'s stay; sold to Anna Boch for 400 F at Les XX in Brussels (1890) — the single documented lifetime sale (F70). Purchased by Ivan Morozov in 1907 for 30,000 F (F75).'},
+    {slug:'pere-tanguy', w:3870, h:5082, mb:11.2, title:'Portrait of Père Tanguy (Le père Tanguy)', date:'Autumn 1887', cat:'F363 / JH1351', inst:'Musée Rodin, Paris (P.07302)', rights:'PD-old-100 (Commons reproduction).', note:'Julien Tanguy (14 rue Clauzel) took paintings in barter for paint. Arrested as a Communard in 1871, held on the Brest prison hulks, freed 1873 (F93). His 1894 Drouot charity sale raised ~10,000 F for his widow (F94).'},
+    {slug:'hiroshige-plum-park-kameido', w:4000, h:5826, mb:6.0, title:'Utagawa Hiroshige · The Residence with Plum Trees at Kameido', date:'Eleventh month 1857', cat:'One Hundred Views of Famous Places in Edo No. 30', inst:'Van Gogh Museum, Amsterdam (n0077V1962)', rights:'Public domain (Hiroshige d. 1858); VGM IIIF.', note:'Vincent van Gogh\'s own pinhole-marked woodblock impression from the ~660 prints he collected in Paris (F41–F42).'},
+    {slug:'japonaiserie-flowering-plum-tree', w:4000, h:4766, mb:5.0, title:'Flowering Plum Orchard (after Hiroshige)', date:'October–November 1887', cat:'F0371 / JH1296', inst:'Van Gogh Museum, Amsterdam (s0115V1962)', rights:'Public domain (d. 1890); VGM IIIF.', note:'Vincent squared off Hiroshige\'s composition onto an oil canvas and framed it with Japanese characters copied decoratively from other sheets, forming no coherent text (F42).'},
+    {slug:'starry-night', w:3840, h:3041, mb:5.3, title:'The Starry Night', date:'Saint-Rémy, June 1889', cat:'F612 / JH1731', inst:'The Museum of Modern Art (MoMA), New York (472.1941)', rights:'Public domain (PD-Art, 3840 px Commons render of Google Art Project gigapixel scan).', note:'Painted at the Saint-Paul-de-Mausole asylum in Saint-Rémy (~150 canvases painted in 12 months, F12).'},
+    {slug:'yellow-house', w:4000, h:3133, mb:3.1, title:'The Yellow House (The Street)', date:'September 1888', cat:'F0464 / JH1589', inst:'Van Gogh Museum, Amsterdam (s0032V1962)', rights:'Public domain (d. 1890); VGM IIIF.', note:'Place Lamartine, Arles — the rented house meant to anchor the "Studio of the South" before Gauguin\'s arrival on 23 October 1888 (F51).'},
+    {slug:'van-goghs-chair', w:4678, h:6000, mb:7.4, title:'Van Gogh\'s Chair', date:'Late 1888', cat:'F498 / JH1635', inst:'The National Gallery, London (NG3862)', rights:'PD-Art / PD-old-100-expired (Commons / NG).', note:'Companion to Gauguin\'s Chair: plain pine-and-rush chair with pipe and tobacco on red tiles in daylight.'},
+    {slug:'gauguins-chair', w:4000, h:5004, mb:6.3, title:'Gauguin\'s Chair', date:'November 1888', cat:'F0499 / JH1636', inst:'Van Gogh Museum, Amsterdam (s0048V1962)', rights:'Public domain (d. 1890); VGM IIIF.', note:'Evening pendant to Van Gogh\'s Chair: dark walnut armchair under gaslight with two novels and a burning candle.'},
+    {slug:'self-portrait-dedicated-to-gauguin', w:4089, h:5000, mb:4.6, title:'Self-Portrait Dedicated to Paul Gauguin', date:'September 1888', cat:'F476 / JH1581', inst:'Harvard Art Museums / Fogg Museum, Cambridge, MA (1951.65)', rights:'Public domain (d. 1890); Harvard IIIF (4089 × 5000).', note:'Sent to Gauguin on 3 October 1888 (letter 695). Vincent described himself as "a bonze, a simple worshipper of the eternal Buddha" (F59); direct RGB measurement shows 53.9% green (#5EAD83).'},
+    {slug:'gauguin-les-miserables', w:4000, h:3207, mb:5.5, title:'Paul Gauguin · Self-Portrait "Les Misérables" (with Émile Bernard)', date:'1888', cat:'W239 / W309', inst:'Van Gogh Museum, Amsterdam (s0224V1962)', rights:'Public domain (Gauguin d. 1903); VGM IIIF.', note:'Sent to Vincent on 1 October 1888 (letter 692), portraying Gauguin as Jean Valjean before an ochre-gold wallpaper grid (#CA9734, 39.9%, F60).'},
+    {slug:'gauguin-christ-garden-of-olives', w:2299, h:1817, mb:1.8, title:'Paul Gauguin · Christ in the Garden of Olives', date:'1889', cat:'W326 / S149', inst:'Norton Museum of Art, West Palm Beach (46.5)', rights:'Public domain (Norton / Wildenstein Plattner corrected RGB file, replacing shifted CMYK scan).', note:'Painted the year after Arles with Gauguin casting himself directly as Christ (F61). True RGB measurement shows deep twilight violet (#2A1E2B, 43.0%) and red-orange hair/ochre tones (#62362A / #BD927D), not the shifted green-black scan.'},
+    {slug:'arles-petition', w:1549, h:2303, mb:0.7, title:'Petition of Arles Residents against Vincent van Gogh', date:'February–March 1889', cat:'Archival petition (~30 names)', inst:'Archives municipales d\'Arles', rights:'PD-France / PD-US-expired (Commons note: file mislabeled 1888; historical date Feb–Mar 1889).', note:'Roughly 30 Arles neighbours petitioned authorities to confine Vincent or send him back to his family (F58).'},
+    {slug:'self-portrait-bandaged-ear', w:7987, h:9704, mb:39.6, title:'Self-Portrait with Bandaged Ear (Courtauld, no pipe)', date:'January 1889', cat:'F527 / JH1657', inst:'The Courtauld Gallery, London (P.1948.SC.175)', rights:'Public domain (PD-old-70 / Courtauld PD).', note:'Distinct from the private-collection Niarchos version with a pipe (F529 / JH1658). Shows the dressing over the severed left ear (F55).'},
+    {slug:'dr-felix-rey', w:8279, h:10004, mb:28.6, title:'Portrait of Doctor Félix Rey', date:'January 1889', cat:'F500 / JH1659', inst:'Pushkin State Museum of Fine Arts, Moscow (Ж-3272)', rights:'PD-Art / PD-old-100-expired.', note:'Gift to the young intern at Arles hospital. Entered the Pushkin Museum in 1948 (not 1960, F91). Pushkin tradition says it patched a chicken coop; Rey recalled in 1928 it went to the garret and "it is said" plugged a broken windowpane (F92).'},
+    {slug:'rey-ear-sketch', w:2000, h:2683, mb:0.8, title:'Dr. Félix Rey\'s Letter & Sketches of Van Gogh\'s Ear Wound', date:'18 August 1930', cat:'Irving Stone Papers (BANC MSS 95/205 cz, Box 34)', inst:'The Bancroft Library, UC Berkeley', rights:'PD-US-unpublished / PD-old-auto (Rey d. 1932; US copyright expired Jan 1, 2003; Bancroft boilerplate / foreign claims noted in rights.md). Kept per Bryan 2026-11-28.', note:'Drawn for novelist Irving Stone in 1930 and rediscovered by Bernadette Murphy: dotted line shows the entire left ear cut cleanly from top to bottom (F55), flipping the ear verdict to CONFIRMED.'},
+    {slug:'johanna-and-vincent-willem', w:1200, h:1913, mb:0.3, title:'Johanna van Gogh-Bonger with Vincent Willem', date:'1890 (studio of Raoul Saisset, Paris)', cat:'Archive ref b4822 v/1962', inst:'Van Gogh Museum / Koninklijke Bibliotheek (VGM01:b4822)', rights:'PD-old-100-1923 (photographer Raoul Saisset, 1851–1897; 1200 × 1913 max available scan).', note:'Widowed at 28 in Jan 1891, Johanna managed ~200 family canvases, ran the 1905 Stedelijk show, sold ~190–250 works selectively (F80–F81), and published the 1914 letters (F85).'},
+    {slug:'sunflowers-national-gallery', w:4719, h:6000, mb:11.5, title:'Sunflowers (London version)', date:'August 1888', cat:'F454 / JH1562', inst:'The National Gallery, London (NG3863)', rights:'PD-Art / PD-old-100-expired.', note:'London National Gallery canvas; the Yasuda (Sompo Museum, Tokyo) repetition sold at Christie\'s London in March 1987 for £24.75M (~$39.9–40M, F88).'},
+    {slug:'irises', w:9600, h:7413, mb:28.3, title:'Irises', date:'May 1889', cat:'F608 / JH1691', inst:'J. Paul Getty Museum, Los Angeles (90.PA.20)', rights:'Public Domain (CC0 1.0 · Getty Open Content Program).', note:'Painted in the Saint-Rémy asylum garden; sold at Sotheby\'s New York in November 1987 for $53.9M before entering the Getty in 1990 (F89).'},
+    {slug:'portrait-dr-gachet-orsay', w:5611, h:6748, mb:18.9, title:'Dr Paul Gachet (2nd version)', date:'June 1890', cat:'F754 / JH2014', inst:'Musée d\'Orsay, Paris (RF 1949 16)', rights:'Public domain (PD-Art, Google Art Project scan).', note:'Orsay holds Vincent\'s second version; the first version (May–June 1890) fetched $82.5M at Christie\'s NY on 15 May 1990 — 100 years after his final Auvers summer — and vanished into private custody (F90).'}
+  ];
+  const bySlug = Object.fromEntries(WORKS.map((w,i)=>[w.slug,{...w,idx:i}]));
+  const bd = document.getElementById('vg-backdrop');
+  const img = document.getElementById('vg-img');
+  const ttl = document.getElementById('vg-title');
+  const kick = document.getElementById('vg-kicker');
+  const meta = document.getElementById('vg-meta');
+  const btnPrev = document.getElementById('vg-prev');
+  const btnNext = document.getElementById('vg-next');
+  const btnCls = document.getElementById('vg-close');
+  const btnOpenImg = document.getElementById('vg-open-fs');
+  const btnFsTrig = document.getElementById('vg-fs-trigger');
+
+  // Stage 2 (100% full-resolution pan & zoom stage)
+  const fs = document.getElementById('vg-fs');
+  const fsBarTitle = document.getElementById('vg-fs-title');
+  const fsStatus = document.getElementById('vg-fs-status');
+  const fsStage = document.getElementById('vg-fs-stage');
+  const fsImg = document.getElementById('vg-fs-img');
+  const fsLoader = document.getElementById('vg-fs-loader');
+  const btnFsBack = document.getElementById('vg-fs-back');
+  const btnFsFit = document.getElementById('vg-fs-fit');
+  const btnFs100 = document.getElementById('vg-fs-100');
+  const btnFsOut = document.getElementById('vg-fs-out');
+  const btnFsIn = document.getElementById('vg-fs-in');
+  const btnFsCls = document.getElementById('vg-fs-close');
+
+  let cur = 0, lastFocus = null, layerDepth = 0, zoomScale = 1, fitMode = false;
+
+  function syncBodyLock(){
+    document.body.style.overflow = (bd.classList.contains('open') || fs.classList.contains('open')) ? 'hidden' : '';
+  }
+
+  function render(idx){
+    cur = (idx + WORKS.length) % WORKS.length;
+    const w = WORKS[cur];
+    img.src = `../img/full/${w.slug}.jpg`;
+    img.alt = `${w.title} (${w.date})`;
+    kick.textContent = `Verified Museum Plate · ${cur + 1} / ${WORKS.length}`;
+    ttl.textContent = w.title;
+    btnFsTrig.textContent = `Load 100% Master Scan (${w.w.toLocaleString()} × ${w.h.toLocaleString()} px · ${w.mb} MB) ↗`;
+    meta.innerHTML = `<dl><dt>Date</dt><dd>${w.date}</dd><dt>Catalogue</dt><dd>${w.cat}</dd><dt>Institution</dt><dd>${w.inst}</dd><dt>Master Scan</dt><dd>${w.w.toLocaleString()} × ${w.h.toLocaleString()} px (${w.mb} MB)</dd><dt>Rights</dt><dd>${w.rights}</dd></dl><p>${w.note}</p><p style="font-family:var(--disp);font-size:.78rem;color:var(--mute);margin-top:8px">Tip: Click the painting or the 100% button to load the full archival scan; use Esc, Back, or the browser/phone Back button to step out.</p>`;
+  }
+
+  function applyZoom(centerScroll){
+    const w = WORKS[cur];
+    btnFsFit.setAttribute('aria-pressed', fitMode ? 'true' : 'false');
+    btnFs100.setAttribute('aria-pressed', (!fitMode && Math.abs(zoomScale - 1) < 0.01) ? 'true' : 'false');
+    if(fitMode){
+      fsStage.classList.remove('native');
+      fsStage.classList.add('fit');
+      fsImg.style.width = '';
+      fsImg.style.height = '';
+      fsStatus.textContent = `Fit to screen · ${w.w.toLocaleString()} × ${w.h.toLocaleString()} px (${w.mb} MB) — click painting for 100%`;
+    } else {
+      fsStage.classList.remove('fit');
+      fsStage.classList.add('native');
+      fsImg.style.width = `${Math.round(w.w * zoomScale)}px`;
+      fsImg.style.height = `${Math.round(w.h * zoomScale)}px`;
+      fsStatus.textContent = `${Math.round(zoomScale * 100)}% (${Math.round(w.w*zoomScale).toLocaleString()} × ${Math.round(w.h*zoomScale).toLocaleString()} px · ${w.mb} MB) — drag or scroll to pan`;
+      if(centerScroll){
+        requestAnimationFrame(()=>{
+          fsStage.scrollLeft = Math.max(0, (fsStage.scrollWidth - fsStage.clientWidth) / 2);
+          fsStage.scrollTop = Math.max(0, (fsStage.scrollHeight - fsStage.clientHeight) * 0.28);
+        });
+      }
+    }
+  }
+
+  function showStage2DOM(){
+    const w = WORKS[cur];
+    fsBarTitle.textContent = w.title;
+    zoomScale = 1;
+    fitMode = false;
+    fs.classList.add('open');
+    syncBodyLock();
+    const targetSrc = `../img/src/${w.slug}.jpg`;
+    fsStatus.textContent = `Loading 100% master (${w.w.toLocaleString()} × ${w.h.toLocaleString()} px · ${w.mb} MB)…`;
+    fsLoader.classList.add('show');
+    fsImg.onload = ()=>{ fsLoader.classList.remove('show'); applyZoom(true); };
+    fsImg.onerror = ()=>{ fsLoader.classList.remove('show'); fsStatus.textContent = 'Master unavailable — showing web plate'; fsImg.src = `../img/full/${w.slug}.jpg`; };
+    if(fsImg.getAttribute('src') === targetSrc && fsImg.complete && fsImg.naturalWidth > 0){
+      fsLoader.classList.remove('show');
+      applyZoom(true);
+    } else {
+      fsImg.src = targetSrc;
+      fsImg.alt = `${w.title} — 100% archival scan (${w.w} × ${w.h})`;
+    }
+    btnFsBack.focus();
+  }
+
+  function hideStage2DOM(){
+    fs.classList.remove('open');
+    fsLoader.classList.remove('show');
+    syncBodyLock();
+    if(bd.classList.contains('open')) btnOpenImg.focus();
+  }
+
+  function hideStage1DOM(){
+    bd.classList.remove('open');
+    syncBodyLock();
+    if(lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+
+  function openWork(slug, trigger){
+    const w = bySlug[slug];
+    if(!w) return;
+    lastFocus = trigger || document.activeElement;
+    render(w.idx);
+    bd.classList.add('open');
+    syncBodyLock();
+    try{ history.pushState({vgLayer:1, slug}, ''); layerDepth = 1; }catch(_){ layerDepth = 0; }
+    btnCls.focus();
+  }
+
+  function openFullRes(){
+    if(!bd.classList.contains('open')) return;
+    showStage2DOM();
+    try{ history.pushState({vgLayer:2, slug:WORKS[cur].slug}, ''); layerDepth = 2; }catch(_){}
+  }
+
+  function backOneLevel(){
+    if(layerDepth > 0){
+      try{ history.back(); return; }catch(_){}
+    }
+    if(fs.classList.contains('open')) hideStage2DOM();
+    else if(bd.classList.contains('open')) hideStage1DOM();
+  }
+
+  function closeAll(){
+    if(layerDepth > 0){
+      const d = layerDepth;
+      layerDepth = 0;
+      hideStage2DOM();
+      hideStage1DOM();
+      try{ history.go(-d); }catch(_){}
+      return;
+    }
+    hideStage2DOM();
+    hideStage1DOM();
+  }
+
+  window.addEventListener('popstate', e=>{
+    const st = e.state;
+    if(fs.classList.contains('open') && (!st || st.vgLayer !== 2)){
+      layerDepth = (st && st.vgLayer === 1) ? 1 : 0;
+      hideStage2DOM();
+      if(!st || !st.vgLayer){ layerDepth = 0; hideStage1DOM(); }
+      return;
+    }
+    if(bd.classList.contains('open') && (!st || !st.vgLayer)){
+      layerDepth = 0;
+      hideStage1DOM();
+    }
+  });
+
+  // Drag-to-pan on desktop + click-to-toggle Fit vs 100% when not dragged
+  let drag = null;
+  fsStage.addEventListener('pointerdown', e=>{
+    if(e.button !== 0 || fitMode) return;
+    drag = {x:e.clientX, y:e.clientY, sl:fsStage.scrollLeft, st:fsStage.scrollTop, moved:false};
+    fsStage.classList.add('dragging');
+  });
+  window.addEventListener('pointermove', e=>{
+    if(!drag) return;
+    const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+    if(Math.abs(dx) > 4 || Math.abs(dy) > 4) drag.moved = true;
+    if(drag.moved){
+      fsStage.scrollLeft = drag.sl - dx;
+      fsStage.scrollTop = drag.st - dy;
+    }
+  });
+  window.addEventListener('pointerup', ()=>{
+    if(!drag) return;
+    fsStage.classList.remove('dragging');
+    drag = null;
+  });
+  fsImg.addEventListener('click', ()=>{
+    if(fsStage.classList.contains('dragging')) return;
+    if(fitMode){ fitMode = false; zoomScale = 1; applyZoom(true); }
+  });
+
+  document.addEventListener('click', e=>{
+    const elT = e.target.closest('[data-vg]');
+    if(elT) openWork(elT.dataset.vg, elT);
+  });
+  document.addEventListener('keydown', e=>{
+    if(fs.classList.contains('open')){
+      if(e.key==='Escape'){ e.preventDefault(); backOneLevel(); }
+      else if(e.key==='+' || e.key==='='){ fitMode=false; zoomScale=Math.min(2, +(zoomScale+0.25).toFixed(2)); applyZoom(false); }
+      else if(e.key==='-' || e.key==='_'){ fitMode=false; zoomScale=Math.max(0.25, +(zoomScale-0.25).toFixed(2)); if(zoomScale<=0.25) fitMode=true; applyZoom(false); }
+      else if(e.key==='0'){ fitMode=true; applyZoom(false); }
+      return;
+    }
+    if(bd.classList.contains('open')){
+      if(e.key==='Escape'){ e.preventDefault(); backOneLevel(); }
+      else if(e.key==='ArrowLeft') render(cur - 1);
+      else if(e.key==='ArrowRight') render(cur + 1);
+      return;
+    }
+    const t = e.target.closest('[data-vg]');
+    if(t && (e.key==='Enter' || e.key===' ')){ e.preventDefault(); openWork(t.dataset.vg, t); }
+  });
+
+  btnPrev.addEventListener('click',()=>render(cur - 1));
+  btnNext.addEventListener('click',()=>render(cur + 1));
+  btnCls.addEventListener('click', backOneLevel);
+  bd.addEventListener('click', e=>{if(e.target===bd) backOneLevel();});
+  btnOpenImg.addEventListener('click', openFullRes);
+  btnFsTrig.addEventListener('click', openFullRes);
+  btnFsBack.addEventListener('click', backOneLevel);
+  btnFsCls.addEventListener('click', closeAll);
+  btnFsFit.addEventListener('click', ()=>{ fitMode=true; applyZoom(false); });
+  btnFs100.addEventListener('click', ()=>{ fitMode=false; zoomScale=1; applyZoom(true); });
+  btnFsIn.addEventListener('click', ()=>{ fitMode=false; zoomScale=Math.min(2, +(zoomScale+0.25).toFixed(2)); applyZoom(false); });
+  btnFsOut.addEventListener('click', ()=>{
+    if(fitMode) return;
+    zoomScale = +(zoomScale - 0.25).toFixed(2);
+    if(zoomScale < 0.35) fitMode = true;
+    applyZoom(false);
+  });
+})();
+</script>
+</body>
+</html>
